@@ -26,6 +26,36 @@ const themes: Theme[] = [
     description: "Speed, distance, time, workers, filling tanks, and meeting problems",
     icon: "🚗",
   },
+  {
+    id: "geometry",
+    name: "Geometry",
+    description: "Angles, areas, perimeters, circles, 3D shapes, and nets",
+    icon: "📐",
+  },
+  {
+    id: "algebra",
+    name: "Algebra",
+    description: "Equations, expressions, patterns, and word problems",
+    icon: "🔢",
+  },
+  {
+    id: "word-problems-useless",
+    name: "Filter the Info",
+    description: "Word problems with useless information - find what matters!",
+    icon: "🔍",
+  },
+  {
+    id: "logic-gates",
+    name: "Logic & Binary",
+    description: "Logic gates, truth tables, binary numbers, and circuits",
+    icon: "🔌",
+  },
+  {
+    id: "computer-science",
+    name: "Computer Science",
+    description: "Architecture, OS, networks, and Swift programming basics",
+    icon: "💻",
+  },
 ];
 
 const levels = [
@@ -124,7 +154,7 @@ export default function Home() {
 
       {/* Theme selection */}
       {step === "theme" && (
-        <main className="grid w-full max-w-2xl grid-cols-1 gap-6 md:grid-cols-2">
+        <main className="grid w-full max-w-4xl grid-cols-1 gap-6 md:grid-cols-3">
           {themes.map((theme) => (
             <button
               key={theme.id}

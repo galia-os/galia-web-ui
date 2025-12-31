@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
       const mistakesList = body.mistakes
         .map(
           (m) =>
-            `• Q${m.questionNumber}: ${m.question}\n  Answer: ${m.userAnswer || "Skipped"}\n  Correct: ${m.correctAnswer}\n  Explanation: ${m.explanation}`
+            `• Q${m.questionNumber}: ${m.question}\n  Answer: ${m.userAnswer || "Skipped"}\n  Correct: ${m.correctAnswer}\n  Hint: ${m.hint}`
         )
         .join("\n\n");
 

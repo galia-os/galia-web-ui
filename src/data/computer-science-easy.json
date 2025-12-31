@@ -1,0 +1,289 @@
+{
+  "theme": "Computer Science Basics",
+  "themeId": "computer-science",
+  "level": "easy",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does CPU stand for?",
+      "answers": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Core Processing Unit"],
+      "correct": 0,
+      "hint": "Think about what the 'brain' of a computer does - it processes instructions centrally."
+    },
+    {
+      "id": 2,
+      "question": "What does RAM stand for?",
+      "answers": ["Random Access Memory", "Read And Modify", "Rapid Access Module", "Run All Memory"],
+      "correct": 0,
+      "hint": "This memory can be accessed in any order (randomly) - what kind of access would that be?"
+    },
+    {
+      "id": 3,
+      "question": "Which of these is an operating system?",
+      "answers": ["macOS", "Microsoft Word", "Google Chrome", "Photoshop"],
+      "correct": 0,
+      "hint": "An operating system manages hardware and runs programs. Which option is the foundation software on Apple computers?"
+    },
+    {
+      "id": 4,
+      "question": "What does 'www' stand for in a web address?",
+      "answers": ["World Wide Web", "Web Wide World", "World Web Wide", "Wide World Web"],
+      "correct": 0,
+      "hint": "Think about the order of words: first the scope (entire planet), then the adjective, then what it is."
+    },
+    {
+      "id": 5,
+      "question": "What is a byte?",
+      "answers": ["8 bits", "4 bits", "16 bits", "1 bit"],
+      "correct": 0,
+      "hint": "A byte is made up of enough bits to represent 256 values (0-255). How many bits gives you 2^? = 256?"
+    },
+    {
+      "id": 6,
+      "question": "What does 'URL' stand for?",
+      "answers": ["Uniform Resource Locator", "Universal Resource Link", "Uniform Reference Location", "Universal Reference Locator"],
+      "correct": 0,
+      "hint": "Think about what a web address does: it locates resources in a uniform/standard way."
+    },
+    {
+      "id": 7,
+      "question": "What type of storage keeps data when the computer is turned off?",
+      "answers": ["Hard Drive / SSD", "RAM", "CPU Cache", "Registers"],
+      "correct": 0,
+      "hint": "This is called 'non-volatile' storage. Which option is permanent storage, not temporary memory?"
+    },
+    {
+      "id": 8,
+      "question": "In Swift, how do you print 'Hello World' to the screen?",
+      "answers": ["print(\"Hello World\")", "console.log(\"Hello World\")", "System.out.println(\"Hello World\")", "echo \"Hello World\""],
+      "correct": 0,
+      "hint": "Swift uses a simple, straightforward function name for outputting text - what would you naturally call it?"
+    },
+    {
+      "id": 9,
+      "question": "What does 'IP' stand for in IP address?",
+      "answers": ["Internet Protocol", "Internal Process", "Internet Position", "Information Protocol"],
+      "correct": 0,
+      "hint": "This is the main 'protocol' or rule system used on the internet for addressing computers."
+    },
+    {
+      "id": 10,
+      "question": "Which of these is a web browser?",
+      "answers": ["Safari", "Windows", "iOS", "Linux"],
+      "correct": 0,
+      "hint": "A web browser lets you view websites. Three options are operating systems - which one is Apple's browser?"
+    },
+    {
+      "id": 11,
+      "question": "In Swift, what keyword is used to declare a variable that can change?",
+      "answers": ["var", "let", "const", "int"],
+      "correct": 0,
+      "hint": "The keyword is short for 'variable' - something that can vary or change."
+    },
+    {
+      "id": 12,
+      "question": "What does HTML stand for?",
+      "answers": ["HyperText Markup Language", "High Text Machine Language", "Hyper Transfer Markup Language", "Home Text Markup Language"],
+      "correct": 0,
+      "hint": "Web pages use 'hypertext' (text with links) and 'markup' (tags like <p>). What language uses those?"
+    },
+    {
+      "id": 13,
+      "question": "Which device connects your home to the internet?",
+      "answers": ["Router/Modem", "Monitor", "Keyboard", "Printer"],
+      "correct": 0,
+      "hint": "This device 'routes' data between your home network and the internet, or 'modulates' the signal."
+    },
+    {
+      "id": 14,
+      "question": "What does SSD stand for?",
+      "answers": ["Solid State Drive", "Super Speed Disk", "System Storage Device", "Static State Drive"],
+      "correct": 0,
+      "hint": "This drive has no moving parts - everything is 'solid' electronic components."
+    },
+    {
+      "id": 15,
+      "question": "In Swift, what keyword declares a constant?",
+      "answers": ["let", "var", "const", "final"],
+      "correct": 0,
+      "hint": "This keyword means 'let this be' - once set, it doesn't change."
+    },
+    {
+      "id": 16,
+      "question": "What does WiFi stand for?",
+      "answers": ["Wireless Fidelity", "Wired Fiber", "Wireless Fiber", "Wide Field"],
+      "correct": 0,
+      "hint": "It's similar to 'Hi-Fi' (High Fidelity) but for wireless networks."
+    },
+    {
+      "id": 17,
+      "question": "What is the main function of an operating system?",
+      "answers": ["Manage hardware and run programs", "Browse the internet", "Edit documents", "Play games"],
+      "correct": 0,
+      "hint": "The OS is the foundation that lets applications run and talks to hardware. What's the core management role?"
+    },
+    {
+      "id": 18,
+      "question": "How many bits are in a kilobyte (KB)?",
+      "answers": ["8,192 bits", "1,000 bits", "1,024 bits", "8,000 bits"],
+      "correct": 0,
+      "hint": "1 KB = 1,024 bytes. Each byte has 8 bits. Multiply those together."
+    },
+    {
+      "id": 19,
+      "question": "What does GPU stand for?",
+      "answers": ["Graphics Processing Unit", "General Processing Unit", "Global Power Unit", "Graphics Power Unit"],
+      "correct": 0,
+      "hint": "Like CPU but specialized for rendering images and graphics. What would you call that processing unit?"
+    },
+    {
+      "id": 20,
+      "question": "In Swift, what is the result of: 5 + 3 * 2?",
+      "answers": ["11", "16", "13", "10"],
+      "correct": 0,
+      "hint": "Remember order of operations: multiplication comes before addition."
+    },
+    {
+      "id": 21,
+      "question": "What does 'https' mean in a web address?",
+      "answers": ["Secure connection", "Faster connection", "Home page", "New website"],
+      "correct": 0,
+      "hint": "The 's' at the end of 'http' stands for something that means the connection is protected."
+    },
+    {
+      "id": 22,
+      "question": "What is a 'file extension'?",
+      "answers": ["Letters after the dot in filename (.pdf, .jpg)", "The file's size", "The file's creation date", "The file's location"],
+      "correct": 0,
+      "hint": "Look at a filename like 'document.pdf' - what comes after the dot tells you the type."
+    },
+    {
+      "id": 23,
+      "question": "In Swift, which symbol is used for comments?",
+      "answers": ["//", "##", "**", "@@"],
+      "correct": 0,
+      "hint": "Many C-family languages use two forward slashes to mark single-line comments."
+    },
+    {
+      "id": 24,
+      "question": "What is a 'bug' in programming?",
+      "answers": ["An error in code", "A type of virus", "A program feature", "A computer part"],
+      "correct": 0,
+      "hint": "When code doesn't work correctly, we say it has a 'bug' - what does that represent?"
+    },
+    {
+      "id": 25,
+      "question": "What does 'download' mean?",
+      "answers": ["Get files from the internet", "Send files to the internet", "Delete files", "Copy files locally"],
+      "correct": 0,
+      "hint": "Data comes 'down' from the internet to your device. What's that action called?"
+    },
+    {
+      "id": 26,
+      "question": "What is an 'app'?",
+      "answers": ["Application software", "Apple product", "Internet connection", "Hardware component"],
+      "correct": 0,
+      "hint": "'App' is short for something - software designed for a specific task."
+    },
+    {
+      "id": 27,
+      "question": "In Swift, what type is \"Hello\"?",
+      "answers": ["String", "Int", "Bool", "Double"],
+      "correct": 0,
+      "hint": "Text data in programming is often called a 'string' of characters."
+    },
+    {
+      "id": 28,
+      "question": "What is 'cloud storage'?",
+      "answers": ["Storing files on remote servers", "Storing files in the sky", "USB storage", "RAM memory"],
+      "correct": 0,
+      "hint": "Files are stored on servers you access over the internet, not on your local device."
+    },
+    {
+      "id": 29,
+      "question": "What does 'Ctrl+C' (or Cmd+C) typically do?",
+      "answers": ["Copy", "Cut", "Paste", "Close"],
+      "correct": 0,
+      "hint": "C for... what action duplicates selected content to the clipboard?"
+    },
+    {
+      "id": 30,
+      "question": "In Swift, what type is 42?",
+      "answers": ["Int", "String", "Double", "Bool"],
+      "correct": 0,
+      "hint": "A whole number without decimals is an integer - what's the short form?"
+    },
+    {
+      "id": 31,
+      "question": "What is a 'server'?",
+      "answers": ["Computer that provides services to other computers", "Type of monitor", "Keyboard brand", "Video game"],
+      "correct": 0,
+      "hint": "This computer 'serves' data and resources to other computers that request them."
+    },
+    {
+      "id": 32,
+      "question": "What does 'upload' mean?",
+      "answers": ["Send files to the internet", "Get files from internet", "Delete files", "Move files locally"],
+      "correct": 0,
+      "hint": "Opposite of download - data goes 'up' from your device to the internet."
+    },
+    {
+      "id": 33,
+      "question": "In Swift, what type is true or false?",
+      "answers": ["Bool", "String", "Int", "Bit"],
+      "correct": 0,
+      "hint": "Named after mathematician George Boole - this type represents logical true/false values."
+    },
+    {
+      "id": 34,
+      "question": "What does 'Ctrl+V' (or Cmd+V) typically do?",
+      "answers": ["Paste", "Copy", "Cut", "Save"],
+      "correct": 0,
+      "hint": "After copying (Ctrl+C), this inserts the clipboard content. V is right next to C on the keyboard."
+    },
+    {
+      "id": 35,
+      "question": "What is a 'folder' (or 'directory')?",
+      "answers": ["Container for organizing files", "Type of file", "Program", "Hardware"],
+      "correct": 0,
+      "hint": "Like a folder in a filing cabinet, it holds and organizes files together."
+    },
+    {
+      "id": 36,
+      "question": "In Swift, what type is 3.14?",
+      "answers": ["Double", "Int", "String", "Float"],
+      "correct": 0,
+      "hint": "Numbers with decimal points need a type that can store fractional values with 'double' precision."
+    },
+    {
+      "id": 37,
+      "question": "What does 'refresh' a web page do?",
+      "answers": ["Reload the page content", "Close the page", "Save the page", "Print the page"],
+      "correct": 0,
+      "hint": "It gets the latest version of the page from the server again."
+    },
+    {
+      "id": 38,
+      "question": "What is 'software'?",
+      "answers": ["Programs and applications", "Physical computer parts", "Internet connection", "Electricity"],
+      "correct": 0,
+      "hint": "Opposite of hardware - the 'soft' parts you can't touch: programs and data."
+    },
+    {
+      "id": 39,
+      "question": "In Swift, how do you add comments that span multiple lines?",
+      "answers": ["/* comment */", "// comment //", "# comment #", "** comment **"],
+      "correct": 0,
+      "hint": "Many C-family languages use a forward slash plus asterisk to start, and the reverse to end."
+    },
+    {
+      "id": 40,
+      "question": "What is 'hardware'?",
+      "answers": ["Physical computer parts", "Programs and apps", "Internet connection", "Files and data"],
+      "correct": 0,
+      "hint": "The 'hard' parts you can physically touch: CPU, keyboard, monitor, etc."
+    }
+  ]
+}

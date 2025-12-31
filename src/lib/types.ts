@@ -1,9 +1,10 @@
 export interface Question {
   id: number;
   question: string;
+  svg?: string; // Optional SVG markup for visual questions
   answers: [string, string, string, string];
   correct: number; // Index 0-3
-  explanation: string;
+  hint: string; // Hint to guide thinking without revealing answer
 }
 
 export interface Theme {
@@ -57,5 +58,5 @@ export interface Mistake {
   question: string;
   userAnswer: string | null;
   correctAnswer: string;
-  explanation: string;
+  hint: string;
 }

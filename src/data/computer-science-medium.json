@@ -1,0 +1,289 @@
+{
+  "theme": "Computer Science Basics",
+  "themeId": "computer-science",
+  "level": "medium",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the typical clock speed unit for modern CPUs?",
+      "answers": ["GHz (Gigahertz)", "MHz (Megahertz)", "KB (Kilobytes)", "TB (Terabytes)"],
+      "correct": 0,
+      "hint": "Modern CPUs run billions of cycles per second. 'Giga' means billion, and 'Hertz' measures frequency."
+    },
+    {
+      "id": 2,
+      "question": "In Swift, what is the output of: var x = 10; x += 5; print(x)",
+      "answers": ["15", "10", "5", "105"],
+      "correct": 0,
+      "hint": "The += operator adds to the current value. Start with x, then add what's on the right."
+    },
+    {
+      "id": 3,
+      "question": "What protocol is used for sending emails?",
+      "answers": ["SMTP", "HTTP", "FTP", "SSH"],
+      "correct": 0,
+      "hint": "This protocol has 'Mail Transfer' in its name - what's the 'Simple' version of that?"
+    },
+    {
+      "id": 4,
+      "question": "What is DNS?",
+      "answers": ["System that translates domain names to IP addresses", "A type of virus", "A programming language", "An operating system"],
+      "correct": 0,
+      "hint": "When you type google.com, something needs to find the IP address. What 'names' things on the internet?"
+    },
+    {
+      "id": 5,
+      "question": "In Swift, what does this code print? let arr = [1, 2, 3]; print(arr.count)",
+      "answers": ["3", "[1, 2, 3]", "6", "1"],
+      "correct": 0,
+      "hint": "The .count property returns how many elements are in the array. Count them."
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between RAM and ROM?",
+      "answers": ["RAM is temporary, ROM is permanent", "RAM is slow, ROM is fast", "RAM is for storage, ROM is for processing", "No difference"],
+      "correct": 0,
+      "hint": "One loses data when power is off, the other is 'read-only' and keeps data permanently."
+    },
+    {
+      "id": 7,
+      "question": "What layer of the OSI model handles IP addresses?",
+      "answers": ["Network Layer", "Application Layer", "Physical Layer", "Transport Layer"],
+      "correct": 0,
+      "hint": "IP addressing and routing happens at Layer 3, which deals with connecting different networks."
+    },
+    {
+      "id": 8,
+      "question": "In Swift, how do you create an array of integers?",
+      "answers": ["var nums: [Int] = [1, 2, 3]", "var nums = array(1, 2, 3)", "int[] nums = {1, 2, 3}", "var nums = (1, 2, 3)"],
+      "correct": 0,
+      "hint": "Swift uses square brackets for arrays. The type goes inside brackets like [Type]."
+    },
+    {
+      "id": 9,
+      "question": "What is a 'process' in operating systems?",
+      "answers": ["A running program", "A file type", "A hardware component", "A network protocol"],
+      "correct": 0,
+      "hint": "When you launch a program, it becomes an active instance being executed by the CPU."
+    },
+    {
+      "id": 10,
+      "question": "What does HTTP stand for?",
+      "answers": ["HyperText Transfer Protocol", "High Transfer Text Protocol", "Hyper Terminal Transfer Protocol", "Home Text Transfer Protocol"],
+      "correct": 0,
+      "hint": "Web pages use 'hypertext' and this protocol 'transfers' them. What's the standard order?"
+    },
+    {
+      "id": 11,
+      "question": "In Swift, what is the result of: \"Hello\" + \" World\"",
+      "answers": ["\"Hello World\"", "Error", "HelloWorld", "Hello World"],
+      "correct": 0,
+      "hint": "The + operator joins strings together. Note the space at the start of \" World\"."
+    },
+    {
+      "id": 12,
+      "question": "What is a 'thread' in computing?",
+      "answers": ["Smallest unit of execution within a process", "Type of cable", "Network connection", "File format"],
+      "correct": 0,
+      "hint": "A process can have multiple of these smaller execution paths running in parallel."
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of a firewall?",
+      "answers": ["Block unauthorized network access", "Speed up internet", "Store files", "Cool down the computer"],
+      "correct": 0,
+      "hint": "Like a wall that stops fire, this security measure stops unwanted network traffic."
+    },
+    {
+      "id": 14,
+      "question": "In Swift, what does 'nil' represent?",
+      "answers": ["Absence of a value", "Zero", "Empty string", "False"],
+      "correct": 0,
+      "hint": "When an optional has no value at all, what represents 'nothing' or 'not set'?"
+    },
+    {
+      "id": 15,
+      "question": "What is cache memory?",
+      "answers": ["Very fast memory between CPU and RAM", "Hard drive space", "Cloud storage", "USB memory"],
+      "correct": 0,
+      "hint": "This small, super-fast memory stores frequently used data closer to the processor."
+    },
+    {
+      "id": 16,
+      "question": "What port does HTTPS typically use?",
+      "answers": ["443", "80", "21", "22"],
+      "correct": 0,
+      "hint": "HTTP uses 80. The secure version uses a different standard port. Think 4-4-3."
+    },
+    {
+      "id": 17,
+      "question": "In Swift, what is an Optional?",
+      "answers": ["A type that may or may not contain a value", "A required parameter", "A loop type", "A class type"],
+      "correct": 0,
+      "hint": "This type can hold a value OR be nil - the presence of value is 'optional'."
+    },
+    {
+      "id": 18,
+      "question": "What is virtual memory?",
+      "answers": ["Using disk space as extended RAM", "Cloud storage", "Cache memory", "ROM memory"],
+      "correct": 0,
+      "hint": "When RAM fills up, the OS pretends some disk space is 'virtually' like extra RAM."
+    },
+    {
+      "id": 19,
+      "question": "What is a MAC address?",
+      "answers": ["Unique hardware identifier for network devices", "Apple computer address", "IP address type", "Email address"],
+      "correct": 0,
+      "hint": "Every network card has a unique hardware identifier - Media Access Control address."
+    },
+    {
+      "id": 20,
+      "question": "In Swift, how do you define a function that takes no parameters?",
+      "answers": ["func myFunction() { }", "function myFunction() { }", "def myFunction(): ", "void myFunction() { }"],
+      "correct": 0,
+      "hint": "Swift uses 'func' as the keyword for function definitions. Empty parentheses mean no parameters."
+    },
+    {
+      "id": 21,
+      "question": "What is 'multitasking' in operating systems?",
+      "answers": ["Running multiple programs simultaneously", "Having multiple monitors", "Using multiple keyboards", "Installing multiple OS"],
+      "correct": 0,
+      "hint": "The OS switches between programs so fast it appears they run at the same time."
+    },
+    {
+      "id": 22,
+      "question": "What does TCP stand for?",
+      "answers": ["Transmission Control Protocol", "Transfer Control Protocol", "Text Control Process", "Terminal Control Protocol"],
+      "correct": 0,
+      "hint": "This protocol 'controls' the 'transmission' of data reliably over networks."
+    },
+    {
+      "id": 23,
+      "question": "In Swift, what is the output? for i in 1...3 { print(i) }",
+      "answers": ["1 2 3", "0 1 2", "1 2", "0 1 2 3"],
+      "correct": 0,
+      "hint": "The ... operator is a closed range - it includes both endpoints. What numbers from 1 to 3 inclusive?"
+    },
+    {
+      "id": 24,
+      "question": "What is 'bandwidth' in networking?",
+      "answers": ["Maximum data transfer rate", "Network cable length", "Number of devices", "Signal strength"],
+      "correct": 0,
+      "hint": "Think of it like a pipe's width - how much data can flow through per second."
+    },
+    {
+      "id": 25,
+      "question": "What is a 'kernel' in an operating system?",
+      "answers": ["Core that manages hardware and system resources", "User interface", "Web browser", "File manager"],
+      "correct": 0,
+      "hint": "Like the kernel of a nut, this is the innermost core that controls everything."
+    },
+    {
+      "id": 26,
+      "question": "In Swift, how do you declare a dictionary?",
+      "answers": ["var dict: [String: Int] = [\"a\": 1]", "var dict = {\"a\": 1}", "var dict = new Dictionary()", "var dict = Map(\"a\", 1)"],
+      "correct": 0,
+      "hint": "Swift dictionaries use [Key: Value] syntax with square brackets and a colon."
+    },
+    {
+      "id": 27,
+      "question": "What is latency in networking?",
+      "answers": ["Time delay for data to travel", "Data transfer speed", "Connection strength", "Packet size"],
+      "correct": 0,
+      "hint": "This measures the delay - how long it takes for data to travel from A to B (in milliseconds)."
+    },
+    {
+      "id": 28,
+      "question": "What is a 'compiler'?",
+      "answers": ["Translates code to machine language", "A type of CPU", "A network device", "An operating system"],
+      "correct": 0,
+      "hint": "Before your code runs, something 'compiles' or translates it into instructions the CPU understands."
+    },
+    {
+      "id": 29,
+      "question": "In Swift, what is a struct?",
+      "answers": ["Value type for grouping related data", "A function", "A loop", "A network protocol"],
+      "correct": 0,
+      "hint": "A 'structure' that groups related properties and methods together as a value type."
+    },
+    {
+      "id": 30,
+      "question": "What does BIOS stand for?",
+      "answers": ["Basic Input/Output System", "Binary Input/Output System", "Base Internal Operating System", "Built-in Operating Software"],
+      "correct": 0,
+      "hint": "This is the 'basic' system for 'input/output' that runs before the OS loads."
+    },
+    {
+      "id": 31,
+      "question": "What is a 'packet' in networking?",
+      "answers": ["Small unit of data transmitted over a network", "Network cable", "Router type", "IP address"],
+      "correct": 0,
+      "hint": "Large data is broken into small 'packets' for transmission, like letters in an envelope."
+    },
+    {
+      "id": 32,
+      "question": "In Swift, what is the difference between class and struct?",
+      "answers": ["Class is reference type, struct is value type", "No difference", "Struct is faster", "Class is only for iOS"],
+      "correct": 0,
+      "hint": "One is passed by reference (shared), the other by value (copied). Which is which?"
+    },
+    {
+      "id": 33,
+      "question": "What is 'swap space'?",
+      "answers": ["Disk space used as virtual memory", "Network buffer", "Cache memory", "BIOS storage"],
+      "correct": 0,
+      "hint": "When RAM is full, data is 'swapped' out to disk - what space is reserved for this?"
+    },
+    {
+      "id": 34,
+      "question": "What is a 'driver' in computing?",
+      "answers": ["Software that lets OS communicate with hardware", "Person who operates computer", "Network cable", "Storage device"],
+      "correct": 0,
+      "hint": "This software 'drives' the communication between the operating system and hardware devices."
+    },
+    {
+      "id": 35,
+      "question": "In Swift, how do you handle optionals safely?",
+      "answers": ["if let or guard let", "try/catch", "assert", "throw"],
+      "correct": 0,
+      "hint": "Swift provides special syntax to safely 'unwrap' optionals - 'if let' or 'guard let' patterns."
+    },
+    {
+      "id": 36,
+      "question": "What is a 'socket' in networking?",
+      "answers": ["Endpoint for network communication", "Network cable type", "Router port", "WiFi antenna"],
+      "correct": 0,
+      "hint": "An IP address plus port number creates an endpoint or 'socket' for sending/receiving data."
+    },
+    {
+      "id": 37,
+      "question": "What is 'deadlock' in operating systems?",
+      "answers": ["When processes wait forever for each other's resources", "System crash", "Memory overflow", "Network timeout"],
+      "correct": 0,
+      "hint": "Two processes each hold what the other needs - they're 'locked' waiting forever."
+    },
+    {
+      "id": 38,
+      "question": "In Swift, what is a closure?",
+      "answers": ["Self-contained block of code", "A class", "A network connection", "An error type"],
+      "correct": 0,
+      "hint": "Like an anonymous function - a 'closed' block of code you can pass around."
+    },
+    {
+      "id": 39,
+      "question": "What is the purpose of a subnet mask?",
+      "answers": ["Divide network into smaller networks", "Encrypt data", "Compress files", "Speed up internet"],
+      "correct": 0,
+      "hint": "This 'masks' part of an IP address to divide or 'subnet' a network into smaller parts."
+    },
+    {
+      "id": 40,
+      "question": "What is 'garbage collection'?",
+      "answers": ["Automatic memory management", "Deleting files", "Clearing cache", "Virus removal"],
+      "correct": 0,
+      "hint": "The runtime automatically 'collects' and frees memory that's no longer being used."
+    }
+  ]
+}

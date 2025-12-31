@@ -21,6 +21,12 @@ export default function QuestionCard({
         <h2 className="text-center text-2xl font-bold text-gray-800 md:text-3xl">
           {question.question}
         </h2>
+        {question.svg && (
+          <div
+            className="mt-6 flex justify-center"
+            dangerouslySetInnerHTML={{ __html: question.svg }}
+          />
+        )}
       </div>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

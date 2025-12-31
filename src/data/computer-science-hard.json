@@ -1,0 +1,289 @@
+{
+  "theme": "Computer Science Basics",
+  "themeId": "computer-science",
+  "level": "hard",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the time complexity of binary search?",
+      "answers": ["O(log n)", "O(n)", "O(n²)", "O(1)"],
+      "correct": 0,
+      "hint": "Each step halves the remaining search space. How does that growth pattern relate to logarithms?"
+    },
+    {
+      "id": 2,
+      "question": "In Swift, what is the output? let x: Int? = nil; print(x ?? 5)",
+      "answers": ["5", "nil", "0", "Error"],
+      "correct": 0,
+      "hint": "The ?? operator provides a default value when the optional is nil. What gets printed when x has no value?"
+    },
+    {
+      "id": 3,
+      "question": "What is ARP used for?",
+      "answers": ["Map IP addresses to MAC addresses", "Encrypt network traffic", "Assign IP addresses", "Route packets"],
+      "correct": 0,
+      "hint": "Address Resolution Protocol - it 'resolves' which type of address to which other type?"
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between TCP and UDP?",
+      "answers": ["TCP is reliable and ordered, UDP is faster but unreliable", "UDP is more secure", "TCP is wireless only", "No difference"],
+      "correct": 0,
+      "hint": "One guarantees delivery and order (like registered mail), the other is faster but may lose packets."
+    },
+    {
+      "id": 5,
+      "question": "In Swift, what does 'weak' keyword prevent?",
+      "answers": ["Strong reference cycles", "Memory allocation", "Type casting", "Optional unwrapping"],
+      "correct": 0,
+      "hint": "When two objects reference each other strongly, memory never gets freed. What cycle is this?"
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the TLB (Translation Lookaside Buffer)?",
+      "answers": ["Cache virtual-to-physical address translations", "Store network data", "Buffer keyboard input", "Cache disk data"],
+      "correct": 0,
+      "hint": "Virtual memory needs to translate addresses. The TLB caches these translations for speed."
+    },
+    {
+      "id": 7,
+      "question": "What is a race condition?",
+      "answers": ["When outcome depends on timing of uncontrolled events", "A fast network connection", "A type of virus", "Memory overflow"],
+      "correct": 0,
+      "hint": "Multiple threads 'race' to access shared data - the result depends on who gets there first."
+    },
+    {
+      "id": 8,
+      "question": "In Swift, what is the difference between map and flatMap on arrays?",
+      "answers": ["flatMap flattens nested arrays", "No difference", "map is faster", "flatMap returns optionals"],
+      "correct": 0,
+      "hint": "One transforms elements normally; the other also 'flattens' the result if it's nested."
+    },
+    {
+      "id": 9,
+      "question": "What is a mutex?",
+      "answers": ["Ensures only one thread accesses a resource at a time", "A network protocol", "A type of memory", "A CPU instruction"],
+      "correct": 0,
+      "hint": "'Mutual exclusion' - only one thread can hold it at a time. What does that prevent?"
+    },
+    {
+      "id": 10,
+      "question": "What does DHCP do?",
+      "answers": ["Automatically assigns IP addresses", "Encrypts data", "Routes packets", "Translates domain names"],
+      "correct": 0,
+      "hint": "When your device joins a network, something 'dynamically' gives it an IP address."
+    },
+    {
+      "id": 11,
+      "question": "In Swift, what is the @escaping attribute used for?",
+      "answers": ["Closures that outlive the function that receives them", "Error handling", "Memory management", "Type casting"],
+      "correct": 0,
+      "hint": "Sometimes a closure 'escapes' and runs after the function returns. What attribute marks this?"
+    },
+    {
+      "id": 12,
+      "question": "What is page fault in virtual memory?",
+      "answers": ["When accessed page is not in RAM", "Memory corruption", "Disk error", "Network timeout"],
+      "correct": 0,
+      "hint": "The CPU requests a memory page that isn't currently loaded into physical RAM. What happens?"
+    },
+    {
+      "id": 13,
+      "question": "What is the difference between stack and heap memory?",
+      "answers": ["Stack is LIFO and automatic, heap is dynamic", "Stack is slower", "Heap is for integers only", "No difference"],
+      "correct": 0,
+      "hint": "One is automatic and fast (LIFO structure), the other is for dynamic allocation."
+    },
+    {
+      "id": 14,
+      "question": "In Swift, what is a protocol?",
+      "answers": ["Blueprint of methods and properties a type must implement", "A network standard", "A loop type", "An error handler"],
+      "correct": 0,
+      "hint": "Like an interface or contract - defines what methods/properties a conforming type must have."
+    },
+    {
+      "id": 15,
+      "question": "What is NAT (Network Address Translation)?",
+      "answers": ["Allows multiple devices to share one public IP", "Encrypts network traffic", "Assigns MAC addresses", "Routes between networks"],
+      "correct": 0,
+      "hint": "Your home has many devices but one public IP. Something 'translates' between internal and external addresses."
+    },
+    {
+      "id": 16,
+      "question": "What is thrashing in operating systems?",
+      "answers": ["Excessive paging that slows the system", "CPU overheating", "Network congestion", "Disk corruption"],
+      "correct": 0,
+      "hint": "When the system spends more time swapping pages than doing useful work - it's 'thrashing' around."
+    },
+    {
+      "id": 17,
+      "question": "In Swift, what does 'defer' do?",
+      "answers": ["Executes code when leaving current scope", "Delays compilation", "Defers to superclass", "Handles errors"],
+      "correct": 0,
+      "hint": "This block runs just before exiting the current scope - 'deferred' until the end."
+    },
+    {
+      "id": 18,
+      "question": "What is the OSI model's Layer 4?",
+      "answers": ["Transport Layer (TCP/UDP)", "Network Layer", "Application Layer", "Data Link Layer"],
+      "correct": 0,
+      "hint": "Layer 4 handles end-to-end communication and 'transports' data reliably."
+    },
+    {
+      "id": 19,
+      "question": "What is context switching?",
+      "answers": ["Saving/restoring process state when switching", "Changing network context", "Switching users", "Changing file permissions"],
+      "correct": 0,
+      "hint": "When the OS switches from one process to another, it must save and restore the 'context' (state)."
+    },
+    {
+      "id": 20,
+      "question": "In Swift, what is the purpose of DispatchQueue?",
+      "answers": ["Manage concurrent execution of tasks", "Handle network requests", "Parse JSON", "Format strings"],
+      "correct": 0,
+      "hint": "Grand Central Dispatch uses queues to 'dispatch' work to different threads."
+    },
+    {
+      "id": 21,
+      "question": "What is a semaphore?",
+      "answers": ["Controls access to shared resources using a counter", "A network signal", "A type of RAM", "A file format"],
+      "correct": 0,
+      "hint": "Like a traffic signal with a counter - limits how many can access a resource at once."
+    },
+    {
+      "id": 22,
+      "question": "What is ICMP used for?",
+      "answers": ["Network diagnostics (ping, traceroute)", "Sending emails", "File transfer", "Web browsing"],
+      "correct": 0,
+      "hint": "When you 'ping' a server to check if it's reachable, what protocol sends those messages?"
+    },
+    {
+      "id": 23,
+      "question": "In Swift, what is a computed property?",
+      "answers": ["Property that calculates its value on access", "A stored constant", "A static variable", "An optional value"],
+      "correct": 0,
+      "hint": "Instead of storing a value, this property 'computes' or calculates it each time you read it."
+    },
+    {
+      "id": 24,
+      "question": "What is the time complexity of quicksort on average?",
+      "answers": ["O(n log n)", "O(n²)", "O(n)", "O(log n)"],
+      "correct": 0,
+      "hint": "Quicksort divides the array and sorts both halves. Average case is the same as merge sort."
+    },
+    {
+      "id": 25,
+      "question": "What is a system call?",
+      "answers": ["Request from program to kernel for service", "Phone call feature", "Network request", "Function call"],
+      "correct": 0,
+      "hint": "When a program needs kernel services (file I/O, network), it makes a 'call' to the 'system'."
+    },
+    {
+      "id": 26,
+      "question": "In Swift, what is ARC?",
+      "answers": ["Automatic Reference Counting for memory management", "A network protocol", "A compiler option", "An error type"],
+      "correct": 0,
+      "hint": "Swift 'automatically' tracks 'reference' 'counts' to know when to free memory."
+    },
+    {
+      "id": 27,
+      "question": "What is a VLAN?",
+      "answers": ["Virtual LAN that segments network logically", "Very Large Area Network", "Virtual Link Access Node", "Video LAN"],
+      "correct": 0,
+      "hint": "A 'virtual' way to segment a physical network into separate logical networks."
+    },
+    {
+      "id": 28,
+      "question": "What is the difference between preemptive and cooperative multitasking?",
+      "answers": ["Preemptive: OS controls; Cooperative: processes yield", "No difference", "Preemptive is slower", "Cooperative is forced"],
+      "correct": 0,
+      "hint": "In one, the OS forcefully interrupts; in the other, processes must 'cooperate' and yield voluntarily."
+    },
+    {
+      "id": 29,
+      "question": "In Swift, what is 'inout' parameter?",
+      "answers": ["Parameter that can be modified and changes persist", "Input only", "Output only", "Optional parameter"],
+      "correct": 0,
+      "hint": "Changes made inside the function persist 'out' - the value goes 'in' and comes back 'out' modified."
+    },
+    {
+      "id": 30,
+      "question": "What is a hash table's average lookup time complexity?",
+      "answers": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+      "correct": 0,
+      "hint": "Hash functions provide direct access - on average, you jump straight to the item. Constant time."
+    },
+    {
+      "id": 31,
+      "question": "What is the purpose of HTTPS's TLS/SSL?",
+      "answers": ["Encrypt data between client and server", "Speed up connection", "Compress data", "Route packets"],
+      "correct": 0,
+      "hint": "The 'S' in HTTPS stands for 'secure' - what layer provides that encryption?"
+    },
+    {
+      "id": 32,
+      "question": "What is inode in Unix filesystems?",
+      "answers": ["Data structure storing file metadata", "Network node", "Input node", "Internet node"],
+      "correct": 0,
+      "hint": "Every file has an 'index node' storing its metadata - permissions, size, block locations."
+    },
+    {
+      "id": 33,
+      "question": "In Swift, what is the difference between 'as?' and 'as!'?",
+      "answers": ["as? returns optional, as! force unwraps", "No difference", "as? is faster", "as! is safer"],
+      "correct": 0,
+      "hint": "One safely returns nil if cast fails (with ?), the other crashes if it fails (with !)."
+    },
+    {
+      "id": 34,
+      "question": "What is a buffer overflow?",
+      "answers": ["Writing data beyond allocated memory", "Network congestion", "Full disk", "CPU overload"],
+      "correct": 0,
+      "hint": "When data written to a buffer exceeds its boundaries, it 'overflows' into adjacent memory."
+    },
+    {
+      "id": 35,
+      "question": "What is the purpose of a load balancer?",
+      "answers": ["Distribute traffic across multiple servers", "Balance power consumption", "Compress data", "Encrypt traffic"],
+      "correct": 0,
+      "hint": "Multiple servers share the 'load' of incoming requests - something 'balances' them."
+    },
+    {
+      "id": 36,
+      "question": "In Swift, what is a lazy property?",
+      "answers": ["Property initialized only when first accessed", "Slow property", "Optional property", "Computed property"],
+      "correct": 0,
+      "hint": "The property is 'lazy' - it doesn't initialize until you actually need it."
+    },
+    {
+      "id": 37,
+      "question": "What is the difference between HTTP/1.1 and HTTP/2?",
+      "answers": ["HTTP/2 uses multiplexing and binary framing", "HTTP/2 is less secure", "HTTP/1.1 is faster", "No difference"],
+      "correct": 0,
+      "hint": "HTTP/2 can send multiple requests over one connection and uses binary instead of text."
+    },
+    {
+      "id": 38,
+      "question": "What is a memory leak?",
+      "answers": ["Memory that's allocated but never freed", "Data corruption", "Network data loss", "CPU error"],
+      "correct": 0,
+      "hint": "Memory gets allocated but never released - it 'leaks' away from available memory."
+    },
+    {
+      "id": 39,
+      "question": "In Swift, what is @MainActor?",
+      "answers": ["Ensures code runs on main thread", "The primary actor class", "A macro", "An error handler"],
+      "correct": 0,
+      "hint": "UI updates must happen on the main thread. This attribute ensures code runs there."
+    },
+    {
+      "id": 40,
+      "question": "What is the CAP theorem?",
+      "answers": ["Distributed systems can't guarantee all of: Consistency, Availability, Partition tolerance", "CPU Architecture Protocol", "Cache Access Protocol", "Computer Access Permission"],
+      "correct": 0,
+      "hint": "In distributed systems, you can only fully guarantee 2 of 3 properties: C, A, and P."
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "theme": "Geometry Basics",
+  "themeId": "geometry",
+  "level": "hard",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Find the area of the shaded region. (π ≈ 3.14)",
+      "svg": "<svg width=\"200\" height=\"200\" viewBox=\"0 0 200 200\"><circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"100\" r=\"40\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" fill=\"#374151\">R = 8 cm</text><text x=\"100\" y=\"105\" text-anchor=\"middle\" font-size=\"11\" fill=\"#374151\">r = 4 cm</text></svg>",
+      "answers": ["150.72 cm²", "100.48 cm²", "200.96 cm²", "50.24 cm²"],
+      "correct": 0,
+      "hint": "Area = πR² - πr² = π(R² - r²)"
+    },
+    {
+      "id": 2,
+      "question": "Find x if the triangles are similar.",
+      "svg": "<svg width=\"240\" height=\"160\" viewBox=\"0 0 240 160\"><polygon points=\"20,140 80,140 50,60\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><polygon points=\"120,140 220,140 170,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"155\" font-size=\"11\" fill=\"#374151\">4</text><text x=\"30\" y=\"105\" font-size=\"11\" fill=\"#374151\">3</text><text x=\"170\" y=\"155\" font-size=\"11\" fill=\"#374151\">8</text><text x=\"125\" y=\"95\" font-size=\"11\" fill=\"#EF4444\">x</text></svg>",
+      "answers": ["4", "6", "12", "5"],
+      "correct": 1,
+      "hint": "Similar triangles have proportional sides: 3/4 = x/8"
+    },
+    {
+      "id": 3,
+      "question": "What is the volume of this cone? (π ≈ 3.14)",
+      "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"160\" rx=\"55\" ry=\"15\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"20\" y1=\"160\" x2=\"75\" y2=\"20\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"130\" y1=\"160\" x2=\"75\" y2=\"20\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"75\" y1=\"20\" x2=\"75\" y2=\"160\" stroke=\"#16A34A\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"80\" y=\"100\" font-size=\"11\" fill=\"#374151\">12 cm</text><text x=\"100\" y=\"165\" font-size=\"11\" fill=\"#374151\">r=5</text></svg>",
+      "answers": ["314 cm³", "100π cm³", "628 cm³", "157 cm³"],
+      "correct": 0,
+      "hint": "Volume of cone = (1/3)πr²h"
+    },
+    {
+      "id": 4,
+      "question": "Find angle x.",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><circle cx=\"100\" cy=\"90\" r=\"70\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"90\" x2=\"30\" y2=\"90\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"90\" x2=\"145\" y2=\"35\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"90\" x2=\"145\" y2=\"35\" stroke=\"#16A34A\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"90\" r=\"3\" fill=\"#EF4444\"/><path d=\"M 85 90 A 15 15 0 0 1 92 77\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"75\" y=\"80\" font-size=\"12\" fill=\"#EF4444\">70°</text><text x=\"55\" y=\"75\" font-size=\"12\" fill=\"#16A34A\">x</text></svg>",
+      "answers": ["70°", "35°", "140°", "55°"],
+      "correct": 1,
+      "hint": "Inscribed angle is half the central angle."
+    },
+    {
+      "id": 5,
+      "question": "Find the area of this regular hexagon.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,15 155,50 155,120 90,155 25,120 25,50\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"90\" y1=\"15\" x2=\"90\" y2=\"155\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"95\" y=\"90\" font-size=\"11\" fill=\"#374151\">10 cm</text></svg>",
+      "answers": ["259.8 cm²", "150 cm²", "300 cm²", "173.2 cm²"],
+      "correct": 0,
+      "hint": "Area = (3√3/2) × s² where s is the distance from center to vertex."
+    },
+    {
+      "id": 6,
+      "question": "What is the length of arc AB? (π ≈ 3.14)",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"150\" y2=\"90\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"90\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 150 90 A 60 60 0 0 0 90 30\" stroke=\"#EF4444\" stroke-width=\"3\" fill=\"none\"/><text x=\"155\" y=\"95\" font-size=\"12\" fill=\"#374151\">A</text><text x=\"85\" y=\"25\" font-size=\"12\" fill=\"#374151\">B</text><text x=\"115\" y=\"85\" font-size=\"11\" fill=\"#374151\">6 cm</text><text x=\"100\" y=\"70\" font-size=\"11\" fill=\"#374151\">90°</text></svg>",
+      "answers": ["9.42 cm", "18.84 cm", "6.28 cm", "3.14 cm"],
+      "correct": 0,
+      "hint": "Arc length = (angle/360) × 2πr"
+    },
+    {
+      "id": 7,
+      "question": "Find the surface area of this sphere. (π ≈ 3.14)",
+      "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><circle cx=\"80\" cy=\"80\" r=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><ellipse cx=\"80\" cy=\"80\" rx=\"60\" ry=\"20\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><line x1=\"80\" y1=\"80\" x2=\"140\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"1\"/><text x=\"105\" y=\"75\" font-size=\"11\" fill=\"#374151\">7 cm</text></svg>",
+      "answers": ["615.44 cm²", "307.72 cm²", "153.86 cm²", "1230.88 cm²"],
+      "correct": 0,
+      "hint": "Surface area of sphere = 4πr²"
+    },
+    {
+      "id": 8,
+      "question": "In this right triangle, find the hypotenuse.",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"30,150 170,150 30,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><path d=\"M 30 130 L 50 130 L 50 150\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"1\"/><text x=\"100\" y=\"165\" font-size=\"14\" fill=\"#374151\">12 cm</text><text x=\"15\" y=\"95\" font-size=\"14\" fill=\"#374151\">5 cm</text><text x=\"110\" y=\"85\" font-size=\"14\" fill=\"#EF4444\">?</text></svg>",
+      "answers": ["17 cm", "13 cm", "15 cm", "11 cm"],
+      "correct": 1,
+      "hint": "Use Pythagorean theorem: c² = a² + b²"
+    },
+    {
+      "id": 9,
+      "question": "Find the volume of this pyramid.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,20 30,140 90,160 150,140\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"30\" y1=\"140\" x2=\"150\" y2=\"140\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"95\" y=\"90\" font-size=\"11\" fill=\"#374151\">9 cm</text><text x=\"85\" y=\"175\" font-size=\"11\" fill=\"#374151\">Base: 6×6 cm</text></svg>",
+      "answers": ["324 cm³", "108 cm³", "162 cm³", "54 cm³"],
+      "correct": 1,
+      "hint": "Volume = (1/3) × base area × height"
+    },
+    {
+      "id": 10,
+      "question": "Find x using the tangent-secant theorem.",
+      "svg": "<svg width=\"200\" height=\"200\" viewBox=\"0 0 200 200\"><circle cx=\"100\" cy=\"100\" r=\"60\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"160\" x2=\"100\" y2=\"190\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"100\" y1=\"190\" x2=\"180\" y2=\"100\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"85\" y=\"180\" font-size=\"11\" fill=\"#374151\">4</text><text x=\"140\" y=\"155\" font-size=\"11\" fill=\"#374151\">x</text><text x=\"160\" y=\"130\" font-size=\"11\" fill=\"#374151\">5</text></svg>",
+      "answers": ["3.2", "6", "4.8", "5"],
+      "correct": 0,
+      "hint": "Tangent² = external segment × whole secant"
+    },
+    {
+      "id": 11,
+      "question": "What is the area of this composite shape?",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><rect x=\"30\" y=\"50\" width=\"140\" height=\"100\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 30 50 A 70 50 0 0 1 170 50\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"165\" text-anchor=\"middle\" font-size=\"11\" fill=\"#374151\">14 cm</text><text x=\"180\" y=\"105\" font-size=\"11\" fill=\"#374151\">10 cm</text></svg>",
+      "answers": ["217 cm²", "294.5 cm²", "140 cm²", "371 cm²"],
+      "correct": 1,
+      "hint": "Rectangle + semicircle = (14×10) + (½×π×7²)"
+    },
+    {
+      "id": 12,
+      "question": "Find angle x in this cyclic quadrilateral.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"70\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"90,20 155,70 130,155 35,120\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"85\" y=\"40\" font-size=\"11\" fill=\"#374151\">85°</text><text x=\"140\" y=\"75\" font-size=\"11\" fill=\"#EF4444\">x</text><text x=\"115\" y=\"145\" font-size=\"11\" fill=\"#374151\">110°</text><text x=\"45\" y=\"115\" font-size=\"11\" fill=\"#374151\">70°</text></svg>",
+      "answers": ["95°", "85°", "70°", "110°"],
+      "correct": 0,
+      "hint": "Opposite angles in a cyclic quadrilateral sum to 180°."
+    },
+    {
+      "id": 13,
+      "question": "What is the volume of this sphere? (π ≈ 3.14)",
+      "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><circle cx=\"80\" cy=\"80\" r=\"55\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><ellipse cx=\"80\" cy=\"80\" rx=\"55\" ry=\"18\" fill=\"none\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><line x1=\"80\" y1=\"80\" x2=\"135\" y2=\"80\" stroke=\"#EC4899\" stroke-width=\"1\"/><text x=\"100\" y=\"75\" font-size=\"11\" fill=\"#374151\">6 cm</text></svg>",
+      "answers": ["904.32 cm³", "452.16 cm³", "113.04 cm³", "150.72 cm³"],
+      "correct": 0,
+      "hint": "Volume of sphere = (4/3)πr³"
+    },
+    {
+      "id": 14,
+      "question": "Find the missing side using the cosine rule. cos(60°) = 0.5",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"30,150 170,150 100,30\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"95\" y=\"165\" font-size=\"12\" fill=\"#374151\">8 cm</text><text x=\"45\" y=\"95\" font-size=\"12\" fill=\"#374151\">7 cm</text><text x=\"145\" y=\"95\" font-size=\"12\" fill=\"#EF4444\">x</text><text x=\"95\" y=\"55\" font-size=\"12\" fill=\"#374151\">60°</text></svg>",
+      "answers": ["√57 cm", "7 cm", "8 cm", "6 cm"],
+      "correct": 0,
+      "hint": "c² = a² + b² - 2ab×cos(C)"
+    },
+    {
+      "id": 15,
+      "question": "What 3D shape does this net make?",
+      "svg": "<svg width=\"220\" height=\"200\" viewBox=\"0 0 220 200\"><polygon points=\"110,10 70,70 150,70\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"70,70 30,130 110,130\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"150,70 110,130 190,130\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"110,130 70,190 150,190\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
+      "answers": ["Cube", "Tetrahedron", "Octahedron", "Square pyramid"],
+      "correct": 1,
+      "hint": "4 equilateral triangles form a tetrahedron (triangular pyramid)."
+    },
+    {
+      "id": 16,
+      "question": "Find the length of the chord.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"65\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"35\" y1=\"115\" x2=\"145\" y2=\"115\" stroke=\"#EF4444\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"90\" y2=\"115\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"95\" y=\"108\" font-size=\"11\" fill=\"#374151\">5 cm</text><text x=\"130\" y=\"80\" font-size=\"11\" fill=\"#374151\">r = 13</text></svg>",
+      "answers": ["24 cm", "12 cm", "10 cm", "20 cm"],
+      "correct": 0,
+      "hint": "Use Pythagorean theorem: half-chord² + distance² = r²"
+    },
+    {
+      "id": 17,
+      "question": "Find the area of the segment. (π ≈ 3.14)",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 150 90 A 60 60 0 0 0 90 30\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"90\" y1=\"30\" x2=\"150\" y2=\"90\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"115\" y=\"70\" font-size=\"11\" fill=\"#374151\">r=6</text><text x=\"130\" y=\"55\" font-size=\"11\" fill=\"#374151\">90°</text></svg>",
+      "answers": ["10.26 cm²", "28.26 cm²", "18 cm²", "9.42 cm²"],
+      "correct": 0,
+      "hint": "Segment = Sector - Triangle"
+    },
+    {
+      "id": 18,
+      "question": "Find x using similar triangles.",
+      "svg": "<svg width=\"220\" height=\"180\" viewBox=\"0 0 220 180\"><polygon points=\"20,160 200,160 200,40\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"80\" y1=\"160\" x2=\"80\" y2=\"106\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"40\" y=\"175\" font-size=\"11\" fill=\"#374151\">3</text><text x=\"130\" y=\"175\" font-size=\"11\" fill=\"#374151\">6</text><text x=\"65\" y=\"140\" font-size=\"11\" fill=\"#EF4444\">x</text><text x=\"205\" y=\"105\" font-size=\"11\" fill=\"#374151\">12</text></svg>",
+      "answers": ["6", "4", "8", "3"],
+      "correct": 1,
+      "hint": "The small triangle is similar to the large one."
+    },
+    {
+      "id": 19,
+      "question": "What is the total surface area of this cone? (π ≈ 3.14)",
+      "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"160\" rx=\"45\" ry=\"12\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"30\" y1=\"160\" x2=\"75\" y2=\"30\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"120\" y1=\"160\" x2=\"75\" y2=\"30\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"75\" y1=\"160\" x2=\"120\" y2=\"160\" stroke=\"#16A34A\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"95\" y=\"155\" font-size=\"10\" fill=\"#374151\">r=4</text><text x=\"125\" y=\"100\" font-size=\"10\" fill=\"#374151\">l=5</text></svg>",
+      "answers": ["113.04 cm²", "62.8 cm²", "50.24 cm²", "87.92 cm²"],
+      "correct": 0,
+      "hint": "Total surface area = πr² + πrl"
+    },
+    {
+      "id": 20,
+      "question": "Find angle x.",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><line x1=\"20\" y1=\"90\" x2=\"180\" y2=\"90\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"90\" x2=\"60\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"90\" x2=\"140\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"90\" x2=\"100\" y2=\"160\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 85 90 A 15 15 0 0 0 92 77\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"75\" y=\"75\" font-size=\"11\" fill=\"#EF4444\">50°</text><text x=\"100\" y=\"65\" font-size=\"11\" fill=\"#16A34A\">x</text><text x=\"95\" y=\"115\" font-size=\"11\" fill=\"#374151\">90°</text></svg>",
+      "answers": ["40°", "50°", "130°", "140°"],
+      "correct": 0,
+      "hint": "The three angles above the line must sum to 180°."
+    },
+    {
+      "id": 21,
+      "question": "Find the area of this regular pentagon. (Side = 6 cm)",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,15 165,60 145,150 35,150 15,60\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><text x=\"90\" y=\"165\" text-anchor=\"middle\" font-size=\"11\" fill=\"#374151\">s = 6 cm</text></svg>",
+      "answers": ["61.94 cm²", "90 cm²", "45 cm²", "30 cm²"],
+      "correct": 0,
+      "hint": "Area = (1/4)√(5(5+2√5)) × s²"
+    },
+    {
+      "id": 22,
+      "question": "Find the diagonal of this rectangular prism.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"30,100 30,50 90,50 90,100\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"90,50 140,30 140,80 90,100\" fill=\"#C7D2FE\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"30,50 80,30 140,30 90,50\" fill=\"#A5B4FC\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"100\" x2=\"140\" y2=\"30\" stroke=\"#EF4444\" stroke-width=\"2\" stroke-dasharray=\"5,5\"/><text x=\"50\" y=\"120\" font-size=\"10\" fill=\"#374151\">3</text><text x=\"145\" y=\"60\" font-size=\"10\" fill=\"#374151\">4</text><text x=\"55\" y=\"35\" font-size=\"10\" fill=\"#374151\">12</text></svg>",
+      "answers": ["13", "19", "√169", "15"],
+      "correct": 0,
+      "hint": "Space diagonal = √(l² + w² + h²)"
+    },
+    {
+      "id": 23,
+      "question": "What is the perimeter of this sector? (π ≈ 3.14)",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><path d=\"M 90 90 L 160 90 A 70 70 0 0 1 90 160 Z\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"120\" y=\"85\" font-size=\"11\" fill=\"#374151\">10 cm</text><text x=\"115\" y=\"135\" font-size=\"12\" fill=\"#374151\">90°</text></svg>",
+      "answers": ["35.7 cm", "15.7 cm", "20 cm", "51.4 cm"],
+      "correct": 0,
+      "hint": "Perimeter = 2r + arc length"
+    },
+    {
+      "id": 24,
+      "question": "Find x. The two chords intersect inside the circle.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"65\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"70\" x2=\"150\" y2=\"110\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"50\" y1=\"140\" x2=\"130\" y2=\"40\" stroke=\"#16A34A\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"90\" r=\"3\" fill=\"#EF4444\"/><text x=\"55\" y=\"65\" font-size=\"10\" fill=\"#374151\">6</text><text x=\"115\" y=\"115\" font-size=\"10\" fill=\"#374151\">4</text><text x=\"75\" y=\"115\" font-size=\"10\" fill=\"#374151\">3</text><text x=\"100\" y=\"70\" font-size=\"10\" fill=\"#EF4444\">x</text></svg>",
+      "answers": ["8", "2", "6", "5"],
+      "correct": 0,
+      "hint": "Intersecting chords: a × b = c × d"
+    },
+    {
+      "id": 25,
+      "question": "Find the height of this cone given V = 100π cm³ and r = 5 cm.",
+      "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"160\" rx=\"50\" ry=\"15\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"25\" y1=\"160\" x2=\"75\" y2=\"30\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"125\" y1=\"160\" x2=\"75\" y2=\"30\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"75\" y1=\"30\" x2=\"75\" y2=\"160\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"80\" y=\"100\" font-size=\"11\" fill=\"#EF4444\">h=?</text><text x=\"100\" y=\"165\" font-size=\"10\" fill=\"#374151\">r=5</text><text x=\"50\" y=\"15\" font-size=\"10\" fill=\"#374151\">V=100π</text></svg>",
+      "answers": ["12 cm", "4 cm", "20 cm", "15 cm"],
+      "correct": 0,
+      "hint": "V = (1/3)πr²h, solve for h"
+    },
+    {
+      "id": 26,
+      "question": "Find the angle between the diagonal and base of this cube.",
+      "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><polygon points=\"30,60 75,40 120,60 120,110 75,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"60\" x2=\"75\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"75\" y1=\"80\" x2=\"120\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"75\" y1=\"80\" x2=\"75\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"110\" x2=\"120\" y2=\"60\" stroke=\"#EF4444\" stroke-width=\"2\" stroke-dasharray=\"5,5\"/><text x=\"80\" y=\"95\" font-size=\"10\" fill=\"#EF4444\">θ=?</text></svg>",
+      "answers": ["45°", "35.26°", "54.74°", "30°"],
+      "correct": 1,
+      "hint": "tan(θ) = height / diagonal of base = 1/√2"
+    },
+    {
+      "id": 27,
+      "question": "What is the lateral surface area of this cylinder? (π ≈ 3.14)",
+      "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"30\" rx=\"40\" ry=\"12\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><ellipse cx=\"75\" cy=\"150\" rx=\"40\" ry=\"12\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"35\" y1=\"30\" x2=\"35\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"115\" y1=\"30\" x2=\"115\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"120\" y=\"95\" font-size=\"10\" fill=\"#374151\">14 cm</text><text x=\"75\" y=\"170\" text-anchor=\"middle\" font-size=\"10\" fill=\"#374151\">r = 5 cm</text></svg>",
+      "answers": ["439.6 cm²", "314 cm²", "157 cm²", "219.8 cm²"],
+      "correct": 0,
+      "hint": "Lateral surface area = 2πrh"
+    },
+    {
+      "id": 28,
+      "question": "Find x using the power of a point theorem.",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><circle cx=\"100\" cy=\"90\" r=\"55\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"90\" x2=\"180\" y2=\"90\" stroke=\"#16A34A\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"90\" r=\"3\" fill=\"#4F46E5\"/><text x=\"50\" y=\"85\" font-size=\"11\" fill=\"#374151\">x</text><text x=\"140\" y=\"85\" font-size=\"11\" fill=\"#374151\">8</text><text x=\"25\" y=\"105\" font-size=\"11\" fill=\"#374151\">ext: 4</text></svg>",
+      "answers": ["2", "6", "4", "8"],
+      "correct": 0,
+      "hint": "External × whole = external × whole"
+    },
+    {
+      "id": 29,
+      "question": "Find the area of triangle formed by tangent and radii.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"50\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"140\" y2=\"90\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"90\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"140\" y1=\"90\" x2=\"90\" y2=\"40\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 90 70 L 110 70 L 110 90\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"1\"/><text x=\"110\" y=\"85\" font-size=\"10\" fill=\"#374151\">r=7</text></svg>",
+      "answers": ["24.5 cm²", "49 cm²", "14 cm²", "7 cm²"],
+      "correct": 0,
+      "hint": "It's a right triangle with legs = radius"
+    },
+    {
+      "id": 30,
+      "question": "Find the slant height of this cone given r = 6 cm, h = 8 cm.",
+      "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"160\" rx=\"50\" ry=\"15\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"25\" y1=\"160\" x2=\"75\" y2=\"30\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"125\" y1=\"160\" x2=\"75\" y2=\"30\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"75\" y1=\"30\" x2=\"75\" y2=\"160\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><line x1=\"75\" y1=\"160\" x2=\"125\" y2=\"160\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"80\" y=\"100\" font-size=\"10\" fill=\"#374151\">h=8</text><text x=\"95\" y=\"155\" font-size=\"10\" fill=\"#374151\">r=6</text><text x=\"105\" y=\"100\" font-size=\"10\" fill=\"#EF4444\">l=?</text></svg>",
+      "answers": ["10 cm", "14 cm", "√100 cm", "12 cm"],
+      "correct": 0,
+      "hint": "Slant height l = √(r² + h²)"
+    },
+    {
+      "id": 31,
+      "question": "Find the radius of the inscribed circle in a triangle with sides 5, 12, 13.",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"20,150 180,150 20,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"115\" r=\"25\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"95\" y=\"165\" font-size=\"11\" fill=\"#374151\">12</text><text x=\"10\" y=\"95\" font-size=\"11\" fill=\"#374151\">5</text><text x=\"110\" y=\"85\" font-size=\"11\" fill=\"#374151\">13</text><text x=\"60\" y=\"120\" font-size=\"11\" fill=\"#EF4444\">r=?</text></svg>",
+      "answers": ["2 cm", "3 cm", "2.5 cm", "4 cm"],
+      "correct": 0,
+      "hint": "r = Area / semi-perimeter"
+    },
+    {
+      "id": 32,
+      "question": "What is the volume of a hemisphere with r = 9 cm? (π ≈ 3.14)",
+      "svg": "<svg width=\"180\" height=\"120\" viewBox=\"0 0 180 120\"><path d=\"M 20 90 A 70 70 0 0 1 160 90\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><ellipse cx=\"90\" cy=\"90\" rx=\"70\" ry=\"20\" fill=\"#C7D2FE\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"160\" y2=\"90\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"120\" y=\"85\" font-size=\"11\" fill=\"#374151\">9 cm</text></svg>",
+      "answers": ["1526.04 cm³", "763.02 cm³", "3052.08 cm³", "381.51 cm³"],
+      "correct": 0,
+      "hint": "Volume of hemisphere = (2/3)πr³"
+    },
+    {
+      "id": 33,
+      "question": "Find angle x in this tangent problem.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"50\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"140\" y1=\"90\" x2=\"170\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"90\" y1=\"140\" x2=\"170\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"140\" y2=\"90\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><line x1=\"90\" y1=\"90\" x2=\"90\" y2=\"140\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"150\" y=\"130\" font-size=\"11\" fill=\"#EF4444\">x</text><text x=\"100\" y=\"115\" font-size=\"10\" fill=\"#374151\">90°</text></svg>",
+      "answers": ["45°", "90°", "60°", "30°"],
+      "correct": 0,
+      "hint": "Angle between two tangents from external point."
+    },
+    {
+      "id": 34,
+      "question": "Find the area of this triangle using Heron's formula. (Sides: 13, 14, 15)",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"30,150 170,150 100,30\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"95\" y=\"165\" font-size=\"12\" fill=\"#374151\">14</text><text x=\"50\" y=\"95\" font-size=\"12\" fill=\"#374151\">13</text><text x=\"140\" y=\"95\" font-size=\"12\" fill=\"#374151\">15</text></svg>",
+      "answers": ["84 cm²", "91 cm²", "78 cm²", "96 cm²"],
+      "correct": 0,
+      "hint": "s = 21, Area = √(s(s-a)(s-b)(s-c))"
+    },
+    {
+      "id": 35,
+      "question": "What is the surface area of this regular tetrahedron? (Edge = 6 cm)",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,20 30,150 150,150\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"100\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><line x1=\"90\" y1=\"100\" x2=\"30\" y2=\"150\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><line x1=\"90\" y1=\"100\" x2=\"150\" y2=\"150\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"90\" y=\"170\" text-anchor=\"middle\" font-size=\"11\" fill=\"#374151\">edge = 6 cm</text></svg>",
+      "answers": ["62.35 cm²", "36 cm²", "93.53 cm²", "124.7 cm²"],
+      "correct": 0,
+      "hint": "Surface area = √3 × edge²"
+    },
+    {
+      "id": 36,
+      "question": "Find the length of the median to the hypotenuse in a right triangle with legs 6 and 8.",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"30,150 170,150 30,40\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"30\" y1=\"40\" x2=\"100\" y2=\"150\" stroke=\"#EF4444\" stroke-width=\"2\" stroke-dasharray=\"5,5\"/><path d=\"M 30 130 L 50 130 L 50 150\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"1\"/><text x=\"95\" y=\"165\" font-size=\"11\" fill=\"#374151\">8</text><text x=\"15\" y=\"100\" font-size=\"11\" fill=\"#374151\">6</text><text x=\"65\" y=\"90\" font-size=\"11\" fill=\"#EF4444\">m=?</text></svg>",
+      "answers": ["5", "7", "10", "4"],
+      "correct": 0,
+      "hint": "Median to hypotenuse = half the hypotenuse"
+    },
+    {
+      "id": 37,
+      "question": "Find the volume of a frustum (truncated cone). R=6, r=3, h=8 (π≈3.14)",
+      "svg": "<svg width=\"160\" height=\"180\" viewBox=\"0 0 160 180\"><ellipse cx=\"80\" cy=\"160\" rx=\"55\" ry=\"15\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><ellipse cx=\"80\" cy=\"40\" rx=\"30\" ry=\"10\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"25\" y1=\"160\" x2=\"50\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"135\" y1=\"160\" x2=\"110\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"140\" y=\"105\" font-size=\"10\" fill=\"#374151\">h=8</text><text x=\"110\" y=\"165\" font-size=\"10\" fill=\"#374151\">R=6</text><text x=\"90\" y=\"35\" font-size=\"10\" fill=\"#374151\">r=3</text></svg>",
+      "answers": ["527.52 cm³", "263.76 cm³", "351.68 cm³", "175.84 cm³"],
+      "correct": 0,
+      "hint": "V = (πh/3)(R² + Rr + r²)"
+    },
+    {
+      "id": 38,
+      "question": "Find the angle of elevation if a 10m ladder reaches 8m up a wall.",
+      "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><line x1=\"30\" y1=\"160\" x2=\"30\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"160\" x2=\"150\" y2=\"160\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"60\" x2=\"110\" y2=\"160\" stroke=\"#16A34A\" stroke-width=\"3\"/><text x=\"15\" y=\"115\" font-size=\"11\" fill=\"#374151\">8m</text><text x=\"65\" y=\"100\" font-size=\"11\" fill=\"#16A34A\">10m</text><path d=\"M 95 160 A 15 15 0 0 0 100 147\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"100\" y=\"150\" font-size=\"11\" fill=\"#EF4444\">θ</text></svg>",
+      "answers": ["53.13°", "36.87°", "45°", "60°"],
+      "correct": 0,
+      "hint": "sin(θ) = opposite/hypotenuse = 8/10"
+    },
+    {
+      "id": 39,
+      "question": "Find x. The quadrilateral is a parallelogram.",
+      "svg": "<svg width=\"200\" height=\"160\" viewBox=\"0 0 200 160\"><polygon points=\"40,130 70,40 170,40 140,130\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"100\" y=\"35\" font-size=\"12\" fill=\"#374151\">3x + 5</text><text x=\"75\" y=\"145\" font-size=\"12\" fill=\"#374151\">2x + 15</text><text x=\"45\" y=\"90\" font-size=\"12\" fill=\"#374151\">y</text><text x=\"155\" y=\"90\" font-size=\"12\" fill=\"#374151\">y</text></svg>",
+      "answers": ["10", "5", "15", "20"],
+      "correct": 0,
+      "hint": "Opposite sides of parallelogram are equal."
+    },
+    {
+      "id": 40,
+      "question": "Find the circumradius of a triangle with sides 8, 15, 17.",
+      "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><circle cx=\"100\" cy=\"95\" r=\"60\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><polygon points=\"40,95 160,95 100,35\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"95\" x2=\"160\" y2=\"95\" stroke=\"#EF4444\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"95\" y=\"165\" font-size=\"11\" fill=\"#374151\">17</text><text x=\"55\" y=\"70\" font-size=\"11\" fill=\"#374151\">8</text><text x=\"135\" y=\"70\" font-size=\"11\" fill=\"#374151\">15</text><text x=\"125\" y=\"90\" font-size=\"11\" fill=\"#EF4444\">R=?</text></svg>",
+      "answers": ["8.5", "17", "7.5", "10"],
+      "correct": 0,
+      "hint": "For right triangle, circumradius = hypotenuse/2"
+    }
+  ]
+}

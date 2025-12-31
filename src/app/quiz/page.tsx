@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import QuestionCard from "@/components/QuestionCard";
 import Timer from "@/components/Timer";
 import ProgressBar from "@/components/ProgressBar";
+import AIHelper from "@/components/AIHelper";
 import { QuizData, User, Mistake } from "@/lib/types";
 
 interface QuizState {
@@ -177,7 +178,7 @@ function QuizContent() {
             question: q.question,
             userAnswer: userAnswer !== null ? q.answers[userAnswer] : null,
             correctAnswer: q.answers[q.correct],
-            explanation: q.explanation,
+            hint: q.hint,
           };
         })
         .filter((m): m is Mistake => m !== null);
@@ -433,15 +434,34 @@ function QuizContent() {
             onSelectAnswer={handleSelectAnswer}
           />
 
-          {/* Explanation - shown by default in round 2+ */}
-          {round > 1 && (
-            <div className="rounded-2xl bg-indigo-50 p-6 shadow-lg md:p-8">
-              <p className="mb-2 text-sm font-medium text-indigo-600">Explanation:</p>
-              <p className="text-lg text-gray-700">{currentQuestion.explanation}</p>
+          {/* Hint - shown in round 2+ */}
+          {round > 1 && currentQuestion.hint && (
+            <div className="mx-auto max-w-2xl rounded-xl bg-amber-50 border-2 border-amber-200 p-4">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">💡</span>
+                <div>
+                  <p className="font-semibold text-amber-800 mb-1">Hint</p>
+                  <p className="text-amber-700">{currentQuestion.hint}</p>
+                </div>
+              </div>
             </div>
           )}
         </div>
       </main>
+
+      {/* AI Helper - shown in round 2+, fixed at bottom center */}
+      {round > 1 && (
+        <div className="fixed bottom-24 left-1/2 -translate-x-1/2 z-10">
+          <AIHelper
+            key={currentQuestion.id}
+            question={currentQuestion.question}
+            hint={currentQuestion.hint}
+            theme={quizData.theme}
+            answers={currentQuestion.answers}
+            userName={user?.name}
+          />
+        </div>
+      )}
 
       {/* Navigation */}
       <footer className="mt-6 flex justify-between gap-4">

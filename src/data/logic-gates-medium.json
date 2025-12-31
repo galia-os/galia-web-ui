@@ -1,0 +1,294 @@
+{
+  "theme": "Logic Gates & Binary",
+  "themeId": "logic-gates",
+  "level": "medium",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is this logic gate called?",
+      "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><line x1=\"20\" y1=\"40\" x2=\"55\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"80\" x2=\"55\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 55 25 Q 65 25 65 60 Q 65 95 55 95 L 55 25\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 65 25 Q 120 45 120 60 Q 120 75 65 95\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"120\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"20\" y=\"35\" font-size=\"12\" fill=\"#374151\">A</text><text x=\"20\" y=\"95\" font-size=\"12\" fill=\"#374151\">B</text><text x=\"165\" y=\"55\" font-size=\"12\" fill=\"#374151\">Q</text></svg>",
+      "answers": ["XOR gate", "OR gate", "XNOR gate", "AND gate"],
+      "correct": 0,
+      "hint": "Notice the extra curved line at the input. This 'exclusive' gate outputs 1 only when inputs are different."
+    },
+    {
+      "id": 2,
+      "question": "What is 1 XOR 1?",
+      "answers": ["0", "1", "2", "11"],
+      "correct": 0,
+      "hint": "XOR returns 1 when inputs are DIFFERENT. What happens when both inputs are the same?"
+    },
+    {
+      "id": 3,
+      "question": "What is this logic gate called?",
+      "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><line x1=\"20\" y1=\"40\" x2=\"60\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"80\" x2=\"60\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 60 25 L 60 95 Q 120 95 120 60 Q 120 25 60 25\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"60\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"136\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"20\" y=\"35\" font-size=\"12\" fill=\"#374151\">A</text><text x=\"20\" y=\"95\" font-size=\"12\" fill=\"#374151\">B</text><text x=\"165\" y=\"55\" font-size=\"12\" fill=\"#374151\">Q</text></svg>",
+      "answers": ["NAND gate", "AND gate", "NOR gate", "OR gate"],
+      "correct": 0,
+      "hint": "Look at the D-shape (AND) with a bubble at the output. The bubble means 'NOT'."
+    },
+    {
+      "id": 4,
+      "question": "What is 1 XOR 0?",
+      "answers": ["1", "0", "10", "01"],
+      "correct": 0,
+      "hint": "XOR returns 1 when inputs are DIFFERENT. Are these inputs the same or different?"
+    },
+    {
+      "id": 5,
+      "question": "What is the binary of decimal 25?",
+      "answers": ["11001", "11010", "10101", "11000"],
+      "correct": 0,
+      "hint": "Break 25 into powers of 2: 16 + 8 + 1. Mark those positions with 1s."
+    },
+    {
+      "id": 6,
+      "question": "What is 1 NAND 1?",
+      "answers": ["0", "1", "2", "11"],
+      "correct": 0,
+      "hint": "NAND means NOT-AND. First find 1 AND 1, then invert (NOT) that result."
+    },
+    {
+      "id": 7,
+      "question": "What is this logic gate called?",
+      "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><line x1=\"20\" y1=\"40\" x2=\"55\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"80\" x2=\"55\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 55 25 Q 65 25 65 60 Q 65 95 55 95 L 55 25\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 65 25 Q 120 45 120 60 Q 120 75 65 95\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"60\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"136\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"20\" y=\"35\" font-size=\"12\" fill=\"#374151\">A</text><text x=\"20\" y=\"95\" font-size=\"12\" fill=\"#374151\">B</text><text x=\"165\" y=\"55\" font-size=\"12\" fill=\"#374151\">Q</text></svg>",
+      "answers": ["NOR gate", "OR gate", "NAND gate", "XOR gate"],
+      "correct": 0,
+      "hint": "The curved shield (OR) with a bubble at output. The bubble means 'NOT'."
+    },
+    {
+      "id": 8,
+      "question": "What is 0 NOR 0?",
+      "answers": ["1", "0", "00", "2"],
+      "correct": 0,
+      "hint": "NOR means NOT-OR. First find 0 OR 0, then invert that result."
+    },
+    {
+      "id": 9,
+      "question": "What is the decimal value of binary 10110?",
+      "answers": ["22", "20", "18", "26"],
+      "correct": 0,
+      "hint": "Positions from right: 1, 2, 4, 8, 16. Add positions where there's a 1."
+    },
+    {
+      "id": 10,
+      "question": "What is 1 NOR 1?",
+      "answers": ["0", "1", "2", "11"],
+      "correct": 0,
+      "hint": "NOR means NOT-OR. First find 1 OR 1, then invert (NOT) that result."
+    },
+    {
+      "id": 11,
+      "question": "What is 0 XOR 0?",
+      "answers": ["0", "1", "00", "2"],
+      "correct": 0,
+      "hint": "XOR returns 1 when inputs are DIFFERENT. Are 0 and 0 different?"
+    },
+    {
+      "id": 12,
+      "question": "What is the binary of decimal 31?",
+      "answers": ["11111", "11110", "100000", "11101"],
+      "correct": 0,
+      "hint": "31 = 16 + 8 + 4 + 2 + 1. How many positions is that?"
+    },
+    {
+      "id": 13,
+      "question": "What is 0 NAND 1?",
+      "answers": ["1", "0", "01", "10"],
+      "correct": 0,
+      "hint": "NAND = NOT(AND). First find 0 AND 1, then invert that result."
+    },
+    {
+      "id": 14,
+      "question": "What is the output? A=1, B=1 through an XOR gate.",
+      "svg": "<svg width=\"220\" height=\"120\" viewBox=\"0 0 220 120\"><text x=\"10\" y=\"45\" font-size=\"12\" fill=\"#374151\">A=1</text><text x=\"10\" y=\"85\" font-size=\"12\" fill=\"#374151\">B=1</text><line x1=\"40\" y1=\"40\" x2=\"65\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"40\" y1=\"80\" x2=\"65\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 65 25 Q 75 25 75 60 Q 75 95 65 95 L 65 25\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 75 25 Q 130 45 130 60 Q 130 75 75 95\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"88\" y1=\"50\" x2=\"88\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"185\" y=\"65\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
+      "answers": ["0", "1", "2", "11"],
+      "correct": 0,
+      "hint": "XOR gives 1 when inputs DIFFER. When both inputs are the same..."
+    },
+    {
+      "id": 15,
+      "question": "What is 1 + 1 in binary?",
+      "answers": ["10", "2", "11", "01"],
+      "correct": 0,
+      "hint": "In binary, 1 + 1 carries over just like 9 + 1 in decimal. What's 1 + 1 with carry?"
+    },
+    {
+      "id": 16,
+      "question": "What is the decimal value of binary 11111?",
+      "answers": ["31", "30", "16", "32"],
+      "correct": 0,
+      "hint": "Add all positions: 16 + 8 + 4 + 2 + 1 = ?"
+    },
+    {
+      "id": 17,
+      "question": "What is 0 NOR 1?",
+      "answers": ["0", "1", "01", "10"],
+      "correct": 0,
+      "hint": "NOR = NOT(OR). First find 0 OR 1, then invert that result."
+    },
+    {
+      "id": 18,
+      "question": "What is the output? A=0, B=1 through a NAND gate.",
+      "svg": "<svg width=\"220\" height=\"120\" viewBox=\"0 0 220 120\"><text x=\"10\" y=\"45\" font-size=\"12\" fill=\"#374151\">A=0</text><text x=\"10\" y=\"85\" font-size=\"12\" fill=\"#374151\">B=1</text><line x1=\"40\" y1=\"40\" x2=\"70\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"40\" y1=\"80\" x2=\"70\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 70 25 L 70 95 Q 130 95 130 60 Q 130 25 70 25\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"138\" cy=\"60\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"146\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"185\" y=\"65\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
+      "answers": ["1", "0", "01", "10"],
+      "correct": 0,
+      "hint": "NAND = NOT(AND). First calculate AND, then invert."
+    },
+    {
+      "id": 19,
+      "question": "What is the binary of decimal 20?",
+      "answers": ["10100", "10010", "11000", "10110"],
+      "correct": 0,
+      "hint": "20 = 16 + 4. Which positions need 1s?"
+    },
+    {
+      "id": 20,
+      "question": "What is 11 + 1 in binary?",
+      "answers": ["100", "12", "111", "110"],
+      "correct": 0,
+      "hint": "11 in binary is 3 in decimal. Add 1, then convert back to binary."
+    },
+    {
+      "id": 21,
+      "question": "What is 1 NAND 0?",
+      "answers": ["1", "0", "10", "01"],
+      "correct": 0,
+      "hint": "NAND = NOT(AND). What's 1 AND 0? Then invert it."
+    },
+    {
+      "id": 22,
+      "question": "How many bits are in 1 byte?",
+      "answers": ["8", "4", "16", "2"],
+      "correct": 0,
+      "hint": "A byte is the standard unit for a character. It contains enough bits to represent 256 values."
+    },
+    {
+      "id": 23,
+      "question": "What is the decimal value of binary 100000?",
+      "answers": ["32", "64", "16", "100"],
+      "correct": 0,
+      "hint": "Count the position of the 1 from the right (starting at 0). It's 2 raised to that power."
+    },
+    {
+      "id": 24,
+      "question": "What is NOT(A AND B) equivalent to?",
+      "answers": ["A NAND B", "A NOR B", "A XOR B", "A OR B"],
+      "correct": 0,
+      "hint": "What gate is literally defined as NOT followed by AND?"
+    },
+    {
+      "id": 25,
+      "question": "What is the binary of decimal 50?",
+      "answers": ["110010", "101010", "110001", "100110"],
+      "correct": 0,
+      "hint": "50 = 32 + 16 + 2. Mark those positions with 1s."
+    },
+    {
+      "id": 26,
+      "question": "What is 101 + 11 in binary?",
+      "answers": ["1000", "110", "111", "1001"],
+      "correct": 0,
+      "hint": "101 = 5 and 11 = 3 in decimal. Find their sum and convert back."
+    },
+    {
+      "id": 27,
+      "question": "What is NOT(A OR B) equivalent to?",
+      "answers": ["A NOR B", "A NAND B", "A XOR B", "A AND B"],
+      "correct": 0,
+      "hint": "What gate is literally defined as NOT followed by OR?"
+    },
+    {
+      "id": 28,
+      "question": "What is the decimal value of binary 101010?",
+      "answers": ["42", "40", "44", "52"],
+      "correct": 0,
+      "hint": "Positions with 1s are 32, 8, and 2. Add them up."
+    },
+    {
+      "id": 29,
+      "question": "What is 0 NAND 0?",
+      "answers": ["1", "0", "00", "2"],
+      "correct": 0,
+      "hint": "NAND = NOT(AND). First find 0 AND 0, then invert."
+    },
+    {
+      "id": 30,
+      "question": "What is the binary of decimal 63?",
+      "answers": ["111111", "111110", "1000000", "111101"],
+      "correct": 0,
+      "hint": "63 = 32 + 16 + 8 + 4 + 2 + 1. That's all six positions!"
+    },
+    {
+      "id": 31,
+      "question": "If A=1, B=0, what is A XOR B?",
+      "answers": ["1", "0", "10", "01"],
+      "correct": 0,
+      "hint": "XOR gives 1 when inputs are DIFFERENT. Are 1 and 0 different?"
+    },
+    {
+      "id": 32,
+      "question": "What is 1111 + 1 in binary?",
+      "answers": ["10000", "11111", "10001", "1110"],
+      "correct": 0,
+      "hint": "1111 = 15 in decimal. Add 1 and convert the result to binary."
+    },
+    {
+      "id": 33,
+      "question": "What is the maximum value a byte can hold (unsigned)?",
+      "answers": ["255", "256", "128", "127"],
+      "correct": 0,
+      "hint": "8 bits all set to 1: what's the sum of 128+64+32+16+8+4+2+1?"
+    },
+    {
+      "id": 34,
+      "question": "What is the decimal value of binary 1000000?",
+      "answers": ["64", "128", "32", "100"],
+      "correct": 0,
+      "hint": "The 1 is in the 7th position from right (starting at position 0). What's 2^6?"
+    },
+    {
+      "id": 35,
+      "question": "What gate is also called an inverter?",
+      "answers": ["NOT gate", "AND gate", "OR gate", "XOR gate"],
+      "correct": 0,
+      "hint": "Which gate takes one input and 'inverts' or flips it?"
+    },
+    {
+      "id": 36,
+      "question": "What is the binary of decimal 100?",
+      "answers": ["1100100", "1100000", "1010100", "1100110"],
+      "correct": 0,
+      "hint": "100 = 64 + 32 + 4. Mark those positions with 1s."
+    },
+    {
+      "id": 37,
+      "question": "What is 1010 - 11 in binary?",
+      "answers": ["111", "1000", "1001", "110"],
+      "correct": 0,
+      "hint": "1010 = 10 and 11 = 3 in decimal. Subtract and convert back."
+    },
+    {
+      "id": 38,
+      "question": "Which gate outputs 1 when inputs are different?",
+      "answers": ["XOR gate", "AND gate", "OR gate", "NAND gate"],
+      "correct": 0,
+      "hint": "This 'exclusive' gate returns 1 only when exactly one input is 1."
+    },
+    {
+      "id": 39,
+      "question": "What is the decimal value of binary 1100100?",
+      "answers": ["100", "200", "50", "64"],
+      "correct": 0,
+      "hint": "The 1s are at positions 64, 32, and 4. Add them up."
+    },
+    {
+      "id": 40,
+      "question": "A NAND gate with both inputs connected together acts as what gate?",
+      "answers": ["NOT gate", "AND gate", "OR gate", "Buffer"],
+      "correct": 0,
+      "hint": "When A = B, NAND gives NOT(A AND A) = NOT(A). That's equivalent to which gate?"
+    }
+  ]
+}
