@@ -8,281 +8,481 @@
     {
       "id": 1,
       "question": "Tom has 5 red apples and 3 green apples. His friend Sarah, who is 10 years old, gives him 4 more apples. How many apples does Tom have now?",
-      "answers": ["12 apples", "8 apples", "9 apples", "15 apples"],
+      "answers": [
+        "12 apples",
+        "9 apples",
+        "8 apples",
+        "15 apples"
+      ],
       "correct": 0,
       "hint": "Add all the apples together. Sarah's age doesn't affect the count!"
     },
     {
       "id": 2,
       "question": "A blue car travels 60 km in 2 hours. The car weighs 1,500 kg. What is the car's speed?",
-      "answers": ["30 km/h", "120 km/h", "62 km/h", "58 km/h"],
-      "correct": 0,
+      "answers": [
+        "120 km/h",
+        "62 km/h",
+        "58 km/h",
+        "30 km/h"
+      ],
+      "correct": 3,
       "hint": "Speed = distance ÷ time. The car's weight doesn't affect the calculation."
     },
     {
       "id": 3,
       "question": "Emma bought 6 pencils for $2 each. The shop opened at 9 AM and has 3 floors. How much did she spend?",
-      "answers": ["$12", "$8", "$18", "$6"],
+      "answers": [
+        "$12",
+        "$18",
+        "$8",
+        "$6"
+      ],
       "correct": 0,
       "hint": "Multiply the number of pencils by the price each. Shop details don't matter."
     },
     {
       "id": 4,
       "question": "There are 24 students in a class. 8 students wear glasses and 15 brought lunch. How many students don't wear glasses?",
-      "answers": ["16 students", "9 students", "15 students", "8 students"],
-      "correct": 0,
+      "answers": [
+        "15 students",
+        "9 students",
+        "16 students",
+        "8 students"
+      ],
+      "correct": 2,
       "hint": "Subtract the glasses-wearers from the total. The lunch info is a distraction."
     },
     {
       "id": 5,
       "question": "A rectangle is 8 cm long and 5 cm wide. It's drawn on yellow paper. What is its perimeter?",
-      "answers": ["26 cm", "40 cm", "13 cm", "21 cm"],
-      "correct": 0,
+      "answers": [
+        "40 cm",
+        "26 cm",
+        "13 cm",
+        "21 cm"
+      ],
+      "correct": 1,
       "hint": "Perimeter = 2 × (length + width). Paper color doesn't affect the shape."
     },
     {
       "id": 6,
       "question": "Jake has 15 marbles. His sister is 7 years old. He gives away 6 marbles. How many does he have left?",
-      "answers": ["9 marbles", "21 marbles", "8 marbles", "22 marbles"],
-      "correct": 0,
+      "answers": [
+        "21 marbles",
+        "22 marbles",
+        "9 marbles",
+        "8 marbles"
+      ],
+      "correct": 2,
       "hint": "Start with what Jake has, subtract what he gives away. Sister's age is irrelevant."
     },
     {
       "id": 7,
       "question": "A book has 120 pages. The cover is blue and it costs $15. If you read 30 pages per day, how many days to finish?",
-      "answers": ["4 days", "90 days", "150 days", "5 days"],
-      "correct": 0,
+      "answers": [
+        "5 days",
+        "150 days",
+        "90 days",
+        "4 days"
+      ],
+      "correct": 3,
       "hint": "Divide total pages by pages per day. Cover color and price don't matter."
     },
     {
       "id": 8,
       "question": "Maria has 3 cats and 2 dogs. She lives on Oak Street and is 12 years old. How many pets does she have?",
-      "answers": ["5 pets", "6 pets", "12 pets", "17 pets"],
+      "answers": [
+        "5 pets",
+        "17 pets",
+        "6 pets",
+        "12 pets"
+      ],
       "correct": 0,
       "hint": "Add cats and dogs together. Street and age are distractions."
     },
     {
       "id": 9,
       "question": "A pizza is cut into 8 slices. The pizza is pepperoni flavor and costs $16. If 3 slices are eaten, how many remain?",
-      "answers": ["5 slices", "11 slices", "24 slices", "3 slices"],
+      "answers": [
+        "5 slices",
+        "11 slices",
+        "3 slices",
+        "24 slices"
+      ],
       "correct": 0,
       "hint": "Start with total slices, subtract eaten slices. Flavor and cost don't matter."
     },
     {
       "id": 10,
       "question": "Sam runs 4 km each morning. He wears red shoes and starts at 6 AM. How far does he run in 5 days?",
-      "answers": ["20 km", "9 km", "24 km", "30 km"],
-      "correct": 0,
+      "answers": [
+        "9 km",
+        "20 km",
+        "24 km",
+        "30 km"
+      ],
+      "correct": 1,
       "hint": "Multiply daily distance by number of days. Shoe color and start time are irrelevant."
     },
     {
       "id": 11,
       "question": "A tree is 12 meters tall. It's an oak tree planted 20 years ago. A bird sits 4 meters from the top. How high is the bird?",
-      "answers": ["8 meters", "16 meters", "4 meters", "32 meters"],
-      "correct": 0,
+      "answers": [
+        "16 meters",
+        "32 meters",
+        "4 meters",
+        "8 meters"
+      ],
+      "correct": 3,
       "hint": "Subtract the distance from top from the total height. Tree type and age don't matter."
     },
     {
       "id": 12,
       "question": "Lisa bought 4 notebooks at $3 each. The store is on Main Street and has 50 employees. How much did she pay?",
-      "answers": ["$12", "$7", "$54", "$150"],
-      "correct": 0,
+      "answers": [
+        "$7",
+        "$54",
+        "$12",
+        "$150"
+      ],
+      "correct": 2,
       "hint": "Multiply quantity by price per item. Store location and employees are distractions."
     },
     {
       "id": 13,
       "question": "A bus can carry 40 passengers. The bus is yellow and the driver's name is Bob. If 28 people are on board, how many empty seats?",
-      "answers": ["12 seats", "68 seats", "28 seats", "40 seats"],
-      "correct": 0,
+      "answers": [
+        "68 seats",
+        "12 seats",
+        "28 seats",
+        "40 seats"
+      ],
+      "correct": 1,
       "hint": "Subtract current passengers from capacity. Color and driver's name don't matter."
     },
     {
       "id": 14,
       "question": "Ben has $25. He earns $10 mowing lawns on Saturday. His birthday is in March. How much money does he have now?",
-      "answers": ["$35", "$15", "$250", "$25"],
-      "correct": 0,
+      "answers": [
+        "$250",
+        "$15",
+        "$35",
+        "$25"
+      ],
+      "correct": 2,
       "hint": "Add what he earns to what he had. Birthday month is irrelevant."
     },
     {
       "id": 15,
       "question": "A garden has 6 rows of flowers with 8 flowers in each row. The flowers are tulips and bloom in spring. How many flowers total?",
-      "answers": ["48 flowers", "14 flowers", "56 flowers", "86 flowers"],
-      "correct": 0,
+      "answers": [
+        "56 flowers",
+        "14 flowers",
+        "86 flowers",
+        "48 flowers"
+      ],
+      "correct": 3,
       "hint": "Multiply rows by flowers per row. Flower type and season don't affect the count."
     },
     {
       "id": 16,
       "question": "Amy walked 2 km to school and 2 km back. She wore her blue backpack and met 5 friends. How far did she walk in total?",
-      "answers": ["4 km", "9 km", "7 km", "10 km"],
+      "answers": [
+        "4 km",
+        "7 km",
+        "9 km",
+        "10 km"
+      ],
       "correct": 0,
       "hint": "Add the distance there and back. Backpack color and friends are distractions."
     },
     {
       "id": 17,
       "question": "A movie is 90 minutes long. It stars Tom Hanks and was released in 2020. If you've watched 35 minutes, how much is left?",
-      "answers": ["55 minutes", "125 minutes", "35 minutes", "45 minutes"],
+      "answers": [
+        "55 minutes",
+        "125 minutes",
+        "35 minutes",
+        "45 minutes"
+      ],
       "correct": 0,
       "hint": "Subtract watched time from total time. Actor and release year don't matter."
     },
     {
       "id": 18,
       "question": "Peter has 18 toy cars. 6 are red, 7 are blue, and the rest are green. His room is on the second floor. How many green cars?",
-      "answers": ["5 cars", "13 cars", "11 cars", "18 cars"],
-      "correct": 0,
+      "answers": [
+        "18 cars",
+        "11 cars",
+        "13 cars",
+        "5 cars"
+      ],
+      "correct": 3,
       "hint": "Total minus red minus blue equals green. Room location is irrelevant."
     },
     {
       "id": 19,
       "question": "A cake weighs 2 kg. It's chocolate flavored and was baked by grandma. If it's cut into 8 equal pieces, how much does each weigh?",
-      "answers": ["250 g", "4 kg", "16 kg", "500 g"],
-      "correct": 0,
+      "answers": [
+        "16 kg",
+        "4 kg",
+        "250 g",
+        "500 g"
+      ],
+      "correct": 2,
       "hint": "Divide total weight by number of pieces. Convert kg to g if needed. Flavor and baker don't matter."
     },
     {
       "id": 20,
       "question": "There are 30 birds in a tree. The tree is in Central Park and is 50 years old. If 12 birds fly away, how many remain?",
-      "answers": ["18 birds", "42 birds", "38 birds", "80 birds"],
-      "correct": 0,
+      "answers": [
+        "38 birds",
+        "80 birds",
+        "42 birds",
+        "18 birds"
+      ],
+      "correct": 3,
       "hint": "Subtract birds that leave from the starting count. Location and tree age are distractions."
     },
     {
       "id": 21,
       "question": "Kate reads 15 pages per hour. Her favorite author is J.K. Rowling. How many pages can she read in 3 hours?",
-      "answers": ["45 pages", "18 pages", "5 pages", "12 pages"],
+      "answers": [
+        "45 pages",
+        "5 pages",
+        "12 pages",
+        "18 pages"
+      ],
       "correct": 0,
       "hint": "Multiply pages per hour by number of hours. Favorite author doesn't affect speed."
     },
     {
       "id": 22,
       "question": "A box contains 36 chocolates. The box is square and has a red ribbon. If 4 children share equally, how many each?",
-      "answers": ["9 chocolates", "32 chocolates", "40 chocolates", "144 chocolates"],
-      "correct": 0,
+      "answers": [
+        "40 chocolates",
+        "32 chocolates",
+        "144 chocolates",
+        "9 chocolates"
+      ],
+      "correct": 3,
       "hint": "Divide total chocolates by number of children. Box shape and ribbon are irrelevant."
     },
     {
       "id": 23,
       "question": "David's fish tank holds 50 liters. The tank is glass and sits near the window. He adds 12 liters of water. It had 30 liters. How full now?",
-      "answers": ["42 liters", "92 liters", "38 liters", "18 liters"],
-      "correct": 0,
+      "answers": [
+        "92 liters",
+        "38 liters",
+        "18 liters",
+        "42 liters"
+      ],
+      "correct": 3,
       "hint": "Add the new water to what was already there. Material and location don't matter."
     },
     {
       "id": 24,
       "question": "A train has 8 carriages with 45 seats each. The train is blue and travels at 120 km/h. How many seats total?",
-      "answers": ["360 seats", "53 seats", "165 seats", "960 seats"],
-      "correct": 0,
+      "answers": [
+        "165 seats",
+        "360 seats",
+        "960 seats",
+        "53 seats"
+      ],
+      "correct": 1,
       "hint": "Multiply carriages by seats per carriage. Color and speed are distractions."
     },
     {
       "id": 25,
       "question": "Sophie scored 85 on her math test and 90 on science. Her teacher's name is Mrs. Smith. What's her total score?",
-      "answers": ["175", "5", "85", "90"],
-      "correct": 0,
+      "answers": [
+        "85",
+        "175",
+        "90",
+        "5"
+      ],
+      "correct": 1,
       "hint": "Add the two test scores together. Teacher's name is irrelevant."
     },
     {
       "id": 26,
       "question": "A pool is 25 m long. The water temperature is 28°C. Tom swims 4 lengths. How far did he swim?",
-      "answers": ["100 m", "29 m", "112 m", "53 m"],
+      "answers": [
+        "100 m",
+        "29 m",
+        "53 m",
+        "112 m"
+      ],
       "correct": 0,
       "hint": "Multiply pool length by number of lengths. Water temperature doesn't affect distance."
     },
     {
       "id": 27,
       "question": "Lucy has 24 stickers. She got them at a party on Saturday. She gives 8 to her friend. How many does she have left?",
-      "answers": ["16 stickers", "32 stickers", "8 stickers", "24 stickers"],
+      "answers": [
+        "16 stickers",
+        "24 stickers",
+        "8 stickers",
+        "32 stickers"
+      ],
       "correct": 0,
       "hint": "Start with total, subtract what she gives away. When/where she got them doesn't matter."
     },
     {
       "id": 28,
       "question": "A square has sides of 7 cm. It's drawn in black ink on white paper. What is its area?",
-      "answers": ["49 cm²", "28 cm²", "14 cm²", "21 cm²"],
+      "answers": [
+        "49 cm²",
+        "21 cm²",
+        "14 cm²",
+        "28 cm²"
+      ],
       "correct": 0,
       "hint": "Area of square = side × side. Ink and paper colors are distractions."
     },
     {
       "id": 29,
       "question": "Mike bought 5 apples at 60 cents each. The apples are from California and are organic. How much did he spend?",
-      "answers": ["$3.00", "$5.60", "$65", "$0.65"],
+      "answers": [
+        "$3.00",
+        "$65",
+        "$0.65",
+        "$5.60"
+      ],
       "correct": 0,
       "hint": "Multiply quantity by price each. Origin and organic status don't affect cost."
     },
     {
       "id": 30,
       "question": "A class has 32 students. 14 are boys. The classroom is Room 204 on the first floor. How many are girls?",
-      "answers": ["18 girls", "46 girls", "14 girls", "236 girls"],
-      "correct": 0,
+      "answers": [
+        "46 girls",
+        "14 girls",
+        "236 girls",
+        "18 girls"
+      ],
+      "correct": 3,
       "hint": "Total students minus boys equals girls. Room number and floor are irrelevant."
     },
     {
       "id": 31,
       "question": "A rope is 15 m long. It's made of nylon and is blue. If you cut off 6 m, how long is the remaining piece?",
-      "answers": ["9 m", "21 m", "90 m", "6 m"],
-      "correct": 0,
+      "answers": [
+        "6 m",
+        "21 m",
+        "9 m",
+        "90 m"
+      ],
+      "correct": 2,
       "hint": "Subtract the cut length from the total. Material and color don't matter."
     },
     {
       "id": 32,
       "question": "Jenny baked 24 cookies. The oven was set to 180°C. She gives 9 to neighbors. How many cookies does she have?",
-      "answers": ["15 cookies", "33 cookies", "204 cookies", "9 cookies"],
-      "correct": 0,
+      "answers": [
+        "204 cookies",
+        "9 cookies",
+        "33 cookies",
+        "15 cookies"
+      ],
+      "correct": 3,
       "hint": "Start with total baked, subtract what she gives away. Oven temperature is irrelevant."
     },
     {
       "id": 33,
       "question": "A bag holds 20 candies. The bag is plastic and from the corner store. If Tom takes 7 candies, how many are left?",
-      "answers": ["13 candies", "27 candies", "7 candies", "140 candies"],
+      "answers": [
+        "13 candies",
+        "7 candies",
+        "27 candies",
+        "140 candies"
+      ],
       "correct": 0,
       "hint": "Total minus taken equals remaining. Bag material and store don't matter."
     },
     {
       "id": 34,
       "question": "Dad drives 45 km to work. His car is silver and he leaves at 7:30 AM. How far does he drive for a round trip?",
-      "answers": ["90 km", "52.5 km", "45 km", "37.5 km"],
-      "correct": 0,
+      "answers": [
+        "37.5 km",
+        "52.5 km",
+        "45 km",
+        "90 km"
+      ],
+      "correct": 3,
       "hint": "Round trip means there and back - multiply one-way by 2. Car color and time are distractions."
     },
     {
       "id": 35,
       "question": "A shelf has 4 rows of books with 9 books per row. The shelf is wooden and brown. How many books total?",
-      "answers": ["36 books", "13 books", "45 books", "49 books"],
+      "answers": [
+        "36 books",
+        "45 books",
+        "49 books",
+        "13 books"
+      ],
       "correct": 0,
       "hint": "Multiply rows by books per row. Material and color are irrelevant."
     },
     {
       "id": 36,
       "question": "Sara has 50 beads. Her favorite color is purple. She uses 18 beads for a bracelet. How many beads are left?",
-      "answers": ["32 beads", "68 beads", "18 beads", "900 beads"],
+      "answers": [
+        "32 beads",
+        "68 beads",
+        "900 beads",
+        "18 beads"
+      ],
       "correct": 0,
       "hint": "Start with total, subtract what she uses. Favorite color doesn't affect the count."
     },
     {
       "id": 37,
       "question": "A bicycle costs $150. The bike is from Japan and has 21 gears. If Mark saves $25 per week, how many weeks to buy it?",
-      "answers": ["6 weeks", "175 weeks", "125 weeks", "3,750 weeks"],
-      "correct": 0,
+      "answers": [
+        "3,750 weeks",
+        "6 weeks",
+        "125 weeks",
+        "175 weeks"
+      ],
+      "correct": 1,
       "hint": "Divide total cost by weekly savings. Origin and gears don't affect the calculation."
     },
     {
       "id": 38,
       "question": "A box weighs 8 kg. The box is cardboard and was shipped on Monday. If you have 3 boxes, what's the total weight?",
-      "answers": ["24 kg", "11 kg", "5 kg", "8 kg"],
-      "correct": 0,
+      "answers": [
+        "5 kg",
+        "8 kg",
+        "11 kg",
+        "24 kg"
+      ],
+      "correct": 3,
       "hint": "Multiply weight per box by number of boxes. Material and shipping day are distractions."
     },
     {
       "id": 39,
       "question": "There are 60 minutes in an hour. Clocks can be digital or analog. How many minutes in 4 hours?",
-      "answers": ["240 minutes", "64 minutes", "56 minutes", "15 minutes"],
-      "correct": 0,
+      "answers": [
+        "15 minutes",
+        "240 minutes",
+        "56 minutes",
+        "64 minutes"
+      ],
+      "correct": 1,
       "hint": "Multiply minutes per hour by number of hours. Clock types are irrelevant."
     },
     {
       "id": 40,
       "question": "Anna plants 5 seeds per pot. She uses brown pots from the garden center. If she has 7 pots, how many seeds does she need?",
-      "answers": ["35 seeds", "12 seeds", "2 seeds", "57 seeds"],
-      "correct": 0,
+      "answers": [
+        "12 seeds",
+        "57 seeds",
+        "2 seeds",
+        "35 seeds"
+      ],
+      "correct": 3,
       "hint": "Multiply seeds per pot by number of pots. Pot color and source don't matter."
     }
   ]

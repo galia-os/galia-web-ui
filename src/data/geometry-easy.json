@@ -9,7 +9,12 @@
       "id": 1,
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">8 cm</text><text x=\"190\" y=\"65\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">5 cm</text></svg>",
-      "answers": ["40 cm²", "26 cm²", "13 cm²", "80 cm²"],
+      "answers": [
+        "40 cm²",
+        "26 cm²",
+        "80 cm²",
+        "13 cm²"
+      ],
       "correct": 0,
       "hint": "Area of rectangle = length × width. What is 8 × 5?"
     },
@@ -17,63 +22,103 @@
       "id": 2,
       "question": "What type of angle is this?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"30\" y1=\"120\" x2=\"170\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"120\" x2=\"30\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 30 100 A 20 20 0 0 1 50 120\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"55\" y=\"105\" font-size=\"14\" fill=\"#EF4444\">90°</text></svg>",
-      "answers": ["Acute", "Right", "Obtuse", "Straight"],
-      "correct": 1,
+      "answers": [
+        "Acute",
+        "Straight",
+        "Right",
+        "Obtuse"
+      ],
+      "correct": 2,
       "hint": "What do we call an angle that measures exactly 90 degrees?"
     },
     {
       "id": 3,
       "question": "What is the perimeter of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
-      "answers": ["36 cm", "24 cm", "12 cm", "18 cm"],
-      "correct": 1,
+      "answers": [
+        "24 cm",
+        "12 cm",
+        "18 cm",
+        "36 cm"
+      ],
+      "correct": 0,
       "hint": "Perimeter of square = 4 × side. All sides are equal!"
     },
     {
       "id": 4,
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
-      "answers": ["60 cm²", "30 cm²", "16 cm²", "20 cm²"],
-      "correct": 1,
+      "answers": [
+        "20 cm²",
+        "16 cm²",
+        "60 cm²",
+        "30 cm²"
+      ],
+      "correct": 3,
       "hint": "Area of triangle = (base × height) ÷ 2"
     },
     {
       "id": 5,
       "question": "What type of angle is this?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"30\" y1=\"120\" x2=\"170\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"120\" x2=\"120\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 30 100 A 20 20 0 0 1 50 120\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"60\" y=\"100\" font-size=\"14\" fill=\"#EF4444\">45°</text></svg>",
-      "answers": ["Acute", "Right", "Obtuse", "Reflex"],
-      "correct": 0,
+      "answers": [
+        "Obtuse",
+        "Reflex",
+        "Right",
+        "Acute"
+      ],
+      "correct": 3,
       "hint": "An angle less than 90° is called what?"
     },
     {
       "id": 6,
       "question": "What is the perimeter of this rectangle?",
       "svg": "<svg width=\"220\" height=\"120\" viewBox=\"0 0 220 120\"><rect x=\"20\" y=\"20\" width=\"180\" height=\"70\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"110\" y=\"105\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">12 cm</text><text x=\"210\" y=\"60\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">4 cm</text></svg>",
-      "answers": ["48 cm", "16 cm", "32 cm", "24 cm"],
-      "correct": 2,
+      "answers": [
+        "16 cm",
+        "24 cm",
+        "48 cm",
+        "32 cm"
+      ],
+      "correct": 3,
       "hint": "Perimeter = 2 × (length + width)"
     },
     {
       "id": 7,
       "question": "How many sides does this shape have?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,10 170,60 150,150 30,150 10,60\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/></svg>",
-      "answers": ["4", "6", "5", "8"],
-      "correct": 2,
+      "answers": [
+        "5",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 0,
       "hint": "Count the sides carefully. This shape is called a pentagon."
     },
     {
       "id": 8,
       "question": "What is the area of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">7 cm</text></svg>",
-      "answers": ["28 cm²", "14 cm²", "49 cm²", "21 cm²"],
-      "correct": 2,
+      "answers": [
+        "28 cm²",
+        "49 cm²",
+        "21 cm²",
+        "14 cm²"
+      ],
+      "correct": 1,
       "hint": "Area of square = side × side"
     },
     {
       "id": 9,
       "question": "What type of angle is this?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"30\" y1=\"100\" x2=\"170\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"100\" x2=\"80\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 30 80 A 20 20 0 0 1 50 100\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"60\" y=\"75\" font-size=\"14\" fill=\"#EF4444\">120°</text></svg>",
-      "answers": ["Acute", "Right", "Obtuse", "Straight"],
+      "answers": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
       "correct": 2,
       "hint": "An angle greater than 90° but less than 180° is called what?"
     },
@@ -81,15 +126,25 @@
       "id": 10,
       "question": "What 3D shape does this net fold into?",
       "svg": "<svg width=\"200\" height=\"200\" viewBox=\"0 0 200 200\"><rect x=\"70\" y=\"10\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"70\" y=\"70\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"10\" y=\"70\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"130\" y=\"70\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"70\" y=\"130\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
-      "answers": ["Pyramid", "Cube", "Cylinder", "Cone"],
-      "correct": 1,
+      "answers": [
+        "Cylinder",
+        "Cone",
+        "Cube",
+        "Pyramid"
+      ],
+      "correct": 2,
       "hint": "Count the square faces. A cube has 6 square faces - but this net is missing one!"
     },
     {
       "id": 11,
       "question": "What is the missing angle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 80 A 20 20 0 0 1 120 100\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 80 100 A 20 20 0 0 1 100 80\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"90\" font-size=\"14\" fill=\"#16A34A\">?</text><text x=\"65\" y=\"90\" font-size=\"14\" fill=\"#EF4444\">55°</text></svg>",
-      "answers": ["125°", "35°", "45°", "55°"],
+      "answers": [
+        "125°",
+        "35°",
+        "45°",
+        "55°"
+      ],
       "correct": 1,
       "hint": "Angles on a straight line add up to 180°. If one side is 90°..."
     },
@@ -97,15 +152,25 @@
       "id": 12,
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"140\" viewBox=\"0 0 200 140\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"90\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"125\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"190\" y=\"70\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">7 cm</text></svg>",
-      "answers": ["17 cm²", "34 cm²", "70 cm²", "35 cm²"],
-      "correct": 2,
+      "answers": [
+        "34 cm²",
+        "17 cm²",
+        "35 cm²",
+        "70 cm²"
+      ],
+      "correct": 3,
       "hint": "Area = length × width"
     },
     {
       "id": 13,
       "question": "How many faces does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
-      "answers": ["4", "8", "6", "12"],
+      "answers": [
+        "8",
+        "12",
+        "6",
+        "4"
+      ],
       "correct": 2,
       "hint": "A cube has square faces on all sides - top, bottom, front, back, left, right."
     },
@@ -113,71 +178,116 @@
       "id": 14,
       "question": "What is the perimeter of this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
-      "answers": ["18 cm", "27 cm", "24 cm", "21 cm"],
-      "correct": 2,
+      "answers": [
+        "21 cm",
+        "27 cm",
+        "18 cm",
+        "24 cm"
+      ],
+      "correct": 3,
       "hint": "Add all three sides together."
     },
     {
       "id": 15,
       "question": "What type of triangle is this?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" font-size=\"12\" fill=\"#374151\">8 cm</text><text x=\"145\" y=\"95\" font-size=\"12\" fill=\"#374151\">8 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">8 cm</text></svg>",
-      "answers": ["Scalene", "Isosceles", "Equilateral", "Right"],
-      "correct": 2,
+      "answers": [
+        "Equilateral",
+        "Right",
+        "Isosceles",
+        "Scalene"
+      ],
+      "correct": 0,
       "hint": "What do we call a triangle where all sides are equal?"
     },
     {
       "id": 16,
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"20,130 180,130 20,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">8 cm</text><text x=\"10\" y=\"85\" font-size=\"14\" fill=\"#374151\">5 cm</text><path d=\"M 20 110 L 35 110 L 35 130\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"1\"/></svg>",
-      "answers": ["40 cm²", "13 cm²", "20 cm²", "26 cm²"],
-      "correct": 2,
+      "answers": [
+        "13 cm²",
+        "26 cm²",
+        "40 cm²",
+        "20 cm²"
+      ],
+      "correct": 3,
       "hint": "Area = (base × height) ÷ 2"
     },
     {
       "id": 17,
       "question": "What 3D shape does this net fold into?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,10 60,80 140,80\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><polygon points=\"60,80 20,150 100,150\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><polygon points=\"140,80 100,150 180,150\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><polygon points=\"60,80 100,150 140,80\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/></svg>",
-      "answers": ["Cube", "Triangular pyramid", "Cone", "Prism"],
-      "correct": 1,
+      "answers": [
+        "Cone",
+        "Prism",
+        "Triangular pyramid",
+        "Cube"
+      ],
+      "correct": 2,
       "hint": "This net has 4 triangular faces. What 3D shape has all triangular faces?"
     },
     {
       "id": 18,
       "question": "What is the missing angle in this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"95\" y=\"50\" font-size=\"14\" fill=\"#EF4444\">?</text><text x=\"35\" y=\"140\" font-size=\"14\" fill=\"#374151\">60°</text><text x=\"150\" y=\"140\" font-size=\"14\" fill=\"#374151\">70°</text></svg>",
-      "answers": ["130°", "50°", "60°", "70°"],
-      "correct": 1,
+      "answers": [
+        "50°",
+        "130°",
+        "60°",
+        "70°"
+      ],
+      "correct": 0,
       "hint": "Angles in a triangle add up to 180°."
     },
     {
       "id": 19,
       "question": "How many edges does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
-      "answers": ["6", "8", "12", "10"],
-      "correct": 2,
+      "answers": [
+        "12",
+        "10",
+        "8",
+        "6"
+      ],
+      "correct": 0,
       "hint": "Count the lines where two faces meet."
     },
     {
       "id": 20,
       "question": "What is the perimeter of this shape?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><path d=\"M 20 130 L 20 50 L 100 50 L 100 80 L 180 80 L 180 130 Z\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"10\" y=\"95\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"55\" y=\"45\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"105\" y=\"70\" font-size=\"12\" fill=\"#374151\">2</text><text x=\"135\" y=\"75\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"185\" y=\"110\" font-size=\"12\" fill=\"#374151\">3</text><text x=\"100\" y=\"145\" font-size=\"12\" fill=\"#374151\">8</text></svg>",
-      "answers": ["25 cm", "20 cm", "24 cm", "18 cm"],
-      "correct": 0,
+      "answers": [
+        "18 cm",
+        "25 cm",
+        "24 cm",
+        "20 cm"
+      ],
+      "correct": 1,
       "hint": "Add up all the outer edges: 4+4+2+4+3+8 = ?"
     },
     {
       "id": 21,
       "question": "What type of triangle is this?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"20,150 110,150 20,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><path d=\"M 20 130 L 40 130 L 40 150\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"60\" y=\"165\" font-size=\"12\" fill=\"#374151\">6 cm</text><text x=\"10\" y=\"95\" font-size=\"12\" fill=\"#374151\">8 cm</text></svg>",
-      "answers": ["Equilateral", "Isosceles", "Right", "Obtuse"],
-      "correct": 2,
+      "answers": [
+        "Isosceles",
+        "Right",
+        "Obtuse",
+        "Equilateral"
+      ],
+      "correct": 1,
       "hint": "The small square in the corner indicates what type of angle?"
     },
     {
       "id": 22,
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"190\" y=\"65\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">4 cm</text></svg>",
-      "answers": ["26 cm²", "36 cm²", "13 cm²", "18 cm²"],
+      "answers": [
+        "13 cm²",
+        "36 cm²",
+        "26 cm²",
+        "18 cm²"
+      ],
       "correct": 1,
       "hint": "Area = length × width"
     },
@@ -185,7 +295,12 @@
       "id": 23,
       "question": "How many vertices does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"80\" cy=\"30\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"130\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"30\" cy=\"110\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"80\" cy=\"130\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"130\" cy=\"110\" r=\"4\" fill=\"#EF4444\"/></svg>",
-      "answers": ["6", "8", "12", "4"],
+      "answers": [
+        "6",
+        "8",
+        "12",
+        "4"
+      ],
       "correct": 1,
       "hint": "Vertices are the corners. Count the red dots and remember there are hidden ones!"
     },
@@ -193,63 +308,103 @@
       "id": 24,
       "question": "What is a straight angle?",
       "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"3\"/><circle cx=\"100\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><path d=\"M 80 50 A 20 20 0 0 1 120 50\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"100\" y=\"35\" text-anchor=\"middle\" font-size=\"14\" fill=\"#EF4444\">?°</text></svg>",
-      "answers": ["90°", "360°", "180°", "270°"],
-      "correct": 2,
+      "answers": [
+        "180°",
+        "360°",
+        "90°",
+        "270°"
+      ],
+      "correct": 0,
       "hint": "A straight line makes what angle?"
     },
     {
       "id": 25,
       "question": "What is the perimeter of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">9 cm</text></svg>",
-      "answers": ["81 cm", "18 cm", "36 cm", "27 cm"],
-      "correct": 2,
+      "answers": [
+        "36 cm",
+        "18 cm",
+        "81 cm",
+        "27 cm"
+      ],
+      "correct": 0,
       "hint": "Perimeter of square = 4 × side"
     },
     {
       "id": 26,
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">12 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">8 cm</text></svg>",
-      "answers": ["96 cm²", "48 cm²", "20 cm²", "24 cm²"],
-      "correct": 1,
+      "answers": [
+        "48 cm²",
+        "24 cm²",
+        "20 cm²",
+        "96 cm²"
+      ],
+      "correct": 0,
       "hint": "Area = (base × height) ÷ 2"
     },
     {
       "id": 27,
       "question": "What type of angle is this?",
       "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"50\" x2=\"40\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 80 50 A 20 20 0 0 0 90 35\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"75\" y=\"30\" font-size=\"14\" fill=\"#EF4444\">30°</text></svg>",
-      "answers": ["Obtuse", "Acute", "Right", "Reflex"],
-      "correct": 1,
+      "answers": [
+        "Reflex",
+        "Obtuse",
+        "Right",
+        "Acute"
+      ],
+      "correct": 3,
       "hint": "Is 30° less than, equal to, or greater than 90°?"
     },
     {
       "id": 28,
       "question": "What 3D shape has a circular base and a point at the top?",
       "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"150\" rx=\"55\" ry=\"20\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"150\" x2=\"75\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"130\" y1=\"150\" x2=\"75\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"30\" r=\"4\" fill=\"#EF4444\"/></svg>",
-      "answers": ["Cylinder", "Sphere", "Cone", "Pyramid"],
-      "correct": 2,
+      "answers": [
+        "Cylinder",
+        "Sphere",
+        "Pyramid",
+        "Cone"
+      ],
+      "correct": 3,
       "hint": "Think of an ice cream cone!"
     },
     {
       "id": 29,
       "question": "What is the missing angle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"100\" y1=\"130\" x2=\"100\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"130\" x2=\"180\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"130\" x2=\"20\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 110 A 20 20 0 0 1 120 130\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 80 130 A 20 20 0 0 1 100 110\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"120\" font-size=\"14\" fill=\"#16A34A\">?</text><text x=\"65\" y=\"120\" font-size=\"14\" fill=\"#EF4444\">65°</text></svg>",
-      "answers": ["115°", "35°", "25°", "90°"],
-      "correct": 2,
+      "answers": [
+        "35°",
+        "25°",
+        "115°",
+        "90°"
+      ],
+      "correct": 1,
       "hint": "These two angles make a right angle (90°). What is 90° - 65°?"
     },
     {
       "id": 30,
       "question": "What is the area of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">5 cm</text></svg>",
-      "answers": ["10 cm²", "20 cm²", "25 cm²", "15 cm²"],
-      "correct": 2,
+      "answers": [
+        "10 cm²",
+        "25 cm²",
+        "15 cm²",
+        "20 cm²"
+      ],
+      "correct": 1,
       "hint": "Area of square = side × side"
     },
     {
       "id": 31,
       "question": "What type of triangle is this?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 30,150 170,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"55\" y=\"95\" font-size=\"12\" fill=\"#374151\">7 cm</text><text x=\"140\" y=\"95\" font-size=\"12\" fill=\"#374151\">7 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">5 cm</text></svg>",
-      "answers": ["Scalene", "Isosceles", "Equilateral", "Right"],
+      "answers": [
+        "Scalene",
+        "Isosceles",
+        "Equilateral",
+        "Right"
+      ],
       "correct": 1,
       "hint": "Two sides are equal. What do we call this triangle?"
     },
@@ -257,7 +412,12 @@
       "id": 32,
       "question": "What is the perimeter of this rectangle?",
       "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><rect x=\"20\" y=\"15\" width=\"160\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">15 cm</text><text x=\"190\" y=\"50\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">3 cm</text></svg>",
-      "answers": ["18 cm", "45 cm", "36 cm", "30 cm"],
+      "answers": [
+        "45 cm",
+        "18 cm",
+        "36 cm",
+        "30 cm"
+      ],
       "correct": 2,
       "hint": "Perimeter = 2 × (length + width)"
     },
@@ -265,64 +425,104 @@
       "id": 33,
       "question": "What 3D shape has two circular faces?",
       "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"30\" rx=\"50\" ry=\"15\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><ellipse cx=\"75\" cy=\"150\" rx=\"50\" ry=\"15\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"25\" y1=\"30\" x2=\"25\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"125\" y1=\"30\" x2=\"125\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/></svg>",
-      "answers": ["Cone", "Sphere", "Pyramid", "Cylinder"],
-      "correct": 3,
+      "answers": [
+        "Cylinder",
+        "Cone",
+        "Sphere",
+        "Pyramid"
+      ],
+      "correct": 0,
       "hint": "Think of a can of soup!"
     },
     {
       "id": 34,
       "question": "What is the sum of angles in a triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"95\" y=\"55\" font-size=\"14\" fill=\"#374151\">a</text><text x=\"40\" y=\"140\" font-size=\"14\" fill=\"#374151\">b</text><text x=\"150\" y=\"140\" font-size=\"14\" fill=\"#374151\">c</text><text x=\"100\" y=\"175\" text-anchor=\"middle\" font-size=\"14\" fill=\"#EF4444\">a + b + c = ?</text></svg>",
-      "answers": ["360°", "90°", "180°", "270°"],
-      "correct": 2,
+      "answers": [
+        "180°",
+        "90°",
+        "360°",
+        "270°"
+      ],
+      "correct": 0,
       "hint": "All triangles have angles that add up to this amount."
     },
     {
       "id": 35,
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text><text x=\"190\" y=\"65\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
-      "answers": ["12 cm²", "24 cm²", "36 cm²", "18 cm²"],
-      "correct": 2,
+      "answers": [
+        "36 cm²",
+        "24 cm²",
+        "18 cm²",
+        "12 cm²"
+      ],
+      "correct": 0,
       "hint": "Wait - this rectangle has equal sides! It's actually a square."
     },
     {
       "id": 36,
       "question": "What type of angle is formed at the corner of a book?",
       "svg": "<svg width=\"180\" height=\"150\" viewBox=\"0 0 180 150\"><rect x=\"30\" y=\"30\" width=\"120\" height=\"90\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><path d=\"M 30 50 L 50 50 L 50 30\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"55\" y=\"45\" font-size=\"14\" fill=\"#EF4444\">?</text></svg>",
-      "answers": ["Acute", "Obtuse", "Right", "Straight"],
-      "correct": 2,
+      "answers": [
+        "Acute",
+        "Right",
+        "Straight",
+        "Obtuse"
+      ],
+      "correct": 1,
       "hint": "Corners of rectangles always form this type of angle."
     },
     {
       "id": 37,
       "question": "How many sides does a hexagon have?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,15 155,50 155,120 90,155 25,120 25,50\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/></svg>",
-      "answers": ["5", "7", "6", "8"],
-      "correct": 2,
+      "answers": [
+        "6",
+        "8",
+        "5",
+        "7"
+      ],
+      "correct": 0,
       "hint": "Hex means six in Greek."
     },
     {
       "id": 38,
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">14 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">10 cm</text></svg>",
-      "answers": ["140 cm²", "70 cm²", "24 cm²", "35 cm²"],
-      "correct": 1,
+      "answers": [
+        "70 cm²",
+        "140 cm²",
+        "35 cm²",
+        "24 cm²"
+      ],
+      "correct": 0,
       "hint": "Area = (base × height) ÷ 2"
     },
     {
       "id": 39,
       "question": "What is the perimeter of this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">10 cm</text></svg>",
-      "answers": ["100 cm", "20 cm", "30 cm", "40 cm"],
-      "correct": 2,
+      "answers": [
+        "40 cm",
+        "100 cm",
+        "20 cm",
+        "30 cm"
+      ],
+      "correct": 3,
       "hint": "Add all three sides."
     },
     {
       "id": 40,
       "question": "What is the missing angle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"100\" x2=\"150\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 80 A 20 20 0 0 1 118 93\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 118 107 A 20 20 0 0 1 100 120\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"85\" font-size=\"14\" fill=\"#16A34A\">50°</text><text x=\"85\" y=\"125\" font-size=\"14\" fill=\"#EF4444\">?</text></svg>",
-      "answers": ["50°", "130°", "140°", "40°"],
-      "correct": 1,
+      "answers": [
+        "50°",
+        "140°",
+        "40°",
+        "130°"
+      ],
+      "correct": 3,
       "hint": "Angles on a straight line add up to 180°."
     }
   ]

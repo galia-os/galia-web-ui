@@ -9,285 +9,485 @@
       "id": 1,
       "question": "What is the output of this circuit?",
       "svg": "<svg width=\"280\" height=\"140\" viewBox=\"0 0 280 140\"><text x=\"5\" y=\"35\" font-size=\"11\" fill=\"#374151\">A=1</text><text x=\"5\" y=\"75\" font-size=\"11\" fill=\"#374151\">B=0</text><text x=\"5\" y=\"115\" font-size=\"11\" fill=\"#374151\">C=1</text><line x1=\"30\" y1=\"30\" x2=\"60\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"70\" x2=\"60\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 60 15 L 60 85 Q 100 85 100 50 Q 100 15 60 15\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"50\" x2=\"140\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"110\" x2=\"140\" y2=\"110\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"140\" y1=\"110\" x2=\"140\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 140 35 Q 150 35 150 60 Q 150 85 140 85 L 140 35\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 150 35 Q 190 50 190 60 Q 190 70 150 85\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"190\" y1=\"60\" x2=\"250\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"255\" y=\"65\" font-size=\"14\" fill=\"#EF4444\">?</text><text x=\"75\" y=\"55\" font-size=\"10\" fill=\"#374151\">AND</text><text x=\"155\" y=\"65\" font-size=\"10\" fill=\"#374151\">OR</text></svg>",
-      "answers": ["1", "0", "01", "10"],
-      "correct": 0,
+      "answers": [
+        "0",
+        "1",
+        "01",
+        "10"
+      ],
+      "correct": 1,
       "hint": "First compute A AND B, then take that result and OR it with C. Work step by step."
     },
     {
       "id": 2,
       "question": "Convert -5 to 8-bit two's complement.",
-      "answers": ["11111011", "11111010", "00000101", "10000101"],
-      "correct": 0,
+      "answers": [
+        "10000101",
+        "11111010",
+        "11111011",
+        "00000101"
+      ],
+      "correct": 2,
       "hint": "First write +5 in 8-bit binary, then flip all bits, then add 1 to the result."
     },
     {
       "id": 3,
       "question": "What is the output of this circuit?",
       "svg": "<svg width=\"260\" height=\"120\" viewBox=\"0 0 260 120\"><text x=\"5\" y=\"40\" font-size=\"11\" fill=\"#374151\">A=1</text><text x=\"5\" y=\"80\" font-size=\"11\" fill=\"#374151\">B=1</text><line x1=\"30\" y1=\"35\" x2=\"60\" y2=\"35\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"75\" x2=\"60\" y2=\"75\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 60 20 L 60 90 Q 100 90 100 55 Q 100 20 60 20\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"108\" cy=\"55\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"116\" y1=\"55\" x2=\"150\" y2=\"55\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"150,35 150,75 190,55\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><circle cx=\"198\" cy=\"55\" r=\"8\" fill=\"white\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"206\" y1=\"55\" x2=\"230\" y2=\"55\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"235\" y=\"60\" font-size=\"14\" fill=\"#EF4444\">?</text><text x=\"68\" y=\"60\" font-size=\"9\" fill=\"#374151\">NAND</text><text x=\"158\" y=\"60\" font-size=\"9\" fill=\"#374151\">NOT</text></svg>",
-      "answers": ["1", "0", "2", "-1"],
-      "correct": 0,
+      "answers": [
+        "2",
+        "1",
+        "0",
+        "-1"
+      ],
+      "correct": 1,
       "hint": "First compute A NAND B, then apply NOT to that result. Work through both gates."
     },
     {
       "id": 4,
       "question": "What is 10110 + 1101 in binary?",
-      "answers": ["100011", "100010", "100100", "11111"],
+      "answers": [
+        "100011",
+        "100010",
+        "11111",
+        "100100"
+      ],
       "correct": 0,
       "hint": "Convert both to decimal (22 and 13), add them, then convert back to binary."
     },
     {
       "id": 5,
       "question": "What is the hexadecimal of binary 11111111?",
-      "answers": ["FF", "F0", "0F", "EE"],
+      "answers": [
+        "FF",
+        "F0",
+        "0F",
+        "EE"
+      ],
       "correct": 0,
       "hint": "Split into groups of 4 bits: 1111 and 1111. Each 1111 = 15 in decimal = which hex digit?"
     },
     {
       "id": 6,
       "question": "In a half adder, what is the CARRY output when A=1 and B=1?",
-      "answers": ["1", "0", "10", "2"],
-      "correct": 0,
+      "answers": [
+        "10",
+        "2",
+        "0",
+        "1"
+      ],
+      "correct": 3,
       "hint": "In a half adder, CARRY = A AND B. What is 1 AND 1?"
     },
     {
       "id": 7,
       "question": "What is the decimal value of the 8-bit two's complement 11111110?",
-      "answers": ["-2", "254", "-1", "126"],
-      "correct": 0,
+      "answers": [
+        "254",
+        "-2",
+        "-1",
+        "126"
+      ],
+      "correct": 1,
       "hint": "MSB is 1, so it's negative. To find the value: flip all bits, add 1, then negate."
     },
     {
       "id": 8,
       "question": "What is 11010 - 1011 in binary?",
-      "answers": ["1111", "10001", "1110", "1101"],
+      "answers": [
+        "1111",
+        "1101",
+        "1110",
+        "10001"
+      ],
       "correct": 0,
       "hint": "Convert to decimal (26 - 11), subtract, then convert back to binary."
     },
     {
       "id": 9,
       "question": "Simplify: NOT(NOT A AND NOT B)",
-      "answers": ["A OR B", "A AND B", "NOT(A OR B)", "A XOR B"],
-      "correct": 0,
+      "answers": [
+        "NOT(A OR B)",
+        "A XOR B",
+        "A AND B",
+        "A OR B"
+      ],
+      "correct": 3,
       "hint": "Apply De Morgan's law: NOT(NOT A AND NOT B) becomes the opposite operation with non-inverted inputs."
     },
     {
       "id": 10,
       "question": "What is the hexadecimal of decimal 255?",
-      "answers": ["FF", "FE", "100", "F0"],
-      "correct": 0,
+      "answers": [
+        "F0",
+        "FE",
+        "FF",
+        "100"
+      ],
+      "correct": 2,
       "hint": "255 = 15 × 16 + 15. What's 15 in hexadecimal? Put that in both positions."
     },
     {
       "id": 11,
       "question": "What is the SUM output of a half adder when A=1, B=1?",
-      "answers": ["0", "1", "10", "2"],
+      "answers": [
+        "0",
+        "2",
+        "10",
+        "1"
+      ],
       "correct": 0,
       "hint": "In a half adder, SUM = A XOR B. What is 1 XOR 1?"
     },
     {
       "id": 12,
       "question": "Convert hexadecimal 2A to decimal.",
-      "answers": ["42", "26", "32", "44"],
-      "correct": 0,
+      "answers": [
+        "32",
+        "44",
+        "26",
+        "42"
+      ],
+      "correct": 3,
       "hint": "2A = 2 × 16 + A. Remember A = 10 in decimal."
     },
     {
       "id": 13,
       "question": "What is the output of this circuit?",
       "svg": "<svg width=\"280\" height=\"140\" viewBox=\"0 0 280 140\"><text x=\"5\" y=\"35\" font-size=\"11\" fill=\"#374151\">A=1</text><text x=\"5\" y=\"105\" font-size=\"11\" fill=\"#374151\">B=0</text><line x1=\"30\" y1=\"30\" x2=\"50\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"50,15 50,45 80,30\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"88\" cy=\"30\" r=\"6\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"94\" y1=\"30\" x2=\"130\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"100\" x2=\"50\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"50,85 50,115 80,100\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"88\" cy=\"100\" r=\"6\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"94\" y1=\"100\" x2=\"130\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"130\" y1=\"80\" x2=\"130\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 130 50 L 130 80 Q 170 80 170 65 Q 170 50 130 50\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"170\" y1=\"65\" x2=\"230\" y2=\"65\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"235\" y=\"70\" font-size=\"14\" fill=\"#EF4444\">?</text><text x=\"55\" y=\"32\" font-size=\"8\" fill=\"#374151\">NOT</text><text x=\"55\" y=\"102\" font-size=\"8\" fill=\"#374151\">NOT</text><text x=\"140\" y=\"68\" font-size=\"8\" fill=\"#374151\">AND</text></svg>",
-      "answers": ["0", "1", "10", "01"],
-      "correct": 0,
+      "answers": [
+        "10",
+        "0",
+        "01",
+        "1"
+      ],
+      "correct": 1,
       "hint": "First apply NOT to both A and B, then AND the results together."
     },
     {
       "id": 14,
       "question": "What is 11111111 + 1 in 8-bit binary (with overflow)?",
-      "answers": ["00000000", "100000000", "11111110", "00000001"],
-      "correct": 0,
+      "answers": [
+        "00000001",
+        "100000000",
+        "11111110",
+        "00000000"
+      ],
+      "correct": 3,
       "hint": "The result would be 9 bits, but we only keep 8. What remains after discarding the carry?"
     },
     {
       "id": 15,
       "question": "Simplify: NOT(A OR B)",
-      "answers": ["NOT A AND NOT B", "NOT A OR NOT B", "A AND B", "A NAND B"],
-      "correct": 0,
+      "answers": [
+        "A NAND B",
+        "NOT A AND NOT B",
+        "A AND B",
+        "NOT A OR NOT B"
+      ],
+      "correct": 1,
       "hint": "De Morgan's law: when you NOT an OR, the operation changes to AND and inputs get inverted."
     },
     {
       "id": 16,
       "question": "Convert binary 1010 1100 to hexadecimal.",
-      "answers": ["AC", "CA", "A6", "6A"],
-      "correct": 0,
+      "answers": [
+        "6A",
+        "A6",
+        "CA",
+        "AC"
+      ],
+      "correct": 3,
       "hint": "Split into nibbles: 1010 and 1100. Convert each 4-bit group to one hex digit."
     },
     {
       "id": 17,
       "question": "What Boolean expression represents a 2-input XOR gate?",
-      "answers": ["(A AND NOT B) OR (NOT A AND B)", "A AND B", "A OR B", "NOT(A AND B)"],
-      "correct": 0,
+      "answers": [
+        "A OR B",
+        "A AND B",
+        "NOT(A AND B)",
+        "(A AND NOT B) OR (NOT A AND B)"
+      ],
+      "correct": 3,
       "hint": "XOR outputs 1 when inputs differ: when A is 1 and B is 0, OR when A is 0 and B is 1."
     },
     {
       "id": 18,
       "question": "What is hexadecimal B5 in binary?",
-      "answers": ["10110101", "11010101", "10101011", "10110110"],
-      "correct": 0,
+      "answers": [
+        "11010101",
+        "10110101",
+        "10110110",
+        "10101011"
+      ],
+      "correct": 1,
       "hint": "Convert each hex digit to 4 bits: B = 1011, 5 = 0101. Combine them."
     },
     {
       "id": 19,
       "question": "In a full adder with A=1, B=1, Cin=1, what is the SUM?",
-      "answers": ["1", "0", "11", "10"],
-      "correct": 0,
+      "answers": [
+        "0",
+        "10",
+        "11",
+        "1"
+      ],
+      "correct": 3,
       "hint": "1 + 1 + 1 = 3 in decimal = 11 in binary. The SUM is the rightmost bit."
     },
     {
       "id": 20,
       "question": "Convert decimal 200 to hexadecimal.",
-      "answers": ["C8", "D8", "A8", "B8"],
-      "correct": 0,
+      "answers": [
+        "B8",
+        "C8",
+        "D8",
+        "A8"
+      ],
+      "correct": 1,
       "hint": "200 ÷ 16 = 12 remainder 8. Convert 12 to hex (a letter), and keep the 8."
     },
     {
       "id": 21,
       "question": "What is the output of this circuit?",
       "svg": "<svg width=\"280\" height=\"120\" viewBox=\"0 0 280 120\"><text x=\"5\" y=\"40\" font-size=\"11\" fill=\"#374151\">A=0</text><text x=\"5\" y=\"80\" font-size=\"11\" fill=\"#374151\">B=1</text><line x1=\"30\" y1=\"35\" x2=\"60\" y2=\"35\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"75\" x2=\"60\" y2=\"75\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 60 20 Q 70 20 70 55 Q 70 90 60 90 L 60 20\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 70 20 Q 110 40 110 55 Q 110 70 70 90\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"78\" y1=\"45\" x2=\"78\" y2=\"65\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"55\" r=\"6\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"124\" y1=\"55\" x2=\"230\" y2=\"55\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"235\" y=\"60\" font-size=\"14\" fill=\"#EF4444\">?</text><text x=\"75\" y=\"58\" font-size=\"9\" fill=\"#374151\">XNOR</text></svg>",
-      "answers": ["0", "1", "10", "01"],
+      "answers": [
+        "0",
+        "10",
+        "01",
+        "1"
+      ],
       "correct": 0,
       "hint": "XNOR is the opposite of XOR. First find A XOR B, then invert the result."
     },
     {
       "id": 22,
       "question": "What is -1 in 8-bit two's complement?",
-      "answers": ["11111111", "10000001", "00000001", "11111110"],
+      "answers": [
+        "11111111",
+        "00000001",
+        "10000001",
+        "11111110"
+      ],
       "correct": 0,
       "hint": "Start with +1 (00000001), flip all bits, then add 1. What pattern do you get?"
     },
     {
       "id": 23,
       "question": "How many different values can 16 bits represent?",
-      "answers": ["65,536", "32,768", "256", "1,024"],
-      "correct": 0,
+      "answers": [
+        "32,768",
+        "256",
+        "1,024",
+        "65,536"
+      ],
+      "correct": 3,
       "hint": "The formula is 2^n where n is the number of bits. Calculate 2^16."
     },
     {
       "id": 24,
       "question": "In a full adder with A=1, B=1, Cin=1, what is the CARRY out?",
-      "answers": ["1", "0", "11", "10"],
+      "answers": [
+        "1",
+        "0",
+        "10",
+        "11"
+      ],
       "correct": 0,
       "hint": "1 + 1 + 1 = 3 in decimal = 11 in binary. The CARRY is the leftmost bit."
     },
     {
       "id": 25,
       "question": "Simplify: A AND (A OR B)",
-      "answers": ["A", "B", "A OR B", "A AND B"],
-      "correct": 0,
+      "answers": [
+        "A AND B",
+        "A",
+        "A OR B",
+        "B"
+      ],
+      "correct": 1,
       "hint": "Absorption law: if A is true, the whole expression is A. If A is false, A AND anything is false."
     },
     {
       "id": 26,
       "question": "Convert hexadecimal FF to decimal.",
-      "answers": ["255", "256", "15", "16"],
-      "correct": 0,
+      "answers": [
+        "16",
+        "15",
+        "255",
+        "256"
+      ],
+      "correct": 2,
       "hint": "FF = F × 16 + F = 15 × 16 + 15. Calculate the sum."
     },
     {
       "id": 27,
       "question": "What is the output of this 3-input AND gate?",
       "svg": "<svg width=\"220\" height=\"140\" viewBox=\"0 0 220 140\"><text x=\"5\" y=\"30\" font-size=\"11\" fill=\"#374151\">A=1</text><text x=\"5\" y=\"70\" font-size=\"11\" fill=\"#374151\">B=1</text><text x=\"5\" y=\"110\" font-size=\"11\" fill=\"#374151\">C=0</text><line x1=\"30\" y1=\"25\" x2=\"60\" y2=\"25\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"65\" x2=\"60\" y2=\"65\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"105\" x2=\"60\" y2=\"105\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 60 10 L 60 120 Q 120 120 120 65 Q 120 10 60 10\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"120\" y1=\"65\" x2=\"180\" y2=\"65\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"185\" y=\"70\" font-size=\"14\" fill=\"#EF4444\">?</text></svg>",
-      "answers": ["0", "1", "10", "11"],
-      "correct": 0,
+      "answers": [
+        "11",
+        "10",
+        "0",
+        "1"
+      ],
+      "correct": 2,
       "hint": "AND requires ALL inputs to be 1. Check if all three inputs are 1."
     },
     {
       "id": 28,
       "question": "What is 1011 × 11 in binary?",
-      "answers": ["100001", "10001", "11101", "100011"],
-      "correct": 0,
+      "answers": [
+        "11101",
+        "100011",
+        "100001",
+        "10001"
+      ],
+      "correct": 2,
       "hint": "Convert to decimal: 1011 = 11, 11 = 3. Multiply, then convert back to binary."
     },
     {
       "id": 29,
       "question": "Simplify: A OR (A AND B)",
-      "answers": ["A", "B", "A AND B", "A OR B"],
-      "correct": 0,
+      "answers": [
+        "A AND B",
+        "B",
+        "A",
+        "A OR B"
+      ],
+      "correct": 2,
       "hint": "Absorption law: if A is true, the whole expression is true. If A is false, A AND B is also false."
     },
     {
       "id": 30,
       "question": "What is the range of signed 8-bit integers (two's complement)?",
-      "answers": ["-128 to 127", "-127 to 128", "0 to 255", "-256 to 255"],
-      "correct": 0,
+      "answers": [
+        "-256 to 255",
+        "0 to 255",
+        "-128 to 127",
+        "-127 to 128"
+      ],
+      "correct": 2,
       "hint": "For n bits: range is -2^(n-1) to 2^(n-1)-1. Calculate for n=8."
     },
     {
       "id": 31,
       "question": "Convert binary 11111111 to decimal (unsigned).",
-      "answers": ["255", "256", "-1", "127"],
-      "correct": 0,
+      "answers": [
+        "256",
+        "-1",
+        "255",
+        "127"
+      ],
+      "correct": 2,
       "hint": "Sum all powers of 2 from 0 to 7: 1+2+4+8+16+32+64+128."
     },
     {
       "id": 32,
       "question": "What is the output of a 3-input OR gate with inputs 0, 0, 1?",
-      "answers": ["1", "0", "01", "10"],
-      "correct": 0,
+      "answers": [
+        "0",
+        "10",
+        "01",
+        "1"
+      ],
+      "correct": 3,
       "hint": "OR outputs 1 if ANY input is 1. Is there at least one 1 among the inputs?"
     },
     {
       "id": 33,
       "question": "Simplify: NOT(NOT A)",
-      "answers": ["A", "NOT A", "1", "0"],
-      "correct": 0,
+      "answers": [
+        "NOT A",
+        "0",
+        "1",
+        "A"
+      ],
+      "correct": 3,
       "hint": "Double negation: flipping something twice returns it to the original state."
     },
     {
       "id": 34,
       "question": "What is hexadecimal 1F in binary?",
-      "answers": ["00011111", "11110001", "00111110", "11111000"],
+      "answers": [
+        "00011111",
+        "00111110",
+        "11110001",
+        "11111000"
+      ],
       "correct": 0,
       "hint": "Convert each hex digit: 1 = 0001, F = 1111. Combine them in order."
     },
     {
       "id": 35,
       "question": "What is 100000 - 1 in binary?",
-      "answers": ["11111", "111111", "10001", "1111"],
-      "correct": 0,
+      "answers": [
+        "1111",
+        "11111",
+        "111111",
+        "10001"
+      ],
+      "correct": 1,
       "hint": "In binary, 100000 is a power of 2. Subtracting 1 gives all 1s in the positions below."
     },
     {
       "id": 36,
       "question": "Simplify: A XOR 0",
-      "answers": ["A", "0", "1", "NOT A"],
-      "correct": 0,
+      "answers": [
+        "NOT A",
+        "0",
+        "A",
+        "1"
+      ],
+      "correct": 2,
       "hint": "XOR with 0: if A is 0, result is 0; if A is 1, result is 1. What's the pattern?"
     },
     {
       "id": 37,
       "question": "Simplify: A XOR 1",
-      "answers": ["NOT A", "A", "1", "0"],
-      "correct": 0,
+      "answers": [
+        "A",
+        "0",
+        "NOT A",
+        "1"
+      ],
+      "correct": 2,
       "hint": "XOR with 1: if A is 0, result is 1; if A is 1, result is 0. What operation is that?"
     },
     {
       "id": 38,
       "question": "How many NAND gates are needed to make a NOT gate?",
-      "answers": ["1", "2", "3", "4"],
-      "correct": 0,
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correct": 3,
       "hint": "Connect both inputs of a NAND gate to the same signal. What does A NAND A give?"
     },
     {
       "id": 39,
       "question": "What is -128 in 8-bit two's complement?",
-      "answers": ["10000000", "11111111", "01111111", "00000001"],
+      "answers": [
+        "10000000",
+        "00000001",
+        "11111111",
+        "01111111"
+      ],
       "correct": 0,
       "hint": "-128 is the most negative 8-bit value: just the sign bit set, all others zero."
     },
     {
       "id": 40,
       "question": "Simplify: A XOR A",
-      "answers": ["0", "A", "1", "NOT A"],
-      "correct": 0,
+      "answers": [
+        "A",
+        "0",
+        "NOT A",
+        "1"
+      ],
+      "correct": 1,
       "hint": "XOR gives 1 when inputs differ. What happens when both inputs are the same?"
     }
   ]

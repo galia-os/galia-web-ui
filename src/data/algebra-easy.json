@@ -8,281 +8,481 @@
     {
       "id": 1,
       "question": "Solve for x: x + 7 = 12",
-      "answers": ["x = 5", "x = 19", "x = 7", "x = 4"],
-      "correct": 0,
+      "answers": [
+        "x = 19",
+        "x = 4",
+        "x = 7",
+        "x = 5"
+      ],
+      "correct": 3,
       "hint": "To isolate x, subtract 7 from both sides."
     },
     {
       "id": 2,
       "question": "Solve for x: x - 4 = 9",
-      "answers": ["x = 5", "x = 4", "x = 13", "x = 36"],
-      "correct": 2,
+      "answers": [
+        "x = 4",
+        "x = 5",
+        "x = 36",
+        "x = 13"
+      ],
+      "correct": 3,
       "hint": "To isolate x, add 4 to both sides."
     },
     {
       "id": 3,
       "question": "Solve for x: 3x = 15",
-      "answers": ["x = 45", "x = 12", "x = 5", "x = 18"],
-      "correct": 2,
+      "answers": [
+        "x = 45",
+        "x = 18",
+        "x = 12",
+        "x = 5"
+      ],
+      "correct": 3,
       "hint": "Divide both sides by 3 to find x."
     },
     {
       "id": 4,
       "question": "If x = 4, what is the value of x + 8?",
-      "answers": ["32", "12", "4", "2"],
-      "correct": 1,
+      "answers": [
+        "12",
+        "32",
+        "4",
+        "2"
+      ],
+      "correct": 0,
       "hint": "Replace x with 4, then add 8."
     },
     {
       "id": 5,
       "question": "Sarah has some stickers. She gets 6 more and now has 14. How many did she start with?",
-      "answers": ["20", "8", "6", "84"],
+      "answers": [
+        "84",
+        "8",
+        "20",
+        "6"
+      ],
       "correct": 1,
       "hint": "Write the equation: starting stickers + 6 = 14. What minus 6 equals 14?"
     },
     {
       "id": 6,
       "question": "Solve for x: x ÷ 2 = 7",
-      "answers": ["x = 3.5", "x = 9", "x = 14", "x = 5"],
-      "correct": 2,
+      "answers": [
+        "x = 9",
+        "x = 14",
+        "x = 5",
+        "x = 3.5"
+      ],
+      "correct": 1,
       "hint": "Multiply both sides by 2 to find x."
     },
     {
       "id": 7,
       "question": "What comes next in the pattern: 2, 5, 8, 11, __?",
-      "answers": ["12", "13", "14", "15"],
-      "correct": 2,
+      "answers": [
+        "12",
+        "14",
+        "13",
+        "15"
+      ],
+      "correct": 1,
       "hint": "Find the difference between consecutive numbers. Add that to 11."
     },
     {
       "id": 8,
       "question": "If y = 3, what is the value of 2y?",
-      "answers": ["5", "6", "23", "1"],
-      "correct": 1,
+      "answers": [
+        "1",
+        "23",
+        "6",
+        "5"
+      ],
+      "correct": 2,
       "hint": "2y means 2 times y. Multiply 2 by the value of y."
     },
     {
       "id": 9,
       "question": "Solve for x: x + 15 = 20",
-      "answers": ["x = 35", "x = 5", "x = 300", "x = 15"],
-      "correct": 1,
+      "answers": [
+        "x = 5",
+        "x = 15",
+        "x = 300",
+        "x = 35"
+      ],
+      "correct": 0,
       "hint": "To isolate x, subtract 15 from both sides."
     },
     {
       "id": 10,
       "question": "Tom has 24 marbles. He divides them equally among some friends and each gets 6. How many friends does he have?",
-      "answers": ["18", "30", "4", "6"],
+      "answers": [
+        "30",
+        "18",
+        "4",
+        "6"
+      ],
       "correct": 2,
       "hint": "How many times does 6 go into 24?"
     },
     {
       "id": 11,
       "question": "Solve for n: 5n = 35",
-      "answers": ["n = 30", "n = 40", "n = 7", "n = 175"],
-      "correct": 2,
+      "answers": [
+        "n = 40",
+        "n = 7",
+        "n = 175",
+        "n = 30"
+      ],
+      "correct": 1,
       "hint": "Divide both sides by 5 to find n."
     },
     {
       "id": 12,
       "question": "If a = 10, what is the value of a - 3?",
-      "answers": ["13", "7", "30", "103"],
+      "answers": [
+        "103",
+        "7",
+        "13",
+        "30"
+      ],
       "correct": 1,
       "hint": "Replace a with 10, then subtract 3."
     },
     {
       "id": 13,
       "question": "A number plus 9 equals 16. What is the number?",
-      "answers": ["25", "9", "7", "144"],
-      "correct": 2,
+      "answers": [
+        "25",
+        "9",
+        "144",
+        "7"
+      ],
+      "correct": 3,
       "hint": "What number do you add to 9 to get 16?"
     },
     {
       "id": 14,
       "question": "Solve for x: 4x = 28",
-      "answers": ["x = 24", "x = 32", "x = 7", "x = 112"],
+      "answers": [
+        "x = 112",
+        "x = 32",
+        "x = 7",
+        "x = 24"
+      ],
       "correct": 2,
       "hint": "Divide both sides by 4 to find x."
     },
     {
       "id": 15,
       "question": "What comes next in the pattern: 3, 6, 9, 12, __?",
-      "answers": ["13", "14", "15", "18"],
-      "correct": 2,
+      "answers": [
+        "15",
+        "14",
+        "13",
+        "18"
+      ],
+      "correct": 0,
       "hint": "This is counting by 3s. Add 3 to the last number."
     },
     {
       "id": 16,
       "question": "If b = 5, what is the value of 3b + 1?",
-      "answers": ["16", "9", "31", "36"],
-      "correct": 0,
+      "answers": [
+        "36",
+        "16",
+        "31",
+        "9"
+      ],
+      "correct": 1,
       "hint": "First calculate 3 times b, then add 1."
     },
     {
       "id": 17,
       "question": "Solve for x: x - 12 = 8",
-      "answers": ["x = 4", "x = 20", "x = 96", "x = 6"],
-      "correct": 1,
+      "answers": [
+        "x = 96",
+        "x = 6",
+        "x = 4",
+        "x = 20"
+      ],
+      "correct": 3,
       "hint": "To isolate x, add 12 to both sides."
     },
     {
       "id": 18,
       "question": "Emily has some books. She gives away 5 and has 12 left. How many did she start with?",
-      "answers": ["7", "17", "60", "5"],
-      "correct": 1,
+      "answers": [
+        "7",
+        "60",
+        "5",
+        "17"
+      ],
+      "correct": 3,
       "hint": "If she gave away 5 and has 12 left, add those numbers to find the start."
     },
     {
       "id": 19,
       "question": "Solve for x: x ÷ 5 = 4",
-      "answers": ["x = 9", "x = 1", "x = 20", "x = 0.8"],
+      "answers": [
+        "x = 1",
+        "x = 9",
+        "x = 20",
+        "x = 0.8"
+      ],
       "correct": 2,
       "hint": "Multiply both sides by 5 to find x."
     },
     {
       "id": 20,
       "question": "If c = 2, what is the value of 10 - c?",
-      "answers": ["8", "12", "20", "102"],
-      "correct": 0,
+      "answers": [
+        "12",
+        "20",
+        "8",
+        "102"
+      ],
+      "correct": 2,
       "hint": "Replace c with 2, then subtract from 10."
     },
     {
       "id": 21,
       "question": "A number times 6 equals 42. What is the number?",
-      "answers": ["36", "48", "7", "252"],
-      "correct": 2,
+      "answers": [
+        "252",
+        "7",
+        "36",
+        "48"
+      ],
+      "correct": 1,
       "hint": "Divide 42 by 6 to find the number."
     },
     {
       "id": 22,
       "question": "Solve for x: x + 25 = 40",
-      "answers": ["x = 65", "x = 15", "x = 1000", "x = 25"],
-      "correct": 1,
+      "answers": [
+        "x = 1000",
+        "x = 25",
+        "x = 15",
+        "x = 65"
+      ],
+      "correct": 2,
       "hint": "To isolate x, subtract 25 from both sides."
     },
     {
       "id": 23,
       "question": "What comes next in the pattern: 1, 4, 7, 10, __?",
-      "answers": ["11", "12", "13", "14"],
-      "correct": 2,
+      "answers": [
+        "12",
+        "13",
+        "14",
+        "11"
+      ],
+      "correct": 1,
       "hint": "Find the difference between consecutive numbers and add it to 10."
     },
     {
       "id": 24,
       "question": "If x = 6, what is the value of x ÷ 2?",
-      "answers": ["12", "4", "3", "8"],
-      "correct": 2,
+      "answers": [
+        "3",
+        "8",
+        "4",
+        "12"
+      ],
+      "correct": 0,
       "hint": "Replace x with 6, then divide by 2."
     },
     {
       "id": 25,
       "question": "Jake bought 3 identical notebooks and spent $12. How much was each notebook?",
-      "answers": ["$36", "$9", "$4", "$15"],
-      "correct": 2,
+      "answers": [
+        "$15",
+        "$36",
+        "$9",
+        "$4"
+      ],
+      "correct": 3,
       "hint": "Divide the total cost by the number of notebooks."
     },
     {
       "id": 26,
       "question": "Solve for n: n - 7 = 15",
-      "answers": ["n = 8", "n = 22", "n = 105", "n = 2"],
-      "correct": 1,
+      "answers": [
+        "n = 22",
+        "n = 8",
+        "n = 2",
+        "n = 105"
+      ],
+      "correct": 0,
       "hint": "To isolate n, add 7 to both sides."
     },
     {
       "id": 27,
       "question": "If d = 8, what is the value of d + d?",
-      "answers": ["88", "16", "10", "64"],
-      "correct": 1,
+      "answers": [
+        "10",
+        "88",
+        "16",
+        "64"
+      ],
+      "correct": 2,
       "hint": "d + d is the same as 2 times d. What is 2 times 8?"
     },
     {
       "id": 28,
       "question": "Solve for x: 2x = 18",
-      "answers": ["x = 16", "x = 20", "x = 36", "x = 9"],
-      "correct": 3,
+      "answers": [
+        "x = 9",
+        "x = 16",
+        "x = 36",
+        "x = 20"
+      ],
+      "correct": 0,
       "hint": "Divide both sides by 2 to find x."
     },
     {
       "id": 29,
       "question": "A number divided by 3 equals 8. What is the number?",
-      "answers": ["11", "5", "24", "2.67"],
-      "correct": 2,
+      "answers": [
+        "5",
+        "24",
+        "2.67",
+        "11"
+      ],
+      "correct": 1,
       "hint": "If dividing by 3 gives 8, multiply 8 by 3 to find the original."
     },
     {
       "id": 30,
       "question": "What comes next in the pattern: 5, 10, 15, 20, __?",
-      "answers": ["21", "22", "24", "25"],
-      "correct": 3,
+      "answers": [
+        "25",
+        "21",
+        "24",
+        "22"
+      ],
+      "correct": 0,
       "hint": "This is counting by 5s. Add 5 to the last number."
     },
     {
       "id": 31,
       "question": "If m = 7, what is the value of 2m - 4?",
-      "answers": ["10", "3", "18", "27"],
+      "answers": [
+        "10",
+        "18",
+        "27",
+        "3"
+      ],
       "correct": 0,
       "hint": "First calculate 2 times m, then subtract 4."
     },
     {
       "id": 32,
       "question": "Solve for x: x + 11 = 30",
-      "answers": ["x = 41", "x = 19", "x = 330", "x = 11"],
-      "correct": 1,
+      "answers": [
+        "x = 11",
+        "x = 41",
+        "x = 19",
+        "x = 330"
+      ],
+      "correct": 2,
       "hint": "To isolate x, subtract 11 from both sides."
     },
     {
       "id": 33,
       "question": "Maria is twice as old as her brother who is 6. How old is Maria?",
-      "answers": ["8", "3", "12", "36"],
-      "correct": 2,
+      "answers": [
+        "8",
+        "12",
+        "36",
+        "3"
+      ],
+      "correct": 1,
       "hint": "'Twice as old' means multiply the brother's age by 2."
     },
     {
       "id": 34,
       "question": "Solve for x: 6x = 48",
-      "answers": ["x = 42", "x = 54", "x = 8", "x = 288"],
-      "correct": 2,
+      "answers": [
+        "x = 288",
+        "x = 54",
+        "x = 42",
+        "x = 8"
+      ],
+      "correct": 3,
       "hint": "Divide both sides by 6 to find x."
     },
     {
       "id": 35,
       "question": "If y = 4, what is the value of y + 2y?",
-      "answers": ["6", "8", "12", "24"],
-      "correct": 2,
+      "answers": [
+        "6",
+        "12",
+        "24",
+        "8"
+      ],
+      "correct": 1,
       "hint": "y + 2y equals 3y. What is 3 times 4?"
     },
     {
       "id": 36,
       "question": "Solve for x: x ÷ 4 = 6",
-      "answers": ["x = 2", "x = 10", "x = 24", "x = 1.5"],
-      "correct": 2,
+      "answers": [
+        "x = 24",
+        "x = 1.5",
+        "x = 2",
+        "x = 10"
+      ],
+      "correct": 0,
       "hint": "Multiply both sides by 4 to find x."
     },
     {
       "id": 37,
       "question": "What comes next in the pattern: 10, 20, 30, 40, __?",
-      "answers": ["45", "50", "60", "100"],
-      "correct": 1,
+      "answers": [
+        "60",
+        "45",
+        "100",
+        "50"
+      ],
+      "correct": 3,
       "hint": "This is counting by 10s. Add 10 to the last number."
     },
     {
       "id": 38,
       "question": "A class has 28 students split equally into 4 groups. How many in each group?",
-      "answers": ["24", "32", "7", "112"],
-      "correct": 2,
+      "answers": [
+        "112",
+        "24",
+        "32",
+        "7"
+      ],
+      "correct": 3,
       "hint": "Divide the total students by the number of groups."
     },
     {
       "id": 39,
       "question": "Solve for x: x - 20 = 35",
-      "answers": ["x = 15", "x = 55", "x = 700", "x = 35"],
+      "answers": [
+        "x = 15",
+        "x = 55",
+        "x = 700",
+        "x = 35"
+      ],
       "correct": 1,
       "hint": "To isolate x, add 20 to both sides."
     },
     {
       "id": 40,
       "question": "If x = 9, what is the value of 20 - x?",
-      "answers": ["29", "11", "180", "209"],
-      "correct": 1,
+      "answers": [
+        "180",
+        "29",
+        "209",
+        "11"
+      ],
+      "correct": 3,
       "hint": "Replace x with 9, then subtract from 20."
     }
   ]

@@ -8,281 +8,481 @@
     {
       "id": 1,
       "question": "A store sells apples for $2/kg and oranges for $3/kg. The store opened in 2010 and has 15 employees working 8-hour shifts. If Tom buys 4 kg of apples, how much does he pay?",
-      "answers": ["$8", "$12", "$20", "$5"],
-      "correct": 0,
+      "answers": [
+        "$5",
+        "$20",
+        "$12",
+        "$8"
+      ],
+      "correct": 3,
       "hint": "Multiply the weight of apples by the price per kg. Store info, employees, and shifts don't affect the calculation."
     },
     {
       "id": 2,
       "question": "A rectangular garden is 12 m by 8 m. The soil is clay-based and the fence is wooden. The owner is 45 years old. What's the garden's area?",
-      "answers": ["96 m²", "40 m²", "20 m²", "192 m²"],
-      "correct": 0,
+      "answers": [
+        "192 m²",
+        "96 m²",
+        "20 m²",
+        "40 m²"
+      ],
+      "correct": 1,
       "hint": "Area of rectangle = length × width. Soil, fence type, and owner's age are irrelevant."
     },
     {
       "id": 3,
       "question": "Train A leaves at 9 AM traveling at 80 km/h. The train has 12 carriages, is painted blue, and can carry 500 passengers. How far does it travel in 3 hours?",
-      "answers": ["240 km", "92 km", "27 km", "500 km"],
+      "answers": [
+        "240 km",
+        "27 km",
+        "500 km",
+        "92 km"
+      ],
       "correct": 0,
       "hint": "Distance = speed × time. Carriages, color, and capacity are distractions."
     },
     {
       "id": 4,
       "question": "Emma earns $15/hour. She works at a café that opened in 2015 on Main Street. The café serves 200 customers daily. If she works 6 hours, what does she earn?",
-      "answers": ["$90", "$21", "$215", "$36"],
-      "correct": 0,
+      "answers": [
+        "$21",
+        "$36",
+        "$90",
+        "$215"
+      ],
+      "correct": 2,
       "hint": "Multiply hourly rate by hours worked. Café details and customers don't affect earnings."
     },
     {
       "id": 5,
       "question": "A class has 28 students. 12 play soccer, 10 play basketball, and 6 play both. The classroom is air-conditioned and has 30 desks. How many play at least one sport?",
-      "answers": ["16 students", "22 students", "28 students", "6 students"],
+      "answers": [
+        "16 students",
+        "28 students",
+        "6 students",
+        "22 students"
+      ],
       "correct": 0,
       "hint": "Use the inclusion-exclusion principle: add both sports, then subtract those counted twice. Classroom features are irrelevant."
     },
     {
       "id": 6,
       "question": "A pizza restaurant makes 50 pizzas/day. Each pizza has 8 slices, costs $12, and takes 15 minutes to bake. The oven is Italian-made. If 3 pizzas are ordered, how many slices is that?",
-      "answers": ["24 slices", "400 slices", "36 slices", "150 slices"],
-      "correct": 0,
+      "answers": [
+        "400 slices",
+        "36 slices",
+        "24 slices",
+        "150 slices"
+      ],
+      "correct": 2,
       "hint": "Multiply pizzas ordered by slices per pizza. Daily production, cost, and oven details are irrelevant."
     },
     {
       "id": 7,
       "question": "A triangle has sides 5 cm, 12 cm, and 13 cm. It's drawn on graph paper using a blue pen bought last Tuesday. What is its perimeter?",
-      "answers": ["30 cm", "60 cm", "17 cm", "780 cm"],
+      "answers": [
+        "30 cm",
+        "60 cm",
+        "17 cm",
+        "780 cm"
+      ],
       "correct": 0,
       "hint": "Perimeter = sum of all sides. Paper type, pen color, and purchase day don't matter."
     },
     {
       "id": 8,
       "question": "A library has 5,000 books. It's open 9 AM to 6 PM, has 3 floors, and was built in 1990. If 15% are fiction, how many fiction books?",
-      "answers": ["750 books", "515 books", "4,250 books", "1,500 books"],
+      "answers": [
+        "750 books",
+        "1,500 books",
+        "4,250 books",
+        "515 books"
+      ],
       "correct": 0,
       "hint": "Find 15% of the total books. Hours, floors, and year built are irrelevant."
     },
     {
       "id": 9,
       "question": "Sam cycles at 20 km/h on his red mountain bike bought for $300 last summer from Sports World. How long to travel 50 km?",
-      "answers": ["2.5 hours", "70 hours", "30 hours", "1,000 hours"],
-      "correct": 0,
+      "answers": [
+        "1,000 hours",
+        "2.5 hours",
+        "30 hours",
+        "70 hours"
+      ],
+      "correct": 1,
       "hint": "Time = distance ÷ speed. Bike color, type, price, and store are irrelevant."
     },
     {
       "id": 10,
       "question": "A bakery sells muffins in boxes of 6. Each muffin weighs 80g and is chocolate-flavored. The bakery has been open for 10 years. How many muffins in 9 boxes?",
-      "answers": ["54 muffins", "15 muffins", "720 g", "90 muffins"],
+      "answers": [
+        "54 muffins",
+        "720 g",
+        "90 muffins",
+        "15 muffins"
+      ],
       "correct": 0,
       "hint": "Multiply muffins per box by number of boxes. Weight, flavor, and years open don't matter."
     },
     {
       "id": 11,
       "question": "Water costs $2.50 per cubic meter. The pipe diameter is 5 cm and made of copper. The water company was founded in 1985. If a family uses 12 m³, what's the cost?",
-      "answers": ["$30", "$14.50", "$9.50", "$60"],
+      "answers": [
+        "$30",
+        "$9.50",
+        "$60",
+        "$14.50"
+      ],
       "correct": 0,
       "hint": "Multiply usage by price per unit. Pipe specs and company history are irrelevant."
     },
     {
       "id": 12,
       "question": "A movie theater has 15 rows with 20 seats each. The screen is 10 m wide, and popcorn costs $8. If 80% of seats are filled, how many people are watching?",
-      "answers": ["240 people", "300 people", "60 people", "180 people"],
-      "correct": 0,
+      "answers": [
+        "180 people",
+        "60 people",
+        "240 people",
+        "300 people"
+      ],
+      "correct": 2,
       "hint": "First find total seats, then calculate 80% of that. Screen size and popcorn cost are irrelevant."
     },
     {
       "id": 13,
       "question": "A factory produces 200 toys/hour. It operates 8 hours/day, has 50 workers, and uses electric power costing $500/month. How many toys in 5 hours?",
-      "answers": ["1,000 toys", "250 toys", "1,600 toys", "500 toys"],
-      "correct": 0,
+      "answers": [
+        "1,600 toys",
+        "500 toys",
+        "1,000 toys",
+        "250 toys"
+      ],
+      "correct": 2,
       "hint": "Multiply production rate by hours. Daily hours, workers, and power cost are irrelevant."
     },
     {
       "id": 14,
       "question": "John's age is twice Mary's. Mary's favorite color is blue and she has 2 cats. If Mary is 14, how old will John be in 5 years?",
-      "answers": ["33 years", "28 years", "19 years", "38 years"],
-      "correct": 0,
+      "answers": [
+        "19 years",
+        "28 years",
+        "38 years",
+        "33 years"
+      ],
+      "correct": 3,
       "hint": "First find John's current age from Mary's, then add 5 years. Color and cats are irrelevant."
     },
     {
       "id": 15,
       "question": "A recipe needs 3 cups flour, 2 cups sugar, and 1 cup butter. The recipe is Italian, from a 1950s cookbook. To make 4 batches, how many cups of flour?",
-      "answers": ["12 cups", "24 cups", "6 cups", "4 cups"],
-      "correct": 0,
+      "answers": [
+        "6 cups",
+        "12 cups",
+        "24 cups",
+        "4 cups"
+      ],
+      "correct": 1,
       "hint": "Multiply flour per batch by number of batches. Origin and cookbook year are irrelevant."
     },
     {
       "id": 16,
       "question": "A phone plan costs $45/month plus $0.10/minute for calls. The phone is silver and has a 6-inch screen. If Lisa uses 100 extra minutes, what's her bill?",
-      "answers": ["$55", "$145", "$45.10", "$1,045"],
-      "correct": 0,
+      "answers": [
+        "$145",
+        "$45.10",
+        "$55",
+        "$1,045"
+      ],
+      "correct": 2,
       "hint": "Add the base cost to the cost of extra minutes. Phone color and screen size are irrelevant."
     },
     {
       "id": 17,
       "question": "A pool is 25 m long, 10 m wide, and 2 m deep. The tiles are blue and the water is chlorinated. The pool was built in 2018. What's the volume?",
-      "answers": ["500 m³", "37 m³", "250 m³", "50 m³"],
+      "answers": [
+        "500 m³",
+        "250 m³",
+        "50 m³",
+        "37 m³"
+      ],
       "correct": 0,
       "hint": "Volume of rectangular prism = length × width × depth. Tile color, water treatment, and year are irrelevant."
     },
     {
       "id": 18,
       "question": "A store offers 25% discount on all items. A dress originally costs $80 and is made of cotton from India. It comes in 5 sizes. What's the sale price?",
-      "answers": ["$60", "$20", "$100", "$55"],
+      "answers": [
+        "$60",
+        "$55",
+        "$20",
+        "$100"
+      ],
       "correct": 0,
       "hint": "Subtract 25% from the original price (or multiply by 0.75). Material, origin, and sizes are irrelevant."
     },
     {
       "id": 19,
       "question": "A car uses 8 liters of fuel per 100 km. The car is German, seats 5 people, and has a 50-liter tank. How much fuel for a 250 km trip?",
-      "answers": ["20 liters", "200 liters", "8 liters", "50 liters"],
+      "answers": [
+        "20 liters",
+        "50 liters",
+        "8 liters",
+        "200 liters"
+      ],
       "correct": 0,
       "hint": "Set up a proportion: if 8 liters per 100 km, how many for 250 km? Origin, seats, and tank size are irrelevant."
     },
     {
       "id": 20,
       "question": "Tim saves $12/week. He uses a blue piggy bank kept in his room on the top shelf. He's been saving since January. After 8 weeks, how much has he saved?",
-      "answers": ["$96", "$20", "$104", "$12"],
+      "answers": [
+        "$96",
+        "$104",
+        "$20",
+        "$12"
+      ],
       "correct": 0,
       "hint": "Multiply weekly savings by number of weeks. Piggy bank details and start date are irrelevant."
     },
     {
       "id": 21,
       "question": "A farm has 120 chickens and 45 cows. The barn is red and was painted last spring. Each chicken lays 1 egg/day. How many eggs in a week?",
-      "answers": ["840 eggs", "165 eggs", "120 eggs", "1,155 eggs"],
-      "correct": 0,
+      "answers": [
+        "120 eggs",
+        "840 eggs",
+        "1,155 eggs",
+        "165 eggs"
+      ],
+      "correct": 1,
       "hint": "Multiply chickens by eggs per day, then by days in a week. Cows, barn color, and painting date are irrelevant."
     },
     {
       "id": 22,
       "question": "A conference room has tables arranged in 4 rows with 6 tables each. Each table seats 4 people. The room has AC set to 22°C. Maximum capacity?",
-      "answers": ["96 people", "24 people", "14 people", "88 people"],
+      "answers": [
+        "96 people",
+        "24 people",
+        "88 people",
+        "14 people"
+      ],
       "correct": 0,
       "hint": "Multiply rows × tables × seats per table. AC temperature is irrelevant."
     },
     {
       "id": 23,
       "question": "A school has 600 students. 40% walk to school, 35% take the bus. The school was founded in 1965 and has 40 teachers. How many walk?",
-      "answers": ["240 students", "210 students", "150 students", "365 students"],
-      "correct": 0,
+      "answers": [
+        "365 students",
+        "240 students",
+        "150 students",
+        "210 students"
+      ],
+      "correct": 1,
       "hint": "Find 40% of the total students. Year founded and teachers are irrelevant."
     },
     {
       "id": 24,
       "question": "A painter mixes 3 parts blue with 2 parts white. The paint brand is Premium and costs $25/liter. To make 15 liters of mixture, how much blue paint?",
-      "answers": ["9 liters", "6 liters", "10 liters", "3 liters"],
-      "correct": 0,
+      "answers": [
+        "10 liters",
+        "9 liters",
+        "3 liters",
+        "6 liters"
+      ],
+      "correct": 1,
       "hint": "Blue is 3 out of 5 total parts. Find that fraction of 15 liters. Brand and cost are irrelevant."
     },
     {
       "id": 25,
       "question": "An elevator can carry 8 people or 600 kg. It travels at 2 m/s and was installed in 2020. If 35 people need to go up, how many trips minimum?",
-      "answers": ["5 trips", "4 trips", "35 trips", "280 trips"],
-      "correct": 0,
+      "answers": [
+        "280 trips",
+        "4 trips",
+        "5 trips",
+        "35 trips"
+      ],
+      "correct": 2,
       "hint": "Divide total people by capacity per trip, then round up. Speed, weight limit, and year are irrelevant."
     },
     {
       "id": 26,
       "question": "A circular pond has radius 7 m. It contains goldfish and koi, and has a wooden deck around it. The pond is 2 m deep. What's its circumference? (π ≈ 3.14)",
-      "answers": ["43.96 m", "153.86 m", "14 m", "21.98 m"],
-      "correct": 0,
+      "answers": [
+        "14 m",
+        "153.86 m",
+        "21.98 m",
+        "43.96 m"
+      ],
+      "correct": 3,
       "hint": "Circumference = 2πr. Fish, deck, and depth are irrelevant."
     },
     {
       "id": 27,
       "question": "A test has 50 questions worth 2 points each. The test is on history, was written by Dr. Smith, and takes 90 minutes. If Amy gets 42 correct, what's her score?",
-      "answers": ["84 points", "42 points", "92 points", "8 points"],
-      "correct": 0,
+      "answers": [
+        "92 points",
+        "84 points",
+        "42 points",
+        "8 points"
+      ],
+      "correct": 1,
       "hint": "Multiply correct answers by points per question. Subject, author, and time limit are irrelevant."
     },
     {
       "id": 28,
       "question": "A plane flies at 800 km/h. It has 180 seats, 6 crew members, and serves meals during the flight. The flight is 4 hours. What distance is covered?",
-      "answers": ["3,200 km", "804 km", "200 km", "186 km"],
+      "answers": [
+        "3,200 km",
+        "804 km",
+        "186 km",
+        "200 km"
+      ],
       "correct": 0,
       "hint": "Distance = speed × time. Seats, crew, and meals are irrelevant."
     },
     {
       "id": 29,
       "question": "A cylindrical tank has radius 3 m and height 5 m. It's made of steel and holds water for firefighting. What's its volume? (π ≈ 3.14)",
-      "answers": ["141.3 m³", "47.1 m³", "94.2 m³", "15 m³"],
-      "correct": 0,
+      "answers": [
+        "47.1 m³",
+        "15 m³",
+        "94.2 m³",
+        "141.3 m³"
+      ],
+      "correct": 3,
       "hint": "Volume of cylinder = πr²h. Material and purpose are irrelevant."
     },
     {
       "id": 30,
       "question": "A shop sells shirts for $25 and pants for $40. The shop has 3 fitting rooms, opens at 10 AM, and accepts credit cards. If you buy 2 shirts and 1 pants, total cost?",
-      "answers": ["$90", "$65", "$130", "$115"],
-      "correct": 0,
+      "answers": [
+        "$130",
+        "$65",
+        "$115",
+        "$90"
+      ],
+      "correct": 3,
       "hint": "Add the cost of 2 shirts plus 1 pants. Fitting rooms, hours, and payment methods are irrelevant."
     },
     {
       "id": 31,
       "question": "A book has 300 pages. It's a mystery novel by a British author, published in hardcover. If you read 25 pages per day, how many days to finish?",
-      "answers": ["12 days", "275 days", "325 days", "7,500 days"],
-      "correct": 0,
+      "answers": [
+        "325 days",
+        "12 days",
+        "7,500 days",
+        "275 days"
+      ],
+      "correct": 1,
       "hint": "Divide total pages by pages per day. Genre, author nationality, and format are irrelevant."
     },
     {
       "id": 32,
       "question": "A company has 80 employees. 35% are managers. The office is downtown, has parking for 50 cars, and was renovated last year. How many are managers?",
-      "answers": ["28 managers", "52 managers", "45 managers", "35 managers"],
-      "correct": 0,
+      "answers": [
+        "52 managers",
+        "28 managers",
+        "45 managers",
+        "35 managers"
+      ],
+      "correct": 1,
       "hint": "Find 35% of total employees. Location, parking, and renovation are irrelevant."
     },
     {
       "id": 33,
       "question": "A cake needs 45 minutes to bake. The recipe is from France and uses organic ingredients. If you start at 2:15 PM, when will it be done?",
-      "answers": ["3:00 PM", "3:15 PM", "2:60 PM", "3:45 PM"],
-      "correct": 0,
+      "answers": [
+        "3:45 PM",
+        "3:00 PM",
+        "2:60 PM",
+        "3:15 PM"
+      ],
+      "correct": 1,
       "hint": "Add 45 minutes to the start time. Recipe origin and ingredients are irrelevant."
     },
     {
       "id": 34,
       "question": "A parking lot has 12 rows with 15 spaces each. It charges $3/hour and has security cameras. The lot is paved with asphalt. Total parking spaces?",
-      "answers": ["180 spaces", "27 spaces", "36 spaces", "45 spaces"],
+      "answers": [
+        "180 spaces",
+        "36 spaces",
+        "27 spaces",
+        "45 spaces"
+      ],
       "correct": 0,
       "hint": "Multiply rows by spaces per row. Price, cameras, and paving are irrelevant."
     },
     {
       "id": 35,
       "question": "A plant grows 3 cm per week. It's a tomato plant bought from a local nursery for $5. The pot is ceramic. How tall after 6 weeks if it started at 10 cm?",
-      "answers": ["28 cm", "18 cm", "60 cm", "13 cm"],
+      "answers": [
+        "28 cm",
+        "18 cm",
+        "13 cm",
+        "60 cm"
+      ],
       "correct": 0,
       "hint": "Add growth over 6 weeks to the starting height. Plant type, source, price, and pot material are irrelevant."
     },
     {
       "id": 36,
       "question": "A gym membership costs $30/month plus $50 sign-up fee. The gym has a pool, sauna, and 100 machines. It opened in 2019. Total cost for 6 months?",
-      "answers": ["$230", "$180", "$330", "$80"],
+      "answers": [
+        "$230",
+        "$180",
+        "$330",
+        "$80"
+      ],
       "correct": 0,
       "hint": "Add sign-up fee to (monthly cost × months). Amenities and opening year are irrelevant."
     },
     {
       "id": 37,
       "question": "A truck delivers 500 kg of goods. The truck is white, runs on diesel, and has 6 wheels. If 20% is furniture, how much furniture?",
-      "answers": ["100 kg", "400 kg", "20 kg", "120 kg"],
-      "correct": 0,
+      "answers": [
+        "120 kg",
+        "100 kg",
+        "400 kg",
+        "20 kg"
+      ],
+      "correct": 1,
       "hint": "Find 20% of total weight. Truck color, fuel type, and wheels are irrelevant."
     },
     {
       "id": 38,
       "question": "A survey of 250 people showed 60% prefer tea. The survey was conducted online in March by a research firm. How many prefer tea?",
-      "answers": ["150 people", "100 people", "60 people", "190 people"],
-      "correct": 0,
+      "answers": [
+        "60 people",
+        "100 people",
+        "150 people",
+        "190 people"
+      ],
+      "correct": 2,
       "hint": "Find 60% of the total surveyed. Survey method, month, and conductor are irrelevant."
     },
     {
       "id": 39,
       "question": "A rope costs $2.50 per meter. The rope is nylon, comes in 3 colors, and has a breaking strength of 500 kg. If you need 8 meters, total cost?",
-      "answers": ["$20", "$10.50", "$6.50", "$4,000"],
-      "correct": 0,
+      "answers": [
+        "$10.50",
+        "$4,000",
+        "$6.50",
+        "$20"
+      ],
+      "correct": 3,
       "hint": "Multiply length needed by price per meter. Material, colors, and strength are irrelevant."
     },
     {
       "id": 40,
       "question": "A bus travels 240 km in 4 hours. It stops 3 times, carries 45 passengers, and the driver has 10 years experience. What's the average speed?",
-      "answers": ["60 km/h", "48 km/h", "285 km/h", "90 km/h"],
-      "correct": 0,
+      "answers": [
+        "285 km/h",
+        "48 km/h",
+        "60 km/h",
+        "90 km/h"
+      ],
+      "correct": 2,
       "hint": "Average speed = total distance ÷ total time. Stops, passengers, and driver experience are irrelevant."
     }
   ]

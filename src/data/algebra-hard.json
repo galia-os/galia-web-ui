@@ -8,280 +8,480 @@
     {
       "id": 1,
       "question": "Solve for x: 3(x + 4) - 2x = 17",
-      "answers": ["x = 5", "x = 29", "x = 1", "x = 9"],
+      "answers": [
+        "x = 5",
+        "x = 1",
+        "x = 9",
+        "x = 29"
+      ],
       "correct": 0,
       "hint": "First distribute 3 into the parentheses, then combine like terms and solve."
     },
     {
       "id": 2,
       "question": "A rectangle has length 3 more than twice its width. If the perimeter is 42, what is the width?",
-      "answers": ["6", "9", "15", "12"],
+      "answers": [
+        "6",
+        "12",
+        "9",
+        "15"
+      ],
       "correct": 0,
       "hint": "Let w = width, length = 2w + 3. Use perimeter formula: 2(length) + 2(width) = 42."
     },
     {
       "id": 3,
       "question": "Solve for x: 5x - 3 = 3x + 11",
-      "answers": ["x = 4", "x = 7", "x = 14", "x = -7"],
-      "correct": 1,
+      "answers": [
+        "x = -7",
+        "x = 4",
+        "x = 14",
+        "x = 7"
+      ],
+      "correct": 3,
       "hint": "Move all x terms to one side and constants to the other, then solve."
     },
     {
       "id": 4,
       "question": "If 2a + 3b = 19 and a = 5, what is b?",
-      "answers": ["3", "6", "9", "2"],
-      "correct": 0,
+      "answers": [
+        "9",
+        "2",
+        "6",
+        "3"
+      ],
+      "correct": 3,
       "hint": "Substitute a = 5 into the equation, then solve for b."
     },
     {
       "id": 5,
       "question": "The sum of two consecutive even numbers is 54. What is the larger number?",
-      "answers": ["26", "28", "24", "30"],
+      "answers": [
+        "24",
+        "28",
+        "30",
+        "26"
+      ],
       "correct": 1,
       "hint": "Let the smaller even number be x. The next even number is x + 2. Set up x + (x + 2) = 54."
     },
     {
       "id": 6,
       "question": "Solve for x: 4(2x - 1) = 3(x + 6)",
-      "answers": ["x = 4.4", "x = 3", "x = 2", "x = 5"],
+      "answers": [
+        "x = 4.4",
+        "x = 3",
+        "x = 2",
+        "x = 5"
+      ],
       "correct": 0,
       "hint": "Distribute on both sides, then collect x terms on one side and constants on the other."
     },
     {
       "id": 7,
       "question": "What comes next: 1, 2, 4, 7, 11, 16, __?",
-      "answers": ["21", "22", "23", "20"],
-      "correct": 1,
+      "answers": [
+        "20",
+        "21",
+        "23",
+        "22"
+      ],
+      "correct": 3,
       "hint": "Look at the differences between consecutive terms. The differences form a pattern too."
     },
     {
       "id": 8,
       "question": "Maria is 4 years older than twice her brother's age. If Maria is 18, how old is her brother?",
-      "answers": ["7", "11", "9", "14"],
-      "correct": 0,
+      "answers": [
+        "11",
+        "9",
+        "7",
+        "14"
+      ],
+      "correct": 2,
       "hint": "Set up the equation: 18 = 2 × (brother's age) + 4. Solve for brother's age."
     },
     {
       "id": 9,
       "question": "Solve for x: x/2 + x/3 = 10",
-      "answers": ["x = 12", "x = 6", "x = 15", "x = 20"],
-      "correct": 0,
+      "answers": [
+        "x = 15",
+        "x = 12",
+        "x = 20",
+        "x = 6"
+      ],
+      "correct": 1,
       "hint": "Find a common denominator for the fractions (6), then combine and solve."
     },
     {
       "id": 10,
       "question": "A store sold shirts for $15 each and pants for $25 each. They sold 10 items for $200. How many shirts were sold?",
-      "answers": ["5", "6", "4", "7"],
+      "answers": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
       "correct": 0,
       "hint": "Let s = shirts. Then pants = 10 - s. Set up: 15s + 25(10 - s) = 200."
     },
     {
       "id": 11,
       "question": "Simplify: 2(3x + 4) - 3(x - 2)",
-      "answers": ["3x + 14", "3x + 2", "9x + 14", "3x + 8"],
+      "answers": [
+        "3x + 14",
+        "3x + 2",
+        "9x + 14",
+        "3x + 8"
+      ],
       "correct": 0,
       "hint": "Distribute both terms carefully (watch the negative sign), then combine like terms."
     },
     {
       "id": 12,
       "question": "Solve for x: -2x + 5 = 13",
-      "answers": ["x = -4", "x = 4", "x = 9", "x = -9"],
-      "correct": 0,
+      "answers": [
+        "x = -9",
+        "x = -4",
+        "x = 9",
+        "x = 4"
+      ],
+      "correct": 1,
       "hint": "Subtract 5 from both sides, then divide by -2. Be careful with the negative sign."
     },
     {
       "id": 13,
       "question": "The product of two consecutive numbers is 72. What is the smaller number?",
-      "answers": ["8", "9", "7", "6"],
-      "correct": 0,
+      "answers": [
+        "9",
+        "7",
+        "6",
+        "8"
+      ],
+      "correct": 3,
       "hint": "Think of factor pairs of 72. Which two consecutive numbers multiply to give 72?"
     },
     {
       "id": 14,
       "question": "If x = -3, what is the value of x² + 2x - 5?",
-      "answers": ["-2", "2", "-8", "10"],
+      "answers": [
+        "-2",
+        "-8",
+        "2",
+        "10"
+      ],
       "correct": 0,
       "hint": "Substitute -3 for x. Remember (-3)² is positive. Calculate each term carefully."
     },
     {
       "id": 15,
       "question": "Solve for x: 7x - 2(x + 3) = 14",
-      "answers": ["x = 4", "x = 2", "x = 5", "x = 8"],
-      "correct": 0,
+      "answers": [
+        "x = 2",
+        "x = 5",
+        "x = 8",
+        "x = 4"
+      ],
+      "correct": 3,
       "hint": "Distribute the -2, combine like terms, then isolate x."
     },
     {
       "id": 16,
       "question": "A triangle's angles are x, 2x, and 3x. Find the largest angle.",
-      "answers": ["90°", "60°", "30°", "120°"],
+      "answers": [
+        "90°",
+        "120°",
+        "30°",
+        "60°"
+      ],
       "correct": 0,
       "hint": "The sum of angles in a triangle is 180°. Set up x + 2x + 3x = 180, solve for x, then find 3x."
     },
     {
       "id": 17,
       "question": "Solve for y: 3y + 7 = 2y - 5",
-      "answers": ["y = -12", "y = 12", "y = 2", "y = -2"],
-      "correct": 0,
+      "answers": [
+        "y = -2",
+        "y = 2",
+        "y = -12",
+        "y = 12"
+      ],
+      "correct": 2,
       "hint": "Move y terms to one side, constants to the other. The answer will be negative."
     },
     {
       "id": 18,
       "question": "What comes next: 2, 6, 18, 54, __?",
-      "answers": ["108", "162", "72", "81"],
-      "correct": 1,
+      "answers": [
+        "162",
+        "108",
+        "81",
+        "72"
+      ],
+      "correct": 0,
       "hint": "Look at the ratio between consecutive terms. What do you multiply each number by?"
     },
     {
       "id": 19,
       "question": "John has 3 times as many coins as Mary. Together they have 52 coins. How many does John have?",
-      "answers": ["39", "13", "26", "36"],
-      "correct": 0,
+      "answers": [
+        "13",
+        "36",
+        "39",
+        "26"
+      ],
+      "correct": 2,
       "hint": "Let Mary's coins = x, John's = 3x. Set up x + 3x = 52. Solve for x, then find John's amount."
     },
     {
       "id": 20,
       "question": "Solve for x: 2(x - 3) + 4(x + 1) = 22",
-      "answers": ["x = 4", "x = 5", "x = 3", "x = 6"],
-      "correct": 0,
+      "answers": [
+        "x = 5",
+        "x = 3",
+        "x = 6",
+        "x = 4"
+      ],
+      "correct": 3,
       "hint": "Distribute both terms, combine like terms, then solve for x."
     },
     {
       "id": 21,
       "question": "If 3x - 7 = 2x + 8, what is 5x?",
-      "answers": ["75", "15", "50", "25"],
+      "answers": [
+        "75",
+        "25",
+        "15",
+        "50"
+      ],
       "correct": 0,
       "hint": "First solve for x, then multiply your answer by 5."
     },
     {
       "id": 22,
       "question": "A number decreased by 8 is half of 40. What is the number?",
-      "answers": ["28", "16", "32", "24"],
-      "correct": 0,
+      "answers": [
+        "32",
+        "24",
+        "16",
+        "28"
+      ],
+      "correct": 3,
       "hint": "Set up: (the number) - 8 = 40 ÷ 2. Calculate half of 40, then add 8."
     },
     {
       "id": 23,
       "question": "Solve for x: (x + 5)/3 = 7",
-      "answers": ["x = 16", "x = 21", "x = 6", "x = 26"],
-      "correct": 0,
+      "answers": [
+        "x = 21",
+        "x = 26",
+        "x = 6",
+        "x = 16"
+      ],
+      "correct": 3,
       "hint": "Multiply both sides by 3 first, then subtract 5 from both sides."
     },
     {
       "id": 24,
       "question": "What is the 10th term in the sequence: 5, 8, 11, 14, ...?",
-      "answers": ["32", "35", "29", "38"],
-      "correct": 0,
+      "answers": [
+        "35",
+        "29",
+        "32",
+        "38"
+      ],
+      "correct": 2,
       "hint": "The pattern increases by 3 each time. Use the formula: first term + (n-1) × common difference."
     },
     {
       "id": 25,
       "question": "Simplify: 5(2a - 3) - 2(3a + 4)",
-      "answers": ["4a - 23", "4a - 7", "16a - 23", "4a + 23"],
+      "answers": [
+        "4a - 23",
+        "4a - 7",
+        "4a + 23",
+        "16a - 23"
+      ],
       "correct": 0,
       "hint": "Distribute both terms carefully, then combine like terms."
     },
     {
       "id": 26,
       "question": "Three less than twice a number is 15. What is the number?",
-      "answers": ["9", "6", "12", "18"],
-      "correct": 0,
+      "answers": [
+        "6",
+        "18",
+        "12",
+        "9"
+      ],
+      "correct": 3,
       "hint": "Set up: 2 × (the number) - 3 = 15. Add 3, then divide by 2."
     },
     {
       "id": 27,
       "question": "Solve for x: 4x + 3 = 2x + 15",
-      "answers": ["x = 6", "x = 9", "x = 3", "x = 12"],
-      "correct": 0,
+      "answers": [
+        "x = 3",
+        "x = 6",
+        "x = 9",
+        "x = 12"
+      ],
+      "correct": 1,
       "hint": "Subtract 2x from both sides, then subtract 3 from both sides and divide."
     },
     {
       "id": 28,
       "question": "If y = 2x + 1 and x = 4, what is y²?",
-      "answers": ["81", "9", "49", "64"],
+      "answers": [
+        "81",
+        "64",
+        "9",
+        "49"
+      ],
       "correct": 0,
       "hint": "First find y by substituting x = 4, then square that result."
     },
     {
       "id": 29,
       "question": "A test has 25 questions worth 4 points each. Tom got x questions wrong. His score is:",
-      "answers": ["100 - 4x", "100 - x", "25 - 4x", "4x - 100"],
-      "correct": 0,
+      "answers": [
+        "4x - 100",
+        "25 - 4x",
+        "100 - 4x",
+        "100 - x"
+      ],
+      "correct": 2,
       "hint": "Total possible points = 25 × 4. Each wrong answer loses 4 points. Score = Total - (points lost)."
     },
     {
       "id": 30,
       "question": "Solve for x: 6x - 4 = 2(x + 8)",
-      "answers": ["x = 5", "x = 3", "x = 4", "x = 6"],
+      "answers": [
+        "x = 5",
+        "x = 3",
+        "x = 6",
+        "x = 4"
+      ],
       "correct": 0,
       "hint": "First distribute on the right side, then move x terms to one side and constants to the other."
     },
     {
       "id": 31,
       "question": "The average of three numbers is 15. If two of them are 12 and 18, what is the third?",
-      "answers": ["15", "12", "18", "21"],
+      "answers": [
+        "15",
+        "18",
+        "12",
+        "21"
+      ],
       "correct": 0,
       "hint": "Average × count = total. So total = 15 × 3. Subtract the known values to find the third."
     },
     {
       "id": 32,
       "question": "Solve for x: x/4 - 3 = x/6 + 1",
-      "answers": ["x = 48", "x = 24", "x = 12", "x = 36"],
-      "correct": 0,
+      "answers": [
+        "x = 12",
+        "x = 36",
+        "x = 48",
+        "x = 24"
+      ],
+      "correct": 2,
       "hint": "Multiply everything by 12 (common denominator of 4 and 6) to eliminate fractions, then solve."
     },
     {
       "id": 33,
       "question": "If a + b = 10 and a - b = 4, what is a?",
-      "answers": ["7", "3", "6", "8"],
-      "correct": 0,
+      "answers": [
+        "8",
+        "6",
+        "3",
+        "7"
+      ],
+      "correct": 3,
       "hint": "Add the two equations together. The b terms will cancel, leaving 2a = some value."
     },
     {
       "id": 34,
       "question": "Solve for x: 5(x + 2) = 3(x - 2) + 24",
-      "answers": ["x = 2", "x = 4", "x = -2", "x = 6"],
-      "correct": 0,
+      "answers": [
+        "x = -2",
+        "x = 4",
+        "x = 2",
+        "x = 6"
+      ],
+      "correct": 2,
       "hint": "Distribute on both sides, combine like terms, and solve for x."
     },
     {
       "id": 35,
       "question": "A car travels at 60 mph for x hours, then 40 mph for 2 hours. Total distance is 280 miles. Find x.",
-      "answers": ["3", "4", "2", "5"],
-      "correct": 0,
+      "answers": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "correct": 2,
       "hint": "Distance = speed × time. Set up: 60x + 40(2) = 280. Solve for x."
     },
     {
       "id": 36,
       "question": "What comes next: 1, 1, 2, 3, 5, 8, 13, __?",
-      "answers": ["21", "18", "20", "19"],
+      "answers": [
+        "21",
+        "18",
+        "19",
+        "20"
+      ],
       "correct": 0,
       "hint": "This is the Fibonacci sequence. Each number is the sum of the two before it."
     },
     {
       "id": 37,
       "question": "Solve for x: 2x² = 50",
-      "answers": ["x = 5", "x = 25", "x = 10", "x = 7"],
-      "correct": 0,
+      "answers": [
+        "x = 25",
+        "x = 10",
+        "x = 5",
+        "x = 7"
+      ],
+      "correct": 2,
       "hint": "Divide both sides by 2 to get x², then take the square root (positive value)."
     },
     {
       "id": 38,
       "question": "If f(x) = 3x - 2, what is f(5)?",
-      "answers": ["13", "17", "15", "11"],
-      "correct": 0,
+      "answers": [
+        "11",
+        "13",
+        "17",
+        "15"
+      ],
+      "correct": 1,
       "hint": "Replace x with 5 in the function: f(5) = 3(5) - 2."
     },
     {
       "id": 39,
       "question": "Solve for x: 3(2x + 1) = 2(3x + 5) - 7",
-      "answers": ["x = any number", "x = 0", "x = 1", "no solution"],
+      "answers": [
+        "x = any number",
+        "x = 1",
+        "no solution",
+        "x = 0"
+      ],
       "correct": 0,
       "hint": "Distribute on both sides and simplify. Notice what happens to the x terms."
     },
     {
       "id": 40,
       "question": "Amy is 5 years older than Beth. In 3 years, Amy will be twice Beth's current age. How old is Beth now?",
-      "answers": ["8", "3", "5", "10"],
+      "answers": [
+        "8",
+        "10",
+        "3",
+        "5"
+      ],
       "correct": 0,
       "hint": "Let Beth's age = B. Amy = B + 5. In 3 years, Amy is (B + 5 + 3). Set this equal to 2B."
     }
