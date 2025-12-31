@@ -1,0 +1,97 @@
+import { NextRequest, NextResponse } from "next/server";
+import { sql } from "@vercel/postgres";
+import { Resend } from "resend";
+import { Mistake } from "@/lib/types";
+
+interface ResultPayload {
+  userId: string;
+  userName: string;
+  themeId: string;
+  themeName: string;
+  score: number;
+  totalQuestions: number;
+  totalTimeSeconds: number;
+  avgTimePerQuestion: number;
+  mistakes: Mistake[];
+  allAnswers: {
+    questionId: number;
+    question: string;
+    userAnswer: number | null;
+    correctAnswer: number;
+    timeSpent: number;
+  }[];
+}
+
+export async function POST(request: NextRequest) {
+  try {
+    const body: ResultPayload = await request.json();
+
+    // Save to database (only if DATABASE_URL is configured)
+    if (process.env.POSTGRES_URL) {
+      try {
+        await sql`
+          INSERT INTO quiz_results (
+            user_id, user_name, theme_id, theme_name,
+            score, total_questions, total_time_seconds, avg_time_per_question,
+            mistakes, all_answers, completed_at
+          ) VALUES (
+            ${body.userId}, ${body.userName}, ${body.themeId}, ${body.themeName},
+            ${body.score}, ${body.totalQuestions}, ${body.totalTimeSeconds}, ${body.avgTimePerQuestion},
+            ${JSON.stringify(body.mistakes)}, ${JSON.stringify(body.allAnswers)}, NOW()
+          )
+        `;
+      } catch (dbError) {
+        console.error("Database error (continuing without save):", dbError);
+      }
+    }
+
+    // Send email notification
+    const notificationEmail = process.env.NOTIFICATION_EMAIL;
+    if (notificationEmail && process.env.RESEND_API_KEY) {
+      const resend = new Resend(process.env.RESEND_API_KEY);
+      const successRate = ((body.score / body.totalQuestions) * 100).toFixed(1);
+      const avgTime = body.avgTimePerQuestion.toFixed(1);
+      const totalMinutes = Math.floor(body.totalTimeSeconds / 60);
+      const totalSeconds = body.totalTimeSeconds % 60;
+
+      const mistakesList = body.mistakes
+        .map(
+          (m) =>
+            `• Q${m.questionNumber}: ${m.question}\n  Answer: ${m.userAnswer || "Skipped"}\n  Correct: ${m.correctAnswer}\n  Explanation: ${m.explanation}`
+        )
+        .join("\n\n");
+
+      try {
+        await resend.emails.send({
+          from: "Galamath <onboarding@resend.dev>",
+          to: notificationEmail,
+          subject: `[Galamath] ${body.userName} completed ${body.themeName} - ${successRate}%`,
+          text: `
+Quiz Results for ${body.userName}
+================================
+
+Theme: ${body.themeName}
+Score: ${body.score}/${body.totalQuestions} (${successRate}%)
+Total Time: ${totalMinutes}m ${totalSeconds}s
+Average Time per Question: ${avgTime}s
+
+${body.mistakes.length > 0 ? `Mistakes (${body.mistakes.length}):\n\n${mistakesList}` : "Perfect score! No mistakes!"}
+
+---
+Galamath Quiz App
+          `.trim(),
+        });
+      } catch (emailError) {
+        console.error("Email error (continuing):", emailError);
+      }
+    }
+
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error("Error processing result:", error);
+    return NextResponse.json(
+      { success: false, error: "Failed to process result" },
+      { status: 500 }
+    );
+  }
+}
