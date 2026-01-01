@@ -148,6 +148,19 @@ export default function AIHelper({ question, hint, theme, answers, userName }: A
     }
   };
 
+  const handleClose = () => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+    if (typeof window !== "undefined" && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
+    setIsActive(false);
+    setIsSpeaking(false);
+    setShowText(false);
+  };
+
   const isAnimating = isLoading || isSpeaking;
 
   return (
@@ -196,7 +209,14 @@ export default function AIHelper({ question, hint, theme, answers, userName }: A
 
       {/* Done state - show text with replay option */}
       {isActive && showText && completion && (
-        <div className="w-full max-w-md rounded-2xl bg-white p-4 shadow-lg">
+        <div className="relative w-full max-w-md rounded-2xl bg-white p-4 shadow-lg">
+          <button
+            onClick={handleClose}
+            className="absolute -top-2 -right-2 flex h-7 w-7 items-center justify-center rounded-full bg-gray-200 text-gray-600 transition-all hover:bg-gray-300 active:scale-95"
+            title="Close"
+          >
+            ✕
+          </button>
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-2">
               <Lottie

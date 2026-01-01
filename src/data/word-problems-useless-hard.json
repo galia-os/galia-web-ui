@@ -8,384 +8,224 @@
     {
       "id": 1,
       "question": "A train leaves Station A at 8:00 AM traveling 90 km/h. Another train leaves Station B (180 km away) at 8:30 AM traveling 60 km/h toward Station A. Station A has 5 platforms and was built in 1920. When do they meet?",
-      "answers": [
-        "9:00 AM",
-        "9:30 AM",
-        "9:12 AM",
-        "10:00 AM"
-      ],
+      "answers": ["9:00 AM", "9:30 AM", "9:12 AM", "10:00 AM"],
       "correct": 2,
       "hint": "First find how far Train A travels in 30 min. Then calculate how long until they meet using combined speeds. Station details are irrelevant."
     },
     {
       "id": 2,
       "question": "A cylindrical water tank has radius 4 m and height 6 m. It's painted green, made of steel manufactured in Germany, and was installed by a 5-person crew in 2021. Water fills at 2 m³/min. How long to fill it? (π ≈ 3.14)",
-      "answers": [
-        "48 min",
-        "75.36 min",
-        "150.72 min",
-        "301.44 min"
-      ],
+      "answers": ["48 min", "75.36 min", "150.72 min", "301.44 min"],
       "correct": 2,
       "hint": "First calculate volume using V = πr²h, then divide by fill rate. Paint, material, and crew details are irrelevant."
     },
     {
       "id": 3,
       "question": "A store's profit is calculated as Revenue - Cost. Last month: Revenue $15,000, Cost $9,000. The store has 8 employees, is open 7 days/week, and occupies 200 m². What's the profit margin percentage?",
-      "answers": [
-        "40%",
-        "66.7%",
-        "150%",
-        "60%"
-      ],
+      "answers": ["40%", "66.7%", "150%", "60%"],
       "correct": 0,
       "hint": "Profit margin = (Profit ÷ Revenue) × 100. Find profit first, then divide by revenue. Employees, hours, and space are irrelevant."
     },
     {
       "id": 4,
       "question": "Three workers can complete a job in 12 days. Worker A is 35 years old, Worker B uses power tools costing $500, and Worker C has 10 years experience. If 2 more workers join (same rate), how many days?",
-      "answers": [
-        "20 days",
-        "4.8 days",
-        "7.2 days",
-        "6 days"
-      ],
+      "answers": ["20 days", "4.8 days", "7.2 days", "6 days"],
       "correct": 2,
       "hint": "Use the work formula: workers × days = constant. More workers means fewer days proportionally. Personal details are irrelevant."
     },
     {
       "id": 5,
       "question": "A cone has radius 6 cm and slant height 10 cm. The cone is hollow, made of plastic from recycled materials, and weighs 150 g. What's its total surface area? (π ≈ 3.14)",
-      "answers": [
-        "376.8 cm²",
-        "301.44 cm²",
-        "113.04 cm²",
-        "188.4 cm²"
-      ],
+      "answers": ["376.8 cm²", "301.44 cm²", "113.04 cm²", "188.4 cm²"],
       "correct": 1,
       "hint": "Total surface area = πr² + πrl (base + lateral). Material and weight are irrelevant."
     },
     {
       "id": 6,
       "question": "Compound interest: $5,000 at 8% annually for 2 years. The bank has 50 branches, was founded in 1890, and its CEO is named Johnson. What's the final amount?",
-      "answers": [
-        "$5,400",
-        "$6,480",
-        "$5,832",
-        "$5,800"
-      ],
+      "answers": ["$5,400", "$6,480", "$5,832", "$5,800"],
       "correct": 2,
       "hint": "Use A = P(1+r)^n for compound interest. Bank details are irrelevant."
     },
     {
       "id": 7,
       "question": "A mixture contains milk and water in ratio 5:3. The milk is organic and costs $4/liter. The container is glass, holds 24 liters, and has a blue lid. How much milk?",
-      "answers": [
-        "12 liters",
-        "18 liters",
-        "15 liters",
-        "9 liters"
-      ],
+      "answers": ["12 liters", "18 liters", "15 liters", "9 liters"],
       "correct": 2,
       "hint": "Milk's share = 5 out of (5+3) total parts. Find that fraction of 24 liters. Milk type, cost, and container details are irrelevant."
     },
     {
       "id": 8,
       "question": "Two pipes fill a tank. Pipe A fills in 6 hours, Pipe B in 4 hours. The tank is underground, made of concrete, and has capacity 1200 liters. The pipes are copper, installed in 2018. How long together?",
-      "answers": [
-        "5 hours",
-        "10 hours",
-        "1.5 hours",
-        "2.4 hours"
-      ],
+      "answers": ["5 hours", "10 hours", "1.5 hours", "2.4 hours"],
       "correct": 3,
       "hint": "Add the rates (1/6 + 1/4), then take the reciprocal. Tank and pipe materials are irrelevant."
     },
     {
       "id": 9,
       "question": "In a class of 40 students, average score is 75. Boys' average is 70, girls' average is 80. The class has 2 teachers, meets in Room 301, and the subject is math. How many boys?",
-      "answers": [
-        "25 boys",
-        "15 boys",
-        "20 boys",
-        "30 boys"
-      ],
+      "answers": ["25 boys", "15 boys", "20 boys", "30 boys"],
       "correct": 2,
       "hint": "Set up an equation: boys×70 + girls×80 = 40×75. Use boys + girls = 40. Teachers, room, and subject are irrelevant."
     },
     {
       "id": 10,
       "question": "A sphere has diameter 14 cm. It's a decorative ball, hand-painted in India, sold at a craft fair for $45. What's its volume? (π ≈ 22/7)",
-      "answers": [
-        "179.67 cm³",
-        "718.67 cm³",
-        "1,437.33 cm³",
-        "2,874.67 cm³"
-      ],
+      "answers": ["179.67 cm³", "718.67 cm³", "1,437.33 cm³", "2,874.67 cm³"],
       "correct": 2,
       "hint": "Volume = (4/3)πr³. Remember radius is half the diameter. Origin and sale details are irrelevant."
     },
     {
       "id": 11,
       "question": "A boat travels 24 km upstream in 4 hours and returns in 3 hours. The boat is blue, seats 6, and the captain has 15 years experience. What's the boat's speed in still water?",
-      "answers": [
-        "7 km/h",
-        "6 km/h",
-        "8 km/h",
-        "10 km/h"
-      ],
+      "answers": ["7 km/h", "6 km/h", "8 km/h", "10 km/h"],
       "correct": 0,
       "hint": "Find upstream and downstream speeds first, then average them for still water speed. Boat details are irrelevant."
     },
     {
       "id": 12,
       "question": "An investment of $10,000 yields 12% simple interest per year. The broker charges $50 fee, works from downtown office, and has an MBA degree. What's the interest after 3 years?",
-      "answers": [
-        "$3,600",
-        "$4,049.28",
-        "$1,200",
-        "$3,550"
-      ],
+      "answers": ["$3,600", "$4,049.28", "$1,200", "$3,550"],
       "correct": 0,
       "hint": "Simple Interest = P × r × t. Broker details are irrelevant."
     },
     {
       "id": 13,
       "question": "A frustum of a cone has radii 6 cm and 3 cm, height 8 cm. It's used as a flower pot, made of terracotta from Mexico, and costs $25. What's its volume? (π ≈ 3.14)",
-      "answers": [
-        "263.76 cm³",
-        "527.52 cm³",
-        "703.36 cm³",
-        "351.68 cm³"
-      ],
+      "answers": ["263.76 cm³", "527.52 cm³", "703.36 cm³", "351.68 cm³"],
       "correct": 1,
       "hint": "Use frustum volume formula: V = (πh/3)(R² + Rr + r²). Use and origin are irrelevant."
     },
     {
       "id": 14,
       "question": "A ladder 10 m long leans against a wall, foot 6 m from wall. The ladder is aluminum, weighs 15 kg, and was bought from Home Depot. How high does it reach?",
-      "answers": [
-        "4 m",
-        "8 m",
-        "16 m",
-        "12 m"
-      ],
+      "answers": ["4 m", "8 m", "16 m", "12 m"],
       "correct": 1,
       "hint": "Use Pythagorean theorem: a² + b² = c². Find the missing leg. Material, weight, and store are irrelevant."
     },
     {
       "id": 15,
       "question": "A shopkeeper sells at 20% profit. If he bought 50 items at $80 each from Wholesale Inc. located in Texas, and his shop is on Main Street, what's the selling price per item?",
-      "answers": [
-        "$96",
-        "$84",
-        "$100",
-        "$64"
-      ],
+      "answers": ["$96", "$84", "$100", "$64"],
       "correct": 0,
       "hint": "Selling price = Cost × (1 + profit%). Quantity, supplier details, and shop location are irrelevant."
     },
     {
       "id": 16,
       "question": "Two candles: Candle A is 15 cm, burns 3 cm/hour. Candle B is 12 cm, burns 2 cm/hour. Both are scented, made of beeswax, cost $8 each. When are they equal height?",
-      "answers": [
-        "4 hours",
-        "3 hours",
-        "5 hours",
-        "2 hours"
-      ],
+      "answers": ["4 hours", "3 hours", "5 hours", "2 hours"],
       "correct": 1,
       "hint": "Set up equations for each candle's height over time, then solve for when they're equal. Scent, material, and cost are irrelevant."
     },
     {
       "id": 17,
       "question": "A hemispherical dome has radius 14 m. It's made of glass, designed by a famous architect, built in 2015 for $2 million. What's its curved surface area? (π ≈ 22/7)",
-      "answers": [
-        "1,232 m²",
-        "308 m²",
-        "2,464 m²",
-        "616 m²"
-      ],
+      "answers": ["1,232 m²", "308 m²", "2,464 m²", "616 m²"],
       "correct": 0,
       "hint": "Curved surface area of hemisphere = 2πr². All other details are irrelevant."
     },
     {
       "id": 18,
       "question": "At 10% discount then 20% discount, a TV's final price is $576. Original price? The TV is 55-inch, 4K resolution, made by Samsung, and comes with a 2-year warranty.",
-      "answers": [
-        "$864",
-        "$690",
-        "$800",
-        "$720"
-      ],
+      "answers": ["$864", "$690", "$800", "$720"],
       "correct": 2,
       "hint": "Work backwards: Final = Original × 0.90 × 0.80. Solve for original. TV specs are irrelevant."
     },
     {
       "id": 19,
       "question": "A and B together can do work in 12 days. A alone takes 20 days. A is 30 years old and uses modern equipment. B learned the trade from his father. How long for B alone?",
-      "answers": [
-        "15 days",
-        "8 days",
-        "40 days",
-        "30 days"
-      ],
+      "answers": ["15 days", "8 days", "40 days", "30 days"],
       "correct": 3,
       "hint": "Combined rate = A's rate + B's rate. Find B's rate by subtraction. Personal details are irrelevant."
     },
     {
       "id": 20,
       "question": "A trapezoid has parallel sides 14 cm and 10 cm, height 8 cm. It's drawn on recycled paper using a ruler made in Japan. The paper costs $5 per pack. What's the area?",
-      "answers": [
-        "96 cm²",
-        "80 cm²",
-        "112 cm²",
-        "192 cm²"
-      ],
+      "answers": ["96 cm²", "80 cm²", "112 cm²", "192 cm²"],
       "correct": 0,
       "hint": "Area of trapezoid = ½(a+b)h. Paper, ruler origin, and price are irrelevant."
     },
     {
       "id": 21,
       "question": "Speed of stream is 2 km/h. A boat goes 18 km downstream and back in 8 hours total. The boat has a 50 HP engine, was serviced last month, and holds 8 passengers. Boat's speed in still water?",
-      "answers": [
-        "8 km/h",
-        "10 km/h",
-        "4 km/h",
-        "6 km/h"
-      ],
+      "answers": ["8 km/h", "10 km/h", "4 km/h", "6 km/h"],
       "correct": 3,
       "hint": "Set up equation: time downstream + time upstream = 8. Use (v+2) and (v-2) for speeds. Engine and capacity are irrelevant."
     },
     {
       "id": 22,
       "question": "Sum of ages of father and son is 56. Father is 4 times as old as son. Father is a doctor at City Hospital, and son attends Lincoln Elementary. How old is the son?",
-      "answers": [
-        "14 years",
-        "44.8 years",
-        "28 years",
-        "11.2 years"
-      ],
+      "answers": ["14 years", "44.8 years", "28 years", "11.2 years"],
       "correct": 3,
       "hint": "Let son's age = x. Then father = 4x. Set up: x + 4x = 56. Occupations and schools are irrelevant."
     },
     {
       "id": 23,
       "question": "A regular hexagon has side 8 cm. It's engraved on a silver pendant, designed by a local artist, and weighs 50 grams. What's its area? (Use: Area = (3√3/2)s²)",
-      "answers": [
-        "166.28 cm²",
-        "332.56 cm²",
-        "83.14 cm²",
-        "96 cm²"
-      ],
+      "answers": ["166.28 cm²", "332.56 cm²", "83.14 cm²", "96 cm²"],
       "correct": 0,
       "hint": "Use the formula given with s = 8. Remember √3 ≈ 1.732. Material, artist, and weight are irrelevant."
     },
     {
       "id": 24,
       "question": "A shopkeeper marks up goods by 50% then offers 20% discount. Cost price is $100. His shop has 3 staff, is open 10 hours daily, and was started 5 years ago. What's the profit?",
-      "answers": [
-        "$10",
-        "$20",
-        "$50",
-        "$30"
-      ],
+      "answers": ["$10", "$20", "$50", "$30"],
       "correct": 1,
       "hint": "Find marked price first (cost + 50%), then apply 20% discount. Compare to cost. Shop details are irrelevant."
     },
     {
       "id": 25,
       "question": "LCM of two numbers is 120, HCF is 4. One number is 24. The numbers are used in a math competition held annually in Boston. What's the other number?",
-      "answers": [
-        "30",
-        "60",
-        "20",
-        "40"
-      ],
+      "answers": ["30", "60", "20", "40"],
       "correct": 2,
       "hint": "Use the relationship: LCM × HCF = product of the two numbers. Competition details are irrelevant."
     },
     {
       "id": 26,
       "question": "A conical tent has base radius 7 m and height 24 m. It's made of waterproof canvas from Canada, can shelter 15 people, and costs $3,000. What's the slant height?",
-      "answers": [
-        "31 m",
-        "49 m",
-        "17 m",
-        "25 m"
-      ],
+      "answers": ["31 m", "49 m", "17 m", "25 m"],
       "correct": 3,
       "hint": "Use Pythagorean theorem: slant² = radius² + height². Material, capacity, and cost are irrelevant."
     },
     {
       "id": 27,
       "question": "A pipe can fill tank in 8 hours but a leak empties it in 24 hours. The tank is on the roof, made of fiberglass, and connected to a filtration system. How long to fill with leak?",
-      "answers": [
-        "32 hours",
-        "6 hours",
-        "16 hours",
-        "12 hours"
-      ],
+      "answers": ["32 hours", "6 hours", "16 hours", "12 hours"],
       "correct": 3,
       "hint": "Net rate = fill rate - leak rate. Then find time. Tank details are irrelevant."
     },
     {
       "id": 28,
       "question": "At 15% per annum compound interest, in how many years will $8,000 become $10,580? (1.15² ≈ 1.32). The account is with Global Bank, requires $500 minimum, and has online access.",
-      "answers": [
-        "3 years",
-        "1.5 years",
-        "2 years",
-        "4 years"
-      ],
+      "answers": ["3 years", "1.5 years", "2 years", "4 years"],
       "correct": 2,
       "hint": "Find what power of 1.15 equals 10580/8000. Use the given approximation. Bank details are irrelevant."
     },
     {
       "id": 29,
       "question": "A and B start from same point. A walks north at 4 km/h, B walks east at 3 km/h. A wears a red jacket, B has a GPS watch costing $200. After 2 hours, distance between them?",
-      "answers": [
-        "10 km",
-        "7 km",
-        "14 km",
-        "5 km"
-      ],
+      "answers": ["10 km", "7 km", "14 km", "5 km"],
       "correct": 0,
       "hint": "They form a right angle. Find each distance traveled, then use Pythagorean theorem. Clothing and gadgets are irrelevant."
     },
     {
       "id": 30,
       "question": "A rectangular field is 120 m × 80 m. A path 5 m wide runs inside along the edges. Grass seed costs $2/m² and the field is used for soccer. Area of path?",
-      "answers": [
-        "950 m²",
-        "1,900 m²",
-        "9,600 m²",
-        "7,700 m²"
-      ],
+      "answers": ["950 m²", "1,900 m²", "9,600 m²", "7,700 m²"],
       "correct": 1,
       "hint": "Path area = outer area - inner area. Inner dimensions are reduced by path width on each side. Seed cost and use are irrelevant."
     },
     {
       "id": 31,
       "question": "Mean of 5 numbers is 20. If one number (15) is removed, new mean? The numbers represent test scores from Room 204, taken on a Tuesday in November.",
-      "answers": [
-        "25",
-        "21.25",
-        "18.75",
-        "16"
-      ],
+      "answers": ["25", "21.25", "18.75", "16"],
       "correct": 1,
       "hint": "Find total sum first, remove the number, then divide by new count. Context is irrelevant."
     },
     {
       "id": 32,
       "question": "A pyramid has square base 10 cm and height 12 cm. It's a museum replica, made of bronze, and weighs 2 kg. What's its volume?",
-      "answers": [
-        "1,200 cm³",
-        "200 cm³",
-        "400 cm³",
-        "600 cm³"
-      ],
+      "answers": ["1,200 cm³", "200 cm³", "400 cm³", "600 cm³"],
       "correct": 2,
       "hint": "Volume of pyramid = (1/3) × base area × height. Purpose, material, and weight are irrelevant."
     },
@@ -404,72 +244,42 @@
     {
       "id": 34,
       "question": "If 12 workers can build a wall in 18 days working 8 hours/day, how many days for 18 workers working 6 hours/day? Workers are unionized and earn $25/hour.",
-      "answers": [
-        "12 days",
-        "16 days",
-        "9 days",
-        "24 days"
-      ],
+      "answers": ["12 days", "16 days", "9 days", "24 days"],
       "correct": 1,
       "hint": "Total work = workers × days × hours. This constant helps find new days. Union and pay are irrelevant."
     },
     {
       "id": 35,
       "question": "Selling price is $1,200 with 20% profit. The item is a laptop, manufactured in China, with 2-year warranty from TechStore. What was the cost price?",
-      "answers": [
-        "$1,200",
-        "$1,000",
-        "$1,440",
-        "$960"
-      ],
+      "answers": ["$1,200", "$1,000", "$1,440", "$960"],
       "correct": 1,
       "hint": "If SP = CP × 1.20, solve for CP. Product details and warranty are irrelevant."
     },
     {
       "id": 36,
       "question": "A chord is 10 cm from center of circle with radius 13 cm. The circle is drawn on a whiteboard using a compass bought last week. What's the chord length?",
-      "answers": [
-        "23 cm",
-        "24 cm",
-        "12 cm",
-        "46 cm"
-      ],
+      "answers": ["23 cm", "24 cm", "12 cm", "46 cm"],
       "correct": 1,
       "hint": "The perpendicular from center to chord bisects it. Use Pythagorean theorem with the half-chord. Drawing details are irrelevant."
     },
     {
       "id": 37,
       "question": "In a GP: 2, 6, 18, 54... The sequence is used in a coding challenge at a tech company in Silicon Valley. What's the 7th term?",
-      "answers": [
-        "486",
-        "4,374",
-        "1,458",
-        "162"
-      ],
+      "answers": ["486", "4,374", "1,458", "162"],
       "correct": 2,
       "hint": "Find the common ratio, then use a_n = a₁ × r^(n-1). Context is irrelevant."
     },
     {
       "id": 38,
       "question": "A cylindrical log radius 7 cm, length 100 cm. It's oak wood from Oregon, costs $15, and will be carved by an artisan. Curved surface area? (π ≈ 22/7)",
-      "answers": [
-        "2,200 cm²",
-        "4,400 cm²",
-        "8,800 cm²",
-        "15,400 cm²"
-      ],
+      "answers": ["2,200 cm²", "4,400 cm²", "8,800 cm²", "15,400 cm²"],
       "correct": 1,
       "hint": "Curved surface area of cylinder = 2πrh. Wood type, origin, and cost are irrelevant."
     },
     {
       "id": 39,
       "question": "Average of 8 numbers is 25. If 2 numbers (each 30) are removed, new average? The numbers are temperatures recorded by a digital thermometer at a weather station in Colorado.",
-      "answers": [
-        "23.33",
-        "20",
-        "22.5",
-        "26.67"
-      ],
+      "answers": ["23.33", "20", "22.5", "26.67"],
       "correct": 0,
       "hint": "Find total sum, subtract both removed numbers, divide by new count. Context is irrelevant."
     },
@@ -486,7 +296,5 @@
       "hint": "Set up an alligation or equation: 0.60x + 0.40(100-x) = 52. Gold details are irrelevant."
     }
   ],
-  "access": [
-    0
-  ]
+  "access": [0, 1]
 }
