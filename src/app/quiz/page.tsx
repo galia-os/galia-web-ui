@@ -4,6 +4,7 @@ import { useEffect, useState, useCallback, Suspense, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import QuestionCard from "@/components/QuestionCard";
 import Timer from "@/components/Timer";
+import CircularTimer from "@/components/CircularTimer";
 import ProgressBar from "@/components/ProgressBar";
 import AIHelper from "@/components/AIHelper";
 import { QuizData, User, Mistake } from "@/lib/types";
@@ -44,17 +45,9 @@ function QuizContent() {
   const [questionKey, setQuestionKey] = useState(0);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [confirmingAnswer, setConfirmingAnswer] = useState(false);
   const questionStartRef = useRef(Date.now());
   const handleNextRef = useRef<() => void>(() => {});
-
-  // Detect mobile screen size
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
 
   useEffect(() => {
     if (!themeId || !userId) {
@@ -99,14 +92,16 @@ function QuizContent() {
         let filteredQuizData = quizDataParsed;
         if (round > 1) {
           // Use saved wrong question IDs if available, otherwise from session storage
-          const wrongQuestionIds = savedProgress?.wrongQuestionIds || JSON.parse(
-            sessionStorage.getItem("wrongQuestionIds") || "[]"
-          ) as number[];
+          const wrongQuestionIds =
+            savedProgress?.wrongQuestionIds ||
+            (JSON.parse(
+              sessionStorage.getItem("wrongQuestionIds") || "[]",
+            ) as number[]);
           if (wrongQuestionIds.length > 0) {
             filteredQuizData = {
               ...quizDataParsed,
               questions: quizDataParsed.questions.filter((q: { id: number }) =>
-                wrongQuestionIds.includes(q.id)
+                wrongQuestionIds.includes(q.id),
               ),
             };
           }
@@ -115,7 +110,11 @@ function QuizContent() {
         setQuizData(filteredQuizData);
 
         // Restore saved state or create new one
-        if (savedProgress && savedProgress.quizState.answers.length === filteredQuizData.questions.length) {
+        if (
+          savedProgress &&
+          savedProgress.quizState.answers.length ===
+            filteredQuizData.questions.length
+        ) {
           setQuizState(savedProgress.quizState);
           questionStartRef.current = Date.now();
         } else {
@@ -129,16 +128,20 @@ function QuizContent() {
           questionStartRef.current = Date.now();
 
           // Save initial progress
-          const wrongQuestionIds = round > 1
-            ? JSON.parse(sessionStorage.getItem("wrongQuestionIds") || "[]")
-            : undefined;
-          localStorage.setItem(QUIZ_PROGRESS_KEY, JSON.stringify({
-            themeId,
-            userId,
-            round,
-            quizState: newState,
-            wrongQuestionIds,
-          }));
+          const wrongQuestionIds =
+            round > 1
+              ? JSON.parse(sessionStorage.getItem("wrongQuestionIds") || "[]")
+              : undefined;
+          localStorage.setItem(
+            QUIZ_PROGRESS_KEY,
+            JSON.stringify({
+              themeId,
+              userId,
+              round,
+              quizState: newState,
+              wrongQuestionIds,
+            }),
+          );
         }
 
         setLoading(false);
@@ -149,19 +152,26 @@ function QuizContent() {
   }, [themeId, userId, router, round]);
 
   // Save progress to localStorage
-  const saveProgress = useCallback((state: QuizState) => {
-    if (!themeId || !userId) return;
-    const wrongQuestionIds = round > 1
-      ? JSON.parse(sessionStorage.getItem("wrongQuestionIds") || "[]")
-      : undefined;
-    localStorage.setItem(QUIZ_PROGRESS_KEY, JSON.stringify({
-      themeId,
-      userId,
-      round,
-      quizState: state,
-      wrongQuestionIds,
-    }));
-  }, [themeId, userId, round]);
+  const saveProgress = useCallback(
+    (state: QuizState) => {
+      if (!themeId || !userId) return;
+      const wrongQuestionIds =
+        round > 1
+          ? JSON.parse(sessionStorage.getItem("wrongQuestionIds") || "[]")
+          : undefined;
+      localStorage.setItem(
+        QUIZ_PROGRESS_KEY,
+        JSON.stringify({
+          themeId,
+          userId,
+          round,
+          quizState: state,
+          wrongQuestionIds,
+        }),
+      );
+    },
+    [themeId, userId, round],
+  );
 
   const submitResults = useCallback(
     async (finalState: QuizState) => {
@@ -175,9 +185,12 @@ function QuizContent() {
         return acc + (answer === quizData.questions[idx].correct ? 1 : 0);
       }, 0);
 
-      const totalTimeSeconds = Math.floor((Date.now() - finalState.startTime) / 1000);
+      const totalTimeSeconds = Math.floor(
+        (Date.now() - finalState.startTime) / 1000,
+      );
       const avgTimePerQuestion =
-        finalState.answerTimes.reduce((a, b) => a + b, 0) / quizData.questions.length;
+        finalState.answerTimes.reduce((a, b) => a + b, 0) /
+        quizData.questions.length;
 
       const mistakes: Mistake[] = quizData.questions
         .map((q, idx) => {
@@ -248,11 +261,19 @@ function QuizContent() {
             break; // Success, exit retry loop
           }
 
-          lastError = new Error(`HTTP ${response.status}: ${response.statusText}`);
-          console.error(`Attempt ${attempt}/${maxRetries} failed:`, lastError.message);
+          lastError = new Error(
+            `HTTP ${response.status}: ${response.statusText}`,
+          );
+          console.error(
+            `Attempt ${attempt}/${maxRetries} failed:`,
+            lastError.message,
+          );
         } catch (error) {
           lastError = error instanceof Error ? error : new Error(String(error));
-          console.error(`Attempt ${attempt}/${maxRetries} failed:`, lastError.message);
+          console.error(
+            `Attempt ${attempt}/${maxRetries} failed:`,
+            lastError.message,
+          );
         }
 
         // Wait before retrying (exponential backoff)
@@ -264,19 +285,26 @@ function QuizContent() {
       if (lastError) {
         console.error("All attempts to submit results failed:", lastError);
         // Store failed submission for potential later retry
-        const failedSubmissions = JSON.parse(localStorage.getItem("failedSubmissions") || "[]");
+        const failedSubmissions = JSON.parse(
+          localStorage.getItem("failedSubmissions") || "[]",
+        );
         failedSubmissions.push({ ...submitPayload, timestamp: Date.now() });
-        localStorage.setItem("failedSubmissions", JSON.stringify(failedSubmissions));
+        localStorage.setItem(
+          "failedSubmissions",
+          JSON.stringify(failedSubmissions),
+        );
       }
 
       router.push("/results");
     },
-    [quizData, user, router, submitting, round, themeId]
+    [quizData, user, router, submitting, round, themeId],
   );
 
   const handleTimeUp = useCallback(() => {
     // Record time for current question before submitting
-    const timeSpent = Math.floor((Date.now() - questionStartRef.current) / 1000);
+    const timeSpent = Math.floor(
+      (Date.now() - questionStartRef.current) / 1000,
+    );
     setQuizState((prev) => {
       const newAnswerTimes = [...prev.answerTimes];
       newAnswerTimes[prev.currentQuestion] = timeSpent;
@@ -286,7 +314,7 @@ function QuizContent() {
     });
   }, [submitResults]);
 
-  const handleSelectAnswer = (answerIndex: number) => {
+  const handleSelectAnswer = (answerIndex: number, isTouch: boolean) => {
     setQuizState((prev) => {
       const newAnswers = [...prev.answers];
       newAnswers[prev.currentQuestion] = answerIndex;
@@ -295,9 +323,13 @@ function QuizContent() {
       return newState;
     });
 
-    // On mobile, auto-advance after selecting an answer
-    if (isMobile) {
-      setTimeout(() => handleNextRef.current(), 150);
+    // On touch, show confirmation highlight then auto-advance after 1 second
+    if (isTouch) {
+      setConfirmingAnswer(true);
+      setTimeout(() => {
+        setConfirmingAnswer(false);
+        handleNextRef.current();
+      }, 1000);
     }
   };
 
@@ -305,7 +337,9 @@ function QuizContent() {
     if (!quizData) return;
 
     // Record time for current question
-    const timeSpent = Math.floor((Date.now() - questionStartRef.current) / 1000);
+    const timeSpent = Math.floor(
+      (Date.now() - questionStartRef.current) / 1000,
+    );
 
     if (quizState.currentQuestion < quizData.questions.length - 1) {
       setQuizState((prev) => {
@@ -339,7 +373,9 @@ function QuizContent() {
   const handlePrevious = () => {
     if (quizState.currentQuestion > 0) {
       // Record time for current question
-      const timeSpent = Math.floor((Date.now() - questionStartRef.current) / 1000);
+      const timeSpent = Math.floor(
+        (Date.now() - questionStartRef.current) / 1000,
+      );
       setQuizState((prev) => {
         const newAnswerTimes = [...prev.answerTimes];
         newAnswerTimes[prev.currentQuestion] += timeSpent;
@@ -367,6 +403,10 @@ function QuizContent() {
   // Keyboard shortcuts: A, B, C, D to select answer and move to next
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      // Ignore if typing in an input or textarea
+      const target = e.target as HTMLElement;
+      if (target.tagName === "INPUT" || target.tagName === "TEXTAREA") return;
+
       if (loading || submitting || !quizData) return;
 
       const key = e.key.toLowerCase();
@@ -416,7 +456,8 @@ function QuizContent() {
   }
 
   const currentQuestion = quizData.questions[quizState.currentQuestion];
-  const isLastQuestion = quizState.currentQuestion === quizData.questions.length - 1;
+  const isLastQuestion =
+    quizState.currentQuestion === quizData.questions.length - 1;
   const totalTimeSeconds = quizData.totalTimeMinutes * 60;
   const questionTimeSeconds = quizData.questionTimeMinutes * 60;
 
@@ -433,40 +474,35 @@ function QuizContent() {
 
   return (
     <div className="flex min-h-screen flex-col p-4 md:p-8">
-      {/* Header with timers */}
-      <header className="mb-6 flex flex-wrap items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
-          <span
-            className={`flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold text-white ${user.bgColor}`}
-          >
-            {user.id}
-          </span>
-          <span className="text-2xl font-bold text-indigo-600 md:text-3xl">
-            Galamath
-          </span>
-        </div>
-        <div className="flex gap-3">
-          <Timer
-            key={`question-${questionKey}`}
-            initialSeconds={questionTimeSeconds}
-            label="Question"
-            isIndicative
-            resetKey={questionKey}
-          />
-          <Timer
-            initialSeconds={totalTimeSeconds}
-            onTimeUp={handleTimeUp}
-            label="Total"
-          />
-        </div>
+      {/* Header */}
+      <header className="-mb-4 flex items-center gap-3">
+        <span
+          className={`flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold text-white ${user.bgColor}`}
+        >
+          {user.id}
+        </span>
       </header>
+
+      {/* Centered Timers */}
+      <div className="mb-4 flex flex-col items-center gap-1">
+        <Timer initialSeconds={totalTimeSeconds} onTimeUp={handleTimeUp} />
+        <CircularTimer
+          key={`question-${questionKey}`}
+          initialSeconds={questionTimeSeconds}
+          resetKey={questionKey}
+        />
+      </div>
 
       {/* Progress */}
       <div className="mb-6">
         <ProgressBar
           current={quizState.currentQuestion}
           total={quizData.questions.length}
-          skipped={quizState.answers.slice(0, quizState.currentQuestion).filter(a => a === null).length}
+          skipped={
+            quizState.answers
+              .slice(0, quizState.currentQuestion)
+              .filter((a) => a === null).length
+          }
         />
       </div>
 
@@ -478,6 +514,7 @@ function QuizContent() {
             question={currentQuestion}
             selectedAnswer={quizState.answers[quizState.currentQuestion]}
             onSelectAnswer={handleSelectAnswer}
+            confirming={confirmingAnswer}
           />
 
           {/* Hint - shown in round 2+ */}

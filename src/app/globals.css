@@ -43,3 +43,18 @@ button, .no-select {
   -webkit-user-select: none;
   user-select: none;
 }
+
+/* Chat drawer slide-up animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Safe area padding for devices with home indicators */
+.pb-safe {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
