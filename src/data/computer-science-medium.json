@@ -484,6 +484,1326 @@
       ],
       "correct": 3,
       "hint": "The runtime automatically 'collects' and frees memory that's no longer being used."
+    },
+    {
+      "id": 41,
+      "question": "What is the binary representation of the decimal number 5?",
+      "answers": [
+        "100",
+        "110",
+        "101",
+        "111"
+      ],
+      "correct": 2,
+      "hint": "Break 5 into powers of 2: 4 + 1 = 2^2 + 2^0. Which positions are 'on'?"
+    },
+    {
+      "id": 42,
+      "question": "What decimal number does the binary 1010 represent?",
+      "answers": [
+        "8",
+        "10",
+        "12",
+        "6"
+      ],
+      "correct": 1,
+      "hint": "Add up the place values where there's a 1: 8 + 0 + 2 + 0 = ?"
+    },
+    {
+      "id": 43,
+      "question": "What is 1011 + 0101 in binary?",
+      "answers": [
+        "1110",
+        "10000",
+        "1111",
+        "1100"
+      ],
+      "correct": 1,
+      "hint": "Add column by column from right to left. Remember: 1+1=10 in binary (carry the 1)."
+    },
+    {
+      "id": 44,
+      "question": "What data structure uses FIFO (First In, First Out)?",
+      "answers": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Graph"
+      ],
+      "correct": 1,
+      "hint": "Think of a line at a store - the first person in line is the first to be served."
+    },
+    {
+      "id": 45,
+      "question": "What data structure uses LIFO (Last In, First Out)?",
+      "answers": [
+        "Stack",
+        "Queue",
+        "Array",
+        "Linked List"
+      ],
+      "correct": 0,
+      "hint": "Think of a stack of plates - you take the last one you put on top."
+    },
+    {
+      "id": 46,
+      "question": "What is the binary representation of decimal 15?",
+      "answers": [
+        "1110",
+        "1100",
+        "1111",
+        "1101"
+      ],
+      "correct": 2,
+      "hint": "15 = 8 + 4 + 2 + 1. All four bits are 'on'. What does that look like?"
+    },
+    {
+      "id": 47,
+      "question": "In a linked list, what does each node contain?",
+      "answers": [
+        "Only data",
+        "Data and a pointer to the next node",
+        "Only pointers",
+        "An array of values"
+      ],
+      "correct": 1,
+      "hint": "Each node holds its value AND knows how to find the next node in the chain."
+    },
+    {
+      "id": 48,
+      "question": "What is 1100 - 0011 in binary?",
+      "answers": [
+        "1011",
+        "1010",
+        "1001",
+        "1000"
+      ],
+      "correct": 2,
+      "hint": "Subtract column by column. 12 - 3 = 9 in decimal. What's 9 in binary?"
+    },
+    {
+      "id": 49,
+      "question": "What is the time complexity of accessing an element in an array by index?",
+      "answers": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      "correct": 1,
+      "hint": "Arrays provide direct access - you can jump to any index immediately without searching."
+    },
+    {
+      "id": 50,
+      "question": "What decimal number does binary 11111 represent?",
+      "answers": [
+        "30",
+        "32",
+        "31",
+        "29"
+      ],
+      "correct": 2,
+      "hint": "Add up: 16 + 8 + 4 + 2 + 1 = ? All five bits are 'on'."
+    },
+    {
+      "id": 51,
+      "question": "What is a binary tree?",
+      "answers": [
+        "A list with two elements",
+        "A tree where each node has at most two children",
+        "A tree with exactly two levels",
+        "A tree with binary data"
+      ],
+      "correct": 1,
+      "hint": "Each node can have a left child, a right child, both, or none - but never more than two."
+    },
+    {
+      "id": 52,
+      "question": "What is 0110 AND 1010 in binary (bitwise AND)?",
+      "answers": [
+        "1110",
+        "0000",
+        "0010",
+        "1000"
+      ],
+      "correct": 2,
+      "hint": "AND gives 1 only when BOTH bits are 1. Compare each column."
+    },
+    {
+      "id": 53,
+      "question": "What is the main advantage of a hash table?",
+      "answers": [
+        "Uses less memory",
+        "Keeps elements sorted",
+        "Average O(1) lookup time",
+        "Easy to iterate in order"
+      ],
+      "correct": 2,
+      "hint": "Using a hash function, you can find items almost instantly on average."
+    },
+    {
+      "id": 54,
+      "question": "What is 0110 OR 1010 in binary (bitwise OR)?",
+      "answers": [
+        "0010",
+        "1110",
+        "1111",
+        "0000"
+      ],
+      "correct": 1,
+      "hint": "OR gives 1 when EITHER bit is 1. Compare each column."
+    },
+    {
+      "id": 55,
+      "question": "What is recursion in programming?",
+      "answers": [
+        "A loop that runs forever",
+        "A function that calls itself",
+        "A type of variable",
+        "A sorting algorithm"
+      ],
+      "correct": 1,
+      "hint": "The function solves a problem by breaking it down and calling itself with smaller inputs."
+    },
+    {
+      "id": 56,
+      "question": "What is the hexadecimal representation of binary 1111?",
+      "answers": [
+        "E",
+        "F",
+        "10",
+        "D"
+      ],
+      "correct": 1,
+      "hint": "4 binary digits = 1 hex digit. 1111 = 15 in decimal. What letter represents 15 in hex?"
+    },
+    {
+      "id": 57,
+      "question": "What operation adds an element to a stack?",
+      "answers": [
+        "Push",
+        "Pop",
+        "Enqueue",
+        "Insert"
+      ],
+      "correct": 0,
+      "hint": "You 'push' something onto the top of a stack, like pushing a plate onto a pile."
+    },
+    {
+      "id": 58,
+      "question": "What is the binary representation of hexadecimal A?",
+      "answers": [
+        "1011",
+        "1100",
+        "1010",
+        "1001"
+      ],
+      "correct": 2,
+      "hint": "A = 10 in decimal. What's 10 in binary? (8 + 2)"
+    },
+    {
+      "id": 59,
+      "question": "What operation removes an element from a queue?",
+      "answers": [
+        "Push",
+        "Pop",
+        "Dequeue",
+        "Remove"
+      ],
+      "correct": 2,
+      "hint": "You 'dequeue' to remove from the front of a queue, opposite of 'enqueue'."
+    },
+    {
+      "id": 60,
+      "question": "What is 2^8 in decimal?",
+      "answers": [
+        "128",
+        "512",
+        "256",
+        "64"
+      ],
+      "correct": 2,
+      "hint": "2^8 means 2 multiplied by itself 8 times. It's the number of values a byte can hold."
+    },
+    {
+      "id": 61,
+      "question": "What is the worst-case time complexity of linear search?",
+      "answers": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "correct": 2,
+      "hint": "In the worst case, you check every single element - one by one in a 'line'."
+    },
+    {
+      "id": 62,
+      "question": "What is NOT 1010 in binary (bitwise NOT, 4-bit)?",
+      "answers": [
+        "0101",
+        "1010",
+        "0000",
+        "1111"
+      ],
+      "correct": 0,
+      "hint": "NOT flips every bit. 1 becomes 0, and 0 becomes 1."
+    },
+    {
+      "id": 63,
+      "question": "What is the time complexity of binary search?",
+      "answers": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n^2)"
+      ],
+      "correct": 2,
+      "hint": "Each step cuts the search space in half - that's logarithmic growth."
+    },
+    {
+      "id": 64,
+      "question": "How many bits are in a byte?",
+      "answers": [
+        "4",
+        "16",
+        "8",
+        "32"
+      ],
+      "correct": 2,
+      "hint": "A byte is the standard unit that can represent 256 different values (2^?)."
+    },
+    {
+      "id": 65,
+      "question": "What is a doubly linked list?",
+      "answers": [
+        "Two separate linked lists",
+        "A linked list where nodes have two values",
+        "A linked list with pointers to both next and previous nodes",
+        "A linked list that loops twice"
+      ],
+      "correct": 2,
+      "hint": "Each node knows its neighbors in both directions - forward AND backward."
+    },
+    {
+      "id": 66,
+      "question": "What is 1010 XOR 1100 in binary?",
+      "answers": [
+        "0110",
+        "1110",
+        "1000",
+        "0010"
+      ],
+      "correct": 0,
+      "hint": "XOR gives 1 when bits are different. Compare each column: same=0, different=1."
+    },
+    {
+      "id": 67,
+      "question": "What does API stand for?",
+      "answers": [
+        "Advanced Program Interface",
+        "Application Programming Interface",
+        "Automated Process Integration",
+        "Application Process Instruction"
+      ],
+      "correct": 1,
+      "hint": "It's the 'interface' for 'programming' with an 'application' or service."
+    },
+    {
+      "id": 68,
+      "question": "What is the maximum value of an 8-bit unsigned integer?",
+      "answers": [
+        "256",
+        "127",
+        "255",
+        "128"
+      ],
+      "correct": 2,
+      "hint": "With 8 bits you can represent 0 to 2^8 - 1. What's 256 - 1?"
+    },
+    {
+      "id": 69,
+      "question": "What is a graph in data structures?",
+      "answers": [
+        "A visual chart",
+        "A binary tree",
+        "A collection of nodes connected by edges",
+        "A sorted array"
+      ],
+      "correct": 2,
+      "hint": "Nodes (vertices) connected by edges - like a map of cities and roads between them."
+    },
+    {
+      "id": 70,
+      "question": "What is 1000 shifted left by 1 in binary?",
+      "answers": [
+        "0100",
+        "10000",
+        "0001",
+        "1001"
+      ],
+      "correct": 1,
+      "hint": "Shifting left adds a 0 on the right and moves everything left. It doubles the value."
+    },
+    {
+      "id": 71,
+      "question": "What is an algorithm?",
+      "answers": [
+        "A programming language",
+        "A step-by-step procedure to solve a problem",
+        "A type of computer",
+        "A database system"
+      ],
+      "correct": 1,
+      "hint": "Like a recipe - a series of steps that, when followed, solve a specific problem."
+    },
+    {
+      "id": 72,
+      "question": "What is 1000 shifted right by 1 in binary?",
+      "answers": [
+        "10000",
+        "0100",
+        "1001",
+        "0010"
+      ],
+      "correct": 1,
+      "hint": "Shifting right removes the rightmost bit and adds a 0 on the left. It halves the value."
+    },
+    {
+      "id": 73,
+      "question": "What is the root in a tree data structure?",
+      "answers": [
+        "The bottom node",
+        "Any leaf node",
+        "The topmost node with no parent",
+        "The middle node"
+      ],
+      "correct": 2,
+      "hint": "Like a family tree turned upside down - the ancestor at the very top with no parent."
+    },
+    {
+      "id": 74,
+      "question": "What decimal number does binary 100000 represent?",
+      "answers": [
+        "64",
+        "16",
+        "32",
+        "128"
+      ],
+      "correct": 2,
+      "hint": "Only the leftmost bit is 1. What's 2^5?"
+    },
+    {
+      "id": 75,
+      "question": "What is a leaf node in a tree?",
+      "answers": [
+        "A node with no children",
+        "The root node",
+        "A node with one child",
+        "A node with two children"
+      ],
+      "correct": 0,
+      "hint": "Like leaves on a tree - they're at the end of branches with nothing below them."
+    },
+    {
+      "id": 76,
+      "question": "What is 11 x 10 in binary?",
+      "answers": [
+        "101",
+        "100",
+        "110",
+        "111"
+      ],
+      "correct": 2,
+      "hint": "11 is 3 and 10 is 2 in decimal. What's 3 x 2? Convert that back to binary."
+    },
+    {
+      "id": 77,
+      "question": "What is the purpose of an index in a database?",
+      "answers": [
+        "Store more data",
+        "Speed up data retrieval",
+        "Encrypt data",
+        "Compress data"
+      ],
+      "correct": 1,
+      "hint": "Like a book's index - it helps you find specific information much faster."
+    },
+    {
+      "id": 78,
+      "question": "What is two's complement used for?",
+      "answers": [
+        "Doubling numbers",
+        "Representing negative numbers in binary",
+        "Converting to hexadecimal",
+        "Error checking"
+      ],
+      "correct": 1,
+      "hint": "This system allows computers to represent and work with negative integers in binary."
+    },
+    {
+      "id": 79,
+      "question": "What is a primary key in a database?",
+      "answers": [
+        "The first column",
+        "The most important data",
+        "A unique identifier for each record",
+        "The password"
+      ],
+      "correct": 2,
+      "hint": "Every record needs a unique ID to identify it - that's the 'primary' way to find it."
+    },
+    {
+      "id": 80,
+      "question": "What is the signed range of an 8-bit integer?",
+      "answers": [
+        "0 to 255",
+        "-127 to 128",
+        "-128 to 127",
+        "-256 to 255"
+      ],
+      "correct": 2,
+      "hint": "One bit is for sign, leaving 7 for value. Range is -2^7 to 2^7 - 1."
+    },
+    {
+      "id": 81,
+      "question": "What is inheritance in OOP?",
+      "answers": [
+        "Copying code",
+        "A class deriving properties from another class",
+        "Sharing variables",
+        "A type of loop"
+      ],
+      "correct": 1,
+      "hint": "Like genetics - a child class 'inherits' traits from its parent class."
+    },
+    {
+      "id": 82,
+      "question": "What is 10110 + 01101 in binary?",
+      "answers": [
+        "100011",
+        "100010",
+        "100001",
+        "100100"
+      ],
+      "correct": 0,
+      "hint": "Add column by column, carrying when sum is 2 or more. 22 + 13 = 35 in decimal."
+    },
+    {
+      "id": 83,
+      "question": "What is encapsulation in OOP?",
+      "answers": [
+        "Running code faster",
+        "Bundling data and methods, hiding internal details",
+        "Creating multiple objects",
+        "Connecting to databases"
+      ],
+      "correct": 1,
+      "hint": "Wrapping data and methods together like a capsule, exposing only what's needed."
+    },
+    {
+      "id": 84,
+      "question": "What is the binary for decimal 100?",
+      "answers": [
+        "1100100",
+        "1100010",
+        "1100110",
+        "1101000"
+      ],
+      "correct": 0,
+      "hint": "100 = 64 + 32 + 4 = 2^6 + 2^5 + 2^2. Mark those positions as 1."
+    },
+    {
+      "id": 85,
+      "question": "What is polymorphism in OOP?",
+      "answers": [
+        "Having many variables",
+        "Objects of different classes responding to the same method",
+        "Using many files",
+        "Creating many objects"
+      ],
+      "correct": 1,
+      "hint": "'Poly' means many, 'morph' means form - one interface, many implementations."
+    },
+    {
+      "id": 86,
+      "question": "What is 0xFF in decimal?",
+      "answers": [
+        "256",
+        "15",
+        "255",
+        "16"
+      ],
+      "correct": 2,
+      "hint": "FF in hex means both digits are 15. That's 15*16 + 15 = ?"
+    },
+    {
+      "id": 87,
+      "question": "What is a constructor in OOP?",
+      "answers": [
+        "A method that destroys objects",
+        "A special method called when creating an object",
+        "A type of variable",
+        "A debugging tool"
+      ],
+      "correct": 1,
+      "hint": "This special method 'constructs' or initializes an object when it's created."
+    },
+    {
+      "id": 88,
+      "question": "What is 0x10 in decimal?",
+      "answers": [
+        "10",
+        "32",
+        "16",
+        "8"
+      ],
+      "correct": 2,
+      "hint": "In hex, 10 means 1*16 + 0 = ? Don't read it as 'ten'!"
+    },
+    {
+      "id": 89,
+      "question": "What is an abstract class?",
+      "answers": [
+        "A class with no variables",
+        "A class that cannot be instantiated directly",
+        "A class with private methods",
+        "A class that only has static methods"
+      ],
+      "correct": 1,
+      "hint": "It's a blueprint that other classes extend - too 'abstract' to create directly."
+    },
+    {
+      "id": 90,
+      "question": "How many values can 16 bits represent?",
+      "answers": [
+        "32768",
+        "16",
+        "65536",
+        "256"
+      ],
+      "correct": 2,
+      "hint": "2^16 = ? Each bit doubles the possibilities."
+    },
+    {
+      "id": 91,
+      "question": "What is a heap data structure?",
+      "answers": [
+        "Unorganized memory",
+        "A tree where parent is greater (or smaller) than children",
+        "A type of array",
+        "A random data collection"
+      ],
+      "correct": 1,
+      "hint": "A special tree where the parent always satisfies a condition relative to its children."
+    },
+    {
+      "id": 92,
+      "question": "What is 1101 AND 1011 in binary?",
+      "answers": [
+        "1111",
+        "1000",
+        "0001",
+        "1001"
+      ],
+      "correct": 3,
+      "hint": "AND: only 1 when BOTH are 1. Check each position: 1&1, 1&0, 0&1, 1&1."
+    },
+    {
+      "id": 93,
+      "question": "What is bubble sort's worst-case time complexity?",
+      "answers": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(n log n)"
+      ],
+      "correct": 2,
+      "hint": "This simple sort compares adjacent elements repeatedly - nested loops mean n times n."
+    },
+    {
+      "id": 94,
+      "question": "What is 1101 OR 1011 in binary?",
+      "answers": [
+        "1111",
+        "1001",
+        "1101",
+        "1011"
+      ],
+      "correct": 0,
+      "hint": "OR: 1 when EITHER is 1. At least one 1 in each column gives all 1s."
+    },
+    {
+      "id": 95,
+      "question": "What is merge sort's time complexity?",
+      "answers": [
+        "O(n^2)",
+        "O(n)",
+        "O(n log n)",
+        "O(log n)"
+      ],
+      "correct": 2,
+      "hint": "Divide in half (log n) and merge back (n) - that's n times log n."
+    },
+    {
+      "id": 96,
+      "question": "What is 1101 XOR 1011 in binary?",
+      "answers": [
+        "1111",
+        "0110",
+        "0001",
+        "1001"
+      ],
+      "correct": 1,
+      "hint": "XOR: 1 when bits DIFFER. Compare each column - same gives 0, different gives 1."
+    },
+    {
+      "id": 97,
+      "question": "What is a priority queue?",
+      "answers": [
+        "A FIFO queue",
+        "A LIFO queue",
+        "A queue where elements have priorities",
+        "A double-ended queue"
+      ],
+      "correct": 2,
+      "hint": "Elements are served based on their priority level, not just arrival order."
+    },
+    {
+      "id": 98,
+      "question": "What is the decimal value of binary 11001010?",
+      "answers": [
+        "200",
+        "202",
+        "204",
+        "198"
+      ],
+      "correct": 1,
+      "hint": "Add: 128 + 64 + 0 + 0 + 8 + 0 + 2 + 0 = ?"
+    },
+    {
+      "id": 99,
+      "question": "What is depth-first search (DFS)?",
+      "answers": [
+        "Searching level by level",
+        "Searching all at once",
+        "Exploring as far as possible before backtracking",
+        "Random searching"
+      ],
+      "correct": 2,
+      "hint": "Go as deep as you can down one path before coming back to try another."
+    },
+    {
+      "id": 100,
+      "question": "What is 10101010 in hexadecimal?",
+      "answers": [
+        "AB",
+        "AA",
+        "A5",
+        "55"
+      ],
+      "correct": 1,
+      "hint": "Split into groups of 4: 1010 1010. Each group becomes one hex digit. 1010 = 10 = A."
+    },
+    {
+      "id": 101,
+      "question": "What is breadth-first search (BFS)?",
+      "answers": [
+        "Searching one path completely",
+        "Exploring all neighbors before going deeper",
+        "Random searching",
+        "Searching backwards"
+      ],
+      "correct": 1,
+      "hint": "Check all immediate neighbors first, then their neighbors - layer by layer."
+    },
+    {
+      "id": 102,
+      "question": "What is 0xAB in binary?",
+      "answers": [
+        "10101011",
+        "10111010",
+        "10101010",
+        "10111011"
+      ],
+      "correct": 0,
+      "hint": "A = 1010, B = 1011. Put them together."
+    },
+    {
+      "id": 103,
+      "question": "What is a balanced binary tree?",
+      "answers": [
+        "A tree with equal values",
+        "A tree where left and right subtrees differ in height by at most 1",
+        "A tree with only two nodes",
+        "A tree with no leaves"
+      ],
+      "correct": 1,
+      "hint": "The tree stays 'balanced' - no side is too much taller than the other."
+    },
+    {
+      "id": 104,
+      "question": "What is 5 in 8-bit two's complement binary?",
+      "answers": [
+        "00000101",
+        "00000100",
+        "10000101",
+        "00000110"
+      ],
+      "correct": 0,
+      "hint": "Positive numbers look the same in two's complement. Just convert 5 normally."
+    },
+    {
+      "id": 105,
+      "question": "What is the space complexity of an array of n elements?",
+      "answers": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "correct": 2,
+      "hint": "An array needs space for each element - n elements need n units of space."
+    },
+    {
+      "id": 106,
+      "question": "What is -1 in 8-bit two's complement?",
+      "answers": [
+        "00000001",
+        "10000001",
+        "11111111",
+        "11111110"
+      ],
+      "correct": 2,
+      "hint": "Flip all bits of 1 (00000001) and add 1. Or: all 1s represent -1 in two's complement."
+    },
+    {
+      "id": 107,
+      "question": "What is a hash collision?",
+      "answers": [
+        "When the hash table is full",
+        "When two different keys produce the same hash",
+        "When a key is not found",
+        "When the hash function fails"
+      ],
+      "correct": 1,
+      "hint": "Two different inputs 'collide' by mapping to the same slot in the hash table."
+    },
+    {
+      "id": 108,
+      "question": "What is -5 in 8-bit two's complement?",
+      "answers": [
+        "11111010",
+        "11111011",
+        "10000101",
+        "11111100"
+      ],
+      "correct": 1,
+      "hint": "Take 5 (00000101), flip all bits to get 11111010, then add 1."
+    },
+    {
+      "id": 109,
+      "question": "What is a circular queue?",
+      "answers": [
+        "A queue that moves in circles",
+        "A queue where end connects back to start",
+        "A round data structure",
+        "A rotating buffer"
+      ],
+      "correct": 1,
+      "hint": "The queue wraps around - after the last position comes the first, forming a circle."
+    },
+    {
+      "id": 110,
+      "question": "What is 0b11110000 >> 2 (right shift by 2)?",
+      "answers": [
+        "00111100",
+        "11000000",
+        "00001111",
+        "11110011"
+      ],
+      "correct": 0,
+      "hint": "Shift everything right by 2 positions, filling with 0s on the left."
+    },
+    {
+      "id": 111,
+      "question": "What is Big O notation used for?",
+      "answers": [
+        "Measuring exact runtime",
+        "Describing how algorithm performance scales with input size",
+        "Counting lines of code",
+        "Measuring memory exactly"
+      ],
+      "correct": 1,
+      "hint": "It describes how performance changes as the input grows - not exact time, but the pattern."
+    },
+    {
+      "id": 112,
+      "question": "What is 0b00001111 << 4 (left shift by 4)?",
+      "answers": [
+        "00001111",
+        "11110000",
+        "00111100",
+        "01111000"
+      ],
+      "correct": 1,
+      "hint": "Shift everything left by 4 positions, filling with 0s on the right."
+    },
+    {
+      "id": 113,
+      "question": "What does O(1) mean?",
+      "answers": [
+        "Linear time",
+        "Logarithmic time",
+        "Constant time",
+        "Quadratic time"
+      ],
+      "correct": 2,
+      "hint": "The time stays constant - it doesn't matter if you have 10 or 10 million items."
+    },
+    {
+      "id": 114,
+      "question": "What is the binary of decimal 200?",
+      "answers": [
+        "11001000",
+        "11000100",
+        "11010000",
+        "11001100"
+      ],
+      "correct": 0,
+      "hint": "200 = 128 + 64 + 8 = 2^7 + 2^6 + 2^3. Mark those positions."
+    },
+    {
+      "id": 115,
+      "question": "What is a directed graph?",
+      "answers": [
+        "A graph with weights",
+        "A graph where edges have direction",
+        "A graph with colors",
+        "A graph with one node"
+      ],
+      "correct": 1,
+      "hint": "Edges point FROM one node TO another - direction matters, like one-way streets."
+    },
+    {
+      "id": 116,
+      "question": "What is 11111111 + 1 in 8-bit binary (unsigned)?",
+      "answers": [
+        "100000000",
+        "00000000",
+        "11111111",
+        "00000001"
+      ],
+      "correct": 1,
+      "hint": "255 + 1 = 256, but in 8 bits, it overflows back to 0. Only 8 bits are kept."
+    },
+    {
+      "id": 117,
+      "question": "What is an adjacency matrix?",
+      "answers": [
+        "A list of neighbors",
+        "A 2D array showing connections between nodes",
+        "A path through a graph",
+        "A sorted list of edges"
+      ],
+      "correct": 1,
+      "hint": "A grid where row i, column j shows if there's an edge from node i to node j."
+    },
+    {
+      "id": 118,
+      "question": "How many nibbles are in a byte?",
+      "answers": [
+        "1",
+        "4",
+        "2",
+        "8"
+      ],
+      "correct": 2,
+      "hint": "A nibble is 4 bits, a byte is 8 bits. How many 4s fit in 8?"
+    },
+    {
+      "id": 119,
+      "question": "What is an adjacency list?",
+      "answers": [
+        "A matrix of connections",
+        "A list where each node has a list of its neighbors",
+        "A sorted edge list",
+        "A path through nodes"
+      ],
+      "correct": 1,
+      "hint": "Each node keeps a list of who it's connected to - more space-efficient for sparse graphs."
+    },
+    {
+      "id": 120,
+      "question": "What is 0b10000000 in signed 8-bit representation?",
+      "answers": [
+        "128",
+        "-1",
+        "-128",
+        "0"
+      ],
+      "correct": 2,
+      "hint": "In signed 8-bit, the leftmost 1 means negative. This is the most negative 8-bit number."
+    },
+    {
+      "id": 121,
+      "question": "What is memoization?",
+      "answers": [
+        "Storing memory addresses",
+        "Caching computed results to avoid recalculation",
+        "A memory leak",
+        "Allocating more RAM"
+      ],
+      "correct": 1,
+      "hint": "Remember ('memo') previous results so you don't calculate the same thing twice."
+    },
+    {
+      "id": 122,
+      "question": "What is 127 + 1 in signed 8-bit binary?",
+      "answers": [
+        "128",
+        "-128",
+        "-1",
+        "0"
+      ],
+      "correct": 1,
+      "hint": "127 is the max positive 8-bit signed integer. Adding 1 causes overflow to the minimum negative."
+    },
+    {
+      "id": 123,
+      "question": "What is dynamic programming?",
+      "answers": [
+        "Programming that changes at runtime",
+        "Breaking problems into overlapping subproblems and storing solutions",
+        "Using dynamic memory",
+        "A type of language"
+      ],
+      "correct": 1,
+      "hint": "Solve smaller subproblems first, store the answers, build up to the full solution."
+    },
+    {
+      "id": 124,
+      "question": "What is the result of 5 % 3 (modulo)?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct": 1,
+      "hint": "Modulo gives the remainder after division. 5 divided by 3 is 1 with remainder ?"
+    },
+    {
+      "id": 125,
+      "question": "What is a trie data structure?",
+      "answers": [
+        "A binary tree",
+        "A hash table variant",
+        "A tree for storing strings character by character",
+        "A graph type"
+      ],
+      "correct": 2,
+      "hint": "Each node represents a character; paths from root spell out stored strings."
+    },
+    {
+      "id": 126,
+      "question": "What is 17 % 5?",
+      "answers": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct": 1,
+      "hint": "17 = 5*3 + 2. The remainder is ?"
+    },
+    {
+      "id": 127,
+      "question": "What is a binary search tree (BST)?",
+      "answers": [
+        "A tree with binary data",
+        "A tree where left children are smaller, right are larger",
+        "A tree with exactly 2 nodes",
+        "A balanced tree"
+      ],
+      "correct": 1,
+      "hint": "Values are organized: smaller goes left, larger goes right - makes searching efficient."
+    },
+    {
+      "id": 128,
+      "question": "What is 10 AND 7 in decimal (bitwise)?",
+      "answers": [
+        "3",
+        "2",
+        "7",
+        "10"
+      ],
+      "correct": 1,
+      "hint": "10 = 1010, 7 = 0111. AND them: 0010 = 2 in decimal."
+    },
+    {
+      "id": 129,
+      "question": "What is the height of a tree with only a root node?",
+      "answers": [
+        "1",
+        "0",
+        "-1",
+        "2"
+      ],
+      "correct": 1,
+      "hint": "Height is the number of edges from root to deepest leaf. With just root, there are no edges."
+    },
+    {
+      "id": 130,
+      "question": "What is 10 OR 7 in decimal (bitwise)?",
+      "answers": [
+        "7",
+        "10",
+        "15",
+        "17"
+      ],
+      "correct": 2,
+      "hint": "10 = 1010, 7 = 0111. OR them: 1111 = 15 in decimal."
+    },
+    {
+      "id": 131,
+      "question": "What traversal visits nodes in order: left, root, right?",
+      "answers": [
+        "Pre-order",
+        "Post-order",
+        "In-order",
+        "Level-order"
+      ],
+      "correct": 2,
+      "hint": "The root comes 'in' the middle - between left and right subtrees."
+    },
+    {
+      "id": 132,
+      "question": "What is 10 XOR 7 in decimal (bitwise)?",
+      "answers": [
+        "13",
+        "3",
+        "17",
+        "7"
+      ],
+      "correct": 0,
+      "hint": "10 = 1010, 7 = 0111. XOR them: 1101 = 13 in decimal."
+    },
+    {
+      "id": 133,
+      "question": "What traversal visits nodes in order: root, left, right?",
+      "answers": [
+        "In-order",
+        "Pre-order",
+        "Post-order",
+        "Level-order"
+      ],
+      "correct": 1,
+      "hint": "The root comes first, 'pre' (before) the subtrees."
+    },
+    {
+      "id": 134,
+      "question": "What is 2^10 in decimal?",
+      "answers": [
+        "512",
+        "1000",
+        "1024",
+        "2048"
+      ],
+      "correct": 2,
+      "hint": "2^10 is about 1000 - it's exactly 1 kilobyte in computing."
+    },
+    {
+      "id": 135,
+      "question": "What traversal visits nodes in order: left, right, root?",
+      "answers": [
+        "Pre-order",
+        "In-order",
+        "Post-order",
+        "Level-order"
+      ],
+      "correct": 2,
+      "hint": "The root comes last, 'post' (after) the subtrees."
+    },
+    {
+      "id": 136,
+      "question": "How many bytes are in a kilobyte (in computing)?",
+      "answers": [
+        "1000",
+        "1024",
+        "512",
+        "2048"
+      ],
+      "correct": 1,
+      "hint": "In computing, it's 2^10, not exactly 1000."
+    },
+    {
+      "id": 137,
+      "question": "What is a min-heap?",
+      "answers": [
+        "A heap where parent is larger than children",
+        "A heap where parent is smaller than children",
+        "A heap with minimum size",
+        "A sorted array"
+      ],
+      "correct": 1,
+      "hint": "The minimum value bubbles to the top - parent is always less than children."
+    },
+    {
+      "id": 138,
+      "question": "What is 0xFFFF in decimal?",
+      "answers": [
+        "65535",
+        "65536",
+        "32768",
+        "256"
+      ],
+      "correct": 0,
+      "hint": "FFFF is 16 ones in binary. That's 2^16 - 1 = ?"
+    },
+    {
+      "id": 139,
+      "question": "What is quick sort's average time complexity?",
+      "answers": [
+        "O(n)",
+        "O(n^2)",
+        "O(n log n)",
+        "O(log n)"
+      ],
+      "correct": 2,
+      "hint": "On average, partitioning divides in half (log n) and processes all elements (n)."
+    },
+    {
+      "id": 140,
+      "question": "What is 256 in binary?",
+      "answers": [
+        "100000000",
+        "11111111",
+        "10000000",
+        "111111111"
+      ],
+      "correct": 0,
+      "hint": "256 = 2^8. That's a 1 followed by eight 0s."
+    },
+    {
+      "id": 141,
+      "question": "What is a deque?",
+      "answers": [
+        "A deck of cards",
+        "A double-ended queue",
+        "A deleted queue",
+        "A debugging queue"
+      ],
+      "correct": 1,
+      "hint": "Double-Ended QUEue - add or remove from both front and back."
+    },
+    {
+      "id": 142,
+      "question": "What is 0b11111111 in hexadecimal?",
+      "answers": [
+        "F",
+        "1F",
+        "FF",
+        "FFF"
+      ],
+      "correct": 2,
+      "hint": "Split into two nibbles: 1111 1111. Each becomes F, so together: FF."
+    },
+    {
+      "id": 143,
+      "question": "What is insertion sort's best-case time complexity?",
+      "answers": [
+        "O(n^2)",
+        "O(n log n)",
+        "O(n)",
+        "O(1)"
+      ],
+      "correct": 2,
+      "hint": "When the array is already sorted, you just scan through once - that's linear."
+    },
+    {
+      "id": 144,
+      "question": "What operation checks if a stack is empty?",
+      "answers": [
+        "peek",
+        "pop",
+        "isEmpty",
+        "size"
+      ],
+      "correct": 2,
+      "hint": "This method returns true if the stack has no elements - is it 'empty'?"
+    },
+    {
+      "id": 145,
+      "question": "What is 1 KB in bits?",
+      "answers": [
+        "1024",
+        "8192",
+        "1000",
+        "8000"
+      ],
+      "correct": 1,
+      "hint": "1 KB = 1024 bytes, and each byte = 8 bits. Multiply them."
+    },
+    {
+      "id": 146,
+      "question": "What is a spanning tree?",
+      "answers": [
+        "A tree with many branches",
+        "A subgraph connecting all vertices with minimum edges",
+        "A tree that spans multiple files",
+        "A balanced tree"
+      ],
+      "correct": 1,
+      "hint": "It 'spans' all vertices using exactly enough edges to connect them - no cycles."
+    },
+    {
+      "id": 147,
+      "question": "What is the binary for hexadecimal 5A?",
+      "answers": [
+        "01011011",
+        "01011010",
+        "01100101",
+        "01011001"
+      ],
+      "correct": 1,
+      "hint": "5 = 0101, A = 1010. Put them together."
+    },
+    {
+      "id": 148,
+      "question": "What is amortized time complexity?",
+      "answers": [
+        "Worst case time",
+        "Best case time",
+        "Average time per operation over many operations",
+        "Exact time measurement"
+      ],
+      "correct": 2,
+      "hint": "Spread the total cost over many operations - some are expensive but averaged out."
+    },
+    {
+      "id": 149,
+      "question": "What is 0b1111 * 0b10 in binary?",
+      "answers": [
+        "11110",
+        "11111",
+        "100000",
+        "11100"
+      ],
+      "correct": 0,
+      "hint": "15 * 2 = 30 in decimal. What's 30 in binary? (Hint: multiplying by 10 binary is shifting left)"
+    },
+    {
+      "id": 150,
+      "question": "What is a sentinel node?",
+      "answers": [
+        "The first node in a list",
+        "The last node with data",
+        "A dummy node used to simplify boundary conditions",
+        "A node that guards memory"
+      ],
+      "correct": 2,
+      "hint": "A 'guard' node that doesn't hold real data but makes edge cases easier to handle."
     }
   ],
   "access": [

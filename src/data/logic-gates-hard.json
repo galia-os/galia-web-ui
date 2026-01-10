@@ -489,6 +489,1326 @@
       ],
       "correct": 1,
       "hint": "XOR gives $1$ when inputs differ. What happens when both inputs are the same?"
+    },
+    {
+      "id": 41,
+      "question": "What is $(A \\land B) \\lor (A \\land \\overline{B})$ simplified?",
+      "answers": [
+        "$B$",
+        "$A \\land B$",
+        "$A$",
+        "$A \\lor B$"
+      ],
+      "correct": 2,
+      "hint": "Factor out the common term $A$. What remains in the parentheses always evaluates to true."
+    },
+    {
+      "id": 42,
+      "question": "Convert $-64$ to 8-bit two's complement.",
+      "answers": [
+        "$01000000_2$",
+        "$10111111_2$",
+        "$11000000_2$",
+        "$11000001_2$"
+      ],
+      "correct": 2,
+      "hint": "Write $+64$ in binary, flip all bits, then add $1$. What pattern emerges?"
+    },
+    {
+      "id": 43,
+      "question": "What is the output when $A=1$, $B=0$ through an XNOR gate?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "XNOR outputs $1$ when inputs are the same, $0$ when different. Are $A$ and $B$ the same?"
+    },
+    {
+      "id": 44,
+      "question": "What is $10101010_2$ in hexadecimal?",
+      "answers": [
+        "$\\text{AA}_{16}$",
+        "$\\text{55}_{16}$",
+        "$\\text{A5}_{16}$",
+        "$\\text{5A}_{16}$"
+      ],
+      "correct": 0,
+      "hint": "Split into nibbles: $1010$ and $1010$. Each $1010 = 10$ in decimal. What hex digit is $10$?"
+    },
+    {
+      "id": 45,
+      "question": "Simplify: $(A \\lor B) \\land (A \\lor \\overline{B})$",
+      "answers": [
+        "$A \\lor B$",
+        "$B$",
+        "$A \\land B$",
+        "$A$"
+      ],
+      "correct": 3,
+      "hint": "Use the distributive property to factor out $A \\lor$, then simplify what remains."
+    },
+    {
+      "id": 46,
+      "question": "What is the decimal value of 8-bit two's complement $10000001_2$?",
+      "answers": [
+        "$-1$",
+        "$-127$",
+        "$129$",
+        "$-129$"
+      ],
+      "correct": 1,
+      "hint": "MSB is $1$, so negative. Flip bits to get $01111110$, add $1$ to get $01111111$, then negate."
+    },
+    {
+      "id": 47,
+      "question": "How many NAND gates are needed to build an AND gate?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct": 1,
+      "hint": "NAND followed by NOT gives AND. How many NANDs make a NOT?"
+    },
+    {
+      "id": 48,
+      "question": "What is $11001100_2 \\oplus 10101010_2$?",
+      "answers": [
+        "$01100110_2$",
+        "$11101110_2$",
+        "$10001000_2$",
+        "$00110011_2$"
+      ],
+      "correct": 0,
+      "hint": "XOR each bit position: same bits give $0$, different bits give $1$."
+    },
+    {
+      "id": 49,
+      "question": "What is the output of a NOR gate when both inputs are $0$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "NOR is OR followed by NOT. First compute $0 \\lor 0$, then invert the result."
+    },
+    {
+      "id": 50,
+      "question": "Convert hexadecimal $\\text{7F}_{16}$ to decimal.",
+      "answers": [
+        "$127$",
+        "$128$",
+        "$126$",
+        "$255$"
+      ],
+      "correct": 0,
+      "hint": "$\\text{7F}_{16} = 7 \\times 16 + 15$. Calculate the sum."
+    },
+    {
+      "id": 51,
+      "question": "Simplify: $\\overline{A \\land B} \\land \\overline{A \\land C}$",
+      "answers": [
+        "$\\overline{A \\land (B \\lor C)}$",
+        "$\\overline{A} \\lor \\overline{B \\land C}$",
+        "$(\\overline{A} \\lor \\overline{B}) \\land (\\overline{A} \\lor \\overline{C})$",
+        "$A \\land \\overline{B \\land C}$"
+      ],
+      "correct": 2,
+      "hint": "Apply De Morgan's law to each NAND term, then look for a common pattern."
+    },
+    {
+      "id": 52,
+      "question": "What is $-32$ in 8-bit two's complement?",
+      "answers": [
+        "$11100000_2$",
+        "$00100000_2$",
+        "$11011111_2$",
+        "$10100000_2$"
+      ],
+      "correct": 0,
+      "hint": "$+32 = 00100000_2$. Flip all bits, add $1$. What do you get?"
+    },
+    {
+      "id": 53,
+      "question": "What is the output of $(A \\oplus B) \\oplus B$?",
+      "answers": [
+        "$B$",
+        "$0$",
+        "$A \\oplus B$",
+        "$A$"
+      ],
+      "correct": 3,
+      "hint": "XOR is its own inverse. When you XOR something with $B$ twice, what happens to $B$?"
+    },
+    {
+      "id": 54,
+      "question": "Convert $\\text{D0}_{16}$ to binary.",
+      "answers": [
+        "$11010000_2$",
+        "$10110000_2$",
+        "$11001000_2$",
+        "$11100000_2$"
+      ],
+      "correct": 0,
+      "hint": "$\\text{D} = 1101$ and $0 = 0000$. Combine the nibbles."
+    },
+    {
+      "id": 55,
+      "question": "In a full adder, what are SUM and CARRY when $A=0$, $B=1$, $C_{in}=1$?",
+      "answers": [
+        "SUM$=1$, CARRY$=1$",
+        "SUM$=0$, CARRY$=1$",
+        "SUM$=1$, CARRY$=0$",
+        "SUM$=0$, CARRY$=0$"
+      ],
+      "correct": 1,
+      "hint": "$0 + 1 + 1 = 2 = 10_2$. The rightmost bit is SUM, leftmost is CARRY."
+    },
+    {
+      "id": 56,
+      "question": "What Boolean function is implemented by the expression $\\overline{\\overline{A} \\lor \\overline{B}}$?",
+      "answers": [
+        "$A \\lor B$",
+        "$\\overline{A \\land B}$",
+        "$A \\land B$",
+        "$A \\oplus B$"
+      ],
+      "correct": 2,
+      "hint": "Apply De Morgan's law: NOT of an OR with inverted inputs becomes what?"
+    },
+    {
+      "id": 57,
+      "question": "What is $10000000_2 + 10000000_2$ in 8-bit two's complement (with overflow)?",
+      "answers": [
+        "$00000000_2$",
+        "$10000000_2$",
+        "$01000000_2$",
+        "$11111111_2$"
+      ],
+      "correct": 0,
+      "hint": "This is $-128 + (-128)$ in two's complement. The result overflows. What remains?"
+    },
+    {
+      "id": 58,
+      "question": "What is the minimum number of 2-input NAND gates needed to build an OR gate?",
+      "answers": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$"
+      ],
+      "correct": 1,
+      "hint": "OR can be built as: NOT each input, then NAND the results. How many NANDs total?"
+    },
+    {
+      "id": 59,
+      "question": "Simplify: $A \\land \\overline{A}$",
+      "answers": [
+        "$A$",
+        "$\\overline{A}$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "A variable ANDed with its complement: can both ever be true at the same time?"
+    },
+    {
+      "id": 60,
+      "question": "What is the hexadecimal of decimal $128$?",
+      "answers": [
+        "$\\text{88}_{16}$",
+        "$\\text{80}_{16}$",
+        "$\\text{8F}_{16}$",
+        "$\\text{18}_{16}$"
+      ],
+      "correct": 1,
+      "hint": "$128 = 8 \\times 16 + 0$. What are the two hex digits?"
+    },
+    {
+      "id": 61,
+      "question": "What is $01111111_2 + 00000001_2$ in 8-bit two's complement?",
+      "answers": [
+        "$10000000_2$",
+        "$01111110_2$",
+        "$00000000_2$",
+        "$11111111_2$"
+      ],
+      "correct": 0,
+      "hint": "This is $127 + 1$. The result overflows from positive to negative. What bit pattern results?"
+    },
+    {
+      "id": 62,
+      "question": "Simplify: $A \\lor \\overline{A}$",
+      "answers": [
+        "$0$",
+        "$A$",
+        "$1$",
+        "$\\overline{A}$"
+      ],
+      "correct": 2,
+      "hint": "A variable ORed with its complement: is at least one of them always true?"
+    },
+    {
+      "id": 63,
+      "question": "What is $\\text{C3}_{16}$ in binary?",
+      "answers": [
+        "$11000011_2$",
+        "$10110011_2$",
+        "$11001100_2$",
+        "$11000110_2$"
+      ],
+      "correct": 0,
+      "hint": "$\\text{C} = 1100$ and $3 = 0011$. Combine the nibbles in order."
+    },
+    {
+      "id": 64,
+      "question": "What is the output of an XOR gate when both inputs are $1$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$-1$"
+      ],
+      "correct": 2,
+      "hint": "XOR outputs $1$ when inputs differ. What happens when both inputs are the same?"
+    },
+    {
+      "id": 65,
+      "question": "Convert binary $01010101_2$ to hexadecimal.",
+      "answers": [
+        "$\\text{AA}_{16}$",
+        "$\\text{A5}_{16}$",
+        "$\\text{55}_{16}$",
+        "$\\text{5A}_{16}$"
+      ],
+      "correct": 2,
+      "hint": "Split into nibbles: $0101$ and $0101$. Each equals $5$ in decimal. What's the hex?"
+    },
+    {
+      "id": 66,
+      "question": "What is the result of $1100_2 \\land 1010_2$?",
+      "answers": [
+        "$1110_2$",
+        "$0110_2$",
+        "$1000_2$",
+        "$0010_2$"
+      ],
+      "correct": 2,
+      "hint": "AND each bit position: both must be $1$ to get $1$ in the result."
+    },
+    {
+      "id": 67,
+      "question": "What is $-16$ in 8-bit two's complement?",
+      "answers": [
+        "$00010000_2$",
+        "$11101111_2$",
+        "$11110000_2$",
+        "$10010000_2$"
+      ],
+      "correct": 2,
+      "hint": "$+16 = 00010000_2$. Flip all bits to get $11101111_2$, then add $1$."
+    },
+    {
+      "id": 68,
+      "question": "Simplify: $(A \\land B) \\lor (\\overline{A} \\land B)$",
+      "answers": [
+        "$A$",
+        "$A \\land B$",
+        "$B$",
+        "$A \\lor B$"
+      ],
+      "correct": 2,
+      "hint": "Factor out the common term $B$. What remains in the parentheses?"
+    },
+    {
+      "id": 69,
+      "question": "What is the result of $1100_2 \\lor 1010_2$?",
+      "answers": [
+        "$1000_2$",
+        "$1110_2$",
+        "$0110_2$",
+        "$1010_2$"
+      ],
+      "correct": 1,
+      "hint": "OR each bit position: if either bit is $1$, the result is $1$."
+    },
+    {
+      "id": 70,
+      "question": "How many bits are needed to represent decimal $1000$?",
+      "answers": [
+        "$9$",
+        "$10$",
+        "$11$",
+        "$12$"
+      ],
+      "correct": 1,
+      "hint": "Find the smallest $n$ where $2^n > 1000$. Check powers of $2$ near $1000$."
+    },
+    {
+      "id": 71,
+      "question": "What is the output of a NAND gate when $A=0$, $B=1$?",
+      "answers": [
+        "$0$",
+        "$-1$",
+        "$1$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "NAND is AND followed by NOT. First compute $0 \\land 1$, then invert."
+    },
+    {
+      "id": 72,
+      "question": "Simplify: $\\overline{A} \\land (A \\lor B)$",
+      "answers": [
+        "$A \\land B$",
+        "$\\overline{A}$",
+        "$\\overline{A} \\land B$",
+        "$B$"
+      ],
+      "correct": 2,
+      "hint": "Distribute $\\overline{A}$ over the OR. What happens to $\\overline{A} \\land A$?"
+    },
+    {
+      "id": 73,
+      "question": "What is $\\text{3C}_{16}$ in decimal?",
+      "answers": [
+        "$58$",
+        "$60$",
+        "$62$",
+        "$54$"
+      ],
+      "correct": 1,
+      "hint": "$\\text{3C}_{16} = 3 \\times 16 + \\text{C}$. Remember $\\text{C} = 12$."
+    },
+    {
+      "id": 74,
+      "question": "What is the result of left-shifting $00001111_2$ by $2$ positions?",
+      "answers": [
+        "$00111100_2$",
+        "$00011110_2$",
+        "$11110000_2$",
+        "$00000011_2$"
+      ],
+      "correct": 0,
+      "hint": "Left shift moves all bits left, filling with zeros on the right. What enters from the right?"
+    },
+    {
+      "id": 75,
+      "question": "What is $-100$ in 8-bit two's complement?",
+      "answers": [
+        "$01100100_2$",
+        "$10011011_2$",
+        "$10011100_2$",
+        "$10100100_2$"
+      ],
+      "correct": 2,
+      "hint": "$+100 = 01100100_2$. Flip all bits, then add $1$."
+    },
+    {
+      "id": 76,
+      "question": "What gate is equivalent to $\\overline{A \\lor B}$?",
+      "answers": [
+        "NAND",
+        "AND",
+        "XOR",
+        "NOR"
+      ],
+      "correct": 3,
+      "hint": "NOR means NOT-OR. What does NOT of an OR operation give you?"
+    },
+    {
+      "id": 77,
+      "question": "What is $11110000_2 \\oplus 00001111_2$?",
+      "answers": [
+        "$11110000_2$",
+        "$00001111_2$",
+        "$11111111_2$",
+        "$00000000_2$"
+      ],
+      "correct": 2,
+      "hint": "XOR each bit: these two patterns are complements of each other. What happens?"
+    },
+    {
+      "id": 78,
+      "question": "In a 4-bit ripple carry adder, if $A=1111_2$, $B=0001_2$, what is the sum (ignoring overflow)?",
+      "answers": [
+        "$10000_2$",
+        "$0000_2$",
+        "$1111_2$",
+        "$0001_2$"
+      ],
+      "correct": 1,
+      "hint": "$15 + 1 = 16$, but we only keep 4 bits. What remains after discarding the carry?"
+    },
+    {
+      "id": 79,
+      "question": "Simplify: $A \\land (\\overline{A} \\lor B)$",
+      "answers": [
+        "$A \\lor B$",
+        "$A$",
+        "$A \\land B$",
+        "$B$"
+      ],
+      "correct": 2,
+      "hint": "Distribute $A$ over the OR. What happens to $A \\land \\overline{A}$?"
+    },
+    {
+      "id": 80,
+      "question": "What is the result of right-shifting $11110000_2$ by $3$ positions (logical shift)?",
+      "answers": [
+        "$00011110_2$",
+        "$11111110_2$",
+        "$00001110_2$",
+        "$01111000_2$"
+      ],
+      "correct": 0,
+      "hint": "Logical right shift fills with zeros on the left. Move each bit $3$ positions right."
+    },
+    {
+      "id": 81,
+      "question": "What is the truth table output for $A \\land B$ when $A=1$, $B=0$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$-1$"
+      ],
+      "correct": 2,
+      "hint": "AND requires both inputs to be $1$. Is that the case here?"
+    },
+    {
+      "id": 82,
+      "question": "Convert decimal $175$ to hexadecimal.",
+      "answers": [
+        "$\\text{AF}_{16}$",
+        "$\\text{AB}_{16}$",
+        "$\\text{BF}_{16}$",
+        "$\\text{FA}_{16}$"
+      ],
+      "correct": 0,
+      "hint": "$175 \\div 16 = 10$ remainder $15$. Convert both to hex digits."
+    },
+    {
+      "id": 83,
+      "question": "What is $(A \\oplus B) \\land (A \\lor B)$ equivalent to?",
+      "answers": [
+        "$A \\land B$",
+        "$A \\lor B$",
+        "$(A \\land \\overline{B}) \\lor (\\overline{A} \\land B)$",
+        "$A \\oplus B$"
+      ],
+      "correct": 3,
+      "hint": "The second term $(A \\lor B)$ is always true when XOR is true. Does it change the result?"
+    },
+    {
+      "id": 84,
+      "question": "What is the 8-bit two's complement of $-127$?",
+      "answers": [
+        "$01111111_2$",
+        "$10000001_2$",
+        "$11111111_2$",
+        "$10000000_2$"
+      ],
+      "correct": 1,
+      "hint": "$+127 = 01111111_2$. Flip all bits to get $10000000_2$, then add $1$."
+    },
+    {
+      "id": 85,
+      "question": "What is $\\text{E7}_{16}$ in binary?",
+      "answers": [
+        "$11100111_2$",
+        "$11100101_2$",
+        "$11110111_2$",
+        "$10100111_2$"
+      ],
+      "correct": 0,
+      "hint": "$\\text{E} = 1110$ and $7 = 0111$. Combine the nibbles."
+    },
+    {
+      "id": 86,
+      "question": "What is the output of the expression $\\overline{A \\oplus B}$?",
+      "answers": [
+        "XOR",
+        "NOR",
+        "XNOR",
+        "NAND"
+      ],
+      "correct": 2,
+      "hint": "NOT of XOR is called what? Think about when this outputs $1$ versus $0$."
+    },
+    {
+      "id": 87,
+      "question": "How many rows are in a truth table for a 4-input gate?",
+      "answers": [
+        "$8$",
+        "$16$",
+        "$32$",
+        "$4$"
+      ],
+      "correct": 1,
+      "hint": "Each input can be $0$ or $1$. Total combinations = $2^n$ where $n$ is the number of inputs."
+    },
+    {
+      "id": 88,
+      "question": "What is $10110011_2$ AND $11001100_2$?",
+      "answers": [
+        "$11111111_2$",
+        "$01110111_2$",
+        "$10000000_2$",
+        "$10000000_2$"
+      ],
+      "correct": 2,
+      "hint": "AND each bit position. Both must be $1$ to produce $1$."
+    },
+    {
+      "id": 89,
+      "question": "Simplify: $(\\overline{A} \\land B) \\lor (A \\land B)$",
+      "answers": [
+        "$A$",
+        "$A \\lor B$",
+        "$B$",
+        "$A \\land B$"
+      ],
+      "correct": 2,
+      "hint": "Factor out $B$: $B \\land (\\overline{A} \\lor A)$. What does $\\overline{A} \\lor A$ equal?"
+    },
+    {
+      "id": 90,
+      "question": "What is $-50$ in 8-bit two's complement?",
+      "answers": [
+        "$00110010_2$",
+        "$11001101_2$",
+        "$11001110_2$",
+        "$10110010_2$"
+      ],
+      "correct": 2,
+      "hint": "$+50 = 00110010_2$. Flip all bits, add $1$."
+    },
+    {
+      "id": 91,
+      "question": "What is the result of a 4-input NAND gate with inputs $1,1,1,0$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "NAND is NOT-AND. First compute the 4-input AND, then invert."
+    },
+    {
+      "id": 92,
+      "question": "Convert $\\text{9A}_{16}$ to decimal.",
+      "answers": [
+        "$154$",
+        "$148$",
+        "$164$",
+        "$158$"
+      ],
+      "correct": 0,
+      "hint": "$\\text{9A}_{16} = 9 \\times 16 + \\text{A}$. Remember $\\text{A} = 10$."
+    },
+    {
+      "id": 93,
+      "question": "What is the carry output of a half adder when $A=0$, $B=1$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "CARRY $= A \\land B$. What is $0 \\land 1$?"
+    },
+    {
+      "id": 94,
+      "question": "Simplify: $A \\lor (\\overline{A} \\land B)$",
+      "answers": [
+        "$A \\land B$",
+        "$A$",
+        "$A \\lor B$",
+        "$B$"
+      ],
+      "correct": 2,
+      "hint": "Try both cases: when $A=1$ and when $A=0$. What expression covers both results?"
+    },
+    {
+      "id": 95,
+      "question": "What is $11111111_2 \\land 00001111_2$?",
+      "answers": [
+        "$11111111_2$",
+        "$00001111_2$",
+        "$11110000_2$",
+        "$00000000_2$"
+      ],
+      "correct": 1,
+      "hint": "AND with all $1$s preserves the other operand. This is called masking."
+    },
+    {
+      "id": 96,
+      "question": "How many NOR gates are needed to make a NOT gate?",
+      "answers": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$4$"
+      ],
+      "correct": 1,
+      "hint": "Connect both inputs of a NOR gate to the same signal. What does $(A \\downarrow A)$ give?"
+    },
+    {
+      "id": 97,
+      "question": "What is the decimal value of signed 8-bit binary $10101010_2$?",
+      "answers": [
+        "$-86$",
+        "$170$",
+        "$-170$",
+        "$86$"
+      ],
+      "correct": 0,
+      "hint": "MSB is $1$, so negative. Flip bits, add $1$, then negate. $01010101 + 1 = 01010110 = 86$."
+    },
+    {
+      "id": 98,
+      "question": "What is the result of $1111_2 \\oplus 1111_2$?",
+      "answers": [
+        "$1111_2$",
+        "$1110_2$",
+        "$0000_2$",
+        "$0001_2$"
+      ],
+      "correct": 2,
+      "hint": "XOR of identical values: when both bits are the same, the result is always what?"
+    },
+    {
+      "id": 99,
+      "question": "Convert binary $11100111_2$ to hexadecimal.",
+      "answers": [
+        "$\\text{E7}_{16}$",
+        "$\\text{7E}_{16}$",
+        "$\\text{EF}_{16}$",
+        "$\\text{E5}_{16}$"
+      ],
+      "correct": 0,
+      "hint": "Split: $1110 = \\text{E}$ and $0111 = 7$. Combine them."
+    },
+    {
+      "id": 100,
+      "question": "What is the output when $A=1$, $B=1$, $C=1$ through a 3-input NOR gate?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$3$"
+      ],
+      "correct": 1,
+      "hint": "NOR: first OR all inputs, then NOT the result. What is $1 \\lor 1 \\lor 1$ inverted?"
+    },
+    {
+      "id": 101,
+      "question": "Simplify: $\\overline{(A \\land B) \\lor (A \\land C)}$",
+      "answers": [
+        "$\\overline{A} \\lor (\\overline{B} \\land \\overline{C})$",
+        "$\\overline{A \\land (B \\lor C)}$",
+        "$(\\overline{A} \\lor \\overline{B}) \\land (\\overline{A} \\lor \\overline{C})$",
+        "$A \\lor \\overline{B \\lor C}$"
+      ],
+      "correct": 0,
+      "hint": "First factor out $A$, then apply De Morgan's law to the result."
+    },
+    {
+      "id": 102,
+      "question": "What is $1010_2 \\times 101_2$ in binary?",
+      "answers": [
+        "$110000_2$",
+        "$110010_2$",
+        "$101010_2$",
+        "$111110_2$"
+      ],
+      "correct": 1,
+      "hint": "Convert to decimal: $10 \\times 5 = 50$. Convert $50$ back to binary."
+    },
+    {
+      "id": 103,
+      "question": "What is the range of unsigned 16-bit integers?",
+      "answers": [
+        "$0$ to $65535$",
+        "$-32768$ to $32767$",
+        "$0$ to $32767$",
+        "$-65536$ to $65535$"
+      ],
+      "correct": 0,
+      "hint": "Unsigned: all bits represent magnitude. Maximum is $2^{16} - 1$."
+    },
+    {
+      "id": 104,
+      "question": "What gate is equivalent to $(A \\land B) \\lor (\\overline{A} \\land \\overline{B})$?",
+      "answers": [
+        "XOR",
+        "OR",
+        "AND",
+        "XNOR"
+      ],
+      "correct": 3,
+      "hint": "This expression is true when both inputs are the same. What gate behaves that way?"
+    },
+    {
+      "id": 105,
+      "question": "What is $\\text{4B}_{16}$ in decimal?",
+      "answers": [
+        "$75$",
+        "$71$",
+        "$79$",
+        "$67$"
+      ],
+      "correct": 0,
+      "hint": "$\\text{4B}_{16} = 4 \\times 16 + \\text{B}$. Remember $\\text{B} = 11$."
+    },
+    {
+      "id": 106,
+      "question": "What is the result of arithmetic right-shifting $10000100_2$ by $2$ positions?",
+      "answers": [
+        "$00100001_2$",
+        "$11100001_2$",
+        "$01000010_2$",
+        "$00000001_2$"
+      ],
+      "correct": 1,
+      "hint": "Arithmetic right shift preserves the sign bit. What fills in from the left?"
+    },
+    {
+      "id": 107,
+      "question": "Simplify: $(A \\lor B) \\land (\\overline{A} \\lor B)$",
+      "answers": [
+        "$A$",
+        "$A \\lor B$",
+        "$A \\land B$",
+        "$B$"
+      ],
+      "correct": 3,
+      "hint": "Factor using the consensus theorem, or try both cases: $B=0$ and $B=1$."
+    },
+    {
+      "id": 108,
+      "question": "What is $11111111_2 \\lor 00000000_2$?",
+      "answers": [
+        "$00000000_2$",
+        "$11111111_2$",
+        "$01010101_2$",
+        "$10101010_2$"
+      ],
+      "correct": 1,
+      "hint": "OR with all zeros leaves the other operand unchanged."
+    },
+    {
+      "id": 109,
+      "question": "Convert decimal $239$ to hexadecimal.",
+      "answers": [
+        "$\\text{FE}_{16}$",
+        "$\\text{EF}_{16}$",
+        "$\\text{EE}_{16}$",
+        "$\\text{E9}_{16}$"
+      ],
+      "correct": 1,
+      "hint": "$239 \\div 16 = 14$ remainder $15$. Convert both to hex digits."
+    },
+    {
+      "id": 110,
+      "question": "What is $-1 + (-1)$ in 8-bit two's complement?",
+      "answers": [
+        "$11111110_2$",
+        "$00000000_2$",
+        "$11111111_2$",
+        "$00000010_2$"
+      ],
+      "correct": 0,
+      "hint": "$-1 = 11111111_2$. Add two of these together. What's $-2$ in two's complement?"
+    },
+    {
+      "id": 111,
+      "question": "What Boolean expression represents a 2-input NAND gate?",
+      "answers": [
+        "$A \\land B$",
+        "$A \\lor B$",
+        "$\\overline{A \\land B}$",
+        "$\\overline{A \\lor B}$"
+      ],
+      "correct": 2,
+      "hint": "NAND is NOT-AND. What's the expression for negating an AND operation?"
+    },
+    {
+      "id": 112,
+      "question": "What is the output of XOR when $A=0$, $B=0$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "XOR outputs $1$ only when inputs differ. What happens when they're the same?"
+    },
+    {
+      "id": 113,
+      "question": "What is $\\text{BD}_{16}$ in binary?",
+      "answers": [
+        "$10111011_2$",
+        "$11011011_2$",
+        "$10111101_2$",
+        "$11011101_2$"
+      ],
+      "correct": 2,
+      "hint": "$\\text{B} = 1011$ and $\\text{D} = 1101$. Combine the nibbles."
+    },
+    {
+      "id": 114,
+      "question": "How many 2-input NOR gates are needed to build an AND gate?",
+      "answers": [
+        "$2$",
+        "$3$",
+        "$4$",
+        "$5$"
+      ],
+      "correct": 1,
+      "hint": "AND using NOR: NOT each input with NOR, then NOR the results. Count the gates."
+    },
+    {
+      "id": 115,
+      "question": "Simplify: $(A \\land B) \\lor A$",
+      "answers": [
+        "$A \\land B$",
+        "$B$",
+        "$A$",
+        "$A \\lor B$"
+      ],
+      "correct": 2,
+      "hint": "Absorption law in reverse: if $A$ is true, the whole expression is true."
+    },
+    {
+      "id": 116,
+      "question": "What is the decimal value of signed 8-bit $01111111_2$?",
+      "answers": [
+        "$-127$",
+        "$128$",
+        "$127$",
+        "$-128$"
+      ],
+      "correct": 2,
+      "hint": "MSB is $0$, so positive. Just convert the remaining bits as usual."
+    },
+    {
+      "id": 117,
+      "question": "What is $10000000_2 - 00000001_2$ in 8-bit two's complement?",
+      "answers": [
+        "$01111111_2$",
+        "$10000001_2$",
+        "$11111111_2$",
+        "$00000001_2$"
+      ],
+      "correct": 0,
+      "hint": "This is $-128 - 1$. The result overflows to the largest positive value."
+    },
+    {
+      "id": 118,
+      "question": "What is the output of a multiplexer with $S=0$, $I_0=1$, $I_1=0$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$S$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "When select $S=0$, the multiplexer outputs $I_0$. What is $I_0$?"
+    },
+    {
+      "id": 119,
+      "question": "Simplify: $\\overline{A} \\lor (A \\land B)$",
+      "answers": [
+        "$A$",
+        "$\\overline{A} \\land B$",
+        "$\\overline{A} \\lor B$",
+        "$A \\lor B$"
+      ],
+      "correct": 2,
+      "hint": "Try cases: when $A=0$ and when $A=1$. What expression matches both results?"
+    },
+    {
+      "id": 120,
+      "question": "What is $\\text{F0}_{16}$ XOR $\\text{0F}_{16}$ in hexadecimal?",
+      "answers": [
+        "$\\text{00}_{16}$",
+        "$\\text{F0}_{16}$",
+        "$\\text{FF}_{16}$",
+        "$\\text{0F}_{16}$"
+      ],
+      "correct": 2,
+      "hint": "Convert to binary: $11110000 \\oplus 00001111$. XOR bit by bit."
+    },
+    {
+      "id": 121,
+      "question": "What is the purpose of the carry-in bit in a full adder?",
+      "answers": [
+        "To store the previous result",
+        "To chain multiple adders together",
+        "To reset the adder",
+        "To invert the output"
+      ],
+      "correct": 1,
+      "hint": "In multi-bit addition, each stage needs to know if the previous stage produced a carry."
+    },
+    {
+      "id": 122,
+      "question": "Convert $-10$ to 8-bit two's complement.",
+      "answers": [
+        "$00001010_2$",
+        "$11110110_2$",
+        "$11110101_2$",
+        "$10001010_2$"
+      ],
+      "correct": 1,
+      "hint": "$+10 = 00001010_2$. Flip all bits, then add $1$."
+    },
+    {
+      "id": 123,
+      "question": "What is the output of $(A \\barwedge B) \\barwedge (A \\barwedge B)$?",
+      "answers": [
+        "$\\overline{A \\land B}$",
+        "$A \\lor B$",
+        "$A \\land B$",
+        "$\\overline{A \\lor B}$"
+      ],
+      "correct": 2,
+      "hint": "NAND of something with itself is NOT of that thing. What is NOT of NAND?"
+    },
+    {
+      "id": 124,
+      "question": "What is $11001010_2$ in decimal (unsigned)?",
+      "answers": [
+        "$200$",
+        "$202$",
+        "$204$",
+        "$198$"
+      ],
+      "correct": 1,
+      "hint": "Add the powers of $2$: $128 + 64 + 8 + 2$."
+    },
+    {
+      "id": 125,
+      "question": "Simplify: $A \\land (B \\lor \\overline{A})$",
+      "answers": [
+        "$A$",
+        "$A \\lor B$",
+        "$A \\land B$",
+        "$B$"
+      ],
+      "correct": 2,
+      "hint": "Distribute $A$ over the OR. What happens to $A \\land \\overline{A}$?"
+    },
+    {
+      "id": 126,
+      "question": "What is the hexadecimal of decimal $192$?",
+      "answers": [
+        "$\\text{B0}_{16}$",
+        "$\\text{C0}_{16}$",
+        "$\\text{D0}_{16}$",
+        "$\\text{A0}_{16}$"
+      ],
+      "correct": 1,
+      "hint": "$192 = 12 \\times 16 + 0$. What's $12$ in hex?"
+    },
+    {
+      "id": 127,
+      "question": "What is the result of a 4-input XOR with inputs $1,1,1,1$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$4$"
+      ],
+      "correct": 1,
+      "hint": "Multi-input XOR counts the number of $1$s. If even, output is $0$; if odd, output is $1$."
+    },
+    {
+      "id": 128,
+      "question": "What is $\\text{5F}_{16}$ in decimal?",
+      "answers": [
+        "$89$",
+        "$95$",
+        "$91$",
+        "$85$"
+      ],
+      "correct": 1,
+      "hint": "$\\text{5F}_{16} = 5 \\times 16 + \\text{F}$. Remember $\\text{F} = 15$."
+    },
+    {
+      "id": 129,
+      "question": "What is the output of a half adder SUM when $A=0$, $B=0$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$-1$"
+      ],
+      "correct": 2,
+      "hint": "SUM $= A \\oplus B$. What is $0 \\oplus 0$?"
+    },
+    {
+      "id": 130,
+      "question": "Simplify: $\\overline{A \\land (B \\lor C)}$",
+      "answers": [
+        "$\\overline{A} \\lor \\overline{B \\lor C}$",
+        "$\\overline{A} \\lor (\\overline{B} \\land \\overline{C})$",
+        "$(\\overline{A} \\land \\overline{B}) \\lor \\overline{C}$",
+        "$A \\land \\overline{B \\lor C}$"
+      ],
+      "correct": 1,
+      "hint": "Apply De Morgan's law, then apply it again to the second term."
+    },
+    {
+      "id": 131,
+      "question": "What is $-120$ in 8-bit two's complement?",
+      "answers": [
+        "$01111000_2$",
+        "$10001000_2$",
+        "$10000111_2$",
+        "$10001001_2$"
+      ],
+      "correct": 1,
+      "hint": "$+120 = 01111000_2$. Flip all bits, add $1$."
+    },
+    {
+      "id": 132,
+      "question": "What is the result of $1010_2$ NOR $0101_2$?",
+      "answers": [
+        "$1111_2$",
+        "$1010_2$",
+        "$0000_2$",
+        "$0101_2$"
+      ],
+      "correct": 2,
+      "hint": "First OR: $1111_2$. Then NOT the result."
+    },
+    {
+      "id": 133,
+      "question": "Convert binary $10011001_2$ to hexadecimal.",
+      "answers": [
+        "$\\text{99}_{16}$",
+        "$\\text{91}_{16}$",
+        "$\\text{9A}_{16}$",
+        "$\\text{A9}_{16}$"
+      ],
+      "correct": 0,
+      "hint": "Split: $1001 = 9$ and $1001 = 9$. Combine them."
+    },
+    {
+      "id": 134,
+      "question": "What does a decoder with 3 inputs have for outputs?",
+      "answers": [
+        "$3$",
+        "$6$",
+        "$8$",
+        "$16$"
+      ],
+      "correct": 2,
+      "hint": "A decoder with $n$ inputs has $2^n$ outputs. Calculate for $n=3$."
+    },
+    {
+      "id": 135,
+      "question": "Simplify: $(A \\lor B) \\land (A \\lor C) \\land (B \\lor C)$",
+      "answers": [
+        "$(A \\land B) \\lor (A \\land C) \\lor (B \\land C)$",
+        "$A \\lor B \\lor C$",
+        "$A \\land B \\land C$",
+        "$(A \\lor B) \\land C$"
+      ],
+      "correct": 0,
+      "hint": "This is the dual of the median function. Think about when at least two variables are true."
+    },
+    {
+      "id": 136,
+      "question": "What is $\\text{6E}_{16}$ in binary?",
+      "answers": [
+        "$01100111_2$",
+        "$01101110_2$",
+        "$01101101_2$",
+        "$01111110_2$"
+      ],
+      "correct": 1,
+      "hint": "$6 = 0110$ and $\\text{E} = 1110$. Combine the nibbles."
+    },
+    {
+      "id": 137,
+      "question": "What is the output of a 2-to-4 decoder when input is $10_2$?",
+      "answers": [
+        "Output $0$ is high",
+        "Output $1$ is high",
+        "Output $2$ is high",
+        "Output $3$ is high"
+      ],
+      "correct": 2,
+      "hint": "The input value determines which output is active. $10_2 = 2$ in decimal."
+    },
+    {
+      "id": 138,
+      "question": "What is $127 + 1$ in 8-bit signed two's complement?",
+      "answers": [
+        "$128$",
+        "$-128$",
+        "$0$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "$127 = 01111111_2$, adding $1$ gives $10000000_2$. What's that in signed representation?"
+    },
+    {
+      "id": 139,
+      "question": "Simplify: $\\overline{(\\overline{A} \\lor B) \\land (A \\lor \\overline{B})}$",
+      "answers": [
+        "$A \\oplus B$",
+        "$\\overline{A \\oplus B}$",
+        "$(A \\land \\overline{B}) \\lor (\\overline{A} \\land B)$",
+        "$A \\land B$"
+      ],
+      "correct": 0,
+      "hint": "The inner expression is XNOR. What is NOT of XNOR?"
+    },
+    {
+      "id": 140,
+      "question": "What is decimal $225$ in hexadecimal?",
+      "answers": [
+        "$\\text{D1}_{16}$",
+        "$\\text{E1}_{16}$",
+        "$\\text{F1}_{16}$",
+        "$\\text{E5}_{16}$"
+      ],
+      "correct": 1,
+      "hint": "$225 \\div 16 = 14$ remainder $1$. What's $14$ in hex?"
+    },
+    {
+      "id": 141,
+      "question": "What is the result of a 4-input AND with inputs $1,1,1,1$?",
+      "answers": [
+        "$0$",
+        "$4$",
+        "$1$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "AND requires all inputs to be $1$. Are all four inputs $1$?"
+    },
+    {
+      "id": 142,
+      "question": "What is $11110000_2$ NAND $11110000_2$?",
+      "answers": [
+        "$11110000_2$",
+        "$00001111_2$",
+        "$00000000_2$",
+        "$11111111_2$"
+      ],
+      "correct": 1,
+      "hint": "NAND of identical values: first AND them (same result), then NOT."
+    },
+    {
+      "id": 143,
+      "question": "Convert $\\text{A5}_{16}$ to decimal.",
+      "answers": [
+        "$165$",
+        "$160$",
+        "$175$",
+        "$155$"
+      ],
+      "correct": 0,
+      "hint": "$\\text{A5}_{16} = \\text{A} \\times 16 + 5 = 10 \\times 16 + 5$."
+    },
+    {
+      "id": 144,
+      "question": "What is the SUM output of a full adder when $A=0$, $B=0$, $C_{in}=1$?",
+      "answers": [
+        "$0$",
+        "$2$",
+        "$1$",
+        "$-1$"
+      ],
+      "correct": 2,
+      "hint": "$0 + 0 + 1 = 1$. The SUM is the rightmost bit of the result."
+    },
+    {
+      "id": 145,
+      "question": "Simplify: $(A \\land B) \\lor (A \\land \\overline{B}) \\lor (\\overline{A} \\land B)$",
+      "answers": [
+        "$A \\land B$",
+        "$A \\lor B$",
+        "$A$",
+        "$B$"
+      ],
+      "correct": 1,
+      "hint": "Group the first two terms: $A \\land (B \\lor \\overline{B}) = A$. Now OR with the third term."
+    },
+    {
+      "id": 146,
+      "question": "What is $-25$ in 8-bit two's complement?",
+      "answers": [
+        "$00011001_2$",
+        "$11100110_2$",
+        "$11100111_2$",
+        "$10011001_2$"
+      ],
+      "correct": 2,
+      "hint": "$+25 = 00011001_2$. Flip all bits, add $1$."
+    },
+    {
+      "id": 147,
+      "question": "What is the output of an SR latch when $S=1$, $R=0$?",
+      "answers": [
+        "$Q=0$",
+        "Invalid state",
+        "$Q=1$",
+        "$Q$ unchanged"
+      ],
+      "correct": 2,
+      "hint": "$S=1$ means Set. What state does the latch go to when Set is active?"
+    },
+    {
+      "id": 148,
+      "question": "What is $\\text{77}_{16}$ in binary?",
+      "answers": [
+        "$01110111_2$",
+        "$01110011_2$",
+        "$01111011_2$",
+        "$01101111_2$"
+      ],
+      "correct": 0,
+      "hint": "$7 = 0111$ and $7 = 0111$. Combine the nibbles."
+    },
+    {
+      "id": 149,
+      "question": "What is the maximum positive value in 16-bit signed two's complement?",
+      "answers": [
+        "$32767$",
+        "$65535$",
+        "$32768$",
+        "$65536$"
+      ],
+      "correct": 0,
+      "hint": "For $n$ bits signed, max positive is $2^{n-1} - 1$. Calculate for $n=16$."
+    },
+    {
+      "id": 150,
+      "question": "Simplify: $\\overline{(A \\lor B) \\land (C \\lor D)}$",
+      "answers": [
+        "$(\\overline{A} \\land \\overline{B}) \\lor (\\overline{C} \\land \\overline{D})$",
+        "$\\overline{A \\lor B} \\lor \\overline{C \\lor D}$",
+        "$(A \\land B) \\lor (C \\land D)$",
+        "$(\\overline{A} \\lor \\overline{B}) \\land (\\overline{C} \\lor \\overline{D})$"
+      ],
+      "correct": 0,
+      "hint": "Apply De Morgan's law: NOT of AND becomes OR, then apply De Morgan again to each term."
     }
   ],
   "access": [

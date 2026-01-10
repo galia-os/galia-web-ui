@@ -27,6 +27,25 @@ interface SavedQuizProgress {
 }
 
 const QUIZ_PROGRESS_KEY = "quizProgress";
+const QUESTIONS_PER_QUIZ = 40;
+
+// Fisher-Yates shuffle algorithm
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+// Select random questions from pool
+function selectRandomQuestions<T>(questions: T[], count: number): T[] {
+  if (questions.length <= count) {
+    return shuffleArray(questions);
+  }
+  return shuffleArray(questions).slice(0, count);
+}
 
 function QuizContent() {
   const router = useRouter();
@@ -111,9 +130,25 @@ function QuizContent() {
         }
         setUser(foundUser);
 
-        // In round 2+, filter to only show questions that were answered incorrectly
+        // Round 1: randomly select questions from the pool
+        // Round 2+: filter to only show questions that were answered incorrectly
         let filteredQuizData = quizDataParsed;
-        if (round > 1) {
+        if (round === 1) {
+          // Randomly select QUESTIONS_PER_QUIZ questions for round 1
+          const selectedQuestions = selectRandomQuestions(
+            quizDataParsed.questions,
+            QUESTIONS_PER_QUIZ
+          );
+          filteredQuizData = {
+            ...quizDataParsed,
+            questions: selectedQuestions,
+          };
+          // Store selected question IDs for potential retry rounds
+          sessionStorage.setItem(
+            "selectedQuestionIds",
+            JSON.stringify(selectedQuestions.map((q: { id: number }) => q.id))
+          );
+        } else {
           // Use saved wrong question IDs if available, otherwise from session storage
           const wrongQuestionIds =
             savedProgress?.wrongQuestionIds ||
@@ -121,10 +156,15 @@ function QuizContent() {
               sessionStorage.getItem("wrongQuestionIds") || "[]",
             ) as number[]);
           if (wrongQuestionIds.length > 0) {
+            // Get the originally selected questions (not full pool)
+            const selectedQuestionIds = JSON.parse(
+              sessionStorage.getItem("selectedQuestionIds") || "[]"
+            ) as number[];
             filteredQuizData = {
               ...quizDataParsed,
               questions: quizDataParsed.questions.filter((q: { id: number }) =>
-                wrongQuestionIds.includes(q.id),
+                wrongQuestionIds.includes(q.id) &&
+                (selectedQuestionIds.length === 0 || selectedQuestionIds.includes(q.id))
               ),
             };
           }

@@ -393,10 +393,10 @@
       "id": 33,
       "question": "Lisa bought 4 identical books. She paid $36 total. What was the price of each book?",
       "answers": [
-        "$8",
-        "$40",
-        "$32",
-        "$9"
+        "$8$",
+        "$40$",
+        "$32$",
+        "$9$"
       ],
       "correct": 3,
       "hint": "Set up the equation: $4b = 36$. Divide both sides by 4."
@@ -484,6 +484,1326 @@
       ],
       "correct": 1,
       "hint": "Subtract $2x$ from both sides, then add 6 to both sides. Finally, divide to find $x$."
+    },
+    {
+      "id": 41,
+      "question": "Solve for $x$: $\\frac{2x}{3} = 8$",
+      "answers": [
+        "$x = 12$",
+        "$x = 16$",
+        "$x = 10$",
+        "$x = 14$"
+      ],
+      "correct": 0,
+      "hint": "First multiply both sides by 3, then divide by 2. What do you get?"
+    },
+    {
+      "id": 42,
+      "question": "Solve for $n$: $5(n - 3) = 20$",
+      "answers": [
+        "$n = 4$",
+        "$n = 5$",
+        "$n = 7$",
+        "$n = 8$"
+      ],
+      "correct": 2,
+      "hint": "Divide both sides by 5 first to get $(n - 3)$. Then add 3 to find $n$."
+    },
+    {
+      "id": 43,
+      "question": "Solve for $x$: $\\frac{x + 4}{2} = 9$",
+      "answers": [
+        "$x = 22$",
+        "$x = 14$",
+        "$x = 18$",
+        "$x = 10$"
+      ],
+      "correct": 1,
+      "hint": "Multiply both sides by 2 first. Then subtract 4 to isolate $x$."
+    },
+    {
+      "id": 44,
+      "question": "A store sells pencils for $0.50 each. If Maria spent $4.50 on pencils, how many did she buy?",
+      "answers": [
+        "$7$",
+        "$8$",
+        "$9$",
+        "$10$"
+      ],
+      "correct": 2,
+      "hint": "Set up: $0.50p = 4.50$. Divide 4.50 by 0.50 (or think: how many halves in 4.50?)."
+    },
+    {
+      "id": 45,
+      "question": "Expand and simplify: $3(x + 2) + 2(x - 1)$",
+      "answers": [
+        "$5x + 4$",
+        "$5x + 8$",
+        "$5x + 5$",
+        "$6x + 4$"
+      ],
+      "correct": 0,
+      "hint": "Distribute each number to its parentheses, then combine like terms."
+    },
+    {
+      "id": 46,
+      "question": "Solve for $y$: $\\frac{3y}{4} = 15$",
+      "answers": [
+        "$y = 12$",
+        "$y = 18$",
+        "$y = 20$",
+        "$y = 45$"
+      ],
+      "correct": 2,
+      "hint": "Multiply both sides by 4, then divide by 3. Work step by step."
+    },
+    {
+      "id": 47,
+      "question": "Three consecutive numbers add up to 42. What is the smallest number?",
+      "answers": [
+        "$12$",
+        "$13$",
+        "$14$",
+        "$15$"
+      ],
+      "correct": 1,
+      "hint": "If the smallest is $n$, then $n + (n+1) + (n+2) = 42$. Simplify and solve for $n$."
+    },
+    {
+      "id": 48,
+      "question": "Solve for $x$: $2(3x - 4) = 16$",
+      "answers": [
+        "$x = 3$",
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 6$"
+      ],
+      "correct": 1,
+      "hint": "Divide both sides by 2 first, then add 4, then divide by 3."
+    },
+    {
+      "id": 49,
+      "question": "Solve for $m$: $\\frac{m}{3} + \\frac{m}{6} = 5$",
+      "answers": [
+        "$m = 15$",
+        "$m = 10$",
+        "$m = 12$",
+        "$m = 6$"
+      ],
+      "correct": 1,
+      "hint": "Find a common denominator for the fractions. $\\frac{m}{3} = \\frac{2m}{6}$, so you have $\\frac{3m}{6} = 5$."
+    },
+    {
+      "id": 50,
+      "question": "Jake is 5 years older than twice Emma's age. If Jake is 21, how old is Emma?",
+      "answers": [
+        "$6$",
+        "$7$",
+        "$8$",
+        "$13$"
+      ],
+      "correct": 2,
+      "hint": "Write: $2e + 5 = 21$. Subtract 5, then divide by 2."
+    },
+    {
+      "id": 51,
+      "question": "Expand: $-2(x - 5)$",
+      "answers": [
+        "$-2x - 5$",
+        "$-2x + 10$",
+        "$-2x - 10$",
+        "$2x - 10$"
+      ],
+      "correct": 1,
+      "hint": "Remember: $-2 \\times x = -2x$ and $-2 \\times (-5) = +10$. Watch the signs!"
+    },
+    {
+      "id": 52,
+      "question": "Solve for $x$: $\\frac{x - 3}{4} = 5$",
+      "answers": [
+        "$x = 17$",
+        "$x = 20$",
+        "$x = 23$",
+        "$x = 8$"
+      ],
+      "correct": 2,
+      "hint": "Multiply both sides by 4 to get $x - 3$. Then add 3."
+    },
+    {
+      "id": 53,
+      "question": "Simplify: $7x - 3(x - 2)$",
+      "answers": [
+        "$4x - 6$",
+        "$4x + 6$",
+        "$10x - 6$",
+        "$10x + 6$"
+      ],
+      "correct": 1,
+      "hint": "Distribute the $-3$: $-3 \\times x = -3x$ and $-3 \\times (-2) = +6$. Then combine like terms."
+    },
+    {
+      "id": 54,
+      "question": "Solve for $n$: $4n - 7 = 2n + 11$",
+      "answers": [
+        "$n = 9$",
+        "$n = 2$",
+        "$n = 6$",
+        "$n = 4$"
+      ],
+      "correct": 0,
+      "hint": "Get all $n$ terms on one side by subtracting $2n$. Then add 7 and divide."
+    },
+    {
+      "id": 55,
+      "question": "The perimeter of a square is 48 cm. What is the length of one side?",
+      "answers": [
+        "$16$ cm",
+        "$12$ cm",
+        "$8$ cm",
+        "$24$ cm"
+      ],
+      "correct": 1,
+      "hint": "A square has 4 equal sides. If $4s = 48$, what is $s$?"
+    },
+    {
+      "id": 56,
+      "question": "Solve for $x$: $\\frac{2x + 1}{3} = 5$",
+      "answers": [
+        "$x = 8$",
+        "$x = 7$",
+        "$x = 6$",
+        "$x = 14$"
+      ],
+      "correct": 1,
+      "hint": "Multiply both sides by 3, then subtract 1, then divide by 2."
+    },
+    {
+      "id": 57,
+      "question": "Expand and simplify: $4(2x - 1) - 3(x + 2)$",
+      "answers": [
+        "$5x - 10$",
+        "$5x + 2$",
+        "$11x - 10$",
+        "$5x - 2$"
+      ],
+      "correct": 0,
+      "hint": "Distribute 4 and -3 separately, then combine like terms. Watch signs carefully!"
+    },
+    {
+      "id": 58,
+      "question": "Solve for $y$: $\\frac{y}{2} - 3 = 7$",
+      "answers": [
+        "$y = 8$",
+        "$y = 14$",
+        "$y = 20$",
+        "$y = 17$"
+      ],
+      "correct": 2,
+      "hint": "Add 3 to both sides first. Then multiply by 2."
+    },
+    {
+      "id": 59,
+      "question": "A number multiplied by 4, then decreased by 6, equals 22. What is the number?",
+      "answers": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$"
+      ],
+      "correct": 3,
+      "hint": "Write: $4n - 6 = 22$. Add 6, then divide by 4."
+    },
+    {
+      "id": 60,
+      "question": "Solve for $x$: $3(x + 4) = 2(x + 7)$",
+      "answers": [
+        "$x = 2$",
+        "$x = -2$",
+        "$x = 1$",
+        "$x = 4$"
+      ],
+      "correct": 0,
+      "hint": "Expand both sides first: $3x + 12 = 2x + 14$. Then get $x$ terms on one side."
+    },
+    {
+      "id": 61,
+      "question": "Solve for $m$: $\\frac{5m}{2} = 15$",
+      "answers": [
+        "$m = 3$",
+        "$m = 6$",
+        "$m = 7.5$",
+        "$m = 10$"
+      ],
+      "correct": 1,
+      "hint": "Multiply both sides by 2, then divide by 5. Take it step by step."
+    },
+    {
+      "id": 62,
+      "question": "Simplify: $2(3x + 4) - (x + 5)$",
+      "answers": [
+        "$5x - 1$",
+        "$5x + 3$",
+        "$7x + 3$",
+        "$5x + 9$"
+      ],
+      "correct": 1,
+      "hint": "Distribute the 2, then distribute the negative sign to $(x + 5)$. Combine like terms."
+    },
+    {
+      "id": 63,
+      "question": "Two numbers have a sum of 30. One number is twice the other. What is the larger number?",
+      "answers": [
+        "$10$",
+        "$15$",
+        "$20$",
+        "$25$"
+      ],
+      "correct": 2,
+      "hint": "If one number is $n$, the other is $2n$. So $n + 2n = 30$. Find $n$, then $2n$."
+    },
+    {
+      "id": 64,
+      "question": "Solve for $x$: $\\frac{x}{4} + \\frac{x}{2} = 6$",
+      "answers": [
+        "$x = 4$",
+        "$x = 6$",
+        "$x = 8$",
+        "$x = 12$"
+      ],
+      "correct": 2,
+      "hint": "Convert to a common denominator: $\\frac{x}{4} + \\frac{2x}{4} = \\frac{3x}{4} = 6$."
+    },
+    {
+      "id": 65,
+      "question": "Solve for $n$: $6(n - 2) = 3(n + 4)$",
+      "answers": [
+        "$n = 6$",
+        "$n = 8$",
+        "$n = 4$",
+        "$n = 10$"
+      ],
+      "correct": 1,
+      "hint": "Expand both sides: $6n - 12 = 3n + 12$. Get $n$ terms together."
+    },
+    {
+      "id": 66,
+      "question": "Expand: $-3(2x + 4)$",
+      "answers": [
+        "$-6x + 4$",
+        "$-6x - 12$",
+        "$6x - 12$",
+        "$-6x + 12$"
+      ],
+      "correct": 1,
+      "hint": "Multiply $-3$ by both terms: $-3 \\times 2x$ and $-3 \\times 4$. Both become negative."
+    },
+    {
+      "id": 67,
+      "question": "Solve for $x$: $\\frac{3x - 2}{5} = 4$",
+      "answers": [
+        "$x = 6$",
+        "$x = 22$",
+        "$x = 7$",
+        "$x = 8$"
+      ],
+      "correct": 2,
+      "hint": "Multiply both sides by 5, then add 2, then divide by 3."
+    },
+    {
+      "id": 68,
+      "question": "A rectangle has length $(2x + 3)$ and width 4. If the perimeter is 38, find $x$.",
+      "answers": [
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 6$",
+        "$x = 3$"
+      ],
+      "correct": 3,
+      "hint": "Perimeter = $2(length + width)$. So $2(2x + 3 + 4) = 38$. Simplify and solve."
+    },
+    {
+      "id": 69,
+      "question": "Solve for $y$: $2y + 3 = 5y - 12$",
+      "answers": [
+        "$y = 3$",
+        "$y = 5$",
+        "$y = 15$",
+        "$y = 9$"
+      ],
+      "correct": 1,
+      "hint": "Get $y$ terms on one side: subtract $2y$ from both sides. Then add 12."
+    },
+    {
+      "id": 70,
+      "question": "Simplify: $5x - 2(x - 3) + 4$",
+      "answers": [
+        "$3x + 1$",
+        "$3x + 10$",
+        "$7x + 10$",
+        "$3x - 2$"
+      ],
+      "correct": 1,
+      "hint": "Distribute the $-2$: $-2 \\times x = -2x$ and $-2 \\times (-3) = +6$. Then combine all terms."
+    },
+    {
+      "id": 71,
+      "question": "Solve for $x$: $\\frac{x}{3} = \\frac{x - 2}{2}$",
+      "answers": [
+        "$x = 6$",
+        "$x = -6$",
+        "$x = 3$",
+        "$x = 4$"
+      ],
+      "correct": 1,
+      "hint": "Cross-multiply: $2x = 3(x - 2)$. Expand and solve for $x$."
+    },
+    {
+      "id": 72,
+      "question": "The sum of three consecutive even numbers is 48. What is the middle number?",
+      "answers": [
+        "$14$",
+        "$16$",
+        "$18$",
+        "$20$"
+      ],
+      "correct": 1,
+      "hint": "Let the numbers be $n, n+2, n+4$. Their sum is $3n + 6 = 48$. Find $n$, then $n+2$."
+    },
+    {
+      "id": 73,
+      "question": "Solve for $m$: $4(m + 3) - 2m = 18$",
+      "answers": [
+        "$m = 1$",
+        "$m = 2$",
+        "$m = 3$",
+        "$m = 4$"
+      ],
+      "correct": 2,
+      "hint": "Expand: $4m + 12 - 2m = 18$. Combine like terms, then solve."
+    },
+    {
+      "id": 74,
+      "question": "Solve for $x$: $\\frac{2(x + 3)}{4} = 5$",
+      "answers": [
+        "$x = 7$",
+        "$x = 8$",
+        "$x = 10$",
+        "$x = 17$"
+      ],
+      "correct": 0,
+      "hint": "Multiply both sides by 4, then divide by 2, then subtract 3."
+    },
+    {
+      "id": 75,
+      "question": "A number decreased by 8, then multiplied by 3, equals 27. What is the number?",
+      "answers": [
+        "$17$",
+        "$11$",
+        "$15$",
+        "$9$"
+      ],
+      "correct": 0,
+      "hint": "Write: $3(n - 8) = 27$. Divide by 3 first, then add 8."
+    },
+    {
+      "id": 76,
+      "question": "Expand and simplify: $(x + 3)(2)$",
+      "answers": [
+        "$2x + 3$",
+        "$x + 6$",
+        "$2x + 6$",
+        "$2x + 5$"
+      ],
+      "correct": 2,
+      "hint": "Multiply 2 by each term inside: $2 \\times x$ and $2 \\times 3$."
+    },
+    {
+      "id": 77,
+      "question": "Solve for $n$: $\\frac{n + 5}{3} + 2 = 7$",
+      "answers": [
+        "$n = 10$",
+        "$n = 15$",
+        "$n = 8$",
+        "$n = 12$"
+      ],
+      "correct": 0,
+      "hint": "Subtract 2 first, then multiply by 3, then subtract 5."
+    },
+    {
+      "id": 78,
+      "question": "Solve for $x$: $5x - 3(x + 2) = 10$",
+      "answers": [
+        "$x = 8$",
+        "$x = 4$",
+        "$x = 2$",
+        "$x = 6$"
+      ],
+      "correct": 0,
+      "hint": "Distribute the $-3$: $5x - 3x - 6 = 10$. Simplify and solve."
+    },
+    {
+      "id": 79,
+      "question": "Maria has 3 times as many books as John. Together they have 52 books. How many does Maria have?",
+      "answers": [
+        "$13$",
+        "$26$",
+        "$39$",
+        "$48$"
+      ],
+      "correct": 2,
+      "hint": "If John has $j$ books, Maria has $3j$. So $j + 3j = 52$. Find $3j$."
+    },
+    {
+      "id": 80,
+      "question": "Solve for $x$: $\\frac{x}{2} - \\frac{x}{4} = 3$",
+      "answers": [
+        "$x = 6$",
+        "$x = 8$",
+        "$x = 12$",
+        "$x = 24$"
+      ],
+      "correct": 2,
+      "hint": "Common denominator is 4: $\\frac{2x}{4} - \\frac{x}{4} = \\frac{x}{4} = 3$. Multiply by 4."
+    },
+    {
+      "id": 81,
+      "question": "Solve for $y$: $3(2y - 1) = 4(y + 2) - 3$",
+      "answers": [
+        "$y = 1$",
+        "$y = 2$",
+        "$y = 3$",
+        "$y = 4$"
+      ],
+      "correct": 1,
+      "hint": "Expand both sides: $6y - 3 = 4y + 8 - 3$. Simplify the right side, then solve."
+    },
+    {
+      "id": 82,
+      "question": "Expand: $-(4x - 7)$",
+      "answers": [
+        "$-4x - 7$",
+        "$4x - 7$",
+        "$-4x + 7$",
+        "$4x + 7$"
+      ],
+      "correct": 2,
+      "hint": "Distribute the negative: $-1 \\times 4x = -4x$ and $-1 \\times (-7) = +7$."
+    },
+    {
+      "id": 83,
+      "question": "Solve for $x$: $\\frac{3x}{5} + 2 = 8$",
+      "answers": [
+        "$x = 10$",
+        "$x = 8$",
+        "$x = 15$",
+        "$x = 12$"
+      ],
+      "correct": 0,
+      "hint": "Subtract 2 first, then multiply by 5, then divide by 3."
+    },
+    {
+      "id": 84,
+      "question": "The sum of two numbers is 25. Their difference is 7. What is the larger number?",
+      "answers": [
+        "$9$",
+        "$16$",
+        "$18$",
+        "$12$"
+      ],
+      "correct": 1,
+      "hint": "If numbers are $a$ and $b$: $a + b = 25$ and $a - b = 7$. Add the equations together."
+    },
+    {
+      "id": 85,
+      "question": "Simplify: $4(x + 2) - 2(2x - 1)$",
+      "answers": [
+        "$6$",
+        "$10$",
+        "$8x + 10$",
+        "$8x + 6$"
+      ],
+      "correct": 1,
+      "hint": "Expand: $4x + 8 - 4x + 2$. Notice what happens to the $x$ terms!"
+    },
+    {
+      "id": 86,
+      "question": "Solve for $n$: $\\frac{2n - 3}{4} = \\frac{n + 1}{2}$",
+      "answers": [
+        "$n = 5$",
+        "$n = 7$",
+        "$n = 3$",
+        "$n = 11$"
+      ],
+      "correct": 0,
+      "hint": "Cross-multiply: $2(2n - 3) = 4(n + 1)$. Expand and solve."
+    },
+    {
+      "id": 87,
+      "question": "A ticket costs $x$ dollars. 5 tickets plus a $3 service fee costs $28. What is $x$?",
+      "answers": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$"
+      ],
+      "correct": 1,
+      "hint": "Write: $5x + 3 = 28$. Subtract 3, then divide by 5."
+    },
+    {
+      "id": 88,
+      "question": "Solve for $x$: $2(x - 3) + 3(x + 1) = 17$",
+      "answers": [
+        "$x = 4$",
+        "$x = 3$",
+        "$x = 5$",
+        "$x = 6$"
+      ],
+      "correct": 0,
+      "hint": "Expand both parts: $2x - 6 + 3x + 3 = 17$. Combine like terms and solve."
+    },
+    {
+      "id": 89,
+      "question": "Solve for $y$: $\\frac{y}{5} + \\frac{y}{10} = 9$",
+      "answers": [
+        "$y = 20$",
+        "$y = 30$",
+        "$y = 45$",
+        "$y = 15$"
+      ],
+      "correct": 1,
+      "hint": "Common denominator is 10: $\\frac{2y}{10} + \\frac{y}{10} = \\frac{3y}{10} = 9$."
+    },
+    {
+      "id": 90,
+      "question": "Expand: $2x(3 + x)$",
+      "answers": [
+        "$6x + x^2$",
+        "$6x + 2x^2$",
+        "$6 + 2x^2$",
+        "$5x + 2x^2$"
+      ],
+      "correct": 1,
+      "hint": "Distribute $2x$: $2x \\times 3 = 6x$ and $2x \\times x = 2x^2$."
+    },
+    {
+      "id": 91,
+      "question": "The product of 4 and a number, decreased by 10, equals 26. Find the number.",
+      "answers": [
+        "$4$",
+        "$6$",
+        "$8$",
+        "$9$"
+      ],
+      "correct": 3,
+      "hint": "Write: $4n - 10 = 26$. Add 10, then divide by 4."
+    },
+    {
+      "id": 92,
+      "question": "Solve for $x$: $7x - 4 = 3x + 20$",
+      "answers": [
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 6$",
+        "$x = 8$"
+      ],
+      "correct": 2,
+      "hint": "Subtract $3x$ from both sides, then add 4, then divide."
+    },
+    {
+      "id": 93,
+      "question": "Solve for $m$: $\\frac{m - 4}{3} = \\frac{m + 2}{5}$",
+      "answers": [
+        "$m = 11$",
+        "$m = 13$",
+        "$m = 7$",
+        "$m = 9$"
+      ],
+      "correct": 1,
+      "hint": "Cross-multiply: $5(m - 4) = 3(m + 2)$. Expand and solve."
+    },
+    {
+      "id": 94,
+      "question": "Simplify: $3(2x - 1) + 2(1 - x)$",
+      "answers": [
+        "$4x - 1$",
+        "$8x - 1$",
+        "$4x + 1$",
+        "$4x - 5$"
+      ],
+      "correct": 0,
+      "hint": "Expand: $6x - 3 + 2 - 2x$. Combine like terms carefully."
+    },
+    {
+      "id": 95,
+      "question": "Amy is 4 years younger than twice Ben's age. If Amy is 12, how old is Ben?",
+      "answers": [
+        "$4$",
+        "$6$",
+        "$8$",
+        "$16$"
+      ],
+      "correct": 2,
+      "hint": "Write: $2b - 4 = 12$. Add 4, then divide by 2."
+    },
+    {
+      "id": 96,
+      "question": "Solve for $x$: $\\frac{4x + 2}{3} - 2 = 4$",
+      "answers": [
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 3$",
+        "$x = 6$"
+      ],
+      "correct": 0,
+      "hint": "Add 2 first, then multiply by 3, then subtract 2 and divide by 4."
+    },
+    {
+      "id": 97,
+      "question": "Solve for $n$: $5(n + 2) - 3n = 20$",
+      "answers": [
+        "$n = 3$",
+        "$n = 4$",
+        "$n = 5$",
+        "$n = 6$"
+      ],
+      "correct": 2,
+      "hint": "Expand: $5n + 10 - 3n = 20$. Combine $n$ terms and solve."
+    },
+    {
+      "id": 98,
+      "question": "A rope is cut into two pieces. One piece is 3 meters longer than the other. If the total length is 17 meters, how long is the shorter piece?",
+      "answers": [
+        "$5$ m",
+        "$7$ m",
+        "$8$ m",
+        "$10$ m"
+      ],
+      "correct": 1,
+      "hint": "If shorter piece is $x$, longer is $x + 3$. So $x + (x + 3) = 17$."
+    },
+    {
+      "id": 99,
+      "question": "Expand: $-2(3x - 4) + 5x$",
+      "answers": [
+        "$-x + 8$",
+        "$x + 8$",
+        "$-x - 8$",
+        "$11x - 8$"
+      ],
+      "correct": 0,
+      "hint": "Distribute: $-6x + 8 + 5x$. Combine the $x$ terms."
+    },
+    {
+      "id": 100,
+      "question": "Solve for $y$: $\\frac{2y}{3} - \\frac{y}{6} = 4$",
+      "answers": [
+        "$y = 6$",
+        "$y = 8$",
+        "$y = 12$",
+        "$y = 4$"
+      ],
+      "correct": 1,
+      "hint": "Common denominator is 6: $\\frac{4y}{6} - \\frac{y}{6} = \\frac{3y}{6} = \\frac{y}{2} = 4$."
+    },
+    {
+      "id": 101,
+      "question": "Solve for $x$: $4(x - 2) = 3(x + 1) + 5$",
+      "answers": [
+        "$x = 14$",
+        "$x = 16$",
+        "$x = 12$",
+        "$x = 10$"
+      ],
+      "correct": 1,
+      "hint": "Expand both sides: $4x - 8 = 3x + 3 + 5$. Simplify the right side first."
+    },
+    {
+      "id": 102,
+      "question": "The average of three numbers is 15. Two of the numbers are 12 and 18. What is the third?",
+      "answers": [
+        "$13$",
+        "$14$",
+        "$15$",
+        "$17$"
+      ],
+      "correct": 2,
+      "hint": "Average = sum divided by 3. So sum = $15 \\times 3 = 45$. What plus 12 plus 18 equals 45?"
+    },
+    {
+      "id": 103,
+      "question": "Simplify: $x + 2(3x - 4) - 5x$",
+      "answers": [
+        "$2x - 8$",
+        "$-8$",
+        "$8x - 8$",
+        "$2x + 8$"
+      ],
+      "correct": 0,
+      "hint": "Distribute the 2: $x + 6x - 8 - 5x$. Combine all $x$ terms."
+    },
+    {
+      "id": 104,
+      "question": "Solve for $m$: $\\frac{3m + 1}{2} = \\frac{m + 7}{2}$",
+      "answers": [
+        "$m = 1$",
+        "$m = 2$",
+        "$m = 3$",
+        "$m = 4$"
+      ],
+      "correct": 2,
+      "hint": "Since denominators are equal, set numerators equal: $3m + 1 = m + 7$."
+    },
+    {
+      "id": 105,
+      "question": "Solve for $x$: $\\frac{x + 1}{4} + \\frac{x - 1}{2} = 5$",
+      "answers": [
+        "$x = 5$",
+        "$x = 7$",
+        "$x = 6$",
+        "$x = 9$"
+      ],
+      "correct": 1,
+      "hint": "Common denominator is 4: $\\frac{x+1}{4} + \\frac{2(x-1)}{4} = 5$. Combine numerators."
+    },
+    {
+      "id": 106,
+      "question": "A number is tripled, then 5 is added. The result is 29. What is the number?",
+      "answers": [
+        "$6$",
+        "$7$",
+        "$8$",
+        "$9$"
+      ],
+      "correct": 2,
+      "hint": "Write: $3n + 5 = 29$. Subtract 5, then divide by 3."
+    },
+    {
+      "id": 107,
+      "question": "Expand: $3(x + 2)(1)$",
+      "answers": [
+        "$3x + 2$",
+        "$x + 6$",
+        "$3x + 6$",
+        "$4x + 6$"
+      ],
+      "correct": 2,
+      "hint": "Multiplying by 1 doesn't change anything. Just distribute the 3."
+    },
+    {
+      "id": 108,
+      "question": "Solve for $n$: $2(3n - 4) = 4(n + 1)$",
+      "answers": [
+        "$n = 4$",
+        "$n = 5$",
+        "$n = 6$",
+        "$n = 8$"
+      ],
+      "correct": 2,
+      "hint": "Expand: $6n - 8 = 4n + 4$. Get $n$ terms on one side."
+    },
+    {
+      "id": 109,
+      "question": "Solve for $x$: $\\frac{5x - 3}{4} = 3$",
+      "answers": [
+        "$x = 2$",
+        "$x = 3$",
+        "$x = 4$",
+        "$x = 5$"
+      ],
+      "correct": 1,
+      "hint": "Multiply by 4, then add 3, then divide by 5."
+    },
+    {
+      "id": 110,
+      "question": "Kim has twice as many coins as Leo. If Kim gives Leo 5 coins, they have equal amounts. How many coins does Kim have?",
+      "answers": [
+        "$15$",
+        "$20$",
+        "$25$",
+        "$30$"
+      ],
+      "correct": 1,
+      "hint": "If Leo has $x$, Kim has $2x$. After transfer: $2x - 5 = x + 5$. Solve for $x$, then find $2x$."
+    },
+    {
+      "id": 111,
+      "question": "Simplify: $4(2x + 3) - 3(x + 4)$",
+      "answers": [
+        "$5x$",
+        "$5x + 24$",
+        "$11x$",
+        "$5x - 12$"
+      ],
+      "correct": 0,
+      "hint": "Expand: $8x + 12 - 3x - 12$. Combine like terms."
+    },
+    {
+      "id": 112,
+      "question": "Solve for $y$: $\\frac{y - 2}{3} + \\frac{y + 1}{6} = 2$",
+      "answers": [
+        "$y = 3$",
+        "$y = 4$",
+        "$y = 5$",
+        "$y = 6$"
+      ],
+      "correct": 2,
+      "hint": "Common denominator is 6: $\\frac{2(y-2)}{6} + \\frac{y+1}{6} = 2$. Combine numerators."
+    },
+    {
+      "id": 113,
+      "question": "Solve for $x$: $6x - 2(x - 3) = 22$",
+      "answers": [
+        "$x = 3$",
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 7$"
+      ],
+      "correct": 1,
+      "hint": "Distribute: $6x - 2x + 6 = 22$. Simplify and solve."
+    },
+    {
+      "id": 114,
+      "question": "The length of a rectangle is 5 more than its width. If the perimeter is 42, what is the width?",
+      "answers": [
+        "$6$",
+        "$7$",
+        "$8$",
+        "$11$"
+      ],
+      "correct": 2,
+      "hint": "If width is $w$, length is $w + 5$. Perimeter: $2w + 2(w+5) = 42$."
+    },
+    {
+      "id": 115,
+      "question": "Expand: $-4(x - 3) + 2x$",
+      "answers": [
+        "$-2x + 12$",
+        "$-2x - 12$",
+        "$-6x + 12$",
+        "$6x - 12$"
+      ],
+      "correct": 0,
+      "hint": "Distribute: $-4x + 12 + 2x$. Combine the $x$ terms."
+    },
+    {
+      "id": 116,
+      "question": "Solve for $n$: $\\frac{n}{4} = \\frac{n + 6}{6}$",
+      "answers": [
+        "$n = 8$",
+        "$n = 10$",
+        "$n = 12$",
+        "$n = 6$"
+      ],
+      "correct": 2,
+      "hint": "Cross-multiply: $6n = 4(n + 6)$. Expand and solve."
+    },
+    {
+      "id": 117,
+      "question": "Solve for $x$: $3(x + 4) - 2x = 5x - 8$",
+      "answers": [
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 6$",
+        "$x = 3$"
+      ],
+      "correct": 1,
+      "hint": "Expand left side: $3x + 12 - 2x = 5x - 8$. Simplify and get $x$ terms together."
+    },
+    {
+      "id": 118,
+      "question": "A number plus half of itself equals 18. What is the number?",
+      "answers": [
+        "$10$",
+        "$12$",
+        "$9$",
+        "$15$"
+      ],
+      "correct": 1,
+      "hint": "Write: $n + \\frac{n}{2} = 18$, or $\\frac{3n}{2} = 18$. Multiply by 2, divide by 3."
+    },
+    {
+      "id": 119,
+      "question": "Simplify: $5(x - 1) - 3(x - 2)$",
+      "answers": [
+        "$2x + 1$",
+        "$2x - 1$",
+        "$8x - 11$",
+        "$2x - 11$"
+      ],
+      "correct": 0,
+      "hint": "Expand: $5x - 5 - 3x + 6$. Combine like terms carefully."
+    },
+    {
+      "id": 120,
+      "question": "Solve for $m$: $\\frac{2m + 5}{3} = \\frac{m + 10}{2}$",
+      "answers": [
+        "$m = 5$",
+        "$m = 10$",
+        "$m = 15$",
+        "$m = 20$"
+      ],
+      "correct": 3,
+      "hint": "Cross-multiply: $2(2m + 5) = 3(m + 10)$. Expand and solve."
+    },
+    {
+      "id": 121,
+      "question": "Solve for $x$: $2(x + 5) = 3(x - 2) + 4$",
+      "answers": [
+        "$x = 10$",
+        "$x = 12$",
+        "$x = 8$",
+        "$x = 14$"
+      ],
+      "correct": 2,
+      "hint": "Expand: $2x + 10 = 3x - 6 + 4$. Simplify right side first."
+    },
+    {
+      "id": 122,
+      "question": "Five friends share the cost of a gift equally. If each pays $7, what is the total cost?",
+      "answers": [
+        "$30$",
+        "$35$",
+        "$40$",
+        "$42$"
+      ],
+      "correct": 1,
+      "hint": "Total = number of friends times cost per person. What is $5 \\times 7$?"
+    },
+    {
+      "id": 123,
+      "question": "Expand: $x(x + 4) - x$",
+      "answers": [
+        "$x^2 + 3x$",
+        "$x^2 + 4x$",
+        "$x^2 + 5x$",
+        "$x^2 - 4x$"
+      ],
+      "correct": 0,
+      "hint": "Distribute: $x^2 + 4x - x$. Combine the $x$ terms."
+    },
+    {
+      "id": 124,
+      "question": "Solve for $y$: $\\frac{3y - 2}{5} + 1 = 4$",
+      "answers": [
+        "$y = 4$",
+        "$y = 5$",
+        "$y = 6$",
+        "$y = 7$"
+      ],
+      "correct": 2,
+      "hint": "Subtract 1 first, then multiply by 5, then add 2 and divide by 3."
+    },
+    {
+      "id": 125,
+      "question": "Solve for $n$: $4(n - 1) + 3 = 2(n + 5)$",
+      "answers": [
+        "$n = 4$",
+        "$n = 5$",
+        "$n = 6$",
+        "$n = 3$"
+      ],
+      "correct": 0,
+      "hint": "Expand: $4n - 4 + 3 = 2n + 10$. Simplify left side, then solve."
+    },
+    {
+      "id": 126,
+      "question": "A taxi charges $2 plus $0.50 per mile. If the total fare is $7, how many miles was the trip?",
+      "answers": [
+        "$8$",
+        "$9$",
+        "$10$",
+        "$14$"
+      ],
+      "correct": 2,
+      "hint": "Write: $2 + 0.5m = 7$. Subtract 2, then divide by 0.5."
+    },
+    {
+      "id": 127,
+      "question": "Simplify: $2(3x + 1) - 3(2x - 1)$",
+      "answers": [
+        "$5$",
+        "$0$",
+        "$12x - 1$",
+        "$-1$"
+      ],
+      "correct": 0,
+      "hint": "Expand: $6x + 2 - 6x + 3$. Notice what happens to the $x$ terms!"
+    },
+    {
+      "id": 128,
+      "question": "Solve for $x$: $\\frac{x}{3} + \\frac{2x}{3} = 10$",
+      "answers": [
+        "$x = 10$",
+        "$x = 15$",
+        "$x = 6$",
+        "$x = 30$"
+      ],
+      "correct": 0,
+      "hint": "Same denominators: $\\frac{x + 2x}{3} = \\frac{3x}{3} = x = 10$."
+    },
+    {
+      "id": 129,
+      "question": "Solve for $m$: $5m - 2(m + 4) = 13$",
+      "answers": [
+        "$m = 5$",
+        "$m = 6$",
+        "$m = 7$",
+        "$m = 9$"
+      ],
+      "correct": 2,
+      "hint": "Distribute: $5m - 2m - 8 = 13$. Simplify and solve."
+    },
+    {
+      "id": 130,
+      "question": "The sum of two consecutive odd numbers is 32. What is the smaller number?",
+      "answers": [
+        "$13$",
+        "$15$",
+        "$17$",
+        "$19$"
+      ],
+      "correct": 1,
+      "hint": "Consecutive odd numbers differ by 2. If smaller is $n$, then $n + (n+2) = 32$."
+    },
+    {
+      "id": 131,
+      "question": "Expand: $-(2x + 5) + 3x$",
+      "answers": [
+        "$x - 5$",
+        "$x + 5$",
+        "$5x - 5$",
+        "$-5x - 5$"
+      ],
+      "correct": 0,
+      "hint": "Distribute the negative: $-2x - 5 + 3x$. Combine $x$ terms."
+    },
+    {
+      "id": 132,
+      "question": "Solve for $x$: $\\frac{x - 1}{2} = \\frac{x + 3}{4}$",
+      "answers": [
+        "$x = 5$",
+        "$x = 7$",
+        "$x = 3$",
+        "$x = 9$"
+      ],
+      "correct": 0,
+      "hint": "Cross-multiply: $4(x - 1) = 2(x + 3)$. Expand and solve."
+    },
+    {
+      "id": 133,
+      "question": "Solve for $y$: $3(y + 2) - y = 2(y + 3)$",
+      "answers": [
+        "No solution",
+        "$y = 0$",
+        "$y = 1$",
+        "All values of $y$"
+      ],
+      "correct": 3,
+      "hint": "Expand both sides and simplify. What do you notice about the result?"
+    },
+    {
+      "id": 134,
+      "question": "A box contains red and blue marbles. There are 8 more red than blue. If there are 24 marbles total, how many are blue?",
+      "answers": [
+        "$6$",
+        "$8$",
+        "$10$",
+        "$16$"
+      ],
+      "correct": 1,
+      "hint": "If blue = $b$, red = $b + 8$. So $b + (b + 8) = 24$."
+    },
+    {
+      "id": 135,
+      "question": "Simplify: $4(x + 3) + 2(x - 3)$",
+      "answers": [
+        "$6x$",
+        "$6x + 6$",
+        "$6x + 18$",
+        "$2x + 6$"
+      ],
+      "correct": 1,
+      "hint": "Expand: $4x + 12 + 2x - 6$. Combine like terms."
+    },
+    {
+      "id": 136,
+      "question": "Solve for $n$: $\\frac{2n - 1}{3} + \\frac{n}{2} = 4$",
+      "answers": [
+        "$n = 2$",
+        "$n = 3$",
+        "$n = 4$",
+        "$n = 5$"
+      ],
+      "correct": 1,
+      "hint": "Multiply everything by 6 to clear denominators: $2(2n-1) + 3n = 24$."
+    },
+    {
+      "id": 137,
+      "question": "Solve for $x$: $7x - 3 = 2(x + 6)$",
+      "answers": [
+        "$x = 3$",
+        "$x = 2$",
+        "$x = 4$",
+        "$x = 5$"
+      ],
+      "correct": 0,
+      "hint": "Expand right side: $7x - 3 = 2x + 12$. Get $x$ terms together."
+    },
+    {
+      "id": 138,
+      "question": "The quotient of a number and 4, increased by 3, equals 8. Find the number.",
+      "answers": [
+        "$20$",
+        "$16$",
+        "$12$",
+        "$32$"
+      ],
+      "correct": 0,
+      "hint": "Write: $\\frac{n}{4} + 3 = 8$. Subtract 3, then multiply by 4."
+    },
+    {
+      "id": 139,
+      "question": "Expand: $3(2x - 1) - 2(x + 4)$",
+      "answers": [
+        "$4x - 11$",
+        "$4x + 11$",
+        "$8x - 11$",
+        "$4x - 5$"
+      ],
+      "correct": 0,
+      "hint": "Expand: $6x - 3 - 2x - 8$. Combine like terms."
+    },
+    {
+      "id": 140,
+      "question": "Solve for $y$: $\\frac{5y + 2}{4} = \\frac{3y + 6}{2}$",
+      "answers": [
+        "$y = 8$",
+        "$y = 10$",
+        "$y = 6$",
+        "$y = 4$"
+      ],
+      "correct": 1,
+      "hint": "Cross-multiply: $2(5y + 2) = 4(3y + 6)$. Expand and solve."
+    },
+    {
+      "id": 141,
+      "question": "Solve for $x$: $3(x + 1) = 2x + 7$",
+      "answers": [
+        "$x = 2$",
+        "$x = 3$",
+        "$x = 4$",
+        "$x = 5$"
+      ],
+      "correct": 2,
+      "hint": "Expand left side: $3x + 3 = 2x + 7$. Subtract $2x$ from both sides."
+    },
+    {
+      "id": 142,
+      "question": "Elena earns $12 per hour. After working some hours, she earned $84. How many hours did she work?",
+      "answers": [
+        "$5$",
+        "$6$",
+        "$7$",
+        "$8$"
+      ],
+      "correct": 2,
+      "hint": "Write: $12h = 84$. Divide both sides by 12."
+    },
+    {
+      "id": 143,
+      "question": "Simplify: $-(x - 4) + 2(x + 1)$",
+      "answers": [
+        "$x + 6$",
+        "$x - 2$",
+        "$3x + 6$",
+        "$x + 2$"
+      ],
+      "correct": 0,
+      "hint": "Distribute: $-x + 4 + 2x + 2$. Combine like terms."
+    },
+    {
+      "id": 144,
+      "question": "Solve for $m$: $\\frac{m + 3}{5} - 1 = 2$",
+      "answers": [
+        "$m = 10$",
+        "$m = 12$",
+        "$m = 15$",
+        "$m = 7$"
+      ],
+      "correct": 1,
+      "hint": "Add 1 first, then multiply by 5, then subtract 3."
+    },
+    {
+      "id": 145,
+      "question": "Solve for $x$: $4(x - 3) - 2(x - 5) = 8$",
+      "answers": [
+        "$x = 3$",
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 6$"
+      ],
+      "correct": 2,
+      "hint": "Expand: $4x - 12 - 2x + 10 = 8$. Combine and solve."
+    },
+    {
+      "id": 146,
+      "question": "Half of a number plus 6 equals 15. What is the number?",
+      "answers": [
+        "$14$",
+        "$16$",
+        "$18$",
+        "$21$"
+      ],
+      "correct": 2,
+      "hint": "Write: $\\frac{n}{2} + 6 = 15$. Subtract 6, then multiply by 2."
+    },
+    {
+      "id": 147,
+      "question": "Expand: $5x - 2(3x - 4)$",
+      "answers": [
+        "$-x - 8$",
+        "$-x + 8$",
+        "$11x - 8$",
+        "$-x - 4$"
+      ],
+      "correct": 1,
+      "hint": "Distribute: $5x - 6x + 8$. Combine the $x$ terms."
+    },
+    {
+      "id": 148,
+      "question": "Solve for $n$: $\\frac{3n + 2}{4} = \\frac{n + 6}{2}$",
+      "answers": [
+        "$n = 6$",
+        "$n = 8$",
+        "$n = 10$",
+        "$n = 12$"
+      ],
+      "correct": 2,
+      "hint": "Cross-multiply: $2(3n + 2) = 4(n + 6)$. Expand and solve."
+    },
+    {
+      "id": 149,
+      "question": "Solve for $x$: $2(x + 4) + 3(x - 2) = 27$",
+      "answers": [
+        "$x = 4$",
+        "$x = 5$",
+        "$x = 6$",
+        "$x = 7$"
+      ],
+      "correct": 1,
+      "hint": "Expand: $2x + 8 + 3x - 6 = 27$. Combine like terms and solve."
+    },
+    {
+      "id": 150,
+      "question": "A group of friends split a $60 bill equally. If each person paid $12, how many friends were there?",
+      "answers": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$7$"
+      ],
+      "correct": 1,
+      "hint": "Write: $12f = 60$. Divide both sides by 12 to find the number of friends."
     }
   ],
   "access": [

@@ -284,6 +284,776 @@
       "answers": ["490,000", "400,000", "500,100", "499,000"],
       "correct": 3,
       "hint": "Subtracting 1,000 decreases the thousands place. What is 500 thousands minus 1 thousand?"
+    },
+    {
+      "id": 41,
+      "question": "What is $10^6$ equal to?",
+      "answers": ["100,000", "10,000,000", "1,000,000", "1,000"],
+      "correct": 2,
+      "hint": "The exponent tells you how many zeros to write after the 1. Count carefully!"
+    },
+    {
+      "id": 42,
+      "question": "How do you write 1,000,000 in scientific notation?",
+      "answers": ["$10^5$", "$10^7$", "$1 \\times 10^5$", "$1 \\times 10^6$"],
+      "correct": 3,
+      "hint": "Count how many zeros are in one million. That's your exponent!"
+    },
+    {
+      "id": 43,
+      "question": "What is $10^9$ called?",
+      "answers": ["One million", "Ten million", "One hundred million", "One billion"],
+      "correct": 3,
+      "hint": "Each group of 3 zeros has a name: thousand (3), million (6), billion (?)."
+    },
+    {
+      "id": 44,
+      "question": "What is $3 \\times 10^5$ equal to?",
+      "answers": ["30,000", "3,000,000", "300,000", "3,000"],
+      "correct": 2,
+      "hint": "First figure out what $10^5$ is, then multiply by 3."
+    },
+    {
+      "id": 45,
+      "question": "How many zeros are in one billion?",
+      "answers": ["6", "12", "9", "8"],
+      "correct": 2,
+      "hint": "One billion is 1,000,000,000. Count those zeros!"
+    },
+    {
+      "id": 46,
+      "question": "What is $5 \\times 10^6$ equal to?",
+      "answers": ["500,000", "50,000,000", "5,000,000", "5,000"],
+      "correct": 2,
+      "hint": "$10^6$ is one million. What is 5 times one million?"
+    },
+    {
+      "id": 47,
+      "question": "Which is larger: $10^7$ or 5,000,000?",
+      "answers": ["5,000,000", "They are equal", "$10^7$", "Cannot compare"],
+      "correct": 2,
+      "hint": "Write out $10^7$ as a regular number and compare. How many zeros does it have?"
+    },
+    {
+      "id": 48,
+      "question": "What is 2,000,000,000 in words?",
+      "answers": ["Two hundred million", "Two trillion", "Two billion", "Twenty million"],
+      "correct": 2,
+      "hint": "Count the groups of three digits. The first group before the commas tells you the number."
+    },
+    {
+      "id": 49,
+      "question": "What comes next in the pattern: 100, 1,000, 10,000, ___?",
+      "answers": ["11,000", "20,000", "100,000", "15,000"],
+      "correct": 2,
+      "hint": "Each number is 10 times bigger than the one before. What is 10,000 times 10?"
+    },
+    {
+      "id": 50,
+      "question": "What is $10^4 + 10^3$?",
+      "answers": ["11,000", "10,000,000", "1,100", "100,000"],
+      "correct": 0,
+      "hint": "First find each power of 10 separately, then add them together."
+    },
+    {
+      "id": 51,
+      "question": "How do you write 50,000,000 in scientific notation?",
+      "answers": ["$5 \\times 10^6$", "$50 \\times 10^6$", "$5 \\times 10^7$", "$5 \\times 10^8$"],
+      "correct": 2,
+      "hint": "Move the decimal point so you have 5, then count how many places you moved."
+    },
+    {
+      "id": 52,
+      "question": "What is $7 \\times 10^8$ equal to?",
+      "answers": ["7,000,000", "700,000,000", "70,000,000", "7,000,000,000"],
+      "correct": 1,
+      "hint": "$10^8$ has 8 zeros. Multiply that by 7."
+    },
+    {
+      "id": 53,
+      "question": "What number is one thousand million?",
+      "answers": ["10,000,000", "100,000,000", "1,000,000,000", "10,000,000,000"],
+      "correct": 2,
+      "hint": "A thousand millions means 1,000 times 1,000,000. How many zeros total?"
+    },
+    {
+      "id": 54,
+      "question": "What comes next: 1,000, 10,000, 100,000, 1,000,000, ___?",
+      "answers": ["2,000,000", "10,000,000", "1,100,000", "11,000,000"],
+      "correct": 1,
+      "hint": "Each step multiplies by 10. What is 1,000,000 times 10?"
+    },
+    {
+      "id": 55,
+      "question": "What is $10^5 \\times 10$?",
+      "answers": ["$10^6$", "$10^{50}$", "$10^4$", "$100^5$"],
+      "correct": 0,
+      "hint": "When multiplying powers of 10, what happens to the exponents?"
+    },
+    {
+      "id": 56,
+      "question": "How many millions are in one billion?",
+      "answers": ["10", "100", "1,000", "10,000"],
+      "correct": 2,
+      "hint": "One billion is 1,000,000,000. One million is 1,000,000. Divide to find how many!"
+    },
+    {
+      "id": 57,
+      "question": "What is 3,500,000,000 in scientific notation?",
+      "answers": ["$3.5 \\times 10^8$", "$35 \\times 10^8$", "$3.5 \\times 10^9$", "$3.5 \\times 10^{10}$"],
+      "correct": 2,
+      "hint": "The coefficient should be between 1 and 10. Count the places from 3.5 to the end."
+    },
+    {
+      "id": 58,
+      "question": "What is $2 \\times 10^9$ plus $3 \\times 10^9$?",
+      "answers": ["$5 \\times 10^9$", "$6 \\times 10^9$", "$5 \\times 10^{18}$", "$6 \\times 10^{18}$"],
+      "correct": 0,
+      "hint": "When adding numbers with the same power of 10, just add the coefficients!"
+    },
+    {
+      "id": 59,
+      "question": "What number comes right after 9,999,999?",
+      "answers": ["10,000,000", "9,999,000", "99,999,999", "10,000,001"],
+      "correct": 0,
+      "hint": "All those 9s will flip to 0s, and you'll add a new digit at the front."
+    },
+    {
+      "id": 60,
+      "question": "What is 10,000,000 - 1?",
+      "answers": ["9,999,990", "9,000,000", "9,999,999", "9,900,000"],
+      "correct": 2,
+      "hint": "When subtracting 1 from a power of 10, all the zeros become 9s."
+    },
+    {
+      "id": 61,
+      "question": "Which is the correct way to read 4,500,000,000?",
+      "answers": ["Four million, five hundred thousand", "Four billion, five hundred million", "Forty-five billion", "Four hundred fifty million"],
+      "correct": 1,
+      "hint": "Read from left to right, grouping by commas. The leftmost group tells you billions."
+    },
+    {
+      "id": 62,
+      "question": "What is $10^3 \\times 10^3$?",
+      "answers": ["$10^9$", "$10^6$", "$100^6$", "$20^6$"],
+      "correct": 1,
+      "hint": "When multiplying powers with the same base, add the exponents."
+    },
+    {
+      "id": 63,
+      "question": "How do you write 'one hundred million' as a number?",
+      "answers": ["1,000,000", "10,000,000", "100,000,000", "1,000,000,000"],
+      "correct": 2,
+      "hint": "One million has 6 zeros. One hundred million is 100 times that."
+    },
+    {
+      "id": 64,
+      "question": "What comes next: $10^3$, $10^4$, $10^5$, ___?",
+      "answers": ["$10^{10}$", "$10^6$", "$10^{15}$", "$20^5$"],
+      "correct": 1,
+      "hint": "The exponent increases by 1 each time. What is 5 + 1?"
+    },
+    {
+      "id": 65,
+      "question": "What is $4 \\times 10^7$ minus $1 \\times 10^7$?",
+      "answers": ["$3 \\times 10^7$", "$3 \\times 10^0$", "$5 \\times 10^7$", "$4 \\times 10^6$"],
+      "correct": 0,
+      "hint": "Same power of 10 means you can subtract the coefficients directly."
+    },
+    {
+      "id": 66,
+      "question": "How many thousands are in one million?",
+      "answers": ["10", "100", "1,000", "10,000"],
+      "correct": 2,
+      "hint": "One million is 1,000,000. One thousand is 1,000. How many times does 1,000 go into 1,000,000?"
+    },
+    {
+      "id": 67,
+      "question": "What is 999,999,999 + 1?",
+      "answers": ["1,000,000,000", "999,999,000", "9,999,999,999", "1,000,000,001"],
+      "correct": 0,
+      "hint": "All those 9s will roll over to 0s. What new digit appears at the front?"
+    },
+    {
+      "id": 68,
+      "question": "What number is halfway between 0 and 1,000,000?",
+      "answers": ["100,000", "500,000", "250,000", "750,000"],
+      "correct": 1,
+      "hint": "Halfway means dividing by 2. What is 1,000,000 divided by 2?"
+    },
+    {
+      "id": 69,
+      "question": "What is $8 \\times 10^5$ in standard form?",
+      "answers": ["80,000", "8,000,000", "800,000", "8,000"],
+      "correct": 2,
+      "hint": "$10^5$ is 100,000. Multiply that by 8."
+    },
+    {
+      "id": 70,
+      "question": "Which is greater: 900,000,000 or $10^9$?",
+      "answers": ["900,000,000", "$10^9$", "They are equal", "Cannot determine"],
+      "correct": 1,
+      "hint": "Write out $10^9$ and compare. It's 1 followed by 9 zeros."
+    },
+    {
+      "id": 71,
+      "question": "What comes next in the pattern: 2, 20, 200, 2,000, ___?",
+      "answers": ["2,200", "20,000", "4,000", "2,020"],
+      "correct": 1,
+      "hint": "Each number is 10 times the previous one. What is 2,000 times 10?"
+    },
+    {
+      "id": 72,
+      "question": "What is the value of the 6 in 6,000,000,000?",
+      "answers": ["6 million", "60 billion", "6 billion", "600 million"],
+      "correct": 2,
+      "hint": "The 6 is in the billions place. What is 6 times one billion?"
+    },
+    {
+      "id": 73,
+      "question": "How do you write $2.5 \\times 10^6$ as a regular number?",
+      "answers": ["250,000", "2,500,000", "25,000,000", "2,500"],
+      "correct": 1,
+      "hint": "Move the decimal point 6 places to the right."
+    },
+    {
+      "id": 74,
+      "question": "What is 5,000,000 + 5,000,000?",
+      "answers": ["10,000,000", "55,000,000", "1,000,000", "50,000,000"],
+      "correct": 0,
+      "hint": "5 million plus 5 million equals how many million?"
+    },
+    {
+      "id": 75,
+      "question": "What number is 100 times larger than 10,000,000?",
+      "answers": ["100,000,000", "10,000,100", "1,000,000,000", "11,000,000"],
+      "correct": 2,
+      "hint": "Multiplying by 100 adds two more zeros. Count carefully!"
+    },
+    {
+      "id": 76,
+      "question": "What comes next: 5,000, 50,000, 500,000, ___?",
+      "answers": ["550,000", "5,000,000", "5,500,000", "600,000"],
+      "correct": 1,
+      "hint": "Each number is 10 times bigger. What is 500,000 times 10?"
+    },
+    {
+      "id": 77,
+      "question": "What is $10^8 \\div 10^2$?",
+      "answers": ["$10^4$", "$10^{16}$", "$10^6$", "$10^{10}$"],
+      "correct": 2,
+      "hint": "When dividing powers with the same base, subtract the exponents."
+    },
+    {
+      "id": 78,
+      "question": "How many zeros are in $10^{12}$?",
+      "answers": ["10", "11", "12", "13"],
+      "correct": 2,
+      "hint": "The exponent tells you exactly how many zeros follow the 1."
+    },
+    {
+      "id": 79,
+      "question": "What is 100,000,000 divided by 1,000?",
+      "answers": ["10,000", "100,000", "1,000,000", "1,000"],
+      "correct": 1,
+      "hint": "Dividing removes zeros. How many zeros does 1,000 have? Remove that many!"
+    },
+    {
+      "id": 80,
+      "question": "What is $6 \\times 10^4 + 4 \\times 10^4$?",
+      "answers": ["$10 \\times 10^4$", "$24 \\times 10^8$", "$10 \\times 10^8$", "$1 \\times 10^5$"],
+      "correct": 3,
+      "hint": "6 + 4 = 10, and $10 \\times 10^4$ can be written with a different exponent."
+    },
+    {
+      "id": 81,
+      "question": "What number is one tenth of one billion?",
+      "answers": ["10,000,000", "100,000,000", "1,000,000", "1,000,000,000"],
+      "correct": 1,
+      "hint": "One tenth means dividing by 10. What is 1,000,000,000 divided by 10?"
+    },
+    {
+      "id": 82,
+      "question": "What comes next: 3, 30, 300, 3,000, 30,000, ___?",
+      "answers": ["33,000", "300,000", "60,000", "30,300"],
+      "correct": 1,
+      "hint": "The pattern multiplies by 10 each time. What is 30,000 times 10?"
+    },
+    {
+      "id": 83,
+      "question": "How do you write 7,200,000,000 in scientific notation?",
+      "answers": ["$72 \\times 10^8$", "$7.2 \\times 10^8$", "$7.2 \\times 10^9$", "$7.2 \\times 10^{10}$"],
+      "correct": 2,
+      "hint": "The coefficient must be between 1 and 10. Count places from 7.2 to find the exponent."
+    },
+    {
+      "id": 84,
+      "question": "What is 1,000,000,000 - 1,000,000?",
+      "answers": ["990,000,000", "999,000,000", "999,999,000", "900,000,000"],
+      "correct": 1,
+      "hint": "One billion minus one million. Think of it as 1000 millions minus 1 million."
+    },
+    {
+      "id": 85,
+      "question": "Which digit is in the hundred-millions place of 3,456,789,012?",
+      "answers": ["4", "5", "3", "6"],
+      "correct": 0,
+      "hint": "Count from right: ones, tens, hundreds, thousands, ten-thousands, hundred-thousands, millions, ten-millions, hundred-millions."
+    },
+    {
+      "id": 86,
+      "question": "What is $9 \\times 10^7$ minus $4 \\times 10^7$?",
+      "answers": ["$5 \\times 10^7$", "$5 \\times 10^{14}$", "$36 \\times 10^{14}$", "$5 \\times 10^0$"],
+      "correct": 0,
+      "hint": "Same power of 10 means subtract the front numbers: 9 - 4."
+    },
+    {
+      "id": 87,
+      "question": "What number is 1,000 times larger than 1,000,000?",
+      "answers": ["10,000,000", "1,001,000,000", "100,000,000", "1,000,000,000"],
+      "correct": 3,
+      "hint": "Multiplying by 1,000 adds three zeros. What do you get?"
+    },
+    {
+      "id": 88,
+      "question": "What comes next: 10, 100, 1,000, 10,000, 100,000, ___?",
+      "answers": ["110,000", "1,000,000", "200,000", "100,001"],
+      "correct": 1,
+      "hint": "Each number has one more zero than the previous. Count the zeros!"
+    },
+    {
+      "id": 89,
+      "question": "What is $10^6 \\times 10^3$?",
+      "answers": ["$10^{18}$", "$10^3$", "$10^9$", "$100^9$"],
+      "correct": 2,
+      "hint": "When multiplying powers of 10, add the exponents: 6 + 3 = ?"
+    },
+    {
+      "id": 90,
+      "question": "How many ten-thousands are in one million?",
+      "answers": ["10", "100", "1,000", "10,000"],
+      "correct": 1,
+      "hint": "One million is 1,000,000. Ten thousand is 10,000. Divide to find out!"
+    },
+    {
+      "id": 91,
+      "question": "What is 4,000,000,000 + 6,000,000,000?",
+      "answers": ["10,000,000,000", "46,000,000,000", "1,000,000,000", "100,000,000,000"],
+      "correct": 0,
+      "hint": "4 billion plus 6 billion equals how many billion?"
+    },
+    {
+      "id": 92,
+      "question": "What number comes right before 10,000,000?",
+      "answers": ["9,000,000", "9,999,999", "9,999,990", "9,900,000"],
+      "correct": 1,
+      "hint": "Subtracting 1 from a power of 10 turns all zeros into 9s."
+    },
+    {
+      "id": 93,
+      "question": "What is $1.5 \\times 10^8$ in standard form?",
+      "answers": ["15,000,000", "150,000,000", "1,500,000,000", "1,500,000"],
+      "correct": 1,
+      "hint": "Move the decimal 8 places to the right. Start from 1.5."
+    },
+    {
+      "id": 94,
+      "question": "What is 50,000,000 divided by 100?",
+      "answers": ["5,000,000", "500,000", "50,000", "5,000"],
+      "correct": 1,
+      "hint": "Dividing by 100 removes two zeros. Count the zeros left!"
+    },
+    {
+      "id": 95,
+      "question": "What comes next: $10^2$, $10^4$, $10^6$, ___?",
+      "answers": ["$10^7$", "$10^{10}$", "$10^8$", "$10^{12}$"],
+      "correct": 2,
+      "hint": "The exponent increases by 2 each time. What is 6 + 2?"
+    },
+    {
+      "id": 96,
+      "question": "What is the value of the 8 in 800,000,000?",
+      "answers": ["8 million", "80 million", "800 million", "8 billion"],
+      "correct": 2,
+      "hint": "The 8 is in the hundred-millions place. What is 8 times one hundred million?"
+    },
+    {
+      "id": 97,
+      "question": "How do you write 'nine billion, two hundred million' as a number?",
+      "answers": ["9,200,000,000", "920,000,000", "9,020,000,000", "92,000,000,000"],
+      "correct": 0,
+      "hint": "Nine billion is 9,000,000,000. Add 200,000,000 for two hundred million."
+    },
+    {
+      "id": 98,
+      "question": "What is $2 \\times 10^6 \\times 3$?",
+      "answers": ["$5 \\times 10^6$", "$6 \\times 10^{18}$", "$6 \\times 10^6$", "$6 \\times 10^7$"],
+      "correct": 2,
+      "hint": "Multiply the coefficients: 2 times 3. The power of 10 stays the same."
+    },
+    {
+      "id": 99,
+      "question": "What number is halfway between 1,000,000 and 3,000,000?",
+      "answers": ["1,500,000", "2,500,000", "2,000,000", "2,200,000"],
+      "correct": 2,
+      "hint": "Add the two numbers and divide by 2 to find the midpoint."
+    },
+    {
+      "id": 100,
+      "question": "What is $10^{10} \\div 10^5$?",
+      "answers": ["$10^2$", "$10^{50}$", "$10^5$", "$10^{15}$"],
+      "correct": 2,
+      "hint": "When dividing powers of 10, subtract exponents: 10 - 5 = ?"
+    },
+    {
+      "id": 101,
+      "question": "What comes next: 4, 40, 400, 4,000, 40,000, 400,000, ___?",
+      "answers": ["4,000,000", "440,000", "4,400,000", "800,000"],
+      "correct": 0,
+      "hint": "Each step multiplies by 10. What is 400,000 times 10?"
+    },
+    {
+      "id": 102,
+      "question": "How many billions are in one trillion?",
+      "answers": ["10", "100", "1,000", "10,000"],
+      "correct": 2,
+      "hint": "One trillion has 12 zeros, one billion has 9 zeros. What's the difference in powers of 10?"
+    },
+    {
+      "id": 103,
+      "question": "What is 7,000,000,000 - 3,000,000,000?",
+      "answers": ["4,000,000,000", "10,000,000,000", "4,000,000", "3,700,000,000"],
+      "correct": 0,
+      "hint": "7 billion minus 3 billion equals how many billion?"
+    },
+    {
+      "id": 104,
+      "question": "What is $5 \\times 10^9$ equal to?",
+      "answers": ["500,000,000", "50,000,000,000", "5,000,000,000", "5,000,000"],
+      "correct": 2,
+      "hint": "$10^9$ is one billion. What is 5 times one billion?"
+    },
+    {
+      "id": 105,
+      "question": "What number is 10 times smaller than 100,000,000?",
+      "answers": ["1,000,000", "10,000,000", "90,000,000", "99,000,000"],
+      "correct": 1,
+      "hint": "Ten times smaller means dividing by 10. Remove one zero."
+    },
+    {
+      "id": 106,
+      "question": "What comes next in the pattern: 250,000, 500,000, 750,000, ___?",
+      "answers": ["800,000", "900,000", "1,000,000", "850,000"],
+      "correct": 2,
+      "hint": "The pattern adds 250,000 each time. What is 750,000 + 250,000?"
+    },
+    {
+      "id": 107,
+      "question": "What is $8 \\times 10^6 + 2 \\times 10^6$?",
+      "answers": ["$10 \\times 10^{12}$", "$1 \\times 10^7$", "$16 \\times 10^{12}$", "$10 \\times 10^6$"],
+      "correct": 1,
+      "hint": "8 + 2 = 10, and $10 \\times 10^6 = 1 \\times 10^7$."
+    },
+    {
+      "id": 108,
+      "question": "How do you write 450,000,000 in scientific notation?",
+      "answers": ["$4.5 \\times 10^7$", "$45 \\times 10^7$", "$4.5 \\times 10^8$", "$4.5 \\times 10^9$"],
+      "correct": 2,
+      "hint": "The coefficient should be 4.5. Count places from 4.5 to the end of the number."
+    },
+    {
+      "id": 109,
+      "question": "What is 20,000,000 times 5?",
+      "answers": ["100,000,000", "25,000,000", "10,000,000", "200,000,000"],
+      "correct": 0,
+      "hint": "20 times 5 equals 100. Now add back all those zeros!"
+    },
+    {
+      "id": 110,
+      "question": "What number is 100 less than 1,000,000?",
+      "answers": ["999,900", "990,000", "900,000", "999,000"],
+      "correct": 0,
+      "hint": "Subtracting 100 from 1,000,000 requires borrowing. Think carefully about each place."
+    },
+    {
+      "id": 111,
+      "question": "What comes next: $10^1$, $10^2$, $10^3$, $10^4$, ___?",
+      "answers": ["$10^8$", "$10^5$", "$20^4$", "$10^{10}$"],
+      "correct": 1,
+      "hint": "The exponent increases by 1 each step. What is 4 + 1?"
+    },
+    {
+      "id": 112,
+      "question": "What is the sum of 100,000,000 and 900,000,000?",
+      "answers": ["1,000,000,000", "990,000,000", "910,000,000", "9,100,000,000"],
+      "correct": 0,
+      "hint": "100 million plus 900 million. That's 1000 million, which equals one billion!"
+    },
+    {
+      "id": 113,
+      "question": "Which is smaller: $3 \\times 10^8$ or $5 \\times 10^7$?",
+      "answers": ["$3 \\times 10^8$", "$5 \\times 10^7$", "They are equal", "Cannot compare"],
+      "correct": 1,
+      "hint": "Compare the powers of 10 first. Then write them out as regular numbers."
+    },
+    {
+      "id": 114,
+      "question": "What is 6,500,000,000 rounded to the nearest billion?",
+      "answers": ["6,000,000,000", "7,000,000,000", "6,500,000,000", "65,000,000,000"],
+      "correct": 1,
+      "hint": "Look at the hundred-millions place. Is it 5 or more? Round up!"
+    },
+    {
+      "id": 115,
+      "question": "What number is 1,000,000 less than 5,500,000,000?",
+      "answers": ["5,499,000,000", "5,400,000,000", "4,500,000,000", "5,490,000,000"],
+      "correct": 0,
+      "hint": "5,500 million minus 1 million equals 5,499 million."
+    },
+    {
+      "id": 116,
+      "question": "What is $10^7 \\times 100$?",
+      "answers": ["$10^{700}$", "$10^9$", "$10^8$", "$100^7$"],
+      "correct": 1,
+      "hint": "100 is $10^2$. When multiplying, add exponents: 7 + 2 = ?"
+    },
+    {
+      "id": 117,
+      "question": "How do you write 'six hundred fifty million' as a number?",
+      "answers": ["65,000,000", "650,000,000", "6,500,000,000", "605,000,000"],
+      "correct": 1,
+      "hint": "Six hundred fifty is 650. Million adds 6 zeros."
+    },
+    {
+      "id": 118,
+      "question": "What comes next: 1,000,000, 2,000,000, 4,000,000, 8,000,000, ___?",
+      "answers": ["10,000,000", "12,000,000", "16,000,000", "9,000,000"],
+      "correct": 2,
+      "hint": "Each number doubles. What is 8,000,000 times 2?"
+    },
+    {
+      "id": 119,
+      "question": "What is $4.2 \\times 10^7$ in standard form?",
+      "answers": ["420,000,000", "4,200,000", "42,000,000", "4,200"],
+      "correct": 2,
+      "hint": "Move the decimal point 7 places to the right from 4.2."
+    },
+    {
+      "id": 120,
+      "question": "What is 8,000,000,000 divided by 4?",
+      "answers": ["200,000,000", "2,000,000,000", "4,000,000,000", "20,000,000,000"],
+      "correct": 1,
+      "hint": "8 divided by 4 equals 2. Keep all those zeros!"
+    },
+    {
+      "id": 121,
+      "question": "What number is 10,000 more than 99,990,000?",
+      "answers": ["100,000,000", "99,000,000", "100,990,000", "99,991,000"],
+      "correct": 0,
+      "hint": "Adding 10,000 will cause the 9s to roll over. What big number do you get?"
+    },
+    {
+      "id": 122,
+      "question": "What is $10^5 \\times 10^5$?",
+      "answers": ["$10^{25}$", "$20^{10}$", "$10^{10}$", "$100^{10}$"],
+      "correct": 2,
+      "hint": "When multiplying same bases, add exponents: 5 + 5 = ?"
+    },
+    {
+      "id": 123,
+      "question": "What comes next in the pattern: 125,000, 250,000, 500,000, ___?",
+      "answers": ["625,000", "750,000", "1,000,000", "525,000"],
+      "correct": 2,
+      "hint": "Each number doubles. What is 500,000 times 2?"
+    },
+    {
+      "id": 124,
+      "question": "How many hundred-thousands are in 10,000,000?",
+      "answers": ["10", "100", "1,000", "10,000"],
+      "correct": 1,
+      "hint": "One hundred thousand is 100,000. How many times does it go into 10,000,000?"
+    },
+    {
+      "id": 125,
+      "question": "What is $9 \\times 10^8$ in standard form?",
+      "answers": ["90,000,000", "9,000,000,000", "900,000,000", "9,000,000"],
+      "correct": 2,
+      "hint": "$10^8$ has 8 zeros. Put a 9 in front of those 8 zeros."
+    },
+    {
+      "id": 126,
+      "question": "What number is 100,000,000 more than 900,000,000?",
+      "answers": ["910,000,000", "1,000,000,000", "990,000,000", "9,100,000,000"],
+      "correct": 1,
+      "hint": "900 million plus 100 million equals how many million?"
+    },
+    {
+      "id": 127,
+      "question": "What is $10^{12}$ called?",
+      "answers": ["One billion", "One hundred billion", "One trillion", "One quadrillion"],
+      "correct": 2,
+      "hint": "Thousand is $10^3$, million is $10^6$, billion is $10^9$, and what is $10^{12}$?"
+    },
+    {
+      "id": 128,
+      "question": "What comes next: 6, 60, 600, 6,000, 60,000, ___?",
+      "answers": ["66,000", "600,000", "120,000", "70,000"],
+      "correct": 1,
+      "hint": "Each number is 10 times larger. What is 60,000 times 10?"
+    },
+    {
+      "id": 129,
+      "question": "What is 3,000,000,000 + 500,000,000?",
+      "answers": ["3,005,000,000", "3,500,000,000", "35,000,000,000", "8,000,000,000"],
+      "correct": 1,
+      "hint": "3 billion plus 500 million. Think of it as 3,000 million + 500 million."
+    },
+    {
+      "id": 130,
+      "question": "What is $6 \\times 10^7 \\div 2$?",
+      "answers": ["$3 \\times 10^7$", "$3 \\times 10^{3.5}$", "$4 \\times 10^7$", "$12 \\times 10^7$"],
+      "correct": 0,
+      "hint": "Divide the coefficient: 6 divided by 2. The power stays the same."
+    },
+    {
+      "id": 131,
+      "question": "How do you write 8,050,000,000 in scientific notation?",
+      "answers": ["$8.05 \\times 10^8$", "$80.5 \\times 10^8$", "$8.05 \\times 10^9$", "$8.05 \\times 10^{10}$"],
+      "correct": 2,
+      "hint": "Write as 8.05 and count how many places to the original number's end."
+    },
+    {
+      "id": 132,
+      "question": "What number is halfway between 2,000,000,000 and 4,000,000,000?",
+      "answers": ["2,500,000,000", "3,000,000,000", "3,500,000,000", "2,200,000,000"],
+      "correct": 1,
+      "hint": "Add the numbers and divide by 2. What is 2 billion + 4 billion divided by 2?"
+    },
+    {
+      "id": 133,
+      "question": "What is 999,000,000 + 1,000,000?",
+      "answers": ["1,000,000,000", "999,100,000", "1,000,000,001", "990,000,000"],
+      "correct": 0,
+      "hint": "999 million plus 1 million equals 1000 million. What is another name for that?"
+    },
+    {
+      "id": 134,
+      "question": "What comes next: $2 \\times 10^3$, $2 \\times 10^4$, $2 \\times 10^5$, ___?",
+      "answers": ["$4 \\times 10^5$", "$2 \\times 10^{15}$", "$2 \\times 10^6$", "$2 \\times 10^{50}$"],
+      "correct": 2,
+      "hint": "The coefficient stays 2, but the exponent increases by 1 each time."
+    },
+    {
+      "id": 135,
+      "question": "What is the value of the 5 in 5,000,000,000?",
+      "answers": ["5 million", "500 million", "5 billion", "50 billion"],
+      "correct": 2,
+      "hint": "The 5 is in the billions place. What is 5 times one billion?"
+    },
+    {
+      "id": 136,
+      "question": "What is $10^9 - 10^8$?",
+      "answers": ["$10^1$", "900,000,000", "100,000,000", "$9 \\times 10^9$"],
+      "correct": 1,
+      "hint": "Write them out: 1,000,000,000 minus 100,000,000. You can't just subtract exponents!"
+    },
+    {
+      "id": 137,
+      "question": "How many zeros are in 'one hundred billion'?",
+      "answers": ["9", "10", "11", "12"],
+      "correct": 2,
+      "hint": "One hundred billion is 100,000,000,000. Count those zeros carefully!"
+    },
+    {
+      "id": 138,
+      "question": "What is 4,000,000,000 times 2?",
+      "answers": ["6,000,000,000", "8,000,000,000", "4,200,000,000", "40,000,000,000"],
+      "correct": 1,
+      "hint": "4 times 2 equals 8. Keep all the zeros!"
+    },
+    {
+      "id": 139,
+      "question": "What comes next: 100,000, 200,000, 400,000, 800,000, ___?",
+      "answers": ["900,000", "1,200,000", "1,600,000", "1,000,000"],
+      "correct": 2,
+      "hint": "Each number doubles. What is 800,000 times 2?"
+    },
+    {
+      "id": 140,
+      "question": "What is $7 \\times 10^6 - 2 \\times 10^6$?",
+      "answers": ["$5 \\times 10^{12}$", "$14 \\times 10^6$", "$5 \\times 10^6$", "$9 \\times 10^6$"],
+      "correct": 2,
+      "hint": "Same power of 10, so subtract coefficients: 7 - 2 = ?"
+    },
+    {
+      "id": 141,
+      "question": "What number is 1,000 times larger than 5,000,000?",
+      "answers": ["50,000,000", "5,000,000,000", "500,000,000", "5,001,000,000"],
+      "correct": 1,
+      "hint": "Multiplying by 1,000 adds three zeros. Count carefully!"
+    },
+    {
+      "id": 142,
+      "question": "What is $3.5 \\times 10^8$ in standard form?",
+      "answers": ["35,000,000", "3,500,000,000", "350,000,000", "3,500,000"],
+      "correct": 2,
+      "hint": "Move the decimal point 8 places to the right from 3.5."
+    },
+    {
+      "id": 143,
+      "question": "What comes next in the pattern: 10,000,000, 20,000,000, 30,000,000, ___?",
+      "answers": ["35,000,000", "40,000,000", "50,000,000", "33,000,000"],
+      "correct": 1,
+      "hint": "The pattern adds 10,000,000 each time. What is 30,000,000 + 10,000,000?"
+    },
+    {
+      "id": 144,
+      "question": "What is 50,000,000,000 in scientific notation?",
+      "answers": ["$5 \\times 10^9$", "$50 \\times 10^9$", "$5 \\times 10^{10}$", "$5 \\times 10^{11}$"],
+      "correct": 2,
+      "hint": "Write as 5 and count how many places from there to the end."
+    },
+    {
+      "id": 145,
+      "question": "What is 10,000,000,000 - 1?",
+      "answers": ["9,999,999,990", "9,999,999,999", "9,000,000,000", "9,999,999,000"],
+      "correct": 1,
+      "hint": "Subtracting 1 from 10 billion turns all the zeros into 9s."
+    },
+    {
+      "id": 146,
+      "question": "How many ten-millions are in one billion?",
+      "answers": ["10", "100", "1,000", "10,000"],
+      "correct": 1,
+      "hint": "One billion is 1,000,000,000. Ten million is 10,000,000. Divide to find out!"
+    },
+    {
+      "id": 147,
+      "question": "What is $10^8 + 10^8$?",
+      "answers": ["$10^{16}$", "$2 \\times 10^8$", "$20^8$", "$2 \\times 10^{16}$"],
+      "correct": 1,
+      "hint": "Adding two of the same power of 10 doubles the coefficient, not the exponent."
+    },
+    {
+      "id": 148,
+      "question": "What comes next: 5,000,000, 10,000,000, 15,000,000, ___?",
+      "answers": ["17,500,000", "25,000,000", "20,000,000", "30,000,000"],
+      "correct": 2,
+      "hint": "The pattern adds 5,000,000 each time. What is 15,000,000 + 5,000,000?"
+    },
+    {
+      "id": 149,
+      "question": "What is $1 \\times 10^{10}$ equal to?",
+      "answers": ["1,000,000,000", "10,000,000,000", "100,000,000,000", "100,000,000"],
+      "correct": 1,
+      "hint": "$10^{10}$ means 1 followed by 10 zeros. Count them out!"
+    },
+    {
+      "id": 150,
+      "question": "What number is 500,000,000 more than 7,500,000,000?",
+      "answers": ["8,000,000,000", "7,550,000,000", "75,500,000,000", "12,500,000,000"],
+      "correct": 0,
+      "hint": "7,500 million plus 500 million equals how many million? That's how many billion?"
     }
   ],
   "access": [2]

@@ -7,288 +7,1053 @@
   "questions": [
     {
       "id": 1,
-      "question": "2 boys paint a fence in 2 hours. How long would 3 boys take?",
-      "answers": ["80 minutes", "90 minutes", "1 hour", "3 hours"],
-      "correct": 0,
-      "hint": "First find the total work: $2 \\times 2 = 4$ boy-hours. Then divide by 3."
+      "question": "3 workers paint a house in 6 hours. How long would 2 workers take?",
+      "answers": ["4 hours", "9 hours", "12 hours", "8 hours"],
+      "correct": 1,
+      "hint": "Find total work: $3 \\times 6 = 18$ worker-hours. Then divide by 2."
     },
     {
       "id": 2,
-      "question": "Two cars start 200 km apart driving toward each other at 60 km/h and 40 km/h. When do they meet?",
-      "answers": ["2 hours", "4 hours", "3 hours", "2.5 hours"],
-      "correct": 0,
-      "hint": "Combined speed toward each other = $60 + 40$. Time = distance ÷ combined speed."
+      "question": "Two cars start 180 km apart driving toward each other at 50 km/h and 40 km/h. When do they meet?",
+      "answers": ["3 hours", "2 hours", "4 hours", "1.5 hours"],
+      "correct": 1,
+      "hint": "Combined speed = $50 + 40$. Time = distance divided by combined speed."
     },
     {
       "id": 3,
-      "question": "A bathtub fills in 12 minutes and drains in 20 minutes. With both tap and drain open, how long to fill?",
-      "answers": ["30 minutes", "16 minutes", "32 minutes", "8 minutes"],
-      "correct": 0,
-      "hint": "Net rate = filling rate - draining rate. Find common denominator."
+      "question": "A pool fills in 10 minutes and drains in 15 minutes. With both open, how long to fill?",
+      "answers": ["25 minutes", "5 minutes", "30 minutes", "12.5 minutes"],
+      "correct": 2,
+      "hint": "Net rate = filling rate minus draining rate. Find common denominator."
     },
     {
       "id": 4,
-      "question": "5 workers complete a job in 12 hours. How long for 4 workers?",
-      "answers": ["9.6 hours", "10 hours", "14 hours", "15 hours"],
+      "question": "6 machines complete a job in 8 hours. How long for 4 machines?",
+      "answers": ["5.3 hours", "10 hours", "16 hours", "12 hours"],
       "correct": 3,
-      "hint": "Calculate total work first (worker-hours), then divide by new workers."
+      "hint": "Total work = $6 \\times 8 = 48$ machine-hours. Divide by 4."
     },
     {
       "id": 5,
-      "question": "A train traveling at 80 km/h takes 3 hours. How long at 60 km/h for the same distance?",
-      "answers": ["5 hours", "3.5 hours", "2.25 hours", "4 hours"],
-      "correct": 3,
-      "hint": "First find distance = $80 \\times 3$. Then time = distance ÷ 60."
+      "question": "A train traveling at 90 km/h takes 4 hours. How long at 60 km/h for the same distance?",
+      "answers": ["5 hours", "3 hours", "6 hours", "4.5 hours"],
+      "correct": 2,
+      "hint": "First find distance = $90 \\times 4$. Then time = distance divided by 60."
     },
     {
       "id": 6,
-      "question": "Two pipes fill a pool in 4 and 6 hours. If both run together, how long to fill?",
-      "answers": ["3 hours", "5 hours", "2.4 hours", "10 hours"],
+      "question": "Two pipes fill a tank in 5 and 10 hours. If both run together, how long to fill?",
+      "answers": ["7.5 hours", "15 hours", "3.33 hours", "2.5 hours"],
       "correct": 2,
-      "hint": "Add rates: $\\frac{1}{4} + \\frac{1}{6}$. Find common denominator, then invert."
+      "hint": "Add rates: $\\frac{1}{5} + \\frac{1}{10}$. Find common denominator, then invert."
     },
     {
       "id": 7,
-      "question": "A cyclist goes uphill at 10 km/h and returns downhill at 30 km/h. If the hill is 15 km, what's the total time?",
-      "answers": ["2 hours", "3 hours", "1 hour", "1.5 hours"],
-      "correct": 0,
-      "hint": "Time up = $15 \\div 10$. Time down = $15 \\div 30$. Add them."
+      "question": "A cyclist goes uphill at 12 km/h and returns downhill at 24 km/h. If the hill is 24 km, what's the total time?",
+      "answers": ["2.5 hours", "4 hours", "3 hours", "1.5 hours"],
+      "correct": 2,
+      "hint": "Time up = $24 \\div 12$. Time down = $24 \\div 24$. Add them."
     },
     {
       "id": 8,
-      "question": "8 printers print books in 9 hours. How long for 12 printers?",
-      "answers": ["4.5 hours", "8 hours", "6 hours", "13.5 hours"],
-      "correct": 2,
-      "hint": "Total = 72 printer-hours. Divide by 12."
+      "question": "10 printers print books in 6 hours. How long for 15 printers?",
+      "answers": ["9 hours", "4 hours", "3 hours", "5 hours"],
+      "correct": 1,
+      "hint": "Total = 60 printer-hours. Divide by 15."
     },
     {
       "id": 9,
-      "question": "A car going 50 km/h leaves town A. 1 hour later, a car at 75 km/h follows. How long until it catches up?",
-      "answers": ["2.5 hours", "1.5 hours", "3 hours", "2 hours"],
-      "correct": 3,
-      "hint": "First car has 50 km head start. Second gains 25 km/h. Time = $50 \\div 25$."
+      "question": "A car going 40 km/h leaves town A. 2 hours later, a car at 60 km/h follows. How long until it catches up?",
+      "answers": ["3 hours", "5 hours", "4 hours", "6 hours"],
+      "correct": 2,
+      "hint": "First car has 80 km head start. Second gains 20 km/h. Time = $80 \\div 20$."
     },
     {
       "id": 10,
-      "question": "A tank fills in 5 hours. A leak empties it in 15 hours. How long to fill with the leak?",
-      "answers": ["10 hours", "20 hours", "7.5 hours", "3.75 hours"],
+      "question": "A tank fills in 6 hours. A leak empties it in 18 hours. How long to fill with the leak?",
+      "answers": ["12 hours", "8 hours", "9 hours", "24 hours"],
       "correct": 2,
-      "hint": "Net rate = $\\frac{1}{5} - \\frac{1}{15}$. Find common denominator."
+      "hint": "Net rate = $\\frac{1}{6} - \\frac{1}{18}$. Find common denominator."
     },
     {
       "id": 11,
-      "question": "10 workers finish in 9 hours. How long for 15 workers?",
-      "answers": ["13.5 hours", "5 hours", "6 hours", "4 hours"],
-      "correct": 2,
-      "hint": "Total = 90 worker-hours. Divide by 15."
+      "question": "8 workers finish in 12 hours. How long for 16 workers?",
+      "answers": ["24 hours", "8 hours", "4 hours", "6 hours"],
+      "correct": 3,
+      "hint": "Double the workers means half the time."
     },
     {
       "id": 12,
-      "question": "Two towns are 120 km apart. Trains leave simultaneously toward each other at 40 and 80 km/h. Where do they meet from the slower train's town?",
-      "answers": ["30 km", "80 km", "60 km", "40 km"],
-      "correct": 3,
+      "question": "Two towns are 150 km apart. Trains leave simultaneously toward each other at 30 and 70 km/h. Where do they meet from the slower train's town?",
+      "answers": ["105 km", "75 km", "45 km", "60 km"],
+      "correct": 2,
       "hint": "Find meeting time first, then distance traveled by slower train."
     },
     {
       "id": 13,
-      "question": "A swimming pool has two drains. One empties it in 4 hours, the other in 6 hours. Both open, how long?",
-      "answers": ["2 hours", "3 hours", "5 hours", "2.4 hours"],
-      "correct": 3,
-      "hint": "Add rates: $\\frac{1}{4} + \\frac{1}{6}$. Both draining speeds up the process."
+      "question": "A pool has two drains. One empties it in 6 hours, the other in 3 hours. Both open, how long?",
+      "answers": ["4.5 hours", "9 hours", "2 hours", "1.5 hours"],
+      "correct": 2,
+      "hint": "Add rates: $\\frac{1}{6} + \\frac{1}{3}$. Both draining speeds up the process."
     },
     {
       "id": 14,
-      "question": "6 cooks prepare meals in 5 hours. How long for 10 cooks?",
-      "answers": ["8.3 hours", "2 hours", "4 hours", "3 hours"],
-      "correct": 3,
-      "hint": "Total = 30 cook-hours. Divide by 10."
+      "question": "9 cooks prepare meals in 4 hours. How long for 6 cooks?",
+      "answers": ["2.67 hours", "6 hours", "8 hours", "5 hours"],
+      "correct": 1,
+      "hint": "Total = 36 cook-hours. Divide by 6."
     },
     {
       "id": 15,
-      "question": "A plane flies 600 km with wind in 2 hours. Against the same wind, it takes 3 hours. What's the wind speed?",
-      "answers": ["25 km/h", "75 km/h", "100 km/h", "50 km/h"],
-      "correct": 3,
-      "hint": "With wind: plane + wind = 300. Against: plane - wind = 200. Solve."
+      "question": "A boat travels 40 km downstream in 2 hours and upstream in 4 hours. What's the current speed?",
+      "answers": ["10 km/h", "15 km/h", "5 km/h", "20 km/h"],
+      "correct": 2,
+      "hint": "Downstream = 20 km/h, upstream = 10 km/h. Current = (20 - 10) / 2."
     },
     {
       "id": 16,
-      "question": "3 taps fill a tank in 6 hours. How long for 2 taps?",
-      "answers": ["12 hours", "4 hours", "9 hours", "8 hours"],
+      "question": "4 taps fill a tank in 8 hours. How long for 2 taps?",
+      "answers": ["4 hours", "12 hours", "16 hours", "20 hours"],
       "correct": 2,
-      "hint": "Total = 18 tap-hours. Divide by 2."
+      "hint": "Total = 32 tap-hours. Divide by 2."
     },
     {
       "id": 17,
-      "question": "A runner does 5 km at 10 km/h, then 5 km at 15 km/h. What's the average speed for 10 km?",
-      "answers": ["10 km/h", "11 km/h", "12 km/h", "12.5 km/h"],
-      "correct": 2,
-      "hint": "Find total time: $0.5 + \\frac{1}{3}$ hours. Average = 10 ÷ total time."
+      "question": "A runner does 6 km at 12 km/h, then 6 km at 18 km/h. What's the average speed for 12 km?",
+      "answers": ["15 km/h", "14.4 km/h", "16 km/h", "13.5 km/h"],
+      "correct": 1,
+      "hint": "Find total time: $0.5 + \\frac{1}{3}$ hours. Average = 12 divided by total time."
     },
     {
       "id": 18,
-      "question": "A bucket fills in 8 minutes from a tap. With a hole, it takes 12 minutes. Tap off, how long to empty through the hole?",
-      "answers": ["24 minutes", "16 minutes", "4 minutes", "20 minutes"],
-      "correct": 0,
-      "hint": "Hole rate = tap rate - net rate = $\\frac{1}{8} - \\frac{1}{12}$."
+      "question": "A bucket fills in 10 minutes from a tap. With a hole, it takes 15 minutes. Tap off, how long to empty through the hole?",
+      "answers": ["25 minutes", "5 minutes", "30 minutes", "20 minutes"],
+      "correct": 2,
+      "hint": "Hole rate = tap rate minus net rate = $\\frac{1}{10} - \\frac{1}{15}$."
     },
     {
       "id": 19,
-      "question": "15 workers finish in 4 hours. How long for 12 workers?",
-      "answers": ["3.2 hours", "4.8 hours", "6 hours", "5 hours"],
-      "correct": 3,
-      "hint": "Total = 60 worker-hours. Divide by 12."
+      "question": "12 workers finish in 5 hours. How long for 10 workers?",
+      "answers": ["4.17 hours", "6 hours", "7.2 hours", "8 hours"],
+      "correct": 1,
+      "hint": "Total = 60 worker-hours. Divide by 10."
     },
     {
       "id": 20,
-      "question": "Two cyclists start 100 km apart, cycling toward each other at 20 km/h and 30 km/h. How far does the faster one travel before they meet?",
-      "answers": ["70 km", "40 km", "60 km", "50 km"],
+      "question": "Two cyclists start 120 km apart, cycling toward each other at 25 km/h and 35 km/h. How far does the faster one travel before they meet?",
+      "answers": ["60 km", "84 km", "70 km", "48 km"],
       "correct": 2,
-      "hint": "Meeting time = $100 \\div 50 = 2$ hours. Faster travels $30 \\times 2$."
+      "hint": "Meeting time = $120 \\div 60 = 2$ hours. Faster travels $35 \\times 2$."
     },
     {
       "id": 21,
-      "question": "Pipe A fills in 10 hours, pipe B in 15 hours. Both run for 3 hours, then A stops. How much longer for B alone?",
-      "answers": ["5 hours", "7.5 hours", "6 hours", "9 hours"],
-      "correct": 1,
-      "hint": "In 3 hours both fill $\\frac{3}{10} + \\frac{3}{15} = \\frac{1}{2}$. B fills remaining $\\frac{1}{2}$."
+      "question": "Pipe A fills in 8 hours, pipe B in 24 hours. Both run for 4 hours, then A stops. How much longer for B alone?",
+      "answers": ["12 hours", "8 hours", "6 hours", "4 hours"],
+      "correct": 2,
+      "hint": "In 4 hours both fill $\\frac{4}{8} + \\frac{4}{24} = \\frac{2}{3}$. B fills remaining $\\frac{1}{3}$."
     },
     {
       "id": 22,
-      "question": "A car travels 180 km, half at 60 km/h and half at 90 km/h. What's the total time?",
-      "answers": ["2 hours", "2.5 hours", "3.5 hours", "3 hours"],
-      "correct": 1,
-      "hint": "90 km at 60 km/h = 1.5h. 90 km at 90 km/h = 1h. Total = 2.5h."
+      "question": "A car travels 200 km, half at 50 km/h and half at 100 km/h. What's the total time?",
+      "answers": ["2.5 hours", "4 hours", "3.5 hours", "3 hours"],
+      "correct": 3,
+      "hint": "100 km at 50 km/h = 2h. 100 km at 100 km/h = 1h. Total = 3h."
     },
     {
       "id": 23,
-      "question": "8 bakers bake pies in 9 hours. How long for 12 bakers?",
-      "answers": ["6 hours", "4 hours", "13.5 hours", "5 hours"],
+      "question": "6 bakers bake pies in 12 hours. How long for 9 bakers?",
+      "answers": ["8 hours", "18 hours", "6 hours", "10 hours"],
       "correct": 0,
-      "hint": "Total = 72 baker-hours. Divide by 12."
+      "hint": "Total = 72 baker-hours. Divide by 9."
     },
     {
       "id": 24,
-      "question": "Water flows into a tank at 50 liters/minute and out at 30 liters/minute. How long to add 400 liters net?",
-      "answers": ["8 minutes", "13.3 minutes", "20 minutes", "40 minutes"],
+      "question": "Water flows into a tank at 40 liters/minute and out at 25 liters/minute. How long to add 300 liters net?",
+      "answers": ["7.5 minutes", "12 minutes", "20 minutes", "8 minutes"],
       "correct": 2,
-      "hint": "Net rate = $50 - 30 = 20$ liters/min. Time = $400 \\div 20$."
+      "hint": "Net rate = $40 - 25 = 15$ liters/min. Time = $300 \\div 15$."
     },
     {
       "id": 25,
-      "question": "A boat goes 24 km downstream in 2 hours and returns in 3 hours. What's the boat's speed in still water?",
-      "answers": ["12 km/h", "8 km/h", "10 km/h", "6 km/h"],
+      "question": "A boat goes 30 km downstream in 2 hours and returns in 3 hours. What's the boat's speed in still water?",
+      "answers": ["10 km/h", "15 km/h", "12.5 km/h", "8 km/h"],
       "correct": 2,
-      "hint": "Downstream = 12 km/h, upstream = 8 km/h. Boat speed = average."
+      "hint": "Downstream = 15 km/h, upstream = 10 km/h. Boat speed = average."
     },
     {
       "id": 26,
-      "question": "6 machines run for 8 hours. How long for 4 machines to do the same work?",
-      "answers": ["16 hours", "12 hours", "5.3 hours", "10 hours"],
+      "question": "8 machines run for 6 hours. How long for 3 machines to do the same work?",
+      "answers": ["2.25 hours", "16 hours", "12 hours", "18 hours"],
       "correct": 1,
-      "hint": "Total = 48 machine-hours. Divide by 4."
+      "hint": "Total = 48 machine-hours. Divide by 3."
     },
     {
       "id": 27,
-      "question": "Two cars start from the same point. One goes north at 40 km/h, other goes east at 30 km/h. Distance apart after 2 hours?",
-      "answers": ["70 km", "100 km", "50 km", "140 km"],
-      "correct": 1,
-      "hint": "Use Pythagorean theorem: $\\sqrt{80^2 + 60^2}$."
+      "question": "Two cars start from the same point. One goes north at 30 km/h, other goes east at 40 km/h. Distance apart after 3 hours?",
+      "answers": ["210 km", "180 km", "150 km", "120 km"],
+      "correct": 2,
+      "hint": "Use Pythagorean theorem: $\\sqrt{90^2 + 120^2}$."
     },
     {
       "id": 28,
-      "question": "A cistern has two inlet pipes filling in 3 and 4 hours, and a drain emptying in 6 hours. All open, how long to fill?",
-      "answers": ["2.4 hours", "4 hours", "3 hours", "2 hours"],
-      "correct": 0,
-      "hint": "Net rate = $\\frac{1}{3} + \\frac{1}{4} - \\frac{1}{6}$. Find common denominator."
+      "question": "A cistern has two inlet pipes filling in 4 and 6 hours, and a drain emptying in 8 hours. All open, how long to fill?",
+      "answers": ["3.43 hours", "2.4 hours", "4.8 hours", "6 hours"],
+      "correct": 1,
+      "hint": "Net rate = $\\frac{1}{4} + \\frac{1}{6} - \\frac{1}{8}$. Find common denominator."
     },
     {
       "id": 29,
-      "question": "9 workers finish $\\frac{3}{4}$ of a job in 6 hours. How many workers to finish the rest in 2 hours?",
-      "answers": ["3 workers", "9 workers", "4 workers", "6 workers"],
+      "question": "8 workers finish $\\frac{2}{3}$ of a job in 4 hours. How many workers to finish the rest in 2 hours?",
+      "answers": ["4 workers", "6 workers", "8 workers", "3 workers"],
       "correct": 0,
-      "hint": "Find work rate, then calculate workers needed for $\\frac{1}{4}$ in 2 hours."
+      "hint": "Find work rate, then calculate workers needed for $\\frac{1}{3}$ in 2 hours."
     },
     {
       "id": 30,
-      "question": "A train 200 m long passes a 300 m platform in 25 seconds. What's the train's speed?",
-      "answers": ["20 m/s", "8 m/s", "12 m/s", "72 km/h"],
-      "correct": 0,
-      "hint": "Train travels its length + platform length. Speed = $500 \\div 25$."
+      "question": "A train 250 m long passes a 350 m platform in 30 seconds. What's the train's speed in m/s?",
+      "answers": ["8.33 m/s", "11.67 m/s", "20 m/s", "15 m/s"],
+      "correct": 2,
+      "hint": "Train travels its length plus platform length. Speed = $600 \\div 30$."
     },
     {
       "id": 31,
-      "question": "5 gardeners landscape in 24 hours. How long for 8 gardeners?",
-      "answers": ["20 hours", "15 hours", "12 hours", "38.4 hours"],
+      "question": "4 gardeners landscape in 18 hours. How long for 6 gardeners?",
+      "answers": ["27 hours", "12 hours", "9 hours", "15 hours"],
       "correct": 1,
-      "hint": "Total = 120 gardener-hours. Divide by 8."
+      "hint": "Total = 72 gardener-hours. Divide by 6."
     },
     {
       "id": 32,
-      "question": "A faucet fills a tub in 6 minutes. The drain empties it in 8 minutes. Starting empty with both open, how long to fill?",
-      "answers": ["14 minutes", "48 minutes", "24 minutes", "7 minutes"],
+      "question": "A faucet fills a tub in 8 minutes. The drain empties it in 12 minutes. Starting empty with both open, how long to fill?",
+      "answers": ["20 minutes", "4.8 minutes", "24 minutes", "10 minutes"],
       "correct": 2,
-      "hint": "Net rate = $\\frac{1}{6} - \\frac{1}{8}$. Find time from net rate."
+      "hint": "Net rate = $\\frac{1}{8} - \\frac{1}{12}$. Find time from net rate."
     },
     {
       "id": 33,
-      "question": "Car A leaves at 8 AM at 40 km/h. Car B leaves at 10 AM at 60 km/h on the same route. When does B overtake A?",
-      "answers": ["2 PM", "1 PM", "12 PM", "4 PM"],
-      "correct": 0,
-      "hint": "A has 80 km head start. B gains 20 km/h. Catch-up time = $80 \\div 20 = 4$ hours after 10 AM."
+      "question": "Car A leaves at 9 AM at 50 km/h. Car B leaves at 11 AM at 75 km/h on the same route. When does B overtake A?",
+      "answers": ["2 PM", "3 PM", "4 PM", "5 PM"],
+      "correct": 1,
+      "hint": "A has 100 km head start. B gains 25 km/h. Catch-up time = $100 \\div 25 = 4$ hours after 11 AM."
     },
     {
       "id": 34,
-      "question": "12 installers work for 5 hours. How long for 15 installers?",
-      "answers": ["4 hours", "8 hours", "6.25 hours", "3 hours"],
-      "correct": 0,
-      "hint": "Total = 60 installer-hours. Divide by 15."
+      "question": "15 installers work for 4 hours. How long for 12 installers?",
+      "answers": ["3.2 hours", "5 hours", "6 hours", "4.8 hours"],
+      "correct": 1,
+      "hint": "Total = 60 installer-hours. Divide by 12."
     },
     {
       "id": 35,
-      "question": "A pool fills in 5 hours. After 2 hours, a drain opens that would empty a full pool in 10 hours. How much longer to fill?",
-      "answers": ["6 hours", "5 hours", "4 hours", "3 hours"],
-      "correct": 0,
-      "hint": "$\\frac{2}{5}$ filled. Remaining $\\frac{3}{5}$ at net rate $(\\frac{1}{5} - \\frac{1}{10}) = \\frac{1}{10}$ per hour."
+      "question": "A pool fills in 6 hours. After 2 hours, a drain opens that would empty a full pool in 12 hours. How much longer to fill?",
+      "answers": ["6 hours", "4 hours", "8 hours", "10 hours"],
+      "correct": 2,
+      "hint": "$\\frac{2}{6}$ filled. Remaining $\\frac{2}{3}$ at net rate $(\\frac{1}{6} - \\frac{1}{12}) = \\frac{1}{12}$ per hour."
     },
     {
       "id": 36,
-      "question": "Two trains, 150 km apart, travel toward each other at 40 and 60 km/h. A fly flies back and forth between them at 80 km/h until they meet. How far does the fly travel?",
-      "answers": ["150 km", "120 km", "200 km", "80 km"],
-      "correct": 1,
-      "hint": "Trains meet in $150 \\div 100 = 1.5$ hours. Fly travels $80 \\times 1.5$."
+      "question": "Two trains, 200 km apart, travel toward each other at 50 and 50 km/h. A bird flies back and forth between them at 100 km/h until they meet. How far does the bird travel?",
+      "answers": ["400 km", "100 km", "200 km", "150 km"],
+      "correct": 2,
+      "hint": "Trains meet in $200 \\div 100 = 2$ hours. Bird travels $100 \\times 2$."
     },
     {
       "id": 37,
-      "question": "6 packers pack boxes in 7 hours. How long for 3 packers?",
-      "answers": ["14 hours", "3.5 hours", "10 hours", "21 hours"],
-      "correct": 0,
+      "question": "8 packers pack boxes in 6 hours. How long for 4 packers?",
+      "answers": ["3 hours", "12 hours", "10 hours", "14 hours"],
+      "correct": 1,
       "hint": "Half the packers = double the time."
     },
     {
       "id": 38,
-      "question": "A hose fills a tank in 15 hours. A pump empties it in 10 hours. Both on, what happens?",
-      "answers": [
-        "Empties in 6 hours",
-        "Empties in 30 hours",
-        "Fills in 30 hours",
-        "Fills in 6 hours"
-      ],
+      "question": "A hose fills a tank in 12 hours. A pump empties it in 8 hours. Both on, what happens?",
+      "answers": ["Fills in 24 hours", "Empties in 24 hours", "Empties in 12 hours", "Fills in 6 hours"],
       "correct": 1,
-      "hint": "Net rate = $\\frac{1}{15} - \\frac{1}{10} = -\\frac{1}{30}$. Negative means emptying."
+      "hint": "Net rate = $\\frac{1}{12} - \\frac{1}{8} = -\\frac{1}{24}$. Negative means emptying."
     },
     {
       "id": 39,
-      "question": "10 farmers plant seeds in 9 hours. How long for 6 farmers?",
-      "answers": ["12 hours", "18 hours", "5.4 hours", "15 hours"],
-      "correct": 3,
-      "hint": "Total = 90 farmer-hours. Divide by 6."
+      "question": "12 farmers plant seeds in 10 hours. How long for 8 farmers?",
+      "answers": ["6.67 hours", "15 hours", "18 hours", "20 hours"],
+      "correct": 1,
+      "hint": "Total = 120 farmer-hours. Divide by 8."
     },
     {
       "id": 40,
-      "question": "A and B walk toward each other from 30 km apart. A walks 4 km/h, B walks 6 km/h. How far from A's start do they meet?",
-      "answers": ["12 km", "15 km", "18 km", "10 km"],
+      "question": "A and B walk toward each other from 40 km apart. A walks 5 km/h, B walks 3 km/h. How far from A's start do they meet?",
+      "answers": ["15 km", "20 km", "25 km", "30 km"],
+      "correct": 2,
+      "hint": "Meeting time = $40 \\div 8 = 5$ hours. A travels $5 \\times 5 = 25$ km."
+    },
+    {
+      "id": 41,
+      "question": "Convert 54 km/h to m/s.",
+      "answers": ["15 m/s", "18 m/s", "12 m/s", "20 m/s"],
       "correct": 0,
-      "hint": "Meeting time = $30 \\div 10 = 3$ hours. A travels $4 \\times 3 = 12$ km."
+      "hint": "Divide by 3.6 to convert km/h to m/s."
+    },
+    {
+      "id": 42,
+      "question": "A factory produces 360 widgets in 6 hours. What is the rate in widgets per minute?",
+      "answers": ["10 widgets/min", "6 widgets/min", "1 widget/min", "0.5 widgets/min"],
+      "correct": 2,
+      "hint": "First find widgets per hour, then convert to per minute."
+    },
+    {
+      "id": 43,
+      "question": "Worker A completes a task in 8 hours, Worker B in 8 hours. Working together, how long?",
+      "answers": ["16 hours", "8 hours", "6 hours", "4 hours"],
+      "correct": 3,
+      "hint": "Add rates: $\\frac{1}{8} + \\frac{1}{8}$. Two equal workers halve the time."
+    },
+    {
+      "id": 44,
+      "question": "A pipe fills a tank at 4 liters/min. How many liters in 3 hours?",
+      "answers": ["12 liters", "240 liters", "720 liters", "180 liters"],
+      "correct": 2,
+      "hint": "Convert hours to minutes first: 3 hours = 180 minutes."
+    },
+    {
+      "id": 45,
+      "question": "Four machines complete a job in 5 hours. How long for 2 machines?",
+      "answers": ["2.5 hours", "8 hours", "10 hours", "12 hours"],
+      "correct": 2,
+      "hint": "Total work = 20 machine-hours. Divide by 2."
+    },
+    {
+      "id": 46,
+      "question": "A car uses 10 liters of fuel per 100 km. How much fuel for 450 km?",
+      "answers": ["40 liters", "50 liters", "45 liters", "55 liters"],
+      "correct": 2,
+      "hint": "Set up a proportion: 10/100 = x/450."
+    },
+    {
+      "id": 47,
+      "question": "Pipe A fills a tank in 6 hours, Pipe B in 12 hours. Together, how long?",
+      "answers": ["9 hours", "18 hours", "3 hours", "4 hours"],
+      "correct": 3,
+      "hint": "Combined rate = $\\frac{1}{6} + \\frac{1}{12}$. Find common denominator."
+    },
+    {
+      "id": 48,
+      "question": "20 m/s is equivalent to how many km/h?",
+      "answers": ["5.56 km/h", "60 km/h", "72 km/h", "80 km/h"],
+      "correct": 2,
+      "hint": "Multiply m/s by 3.6 to get km/h."
+    },
+    {
+      "id": 49,
+      "question": "6 pumps empty a pool in 4 hours. How long for 8 pumps?",
+      "answers": ["5.33 hours", "2 hours", "3 hours", "2.5 hours"],
+      "correct": 2,
+      "hint": "Total = 24 pump-hours. Divide by 8."
+    },
+    {
+      "id": 50,
+      "question": "A printer prints 25 pages per minute. How long to print 750 pages?",
+      "answers": ["25 minutes", "35 minutes", "30 minutes", "20 minutes"],
+      "correct": 2,
+      "hint": "Time = total pages divided by rate."
+    },
+    {
+      "id": 51,
+      "question": "Worker A does a job in 6 hours, B in 12 hours, C in 12 hours. All together, how long?",
+      "answers": ["10 hours", "2 hours", "4 hours", "3 hours"],
+      "correct": 3,
+      "hint": "Add all rates: $\\frac{1}{6} + \\frac{1}{12} + \\frac{1}{12}$."
+    },
+    {
+      "id": 52,
+      "question": "A tank leaks 3 liters per hour. A full tank has 54 liters. How long until empty?",
+      "answers": ["16 hours", "162 hours", "18 hours", "20 hours"],
+      "correct": 2,
+      "hint": "Time = volume divided by leak rate."
+    },
+    {
+      "id": 53,
+      "question": "Convert 10 meters per second to kilometers per hour.",
+      "answers": ["2.78 km/h", "36 km/h", "100 km/h", "60 km/h"],
+      "correct": 1,
+      "hint": "Multiply m/s by 3.6 to convert to km/h."
+    },
+    {
+      "id": 54,
+      "question": "Two workers complete a task in 6 hours working together. One alone takes 9 hours. How long for the other alone?",
+      "answers": ["15 hours", "18 hours", "12 hours", "3 hours"],
+      "correct": 1,
+      "hint": "Combined rate minus one worker's rate gives the other's rate."
+    },
+    {
+      "id": 55,
+      "question": "A reservoir supplies 72,000 liters per day to a town. How many liters per hour?",
+      "answers": ["1,200 liters", "6,000 liters", "3,000 liters", "2,400 liters"],
+      "correct": 2,
+      "hint": "Divide by 24 to convert per day to per hour."
+    },
+    {
+      "id": 56,
+      "question": "6 painters finish in 12 days. How many painters needed to finish in 4 days?",
+      "answers": ["2 painters", "18 painters", "24 painters", "12 painters"],
+      "correct": 1,
+      "hint": "One-third the time requires triple the workers."
+    },
+    {
+      "id": 57,
+      "question": "A machine produces 80 items in 4 hours. At this rate, how many in 9 hours?",
+      "answers": ["160 items", "180 items", "200 items", "720 items"],
+      "correct": 1,
+      "hint": "First find items per hour: 80 divided by 4."
+    },
+    {
+      "id": 58,
+      "question": "Inlet pipe fills in 8 hours, outlet drains in 12 hours. Both open, how long to fill from empty?",
+      "answers": ["20 hours", "24 hours", "4.8 hours", "10 hours"],
+      "correct": 1,
+      "hint": "Net rate = $\\frac{1}{8} - \\frac{1}{12}$. Find common denominator."
+    },
+    {
+      "id": 59,
+      "question": "A typist types 75 words per minute. How many words in 40 minutes?",
+      "answers": ["3,500 words", "2,800 words", "3,000 words", "4,000 words"],
+      "correct": 2,
+      "hint": "Words = rate times time."
+    },
+    {
+      "id": 60,
+      "question": "12 workers complete a project in 15 days. How long for 9 workers?",
+      "answers": ["11.25 days", "20 days", "18 days", "24 days"],
+      "correct": 1,
+      "hint": "Total = 180 worker-days. Divide by 9."
+    },
+    {
+      "id": 61,
+      "question": "Convert 45 km/h to meters per second.",
+      "answers": ["162 m/s", "12.5 m/s", "15 m/s", "8 m/s"],
+      "correct": 1,
+      "hint": "Divide km/h by 3.6 to get m/s."
+    },
+    {
+      "id": 62,
+      "question": "A and B together finish in 5 hours. A alone takes 8 hours. How long for B alone?",
+      "answers": ["3 hours", "13 hours", "10 hours", "13.33 hours"],
+      "correct": 3,
+      "hint": "B's rate = combined rate minus A's rate."
+    },
+    {
+      "id": 63,
+      "question": "A well fills at 20 liters per minute. How many liters in 2 hours?",
+      "answers": ["40 liters", "400 liters", "2,400 liters", "1,200 liters"],
+      "correct": 2,
+      "hint": "Convert hours to minutes: 2 hours = 120 minutes."
+    },
+    {
+      "id": 64,
+      "question": "10 trucks transport goods in 6 trips. How many trips for 15 trucks (same total goods)?",
+      "answers": ["9 trips", "4 trips", "3 trips", "5 trips"],
+      "correct": 1,
+      "hint": "Total = 60 truck-trips. Divide by 15."
+    },
+    {
+      "id": 65,
+      "question": "A pump moves 1,800 gallons in 6 hours. What is the rate in gallons per minute?",
+      "answers": ["300 gal/min", "30 gal/min", "5 gal/min", "50 gal/min"],
+      "correct": 2,
+      "hint": "First find gallons per hour, then divide by 60."
+    },
+    {
+      "id": 66,
+      "question": "Worker X takes 10 hours, Worker Y takes 10 hours. Together, how long?",
+      "answers": ["20 hours", "10 hours", "5 hours", "2.5 hours"],
+      "correct": 2,
+      "hint": "Two equal workers means half the time."
+    },
+    {
+      "id": 67,
+      "question": "A factory produces 240 units per shift (8 hours). Units per hour?",
+      "answers": ["1,920 units", "30 units", "15 units", "60 units"],
+      "correct": 1,
+      "hint": "Divide total units by hours in a shift."
+    },
+    {
+      "id": 68,
+      "question": "Two pipes together fill in 4 hours. One fills in 6 hours alone. How long for the other alone?",
+      "answers": ["10 hours", "12 hours", "2.4 hours", "24 hours"],
+      "correct": 1,
+      "hint": "Second pipe rate = combined rate minus first pipe rate."
+    },
+    {
+      "id": 69,
+      "question": "A snail moves at 0.06 km/h. How many meters per minute?",
+      "answers": ["3.6 m/min", "6 m/min", "1 m/min", "0.36 m/min"],
+      "correct": 2,
+      "hint": "Convert km to meters (times 1000), then hours to minutes (divide by 60)."
+    },
+    {
+      "id": 70,
+      "question": "15 builders complete a house in 24 days. How long for 20 builders?",
+      "answers": ["32 days", "18 days", "12 days", "20 days"],
+      "correct": 1,
+      "hint": "Total = 360 builder-days. Divide by 20."
+    },
+    {
+      "id": 71,
+      "question": "A copier makes 50 copies per minute. Time to make 600 copies?",
+      "answers": ["30,000 minutes", "12 minutes", "10 minutes", "15 minutes"],
+      "correct": 1,
+      "hint": "Time = copies needed divided by rate."
+    },
+    {
+      "id": 72,
+      "question": "Pipe A fills in 6 hours, Pipe B fills in 9 hours. Together, how long?",
+      "answers": ["15 hours", "7.5 hours", "3.6 hours", "5 hours"],
+      "correct": 2,
+      "hint": "Add rates: $\\frac{1}{6} + \\frac{1}{9}$. Find common denominator."
+    },
+    {
+      "id": 73,
+      "question": "A car travels 360 km in 4 hours. What is the speed in m/s?",
+      "answers": ["90 m/s", "36 m/s", "25 m/s", "100 m/s"],
+      "correct": 2,
+      "hint": "First find km/h (360 divided by 4), then convert to m/s (divide by 3.6)."
+    },
+    {
+      "id": 74,
+      "question": "4 excavators dig a trench in 9 hours. How long for 6 excavators?",
+      "answers": ["13.5 hours", "4.5 hours", "6 hours", "8 hours"],
+      "correct": 2,
+      "hint": "Total = 36 excavator-hours. Divide by 6."
+    },
+    {
+      "id": 75,
+      "question": "A filling station pumps 20 liters per minute. How long to fill a 500-liter tank?",
+      "answers": ["10,000 minutes", "25 minutes", "20 minutes", "30 minutes"],
+      "correct": 1,
+      "hint": "Time = volume divided by rate."
+    },
+    {
+      "id": 76,
+      "question": "Workers A, B, C together finish in 3 hours. A alone takes 9 hours, B alone takes 9 hours. How long for C alone?",
+      "answers": ["3 hours", "6 hours", "9 hours", "12 hours"],
+      "correct": 2,
+      "hint": "C's rate = combined rate minus A's rate minus B's rate."
+    },
+    {
+      "id": 77,
+      "question": "A river flows at 3 km/h. A boat's speed in still water is 12 km/h. Upstream speed?",
+      "answers": ["15 km/h", "4 km/h", "9 km/h", "36 km/h"],
+      "correct": 2,
+      "hint": "Upstream: boat speed minus current speed."
+    },
+    {
+      "id": 78,
+      "question": "8 seamstresses sew dresses in 15 days. How long for 12 seamstresses?",
+      "answers": ["22.5 days", "10 days", "8 days", "20 days"],
+      "correct": 1,
+      "hint": "Total = 120 seamstress-days. Divide by 12."
+    },
+    {
+      "id": 79,
+      "question": "Convert 150 meters per minute to km/h.",
+      "answers": ["2.5 km/h", "9 km/h", "25 km/h", "90 km/h"],
+      "correct": 1,
+      "hint": "Multiply m/min by 0.06 to get km/h."
+    },
+    {
+      "id": 80,
+      "question": "A tank fills in 15 hours but has a leak that empties it in 30 hours. How long to fill?",
+      "answers": ["45 hours", "30 hours", "10 hours", "22.5 hours"],
+      "correct": 1,
+      "hint": "Net rate = $\\frac{1}{15} - \\frac{1}{30}$."
+    },
+    {
+      "id": 81,
+      "question": "An assembly line produces 180 units in 3 hours. Units per minute?",
+      "answers": ["540 units", "60 units", "1 unit", "3 units"],
+      "correct": 2,
+      "hint": "First find units per hour, then divide by 60."
+    },
+    {
+      "id": 82,
+      "question": "4 people eat 12 pizzas. How many pizzas for 6 people at the same rate?",
+      "answers": ["8 pizzas", "18 pizzas", "24 pizzas", "2 pizzas"],
+      "correct": 1,
+      "hint": "Find rate per person first: 12 divided by 4 = 3 pizzas/person."
+    },
+    {
+      "id": 83,
+      "question": "Pipe fills in 6 hours, drain empties in 18 hours. Starting half-full with both open, how long to fill completely?",
+      "answers": ["6 hours", "9 hours", "4.5 hours", "3 hours"],
+      "correct": 2,
+      "hint": "Net rate = $\\frac{1}{6} - \\frac{1}{18} = \\frac{1}{9}$. Need to fill remaining half."
+    },
+    {
+      "id": 84,
+      "question": "A cyclist travels 30 km at 15 km/h, then 30 km at 30 km/h. Average speed for entire journey?",
+      "answers": ["22.5 km/h", "20 km/h", "18 km/h", "25 km/h"],
+      "correct": 1,
+      "hint": "Total distance = 60 km. Find total time and divide."
+    },
+    {
+      "id": 85,
+      "question": "6 tractors plow a field in 8 hours. How many tractors to plow in 4 hours?",
+      "answers": ["3 tractors", "12 tractors", "16 tractors", "9 tractors"],
+      "correct": 1,
+      "hint": "Total = 48 tractor-hours. Divide by 4."
+    },
+    {
+      "id": 86,
+      "question": "A tap fills at 15 liters/min, another at 10 liters/min. Both together, how long to fill 150 liters?",
+      "answers": ["10 minutes", "6 minutes", "15 minutes", "3 minutes"],
+      "correct": 1,
+      "hint": "Combined rate = 15 + 10 = 25 liters/min."
+    },
+    {
+      "id": 87,
+      "question": "Worker A is twice as fast as B. Together they finish in 6 hours. How long for A alone?",
+      "answers": ["12 hours", "9 hours", "18 hours", "6 hours"],
+      "correct": 1,
+      "hint": "If A's rate is 2x, B's rate is x. Together: 3x = 1/6."
+    },
+    {
+      "id": 88,
+      "question": "A plane flies 2,100 km in 3 hours. Speed in km/h?",
+      "answers": ["6,300 km/h", "700 km/h", "600 km/h", "900 km/h"],
+      "correct": 1,
+      "hint": "Speed = distance divided by time."
+    },
+    {
+      "id": 89,
+      "question": "5 hoses fill a pool in 4 hours. One hose breaks. How long for remaining 4?",
+      "answers": ["3.2 hours", "5 hours", "6 hours", "8 hours"],
+      "correct": 1,
+      "hint": "Total = 20 hose-hours. Divide by 4."
+    },
+    {
+      "id": 90,
+      "question": "Convert 3 liters per second to liters per hour.",
+      "answers": ["180 liters", "50 liters", "10,800 liters", "0.05 liters"],
+      "correct": 2,
+      "hint": "Multiply by 3600 (seconds in an hour)."
+    },
+    {
+      "id": 91,
+      "question": "Two pumps together empty a tank in 8 hours. One pump alone takes 12 hours. How long for the other alone?",
+      "answers": ["4 hours", "20 hours", "24 hours", "16 hours"],
+      "correct": 2,
+      "hint": "Second pump rate = combined rate minus first pump rate."
+    },
+    {
+      "id": 92,
+      "question": "A worker earns $600 for 10 hours. Hourly rate?",
+      "answers": ["$60", "$6,000", "$50", "$100"],
+      "correct": 0,
+      "hint": "Rate = total earnings divided by hours worked."
+    },
+    {
+      "id": 93,
+      "question": "12 masons build a wall in 18 days. After 6 days, 6 more join. Total days to complete?",
+      "answers": ["15 days", "12 days", "10 days", "14 days"],
+      "correct": 1,
+      "hint": "After 6 days, $\\frac{1}{3}$ done. 18 masons finish remaining $\\frac{2}{3}$."
+    },
+    {
+      "id": 94,
+      "question": "A conveyor moves 600 kg per hour. How many kg in 20 minutes?",
+      "answers": ["12,000 kg", "30 kg", "200 kg", "300 kg"],
+      "correct": 2,
+      "hint": "20 minutes = 1/3 hours. Multiply rate by time."
+    },
+    {
+      "id": 95,
+      "question": "Pipe A fills in 10 hours, B in 20 hours, drain C empties in 40 hours. All open, how long to fill?",
+      "answers": ["8 hours", "6.67 hours", "5 hours", "4 hours"],
+      "correct": 0,
+      "hint": "Net rate = $\\frac{1}{10} + \\frac{1}{20} - \\frac{1}{40}$."
+    },
+    {
+      "id": 96,
+      "question": "A cyclist's speed is 24 km/h. In m/min?",
+      "answers": ["1,440 m/min", "6.67 m/min", "400 m/min", "40 m/min"],
+      "correct": 2,
+      "hint": "Convert km to m (times 1000), hours to minutes (divide by 60)."
+    },
+    {
+      "id": 97,
+      "question": "9 writers write a book in 8 weeks. How long for 6 writers?",
+      "answers": ["5.33 weeks", "12 weeks", "10 weeks", "18 weeks"],
+      "correct": 1,
+      "hint": "Total = 72 writer-weeks. Divide by 6."
+    },
+    {
+      "id": 98,
+      "question": "A tank receives 60 liters/hour and loses 15 liters/hour. Starting empty, how long to reach 450 liters?",
+      "answers": ["7.5 hours", "30 hours", "10 hours", "15 hours"],
+      "correct": 2,
+      "hint": "Net rate = 60 minus 15 = 45 liters/hour. Time = 450 divided by 45."
+    },
+    {
+      "id": 99,
+      "question": "A and B together take 4 hours. B and C together take 6 hours. A and C together take 8 hours. How long for all three?",
+      "answers": ["3.43 hours", "6 hours", "2 hours", "18 hours"],
+      "correct": 0,
+      "hint": "Add all three equations and divide by 2 to get combined rate."
+    },
+    {
+      "id": 100,
+      "question": "Convert 60 miles per hour to feet per second. (1 mile = 5,280 feet)",
+      "answers": ["316,800 ft/s", "88 ft/s", "44 ft/s", "176 ft/s"],
+      "correct": 1,
+      "hint": "Multiply by 5,280 for feet, divide by 3,600 for seconds."
+    },
+    {
+      "id": 101,
+      "question": "18 carpenters finish in 6 days. How long for 9 carpenters?",
+      "answers": ["3 days", "12 days", "27 days", "36 days"],
+      "correct": 1,
+      "hint": "Total = 108 carpenter-days. Divide by 9."
+    },
+    {
+      "id": 102,
+      "question": "A sprinkler uses 12 gallons per minute. How many gallons in 1.5 hours?",
+      "answers": ["18 gallons", "720 gallons", "1,080 gallons", "180 gallons"],
+      "correct": 2,
+      "hint": "Convert hours to minutes: 1.5 hours = 90 minutes."
+    },
+    {
+      "id": 103,
+      "question": "Machines A and B together make 120 parts/hour. A makes 45 parts/hour. B's rate?",
+      "answers": ["75 parts/hour", "165 parts/hour", "2.67 parts/hour", "5,400 parts/hour"],
+      "correct": 0,
+      "hint": "B's rate = combined rate minus A's rate."
+    },
+    {
+      "id": 104,
+      "question": "A boat travels 24 km upstream in 4 hours and downstream in 2 hours. Current speed?",
+      "answers": ["9 km/h", "6 km/h", "3 km/h", "12 km/h"],
+      "correct": 2,
+      "hint": "Upstream = 6 km/h, downstream = 12 km/h. Current = (12 minus 6)/2."
+    },
+    {
+      "id": 105,
+      "question": "6 robots assemble cars in 10 hours. How many robots to do it in 4 hours?",
+      "answers": ["2.4 robots", "15 robots", "24 robots", "12 robots"],
+      "correct": 1,
+      "hint": "Total = 60 robot-hours. Divide by 4."
+    },
+    {
+      "id": 106,
+      "question": "Convert 250 meters per second to km/h.",
+      "answers": ["69.4 km/h", "900 km/h", "416.7 km/h", "2,500 km/h"],
+      "correct": 1,
+      "hint": "Multiply m/s by 3.6 to get km/h."
+    },
+    {
+      "id": 107,
+      "question": "Inlet fills in 12 hours, drain empties in 16 hours. How long to fill from 1/4 full?",
+      "answers": ["36 hours", "24 hours", "48 hours", "12 hours"],
+      "correct": 0,
+      "hint": "Net rate = $\\frac{1}{12} - \\frac{1}{16} = \\frac{1}{48}$. Need to fill 3/4."
+    },
+    {
+      "id": 108,
+      "question": "A reads 40 pages/hour, B reads 25 pages/hour. A starts 3 hours after B on a 300-page book. Who finishes first?",
+      "answers": ["B, by 30 min", "They tie", "A, by 30 min", "A, by 1 hour"],
+      "correct": 2,
+      "hint": "Find time each takes and compare. A: 7.5 hours plus 3 hour delay."
+    },
+    {
+      "id": 109,
+      "question": "24 clerks process files in 3 days. How long for 18 clerks?",
+      "answers": ["2.25 days", "4 days", "5 days", "6 days"],
+      "correct": 1,
+      "hint": "Total = 72 clerk-days. Divide by 18."
+    },
+    {
+      "id": 110,
+      "question": "A machine fills 45 bottles per minute. How many hours to fill 13,500 bottles?",
+      "answers": ["300 hours", "5 hours", "0.167 hours", "50 hours"],
+      "correct": 1,
+      "hint": "First find minutes: 13,500 divided by 45 = 300. Convert to hours."
+    },
+    {
+      "id": 111,
+      "question": "Two hoses together fill a pond in 6 hours. One fills in 10 hours. How long for the other alone?",
+      "answers": ["4 hours", "16 hours", "15 hours", "60 hours"],
+      "correct": 2,
+      "hint": "Second hose rate = $\\frac{1}{6} - \\frac{1}{10}$."
+    },
+    {
+      "id": 112,
+      "question": "A train travels at 80 km/h for 3 hours, then 100 km/h for 2 hours. Average speed?",
+      "answers": ["90 km/h", "88 km/h", "85 km/h", "92 km/h"],
+      "correct": 1,
+      "hint": "Total distance = 240 plus 200 = 440. Total time = 5. Average = 440/5."
+    },
+    {
+      "id": 113,
+      "question": "10 painters paint in 5 days. 3 get sick on day 2. How many more days to finish after day 2?",
+      "answers": ["4.29 days", "6 days", "3 days", "8 days"],
+      "correct": 0,
+      "hint": "After 2 days, 2/5 done. 7 painters finish 3/5 remaining."
+    },
+    {
+      "id": 114,
+      "question": "A faucet fills a 80-liter tub in 20 minutes. Rate in liters per second?",
+      "answers": ["4 L/s", "0.067 L/s", "240 L/s", "1.33 L/s"],
+      "correct": 1,
+      "hint": "First find L/min (80 divided by 20 = 4), then divide by 60."
+    },
+    {
+      "id": 115,
+      "question": "Workers A, B together take 8 hours. B, C together take 12 hours. A is twice as fast as C. How long for A alone?",
+      "answers": ["12 hours", "16 hours", "24 hours", "10 hours"],
+      "correct": 1,
+      "hint": "Set up equations using rates. If C = x, then A = 2x."
+    },
+    {
+      "id": 116,
+      "question": "A pump removes 2 cubic meters per minute from a flooded area. Cubic meters per hour?",
+      "answers": ["0.033 m^3", "120 m^3", "33.3 m^3", "200 m^3"],
+      "correct": 1,
+      "hint": "Multiply by 60 to convert from per minute to per hour."
+    },
+    {
+      "id": 117,
+      "question": "15 loaders load a ship in 6 hours. How long for 45 loaders?",
+      "answers": ["18 hours", "2 hours", "1 hour", "9 hours"],
+      "correct": 1,
+      "hint": "Triple the loaders = one-third the time."
+    },
+    {
+      "id": 118,
+      "question": "A fills in 8h, B fills in 12h, C drains in 24h. All open, how long to fill?",
+      "answers": ["28 hours", "6 hours", "4.8 hours", "9.6 hours"],
+      "correct": 1,
+      "hint": "Net rate = $\\frac{1}{8} + \\frac{1}{12} - \\frac{1}{24}$."
+    },
+    {
+      "id": 119,
+      "question": "A car's fuel efficiency is 15 km/L. How many liters for 600 km?",
+      "answers": ["9,000 liters", "40 liters", "50 liters", "25 liters"],
+      "correct": 1,
+      "hint": "Liters = distance divided by efficiency."
+    },
+    {
+      "id": 120,
+      "question": "Two assembly lines produce 40 and 60 items/hour. How long to produce 800 items together?",
+      "answers": ["13.33 hours", "8 hours", "20 hours", "4 hours"],
+      "correct": 1,
+      "hint": "Combined rate = 40 plus 60 = 100 items/hour."
+    },
+    {
+      "id": 121,
+      "question": "9 chefs prepare a banquet in 4 hours. How long for 6 chefs?",
+      "answers": ["2.67 hours", "6 hours", "13.5 hours", "8 hours"],
+      "correct": 1,
+      "hint": "Total = 36 chef-hours. Divide by 6."
+    },
+    {
+      "id": 122,
+      "question": "Convert 0.75 km per minute to m/s.",
+      "answers": ["45 m/s", "12.5 m/s", "750 m/s", "4.5 m/s"],
+      "correct": 1,
+      "hint": "0.75 km = 750 m. 1 minute = 60 seconds."
+    },
+    {
+      "id": 123,
+      "question": "Tank fills in 15 min, drains in 25 min. Both open for 10 min then drain closes. How much longer to fill?",
+      "answers": ["6 minutes", "10 minutes", "4 minutes", "8 minutes"],
+      "correct": 0,
+      "hint": "In 10 min, net = $10(\\frac{1}{15} - \\frac{1}{25}) = \\frac{4}{15}$. Fill rate finishes rest."
+    },
+    {
+      "id": 124,
+      "question": "A computer processes 2,000 records per second. Time for 6 million records?",
+      "answers": ["3,000 seconds", "50 minutes", "500 seconds", "30 minutes"],
+      "correct": 1,
+      "hint": "Time = 6,000,000 divided by 2,000 = 3,000 seconds. Convert to minutes."
+    },
+    {
+      "id": 125,
+      "question": "20 workers finish in 4 days. After 1 day, 5 workers leave. How many more days?",
+      "answers": ["4 days", "5 days", "3 days", "6 days"],
+      "correct": 0,
+      "hint": "After 1 day, 1/4 done. 15 workers finish 3/4 remaining."
+    },
+    {
+      "id": 126,
+      "question": "A lawn mower uses 0.6 gallons per hour. Gallons for 3.5 hours?",
+      "answers": ["5.83 gallons", "0.17 gallons", "2.1 gallons", "21 gallons"],
+      "correct": 2,
+      "hint": "Fuel = rate times time."
+    },
+    {
+      "id": 127,
+      "question": "Pump A fills in 9h, pump B in 18h. A runs for 3h alone, then B joins. Total time to fill?",
+      "answers": ["7 hours", "6 hours", "5 hours", "8 hours"],
+      "correct": 1,
+      "hint": "After 3h, 1/3 filled. Both together fill remaining 2/3."
+    },
+    {
+      "id": 128,
+      "question": "A sprinter runs 200m in 20 seconds. Speed in km/h?",
+      "answers": ["10 km/h", "36 km/h", "72 km/h", "360 km/h"],
+      "correct": 1,
+      "hint": "10 m/s times 3.6 = km/h."
+    },
+    {
+      "id": 129,
+      "question": "12 electricians wire a building in 10 days. How long for 15 electricians?",
+      "answers": ["12.5 days", "8 days", "6 days", "18 days"],
+      "correct": 1,
+      "hint": "Total = 120 electrician-days. Divide by 15."
+    },
+    {
+      "id": 130,
+      "question": "Two inlet pipes: A at 8 L/min, B at 4 L/min. Outlet at 6 L/min. Net rate?",
+      "answers": ["18 L/min", "2 L/min", "6 L/min", "10 L/min"],
+      "correct": 2,
+      "hint": "Net = A plus B minus outlet = 8 plus 4 minus 6."
+    },
+    {
+      "id": 131,
+      "question": "A truck delivers 400 packages per day. Days for 5,200 packages?",
+      "answers": ["2,080,000 days", "13 days", "1.3 days", "130 days"],
+      "correct": 1,
+      "hint": "Days = total packages divided by daily rate."
+    },
+    {
+      "id": 132,
+      "question": "Worker efficiency: A does 50% in 2h, B does 50% in 3h. Together from start, how long for 100%?",
+      "answers": ["5 hours", "2.5 hours", "2.4 hours", "1.2 hours"],
+      "correct": 2,
+      "hint": "A's rate = 25%/h, B's rate = 16.67%/h. Combined = 41.67%/h."
+    },
+    {
+      "id": 133,
+      "question": "Convert 30 gallons per minute to gallons per hour.",
+      "answers": ["0.5 gal/h", "1,800 gal/h", "30 gal/h", "180 gal/h"],
+      "correct": 1,
+      "hint": "Multiply by 60 to convert minutes to hours."
+    },
+    {
+      "id": 134,
+      "question": "30 people queue, served at 5 per minute. A new person joins every minute. After 10 min, queue length?",
+      "answers": ["20 people", "0 people", "40 people", "10 people"],
+      "correct": 1,
+      "hint": "Net change per minute: 5 served minus 1 joining = 4 decrease."
+    },
+    {
+      "id": 135,
+      "question": "A tank fills in 10h with tap A, 15h with tap B. A runs 3h, then both run. Total time?",
+      "answers": ["6.6 hours", "5 hours", "7 hours", "9 hours"],
+      "correct": 0,
+      "hint": "After 3h, 3/10 filled. Combined rate fills remaining 7/10."
+    },
+    {
+      "id": 136,
+      "question": "A cyclist covers 45 km in 2.5 hours. Rate in m/s?",
+      "answers": ["18 m/s", "45 m/s", "5 m/s", "0.5 m/s"],
+      "correct": 2,
+      "hint": "First km/h (45 divided by 2.5 = 18), then divide by 3.6 for m/s."
+    },
+    {
+      "id": 137,
+      "question": "18 programmers debug in 4 days. How many programmers for 3 days?",
+      "answers": ["13.5 programmers", "24 programmers", "36 programmers", "54 programmers"],
+      "correct": 1,
+      "hint": "Total = 72 programmer-days. Divide by 3."
+    },
+    {
+      "id": 138,
+      "question": "Pump removes water at 300 L/min. Inflow is 100 L/min. Net removal rate?",
+      "answers": ["400 L/min", "3 L/min", "200 L/min", "100 L/min"],
+      "correct": 2,
+      "hint": "Net removal = pump rate minus inflow."
+    },
+    {
+      "id": 139,
+      "question": "A train 200m long traveling 25 m/s passes a man. Time taken?",
+      "answers": ["5000 seconds", "0.125 seconds", "8 seconds", "12.5 seconds"],
+      "correct": 2,
+      "hint": "Time = train length divided by speed."
+    },
+    {
+      "id": 140,
+      "question": "Two workers together in 4h. One is 50% faster than the other. Time for the faster one alone?",
+      "answers": ["6.67 hours", "10 hours", "8 hours", "5 hours"],
+      "correct": 0,
+      "hint": "If slower = x, faster = 1.5x. Together: 2.5x = 1/4 per hour."
+    },
+    {
+      "id": 141,
+      "question": "A tank empties 1/6 per hour through a leak. How long to empty completely?",
+      "answers": ["0.167 hours", "36 hours", "1 hour", "6 hours"],
+      "correct": 3,
+      "hint": "If 1/6 empties per hour, full tank takes how many hours?"
+    },
+    {
+      "id": 142,
+      "question": "Convert 240 degrees per minute to degrees per second.",
+      "answers": ["14,400 deg/s", "4 deg/s", "0.25 deg/s", "40 deg/s"],
+      "correct": 1,
+      "hint": "Divide by 60 to convert from per minute to per second."
+    },
+    {
+      "id": 143,
+      "question": "18 students clean a hall in 30 minutes. How long for 27 students?",
+      "answers": ["45 minutes", "40.5 minutes", "20 minutes", "15 minutes"],
+      "correct": 2,
+      "hint": "Total = 540 student-minutes. Divide by 27."
+    },
+    {
+      "id": 144,
+      "question": "Pipe A fills 3/4 in 9h. Pipe B fills 1/4 in 4h. Together from empty, how long to fill?",
+      "answers": ["13 hours", "6.5 hours", "8 hours", "10 hours"],
+      "correct": 2,
+      "hint": "A's rate = 1/12 per hour. B's rate = 1/16 per hour. Add them."
+    },
+    {
+      "id": 145,
+      "question": "A machine runs 20 hours/day producing 500 units. Units per hour?",
+      "answers": ["10,000 units", "25 units", "2.5 units", "400 units"],
+      "correct": 1,
+      "hint": "Rate = total units divided by hours."
+    },
+    {
+      "id": 146,
+      "question": "Two towns 300 km apart. Car A starts at 7 AM going 60 km/h. Car B starts at 8 AM at 80 km/h toward A. When do they meet?",
+      "answers": ["9:43 AM", "10:00 AM", "11:00 AM", "8:30 AM"],
+      "correct": 0,
+      "hint": "At 8 AM, A has traveled 60 km. Remaining gap = 240 km. Combined speed = 140 km/h."
+    },
+    {
+      "id": 147,
+      "question": "A reservoir loses 5% of water daily through evaporation. Starting with 2,000 liters, how much after 3 days?",
+      "answers": ["1,700 liters", "1,857.5 liters", "1,710 liters", "1,500 liters"],
+      "correct": 2,
+      "hint": "Each day: multiply by 0.95. After 3 days: $2000 \\times 0.95^3$."
+    },
+    {
+      "id": 148,
+      "question": "3 pipes fill in 8, 12, and 24 hours. All three together?",
+      "answers": ["4 hours", "44 hours", "14.67 hours", "2.67 hours"],
+      "correct": 0,
+      "hint": "Add rates: $\\frac{1}{8} + \\frac{1}{12} + \\frac{1}{24}$. Find LCM."
+    },
+    {
+      "id": 149,
+      "question": "A photocopier makes 60 copies per minute. Time to make 2,100 copies?",
+      "answers": ["126,000 minutes", "35 minutes", "0.58 hours", "3.5 minutes"],
+      "correct": 1,
+      "hint": "Time = copies divided by rate."
+    },
+    {
+      "id": 150,
+      "question": "Worker A alone in 12h, B alone in 18h. A works 6h, then B joins. How much longer until done?",
+      "answers": ["6 hours", "3 hours", "4.5 hours", "9 hours"],
+      "correct": 0,
+      "hint": "After 6h, A has done 1/2. Combined rate finishes remaining 1/2."
     }
   ],
   "access": [0, 1]

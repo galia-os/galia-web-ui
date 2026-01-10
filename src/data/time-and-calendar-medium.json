@@ -284,6 +284,776 @@
       "answers": ["Monday", "Thursday", "Tuesday", "Friday"],
       "correct": 2,
       "hint": "One day before means the day that comes right before Wednesday."
+    },
+    {
+      "id": 41,
+      "question": "A movie starts at 2:15 PM and lasts 2 hours. What time does it end?",
+      "answers": ["4:15 PM", "4:30 PM", "3:15 PM", "5:15 PM"],
+      "correct": 0,
+      "hint": "Add 2 hours to the starting time. Keep the minutes the same."
+    },
+    {
+      "id": 42,
+      "question": "How many minutes are in half an hour?",
+      "answers": ["20", "15", "30", "45"],
+      "correct": 2,
+      "hint": "An hour has 60 minutes. What is half of 60?"
+    },
+    {
+      "id": 43,
+      "question": "If school ends at 3:30 PM and started 6 hours earlier, what time did school start?",
+      "answers": ["10:30 AM", "9:30 AM", "8:30 AM", "9:30 PM"],
+      "correct": 1,
+      "hint": "Count backward 6 hours from 3:30 PM. You'll cross noon!"
+    },
+    {
+      "id": 44,
+      "question": "What day is 10 days after Monday?",
+      "answers": ["Wednesday", "Thursday", "Friday", "Tuesday"],
+      "correct": 1,
+      "hint": "10 days is 1 week plus 3 more days. Start at Monday, add a week, then 3 more."
+    },
+    {
+      "id": 45,
+      "question": "What time is 45 minutes after 6:00 PM?",
+      "answers": ["6:45 PM", "7:00 PM", "7:45 PM", "5:45 PM"],
+      "correct": 0,
+      "hint": "Add 45 minutes to 6:00. Does it reach the next hour?"
+    },
+    {
+      "id": 46,
+      "question": "Is midnight AM or PM?",
+      "answers": ["PM", "AM", "Neither", "Both"],
+      "correct": 1,
+      "hint": "Midnight is 12:00 at night, when a new day begins."
+    },
+    {
+      "id": 47,
+      "question": "If today is Thursday, what day will it be in 2 weeks?",
+      "answers": ["Saturday", "Wednesday", "Thursday", "Friday"],
+      "correct": 2,
+      "hint": "2 weeks is 14 days. After 14 days, you land on the same day of the week!"
+    },
+    {
+      "id": 48,
+      "question": "What time is 30 minutes before 1:00 PM?",
+      "answers": ["12:00 PM", "12:30 PM", "1:30 PM", "12:30 AM"],
+      "correct": 1,
+      "hint": "Go back 30 minutes from 1:00. What comes before 1 o'clock?"
+    },
+    {
+      "id": 49,
+      "question": "How many days are in the month of April?",
+      "answers": ["31", "28", "30", "29"],
+      "correct": 2,
+      "hint": "April is one of the months with 30 days. Think: 30 days has September, April..."
+    },
+    {
+      "id": 50,
+      "question": "What time is 1 hour and 30 minutes after 10:00 AM?",
+      "answers": ["11:00 AM", "12:30 PM", "11:30 AM", "12:00 PM"],
+      "correct": 2,
+      "hint": "First add 1 hour, then add 30 minutes."
+    },
+    {
+      "id": 51,
+      "question": "If a bus comes every 20 minutes and the last one came at 4:00 PM, when is the next bus?",
+      "answers": ["4:30 PM", "4:15 PM", "4:20 PM", "4:40 PM"],
+      "correct": 2,
+      "hint": "Add 20 minutes to 4:00 PM."
+    },
+    {
+      "id": 52,
+      "question": "What day is 4 days before Sunday?",
+      "answers": ["Thursday", "Wednesday", "Tuesday", "Friday"],
+      "correct": 1,
+      "hint": "Count back from Sunday: Saturday, Friday, Thursday, then one more."
+    },
+    {
+      "id": 53,
+      "question": "What time in the evening is 7 hours after 12:00 PM?",
+      "answers": ["8:00 PM", "7:00 PM", "6:00 PM", "5:00 PM"],
+      "correct": 1,
+      "hint": "Start at noon (12:00 PM) and add 7 hours."
+    },
+    {
+      "id": 54,
+      "question": "Which month comes 2 months after March?",
+      "answers": ["June", "April", "May", "July"],
+      "correct": 2,
+      "hint": "March, then count two more months forward."
+    },
+    {
+      "id": 55,
+      "question": "How many hours are from 8:00 AM to 3:00 PM?",
+      "answers": ["6 hours", "5 hours", "7 hours", "8 hours"],
+      "correct": 2,
+      "hint": "Count the hours from 8 to 12, then from 12 to 3."
+    },
+    {
+      "id": 56,
+      "question": "What time is 'half past 11'?",
+      "answers": ["11:15", "11:45", "10:30", "11:30"],
+      "correct": 3,
+      "hint": "Half past always means 30 minutes after the hour."
+    },
+    {
+      "id": 57,
+      "question": "If it's 9:45 PM now, what time will it be in 30 minutes?",
+      "answers": ["10:00 PM", "10:15 PM", "9:15 PM", "10:45 PM"],
+      "correct": 1,
+      "hint": "45 + 30 = 75 minutes. That's more than an hour! What's left over?"
+    },
+    {
+      "id": 58,
+      "question": "What day is the middle of the week?",
+      "answers": ["Tuesday", "Thursday", "Wednesday", "Friday"],
+      "correct": 2,
+      "hint": "If Sunday is day 1 and Saturday is day 7, which day is day 4?"
+    },
+    {
+      "id": 59,
+      "question": "How many minutes are in 2 hours?",
+      "answers": ["100", "90", "120", "150"],
+      "correct": 2,
+      "hint": "One hour is 60 minutes. What is 60 times 2?"
+    },
+    {
+      "id": 60,
+      "question": "What time is 15 minutes before 5:00 PM?",
+      "answers": ["4:45 PM", "5:15 PM", "4:30 PM", "5:45 PM"],
+      "correct": 0,
+      "hint": "Before means earlier. Subtract 15 minutes from 5:00."
+    },
+    {
+      "id": 61,
+      "question": "If a TV show lasts 45 minutes and starts at 7:00 PM, when does it end?",
+      "answers": ["7:30 PM", "8:00 PM", "8:15 PM", "7:45 PM"],
+      "correct": 3,
+      "hint": "Add 45 minutes to 7:00 PM."
+    },
+    {
+      "id": 62,
+      "question": "What day will it be 8 days from Friday?",
+      "answers": ["Friday", "Saturday", "Sunday", "Thursday"],
+      "correct": 1,
+      "hint": "8 days is 1 week plus 1 day. A week from Friday is Friday, then add 1 more day."
+    },
+    {
+      "id": 63,
+      "question": "What is 3 hours before 2:00 AM?",
+      "answers": ["11:00 PM", "5:00 AM", "12:00 AM", "10:00 PM"],
+      "correct": 0,
+      "hint": "Go backward from 2:00 AM. You'll cross midnight!"
+    },
+    {
+      "id": 64,
+      "question": "How many days are in June?",
+      "answers": ["31", "28", "29", "30"],
+      "correct": 3,
+      "hint": "June is one of the 30-day months. Remember: 30 days has September, April, June..."
+    },
+    {
+      "id": 65,
+      "question": "If lunch is at 12:30 PM and it's now 11:45 AM, how many minutes until lunch?",
+      "answers": ["45 minutes", "15 minutes", "55 minutes", "30 minutes"],
+      "correct": 0,
+      "hint": "From 11:45 to 12:00 is 15 minutes. Then add 30 more to get to 12:30."
+    },
+    {
+      "id": 66,
+      "question": "What time is 'quarter to 12'?",
+      "answers": ["11:45", "12:45", "11:15", "12:15"],
+      "correct": 0,
+      "hint": "Quarter to means 15 minutes before. What is 15 minutes before 12?"
+    },
+    {
+      "id": 67,
+      "question": "Which month comes 3 months before October?",
+      "answers": ["June", "July", "August", "September"],
+      "correct": 1,
+      "hint": "Count backward from October: September, August, then one more."
+    },
+    {
+      "id": 68,
+      "question": "What time is 2 hours and 15 minutes after 4:00 PM?",
+      "answers": ["6:00 PM", "6:15 PM", "5:15 PM", "7:15 PM"],
+      "correct": 1,
+      "hint": "First add 2 hours to get 6:00 PM, then add 15 minutes."
+    },
+    {
+      "id": 69,
+      "question": "If today is Wednesday and your birthday is in 5 days, what day is your birthday?",
+      "answers": ["Sunday", "Monday", "Saturday", "Tuesday"],
+      "correct": 1,
+      "hint": "Count 5 days from Wednesday: Thursday, Friday, Saturday, Sunday, then one more."
+    },
+    {
+      "id": 70,
+      "question": "How many hours are from 6:00 PM to midnight?",
+      "answers": ["5 hours", "7 hours", "6 hours", "8 hours"],
+      "correct": 2,
+      "hint": "Count from 6:00 PM to 12:00 AM (midnight)."
+    },
+    {
+      "id": 71,
+      "question": "What time is 20 minutes after 3:40 PM?",
+      "answers": ["4:00 PM", "3:60 PM", "4:10 PM", "3:50 PM"],
+      "correct": 0,
+      "hint": "40 + 20 = 60 minutes. What happens when you reach 60 minutes?"
+    },
+    {
+      "id": 72,
+      "question": "What day is 12 days after Tuesday?",
+      "answers": ["Saturday", "Friday", "Sunday", "Monday"],
+      "correct": 2,
+      "hint": "12 days is 1 week (7 days) plus 5 more days."
+    },
+    {
+      "id": 73,
+      "question": "If recess starts at 10:15 AM and lasts 20 minutes, when does it end?",
+      "answers": ["10:45 AM", "10:30 AM", "10:35 AM", "11:15 AM"],
+      "correct": 2,
+      "hint": "Add 20 minutes to 10:15."
+    },
+    {
+      "id": 74,
+      "question": "What time is 5 hours after 10:00 PM?",
+      "answers": ["2:00 AM", "3:00 AM", "4:00 AM", "3:00 PM"],
+      "correct": 1,
+      "hint": "10 + 5 = 15, but after 12 you start over. You'll cross midnight!"
+    },
+    {
+      "id": 75,
+      "question": "How many days are there from Monday to Friday (including both)?",
+      "answers": ["4", "6", "5", "3"],
+      "correct": 2,
+      "hint": "Count: Monday (1), Tuesday (2), Wednesday (3), Thursday (4), Friday (?)."
+    },
+    {
+      "id": 76,
+      "question": "What time is 40 minutes before 9:00 AM?",
+      "answers": ["8:30 AM", "8:20 AM", "9:40 AM", "8:40 AM"],
+      "correct": 1,
+      "hint": "Go back from 9:00. 60 minus 40 is how many minutes past 8?"
+    },
+    {
+      "id": 77,
+      "question": "Which is the first month of the year?",
+      "answers": ["March", "February", "December", "January"],
+      "correct": 3,
+      "hint": "Think about when we celebrate New Year's Day!"
+    },
+    {
+      "id": 78,
+      "question": "If dinner is at 6:00 PM and you need 45 minutes to get ready, when should you start?",
+      "answers": ["5:00 PM", "5:30 PM", "5:15 PM", "5:45 PM"],
+      "correct": 2,
+      "hint": "Subtract 45 minutes from 6:00 PM."
+    },
+    {
+      "id": 79,
+      "question": "What day was it 6 days ago if today is Saturday?",
+      "answers": ["Monday", "Tuesday", "Sunday", "Wednesday"],
+      "correct": 2,
+      "hint": "Count backward 6 days from Saturday."
+    },
+    {
+      "id": 80,
+      "question": "How many minutes are in 1 hour and 15 minutes?",
+      "answers": ["65", "70", "80", "75"],
+      "correct": 3,
+      "hint": "Convert 1 hour to minutes (60), then add 15 more."
+    },
+    {
+      "id": 81,
+      "question": "What time is 'half past 8' in the morning?",
+      "answers": ["8:15 AM", "8:30 AM", "9:30 AM", "8:45 AM"],
+      "correct": 1,
+      "hint": "Half past means 30 minutes after. What AM/PM is morning?"
+    },
+    {
+      "id": 82,
+      "question": "If it takes 25 minutes to walk to school and you need to arrive by 8:00 AM, when should you leave?",
+      "answers": ["7:25 AM", "7:45 AM", "7:30 AM", "7:35 AM"],
+      "correct": 3,
+      "hint": "Subtract 25 minutes from 8:00 AM."
+    },
+    {
+      "id": 83,
+      "question": "What day is 9 days before Wednesday?",
+      "answers": ["Saturday", "Sunday", "Friday", "Thursday"],
+      "correct": 1,
+      "hint": "9 days back is 1 week (7 days) plus 2 more days before."
+    },
+    {
+      "id": 84,
+      "question": "How many hours are from 9:00 AM to 5:00 PM?",
+      "answers": ["7 hours", "8 hours", "6 hours", "9 hours"],
+      "correct": 1,
+      "hint": "Count from 9 to 12 (3 hours), then from 12 to 5 (5 hours). Add them!"
+    },
+    {
+      "id": 85,
+      "question": "What time is 1 hour and 45 minutes after 11:30 AM?",
+      "answers": ["12:45 PM", "1:15 PM", "12:15 PM", "1:30 PM"],
+      "correct": 1,
+      "hint": "Add 1 hour (to 12:30 PM), then add 45 minutes."
+    },
+    {
+      "id": 86,
+      "question": "Which month has 28 or 29 days?",
+      "answers": ["April", "January", "February", "March"],
+      "correct": 2,
+      "hint": "This is the shortest month. It has 29 days in leap years!"
+    },
+    {
+      "id": 87,
+      "question": "If a basketball game starts at 4:30 PM and ends at 6:15 PM, how long was the game?",
+      "answers": ["1 hour 30 minutes", "2 hours", "1 hour 45 minutes", "2 hours 15 minutes"],
+      "correct": 2,
+      "hint": "From 4:30 to 5:30 is 1 hour. Then count the remaining minutes to 6:15."
+    },
+    {
+      "id": 88,
+      "question": "What time is 6 hours before 1:00 PM?",
+      "answers": ["7:00 PM", "6:00 AM", "8:00 AM", "7:00 AM"],
+      "correct": 3,
+      "hint": "Count back from 1:00 PM. You'll cross noon!"
+    },
+    {
+      "id": 89,
+      "question": "What day is 11 days after Sunday?",
+      "answers": ["Wednesday", "Friday", "Thursday", "Saturday"],
+      "correct": 2,
+      "hint": "11 days is 1 week plus 4 days. Sunday + 7 = Sunday, then add 4 more."
+    },
+    {
+      "id": 90,
+      "question": "How many minutes are from 2:20 PM to 3:00 PM?",
+      "answers": ["40 minutes", "30 minutes", "50 minutes", "20 minutes"],
+      "correct": 0,
+      "hint": "From 2:20, how many more minutes until you reach 3:00?"
+    },
+    {
+      "id": 91,
+      "question": "What time is 'quarter past 1' in the afternoon?",
+      "answers": ["1:30 PM", "12:15 PM", "1:15 PM", "1:45 PM"],
+      "correct": 2,
+      "hint": "Quarter past means 15 minutes after. Afternoon uses PM."
+    },
+    {
+      "id": 92,
+      "question": "If you wake up at 7:00 AM and go to bed at 9:00 PM, how many hours are you awake?",
+      "answers": ["12 hours", "13 hours", "15 hours", "14 hours"],
+      "correct": 3,
+      "hint": "Count from 7:00 AM to 9:00 PM. Don't forget to cross noon!"
+    },
+    {
+      "id": 93,
+      "question": "What day is 2 days before Thursday?",
+      "answers": ["Monday", "Tuesday", "Wednesday", "Friday"],
+      "correct": 1,
+      "hint": "Go back: Wednesday is 1 before Thursday, then one more day back."
+    },
+    {
+      "id": 94,
+      "question": "What time is 50 minutes after 7:30 PM?",
+      "answers": ["8:10 PM", "8:20 PM", "8:30 PM", "8:00 PM"],
+      "correct": 1,
+      "hint": "30 + 50 = 80 minutes. That's 1 hour and 20 minutes!"
+    },
+    {
+      "id": 95,
+      "question": "Which month comes right after September?",
+      "answers": ["November", "August", "October", "December"],
+      "correct": 2,
+      "hint": "September ends, and then the spooky month with Halloween begins!"
+    },
+    {
+      "id": 96,
+      "question": "How many hours are from noon to 8:00 PM?",
+      "answers": ["6 hours", "9 hours", "8 hours", "7 hours"],
+      "correct": 2,
+      "hint": "Noon is 12:00 PM. Count from 12 to 8."
+    },
+    {
+      "id": 97,
+      "question": "If a train leaves at 9:45 AM and arrives at 12:15 PM, how long is the trip?",
+      "answers": ["2 hours 15 minutes", "2 hours 45 minutes", "2 hours 30 minutes", "3 hours"],
+      "correct": 2,
+      "hint": "From 9:45 to 10:45 is 1 hour. Keep adding until you reach 12:15."
+    },
+    {
+      "id": 98,
+      "question": "What time is 35 minutes before 4:00 PM?",
+      "answers": ["3:35 PM", "3:15 PM", "3:25 PM", "3:30 PM"],
+      "correct": 2,
+      "hint": "Go back from 4:00. 60 minus 35 equals how many minutes past 3?"
+    },
+    {
+      "id": 99,
+      "question": "What day will it be in 15 days if today is Monday?",
+      "answers": ["Monday", "Tuesday", "Wednesday", "Sunday"],
+      "correct": 1,
+      "hint": "15 days is 2 weeks plus 1 day. After 14 days, you're back to Monday."
+    },
+    {
+      "id": 100,
+      "question": "How many minutes are in 90 seconds?",
+      "answers": ["1 minute 20 seconds", "1 minute 30 seconds", "2 minutes", "1 minute 40 seconds"],
+      "correct": 1,
+      "hint": "60 seconds equals 1 minute. What's left after taking out 60 from 90?"
+    },
+    {
+      "id": 101,
+      "question": "What time is 4 hours after 11:00 AM?",
+      "answers": ["2:00 PM", "4:00 PM", "3:00 PM", "1:00 PM"],
+      "correct": 2,
+      "hint": "11 + 4 = 15. After 12 comes 1, 2, 3... and it switches to PM!"
+    },
+    {
+      "id": 102,
+      "question": "If you start homework at 4:15 PM and finish at 5:00 PM, how long did you work?",
+      "answers": ["55 minutes", "45 minutes", "30 minutes", "50 minutes"],
+      "correct": 1,
+      "hint": "From 4:15 to 5:00, how many minutes passed?"
+    },
+    {
+      "id": 103,
+      "question": "What day is 7 days before Friday?",
+      "answers": ["Saturday", "Thursday", "Friday", "Sunday"],
+      "correct": 2,
+      "hint": "7 days before is exactly one week before. Same day of the week!"
+    },
+    {
+      "id": 104,
+      "question": "Which is later in the day: 10:00 AM or 10:00 PM?",
+      "answers": ["Both are the same", "10:00 AM", "10:00 PM", "Neither"],
+      "correct": 2,
+      "hint": "AM is morning, PM is evening. Which comes later in a day?"
+    },
+    {
+      "id": 105,
+      "question": "What time is 2 hours and 30 minutes before 6:00 PM?",
+      "answers": ["4:30 PM", "3:30 PM", "3:00 PM", "4:00 PM"],
+      "correct": 1,
+      "hint": "Subtract 2 hours first (to 4:00 PM), then subtract 30 minutes."
+    },
+    {
+      "id": 106,
+      "question": "How many days are in November?",
+      "answers": ["31", "29", "28", "30"],
+      "correct": 3,
+      "hint": "November is one of the 30-day months. Think: 30 days has September, April, June, and..."
+    },
+    {
+      "id": 107,
+      "question": "If the clock shows 6:40, what time will it be in 25 minutes?",
+      "answers": ["7:15", "7:05", "6:55", "7:10"],
+      "correct": 1,
+      "hint": "40 + 25 = 65 minutes. That's 1 hour and 5 minutes!"
+    },
+    {
+      "id": 108,
+      "question": "What day is 5 days before Tuesday?",
+      "answers": ["Wednesday", "Friday", "Thursday", "Saturday"],
+      "correct": 2,
+      "hint": "Count backward 5 days from Tuesday."
+    },
+    {
+      "id": 109,
+      "question": "How many hours are from 7:00 AM to 7:00 PM?",
+      "answers": ["10 hours", "14 hours", "12 hours", "11 hours"],
+      "correct": 2,
+      "hint": "From morning 7 to evening 7 is a full half day. How many hours is that?"
+    },
+    {
+      "id": 110,
+      "question": "What time is 'quarter to 3' in the afternoon?",
+      "answers": ["3:15 PM", "2:45 PM", "2:15 PM", "3:45 PM"],
+      "correct": 1,
+      "hint": "Quarter to means 15 minutes before. What's 15 minutes before 3:00 PM?"
+    },
+    {
+      "id": 111,
+      "question": "If a pizza takes 35 minutes to bake and you put it in at 5:40 PM, when will it be ready?",
+      "answers": ["6:05 PM", "6:25 PM", "6:15 PM", "6:10 PM"],
+      "correct": 2,
+      "hint": "40 + 35 = 75 minutes. That's more than an hour!"
+    },
+    {
+      "id": 112,
+      "question": "What day comes 13 days after Saturday?",
+      "answers": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "correct": 1,
+      "hint": "13 days is 1 week plus 6 days. Saturday + 6 days = ?"
+    },
+    {
+      "id": 113,
+      "question": "How many minutes are from 1:15 PM to 2:00 PM?",
+      "answers": ["55 minutes", "35 minutes", "45 minutes", "40 minutes"],
+      "correct": 2,
+      "hint": "From :15 to :00 of the next hour is how many minutes?"
+    },
+    {
+      "id": 114,
+      "question": "What time is 8 hours after 6:00 AM?",
+      "answers": ["3:00 PM", "2:00 PM", "1:00 PM", "4:00 PM"],
+      "correct": 1,
+      "hint": "6 + 8 = 14. Since 14 is more than 12, subtract 12 and switch to PM."
+    },
+    {
+      "id": 115,
+      "question": "Which month is the last month of the year?",
+      "answers": ["November", "October", "January", "December"],
+      "correct": 3,
+      "hint": "This month has Christmas and ends the year!"
+    },
+    {
+      "id": 116,
+      "question": "If you practice piano for 30 minutes starting at 3:45 PM, when do you finish?",
+      "answers": ["4:00 PM", "4:30 PM", "4:15 PM", "4:45 PM"],
+      "correct": 2,
+      "hint": "45 + 30 = 75 minutes. That's 1 hour and 15 minutes past 3:00."
+    },
+    {
+      "id": 117,
+      "question": "What day is 4 days before Wednesday?",
+      "answers": ["Friday", "Thursday", "Sunday", "Saturday"],
+      "correct": 3,
+      "hint": "Count backward 4 days from Wednesday."
+    },
+    {
+      "id": 118,
+      "question": "How many hours are from 11:00 PM to 6:00 AM?",
+      "answers": ["8 hours", "6 hours", "7 hours", "5 hours"],
+      "correct": 2,
+      "hint": "Count through midnight! From 11 PM to midnight is 1 hour, then to 6 AM..."
+    },
+    {
+      "id": 119,
+      "question": "What time is 55 minutes after 2:10 PM?",
+      "answers": ["3:15 PM", "3:00 PM", "3:05 PM", "2:55 PM"],
+      "correct": 2,
+      "hint": "10 + 55 = 65 minutes. That's 1 hour and 5 minutes!"
+    },
+    {
+      "id": 120,
+      "question": "If today is the 15th, what date was it 1 week ago?",
+      "answers": ["8th", "7th", "9th", "10th"],
+      "correct": 0,
+      "hint": "One week is 7 days. Subtract 7 from 15."
+    },
+    {
+      "id": 121,
+      "question": "What time is 'half past 7' in the evening?",
+      "answers": ["7:15 PM", "8:30 PM", "7:30 PM", "6:30 PM"],
+      "correct": 2,
+      "hint": "Half past is 30 minutes after. Evening uses PM."
+    },
+    {
+      "id": 122,
+      "question": "How long is it from 10:30 AM to 1:45 PM?",
+      "answers": ["3 hours", "2 hours 45 minutes", "3 hours 15 minutes", "3 hours 30 minutes"],
+      "correct": 2,
+      "hint": "From 10:30 to 1:30 is 3 hours. Then add the extra 15 minutes."
+    },
+    {
+      "id": 123,
+      "question": "What day is 16 days after Wednesday?",
+      "answers": ["Thursday", "Saturday", "Friday", "Sunday"],
+      "correct": 2,
+      "hint": "16 days is 2 weeks plus 2 days. Wednesday + 2 = ?"
+    },
+    {
+      "id": 124,
+      "question": "What time is 10 minutes before 12:00 PM?",
+      "answers": ["11:50 PM", "12:10 PM", "11:50 AM", "11:40 AM"],
+      "correct": 2,
+      "hint": "12:00 PM is noon. 10 minutes before noon is still AM."
+    },
+    {
+      "id": 125,
+      "question": "How many days are in a leap year?",
+      "answers": ["364", "365", "367", "366"],
+      "correct": 3,
+      "hint": "A regular year has 365 days. A leap year has one extra day in February!"
+    },
+    {
+      "id": 126,
+      "question": "If soccer practice starts at 3:30 PM and lasts 1 hour 30 minutes, when does it end?",
+      "answers": ["5:30 PM", "4:30 PM", "5:00 PM", "4:00 PM"],
+      "correct": 2,
+      "hint": "Add 1 hour to get 4:30 PM, then add 30 more minutes."
+    },
+    {
+      "id": 127,
+      "question": "What day was it 10 days ago if today is Thursday?",
+      "answers": ["Monday", "Sunday", "Tuesday", "Saturday"],
+      "correct": 1,
+      "hint": "10 days is 1 week plus 3 days. Go back 7 days (Thursday), then 3 more."
+    },
+    {
+      "id": 128,
+      "question": "What time is 3 hours and 20 minutes after 8:40 AM?",
+      "answers": ["12:00 PM", "11:40 AM", "12:20 PM", "11:00 AM"],
+      "correct": 0,
+      "hint": "Add 3 hours first (11:40 AM), then add 20 minutes."
+    },
+    {
+      "id": 129,
+      "question": "Which month comes 4 months after February?",
+      "answers": ["July", "May", "June", "April"],
+      "correct": 2,
+      "hint": "February, March (1), April (2), May (3), then one more month."
+    },
+    {
+      "id": 130,
+      "question": "How many minutes are from 4:35 PM to 5:20 PM?",
+      "answers": ["55 minutes", "40 minutes", "45 minutes", "35 minutes"],
+      "correct": 2,
+      "hint": "From 4:35 to 5:00 is 25 minutes. Then add minutes from 5:00 to 5:20."
+    },
+    {
+      "id": 131,
+      "question": "What time is 9 hours after 8:00 PM?",
+      "answers": ["6:00 AM", "4:00 AM", "5:00 AM", "3:00 AM"],
+      "correct": 2,
+      "hint": "8 PM + 9 hours crosses midnight. 8 + 9 = 17, subtract 12..."
+    },
+    {
+      "id": 132,
+      "question": "If today is the 22nd, what date will it be in 10 days?",
+      "answers": ["32nd", "1st of next month", "2nd of next month", "31st"],
+      "correct": 2,
+      "hint": "Most months have 30 or 31 days. What happens after you pass the last day?"
+    },
+    {
+      "id": 133,
+      "question": "What time is 'quarter past 4' in the morning?",
+      "answers": ["4:30 AM", "4:15 AM", "4:45 AM", "3:15 AM"],
+      "correct": 1,
+      "hint": "Quarter past means 15 minutes after. Morning uses AM."
+    },
+    {
+      "id": 134,
+      "question": "How long is a school day from 8:00 AM to 2:30 PM?",
+      "answers": ["5 hours 30 minutes", "6 hours 30 minutes", "7 hours", "6 hours"],
+      "correct": 1,
+      "hint": "From 8:00 AM to 2:00 PM is 6 hours. Then add the 30 minutes."
+    },
+    {
+      "id": 135,
+      "question": "What day is 18 days after Monday?",
+      "answers": ["Thursday", "Wednesday", "Friday", "Saturday"],
+      "correct": 2,
+      "hint": "18 days is 2 weeks plus 4 days. Monday + 4 = ?"
+    },
+    {
+      "id": 136,
+      "question": "What time is 25 minutes before 3:15 PM?",
+      "answers": ["2:45 PM", "2:55 PM", "2:50 PM", "3:00 PM"],
+      "correct": 2,
+      "hint": "Go backward 25 minutes from 3:15. 15 - 25 needs borrowing from the hour."
+    },
+    {
+      "id": 137,
+      "question": "How many days are in January?",
+      "answers": ["28", "30", "31", "29"],
+      "correct": 2,
+      "hint": "January is one of the long months with the most days."
+    },
+    {
+      "id": 138,
+      "question": "If a movie is 2 hours and 15 minutes long and ends at 9:30 PM, when did it start?",
+      "answers": ["7:15 PM", "7:30 PM", "6:45 PM", "7:00 PM"],
+      "correct": 0,
+      "hint": "Subtract 2 hours from 9:30 (to get 7:30), then subtract 15 more minutes."
+    },
+    {
+      "id": 139,
+      "question": "What day is 6 days after Thursday?",
+      "answers": ["Tuesday", "Wednesday", "Monday", "Sunday"],
+      "correct": 1,
+      "hint": "Count forward 6 days from Thursday. Almost a week!"
+    },
+    {
+      "id": 140,
+      "question": "How many hours are from 5:00 AM to 10:00 PM?",
+      "answers": ["16 hours", "18 hours", "15 hours", "17 hours"],
+      "correct": 3,
+      "hint": "From 5 AM to 5 PM is 12 hours. Then add hours from 5 PM to 10 PM."
+    },
+    {
+      "id": 141,
+      "question": "What time is 1 hour and 50 minutes after 10:20 AM?",
+      "answers": ["12:00 PM", "11:50 AM", "12:10 PM", "12:20 PM"],
+      "correct": 2,
+      "hint": "Add 1 hour (11:20 AM), then add 50 minutes. 20 + 50 = 70!"
+    },
+    {
+      "id": 142,
+      "question": "Which month is the 8th month of the year?",
+      "answers": ["July", "September", "August", "October"],
+      "correct": 2,
+      "hint": "Count the months: January (1), February (2)... keep going to 8!"
+    },
+    {
+      "id": 143,
+      "question": "If you started reading at 2:45 PM and read for 35 minutes, when did you stop?",
+      "answers": ["3:30 PM", "3:15 PM", "3:20 PM", "3:10 PM"],
+      "correct": 2,
+      "hint": "45 + 35 = 80 minutes. That's 1 hour and 20 minutes past 2:00."
+    },
+    {
+      "id": 144,
+      "question": "What day is 3 days after Sunday?",
+      "answers": ["Thursday", "Tuesday", "Wednesday", "Monday"],
+      "correct": 2,
+      "hint": "Sunday + 1 = Monday, + 2 = Tuesday, + 3 = ?"
+    },
+    {
+      "id": 145,
+      "question": "How many minutes are in 2 hours and 45 minutes?",
+      "answers": ["155 minutes", "175 minutes", "165 minutes", "145 minutes"],
+      "correct": 2,
+      "hint": "2 hours = 120 minutes. Then add 45 more."
+    },
+    {
+      "id": 146,
+      "question": "What time is 7 hours before 3:00 PM?",
+      "answers": ["9:00 AM", "7:00 AM", "10:00 AM", "8:00 AM"],
+      "correct": 3,
+      "hint": "Count backward from 3:00 PM. You'll cross noon!"
+    },
+    {
+      "id": 147,
+      "question": "If today is the 28th of February in a leap year, what is tomorrow's date?",
+      "answers": ["March 1st", "March 2nd", "February 30th", "February 29th"],
+      "correct": 3,
+      "hint": "In a leap year, February has an extra day before March begins!"
+    },
+    {
+      "id": 148,
+      "question": "How long is it from 11:15 AM to 2:45 PM?",
+      "answers": ["3 hours 15 minutes", "3 hours", "2 hours 45 minutes", "3 hours 30 minutes"],
+      "correct": 3,
+      "hint": "From 11:15 to 2:15 is 3 hours. Then count from :15 to :45."
+    },
+    {
+      "id": 149,
+      "question": "What day is 20 days after Friday?",
+      "answers": ["Wednesday", "Friday", "Thursday", "Tuesday"],
+      "correct": 2,
+      "hint": "20 days is 2 weeks plus 6 days. Friday + 6 = ?"
+    },
+    {
+      "id": 150,
+      "question": "What time is 2 hours and 40 minutes after 9:30 PM?",
+      "answers": ["11:50 PM", "12:00 AM", "12:10 AM", "11:30 PM"],
+      "correct": 2,
+      "hint": "Add 2 hours (11:30 PM), then add 40 minutes. You'll cross midnight!"
     }
   ],
   "access": [2]

@@ -15,43 +15,43 @@
     {
       "id": 2,
       "question": "A cylindrical water tank has radius 4 m and height 6 m. It's painted green, made of steel manufactured in Germany, and was installed by a 5-person crew in 2021. Water fills at $2 \\text{ m}^3$/min. How long to fill it? ($\\pi \\approx 3.14$)",
-      "answers": ["48 min", "75.36 min", "150.72 min", "301.44 min"],
-      "correct": 2,
+      "answers": ["150.72 min", "75.36 min", "48 min", "301.44 min"],
+      "correct": 0,
       "hint": "First calculate volume using $V = \\pi r^2 h$, then divide by fill rate. Paint, material, and crew details are irrelevant."
     },
     {
       "id": 3,
       "question": "A store's profit is calculated as Revenue - Cost. Last month: Revenue $15,000, Cost $9,000. The store has 8 employees, is open 7 days/week, and occupies 200 m². What's the profit margin percentage?",
-      "answers": ["40%", "66.7%", "150%", "60%"],
-      "correct": 0,
-      "hint": "Profit margin = (Profit ÷ Revenue) × 100. Find profit first, then divide by revenue. Employees, hours, and space are irrelevant."
+      "answers": ["66.7%", "150%", "60%", "40%"],
+      "correct": 3,
+      "hint": "Profit margin = (Profit / Revenue) x 100. Find profit first, then divide by revenue. Employees, hours, and space are irrelevant."
     },
     {
       "id": 4,
       "question": "Three workers can complete a job in 12 days. Worker A is 35 years old, Worker B uses power tools costing $500, and Worker C has 10 years experience. If 2 more workers join (same rate), how many days?",
-      "answers": ["20 days", "4.8 days", "7.2 days", "6 days"],
-      "correct": 2,
-      "hint": "Use the work formula: workers × days = constant. More workers means fewer days proportionally. Personal details are irrelevant."
+      "answers": ["20 days", "7.2 days", "4.8 days", "6 days"],
+      "correct": 1,
+      "hint": "Use the work formula: workers x days = constant. More workers means fewer days proportionally. Personal details are irrelevant."
     },
     {
       "id": 5,
       "question": "A cone has radius 6 cm and slant height 10 cm. The cone is hollow, made of plastic from recycled materials, and weighs 150 g. What's its total surface area? ($\\pi \\approx 3.14$)",
-      "answers": ["$376.8 \\text{ cm}^2$", "$301.44 \\text{ cm}^2$", "$113.04 \\text{ cm}^2$", "$188.4 \\text{ cm}^2$"],
-      "correct": 1,
+      "answers": ["$376.8 \\text{ cm}^2$", "$113.04 \\text{ cm}^2$", "$301.44 \\text{ cm}^2$", "$188.4 \\text{ cm}^2$"],
+      "correct": 2,
       "hint": "Total surface area $= \\pi r^2 + \\pi r l$ (base + lateral). Material and weight are irrelevant."
     },
     {
       "id": 6,
       "question": "Compound interest: $5,000 at 8% annually for 2 years. The bank has 50 branches, was founded in 1890, and its CEO is named Johnson. What's the final amount?",
-      "answers": ["$5,400", "$6,480", "$5,832", "$5,800"],
-      "correct": 2,
+      "answers": ["$5,400", "$5,832", "$6,480", "$5,800"],
+      "correct": 1,
       "hint": "Use $A = P(1+r)^n$ for compound interest. Bank details are irrelevant."
     },
     {
       "id": 7,
       "question": "A mixture contains milk and water in ratio 5:3. The milk is organic and costs $4/liter. The container is glass, holds 24 liters, and has a blue lid. How much milk?",
-      "answers": ["12 liters", "18 liters", "15 liters", "9 liters"],
-      "correct": 2,
+      "answers": ["15 liters", "18 liters", "12 liters", "9 liters"],
+      "correct": 0,
       "hint": "Milk's share = 5 out of (5+3) total parts. Find that fraction of 24 liters. Milk type, cost, and container details are irrelevant."
     },
     {
@@ -64,15 +64,15 @@
     {
       "id": 9,
       "question": "In a class of 40 students, average score is 75. Boys' average is 70, girls' average is 80. The class has 2 teachers, meets in Room 301, and the subject is math. How many boys?",
-      "answers": ["25 boys", "15 boys", "20 boys", "30 boys"],
-      "correct": 2,
-      "hint": "Set up an equation: boys×70 + girls×80 = 40×75. Use boys + girls = 40. Teachers, room, and subject are irrelevant."
+      "answers": ["25 boys", "20 boys", "15 boys", "30 boys"],
+      "correct": 1,
+      "hint": "Set up an equation: boys x 70 + girls x 80 = 40 x 75. Use boys + girls = 40. Teachers, room, and subject are irrelevant."
     },
     {
       "id": 10,
       "question": "A sphere has diameter 14 cm. It's a decorative ball, hand-painted in India, sold at a craft fair for $45. What's its volume? ($\\pi \\approx 22/7$)",
-      "answers": ["$179.67 \\text{ cm}^3$", "$718.67 \\text{ cm}^3$", "$1437.33 \\text{ cm}^3$", "$2874.67 \\text{ cm}^3$"],
-      "correct": 2,
+      "answers": ["$179.67 \\text{ cm}^3$", "$718.67 \\text{ cm}^3$", "$2874.67 \\text{ cm}^3$", "$1437.33 \\text{ cm}^3$"],
+      "correct": 3,
       "hint": "Volume $= \\frac{4}{3}\\pi r^3$. Remember radius is half the diameter. Origin and sale details are irrelevant."
     },
     {
@@ -85,22 +85,22 @@
     {
       "id": 12,
       "question": "An investment of $10,000 yields 12% simple interest per year. The broker charges $50 fee, works from downtown office, and has an MBA degree. What's the interest after 3 years?",
-      "answers": ["$3,600", "$4,049.28", "$1,200", "$3,550"],
-      "correct": 0,
-      "hint": "Simple Interest = P × r × t. Broker details are irrelevant."
+      "answers": ["$4,049.28", "$3,600", "$1,200", "$3,550"],
+      "correct": 1,
+      "hint": "Simple Interest = P x r x t. Broker details are irrelevant."
     },
     {
       "id": 13,
       "question": "A frustum of a cone has radii 6 cm and 3 cm, height 8 cm. It's used as a flower pot, made of terracotta from Mexico, and costs $25. What's its volume? ($\\pi \\approx 3.14$)",
-      "answers": ["$263.76 \\text{ cm}^3$", "$527.52 \\text{ cm}^3$", "$703.36 \\text{ cm}^3$", "$351.68 \\text{ cm}^3$"],
-      "correct": 1,
+      "answers": ["$263.76 \\text{ cm}^3$", "$703.36 \\text{ cm}^3$", "$527.52 \\text{ cm}^3$", "$351.68 \\text{ cm}^3$"],
+      "correct": 2,
       "hint": "Use frustum volume formula: $V = \\frac{\\pi h}{3}(R^2 + Rr + r^2)$. Use and origin are irrelevant."
     },
     {
       "id": 14,
       "question": "A ladder 10 m long leans against a wall, foot 6 m from wall. The ladder is aluminum, weighs 15 kg, and was bought from Home Depot. How high does it reach?",
-      "answers": ["4 m", "8 m", "16 m", "12 m"],
-      "correct": 1,
+      "answers": ["4 m", "16 m", "12 m", "8 m"],
+      "correct": 3,
       "hint": "Use Pythagorean theorem: $a^2 + b^2 = c^2$. Find the missing leg. Material, weight, and store are irrelevant."
     },
     {
@@ -108,13 +108,13 @@
       "question": "A shopkeeper sells at 20% profit. If he bought 50 items at $80 each from Wholesale Inc. located in Texas, and his shop is on Main Street, what's the selling price per item?",
       "answers": ["$96", "$84", "$100", "$64"],
       "correct": 0,
-      "hint": "Selling price = Cost × (1 + profit%). Quantity, supplier details, and shop location are irrelevant."
+      "hint": "Selling price = Cost x (1 + profit%). Quantity, supplier details, and shop location are irrelevant."
     },
     {
       "id": 16,
       "question": "Two candles: Candle A is 15 cm, burns 3 cm/hour. Candle B is 12 cm, burns 2 cm/hour. Both are scented, made of beeswax, cost $8 each. When are they equal height?",
-      "answers": ["4 hours", "3 hours", "5 hours", "2 hours"],
-      "correct": 1,
+      "answers": ["4 hours", "5 hours", "2 hours", "3 hours"],
+      "correct": 3,
       "hint": "Set up equations for each candle's height over time, then solve for when they're equal. Scent, material, and cost are irrelevant."
     },
     {
@@ -127,78 +127,78 @@
     {
       "id": 18,
       "question": "At 10% discount then 20% discount, a TV's final price is $576. Original price? The TV is 55-inch, 4K resolution, made by Samsung, and comes with a 2-year warranty.",
-      "answers": ["$864", "$690", "$800", "$720"],
-      "correct": 2,
-      "hint": "Work backwards: Final = Original × 0.90 × 0.80. Solve for original. TV specs are irrelevant."
+      "answers": ["$864", "$800", "$690", "$720"],
+      "correct": 1,
+      "hint": "Work backwards: Final = Original x 0.90 x 0.80. Solve for original. TV specs are irrelevant."
     },
     {
       "id": 19,
       "question": "A and B together can do work in 12 days. A alone takes 20 days. A is 30 years old and uses modern equipment. B learned the trade from his father. How long for B alone?",
-      "answers": ["15 days", "8 days", "40 days", "30 days"],
-      "correct": 3,
+      "answers": ["15 days", "8 days", "30 days", "40 days"],
+      "correct": 2,
       "hint": "Combined rate = A's rate + B's rate. Find B's rate by subtraction. Personal details are irrelevant."
     },
     {
       "id": 20,
       "question": "A trapezoid has parallel sides 14 cm and 10 cm, height 8 cm. It's drawn on recycled paper using a ruler made in Japan. The paper costs $5 per pack. What's the area?",
-      "answers": ["$96 \\text{ cm}^2$", "$80 \\text{ cm}^2$", "$112 \\text{ cm}^2$", "$192 \\text{ cm}^2$"],
-      "correct": 0,
+      "answers": ["$80 \\text{ cm}^2$", "$112 \\text{ cm}^2$", "$192 \\text{ cm}^2$", "$96 \\text{ cm}^2$"],
+      "correct": 3,
       "hint": "Area of trapezoid $= \\frac{1}{2}(a+b)h$. Paper, ruler origin, and price are irrelevant."
     },
     {
       "id": 21,
       "question": "Speed of stream is 2 km/h. A boat goes 18 km downstream and back in 8 hours total. The boat has a 50 HP engine, was serviced last month, and holds 8 passengers. Boat's speed in still water?",
-      "answers": ["8 km/h", "10 km/h", "4 km/h", "6 km/h"],
-      "correct": 3,
+      "answers": ["8 km/h", "10 km/h", "6 km/h", "4 km/h"],
+      "correct": 2,
       "hint": "Set up equation: time downstream + time upstream = 8. Use (v+2) and (v-2) for speeds. Engine and capacity are irrelevant."
     },
     {
       "id": 22,
       "question": "Sum of ages of father and son is 56. Father is 4 times as old as son. Father is a doctor at City Hospital, and son attends Lincoln Elementary. How old is the son?",
-      "answers": ["14 years", "44.8 years", "28 years", "11.2 years"],
-      "correct": 3,
+      "answers": ["11.2 years", "44.8 years", "28 years", "14 years"],
+      "correct": 0,
       "hint": "Let son's age = x. Then father = 4x. Set up: x + 4x = 56. Occupations and schools are irrelevant."
     },
     {
       "id": 23,
       "question": "A regular hexagon has side 8 cm. It's engraved on a silver pendant, designed by a local artist, and weighs 50 grams. What's its area? (Use: Area $= \\frac{3\\sqrt{3}}{2}s^2$)",
-      "answers": ["$166.28 \\text{ cm}^2$", "$332.56 \\text{ cm}^2$", "$83.14 \\text{ cm}^2$", "$96 \\text{ cm}^2$"],
-      "correct": 0,
+      "answers": ["$332.56 \\text{ cm}^2$", "$166.28 \\text{ cm}^2$", "$83.14 \\text{ cm}^2$", "$96 \\text{ cm}^2$"],
+      "correct": 1,
       "hint": "Use the formula given with $s = 8$. Remember $\\sqrt{3} \\approx 1.732$. Material, artist, and weight are irrelevant."
     },
     {
       "id": 24,
       "question": "A shopkeeper marks up goods by 50% then offers 20% discount. Cost price is $100. His shop has 3 staff, is open 10 hours daily, and was started 5 years ago. What's the profit?",
-      "answers": ["$10", "$20", "$50", "$30"],
-      "correct": 1,
+      "answers": ["$10", "$50", "$30", "$20"],
+      "correct": 3,
       "hint": "Find marked price first (cost + 50%), then apply 20% discount. Compare to cost. Shop details are irrelevant."
     },
     {
       "id": 25,
       "question": "LCM of two numbers is 120, HCF is 4. One number is 24. The numbers are used in a math competition held annually in Boston. What's the other number?",
-      "answers": ["30", "60", "20", "40"],
-      "correct": 2,
-      "hint": "Use the relationship: LCM × HCF = product of the two numbers. Competition details are irrelevant."
+      "answers": ["30", "20", "60", "40"],
+      "correct": 1,
+      "hint": "Use the relationship: LCM x HCF = product of the two numbers. Competition details are irrelevant."
     },
     {
       "id": 26,
       "question": "A conical tent has base radius 7 m and height 24 m. It's made of waterproof canvas from Canada, can shelter 15 people, and costs $3,000. What's the slant height?",
-      "answers": ["31 m", "49 m", "17 m", "25 m"],
-      "correct": 3,
+      "answers": ["31 m", "25 m", "49 m", "17 m"],
+      "correct": 1,
       "hint": "Use Pythagorean theorem: $l^2 = r^2 + h^2$. Material, capacity, and cost are irrelevant."
     },
     {
       "id": 27,
       "question": "A pipe can fill tank in 8 hours but a leak empties it in 24 hours. The tank is on the roof, made of fiberglass, and connected to a filtration system. How long to fill with leak?",
-      "answers": ["32 hours", "6 hours", "16 hours", "12 hours"],
-      "correct": 3,
+      "answers": ["32 hours", "6 hours", "12 hours", "16 hours"],
+      "correct": 2,
       "hint": "Net rate = fill rate - leak rate. Then find time. Tank details are irrelevant."
     },
     {
       "id": 28,
       "question": "At 15% per annum compound interest, in how many years will $8,000 become $10,580? ($1.15^2 \\approx 1.32$). The account is with Global Bank, requires $500 minimum, and has online access.",
-      "answers": ["3 years", "1.5 years", "2 years", "4 years"],
-      "correct": 2,
+      "answers": ["3 years", "1.5 years", "4 years", "2 years"],
+      "correct": 3,
       "hint": "Find what power of 1.15 equals $\\frac{10580}{8000}$. Use the given approximation. Bank details are irrelevant."
     },
     {
@@ -210,9 +210,9 @@
     },
     {
       "id": 30,
-      "question": "A rectangular field is 120 m × 80 m. A path 5 m wide runs inside along the edges. Grass seed costs $2/$\\text{m}^2$ and the field is used for soccer. Area of path?",
-      "answers": ["$950 \\text{ m}^2$", "$1900 \\text{ m}^2$", "$9600 \\text{ m}^2$", "$7700 \\text{ m}^2$"],
-      "correct": 1,
+      "question": "A rectangular field is 120 m x 80 m. A path 5 m wide runs inside along the edges. Grass seed costs $2/m² and the field is used for soccer. Area of path?",
+      "answers": ["$950 \\text{ m}^2$", "$9600 \\text{ m}^2$", "$7700 \\text{ m}^2$", "$1900 \\text{ m}^2$"],
+      "correct": 3,
       "hint": "Path area = outer area - inner area. Inner dimensions are reduced by path width on each side. Seed cost and use are irrelevant."
     },
     {
@@ -244,22 +244,22 @@
     {
       "id": 34,
       "question": "If 12 workers can build a wall in 18 days working 8 hours/day, how many days for 18 workers working 6 hours/day? Workers are unionized and earn $25/hour.",
-      "answers": ["12 days", "16 days", "9 days", "24 days"],
-      "correct": 1,
-      "hint": "Total work = workers × days × hours. This constant helps find new days. Union and pay are irrelevant."
+      "answers": ["16 days", "12 days", "9 days", "24 days"],
+      "correct": 0,
+      "hint": "Total work = workers x days x hours. This constant helps find new days. Union and pay are irrelevant."
     },
     {
       "id": 35,
       "question": "Selling price is $1,200 with 20% profit. The item is a laptop, manufactured in China, with 2-year warranty from TechStore. What was the cost price?",
-      "answers": ["$1,200", "$1,000", "$1,440", "$960"],
-      "correct": 1,
-      "hint": "If SP = CP × 1.20, solve for CP. Product details and warranty are irrelevant."
+      "answers": ["$1,200", "$1,440", "$960", "$1,000"],
+      "correct": 3,
+      "hint": "If SP = CP x 1.20, solve for CP. Product details and warranty are irrelevant."
     },
     {
       "id": 36,
       "question": "A chord is 10 cm from center of circle with radius 13 cm. The circle is drawn on a whiteboard using a compass bought last week. What's the chord length?",
-      "answers": ["23 cm", "24 cm", "12 cm", "46 cm"],
-      "correct": 1,
+      "answers": ["24 cm", "23 cm", "12 cm", "46 cm"],
+      "correct": 0,
       "hint": "The perpendicular from center to chord bisects it. Use Pythagorean theorem with the half-chord. Drawing details are irrelevant."
     },
     {
@@ -289,11 +289,781 @@
       "answers": [
         "A: 40g, B: 60g",
         "A: 50g, B: 50g",
-        "A: 52g, B: 48g",
-        "A: 60g, B: 40g"
+        "A: 60g, B: 40g",
+        "A: 52g, B: 48g"
       ],
-      "correct": 3,
+      "correct": 2,
       "hint": "Set up an alligation or equation: 0.60x + 0.40(100-x) = 52. Gold details are irrelevant."
+    },
+    {
+      "id": 41,
+      "question": "A rectangular pool is 50 m long and 30 m wide. It's tiled in blue mosaic, designed by an Italian architect, and was renovated in 2019 for $50,000. If filled to 2 m depth, what's the volume of water?",
+      "answers": ["$1500 \\text{ m}^3$", "$3000 \\text{ m}^3$", "$6000 \\text{ m}^3$", "$2500 \\text{ m}^3$"],
+      "correct": 1,
+      "hint": "Volume = length x width x depth. Tiles, architect, and renovation cost are irrelevant."
+    },
+    {
+      "id": 42,
+      "question": "A merchant mixes 30 kg of rice at $40/kg with 20 kg of rice at $50/kg. The rice is basmati from India, sold at a grocery on Oak Street. What's the mixture price per kg?",
+      "answers": ["$45/kg", "$46/kg", "$42/kg", "$44/kg"],
+      "correct": 3,
+      "hint": "Find total cost divided by total weight. Rice origin and store location are irrelevant."
+    },
+    {
+      "id": 43,
+      "question": "The sum of three consecutive odd numbers is 81. The numbers are used to count parking spaces in lots A, B, and C at the airport. What's the largest number?",
+      "answers": ["29", "25", "27", "31"],
+      "correct": 0,
+      "hint": "Let the middle number be x, then you have (x-2) + x + (x+2) = 81. Parking lot details are irrelevant."
+    },
+    {
+      "id": 44,
+      "question": "A train 200 m long crosses a bridge 300 m long in 25 seconds. The train is an express model, painted red, and carries 500 passengers. What's the train's speed?",
+      "answers": ["80 km/h", "72 km/h", "60 km/h", "20 km/h"],
+      "correct": 1,
+      "hint": "Total distance = train length + bridge length. Use speed = distance/time. Train details are irrelevant."
+    },
+    {
+      "id": 45,
+      "question": "A sum of money doubles in 5 years at simple interest. The account is held at National Bank, requires ID verification, and has a $100 minimum. What's the rate of interest?",
+      "answers": ["25%", "15%", "20%", "10%"],
+      "correct": 2,
+      "hint": "If it doubles, interest = principal. Use SI = PRT/100 with interest = P. Bank details are irrelevant."
+    },
+    {
+      "id": 46,
+      "question": "A car travels first half of a journey at 40 km/h and second half at 60 km/h. The car is a sedan, has GPS navigation, and the driver stopped for coffee once. What's the average speed for the whole journey?",
+      "answers": ["50 km/h", "52 km/h", "45 km/h", "48 km/h"],
+      "correct": 3,
+      "hint": "For equal distances at different speeds, use harmonic mean: 2ab/(a+b). Stops and car details are irrelevant."
+    },
+    {
+      "id": 47,
+      "question": "A solid cube of side 10 cm is painted blue on all faces, then cut into 1 cm cubes. The paint is non-toxic, water-based, and took 2 hours to apply. How many small cubes have exactly 2 painted faces?",
+      "answers": ["8", "48", "12", "96"],
+      "correct": 3,
+      "hint": "Cubes with 2 painted faces are on edges but not corners. Each edge has (n-2) such cubes. Paint type and time are irrelevant."
+    },
+    {
+      "id": 48,
+      "question": "In an AP: 5, 9, 13, 17... The sequence is carved on an ancient stone tablet discovered in Egypt in 1923. What's the sum of the first 20 terms?",
+      "answers": ["860", "820", "800", "780"],
+      "correct": 1,
+      "hint": "Use $S_n = \\frac{n}{2}[2a + (n-1)d]$ where a=5 and d=4. Tablet history is irrelevant."
+    },
+    {
+      "id": 49,
+      "question": "A circular garden has radius 21 m. A path 7 m wide runs around it. The garden has roses, tulips, and daisies planted by volunteers. What's the area of the path? ($\\pi \\approx 22/7$)",
+      "answers": ["$1386 \\text{ m}^2$", "$1078 \\text{ m}^2$", "$2464 \\text{ m}^2$", "$616 \\text{ m}^2$"],
+      "correct": 1,
+      "hint": "Path area = outer circle area - inner circle area. Flowers and volunteers are irrelevant."
+    },
+    {
+      "id": 50,
+      "question": "Two numbers are in ratio 3:5. If 9 is added to each, new ratio is 3:4. The numbers represent books on two shelves in a library built in 1955. What's the smaller number?",
+      "answers": ["15", "9", "12", "18"],
+      "correct": 1,
+      "hint": "Let numbers be 3x and 5x. Set up equation with new ratio. Library history is irrelevant."
+    },
+    {
+      "id": 51,
+      "question": "A right circular cylinder has height equal to its diameter. If the volume is $128\\pi \\text{ cm}^3$, find the radius. The cylinder is a coffee tin, imported from Brazil, and has a plastic lid.",
+      "answers": ["4 cm", "8 cm", "2 cm", "6 cm"],
+      "correct": 0,
+      "hint": "If h = 2r, then V = $\\pi r^2 (2r) = 2\\pi r^3$. Solve for r. Product details are irrelevant."
+    },
+    {
+      "id": 52,
+      "question": "A man walks at 5 km/h for 6 hours and cycles at 15 km/h for 2 hours. He carries a backpack weighing 8 kg and wears hiking boots size 10. Total distance covered?",
+      "answers": ["45 km", "75 km", "50 km", "60 km"],
+      "correct": 3,
+      "hint": "Calculate each distance separately and add. Equipment details are irrelevant."
+    },
+    {
+      "id": 53,
+      "question": "If the perimeter of an equilateral triangle is 36 cm, what's its area? The triangle is part of a logo for a company founded in Seattle in 2010. (Use $\\sqrt{3} \\approx 1.73$)",
+      "answers": ["$62.28 \\text{ cm}^2$", "$36 \\text{ cm}^2$", "$51.96 \\text{ cm}^2$", "$108 \\text{ cm}^2$"],
+      "correct": 2,
+      "hint": "First find side (perimeter/3), then use area formula $\\frac{\\sqrt{3}}{4}s^2$. Logo details are irrelevant."
+    },
+    {
+      "id": 54,
+      "question": "A shopkeeper gains 15% after allowing 20% discount. His shop is located in a mall, employs 4 assistants, and has air conditioning. What's the markup percentage?",
+      "answers": ["40%", "35%", "43.75%", "50%"],
+      "correct": 2,
+      "hint": "Let cost = 100. Work out marked price such that 80% of it gives 15% profit. Shop details are irrelevant."
+    },
+    {
+      "id": 55,
+      "question": "The angles of a quadrilateral are in ratio 1:2:3:4. The shape is drawn on graph paper manufactured in Sweden, using a protractor from Germany. What's the largest angle?",
+      "answers": ["108°", "120°", "72°", "144°"],
+      "correct": 3,
+      "hint": "Sum of angles in quadrilateral = 360°. Find the value of one part first. Materials are irrelevant."
+    },
+    {
+      "id": 56,
+      "question": "A tank can be filled by two taps A and B in 12 min and 15 min respectively. A drain pipe empties it in 20 min. The tank is stainless steel and holds 500 liters. How long to fill when all are open?",
+      "answers": ["10 min", "8 min", "15 min", "12 min"],
+      "correct": 0,
+      "hint": "Net rate = 1/12 + 1/15 - 1/20. Find reciprocal for time. Tank material and capacity are irrelevant."
+    },
+    {
+      "id": 57,
+      "question": "The difference between compound interest and simple interest on $10,000 for 2 years at 5% per annum is how much? The account is managed by a financial advisor with 20 years experience.",
+      "answers": ["$50", "$75", "$100", "$25"],
+      "correct": 3,
+      "hint": "For 2 years, difference = $P(r/100)^2$. Advisor details are irrelevant."
+    },
+    {
+      "id": 58,
+      "question": "A clock shows 3:15. The clock is antique, made of mahogany, bought at an auction for $2,500. What's the angle between the hour and minute hands?",
+      "answers": ["0°", "15°", "22.5°", "7.5°"],
+      "correct": 3,
+      "hint": "At 3:15, minute hand is at 3, hour hand has moved 1/4 of the way from 3 to 4. Clock details are irrelevant."
+    },
+    {
+      "id": 59,
+      "question": "A solid metallic sphere of radius 6 cm is melted and recast into 8 equal smaller spheres. The metal is copper, valued at $8/kg. What's the radius of each small sphere?",
+      "answers": ["2 cm", "3 cm", "4 cm", "1.5 cm"],
+      "correct": 1,
+      "hint": "Volume is conserved. Original volume = 8 x (small sphere volume). Metal type and value are irrelevant."
+    },
+    {
+      "id": 60,
+      "question": "In a committee of 10 people, 6 are men and 4 are women. How many ways to form a subcommittee of 5 with at least 3 men? Members work in finance, meet quarterly, and were appointed in 2022.",
+      "answers": ["186", "252", "120", "66"],
+      "correct": 0,
+      "hint": "Add cases: 3M+2W, 4M+1W, 5M+0W using combinations. Committee details are irrelevant."
+    },
+    {
+      "id": 61,
+      "question": "A rectangular box has dimensions 20 cm x 15 cm x 10 cm. It's made of cardboard, has a glossy finish, and is used for shipping electronics. What's its total surface area?",
+      "answers": ["$1100 \\text{ cm}^2$", "$1300 \\text{ cm}^2$", "$3000 \\text{ cm}^2$", "$1500 \\text{ cm}^2$"],
+      "correct": 1,
+      "hint": "Surface area = 2(lb + bh + hl). Material and use are irrelevant."
+    },
+    {
+      "id": 62,
+      "question": "A cyclist covers 48 km in the morning at 12 km/h and returns at 16 km/h. He uses a mountain bike worth $800, wears a helmet, and carries water bottles. Total time for the round trip?",
+      "answers": ["8 hours", "6 hours", "7 hours", "5 hours"],
+      "correct": 2,
+      "hint": "Time = Distance/Speed. Calculate each leg separately and add. Equipment details are irrelevant."
+    },
+    {
+      "id": 63,
+      "question": "Two dice are thrown. One die is red, the other is white, both manufactured by a game company in Denmark. What's the probability of getting a sum of 7?",
+      "answers": ["5/36", "7/36", "1/9", "1/6"],
+      "correct": 3,
+      "hint": "Count favorable outcomes (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) out of 36 total. Dice colors and origin are irrelevant."
+    },
+    {
+      "id": 64,
+      "question": "The base of a right prism is a regular hexagon with side 4 cm. Height is 10 cm. The prism is a decorative paperweight made of crystal. What's its volume? (Use $\\sqrt{3} \\approx 1.73$)",
+      "answers": ["$240 \\text{ cm}^3$", "$160 \\text{ cm}^3$", "$207.6 \\text{ cm}^3$", "$415.2 \\text{ cm}^3$"],
+      "correct": 3,
+      "hint": "Volume = Base area x height. Hexagon area = $\\frac{3\\sqrt{3}}{2}s^2$. Material is irrelevant."
+    },
+    {
+      "id": 65,
+      "question": "A number when divided by 143 gives remainder 31. The same number divided by 13 gives what remainder? The number is a student ID at a university in Ohio.",
+      "answers": ["4", "5", "6", "7"],
+      "correct": 1,
+      "hint": "If N = 143q + 31, and 143 = 13 x 11, find 31 mod 13. Context is irrelevant."
+    },
+    {
+      "id": 66,
+      "question": "A and B can do a piece of work in 10 days. B and C in 12 days. A and C in 15 days. They work in a factory with 50 employees. How long for all three together?",
+      "answers": ["8 days", "6 days", "7.5 days", "9 days"],
+      "correct": 0,
+      "hint": "Add all three equations, divide by 2 to get combined rate. Factory details are irrelevant."
+    },
+    {
+      "id": 67,
+      "question": "A cone and a hemisphere have the same base and equal volumes. If the radius is 6 cm, find the height of the cone. Both are glass sculptures displayed at an art gallery.",
+      "answers": ["6 cm", "18 cm", "9 cm", "12 cm"],
+      "correct": 3,
+      "hint": "Set $\\frac{1}{3}\\pi r^2 h = \\frac{2}{3}\\pi r^3$ and solve for h. Display details are irrelevant."
+    },
+    {
+      "id": 68,
+      "question": "A bag contains 5 red, 4 blue, and 3 green balls. Two balls are drawn at random. The bag is velvet, purchased online for $15. What's the probability both are red?",
+      "answers": ["5/12", "25/144", "1/6", "5/33"],
+      "correct": 3,
+      "hint": "Use $\\frac{5}{12} \\times \\frac{4}{11}$ for consecutive draws without replacement. Bag details are irrelevant."
+    },
+    {
+      "id": 69,
+      "question": "The sum of first n natural numbers is 325. The formula is taught in Grade 6 math, used in a problem set created by Professor Smith. Find n.",
+      "answers": ["25", "20", "26", "24"],
+      "correct": 0,
+      "hint": "Use $\\frac{n(n+1)}{2} = 325$ and solve for n. Educational context is irrelevant."
+    },
+    {
+      "id": 70,
+      "question": "A tree breaks due to storm. The broken part bends and touches ground 8 m from base, making 30° angle with ground. The tree is an oak, 50 years old, in a park. Original height of tree?",
+      "answers": ["16 m", "8 m", "32 m", "24 m"],
+      "correct": 3,
+      "hint": "Use trigonometry: standing part = broken part x sin(30°). Find both parts and add. Tree details are irrelevant."
+    },
+    {
+      "id": 71,
+      "question": "A father's age is 3 times his son's age. 12 years ago, father was 5 times son's age. Father is an engineer, son plays basketball. What is the father's current age?",
+      "answers": ["36 years", "42 years", "54 years", "48 years"],
+      "correct": 3,
+      "hint": "Set up two equations with F = 3S and F-12 = 5(S-12). Occupations are irrelevant."
+    },
+    {
+      "id": 72,
+      "question": "A conical vessel has radius 5 cm and height 12 cm. It's made of brass, polished to a mirror finish, and used in chemistry labs. How much water can it hold in liters? ($\\pi \\approx 3.14$)",
+      "answers": ["0.157 liters", "0.314 liters", "$314 \\text{ cm}^3$", "0.628 liters"],
+      "correct": 1,
+      "hint": "Volume = $\\frac{1}{3}\\pi r^2 h$. Convert cm³ to liters (divide by 1000). Material and use are irrelevant."
+    },
+    {
+      "id": 73,
+      "question": "A man invests $6,000 at 10% and $4,000 at 15% simple interest. He is 45 years old, works as an accountant, and lives in Denver. Total interest after 2 years?",
+      "answers": ["$2,000", "$3,000", "$1,800", "$2,400"],
+      "correct": 3,
+      "hint": "Calculate SI for each investment and add. Personal details are irrelevant."
+    },
+    {
+      "id": 74,
+      "question": "The sides of a triangle are in ratio 3:4:5. If the perimeter is 36 cm, and the triangle is cut from fabric for a quilt made by artisans in Vermont, what's the area?",
+      "answers": ["$48 \\text{ cm}^2$", "$36 \\text{ cm}^2$", "$72 \\text{ cm}^2$", "$54 \\text{ cm}^2$"],
+      "correct": 3,
+      "hint": "3:4:5 is a right triangle. Find sides (9,12,15), then area = $\\frac{1}{2}$ x base x height. Craft details are irrelevant."
+    },
+    {
+      "id": 75,
+      "question": "A motorboat takes 2 hours to travel 15 km downstream and 3 hours to return. The motor is 100 HP, fuel tank holds 50 liters, and captain has a license since 2015. Speed of stream?",
+      "answers": ["2 km/h", "2.5 km/h", "1.5 km/h", "1.25 km/h"],
+      "correct": 3,
+      "hint": "Downstream speed = 15/2, upstream = 15/3. Stream speed = (downstream - upstream)/2. Boat specs are irrelevant."
+    },
+    {
+      "id": 76,
+      "question": "A solid right circular cone has base radius 7 cm and height 24 cm. It's carved from marble imported from Italy, weighing 3 kg. What's the total surface area? ($\\pi \\approx 22/7$)",
+      "answers": ["$550 \\text{ cm}^2$", "$1254 \\text{ cm}^2$", "$858 \\text{ cm}^2$", "$704 \\text{ cm}^2$"],
+      "correct": 3,
+      "hint": "First find slant height, then TSA = $\\pi r l + \\pi r^2$. Material and weight are irrelevant."
+    },
+    {
+      "id": 77,
+      "question": "In how many ways can 6 people be seated around a circular table? The table is antique, made of walnut, seats are cushioned in velvet, and dinner is at 7 PM.",
+      "answers": ["720", "120", "24", "360"],
+      "correct": 1,
+      "hint": "Circular permutations = (n-1)! for n people. Table details and time are irrelevant."
+    },
+    {
+      "id": 78,
+      "question": "A sector of a circle has radius 14 cm and central angle 90°. The sector is part of a pizza that costs $20, made with organic ingredients. What's its area? ($\\pi \\approx 22/7$)",
+      "answers": ["$308 \\text{ cm}^2$", "$77 \\text{ cm}^2$", "$616 \\text{ cm}^2$", "$154 \\text{ cm}^2$"],
+      "correct": 3,
+      "hint": "Sector area = $\\frac{\\theta}{360} \\times \\pi r^2$. Food details are irrelevant."
+    },
+    {
+      "id": 79,
+      "question": "The product of two numbers is 192. Their LCM is 48. The numbers are scores from two teams in a regional competition. What is their HCF?",
+      "answers": ["4", "6", "8", "12"],
+      "correct": 0,
+      "hint": "HCF x LCM = Product of numbers. Solve for HCF. Competition context is irrelevant."
+    },
+    {
+      "id": 80,
+      "question": "A pole casts a 20 m shadow when the sun's elevation is 60°. The pole is made of steel, installed by a 3-person crew, and has a flag at the top. Height of pole? (Use $\\sqrt{3} \\approx 1.73$)",
+      "answers": ["$40$ m", "$11.54$ m", "$20$ m", "$34.6$ m"],
+      "correct": 3,
+      "hint": "Use tan(60°) = height/shadow. So height = shadow x $\\sqrt{3}$. Pole and crew details are irrelevant."
+    },
+    {
+      "id": 81,
+      "question": "A cube has its edges increased by 50%. The cube is a storage container, painted black, used in a warehouse with 100 workers. What's the percentage increase in volume?",
+      "answers": ["150%", "125%", "50%", "237.5%"],
+      "correct": 3,
+      "hint": "New edge = 1.5 x original. New volume = $(1.5)^3$ = 3.375 times original. Container use is irrelevant."
+    },
+    {
+      "id": 82,
+      "question": "Two trains 150 m and 200 m long run on parallel tracks. When running in same direction, they cross in 35 seconds. The trains are from different railway companies. What's the difference in their speeds?",
+      "answers": ["10 m/s", "5 m/s", "18 km/h", "36 km/h"],
+      "correct": 3,
+      "hint": "Total distance = 350 m. Relative speed = 350/35 = 10 m/s. Convert to km/h. Company details are irrelevant."
+    },
+    {
+      "id": 83,
+      "question": "A bag contains 8 white and 6 black balls. 4 balls are drawn. The bag is made of jute, eco-friendly, purchased at a fair trade store. Probability that 2 are white and 2 black?",
+      "answers": ["$\\frac{40}{143}$", "$\\frac{28}{143}$", "$\\frac{70}{143}$", "$\\frac{60}{143}$"],
+      "correct": 3,
+      "hint": "Use combinations: $\\frac{C(8,2) \\times C(6,2)}{C(14,4)}$. Bag material and source are irrelevant."
+    },
+    {
+      "id": 84,
+      "question": "A person deposits $1,000 at the start of each year for 3 years at 10% compound interest. He uses online banking, lives in Chicago, and works remotely. Amount at end of 3 years?",
+      "answers": ["$3,310", "$3,000", "$3,993", "$3,641"],
+      "correct": 3,
+      "hint": "Each deposit grows differently. First for 3 years, second for 2, third for 1. Personal details are irrelevant."
+    },
+    {
+      "id": 85,
+      "question": "A wire of length 44 cm is bent into a circle. The wire is copper, 2 mm thick, and costs $0.50. What's the area of the circle? ($\\pi \\approx 22/7$)",
+      "answers": ["$154 \\text{ cm}^2$", "$44 \\text{ cm}^2$", "$308 \\text{ cm}^2$", "$77 \\text{ cm}^2$"],
+      "correct": 0,
+      "hint": "Wire length = circumference = $2\\pi r$. Find r, then area = $\\pi r^2$. Wire details are irrelevant."
+    },
+    {
+      "id": 86,
+      "question": "A man buys an article for $400 and sells it at a loss of 12%. The article is a vintage camera from Japan, stored for 5 years. What's the selling price?",
+      "answers": ["$448", "$388", "$340", "$352"],
+      "correct": 3,
+      "hint": "Selling price = Cost x (1 - loss%). Article details are irrelevant."
+    },
+    {
+      "id": 87,
+      "question": "The mean of 100 observations is 50. If one observation 150 is replaced by 50, the new mean is what? The observations are daily temperatures in Celsius recorded at a research station.",
+      "answers": ["50", "51", "48", "49"],
+      "correct": 3,
+      "hint": "New sum = old sum - 150 + 50. Divide by 100. Context is irrelevant."
+    },
+    {
+      "id": 88,
+      "question": "A and B enter into partnership with capitals in ratio 5:6. After 4 months, A invests $2,000 more making capitals equal. They run a bakery with 3 employees. What was A's initial investment?",
+      "answers": ["$8,000", "$12,000", "$6,000", "$10,000"],
+      "correct": 3,
+      "hint": "If 5x + 2000 = 6x, solve for x. Then A's initial = 5x. Business type is irrelevant."
+    },
+    {
+      "id": 89,
+      "question": "The diagonal of a rectangle is 25 cm. One side is 7 cm. The rectangle is a photo frame, made of wood, with glass cover. What's the perimeter?",
+      "answers": ["64 cm", "62 cm", "70 cm", "54 cm"],
+      "correct": 2,
+      "hint": "Use Pythagorean theorem to find other side, then perimeter = 2(l+b). Frame details are irrelevant."
+    },
+    {
+      "id": 90,
+      "question": "A spherical ball is melted and recast into a cylinder of height 8 cm with same radius. Original ball radius is 6 cm. The ball was a trophy from a tournament. What's the cylinder's radius?",
+      "answers": ["3 cm", "4 cm", "6 cm", "9 cm"],
+      "correct": 2,
+      "hint": "Volume is conserved. $\\frac{4}{3}\\pi r^3 = \\pi R^2 h$. Given same radius means R = original r. Trophy details are irrelevant."
+    },
+    {
+      "id": 91,
+      "question": "In a race of 1000 m, A beats B by 50 m. In a race of 800 m, B beats C by 40 m. They are professional runners, train at a national facility. By how much does A beat C in 1000 m?",
+      "answers": ["90 m", "88 m", "95 m", "97 m"],
+      "correct": 3,
+      "hint": "Find speed ratios: A:B = 1000:950, B:C = 800:760. Combine to find A:C ratio. Training details are irrelevant."
+    },
+    {
+      "id": 92,
+      "question": "A sum of money amounts to $6,050 in 2 years at 10% p.a. compound interest. The account is at a credit union, requires monthly statements, and has no fees. What's the principal?",
+      "answers": ["$5,500", "$4,500", "$4,800", "$5,000"],
+      "correct": 3,
+      "hint": "Use A = P$(1+r)^n$. Solve for P. Account features are irrelevant."
+    },
+    {
+      "id": 93,
+      "question": "The ratio of surface areas of two spheres is 1:4. They are stress balls, one red and one blue, sold at an office supply store. What's the ratio of their volumes?",
+      "answers": ["1:16", "1:2", "1:4", "1:8"],
+      "correct": 3,
+      "hint": "Surface area ratio = $r^2$ ratio. Volume ratio = $r^3$ ratio. Product details are irrelevant."
+    },
+    {
+      "id": 94,
+      "question": "A can do 1/3 of work in 5 days. B can do 2/5 of work in 8 days. They are contractors, work from 9 AM to 5 PM, and use power tools. In how many days can both finish the work together?",
+      "answers": ["$\\frac{100}{19}$ days", "$\\frac{13}{2}$ days", "8 days", "$\\frac{120}{19}$ days"],
+      "correct": 3,
+      "hint": "Find rate for each: A does 1/15 per day, B does 1/20 per day. Add rates. Work details are irrelevant."
+    },
+    {
+      "id": 95,
+      "question": "A point inside an equilateral triangle is 4 cm from one side, 5 cm from second, and 6 cm from third. The triangle is etched on a glass trophy. What's the triangle's area?",
+      "answers": ["$\\frac{180}{\\sqrt{3}} \\text{ cm}^2$", "$15\\sqrt{3} \\text{ cm}^2$", "$60\\sqrt{3} \\text{ cm}^2$", "$30\\sqrt{3} \\text{ cm}^2$"],
+      "correct": 3,
+      "hint": "Area = $\\frac{1}{2}$ x side x (sum of distances). Rearrange to find area. Trophy details are irrelevant."
+    },
+    {
+      "id": 96,
+      "question": "A dealer marks goods 40% above cost. He allows 2 successive discounts of 10% each. His shop is in a mall, open 12 hours daily, has security cameras. What's the profit percent?",
+      "answers": ["20%", "10%", "15%", "13.4%"],
+      "correct": 3,
+      "hint": "Apply both discounts to marked price: MP x 0.9 x 0.9 = 0.81 MP. Compare to cost. Shop details are irrelevant."
+    },
+    {
+      "id": 97,
+      "question": "The 4th term of a GP is 24, 7th term is 192. The sequence models bacterial growth studied by researchers at a university lab. What's the first term?",
+      "answers": ["3", "6", "1.5", "2"],
+      "correct": 0,
+      "hint": "Use $ar^6 / ar^3 = r^3 = 192/24 = 8$. So r=2. Find a. Research context is irrelevant."
+    },
+    {
+      "id": 98,
+      "question": "A sector is cut from a circular sheet of radius 21 cm and bent into a cone. The angle of sector is 120°. The sheet is aluminum, 2mm thick. What's the base radius of the cone? ($\\pi \\approx 22/7$)",
+      "answers": ["14 cm", "10.5 cm", "21 cm", "7 cm"],
+      "correct": 3,
+      "hint": "Arc length becomes circumference of base. Arc = $\\frac{120}{360}$ x 2$\\pi$(21). Material is irrelevant."
+    },
+    {
+      "id": 99,
+      "question": "A boat covers 32 km upstream in 8 hours. The return trip takes 4 hours. The river is 50 m wide, flows through 3 states, and is popular for fishing. Speed of current?",
+      "answers": ["4 km/h", "3 km/h", "1 km/h", "2 km/h"],
+      "correct": 3,
+      "hint": "Upstream speed = 4 km/h, downstream = 8 km/h. Current = (8-4)/2. River details are irrelevant."
+    },
+    {
+      "id": 100,
+      "question": "In a class, 60% students passed in Math, 70% in English. 10% failed in both. The school was founded in 1975 and has 500 students. What percent passed in both?",
+      "answers": ["50%", "30%", "60%", "40%"],
+      "correct": 3,
+      "hint": "If 10% failed both, 90% passed at least one. Use inclusion-exclusion. School details are irrelevant."
+    },
+    {
+      "id": 101,
+      "question": "A solid iron cube of side 10 cm is melted and formed into a solid cylinder of height 10 cm. The iron is recycled, melted in a furnace at 1500°C. What's the cylinder's radius? ($\\pi \\approx 3.14$)",
+      "answers": ["5.64 cm", "10 cm", "3.18 cm", "7.07 cm"],
+      "correct": 0,
+      "hint": "Cube volume = Cylinder volume. $10^3 = \\pi r^2 \\times 10$. Solve for r. Melting details are irrelevant."
+    },
+    {
+      "id": 102,
+      "question": "A sum doubles in 15 years at simple interest. The account holder is a retired teacher, age 65, living on fixed income. In how many years will it triple?",
+      "answers": ["22.5 years", "45 years", "20 years", "30 years"],
+      "correct": 3,
+      "hint": "If doubles in 15 years, rate is such that interest = principal in 15 years. For triple, interest = 2P. Personal details are irrelevant."
+    },
+    {
+      "id": 103,
+      "question": "The perimeter of a rhombus is 52 cm, one diagonal is 10 cm. The rhombus is a tile pattern in a hotel lobby renovated in 2020. What's the length of the other diagonal?",
+      "answers": ["12 cm", "20 cm", "26 cm", "24 cm"],
+      "correct": 3,
+      "hint": "Side = 52/4 = 13. Use Pythagorean theorem with half-diagonals. Tile context is irrelevant."
+    },
+    {
+      "id": 104,
+      "question": "A and B invested in ratio 3:2 for 8 months and 6 months respectively. Total profit is $5,500. A takes $200 as management fee from profit. The business is a food truck. B's share of remaining profit?",
+      "answers": ["$2,000", "$2,650", "$1,800", "$2,120"],
+      "correct": 3,
+      "hint": "Investment x Time ratio = 24:12 = 2:1. Apply to remaining profit $5,300. Business type is irrelevant."
+    },
+    {
+      "id": 105,
+      "question": "A circle passes through vertices of an equilateral triangle with side 6 cm. The triangle is a logo for a company in Silicon Valley. What's the circumradius?",
+      "answers": ["$3\\sqrt{3}$ cm", "$\\sqrt{3}$ cm", "$4\\sqrt{3}$ cm", "$2\\sqrt{3}$ cm"],
+      "correct": 3,
+      "hint": "Circumradius of equilateral triangle = $\\frac{a}{\\sqrt{3}}$. Company details are irrelevant."
+    },
+    {
+      "id": 106,
+      "question": "Water flows at 3 km/h through a pipe of radius 7 cm into a tank 200 m x 150 m. The pipe is PVC, installed last year, approved by city engineers. How long to raise water level by 21 cm? ($\\pi \\approx 22/7$)",
+      "answers": ["3 hours", "4 hours", "5 hours", "2 hours"],
+      "correct": 3,
+      "hint": "Volume needed = 200 x 150 x 0.21 $m^3$. Rate = $\\pi r^2 \\times$ speed. Pipe details are irrelevant."
+    },
+    {
+      "id": 107,
+      "question": "The sum of digits of a 2-digit number is 9. When digits are reversed, number decreases by 27. The number is a jersey number for a player on a soccer team. What's the original number?",
+      "answers": ["72", "54", "81", "63"],
+      "correct": 3,
+      "hint": "Let number = 10a + b. Set up: a+b=9, (10a+b)-(10b+a)=27. Sports context is irrelevant."
+    },
+    {
+      "id": 108,
+      "question": "A box contains 10 bulbs, 3 are defective. 2 bulbs are drawn at random. The bulbs are LED, energy-efficient, made in China. Probability that both are good?",
+      "answers": ["$\\frac{1}{15}$", "$\\frac{7}{10}$", "$\\frac{49}{100}$", "$\\frac{7}{15}$"],
+      "correct": 3,
+      "hint": "Probability = $\\frac{7}{10} \\times \\frac{6}{9} = \\frac{42}{90} = \\frac{7}{15}$. Bulb details are irrelevant."
+    },
+    {
+      "id": 109,
+      "question": "A right triangle has legs 5 cm and 12 cm. It's inscribed in a circle. The drawing is in a geometry textbook, 10th edition, published by Oxford. What's the circumradius?",
+      "answers": ["8.5 cm", "13 cm", "5 cm", "6.5 cm"],
+      "correct": 3,
+      "hint": "For right triangle, circumradius = hypotenuse/2. Find hypotenuse first. Book details are irrelevant."
+    },
+    {
+      "id": 110,
+      "question": "A hemispherical bowl has inner radius 6 cm, outer radius 8 cm. It's made of ceramic, hand-painted, sold at a craft fair. What's the volume of material? ($\\pi \\approx 22/7$)",
+      "answers": ["$\\frac{1480}{3} \\text{ cm}^3$", "$\\frac{1016}{3} \\text{ cm}^3$", "$\\frac{2048}{3} \\text{ cm}^3$", "$\\frac{728}{3} \\text{ cm}^3$"],
+      "correct": 0,
+      "hint": "Volume = outer hemisphere - inner hemisphere = $\\frac{2}{3}\\pi(R^3 - r^3)$. Craft details are irrelevant."
+    },
+    {
+      "id": 111,
+      "question": "Pipes A and B can fill a tank in 20 and 24 minutes. Pipe C can empty in 30 minutes. The tank is fiberglass, 500 gallons, with a pressure gauge. If all work together, time to fill?",
+      "answers": ["15 min", "20 min", "25 min", "$\\frac{120}{7}$ min"],
+      "correct": 3,
+      "hint": "Net rate = 1/20 + 1/24 - 1/30. Find reciprocal. Tank specs are irrelevant."
+    },
+    {
+      "id": 112,
+      "question": "In an AP, 5th term is 17 and 9th term is 33. The sequence is used in a computer algorithm developed by engineers in Austin. What's the sum of first 15 terms?",
+      "answers": ["405", "375", "420", "390"],
+      "correct": 0,
+      "hint": "Find d from terms, then a. Use sum formula $S_n = \\frac{n}{2}[2a + (n-1)d]$. Algorithm context is irrelevant."
+    },
+    {
+      "id": 113,
+      "question": "A well is 14 m in diameter and 10 m deep. The soil removed is spread evenly over a 100 m x 77 m field. The well is for irrigation, dug by 10 workers. How thick is the soil layer?",
+      "answers": ["10 cm", "15 cm", "25 cm", "20 cm"],
+      "correct": 3,
+      "hint": "Volume of well = volume of spread soil. $\\pi r^2 h = l \\times b \\times t$. Work details are irrelevant."
+    },
+    {
+      "id": 114,
+      "question": "A number is divided into two parts such that 4 times the first plus 7 times the second = 81. If number is 15, the parts are used in a recipe requiring specific ratios. Find the first part.",
+      "answers": ["7", "9", "6", "8"],
+      "correct": 3,
+      "hint": "If parts are x and (15-x): 4x + 7(15-x) = 81. Solve for x. Recipe context is irrelevant."
+    },
+    {
+      "id": 115,
+      "question": "A rectangular lawn 80 m x 60 m has two roads 10 m wide, one parallel to length and one to breadth, running through the middle. The lawn is for a public park. Area of roads?",
+      "answers": ["$1400 \\text{ m}^2$", "$800 \\text{ m}^2$", "$600 \\text{ m}^2$", "$1300 \\text{ m}^2$"],
+      "correct": 3,
+      "hint": "Total = (80 x 10) + (60 x 10) - (10 x 10) for overlap. Park purpose is irrelevant."
+    },
+    {
+      "id": 116,
+      "question": "A train passes a telegraph pole in 10 seconds and a 200 m platform in 30 seconds. The train is electric, carries 800 passengers, and runs on schedule. What's the train's length?",
+      "answers": ["150 m", "200 m", "250 m", "100 m"],
+      "correct": 3,
+      "hint": "Speed = L/10 = (L+200)/30. Solve for L. Train details are irrelevant."
+    },
+    {
+      "id": 117,
+      "question": "The radii of two concentric circles are 13 cm and 5 cm. A chord of the outer circle touches the inner circle. The circles are part of a target board. Length of chord?",
+      "answers": ["18 cm", "12 cm", "20 cm", "24 cm"],
+      "correct": 3,
+      "hint": "The perpendicular from center to chord equals inner radius. Use Pythagorean theorem. Target context is irrelevant."
+    },
+    {
+      "id": 118,
+      "question": "3 men or 5 women can do a work in 12 days. 6 men and 5 women work together. The workplace has cafeteria, gym, and parking. How many days to complete?",
+      "answers": ["6 days", "5 days", "8 days", "4 days"],
+      "correct": 3,
+      "hint": "Find efficiency ratio: 8M = 12W, so 1M = 1.5W. Convert 6M + 8W to equivalent workers. Work conditions are irrelevant."
+    },
+    {
+      "id": 119,
+      "question": "A cylindrical pillar has circumference 110 cm and height 5 m. It's in a courthouse, made of marble, with Corinthian capital. Cost of painting at $5 per m²? ($\\pi \\approx 22/7$)",
+      "answers": ["$550", "$220", "$110", "$275"],
+      "correct": 3,
+      "hint": "Curved surface area = circumference x height. Multiply by rate. Architecture details are irrelevant."
+    },
+    {
+      "id": 120,
+      "question": "In a lottery, there are 10 prizes and 25 blanks. The lottery is for charity, organized by a nonprofit, tickets cost $5 each. Probability of getting a prize?",
+      "answers": ["$\\frac{5}{7}$", "$\\frac{10}{35}$", "$\\frac{1}{4}$", "$\\frac{2}{7}$"],
+      "correct": 3,
+      "hint": "Probability = favorable/total = 10/(10+25). Lottery purpose is irrelevant."
+    },
+    {
+      "id": 121,
+      "question": "A shopkeeper buys 11 articles for $10 and sells 10 for $11. The articles are handmade soaps from a local artisan. What's the profit percentage?",
+      "answers": ["21%", "10%", "11%", "20%"],
+      "correct": 0,
+      "hint": "Compare cost and selling price per article. Product details are irrelevant."
+    },
+    {
+      "id": 122,
+      "question": "The diagonals of a rhombus are 16 cm and 12 cm. The rhombus is a kite design, made with bamboo and paper, for a festival. What's its area?",
+      "answers": ["$48 \\text{ cm}^2$", "$192 \\text{ cm}^2$", "$72 \\text{ cm}^2$", "$96 \\text{ cm}^2$"],
+      "correct": 3,
+      "hint": "Area of rhombus = $\\frac{1}{2} \\times d_1 \\times d_2$. Kite context is irrelevant."
+    },
+    {
+      "id": 123,
+      "question": "A clock gains 5 minutes every hour. The clock is a family heirloom, 100 years old, valued at $500. If set right at 10 AM, what will it show when actual time is 4 PM?",
+      "answers": ["4:25 PM", "4:35 PM", "5:00 PM", "4:30 PM"],
+      "correct": 3,
+      "hint": "In 6 hours, it gains 30 minutes. Clock history is irrelevant."
+    },
+    {
+      "id": 124,
+      "question": "A sphere, cone, and cylinder have same radius and height (for sphere, height = diameter). They are display models in a math museum. Their volumes are in ratio?",
+      "answers": ["1:1:$\\frac{3}{2}$", "1:$\\frac{1}{3}$:1", "4:4:6", "2:1:3"],
+      "correct": 3,
+      "hint": "Compare $\\frac{4}{3}\\pi r^3 : \\frac{1}{3}\\pi r^2 \\times 2r : \\pi r^2 \\times 2r$. Museum context is irrelevant."
+    },
+    {
+      "id": 125,
+      "question": "A man rows 40 km upstream in 8 hours and 36 km downstream in 6 hours. His boat is wooden, handcrafted, and has a small motor. Speed in still water?",
+      "answers": ["6 km/h", "5 km/h", "4 km/h", "5.5 km/h"],
+      "correct": 3,
+      "hint": "Upstream = 5 km/h, Downstream = 6 km/h. Still water = average. Boat details are irrelevant."
+    },
+    {
+      "id": 126,
+      "question": "The sum of present ages of A and B is 50. After 6 years, A's age will be 4 times B's present age. A is a teacher, B is a student at the local school. A's present age?",
+      "answers": ["40 years", "42 years", "36 years", "38 years"],
+      "correct": 3,
+      "hint": "Let A = a, B = 50-a. Then a+6 = 4(50-a). Solve. Occupations are irrelevant."
+    },
+    {
+      "id": 127,
+      "question": "A rectangular sheet 44 cm x 20 cm is rolled along its length into a cylinder. The sheet is copper, 2mm thick, used in metalworking. What's the volume of cylinder? ($\\pi \\approx 22/7$)",
+      "answers": ["$1540 \\text{ cm}^3$", "$6160 \\text{ cm}^3$", "$2200 \\text{ cm}^3$", "$3080 \\text{ cm}^3$"],
+      "correct": 3,
+      "hint": "Circumference = 44 cm gives radius. Height = 20 cm. Find volume. Material is irrelevant."
+    },
+    {
+      "id": 128,
+      "question": "The HCF and LCM of two numbers are 12 and 180. One number is 36. The numbers are page counts of two books in a library. What's the other number?",
+      "answers": ["72", "48", "90", "60"],
+      "correct": 3,
+      "hint": "HCF x LCM = Product. So other = (12 x 180)/36. Book context is irrelevant."
+    },
+    {
+      "id": 129,
+      "question": "A right circular cone is cut by a plane parallel to base, dividing height in ratio 1:2 from vertex. They are cake layers, covered in fondant, for a wedding. Ratio of volumes of smaller cone to frustum?",
+      "answers": ["1:8", "1:3", "1:4", "1:26"],
+      "correct": 3,
+      "hint": "Upper cone similar with ratio 1:3. Volume ratio = $1:2^3 = 1:8$. Lower = 7 parts. Cake context is irrelevant."
+    },
+    {
+      "id": 130,
+      "question": "A car covers first 50 km at 50 km/h, next 50 km at 25 km/h. The driver stops for a 30-minute lunch break, uses GPS navigation. Average speed for the 100 km trip (excluding break)?",
+      "answers": ["37.5 km/h", "40 km/h", "50 km/h", "$33.\\overline{3}$ km/h"],
+      "correct": 3,
+      "hint": "Total time = 1 + 2 = 3 hours. Average = 100/3. Break excluded. Trip details are irrelevant."
+    },
+    {
+      "id": 131,
+      "question": "In a triangle ABC, angle A = 60°, sides AB = 5 cm, AC = 7 cm. The triangle is part of a land survey conducted by licensed surveyors. Area of triangle?",
+      "answers": ["$\\frac{35}{2} \\text{ cm}^2$", "$\\frac{35\\sqrt{3}}{2} \\text{ cm}^2$", "$17.5 \\text{ cm}^2$", "$\\frac{35\\sqrt{3}}{4} \\text{ cm}^2$"],
+      "correct": 3,
+      "hint": "Area = $\\frac{1}{2}$ x AB x AC x sin(A). Survey context is irrelevant."
+    },
+    {
+      "id": 132,
+      "question": "A and B can finish work in 30 and 20 days. They work together for 5 days, then B leaves. The project is for a tech startup with Series A funding. Remaining days for A alone?",
+      "answers": ["15 days", "20 days", "12.5 days", "17.5 days"],
+      "correct": 3,
+      "hint": "Work done in 5 days = $5(\\frac{1}{30}+\\frac{1}{20})$. Find remaining. Startup context is irrelevant."
+    },
+    {
+      "id": 133,
+      "question": "A room is 15 m long, 12 m wide, 8 m high. It has 4 doors (each 2 m x 1.5 m) and 6 windows (each 1.5 m x 1 m). The room is in a hotel in Miami. Area of walls to paint?",
+      "answers": ["$432 \\text{ m}^2$", "$420 \\text{ m}^2$", "$396 \\text{ m}^2$", "$411 \\text{ m}^2$"],
+      "correct": 3,
+      "hint": "Wall area = 2(l+b)h - area of doors and windows. Location is irrelevant."
+    },
+    {
+      "id": 134,
+      "question": "Two numbers differ by 3. Sum of their squares is 65. The numbers represent goals scored by two teams in separate matches. What's the larger number?",
+      "answers": ["4", "8", "5", "7"],
+      "correct": 3,
+      "hint": "Let numbers be x and x+3. Solve $x^2 + (x+3)^2 = 65$. Sports context is irrelevant."
+    },
+    {
+      "id": 135,
+      "question": "A solid consists of a hemisphere surmounted by a cone. Both have radius 7 cm, cone height is 10 cm. It's a decorative piece made of resin. Total volume? ($\\pi \\approx 22/7$)",
+      "answers": ["$\\frac{3234}{3} \\text{ cm}^3$", "$\\frac{1078}{3} \\text{ cm}^3$", "$1078 \\text{ cm}^3$", "$\\frac{2156}{3} \\text{ cm}^3$"],
+      "correct": 3,
+      "hint": "Total = hemisphere volume + cone volume. Material is irrelevant."
+    },
+    {
+      "id": 136,
+      "question": "A ladder 15 m long reaches a window 12 m high. The ladder is moved so top reaches a window on the other side 9 m high. The building is 100 years old. How far did the base move?",
+      "answers": ["6 m", "9 m", "12 m", "3 m"],
+      "correct": 3,
+      "hint": "Find base distance in each case using Pythagorean theorem. Difference is the move. Building age is irrelevant."
+    },
+    {
+      "id": 137,
+      "question": "The population of a town is 20,000. It increases by 10% in first year, decreases by 10% in second year. The town has 5 schools and 2 hospitals. Population after 2 years?",
+      "answers": ["20,000", "20,200", "19,000", "19,800"],
+      "correct": 3,
+      "hint": "20000 x 1.1 x 0.9. Town facilities are irrelevant."
+    },
+    {
+      "id": 138,
+      "question": "A person travels 60 km at 30 km/h, then next 60 km at 60 km/h. He drives a hybrid car, follows traffic rules, and has a valid license. Time for whole journey?",
+      "answers": ["2.5 hours", "4 hours", "3.5 hours", "3 hours"],
+      "correct": 3,
+      "hint": "Time = 60/30 + 60/60 = 2 + 1 = 3 hours. Driver details are irrelevant."
+    },
+    {
+      "id": 139,
+      "question": "A solid metallic sphere of radius 10 cm is melted and 8 equal cones of radius 5 cm are made. The metal is aluminum, recycled, valued at $3/kg. Height of each cone?",
+      "answers": ["20 cm", "25 cm", "30 cm", "$\\frac{100}{3}$ cm"],
+      "correct": 3,
+      "hint": "Sphere volume = 8 x cone volume. Solve for h. Metal details are irrelevant."
+    },
+    {
+      "id": 140,
+      "question": "A fraction becomes 1/3 when 1 is subtracted from numerator. It becomes 1/4 when 8 is added to denominator. The fraction is used in a recipe. Find the original fraction.",
+      "answers": ["4/11", "3/10", "6/13", "5/12"],
+      "correct": 3,
+      "hint": "Set up equations: (n-1)/d = 1/3 and n/(d+8) = 1/4. Solve. Recipe context is irrelevant."
+    },
+    {
+      "id": 141,
+      "question": "An isosceles right triangle has hypotenuse 10 cm. It's part of a quilt pattern designed by a craft artist. What's its area?",
+      "answers": ["50 \\text{ cm}^2", "12.5 \\text{ cm}^2", "100 \\text{ cm}^2", "25 \\text{ cm}^2"],
+      "correct": 3,
+      "hint": "If legs are equal, $2a^2 = 100$, so a = $\\sqrt{50}$. Area = $\\frac{1}{2}a^2$. Quilt context is irrelevant."
+    },
+    {
+      "id": 142,
+      "question": "A invests $3,000 for 8 months, B joins after 4 months with $4,500. They run an online business, meet weekly, use cloud software. How is annual profit $7,000 divided?",
+      "answers": ["A: $3,500, B: $3,500", "A: $3,000, B: $4,000", "A: $4,500, B: $2,500", "A: $4,000, B: $3,000"],
+      "correct": 3,
+      "hint": "Ratio = 3000 x 8 : 4500 x 4 = 24000:18000 = 4:3. Business details are irrelevant."
+    },
+    {
+      "id": 143,
+      "question": "A hemispherical bowl of radius 9 cm is filled with liquid. It's poured into cylindrical bottles of radius 3 cm and height 6 cm. The liquid is fruit juice, organic, cold-pressed. How many bottles filled?",
+      "answers": ["12 bottles", "6 bottles", "18 bottles", "9 bottles"],
+      "correct": 3,
+      "hint": "Hemisphere volume / cylinder volume. Product details are irrelevant."
+    },
+    {
+      "id": 144,
+      "question": "A sum amounts to $5,832 in 2 years at 8% p.a. compound interest. The account is FDIC insured, at a community bank. What's the principal?",
+      "answers": ["$4,800", "$5,200", "$4,500", "$5,000"],
+      "correct": 3,
+      "hint": "A = P$(1.08)^2$. Solve for P. Bank details are irrelevant."
+    },
+    {
+      "id": 145,
+      "question": "The angle of elevation of a tower from a point 100 m away is 45°. The tower has an antenna, was built in 1990, and is painted red and white. Height of tower?",
+      "answers": ["50 m", "200 m", "100$\\sqrt{2}$ m", "100 m"],
+      "correct": 3,
+      "hint": "tan(45°) = height/100. So height = 100 m. Tower details are irrelevant."
+    },
+    {
+      "id": 146,
+      "question": "In a class of 50 students, 32 play football, 25 play cricket, and 12 play both. The school won championships in 2015 and 2018. How many play neither?",
+      "answers": ["7 students", "10 students", "3 students", "5 students"],
+      "correct": 3,
+      "hint": "Using inclusion-exclusion: n(F or C) = 32 + 25 - 12 = 45. Neither = 50 - 45. Championship history is irrelevant."
+    },
+    {
+      "id": 147,
+      "question": "A well of diameter 7 m is dug 24 m deep. Earth taken out forms a platform 22 m x 14 m. The well is for a farm, dug by machinery. Height of platform? ($\\pi \\approx 22/7$)",
+      "answers": ["2.5 m", "4 m", "3.5 m", "3 m"],
+      "correct": 3,
+      "hint": "Well volume = platform volume. $\\pi r^2 \\times 24 = 22 \\times 14 \\times h$. Farm context is irrelevant."
+    },
+    {
+      "id": 148,
+      "question": "The simple interest on a sum for 4 years at 5% per annum is $400. The bank is online-only, offers mobile app, no minimum balance. What's the sum?",
+      "answers": ["$2,500", "$1,600", "$1,800", "$2,000"],
+      "correct": 3,
+      "hint": "SI = P x R x T / 100. Solve for P. Bank features are irrelevant."
+    },
+    {
+      "id": 149,
+      "question": "A cyclist goes uphill at 8 km/h and downhill at 24 km/h. If total journey of 48 km takes 3 hours, the cyclist uses a road bike, wears a helmet. Distance uphill?",
+      "answers": ["18 km", "24 km", "16 km", "12 km"],
+      "correct": 3,
+      "hint": "Let uphill = x. Then x/8 + (48-x)/24 = 3. Equipment is irrelevant."
+    },
+    {
+      "id": 150,
+      "question": "A cone is cut into two parts by a horizontal plane through the midpoint of its axis. They are cake layers, covered in fondant, for a wedding. Ratio of volumes of upper and lower parts?",
+      "answers": ["1:8", "1:3", "1:4", "1:7"],
+      "correct": 3,
+      "hint": "Upper cone similar with ratio 1:2. Volume ratio = $1:2^3 = 1:8$. Lower = 7 parts. Cake context is irrelevant."
     }
   ],
   "access": [0, 1]

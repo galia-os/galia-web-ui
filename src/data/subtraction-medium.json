@@ -7,475 +7,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is $15 - 3$?",
-      "answers": [
-        "12",
-        "11",
-        "13",
-        "10"
-      ],
-      "correct": 0,
-      "hint": "Subtract from the ones: $5 - 3$. The tens stay the same."
-    },
-    {
-      "id": 2,
-      "question": "What is $14 - 6$?",
-      "answers": [
-        "9",
-        "7",
-        "8",
-        "10"
-      ],
-      "correct": 2,
-      "hint": "Think: $14 - 4 = 10$, then take away 2 more."
-    },
-    {
-      "id": 3,
-      "question": "What is $28 - 5$?",
-      "answers": [
-        "22",
-        "24",
-        "21",
-        "23"
-      ],
-      "correct": 3,
-      "hint": "$8 - 5 = 3$. Keep the 2 in the tens place."
-    },
-    {
-      "id": 4,
-      "question": "What is $13 - 7$?",
-      "answers": [
-        "5",
-        "6",
-        "7",
-        "4"
-      ],
-      "correct": 1,
-      "hint": "$13 - 3 = 10$. Now take away 4 more."
-    },
-    {
-      "id": 5,
-      "question": "What is $36 - 4$?",
-      "answers": [
-        "31",
-        "33",
-        "34",
-        "32"
-      ],
-      "correct": 3,
-      "hint": "$6 - 4 = 2$. What's $30 + 2$?"
-    },
-    {
-      "id": 6,
-      "question": "What is $17 - 9$?",
-      "answers": [
-        "8",
-        "7",
-        "9",
-        "6"
-      ],
-      "correct": 0,
-      "hint": "$17 - 7 = 10$. Take away 2 more."
-    },
-    {
-      "id": 7,
-      "question": "What is $25 - 3$?",
-      "answers": [
-        "23",
-        "21",
-        "22",
-        "24"
-      ],
-      "correct": 2,
-      "hint": "$5 - 3 = 2$. Keep the 2 tens."
-    },
-    {
-      "id": 8,
-      "question": "What is $11 - 5$?",
-      "answers": [
-        "7",
-        "5",
-        "6",
-        "4"
-      ],
-      "correct": 2,
-      "hint": "$11 - 1 = 10$. Now take away 4 more."
-    },
-    {
-      "id": 9,
-      "question": "What is $47 - 6$?",
-      "answers": [
-        "42",
-        "43",
-        "40",
-        "41"
-      ],
-      "correct": 3,
-      "hint": "$7 - 6 = 1$. What's $40 + 1$?"
-    },
-    {
-      "id": 10,
-      "question": "What is $16 - 8$?",
-      "answers": [
-        "9",
-        "7",
-        "8",
-        "6"
-      ],
-      "correct": 2,
-      "hint": "$16 - 6 = 10$. Take away 2 more."
-    },
-    {
-      "id": 11,
-      "question": "What is $39 - 7$?",
-      "answers": [
-        "32",
-        "31",
-        "33",
-        "30"
-      ],
-      "correct": 0,
-      "hint": "$9 - 7 = 2$. Keep the 3 tens."
-    },
-    {
-      "id": 12,
-      "question": "What is $12 - 4$?",
-      "answers": [
-        "9",
-        "7",
-        "8",
-        "6"
-      ],
-      "correct": 2,
-      "hint": "$12 - 2 = 10$. Take away 2 more."
-    },
-    {
-      "id": 13,
-      "question": "What is $18 - 9$?",
-      "answers": [
-        "8",
-        "9",
-        "10",
-        "7"
-      ],
-      "correct": 1,
-      "hint": "$9 + 9 = 18$, so $18 - 9 = ?$"
-    },
-    {
-      "id": 14,
-      "question": "What is $54 - 3$?",
-      "answers": [
-        "52",
-        "50",
-        "51",
-        "53"
-      ],
-      "correct": 2,
-      "hint": "$4 - 3 = 1$. What's $50 + 1$?"
-    },
-    {
-      "id": 15,
-      "question": "What is $15 - 7$?",
-      "answers": [
-        "9",
-        "7",
-        "6",
-        "8"
-      ],
-      "correct": 3,
-      "hint": "$15 - 5 = 10$. Take away 2 more."
-    },
-    {
-      "id": 16,
-      "question": "What is $23 - 2$?",
-      "answers": [
-        "21",
-        "20",
-        "22",
-        "19"
-      ],
-      "correct": 0,
-      "hint": "$3 - 2 = 1$. Keep the 2 tens."
-    },
-    {
-      "id": 17,
-      "question": "What is $14 - 5$?",
-      "answers": [
-        "8",
-        "10",
-        "9",
-        "7"
-      ],
-      "correct": 2,
-      "hint": "$14 - 4 = 10$. Take away 1 more."
-    },
-    {
-      "id": 18,
-      "question": "What is $45 - 4$?",
-      "answers": [
-        "42",
-        "40",
-        "41",
-        "43"
-      ],
-      "correct": 2,
-      "hint": "$5 - 4 = 1$. What's $40 + 1$?"
-    },
-    {
-      "id": 19,
-      "question": "What is $16 - 7$?",
-      "answers": [
-        "8",
-        "10",
-        "9",
-        "7"
-      ],
-      "correct": 2,
-      "hint": "$16 - 6 = 10$. Take away 1 more."
-    },
-    {
-      "id": 20,
-      "question": "What is $38 - 6$?",
-      "answers": [
-        "32",
-        "31",
-        "33",
-        "30"
-      ],
-      "correct": 0,
-      "hint": "$8 - 6 = 2$. What's $30 + 2$?"
-    },
-    {
-      "id": 21,
-      "question": "What is $13 - 5$?",
-      "answers": [
-        "7",
-        "9",
-        "8",
-        "6"
-      ],
-      "correct": 2,
-      "hint": "$13 - 3 = 10$. Take away 2 more."
-    },
-    {
-      "id": 22,
-      "question": "What is $27 - 5$?",
-      "answers": [
-        "22",
-        "21",
-        "23",
-        "20"
-      ],
-      "correct": 0,
-      "hint": "$7 - 5 = 2$. Keep the 2 tens."
-    },
-    {
-      "id": 23,
-      "question": "What is $19 - 5$?",
-      "answers": [
-        "13",
-        "15",
-        "14",
-        "12"
-      ],
-      "correct": 2,
-      "hint": "Take away 5 from the teens."
-    },
-    {
-      "id": 24,
-      "question": "What is $56 - 5$?",
-      "answers": [
-        "50",
-        "52",
-        "51",
-        "53"
-      ],
-      "correct": 2,
-      "hint": "$6 - 5 = 1$. What's $50 + 1$?"
-    },
-    {
-      "id": 25,
-      "question": "What is $12 - 6$?",
-      "answers": [
-        "5",
-        "7",
-        "6",
-        "4"
-      ],
-      "correct": 2,
-      "hint": "$6 + 6 = 12$, so $12 - 6 = ?$"
-    },
-    {
-      "id": 26,
-      "question": "What is $34 - 2$?",
-      "answers": [
-        "32",
-        "31",
-        "33",
-        "30"
-      ],
-      "correct": 0,
-      "hint": "$4 - 2 = 2$. Keep the 3 tens."
-    },
-    {
-      "id": 27,
-      "question": "What is $15 - 8$?",
-      "answers": [
-        "6",
-        "8",
-        "7",
-        "5"
-      ],
-      "correct": 2,
-      "hint": "$15 - 5 = 10$. Take away 3 more."
-    },
-    {
-      "id": 28,
-      "question": "What is $49 - 8$?",
-      "answers": [
-        "40",
-        "42",
-        "41",
-        "43"
-      ],
-      "correct": 2,
-      "hint": "$9 - 8 = 1$. What's $40 + 1$?"
-    },
-    {
-      "id": 29,
-      "question": "What is $11 - 4$?",
-      "answers": [
-        "6",
-        "8",
-        "7",
-        "5"
-      ],
-      "correct": 2,
-      "hint": "$11 - 1 = 10$. Take away 3 more."
-    },
-    {
-      "id": 30,
-      "question": "What is $26 - 4$?",
-      "answers": [
-        "22",
-        "21",
-        "23",
-        "20"
-      ],
-      "correct": 0,
-      "hint": "$6 - 4 = 2$. Keep the 2 tens."
-    },
-    {
-      "id": 31,
-      "question": "What is $17 - 8$?",
-      "answers": [
-        "8",
-        "10",
-        "9",
-        "7"
-      ],
-      "correct": 2,
-      "hint": "$17 - 7 = 10$. Take away 1 more."
-    },
-    {
-      "id": 32,
-      "question": "What is $58 - 7$?",
-      "answers": [
-        "50",
-        "52",
-        "51",
-        "53"
-      ],
-      "correct": 2,
-      "hint": "$8 - 7 = 1$. What's $50 + 1$?"
-    },
-    {
-      "id": 33,
-      "question": "What is $14 - 8$?",
-      "answers": [
-        "5",
-        "7",
-        "6",
-        "4"
-      ],
-      "correct": 2,
-      "hint": "$14 - 4 = 10$. Take away 4 more."
-    },
-    {
-      "id": 34,
-      "question": "What is $35 - 3$?",
-      "answers": [
-        "32",
-        "31",
-        "33",
-        "30"
-      ],
-      "correct": 0,
-      "hint": "$5 - 3 = 2$. Keep the 3 tens."
-    },
-    {
-      "id": 35,
-      "question": "What is $13 - 6$?",
-      "answers": [
-        "8",
-        "6",
-        "7",
-        "5"
-      ],
-      "correct": 2,
-      "hint": "$13 - 3 = 10$. Take away 3 more."
-    },
-    {
-      "id": 36,
-      "question": "What is $46 - 3$?",
-      "answers": [
-        "42",
-        "44",
-        "43",
-        "41"
-      ],
-      "correct": 2,
-      "hint": "$6 - 3 = 3$. What's $40 + 3$?"
-    },
-    {
-      "id": 37,
-      "question": "What is $18 - 5$?",
-      "answers": [
-        "12",
-        "14",
-        "13",
-        "11"
-      ],
-      "correct": 2,
-      "hint": "Take away 5 from 18."
-    },
-    {
-      "id": 38,
-      "question": "What is $29 - 6$?",
-      "answers": [
-        "22",
-        "24",
-        "23",
-        "21"
-      ],
-      "correct": 2,
-      "hint": "$9 - 6 = 3$. What's $20 + 3$?"
-    },
-    {
-      "id": 39,
-      "question": "What is $16 - 9$?",
-      "answers": [
-        "8",
-        "6",
-        "7",
-        "5"
-      ],
-      "correct": 2,
-      "hint": "$16 - 6 = 10$. Take away 3 more."
-    },
-    {
-      "id": 40,
-      "question": "What is $37 - 4$?",
+      "question": "What is $38 - 5$?",
       "answers": [
         "32",
         "34",
@@ -483,7 +15,1795 @@
         "31"
       ],
       "correct": 2,
-      "hint": "$7 - 4 = 3$. What's $30 + 3$?"
+      "hint": "Subtract from the ones: $8 - 5$. The tens stay the same."
+    },
+    {
+      "id": 2,
+      "question": "What is $47 - 3$?",
+      "answers": [
+        "44",
+        "43",
+        "45",
+        "42"
+      ],
+      "correct": 0,
+      "hint": "$7 - 3 = ?$ Keep the 4 in the tens place."
+    },
+    {
+      "id": 3,
+      "question": "What is $56 - 4$?",
+      "answers": [
+        "51",
+        "53",
+        "50",
+        "52"
+      ],
+      "correct": 3,
+      "hint": "$6 - 4 = 2$. What's $50 + 2$?"
+    },
+    {
+      "id": 4,
+      "question": "What is $29 - 6$?",
+      "answers": [
+        "22",
+        "23",
+        "24",
+        "21"
+      ],
+      "correct": 1,
+      "hint": "$9 - 6 = 3$. Keep the 2 tens."
+    },
+    {
+      "id": 5,
+      "question": "What is $65 - 2$?",
+      "answers": [
+        "64",
+        "62",
+        "63",
+        "61"
+      ],
+      "correct": 2,
+      "hint": "$5 - 2 = ?$ The tens digit stays the same."
+    },
+    {
+      "id": 6,
+      "question": "What is $78 - 5$?",
+      "answers": [
+        "72",
+        "74",
+        "71",
+        "73"
+      ],
+      "correct": 3,
+      "hint": "Subtract 5 from 8 in the ones place."
+    },
+    {
+      "id": 7,
+      "question": "What is $84 - 3$?",
+      "answers": [
+        "81",
+        "80",
+        "82",
+        "79"
+      ],
+      "correct": 0,
+      "hint": "$4 - 3 = 1$. What's $80 + 1$?"
+    },
+    {
+      "id": 8,
+      "question": "What is $93 - 2$?",
+      "answers": [
+        "90",
+        "92",
+        "91",
+        "89"
+      ],
+      "correct": 2,
+      "hint": "Subtract from the ones: $3 - 2 = ?$"
+    },
+    {
+      "id": 9,
+      "question": "What is $42 - 7$?",
+      "answers": [
+        "36",
+        "34",
+        "37",
+        "35"
+      ],
+      "correct": 3,
+      "hint": "You need to borrow! Think: $12 - 7 = ?$ Then add 30."
+    },
+    {
+      "id": 10,
+      "question": "What is $51 - 4$?",
+      "answers": [
+        "48",
+        "46",
+        "47",
+        "45"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the tens. What is $11 - 4$?"
+    },
+    {
+      "id": 11,
+      "question": "What is $63 - 8$?",
+      "answers": [
+        "55",
+        "54",
+        "56",
+        "53"
+      ],
+      "correct": 0,
+      "hint": "Borrow 10 from the tens place. What is $13 - 8$?"
+    },
+    {
+      "id": 12,
+      "question": "What is $74 - 6$?",
+      "answers": [
+        "69",
+        "67",
+        "68",
+        "66"
+      ],
+      "correct": 2,
+      "hint": "You need to borrow. What is $14 - 6$?"
+    },
+    {
+      "id": 13,
+      "question": "What is $85 - 9$?",
+      "answers": [
+        "75",
+        "77",
+        "74",
+        "76"
+      ],
+      "correct": 3,
+      "hint": "Borrow from 8 tens. What is $15 - 9$?"
+    },
+    {
+      "id": 14,
+      "question": "What is $32 - 5$?",
+      "answers": [
+        "28",
+        "27",
+        "26",
+        "29"
+      ],
+      "correct": 1,
+      "hint": "Borrow 10 from the tens. What is $12 - 5$?"
+    },
+    {
+      "id": 15,
+      "question": "What is $41 - 3$?",
+      "answers": [
+        "38",
+        "37",
+        "39",
+        "36"
+      ],
+      "correct": 0,
+      "hint": "You need to borrow. What is $11 - 3$?"
+    },
+    {
+      "id": 16,
+      "question": "What is $53 - 7$?",
+      "answers": [
+        "47",
+        "45",
+        "46",
+        "48"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 5. What is $13 - 7$?"
+    },
+    {
+      "id": 17,
+      "question": "What is $67 - 23$?",
+      "answers": [
+        "43",
+        "45",
+        "44",
+        "42"
+      ],
+      "correct": 2,
+      "hint": "Subtract ones: $7 - 3$. Then subtract tens: $6 - 2$."
+    },
+    {
+      "id": 18,
+      "question": "What is $89 - 45$?",
+      "answers": [
+        "45",
+        "43",
+        "44",
+        "46"
+      ],
+      "correct": 2,
+      "hint": "Subtract the ones first, then the tens."
+    },
+    {
+      "id": 19,
+      "question": "What is $76 - 32$?",
+      "answers": [
+        "44",
+        "42",
+        "45",
+        "43"
+      ],
+      "correct": 0,
+      "hint": "$6 - 2 = ?$ and $7 - 3 = ?$ Put them together."
+    },
+    {
+      "id": 20,
+      "question": "What is $58 - 24$?",
+      "answers": [
+        "35",
+        "33",
+        "34",
+        "32"
+      ],
+      "correct": 2,
+      "hint": "Subtract ones: $8 - 4$. Subtract tens: $5 - 2$."
+    },
+    {
+      "id": 21,
+      "question": "What is $95 - 41$?",
+      "answers": [
+        "53",
+        "55",
+        "54",
+        "52"
+      ],
+      "correct": 2,
+      "hint": "$5 - 1 = ?$ and $9 - 4 = ?$"
+    },
+    {
+      "id": 22,
+      "question": "What is $84 - 52$?",
+      "answers": [
+        "32",
+        "31",
+        "33",
+        "30"
+      ],
+      "correct": 0,
+      "hint": "Subtract each column separately. No borrowing needed!"
+    },
+    {
+      "id": 23,
+      "question": "What is $69 - 36$?",
+      "answers": [
+        "34",
+        "32",
+        "33",
+        "31"
+      ],
+      "correct": 2,
+      "hint": "$9 - 6 = 3$ and $6 - 3 = 3$. Put them together."
+    },
+    {
+      "id": 24,
+      "question": "What is $77 - 43$?",
+      "answers": [
+        "33",
+        "35",
+        "34",
+        "32"
+      ],
+      "correct": 2,
+      "hint": "Subtract ones, then tens. No borrowing needed here."
+    },
+    {
+      "id": 25,
+      "question": "What is $54 - 28$?",
+      "answers": [
+        "27",
+        "25",
+        "26",
+        "24"
+      ],
+      "correct": 2,
+      "hint": "You need to borrow! $14 - 8 = ?$ Then $4 - 2 = ?$"
+    },
+    {
+      "id": 26,
+      "question": "What is $72 - 35$?",
+      "answers": [
+        "36",
+        "38",
+        "37",
+        "39"
+      ],
+      "correct": 2,
+      "hint": "Borrow from tens. What is $12 - 5$? Then $6 - 3 = ?$"
+    },
+    {
+      "id": 27,
+      "question": "What is $83 - 47$?",
+      "answers": [
+        "37",
+        "35",
+        "36",
+        "34"
+      ],
+      "correct": 2,
+      "hint": "Borrow to make $13 - 7$. Then subtract the tens."
+    },
+    {
+      "id": 28,
+      "question": "What is $61 - 24$?",
+      "answers": [
+        "38",
+        "36",
+        "37",
+        "35"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 4 = ?$ Then $5 - 2 = ?$"
+    },
+    {
+      "id": 29,
+      "question": "What is $45 - 18$?",
+      "answers": [
+        "26",
+        "28",
+        "27",
+        "29"
+      ],
+      "correct": 2,
+      "hint": "Borrow from 4 tens. What is $15 - 8$?"
+    },
+    {
+      "id": 30,
+      "question": "What is $92 - 56$?",
+      "answers": [
+        "35",
+        "37",
+        "36",
+        "34"
+      ],
+      "correct": 2,
+      "hint": "Borrow to subtract ones. $12 - 6 = ?$ Then $8 - 5 = ?$"
+    },
+    {
+      "id": 31,
+      "question": "What is $73 - 39$?",
+      "answers": [
+        "33",
+        "35",
+        "34",
+        "32"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the tens. What is $13 - 9$?"
+    },
+    {
+      "id": 32,
+      "question": "What is $86 - 49$?",
+      "answers": [
+        "36",
+        "38",
+        "37",
+        "39"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $16 - 9 = ?$ Then $7 - 4 = ?$"
+    },
+    {
+      "id": 33,
+      "question": "What is $49 - 7$?",
+      "answers": [
+        "41",
+        "43",
+        "42",
+        "40"
+      ],
+      "correct": 2,
+      "hint": "$9 - 7 = 2$. What's $40 + 2$?"
+    },
+    {
+      "id": 34,
+      "question": "What is $68 - 4$?",
+      "answers": [
+        "64",
+        "63",
+        "65",
+        "62"
+      ],
+      "correct": 0,
+      "hint": "$8 - 4 = ?$ The tens stay the same."
+    },
+    {
+      "id": 35,
+      "question": "What is $35 - 2$?",
+      "answers": [
+        "32",
+        "34",
+        "33",
+        "31"
+      ],
+      "correct": 2,
+      "hint": "Subtract from ones: $5 - 2 = ?$"
+    },
+    {
+      "id": 36,
+      "question": "What is $87 - 6$?",
+      "answers": [
+        "80",
+        "81",
+        "82",
+        "79"
+      ],
+      "correct": 1,
+      "hint": "$7 - 6 = 1$. What's $80 + 1$?"
+    },
+    {
+      "id": 37,
+      "question": "What is $52 - 8$?",
+      "answers": [
+        "43",
+        "45",
+        "44",
+        "46"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the tens. What is $12 - 8$?"
+    },
+    {
+      "id": 38,
+      "question": "What is $64 - 9$?",
+      "answers": [
+        "56",
+        "54",
+        "55",
+        "53"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 9 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 39,
+      "question": "What is $71 - 6$?",
+      "answers": [
+        "65",
+        "64",
+        "66",
+        "63"
+      ],
+      "correct": 0,
+      "hint": "Borrow from 7 tens. What is $11 - 6$?"
+    },
+    {
+      "id": 40,
+      "question": "What is $43 - 5$?",
+      "answers": [
+        "37",
+        "39",
+        "38",
+        "36"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $13 - 5 = ?$ Then add 30."
+    },
+    {
+      "id": 41,
+      "question": "What is $98 - 53$?",
+      "answers": [
+        "44",
+        "46",
+        "45",
+        "43"
+      ],
+      "correct": 2,
+      "hint": "$8 - 3 = 5$ and $9 - 5 = 4$. Put them together."
+    },
+    {
+      "id": 42,
+      "question": "What is $75 - 31$?",
+      "answers": [
+        "44",
+        "43",
+        "45",
+        "42"
+      ],
+      "correct": 0,
+      "hint": "Subtract ones, then tens. No borrowing needed."
+    },
+    {
+      "id": 43,
+      "question": "What is $86 - 54$?",
+      "answers": [
+        "31",
+        "33",
+        "32",
+        "30"
+      ],
+      "correct": 2,
+      "hint": "$6 - 4 = ?$ and $8 - 5 = ?$"
+    },
+    {
+      "id": 44,
+      "question": "What is $62 - 38$?",
+      "answers": [
+        "23",
+        "25",
+        "24",
+        "26"
+      ],
+      "correct": 2,
+      "hint": "Borrow to make $12 - 8$. Then $5 - 3 = ?$"
+    },
+    {
+      "id": 45,
+      "question": "What is $91 - 45$?",
+      "answers": [
+        "47",
+        "45",
+        "46",
+        "44"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 5 = ?$ Then $8 - 4 = ?$"
+    },
+    {
+      "id": 46,
+      "question": "What is $57 - 29$?",
+      "answers": [
+        "27",
+        "29",
+        "28",
+        "30"
+      ],
+      "correct": 2,
+      "hint": "Borrow from 5 tens. What is $17 - 9$?"
+    },
+    {
+      "id": 47,
+      "question": "What is $36 - 3$?",
+      "answers": [
+        "33",
+        "32",
+        "34",
+        "31"
+      ],
+      "correct": 0,
+      "hint": "$6 - 3 = ?$ The tens stay the same."
+    },
+    {
+      "id": 48,
+      "question": "What is $59 - 8$?",
+      "answers": [
+        "52",
+        "50",
+        "51",
+        "49"
+      ],
+      "correct": 2,
+      "hint": "$9 - 8 = 1$. What's $50 + 1$?"
+    },
+    {
+      "id": 49,
+      "question": "What is $44 - 6$?",
+      "answers": [
+        "39",
+        "37",
+        "38",
+        "36"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 6 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 50,
+      "question": "What is $82 - 37$?",
+      "answers": [
+        "44",
+        "46",
+        "45",
+        "43"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $12 - 7 = ?$ Then $7 - 3 = ?$"
+    },
+    {
+      "id": 51,
+      "question": "What is $97 - 5$?",
+      "answers": [
+        "91",
+        "93",
+        "92",
+        "90"
+      ],
+      "correct": 2,
+      "hint": "$7 - 5 = 2$. What's $90 + 2$?"
+    },
+    {
+      "id": 52,
+      "question": "What is $66 - 4$?",
+      "answers": [
+        "62",
+        "61",
+        "63",
+        "60"
+      ],
+      "correct": 0,
+      "hint": "$6 - 4 = ?$ Keep the 6 tens."
+    },
+    {
+      "id": 53,
+      "question": "What is $33 - 7$?",
+      "answers": [
+        "25",
+        "27",
+        "26",
+        "24"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the tens. What is $13 - 7$?"
+    },
+    {
+      "id": 54,
+      "question": "What is $78 - 42$?",
+      "answers": [
+        "35",
+        "37",
+        "36",
+        "34"
+      ],
+      "correct": 2,
+      "hint": "$8 - 2 = 6$ and $7 - 4 = 3$. Put them together."
+    },
+    {
+      "id": 55,
+      "question": "What is $94 - 67$?",
+      "answers": [
+        "26",
+        "28",
+        "27",
+        "29"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 7 = ?$ Then $8 - 6 = ?$"
+    },
+    {
+      "id": 56,
+      "question": "What is $55 - 3$?",
+      "answers": [
+        "52",
+        "51",
+        "53",
+        "50"
+      ],
+      "correct": 0,
+      "hint": "$5 - 3 = 2$. What's $50 + 2$?"
+    },
+    {
+      "id": 57,
+      "question": "What is $81 - 27$?",
+      "answers": [
+        "53",
+        "55",
+        "54",
+        "52"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 7 = ?$ Then $7 - 2 = ?$"
+    },
+    {
+      "id": 58,
+      "question": "What is $46 - 8$?",
+      "answers": [
+        "39",
+        "37",
+        "38",
+        "36"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the tens. What is $16 - 8$?"
+    },
+    {
+      "id": 59,
+      "question": "What is $69 - 25$?",
+      "answers": [
+        "44",
+        "43",
+        "45",
+        "42"
+      ],
+      "correct": 0,
+      "hint": "$9 - 5 = 4$ and $6 - 2 = 4$. Put them together."
+    },
+    {
+      "id": 60,
+      "question": "What is $72 - 9$?",
+      "answers": [
+        "64",
+        "62",
+        "63",
+        "61"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $12 - 9 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 61,
+      "question": "What is $88 - 6$?",
+      "answers": [
+        "81",
+        "83",
+        "82",
+        "80"
+      ],
+      "correct": 2,
+      "hint": "$8 - 6 = 2$. What's $80 + 2$?"
+    },
+    {
+      "id": 62,
+      "question": "What is $95 - 58$?",
+      "answers": [
+        "38",
+        "36",
+        "37",
+        "35"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $15 - 8 = ?$ Then $8 - 5 = ?$"
+    },
+    {
+      "id": 63,
+      "question": "What is $34 - 9$?",
+      "answers": [
+        "24",
+        "26",
+        "25",
+        "23"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 3. What is $14 - 9$?"
+    },
+    {
+      "id": 64,
+      "question": "What is $63 - 21$?",
+      "answers": [
+        "42",
+        "41",
+        "43",
+        "40"
+      ],
+      "correct": 0,
+      "hint": "$3 - 1 = 2$ and $6 - 2 = 4$. Put them together."
+    },
+    {
+      "id": 65,
+      "question": "What is $79 - 4$?",
+      "answers": [
+        "74",
+        "76",
+        "75",
+        "73"
+      ],
+      "correct": 2,
+      "hint": "$9 - 4 = 5$. What's $70 + 5$?"
+    },
+    {
+      "id": 66,
+      "question": "What is $51 - 16$?",
+      "answers": [
+        "36",
+        "34",
+        "35",
+        "33"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 6 = ?$ Then $4 - 1 = ?$"
+    },
+    {
+      "id": 67,
+      "question": "What is $48 - 5$?",
+      "answers": [
+        "43",
+        "42",
+        "44",
+        "41"
+      ],
+      "correct": 0,
+      "hint": "$8 - 5 = 3$. What's $40 + 3$?"
+    },
+    {
+      "id": 68,
+      "question": "What is $67 - 38$?",
+      "answers": [
+        "28",
+        "30",
+        "29",
+        "31"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $17 - 8 = ?$ Then $5 - 3 = ?$"
+    },
+    {
+      "id": 69,
+      "question": "What is $83 - 6$?",
+      "answers": [
+        "78",
+        "76",
+        "77",
+        "75"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 8. What is $13 - 6$?"
+    },
+    {
+      "id": 70,
+      "question": "What is $96 - 42$?",
+      "answers": [
+        "54",
+        "53",
+        "55",
+        "52"
+      ],
+      "correct": 0,
+      "hint": "$6 - 2 = 4$ and $9 - 4 = 5$. Put them together."
+    },
+    {
+      "id": 71,
+      "question": "What is $25 - 8$?",
+      "answers": [
+        "16",
+        "18",
+        "17",
+        "15"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $15 - 8 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 72,
+      "question": "What is $74 - 39$?",
+      "answers": [
+        "36",
+        "34",
+        "35",
+        "33"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 9 = ?$ Then $6 - 3 = ?$"
+    },
+    {
+      "id": 73,
+      "question": "What is $58 - 3$?",
+      "answers": [
+        "55",
+        "54",
+        "56",
+        "53"
+      ],
+      "correct": 0,
+      "hint": "$8 - 3 = 5$. What's $50 + 5$?"
+    },
+    {
+      "id": 74,
+      "question": "What is $91 - 64$?",
+      "answers": [
+        "28",
+        "26",
+        "27",
+        "25"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 4 = ?$ Then $8 - 6 = ?$"
+    },
+    {
+      "id": 75,
+      "question": "What is $37 - 5$?",
+      "answers": [
+        "31",
+        "33",
+        "32",
+        "30"
+      ],
+      "correct": 2,
+      "hint": "$7 - 5 = 2$. What's $30 + 2$?"
+    },
+    {
+      "id": 76,
+      "question": "What is $65 - 28$?",
+      "answers": [
+        "36",
+        "38",
+        "37",
+        "39"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $15 - 8 = ?$ Then $5 - 2 = ?$"
+    },
+    {
+      "id": 77,
+      "question": "What is $42 - 3$?",
+      "answers": [
+        "39",
+        "38",
+        "40",
+        "37"
+      ],
+      "correct": 0,
+      "hint": "Borrow from the 4. What is $12 - 3$?"
+    },
+    {
+      "id": 78,
+      "question": "What is $89 - 52$?",
+      "answers": [
+        "36",
+        "38",
+        "37",
+        "35"
+      ],
+      "correct": 2,
+      "hint": "$9 - 2 = 7$ and $8 - 5 = 3$. Put them together."
+    },
+    {
+      "id": 79,
+      "question": "What is $56 - 9$?",
+      "answers": [
+        "46",
+        "48",
+        "47",
+        "45"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $16 - 9 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 80,
+      "question": "What is $73 - 41$?",
+      "answers": [
+        "32",
+        "31",
+        "33",
+        "30"
+      ],
+      "correct": 0,
+      "hint": "$3 - 1 = 2$ and $7 - 4 = 3$. Put them together."
+    },
+    {
+      "id": 81,
+      "question": "What is $94 - 7$?",
+      "answers": [
+        "88",
+        "86",
+        "87",
+        "85"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 9. What is $14 - 7$?"
+    },
+    {
+      "id": 82,
+      "question": "What is $68 - 35$?",
+      "answers": [
+        "34",
+        "32",
+        "33",
+        "31"
+      ],
+      "correct": 2,
+      "hint": "$8 - 5 = 3$ and $6 - 3 = 3$. Put them together."
+    },
+    {
+      "id": 83,
+      "question": "What is $45 - 7$?",
+      "answers": [
+        "39",
+        "37",
+        "38",
+        "36"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $15 - 7 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 84,
+      "question": "What is $87 - 59$?",
+      "answers": [
+        "29",
+        "27",
+        "28",
+        "26"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $17 - 9 = ?$ Then $7 - 5 = ?$"
+    },
+    {
+      "id": 85,
+      "question": "What is $39 - 4$?",
+      "answers": [
+        "35",
+        "34",
+        "36",
+        "33"
+      ],
+      "correct": 0,
+      "hint": "$9 - 4 = 5$. What's $30 + 5$?"
+    },
+    {
+      "id": 86,
+      "question": "What is $76 - 48$?",
+      "answers": [
+        "27",
+        "29",
+        "28",
+        "30"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $16 - 8 = ?$ Then $6 - 4 = ?$"
+    },
+    {
+      "id": 87,
+      "question": "What is $61 - 5$?",
+      "answers": [
+        "57",
+        "55",
+        "56",
+        "54"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 6. What is $11 - 5$?"
+    },
+    {
+      "id": 88,
+      "question": "What is $82 - 44$?",
+      "answers": [
+        "38",
+        "37",
+        "39",
+        "36"
+      ],
+      "correct": 0,
+      "hint": "Borrow: $12 - 4 = ?$ Then $7 - 4 = ?$"
+    },
+    {
+      "id": 89,
+      "question": "What is $53 - 8$?",
+      "answers": [
+        "44",
+        "46",
+        "45",
+        "43"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $13 - 8 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 90,
+      "question": "What is $99 - 63$?",
+      "answers": [
+        "35",
+        "37",
+        "36",
+        "34"
+      ],
+      "correct": 2,
+      "hint": "$9 - 3 = 6$ and $9 - 6 = 3$. Put them together."
+    },
+    {
+      "id": 91,
+      "question": "What is $26 - 9$?",
+      "answers": [
+        "16",
+        "18",
+        "17",
+        "15"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 2. What is $16 - 9$?"
+    },
+    {
+      "id": 92,
+      "question": "What is $85 - 32$?",
+      "answers": [
+        "53",
+        "52",
+        "54",
+        "51"
+      ],
+      "correct": 0,
+      "hint": "$5 - 2 = 3$ and $8 - 3 = 5$. Put them together."
+    },
+    {
+      "id": 93,
+      "question": "What is $48 - 6$?",
+      "answers": [
+        "41",
+        "43",
+        "42",
+        "40"
+      ],
+      "correct": 2,
+      "hint": "$8 - 6 = 2$. What's $40 + 2$?"
+    },
+    {
+      "id": 94,
+      "question": "What is $71 - 36$?",
+      "answers": [
+        "34",
+        "36",
+        "35",
+        "33"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 6 = ?$ Then $6 - 3 = ?$"
+    },
+    {
+      "id": 95,
+      "question": "What is $57 - 4$?",
+      "answers": [
+        "53",
+        "52",
+        "54",
+        "51"
+      ],
+      "correct": 0,
+      "hint": "$7 - 4 = 3$. What's $50 + 3$?"
+    },
+    {
+      "id": 96,
+      "question": "What is $93 - 68$?",
+      "answers": [
+        "24",
+        "26",
+        "25",
+        "27"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $13 - 8 = ?$ Then $8 - 6 = ?$"
+    },
+    {
+      "id": 97,
+      "question": "What is $64 - 7$?",
+      "answers": [
+        "58",
+        "56",
+        "57",
+        "55"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 6. What is $14 - 7$?"
+    },
+    {
+      "id": 98,
+      "question": "What is $88 - 45$?",
+      "answers": [
+        "42",
+        "44",
+        "43",
+        "41"
+      ],
+      "correct": 2,
+      "hint": "$8 - 5 = 3$ and $8 - 4 = 4$. Put them together."
+    },
+    {
+      "id": 99,
+      "question": "What is $31 - 8$?",
+      "answers": [
+        "24",
+        "22",
+        "23",
+        "21"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 8 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 100,
+      "question": "What is $75 - 47$?",
+      "answers": [
+        "28",
+        "27",
+        "29",
+        "26"
+      ],
+      "correct": 0,
+      "hint": "Borrow: $15 - 7 = ?$ Then $6 - 4 = ?$"
+    },
+    {
+      "id": 101,
+      "question": "What is $59 - 6$?",
+      "answers": [
+        "52",
+        "54",
+        "53",
+        "51"
+      ],
+      "correct": 2,
+      "hint": "$9 - 6 = 3$. What's $50 + 3$?"
+    },
+    {
+      "id": 102,
+      "question": "What is $84 - 29$?",
+      "answers": [
+        "54",
+        "56",
+        "55",
+        "53"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 9 = ?$ Then $7 - 2 = ?$"
+    },
+    {
+      "id": 103,
+      "question": "What is $46 - 5$?",
+      "answers": [
+        "41",
+        "40",
+        "42",
+        "39"
+      ],
+      "correct": 0,
+      "hint": "$6 - 5 = 1$. What's $40 + 1$?"
+    },
+    {
+      "id": 104,
+      "question": "What is $92 - 57$?",
+      "answers": [
+        "34",
+        "36",
+        "35",
+        "33"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $12 - 7 = ?$ Then $8 - 5 = ?$"
+    },
+    {
+      "id": 105,
+      "question": "What is $38 - 9$?",
+      "answers": [
+        "30",
+        "28",
+        "29",
+        "27"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 3. What is $18 - 9$?"
+    },
+    {
+      "id": 106,
+      "question": "What is $77 - 34$?",
+      "answers": [
+        "43",
+        "42",
+        "44",
+        "41"
+      ],
+      "correct": 0,
+      "hint": "$7 - 4 = 3$ and $7 - 3 = 4$. Put them together."
+    },
+    {
+      "id": 107,
+      "question": "What is $62 - 8$?",
+      "answers": [
+        "55",
+        "53",
+        "54",
+        "52"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $12 - 8 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 108,
+      "question": "What is $96 - 51$?",
+      "answers": [
+        "44",
+        "46",
+        "45",
+        "43"
+      ],
+      "correct": 2,
+      "hint": "$6 - 1 = 5$ and $9 - 5 = 4$. Put them together."
+    },
+    {
+      "id": 109,
+      "question": "What is $43 - 6$?",
+      "answers": [
+        "38",
+        "36",
+        "37",
+        "35"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 4. What is $13 - 6$?"
+    },
+    {
+      "id": 110,
+      "question": "What is $81 - 43$?",
+      "answers": [
+        "38",
+        "37",
+        "39",
+        "36"
+      ],
+      "correct": 0,
+      "hint": "Borrow: $11 - 3 = ?$ Then $7 - 4 = ?$"
+    },
+    {
+      "id": 111,
+      "question": "What is $54 - 7$?",
+      "answers": [
+        "48",
+        "46",
+        "47",
+        "45"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 7 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 112,
+      "question": "What is $98 - 62$?",
+      "answers": [
+        "35",
+        "37",
+        "36",
+        "34"
+      ],
+      "correct": 2,
+      "hint": "$8 - 2 = 6$ and $9 - 6 = 3$. Put them together."
+    },
+    {
+      "id": 113,
+      "question": "What is $35 - 8$?",
+      "answers": [
+        "28",
+        "26",
+        "27",
+        "25"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 3. What is $15 - 8$?"
+    },
+    {
+      "id": 114,
+      "question": "What is $79 - 36$?",
+      "answers": [
+        "43",
+        "42",
+        "44",
+        "41"
+      ],
+      "correct": 0,
+      "hint": "$9 - 6 = 3$ and $7 - 3 = 4$. Put them together."
+    },
+    {
+      "id": 115,
+      "question": "What is $66 - 9$?",
+      "answers": [
+        "58",
+        "56",
+        "57",
+        "55"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $16 - 9 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 116,
+      "question": "What is $87 - 53$?",
+      "answers": [
+        "33",
+        "35",
+        "34",
+        "32"
+      ],
+      "correct": 2,
+      "hint": "$7 - 3 = 4$ and $8 - 5 = 3$. Put them together."
+    },
+    {
+      "id": 117,
+      "question": "What is $41 - 7$?",
+      "answers": [
+        "35",
+        "33",
+        "34",
+        "32"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 4. What is $11 - 7$?"
+    },
+    {
+      "id": 118,
+      "question": "What is $93 - 48$?",
+      "answers": [
+        "46",
+        "44",
+        "45",
+        "43"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $13 - 8 = ?$ Then $8 - 4 = ?$"
+    },
+    {
+      "id": 119,
+      "question": "What is $52 - 6$?",
+      "answers": [
+        "46",
+        "45",
+        "47",
+        "44"
+      ],
+      "correct": 0,
+      "hint": "Borrow: $12 - 6 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 120,
+      "question": "What is $86 - 41$?",
+      "answers": [
+        "44",
+        "46",
+        "45",
+        "43"
+      ],
+      "correct": 2,
+      "hint": "$6 - 1 = 5$ and $8 - 4 = 4$. Put them together."
+    },
+    {
+      "id": 121,
+      "question": "What is $27 - 9$?",
+      "answers": [
+        "17",
+        "19",
+        "18",
+        "16"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 2. What is $17 - 9$?"
+    },
+    {
+      "id": 122,
+      "question": "What is $74 - 25$?",
+      "answers": [
+        "48",
+        "50",
+        "49",
+        "47"
+      ],
+      "correct": 2,
+      "hint": "$14 - 5 = ?$ Then $6 - 2 = ?$"
+    },
+    {
+      "id": 123,
+      "question": "What is $68 - 7$?",
+      "answers": [
+        "61",
+        "60",
+        "62",
+        "59"
+      ],
+      "correct": 0,
+      "hint": "$8 - 7 = 1$. What's $60 + 1$?"
+    },
+    {
+      "id": 124,
+      "question": "What is $95 - 37$?",
+      "answers": [
+        "59",
+        "57",
+        "58",
+        "56"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $15 - 7 = ?$ Then $8 - 3 = ?$"
+    },
+    {
+      "id": 125,
+      "question": "What is $36 - 8$?",
+      "answers": [
+        "29",
+        "27",
+        "28",
+        "26"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 3. What is $16 - 8$?"
+    },
+    {
+      "id": 126,
+      "question": "What is $82 - 54$?",
+      "answers": [
+        "27",
+        "29",
+        "28",
+        "30"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $12 - 4 = ?$ Then $7 - 5 = ?$"
+    },
+    {
+      "id": 127,
+      "question": "What is $49 - 5$?",
+      "answers": [
+        "44",
+        "43",
+        "45",
+        "42"
+      ],
+      "correct": 0,
+      "hint": "$9 - 5 = 4$. What's $40 + 4$?"
+    },
+    {
+      "id": 128,
+      "question": "What is $91 - 66$?",
+      "answers": [
+        "24",
+        "26",
+        "25",
+        "23"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 6 = ?$ Then $8 - 6 = ?$"
+    },
+    {
+      "id": 129,
+      "question": "What is $55 - 9$?",
+      "answers": [
+        "47",
+        "45",
+        "46",
+        "44"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 5. What is $15 - 9$?"
+    },
+    {
+      "id": 130,
+      "question": "What is $78 - 32$?",
+      "answers": [
+        "46",
+        "45",
+        "47",
+        "44"
+      ],
+      "correct": 0,
+      "hint": "$8 - 2 = 6$ and $7 - 3 = 4$. Put them together."
+    },
+    {
+      "id": 131,
+      "question": "What is $63 - 7$?",
+      "answers": [
+        "57",
+        "55",
+        "56",
+        "54"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $13 - 7 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 132,
+      "question": "What is $84 - 46$?",
+      "answers": [
+        "39",
+        "37",
+        "38",
+        "36"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 6 = ?$ Then $7 - 4 = ?$"
+    },
+    {
+      "id": 133,
+      "question": "What is $47 - 8$?",
+      "answers": [
+        "40",
+        "38",
+        "39",
+        "37"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 4. What is $17 - 8$?"
+    },
+    {
+      "id": 134,
+      "question": "What is $96 - 73$?",
+      "answers": [
+        "23",
+        "22",
+        "24",
+        "21"
+      ],
+      "correct": 0,
+      "hint": "$6 - 3 = 3$ and $9 - 7 = 2$. Put them together."
+    },
+    {
+      "id": 135,
+      "question": "What is $32 - 4$?",
+      "answers": [
+        "29",
+        "27",
+        "28",
+        "26"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 3. What is $12 - 4$?"
+    },
+    {
+      "id": 136,
+      "question": "What is $85 - 58$?",
+      "answers": [
+        "28",
+        "26",
+        "27",
+        "25"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $15 - 8 = ?$ Then $7 - 5 = ?$"
+    },
+    {
+      "id": 137,
+      "question": "What is $58 - 9$?",
+      "answers": [
+        "48",
+        "50",
+        "49",
+        "47"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 5. What is $18 - 9$?"
+    },
+    {
+      "id": 138,
+      "question": "What is $73 - 28$?",
+      "answers": [
+        "45",
+        "44",
+        "46",
+        "43"
+      ],
+      "correct": 0,
+      "hint": "Borrow: $13 - 8 = ?$ Then $6 - 2 = ?$"
+    },
+    {
+      "id": 139,
+      "question": "What is $69 - 7$?",
+      "answers": [
+        "63",
+        "61",
+        "62",
+        "60"
+      ],
+      "correct": 2,
+      "hint": "$9 - 7 = 2$. What's $60 + 2$?"
+    },
+    {
+      "id": 140,
+      "question": "What is $97 - 49$?",
+      "answers": [
+        "49",
+        "47",
+        "48",
+        "46"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $17 - 9 = ?$ Then $8 - 4 = ?$"
+    },
+    {
+      "id": 141,
+      "question": "What is $44 - 8$?",
+      "answers": [
+        "35",
+        "37",
+        "36",
+        "34"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 4. What is $14 - 8$?"
+    },
+    {
+      "id": 142,
+      "question": "What is $88 - 61$?",
+      "answers": [
+        "27",
+        "26",
+        "28",
+        "25"
+      ],
+      "correct": 0,
+      "hint": "$8 - 1 = 7$ and $8 - 6 = 2$. Put them together."
+    },
+    {
+      "id": 143,
+      "question": "What is $71 - 9$?",
+      "answers": [
+        "63",
+        "61",
+        "62",
+        "60"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $11 - 9 = ?$ Add to remaining tens."
+    },
+    {
+      "id": 144,
+      "question": "What is $94 - 36$?",
+      "answers": [
+        "57",
+        "59",
+        "58",
+        "56"
+      ],
+      "correct": 2,
+      "hint": "Borrow: $14 - 6 = ?$ Then $8 - 3 = ?$"
+    },
+    {
+      "id": 145,
+      "question": "What is $33 - 5$?",
+      "answers": [
+        "29",
+        "27",
+        "28",
+        "26"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 3. What is $13 - 5$?"
+    },
+    {
+      "id": 146,
+      "question": "What is $76 - 39$?",
+      "answers": [
+        "37",
+        "36",
+        "38",
+        "35"
+      ],
+      "correct": 0,
+      "hint": "Borrow: $16 - 9 = ?$ Then $6 - 3 = ?$"
+    },
+    {
+      "id": 147,
+      "question": "What is $62 - 5$?",
+      "answers": [
+        "58",
+        "56",
+        "57",
+        "55"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 6. What is $12 - 5$?"
+    },
+    {
+      "id": 148,
+      "question": "What is $99 - 54$?",
+      "answers": [
+        "44",
+        "46",
+        "45",
+        "43"
+      ],
+      "correct": 2,
+      "hint": "$9 - 4 = 5$ and $9 - 5 = 4$. Put them together."
+    },
+    {
+      "id": 149,
+      "question": "What is $28 - 9$?",
+      "answers": [
+        "20",
+        "18",
+        "19",
+        "17"
+      ],
+      "correct": 2,
+      "hint": "Borrow from the 2. What is $18 - 9$?"
+    },
+    {
+      "id": 150,
+      "question": "What is $83 - 27$?",
+      "answers": [
+        "56",
+        "55",
+        "57",
+        "54"
+      ],
+      "correct": 0,
+      "hint": "Borrow: $13 - 7 = ?$ Then $7 - 2 = ?$"
     }
   ],
   "access": [

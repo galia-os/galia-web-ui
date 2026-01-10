@@ -24,11 +24,11 @@
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"30\" y1=\"120\" x2=\"170\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"120\" x2=\"30\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 30 100 A 20 20 0 0 1 50 120\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"55\" y=\"105\" font-size=\"14\" fill=\"#EF4444\">90°</text></svg>",
       "answers": [
         "Acute",
-        "Straight",
         "Right",
+        "Straight",
         "Obtuse"
       ],
-      "correct": 2,
+      "correct": 1,
       "hint": "What do we call an angle that measures exactly $90°$?"
     },
     {
@@ -36,12 +36,12 @@
       "question": "What is the perimeter of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "$24$ cm",
         "$12$ cm",
         "$18$ cm",
+        "$24$ cm",
         "$36$ cm"
       ],
-      "correct": 0,
+      "correct": 2,
       "hint": "Perimeter of square $= 4 \\times \\text{side}$. All sides are equal!"
     },
     {
@@ -62,12 +62,12 @@
       "question": "What type of angle is this?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"30\" y1=\"120\" x2=\"170\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"120\" x2=\"120\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 30 100 A 20 20 0 0 1 50 120\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"60\" y=\"100\" font-size=\"14\" fill=\"#EF4444\">45°</text></svg>",
       "answers": [
+        "Acute",
         "Obtuse",
         "Reflex",
-        "Right",
-        "Acute"
+        "Right"
       ],
-      "correct": 3,
+      "correct": 0,
       "hint": "An angle less than $90°$ is called what?"
     },
     {
@@ -76,11 +76,11 @@
       "svg": "<svg width=\"220\" height=\"120\" viewBox=\"0 0 220 120\"><rect x=\"20\" y=\"20\" width=\"180\" height=\"70\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"110\" y=\"105\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">12 cm</text><text x=\"210\" y=\"60\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">4 cm</text></svg>",
       "answers": [
         "$16$ cm",
+        "$32$ cm",
         "$24$ cm",
-        "$48$ cm",
-        "$32$ cm"
+        "$48$ cm"
       ],
-      "correct": 3,
+      "correct": 1,
       "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$"
     },
     {
@@ -88,12 +88,12 @@
       "question": "How many sides does this shape have?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,10 170,60 150,150 30,150 10,60\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/></svg>",
       "answers": [
-        "$5$",
         "$4$",
         "$6$",
+        "$5$",
         "$8$"
       ],
-      "correct": 0,
+      "correct": 2,
       "hint": "Count the sides carefully. This shape is called a pentagon."
     },
     {
@@ -102,11 +102,11 @@
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">7 cm</text></svg>",
       "answers": [
         "$28 \\text{ cm}^2$",
-        "$49 \\text{ cm}^2$",
         "$21 \\text{ cm}^2$",
-        "$14 \\text{ cm}^2$"
+        "$14 \\text{ cm}^2$",
+        "$49 \\text{ cm}^2$"
       ],
-      "correct": 1,
+      "correct": 3,
       "hint": "Area of square $= \\text{side} \\times \\text{side}$"
     },
     {
@@ -114,12 +114,12 @@
       "question": "What type of angle is this?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"30\" y1=\"100\" x2=\"170\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"30\" y1=\"100\" x2=\"80\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 30 80 A 20 20 0 0 1 50 100\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"60\" y=\"75\" font-size=\"14\" fill=\"#EF4444\">120°</text></svg>",
       "answers": [
+        "Obtuse",
         "Acute",
         "Right",
-        "Obtuse",
         "Straight"
       ],
-      "correct": 2,
+      "correct": 0,
       "hint": "An angle greater than $90°$ but less than $180°$ is called what?"
     },
     {
@@ -128,11 +128,11 @@
       "svg": "<svg width=\"200\" height=\"200\" viewBox=\"0 0 200 200\"><rect x=\"70\" y=\"10\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"70\" y=\"70\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"10\" y=\"70\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"130\" y=\"70\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"70\" y=\"130\" width=\"60\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
       "answers": [
         "Cylinder",
-        "Cone",
         "Cube",
+        "Cone",
         "Pyramid"
       ],
-      "correct": 2,
+      "correct": 1,
       "hint": "Count the square faces. A cube has 6 square faces - but this net is missing one!"
     },
     {
@@ -141,11 +141,11 @@
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 80 A 20 20 0 0 1 120 100\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 80 100 A 20 20 0 0 1 100 80\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"90\" font-size=\"14\" fill=\"#16A34A\">?</text><text x=\"65\" y=\"90\" font-size=\"14\" fill=\"#EF4444\">55°</text></svg>",
       "answers": [
         "$125°$",
-        "$35°$",
         "$45°$",
+        "$35°$",
         "$55°$"
       ],
-      "correct": 1,
+      "correct": 2,
       "hint": "Angles on a straight line add up to $180°$. If one side is $90°$..."
     },
     {
@@ -166,12 +166,12 @@
       "question": "How many faces does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
       "answers": [
+        "$6$",
         "$8$",
         "$12$",
-        "$6$",
         "$4$"
       ],
-      "correct": 2,
+      "correct": 0,
       "hint": "A cube has square faces on all sides - top, bottom, front, back, left, right."
     },
     {
@@ -180,11 +180,11 @@
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
         "$21$ cm",
+        "$24$ cm",
         "$27$ cm",
-        "$18$ cm",
-        "$24$ cm"
+        "$18$ cm"
       ],
-      "correct": 3,
+      "correct": 1,
       "hint": "Add all three sides together."
     },
     {
@@ -192,12 +192,12 @@
       "question": "What type of triangle is this?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" font-size=\"12\" fill=\"#374151\">8 cm</text><text x=\"145\" y=\"95\" font-size=\"12\" fill=\"#374151\">8 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">8 cm</text></svg>",
       "answers": [
-        "Equilateral",
         "Right",
         "Isosceles",
+        "Equilateral",
         "Scalene"
       ],
-      "correct": 0,
+      "correct": 2,
       "hint": "What do we call a triangle where all sides are equal?"
     },
     {
@@ -218,12 +218,12 @@
       "question": "What 3D shape does this net fold into?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,10 60,80 140,80\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><polygon points=\"60,80 20,150 100,150\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><polygon points=\"140,80 100,150 180,150\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><polygon points=\"60,80 100,150 140,80\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/></svg>",
       "answers": [
+        "Triangular pyramid",
         "Cone",
         "Prism",
-        "Triangular pyramid",
         "Cube"
       ],
-      "correct": 2,
+      "correct": 0,
       "hint": "This net has 4 triangular faces. What 3D shape has all triangular faces?"
     },
     {
@@ -231,12 +231,12 @@
       "question": "What is the missing angle in this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"95\" y=\"50\" font-size=\"14\" fill=\"#EF4444\">?</text><text x=\"35\" y=\"140\" font-size=\"14\" fill=\"#374151\">60°</text><text x=\"150\" y=\"140\" font-size=\"14\" fill=\"#374151\">70°</text></svg>",
       "answers": [
-        "$50°$",
         "$130°$",
+        "$50°$",
         "$60°$",
         "$70°$"
       ],
-      "correct": 0,
+      "correct": 1,
       "hint": "Angles in a triangle add up to $180°$."
     },
     {
@@ -244,12 +244,12 @@
       "question": "How many edges does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
       "answers": [
-        "$12$",
         "$10$",
         "$8$",
+        "$12$",
         "$6$"
       ],
-      "correct": 0,
+      "correct": 2,
       "hint": "Count the lines where two faces meet."
     },
     {
@@ -258,11 +258,11 @@
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><path d=\"M 20 130 L 20 50 L 100 50 L 100 80 L 180 80 L 180 130 Z\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"10\" y=\"95\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"55\" y=\"45\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"105\" y=\"70\" font-size=\"12\" fill=\"#374151\">2</text><text x=\"135\" y=\"75\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"185\" y=\"110\" font-size=\"12\" fill=\"#374151\">3</text><text x=\"100\" y=\"145\" font-size=\"12\" fill=\"#374151\">8</text></svg>",
       "answers": [
         "$18$ cm",
-        "$25$ cm",
         "$24$ cm",
-        "$20$ cm"
+        "$20$ cm",
+        "$25$ cm"
       ],
-      "correct": 1,
+      "correct": 3,
       "hint": "Add up all the outer edges: $4+4+2+4+3+8 = ?$"
     },
     {
@@ -270,12 +270,12 @@
       "question": "What type of triangle is this?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"20,150 110,150 20,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><path d=\"M 20 130 L 40 130 L 40 150\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"60\" y=\"165\" font-size=\"12\" fill=\"#374151\">6 cm</text><text x=\"10\" y=\"95\" font-size=\"12\" fill=\"#374151\">8 cm</text></svg>",
       "answers": [
-        "Isosceles",
         "Right",
+        "Isosceles",
         "Obtuse",
         "Equilateral"
       ],
-      "correct": 1,
+      "correct": 0,
       "hint": "The small square in the corner indicates what type of angle?"
     },
     {
@@ -297,11 +297,11 @@
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"80\" cy=\"30\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"130\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"30\" cy=\"110\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"80\" cy=\"130\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"130\" cy=\"110\" r=\"4\" fill=\"#EF4444\"/></svg>",
       "answers": [
         "$6$",
-        "$8$",
         "$12$",
+        "$8$",
         "$4$"
       ],
-      "correct": 1,
+      "correct": 2,
       "hint": "Vertices are the corners. Count the red dots and remember there are hidden ones!"
     },
     {
@@ -309,12 +309,12 @@
       "question": "What is a straight angle?",
       "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"3\"/><circle cx=\"100\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><path d=\"M 80 50 A 20 20 0 0 1 120 50\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"100\" y=\"35\" text-anchor=\"middle\" font-size=\"14\" fill=\"#EF4444\">?°</text></svg>",
       "answers": [
-        "$180°$",
         "$360°$",
         "$90°$",
-        "$270°$"
+        "$270°$",
+        "$180°$"
       ],
-      "correct": 0,
+      "correct": 3,
       "hint": "A straight line makes what angle?"
     },
     {
@@ -335,12 +335,12 @@
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">12 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">8 cm</text></svg>",
       "answers": [
-        "$48 \\text{ cm}^2$",
         "$24 \\text{ cm}^2$",
+        "$48 \\text{ cm}^2$",
         "$20 \\text{ cm}^2$",
         "$96 \\text{ cm}^2$"
       ],
-      "correct": 0,
+      "correct": 1,
       "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$"
     },
     {
@@ -350,10 +350,10 @@
       "answers": [
         "Reflex",
         "Obtuse",
-        "Right",
-        "Acute"
+        "Acute",
+        "Right"
       ],
-      "correct": 3,
+      "correct": 2,
       "hint": "Is $30°$ less than, equal to, or greater than $90°$?"
     },
     {
@@ -374,12 +374,12 @@
       "question": "What is the missing angle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"100\" y1=\"130\" x2=\"100\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"130\" x2=\"180\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"130\" x2=\"20\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 110 A 20 20 0 0 1 120 130\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 80 130 A 20 20 0 0 1 100 110\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"120\" font-size=\"14\" fill=\"#16A34A\">?</text><text x=\"65\" y=\"120\" font-size=\"14\" fill=\"#EF4444\">65°</text></svg>",
       "answers": [
-        "$35°$",
         "$25°$",
+        "$35°$",
         "$115°$",
         "$90°$"
       ],
-      "correct": 1,
+      "correct": 0,
       "hint": "These two angles make a right angle ($90°$). What is $90° - 65°$?"
     },
     {
@@ -401,11 +401,11 @@
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 30,150 170,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"55\" y=\"95\" font-size=\"12\" fill=\"#374151\">7 cm</text><text x=\"140\" y=\"95\" font-size=\"12\" fill=\"#374151\">7 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
         "Scalene",
-        "Isosceles",
         "Equilateral",
+        "Isosceles",
         "Right"
       ],
-      "correct": 1,
+      "correct": 2,
       "hint": "Two sides are equal. What do we call this triangle?"
     },
     {
@@ -415,10 +415,10 @@
       "answers": [
         "$45$ cm",
         "$18$ cm",
-        "$36$ cm",
-        "$30$ cm"
+        "$30$ cm",
+        "$36$ cm"
       ],
-      "correct": 2,
+      "correct": 3,
       "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$"
     },
     {
@@ -439,12 +439,12 @@
       "question": "What is the sum of angles in a triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"95\" y=\"55\" font-size=\"14\" fill=\"#374151\">a</text><text x=\"40\" y=\"140\" font-size=\"14\" fill=\"#374151\">b</text><text x=\"150\" y=\"140\" font-size=\"14\" fill=\"#374151\">c</text><text x=\"100\" y=\"175\" text-anchor=\"middle\" font-size=\"14\" fill=\"#EF4444\">a + b + c = ?</text></svg>",
       "answers": [
-        "$180°$",
         "$90°$",
+        "$180°$",
         "$360°$",
         "$270°$"
       ],
-      "correct": 0,
+      "correct": 1,
       "hint": "All triangles have angles that add up to this amount."
     },
     {
@@ -452,12 +452,12 @@
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text><text x=\"190\" y=\"65\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "$36 \\text{ cm}^2$",
         "$24 \\text{ cm}^2$",
         "$18 \\text{ cm}^2$",
+        "$36 \\text{ cm}^2$",
         "$12 \\text{ cm}^2$"
       ],
-      "correct": 0,
+      "correct": 2,
       "hint": "Wait - this rectangle has equal sides! It's actually a square."
     },
     {
@@ -466,11 +466,11 @@
       "svg": "<svg width=\"180\" height=\"150\" viewBox=\"0 0 180 150\"><rect x=\"30\" y=\"30\" width=\"120\" height=\"90\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><path d=\"M 30 50 L 50 50 L 50 30\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"55\" y=\"45\" font-size=\"14\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
         "Acute",
-        "Right",
         "Straight",
-        "Obtuse"
+        "Obtuse",
+        "Right"
       ],
-      "correct": 1,
+      "correct": 3,
       "hint": "Corners of rectangles always form this type of angle."
     },
     {
@@ -491,12 +491,12 @@
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">14 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">10 cm</text></svg>",
       "answers": [
-        "$70 \\text{ cm}^2$",
         "$140 \\text{ cm}^2$",
+        "$70 \\text{ cm}^2$",
         "$35 \\text{ cm}^2$",
         "$24 \\text{ cm}^2$"
       ],
-      "correct": 0,
+      "correct": 1,
       "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$"
     },
     {
@@ -506,10 +506,10 @@
       "answers": [
         "$40$ cm",
         "$100$ cm",
-        "$20$ cm",
-        "$30$ cm"
+        "$30$ cm",
+        "$20$ cm"
       ],
-      "correct": 3,
+      "correct": 2,
       "hint": "Add all three sides."
     },
     {
@@ -524,6 +524,1326 @@
       ],
       "correct": 3,
       "hint": "Angles on a straight line add up to $180°$."
+    },
+    {
+      "id": 41,
+      "question": "What is the area of a rectangle with length 11 cm and width 3 cm?",
+      "answers": [
+        "$33 \\text{ cm}^2$",
+        "$28 \\text{ cm}^2$",
+        "$22 \\text{ cm}^2$",
+        "$14 \\text{ cm}^2$"
+      ],
+      "correct": 0,
+      "hint": "Area $= \\text{length} \\times \\text{width}$. What is $11 \\times 3$?"
+    },
+    {
+      "id": 42,
+      "question": "How many sides does an octagon have?",
+      "answers": [
+        "$6$",
+        "$8$",
+        "$7$",
+        "$10$"
+      ],
+      "correct": 1,
+      "hint": "Think of a stop sign! Oct- means eight."
+    },
+    {
+      "id": 43,
+      "question": "What is the perimeter of a square with side 8 cm?",
+      "answers": [
+        "$64$ cm",
+        "$16$ cm",
+        "$32$ cm",
+        "$24$ cm"
+      ],
+      "correct": 2,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 44,
+      "question": "What is the area of a square with side 4 cm?",
+      "answers": [
+        "$8 \\text{ cm}^2$",
+        "$12 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$",
+        "$16 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 45,
+      "question": "What is the missing angle in a triangle if two angles are 45° and 85°?",
+      "answers": [
+        "$50°$",
+        "$40°$",
+        "$130°$",
+        "$60°$"
+      ],
+      "correct": 0,
+      "hint": "Angles in a triangle sum to $180°$. What is $180° - 45° - 85°$?"
+    },
+    {
+      "id": 46,
+      "question": "What is the perimeter of a rectangle with length 7 cm and width 5 cm?",
+      "answers": [
+        "$35$ cm",
+        "$24$ cm",
+        "$12$ cm",
+        "$19$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 47,
+      "question": "How many faces does a rectangular prism (cuboid) have?",
+      "answers": [
+        "$4$",
+        "$8$",
+        "$6$",
+        "$12$"
+      ],
+      "correct": 2,
+      "hint": "Count top, bottom, front, back, and two sides."
+    },
+    {
+      "id": 48,
+      "question": "What is the area of a triangle with base 6 cm and height 4 cm?",
+      "answers": [
+        "$24 \\text{ cm}^2$",
+        "$10 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$",
+        "$12 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 49,
+      "question": "What type of angle measures exactly 180°?",
+      "answers": [
+        "Straight",
+        "Right",
+        "Obtuse",
+        "Reflex"
+      ],
+      "correct": 0,
+      "hint": "This angle forms a straight line."
+    },
+    {
+      "id": 50,
+      "question": "What is the area of a rectangle with length 5 cm and width 9 cm?",
+      "answers": [
+        "$14 \\text{ cm}^2$",
+        "$45 \\text{ cm}^2$",
+        "$28 \\text{ cm}^2$",
+        "$54 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 51,
+      "question": "How many vertices does a triangle have?",
+      "answers": [
+        "$4$",
+        "$2$",
+        "$3$",
+        "$6$"
+      ],
+      "correct": 2,
+      "hint": "Vertices are corners. How many corners does a triangle have?"
+    },
+    {
+      "id": 52,
+      "question": "What is the perimeter of an equilateral triangle with side 5 cm?",
+      "answers": [
+        "$25$ cm",
+        "$10$ cm",
+        "$20$ cm",
+        "$15$ cm"
+      ],
+      "correct": 3,
+      "hint": "All sides are equal in an equilateral triangle."
+    },
+    {
+      "id": 53,
+      "question": "What is the area of a square with side 10 cm?",
+      "answers": [
+        "$100 \\text{ cm}^2$",
+        "$40 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$",
+        "$50 \\text{ cm}^2$"
+      ],
+      "correct": 0,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 54,
+      "question": "What type of triangle has all sides of different lengths?",
+      "answers": [
+        "Equilateral",
+        "Scalene",
+        "Isosceles",
+        "Right"
+      ],
+      "correct": 1,
+      "hint": "This triangle has no equal sides."
+    },
+    {
+      "id": 55,
+      "question": "What is the missing angle in a triangle if two angles are 30° and 90°?",
+      "answers": [
+        "$120°$",
+        "$50°$",
+        "$60°$",
+        "$70°$"
+      ],
+      "correct": 2,
+      "hint": "Angles in a triangle sum to $180°$."
+    },
+    {
+      "id": 56,
+      "question": "What is the perimeter of a square with side 12 cm?",
+      "answers": [
+        "$144$ cm",
+        "$36$ cm",
+        "$24$ cm",
+        "$48$ cm"
+      ],
+      "correct": 3,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 57,
+      "question": "How many edges does a triangular prism have?",
+      "answers": [
+        "$9$",
+        "$6$",
+        "$12$",
+        "$8$"
+      ],
+      "correct": 0,
+      "hint": "Count edges on both triangular faces plus the edges connecting them."
+    },
+    {
+      "id": 58,
+      "question": "What is the area of a triangle with base 16 cm and height 5 cm?",
+      "answers": [
+        "$80 \\text{ cm}^2$",
+        "$40 \\text{ cm}^2$",
+        "$21 \\text{ cm}^2$",
+        "$32 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 59,
+      "question": "What type of angle is 135°?",
+      "answers": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correct": 2,
+      "hint": "Is $135°$ between $90°$ and $180°$?"
+    },
+    {
+      "id": 60,
+      "question": "What is the area of a rectangle with length 8 cm and width 8 cm?",
+      "answers": [
+        "$32 \\text{ cm}^2$",
+        "$16 \\text{ cm}^2$",
+        "$48 \\text{ cm}^2$",
+        "$64 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "This rectangle is actually a square!"
+    },
+    {
+      "id": 61,
+      "question": "How many sides does a quadrilateral have?",
+      "answers": [
+        "$4$",
+        "$3$",
+        "$5$",
+        "$6$"
+      ],
+      "correct": 0,
+      "hint": "Quad- means four."
+    },
+    {
+      "id": 62,
+      "question": "What is the perimeter of a rectangle with length 20 cm and width 5 cm?",
+      "answers": [
+        "$100$ cm",
+        "$50$ cm",
+        "$25$ cm",
+        "$40$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 63,
+      "question": "What is the area of a square with side 3 cm?",
+      "answers": [
+        "$6 \\text{ cm}^2$",
+        "$12 \\text{ cm}^2$",
+        "$9 \\text{ cm}^2$",
+        "$15 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 64,
+      "question": "What is the missing angle in a triangle if two angles are 55° and 55°?",
+      "answers": [
+        "$55°$",
+        "$80°$",
+        "$110°$",
+        "$70°$"
+      ],
+      "correct": 3,
+      "hint": "What is $180° - 55° - 55°$?"
+    },
+    {
+      "id": 65,
+      "question": "How many vertices does a rectangle have?",
+      "answers": [
+        "$4$",
+        "$2$",
+        "$6$",
+        "$8$"
+      ],
+      "correct": 0,
+      "hint": "Count the corners of a rectangle."
+    },
+    {
+      "id": 66,
+      "question": "What is the area of a triangle with base 20 cm and height 6 cm?",
+      "answers": [
+        "$120 \\text{ cm}^2$",
+        "$60 \\text{ cm}^2$",
+        "$26 \\text{ cm}^2$",
+        "$80 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 67,
+      "question": "What type of angle is 60°?",
+      "answers": [
+        "Obtuse",
+        "Right",
+        "Acute",
+        "Straight"
+      ],
+      "correct": 2,
+      "hint": "Is $60°$ less than $90°$?"
+    },
+    {
+      "id": 68,
+      "question": "What is the perimeter of a rectangle with length 6 cm and width 4 cm?",
+      "answers": [
+        "$24$ cm",
+        "$10$ cm",
+        "$14$ cm",
+        "$20$ cm"
+      ],
+      "correct": 3,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 69,
+      "question": "How many faces does a triangular prism have?",
+      "answers": [
+        "$5$",
+        "$4$",
+        "$6$",
+        "$3$"
+      ],
+      "correct": 0,
+      "hint": "Two triangular faces plus three rectangular faces."
+    },
+    {
+      "id": 70,
+      "question": "What is the area of a rectangle with length 15 cm and width 4 cm?",
+      "answers": [
+        "$19 \\text{ cm}^2$",
+        "$60 \\text{ cm}^2$",
+        "$38 \\text{ cm}^2$",
+        "$44 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 71,
+      "question": "What is the sum of angles in a quadrilateral?",
+      "answers": [
+        "$180°$",
+        "$270°$",
+        "$360°$",
+        "$450°$"
+      ],
+      "correct": 2,
+      "hint": "A quadrilateral can be split into two triangles."
+    },
+    {
+      "id": 72,
+      "question": "What is the perimeter of a square with side 11 cm?",
+      "answers": [
+        "$22$ cm",
+        "$121$ cm",
+        "$33$ cm",
+        "$44$ cm"
+      ],
+      "correct": 3,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 73,
+      "question": "What is the area of a square with side 6 cm?",
+      "answers": [
+        "$36 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$",
+        "$12 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$"
+      ],
+      "correct": 0,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 74,
+      "question": "What is the missing angle in a triangle if two angles are 40° and 80°?",
+      "answers": [
+        "$120°$",
+        "$60°$",
+        "$50°$",
+        "$70°$"
+      ],
+      "correct": 1,
+      "hint": "Angles in a triangle sum to $180°$."
+    },
+    {
+      "id": 75,
+      "question": "How many vertices does a pentagon have?",
+      "answers": [
+        "$4$",
+        "$6$",
+        "$5$",
+        "$7$"
+      ],
+      "correct": 2,
+      "hint": "A pentagon has the same number of vertices as sides."
+    },
+    {
+      "id": 76,
+      "question": "What is the area of a triangle with base 9 cm and height 8 cm?",
+      "answers": [
+        "$72 \\text{ cm}^2$",
+        "$17 \\text{ cm}^2$",
+        "$34 \\text{ cm}^2$",
+        "$36 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 77,
+      "question": "What type of angle is 89°?",
+      "answers": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correct": 0,
+      "hint": "Is $89°$ just under $90°$?"
+    },
+    {
+      "id": 78,
+      "question": "What is the perimeter of a rectangle with length 9 cm and width 6 cm?",
+      "answers": [
+        "$54$ cm",
+        "$30$ cm",
+        "$15$ cm",
+        "$24$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 79,
+      "question": "How many edges does a rectangular prism have?",
+      "answers": [
+        "$8$",
+        "$6$",
+        "$12$",
+        "$10$"
+      ],
+      "correct": 2,
+      "hint": "Count edges on both ends plus the edges connecting them."
+    },
+    {
+      "id": 80,
+      "question": "What is the area of a rectangle with length 12 cm and width 6 cm?",
+      "answers": [
+        "$36 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$",
+        "$48 \\text{ cm}^2$",
+        "$72 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 81,
+      "question": "What type of triangle has exactly two equal sides?",
+      "answers": [
+        "Isosceles",
+        "Scalene",
+        "Equilateral",
+        "Right"
+      ],
+      "correct": 0,
+      "hint": "This triangle has two sides the same length."
+    },
+    {
+      "id": 82,
+      "question": "What is the perimeter of a square with side 15 cm?",
+      "answers": [
+        "$225$ cm",
+        "$60$ cm",
+        "$30$ cm",
+        "$45$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 83,
+      "question": "What is the area of a square with side 8 cm?",
+      "answers": [
+        "$32 \\text{ cm}^2$",
+        "$16 \\text{ cm}^2$",
+        "$64 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 84,
+      "question": "What is the missing angle in a triangle if two angles are 35° and 75°?",
+      "answers": [
+        "$110°$",
+        "$60°$",
+        "$80°$",
+        "$70°$"
+      ],
+      "correct": 3,
+      "hint": "Angles in a triangle sum to $180°$."
+    },
+    {
+      "id": 85,
+      "question": "How many vertices does a hexagon have?",
+      "answers": [
+        "$6$",
+        "$5$",
+        "$7$",
+        "$8$"
+      ],
+      "correct": 0,
+      "hint": "A hexagon has the same number of vertices as sides."
+    },
+    {
+      "id": 86,
+      "question": "What is the area of a triangle with base 12 cm and height 7 cm?",
+      "answers": [
+        "$84 \\text{ cm}^2$",
+        "$42 \\text{ cm}^2$",
+        "$19 \\text{ cm}^2$",
+        "$38 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 87,
+      "question": "What type of angle is 91°?",
+      "answers": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correct": 2,
+      "hint": "Is $91°$ just over $90°$?"
+    },
+    {
+      "id": 88,
+      "question": "What is the perimeter of a rectangle with length 11 cm and width 7 cm?",
+      "answers": [
+        "$77$ cm",
+        "$18$ cm",
+        "$28$ cm",
+        "$36$ cm"
+      ],
+      "correct": 3,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 89,
+      "question": "How many vertices does a rectangular prism have?",
+      "answers": [
+        "$8$",
+        "$6$",
+        "$12$",
+        "$10$"
+      ],
+      "correct": 0,
+      "hint": "Count the corners - four on top, four on bottom."
+    },
+    {
+      "id": 90,
+      "question": "What is the area of a rectangle with length 7 cm and width 7 cm?",
+      "answers": [
+        "$28 \\text{ cm}^2$",
+        "$49 \\text{ cm}^2$",
+        "$14 \\text{ cm}^2$",
+        "$42 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "This rectangle is actually a square!"
+    },
+    {
+      "id": 91,
+      "question": "What is the perimeter of an isosceles triangle with two sides of 8 cm and base 6 cm?",
+      "answers": [
+        "$24$ cm",
+        "$14$ cm",
+        "$22$ cm",
+        "$48$ cm"
+      ],
+      "correct": 2,
+      "hint": "Add all three sides: $8 + 8 + 6 = ?$"
+    },
+    {
+      "id": 92,
+      "question": "What is the area of a square with side 9 cm?",
+      "answers": [
+        "$36 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$",
+        "$72 \\text{ cm}^2$",
+        "$81 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 93,
+      "question": "What is the missing angle in a triangle if two angles are 65° and 65°?",
+      "answers": [
+        "$50°$",
+        "$65°$",
+        "$130°$",
+        "$60°$"
+      ],
+      "correct": 0,
+      "hint": "What is $180° - 65° - 65°$?"
+    },
+    {
+      "id": 94,
+      "question": "How many sides does a triangle have?",
+      "answers": [
+        "$4$",
+        "$3$",
+        "$5$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "Tri- means three."
+    },
+    {
+      "id": 95,
+      "question": "What is the area of a triangle with base 18 cm and height 4 cm?",
+      "answers": [
+        "$72 \\text{ cm}^2$",
+        "$22 \\text{ cm}^2$",
+        "$36 \\text{ cm}^2$",
+        "$44 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 96,
+      "question": "What type of angle is 179°?",
+      "answers": [
+        "Acute",
+        "Right",
+        "Straight",
+        "Obtuse"
+      ],
+      "correct": 3,
+      "hint": "Is $179°$ just under $180°$?"
+    },
+    {
+      "id": 97,
+      "question": "What is the perimeter of a rectangle with length 8 cm and width 3 cm?",
+      "answers": [
+        "$22$ cm",
+        "$24$ cm",
+        "$11$ cm",
+        "$16$ cm"
+      ],
+      "correct": 0,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 98,
+      "question": "How many faces does a sphere have?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$6$"
+      ],
+      "correct": 1,
+      "hint": "A sphere has one continuous curved surface."
+    },
+    {
+      "id": 99,
+      "question": "What is the area of a rectangle with length 13 cm and width 5 cm?",
+      "answers": [
+        "$36 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$",
+        "$65 \\text{ cm}^2$",
+        "$52 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 100,
+      "question": "What is the perimeter of a square with side 7 cm?",
+      "answers": [
+        "$49$ cm",
+        "$14$ cm",
+        "$21$ cm",
+        "$28$ cm"
+      ],
+      "correct": 3,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 101,
+      "question": "What is the area of a square with side 11 cm?",
+      "answers": [
+        "$121 \\text{ cm}^2$",
+        "$44 \\text{ cm}^2$",
+        "$22 \\text{ cm}^2$",
+        "$110 \\text{ cm}^2$"
+      ],
+      "correct": 0,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 102,
+      "question": "What is the missing angle in a triangle if two angles are 25° and 95°?",
+      "answers": [
+        "$70°$",
+        "$60°$",
+        "$120°$",
+        "$50°$"
+      ],
+      "correct": 1,
+      "hint": "Angles in a triangle sum to $180°$."
+    },
+    {
+      "id": 103,
+      "question": "How many diagonals does a rectangle have?",
+      "answers": [
+        "$4$",
+        "$1$",
+        "$2$",
+        "$3$"
+      ],
+      "correct": 2,
+      "hint": "A diagonal connects opposite corners."
+    },
+    {
+      "id": 104,
+      "question": "What is the area of a triangle with base 10 cm and height 10 cm?",
+      "answers": [
+        "$100 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$",
+        "$40 \\text{ cm}^2$",
+        "$50 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 105,
+      "question": "What type of angle is 1°?",
+      "answers": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Zero"
+      ],
+      "correct": 0,
+      "hint": "Any angle less than $90°$ is this type."
+    },
+    {
+      "id": 106,
+      "question": "What is the perimeter of a rectangle with length 14 cm and width 6 cm?",
+      "answers": [
+        "$84$ cm",
+        "$40$ cm",
+        "$20$ cm",
+        "$34$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 107,
+      "question": "How many vertices does a triangular prism have?",
+      "answers": [
+        "$5$",
+        "$8$",
+        "$6$",
+        "$9$"
+      ],
+      "correct": 2,
+      "hint": "Three vertices on each triangular face."
+    },
+    {
+      "id": 108,
+      "question": "What is the area of a rectangle with length 4 cm and width 9 cm?",
+      "answers": [
+        "$13 \\text{ cm}^2$",
+        "$26 \\text{ cm}^2$",
+        "$32 \\text{ cm}^2$",
+        "$36 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 109,
+      "question": "What shape has 4 equal sides and 4 right angles?",
+      "answers": [
+        "Square",
+        "Rectangle",
+        "Rhombus",
+        "Trapezoid"
+      ],
+      "correct": 0,
+      "hint": "This special rectangle has all sides equal."
+    },
+    {
+      "id": 110,
+      "question": "What is the perimeter of a square with side 13 cm?",
+      "answers": [
+        "$169$ cm",
+        "$52$ cm",
+        "$26$ cm",
+        "$39$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 111,
+      "question": "What is the area of a square with side 12 cm?",
+      "answers": [
+        "$48 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$",
+        "$144 \\text{ cm}^2$",
+        "$96 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 112,
+      "question": "What is the missing angle in a triangle if two angles are 50° and 50°?",
+      "answers": [
+        "$50°$",
+        "$100°$",
+        "$60°$",
+        "$80°$"
+      ],
+      "correct": 3,
+      "hint": "What is $180° - 50° - 50°$?"
+    },
+    {
+      "id": 113,
+      "question": "How many parallel sides does a trapezoid have?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$4$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "A trapezoid has exactly one pair of parallel sides."
+    },
+    {
+      "id": 114,
+      "question": "What is the area of a triangle with base 14 cm and height 6 cm?",
+      "answers": [
+        "$84 \\text{ cm}^2$",
+        "$42 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$",
+        "$48 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 115,
+      "question": "What type of angle is 150°?",
+      "answers": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correct": 2,
+      "hint": "Is $150°$ between $90°$ and $180°$?"
+    },
+    {
+      "id": 116,
+      "question": "What is the perimeter of a rectangle with length 16 cm and width 4 cm?",
+      "answers": [
+        "$64$ cm",
+        "$20$ cm",
+        "$32$ cm",
+        "$40$ cm"
+      ],
+      "correct": 3,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 117,
+      "question": "How many faces does a cone have?",
+      "answers": [
+        "$2$",
+        "$1$",
+        "$3$",
+        "$0$"
+      ],
+      "correct": 0,
+      "hint": "A cone has a circular base and a curved surface."
+    },
+    {
+      "id": 118,
+      "question": "What is the area of a rectangle with length 6 cm and width 11 cm?",
+      "answers": [
+        "$17 \\text{ cm}^2$",
+        "$66 \\text{ cm}^2$",
+        "$34 \\text{ cm}^2$",
+        "$55 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 119,
+      "question": "What is the perimeter of an equilateral triangle with side 9 cm?",
+      "answers": [
+        "$18$ cm",
+        "$81$ cm",
+        "$27$ cm",
+        "$36$ cm"
+      ],
+      "correct": 2,
+      "hint": "All three sides are equal in an equilateral triangle."
+    },
+    {
+      "id": 120,
+      "question": "What is the area of a square with side 2 cm?",
+      "answers": [
+        "$8 \\text{ cm}^2$",
+        "$6 \\text{ cm}^2$",
+        "$2 \\text{ cm}^2$",
+        "$4 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 121,
+      "question": "What is the missing angle in a triangle if two angles are 20° and 110°?",
+      "answers": [
+        "$50°$",
+        "$130°$",
+        "$60°$",
+        "$40°$"
+      ],
+      "correct": 0,
+      "hint": "Angles in a triangle sum to $180°$."
+    },
+    {
+      "id": 122,
+      "question": "How many right angles does a rectangle have?",
+      "answers": [
+        "$2$",
+        "$4$",
+        "$3$",
+        "$1$"
+      ],
+      "correct": 1,
+      "hint": "Each corner of a rectangle is a right angle."
+    },
+    {
+      "id": 123,
+      "question": "What is the area of a triangle with base 8 cm and height 9 cm?",
+      "answers": [
+        "$72 \\text{ cm}^2$",
+        "$17 \\text{ cm}^2$",
+        "$36 \\text{ cm}^2$",
+        "$44 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 124,
+      "question": "What type of angle is 75°?",
+      "answers": [
+        "Obtuse",
+        "Right",
+        "Straight",
+        "Acute"
+      ],
+      "correct": 3,
+      "hint": "Is $75°$ less than $90°$?"
+    },
+    {
+      "id": 125,
+      "question": "What is the perimeter of a rectangle with length 5 cm and width 5 cm?",
+      "answers": [
+        "$20$ cm",
+        "$25$ cm",
+        "$10$ cm",
+        "$15$ cm"
+      ],
+      "correct": 0,
+      "hint": "This rectangle is a square! Use $4 \\times \\text{side}$."
+    },
+    {
+      "id": 126,
+      "question": "How many edges does a cone have?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$3$"
+      ],
+      "correct": 1,
+      "hint": "A cone has curved surfaces meeting at a point."
+    },
+    {
+      "id": 127,
+      "question": "What is the area of a rectangle with length 10 cm and width 8 cm?",
+      "answers": [
+        "$18 \\text{ cm}^2$",
+        "$36 \\text{ cm}^2$",
+        "$80 \\text{ cm}^2$",
+        "$64 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 128,
+      "question": "What is the perimeter of a square with side 14 cm?",
+      "answers": [
+        "$196$ cm",
+        "$28$ cm",
+        "$42$ cm",
+        "$56$ cm"
+      ],
+      "correct": 3,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 129,
+      "question": "What is the area of a square with side 15 cm?",
+      "answers": [
+        "$225 \\text{ cm}^2$",
+        "$60 \\text{ cm}^2$",
+        "$30 \\text{ cm}^2$",
+        "$150 \\text{ cm}^2$"
+      ],
+      "correct": 0,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 130,
+      "question": "What is the missing angle in a triangle if two angles are 45° and 45°?",
+      "answers": [
+        "$45°$",
+        "$90°$",
+        "$80°$",
+        "$100°$"
+      ],
+      "correct": 1,
+      "hint": "What is $180° - 45° - 45°$?"
+    },
+    {
+      "id": 131,
+      "question": "How many lines of symmetry does a square have?",
+      "answers": [
+        "$2$",
+        "$1$",
+        "$4$",
+        "$8$"
+      ],
+      "correct": 2,
+      "hint": "A square can be folded in half four different ways."
+    },
+    {
+      "id": 132,
+      "question": "What is the area of a triangle with base 6 cm and height 6 cm?",
+      "answers": [
+        "$36 \\text{ cm}^2$",
+        "$12 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 133,
+      "question": "What type of angle is 105°?",
+      "answers": [
+        "Obtuse",
+        "Acute",
+        "Right",
+        "Straight"
+      ],
+      "correct": 0,
+      "hint": "Is $105°$ between $90°$ and $180°$?"
+    },
+    {
+      "id": 134,
+      "question": "What is the perimeter of a rectangle with length 18 cm and width 2 cm?",
+      "answers": [
+        "$36$ cm",
+        "$40$ cm",
+        "$20$ cm",
+        "$72$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 135,
+      "question": "How many vertices does a cone have?",
+      "answers": [
+        "$0$",
+        "$2$",
+        "$1$",
+        "$3$"
+      ],
+      "correct": 2,
+      "hint": "A cone has one point at the top called the apex."
+    },
+    {
+      "id": 136,
+      "question": "What is the area of a rectangle with length 9 cm and width 9 cm?",
+      "answers": [
+        "$36 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$",
+        "$72 \\text{ cm}^2$",
+        "$81 \\text{ cm}^2$"
+      ],
+      "correct": 3,
+      "hint": "This rectangle is a square!"
+    },
+    {
+      "id": 137,
+      "question": "What is the perimeter of an isosceles triangle with two sides of 10 cm and base 8 cm?",
+      "answers": [
+        "$28$ cm",
+        "$18$ cm",
+        "$80$ cm",
+        "$100$ cm"
+      ],
+      "correct": 0,
+      "hint": "Add all three sides: $10 + 10 + 8 = ?$"
+    },
+    {
+      "id": 138,
+      "question": "What is the area of a square with side 1 cm?",
+      "answers": [
+        "$4 \\text{ cm}^2$",
+        "$1 \\text{ cm}^2$",
+        "$2 \\text{ cm}^2$",
+        "$0 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 139,
+      "question": "What is the missing angle in a triangle if two angles are 70° and 70°?",
+      "answers": [
+        "$70°$",
+        "$140°$",
+        "$40°$",
+        "$50°$"
+      ],
+      "correct": 2,
+      "hint": "What is $180° - 70° - 70°$?"
+    },
+    {
+      "id": 140,
+      "question": "How many lines of symmetry does an equilateral triangle have?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$6$",
+        "$3$"
+      ],
+      "correct": 3,
+      "hint": "Each line goes from a vertex to the middle of the opposite side."
+    },
+    {
+      "id": 141,
+      "question": "What is the area of a triangle with base 11 cm and height 4 cm?",
+      "answers": [
+        "$22 \\text{ cm}^2$",
+        "$44 \\text{ cm}^2$",
+        "$15 \\text{ cm}^2$",
+        "$30 \\text{ cm}^2$"
+      ],
+      "correct": 0,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
+    },
+    {
+      "id": 142,
+      "question": "What type of angle is 170°?",
+      "answers": [
+        "Acute",
+        "Obtuse",
+        "Right",
+        "Straight"
+      ],
+      "correct": 1,
+      "hint": "Is $170°$ between $90°$ and $180°$?"
+    },
+    {
+      "id": 143,
+      "question": "What is the perimeter of a rectangle with length 12 cm and width 8 cm?",
+      "answers": [
+        "$96$ cm",
+        "$20$ cm",
+        "$40$ cm",
+        "$32$ cm"
+      ],
+      "correct": 2,
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$."
+    },
+    {
+      "id": 144,
+      "question": "How many edges does a cylinder have?",
+      "answers": [
+        "$0$",
+        "$3$",
+        "$1$",
+        "$2$"
+      ],
+      "correct": 3,
+      "hint": "A cylinder has circular edges at the top and bottom."
+    },
+    {
+      "id": 145,
+      "question": "What is the area of a rectangle with length 3 cm and width 8 cm?",
+      "answers": [
+        "$24 \\text{ cm}^2$",
+        "$11 \\text{ cm}^2$",
+        "$22 \\text{ cm}^2$",
+        "$32 \\text{ cm}^2$"
+      ],
+      "correct": 0,
+      "hint": "Area $= \\text{length} \\times \\text{width}$."
+    },
+    {
+      "id": 146,
+      "question": "What is the perimeter of a square with side 16 cm?",
+      "answers": [
+        "$256$ cm",
+        "$64$ cm",
+        "$32$ cm",
+        "$48$ cm"
+      ],
+      "correct": 1,
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$."
+    },
+    {
+      "id": 147,
+      "question": "What is the area of a square with side 13 cm?",
+      "answers": [
+        "$52 \\text{ cm}^2$",
+        "$26 \\text{ cm}^2$",
+        "$169 \\text{ cm}^2$",
+        "$130 \\text{ cm}^2$"
+      ],
+      "correct": 2,
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$."
+    },
+    {
+      "id": 148,
+      "question": "What is the missing angle in a triangle if two angles are 33° and 87°?",
+      "answers": [
+        "$120°$",
+        "$50°$",
+        "$70°$",
+        "$60°$"
+      ],
+      "correct": 3,
+      "hint": "Angles in a triangle sum to $180°$."
+    },
+    {
+      "id": 149,
+      "question": "How many lines of symmetry does a rectangle (non-square) have?",
+      "answers": [
+        "$2$",
+        "$4$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 0,
+      "hint": "A rectangle can be folded horizontally and vertically."
+    },
+    {
+      "id": 150,
+      "question": "What is the area of a triangle with base 15 cm and height 8 cm?",
+      "answers": [
+        "$120 \\text{ cm}^2$",
+        "$60 \\text{ cm}^2$",
+        "$23 \\text{ cm}^2$",
+        "$46 \\text{ cm}^2$"
+      ],
+      "correct": 1,
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$."
     }
   ],
   "access": [

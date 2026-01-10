@@ -484,6 +484,1326 @@
       ],
       "correct": 1,
       "hint": "The 'hard' parts you can physically touch: CPU, keyboard, monitor, etc."
+    },
+    {
+      "id": 41,
+      "question": "What is the binary number 1010 in decimal?",
+      "answers": [
+        "8",
+        "12",
+        "10",
+        "11"
+      ],
+      "correct": 2,
+      "hint": "In binary, each position is a power of 2. From right: 0, 1, 0, 1 means 0+2+0+8."
+    },
+    {
+      "id": 42,
+      "question": "What is the decimal number 5 in binary?",
+      "answers": [
+        "101",
+        "110",
+        "100",
+        "111"
+      ],
+      "correct": 0,
+      "hint": "5 = 4 + 1 = 2^2 + 2^0. Which positions have a 1?"
+    },
+    {
+      "id": 43,
+      "question": "What is the binary number 1111 in decimal?",
+      "answers": [
+        "14",
+        "16",
+        "15",
+        "17"
+      ],
+      "correct": 2,
+      "hint": "All four bits are 1: 8+4+2+1. What does that sum to?"
+    },
+    {
+      "id": 44,
+      "question": "What is the decimal number 8 in binary?",
+      "answers": [
+        "1000",
+        "1001",
+        "0111",
+        "1010"
+      ],
+      "correct": 0,
+      "hint": "8 is exactly 2^3. Only one bit should be set - which position?"
+    },
+    {
+      "id": 45,
+      "question": "What is 1 + 1 in binary?",
+      "answers": [
+        "11",
+        "2",
+        "10",
+        "01"
+      ],
+      "correct": 2,
+      "hint": "In binary, 1+1 carries over just like 9+1 in decimal. What's the result?"
+    },
+    {
+      "id": 46,
+      "question": "What is the binary number 100 in decimal?",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "hint": "This is 2^2 in binary. What power of 2 is that?"
+    },
+    {
+      "id": 47,
+      "question": "What is the largest decimal number you can represent with 4 bits?",
+      "answers": [
+        "16",
+        "14",
+        "15",
+        "8"
+      ],
+      "correct": 2,
+      "hint": "With 4 bits all set to 1 (1111), what's the sum of 8+4+2+1?"
+    },
+    {
+      "id": 48,
+      "question": "What is the decimal number 3 in binary?",
+      "answers": [
+        "10",
+        "11",
+        "100",
+        "01"
+      ],
+      "correct": 1,
+      "hint": "3 = 2 + 1 = 2^1 + 2^0. Both the ones and twos positions need to be 1."
+    },
+    {
+      "id": 49,
+      "question": "How many different values can be represented with 3 bits?",
+      "answers": [
+        "6",
+        "3",
+        "8",
+        "7"
+      ],
+      "correct": 2,
+      "hint": "Each bit doubles the possibilities: 2^3 = ?"
+    },
+    {
+      "id": 50,
+      "question": "What is the binary number 1100 in decimal?",
+      "answers": [
+        "14",
+        "10",
+        "12",
+        "11"
+      ],
+      "correct": 2,
+      "hint": "The left two bits are set: 8+4 = ?"
+    },
+    {
+      "id": 51,
+      "question": "What is an algorithm?",
+      "answers": [
+        "A step-by-step procedure to solve a problem",
+        "A type of computer virus",
+        "A programming language",
+        "A hardware component"
+      ],
+      "correct": 0,
+      "hint": "Think of it like a recipe - a set of instructions to follow in order."
+    },
+    {
+      "id": 52,
+      "question": "What does a search algorithm do?",
+      "answers": [
+        "Sorts data in order",
+        "Deletes unwanted files",
+        "Finds a specific item in a collection",
+        "Compresses data"
+      ],
+      "correct": 2,
+      "hint": "Like finding a book in a library - it 'searches' for what you're looking for."
+    },
+    {
+      "id": 53,
+      "question": "What is 'sorting' in programming?",
+      "answers": [
+        "Deleting duplicate items",
+        "Arranging items in a specific order",
+        "Finding the largest item",
+        "Counting items"
+      ],
+      "correct": 1,
+      "hint": "Like organizing books alphabetically - putting things in order."
+    },
+    {
+      "id": 54,
+      "question": "In a sorted list [1, 3, 5, 7, 9], how many comparisons does linear search need to find 9?",
+      "answers": [
+        "5",
+        "3",
+        "1",
+        "9"
+      ],
+      "correct": 0,
+      "hint": "Linear search checks each item from the start. How many items are in the list?"
+    },
+    {
+      "id": 55,
+      "question": "What is a 'loop' in programming?",
+      "answers": [
+        "An error in the code",
+        "A type of variable",
+        "Code that repeats until a condition is met",
+        "A way to exit a program"
+      ],
+      "correct": 2,
+      "hint": "It goes around and around, repeating the same instructions."
+    },
+    {
+      "id": 56,
+      "question": "What is a 'variable' in programming?",
+      "answers": [
+        "A constant value that never changes",
+        "A named container that stores data",
+        "A type of loop",
+        "A programming language"
+      ],
+      "correct": 1,
+      "hint": "Like a labeled box that holds information - its contents can vary."
+    },
+    {
+      "id": 57,
+      "question": "What is the purpose of an 'if' statement?",
+      "answers": [
+        "To repeat code multiple times",
+        "To store data",
+        "To make decisions based on conditions",
+        "To define a function"
+      ],
+      "correct": 2,
+      "hint": "IF something is true, do this - otherwise maybe do something else."
+    },
+    {
+      "id": 58,
+      "question": "What is a 'function' in programming?",
+      "answers": [
+        "A type of variable",
+        "A reusable block of code that performs a task",
+        "A loop that runs forever",
+        "A way to store data"
+      ],
+      "correct": 1,
+      "hint": "Like a mini-program within your program that you can call whenever needed."
+    },
+    {
+      "id": 59,
+      "question": "What happens in an 'infinite loop'?",
+      "answers": [
+        "The program exits immediately",
+        "The code runs once",
+        "The code never stops repeating",
+        "The computer shuts down"
+      ],
+      "correct": 2,
+      "hint": "If the loop condition is always true, it loops forever - infinitely."
+    },
+    {
+      "id": 60,
+      "question": "What is 'debugging'?",
+      "answers": [
+        "Adding new features",
+        "Finding and fixing errors in code",
+        "Writing documentation",
+        "Compiling code"
+      ],
+      "correct": 1,
+      "hint": "Getting rid of 'bugs' (errors) - what would you call that process?"
+    },
+    {
+      "id": 61,
+      "question": "What does USB stand for?",
+      "answers": [
+        "Universal Serial Bus",
+        "United System Board",
+        "Universal System Backup",
+        "User Storage Backup"
+      ],
+      "correct": 0,
+      "hint": "It's a universal standard for connecting devices in series on a 'bus'."
+    },
+    {
+      "id": 62,
+      "question": "What is the difference between RAM and ROM?",
+      "answers": [
+        "RAM is slower than ROM",
+        "RAM is permanent, ROM is temporary",
+        "RAM is temporary, ROM is permanent",
+        "There is no difference"
+      ],
+      "correct": 2,
+      "hint": "RAM loses data when power is off. ROM is 'read-only' and permanent."
+    },
+    {
+      "id": 63,
+      "question": "What does 'OS' stand for?",
+      "answers": [
+        "Online System",
+        "Open Software",
+        "Operating System",
+        "Output Storage"
+      ],
+      "correct": 2,
+      "hint": "The system that 'operates' or runs your computer at the fundamental level."
+    },
+    {
+      "id": 64,
+      "question": "What is a 'pixel'?",
+      "answers": [
+        "The smallest unit of a digital image",
+        "A type of font",
+        "A programming language",
+        "A file format"
+      ],
+      "correct": 0,
+      "hint": "Short for 'picture element' - the tiny dots that make up your screen image."
+    },
+    {
+      "id": 65,
+      "question": "What does 'PDF' stand for?",
+      "answers": [
+        "Personal Data File",
+        "Print Document Format",
+        "Portable Document Format",
+        "Page Design File"
+      ],
+      "correct": 2,
+      "hint": "These documents are 'portable' - they look the same on any device."
+    },
+    {
+      "id": 66,
+      "question": "What is a 'cursor'?",
+      "answers": [
+        "A type of keyboard",
+        "The blinking line or arrow showing position on screen",
+        "A programming error",
+        "A file type"
+      ],
+      "correct": 1,
+      "hint": "It shows where your mouse is pointing or where you'll type next."
+    },
+    {
+      "id": 67,
+      "question": "What does 'LAN' stand for?",
+      "answers": [
+        "Large Area Network",
+        "Local Area Network",
+        "Long Access Network",
+        "Limited Area Node"
+      ],
+      "correct": 1,
+      "hint": "A network in a 'local' area - like your home or office."
+    },
+    {
+      "id": 68,
+      "question": "What is 'encryption'?",
+      "answers": [
+        "Compressing files to save space",
+        "Converting data into a secret code",
+        "Speeding up internet connection",
+        "Organizing files into folders"
+      ],
+      "correct": 1,
+      "hint": "Like writing in a secret code that only authorized people can read."
+    },
+    {
+      "id": 69,
+      "question": "What is a 'cookie' in web browsing?",
+      "answers": [
+        "A virus",
+        "A small data file stored by websites",
+        "A type of browser",
+        "An error message"
+      ],
+      "correct": 1,
+      "hint": "Websites leave these small files to remember information about your visit."
+    },
+    {
+      "id": 70,
+      "question": "What does 'FAQ' stand for?",
+      "answers": [
+        "Fast And Quick",
+        "File Access Query",
+        "Frequently Asked Questions",
+        "First Access Queue"
+      ],
+      "correct": 2,
+      "hint": "A list of questions that people 'frequently' ask."
+    },
+    {
+      "id": 71,
+      "question": "What is the binary number 0101 in decimal?",
+      "answers": [
+        "6",
+        "4",
+        "5",
+        "3"
+      ],
+      "correct": 2,
+      "hint": "The second and fourth positions are 1: 4+1 = ?"
+    },
+    {
+      "id": 72,
+      "question": "What is the decimal number 7 in binary?",
+      "answers": [
+        "110",
+        "111",
+        "101",
+        "1000"
+      ],
+      "correct": 1,
+      "hint": "7 = 4+2+1. All three rightmost bits should be 1."
+    },
+    {
+      "id": 73,
+      "question": "What is binary 10 + binary 1?",
+      "answers": [
+        "100",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct": 2,
+      "hint": "Binary 10 is decimal 2, binary 1 is decimal 1. What's 2+1 in binary?"
+    },
+    {
+      "id": 74,
+      "question": "What is the binary number 1001 in decimal?",
+      "answers": [
+        "8",
+        "10",
+        "9",
+        "11"
+      ],
+      "correct": 2,
+      "hint": "The first and last bits are 1: 8+1 = ?"
+    },
+    {
+      "id": 75,
+      "question": "What is the decimal number 12 in binary?",
+      "answers": [
+        "1010",
+        "1100",
+        "1110",
+        "1011"
+      ],
+      "correct": 1,
+      "hint": "12 = 8+4. Which positions represent 8 and 4?"
+    },
+    {
+      "id": 76,
+      "question": "How many bits are in a nibble?",
+      "answers": [
+        "8",
+        "2",
+        "4",
+        "16"
+      ],
+      "correct": 2,
+      "hint": "A nibble is half a byte. If a byte is 8 bits, what's half of that?"
+    },
+    {
+      "id": 77,
+      "question": "What is the decimal number 0 in binary?",
+      "answers": [
+        "0",
+        "1",
+        "00",
+        "10"
+      ],
+      "correct": 0,
+      "hint": "Zero is zero in any number system!"
+    },
+    {
+      "id": 78,
+      "question": "What is binary 11 + binary 1?",
+      "answers": [
+        "111",
+        "100",
+        "101",
+        "110"
+      ],
+      "correct": 1,
+      "hint": "Binary 11 is decimal 3, binary 1 is decimal 1. What's 4 in binary?"
+    },
+    {
+      "id": 79,
+      "question": "What is the binary number 110 in decimal?",
+      "answers": [
+        "5",
+        "7",
+        "6",
+        "4"
+      ],
+      "correct": 2,
+      "hint": "The two leftmost bits are 1: 4+2 = ?"
+    },
+    {
+      "id": 80,
+      "question": "What is the decimal number 1 in binary?",
+      "answers": [
+        "1",
+        "10",
+        "01",
+        "11"
+      ],
+      "correct": 0,
+      "hint": "One is the same in both systems - it's the simplest case!"
+    },
+    {
+      "id": 81,
+      "question": "What is an 'array' in programming?",
+      "answers": [
+        "A single variable",
+        "A collection of items stored together",
+        "A type of loop",
+        "An error message"
+      ],
+      "correct": 1,
+      "hint": "Like a row of boxes that can hold multiple items of the same type."
+    },
+    {
+      "id": 82,
+      "question": "In most programming languages, what is the index of the first element in an array?",
+      "answers": [
+        "0",
+        "1",
+        "-1",
+        "10"
+      ],
+      "correct": 0,
+      "hint": "Programmers start counting from zero, not one!"
+    },
+    {
+      "id": 83,
+      "question": "What does 'iteration' mean in programming?",
+      "answers": [
+        "Stopping a program",
+        "One pass through a loop",
+        "An error in code",
+        "A type of variable"
+      ],
+      "correct": 1,
+      "hint": "Each time a loop runs through its code, that's one 'iteration'."
+    },
+    {
+      "id": 84,
+      "question": "What is 'pseudocode'?",
+      "answers": [
+        "Fake code that doesn't work",
+        "Encrypted code",
+        "Plain language description of an algorithm",
+        "A programming language"
+      ],
+      "correct": 2,
+      "hint": "It's like writing the steps of your code in regular English before coding it."
+    },
+    {
+      "id": 85,
+      "question": "What is a 'string' in programming?",
+      "answers": [
+        "A number with decimals",
+        "A true/false value",
+        "A sequence of characters (text)",
+        "A list of numbers"
+      ],
+      "correct": 2,
+      "hint": "Text is stored as a 'string' of characters strung together."
+    },
+    {
+      "id": 86,
+      "question": "What is 'syntax' in programming?",
+      "answers": [
+        "The rules for writing code correctly",
+        "A type of error",
+        "A programming language",
+        "A debugging tool"
+      ],
+      "correct": 0,
+      "hint": "Like grammar rules in English, programming has rules for how to write code."
+    },
+    {
+      "id": 87,
+      "question": "What is a 'syntax error'?",
+      "answers": [
+        "A logical mistake in the code",
+        "A violation of the programming language rules",
+        "A hardware failure",
+        "A network error"
+      ],
+      "correct": 1,
+      "hint": "When you break the grammar/rules of the language, you get this error."
+    },
+    {
+      "id": 88,
+      "question": "What does 'compile' mean in programming?",
+      "answers": [
+        "Run the program",
+        "Convert source code to machine code",
+        "Debug the program",
+        "Write documentation"
+      ],
+      "correct": 1,
+      "hint": "The compiler translates human-readable code into something the computer can execute."
+    },
+    {
+      "id": 89,
+      "question": "What is a 'boolean' value?",
+      "answers": [
+        "A decimal number",
+        "Any text value",
+        "True or false",
+        "A list of items"
+      ],
+      "correct": 2,
+      "hint": "Named after George Boole, these values are either true or false - nothing else."
+    },
+    {
+      "id": 90,
+      "question": "What is the purpose of 'else' in an if-else statement?",
+      "answers": [
+        "To end the program",
+        "To run code when the if condition is false",
+        "To create a loop",
+        "To define a variable"
+      ],
+      "correct": 1,
+      "hint": "IF the condition is true, do this... ELSE (otherwise) do something else."
+    },
+    {
+      "id": 91,
+      "question": "What is a 'motherboard'?",
+      "answers": [
+        "The main circuit board connecting all computer components",
+        "The computer's power supply",
+        "A type of memory",
+        "The computer's case"
+      ],
+      "correct": 0,
+      "hint": "The 'mother' board is the main board that everything else connects to."
+    },
+    {
+      "id": 92,
+      "question": "What does 'backup' mean?",
+      "answers": [
+        "Deleting old files",
+        "Creating copies of data for safety",
+        "Speeding up your computer",
+        "Connecting to the internet"
+      ],
+      "correct": 1,
+      "hint": "Having a 'backup' copy protects you if the original is lost or damaged."
+    },
+    {
+      "id": 93,
+      "question": "What is 'bandwidth'?",
+      "answers": [
+        "The physical width of cables",
+        "The amount of data that can be transmitted per second",
+        "The size of your monitor",
+        "The speed of your CPU"
+      ],
+      "correct": 1,
+      "hint": "Like the width of a pipe - wider pipes (more bandwidth) carry more water (data)."
+    },
+    {
+      "id": 94,
+      "question": "What does 'reboot' mean?",
+      "answers": [
+        "Install new software",
+        "Restart the computer",
+        "Delete all files",
+        "Connect to internet"
+      ],
+      "correct": 1,
+      "hint": "To 'boot' is to start. To 're-boot' is to start again."
+    },
+    {
+      "id": 95,
+      "question": "What is a 'firewall'?",
+      "answers": [
+        "A program that makes fire animations",
+        "A security system that monitors network traffic",
+        "A type of computer virus",
+        "A hardware cooling system"
+      ],
+      "correct": 1,
+      "hint": "Like a wall that protects against fire, this protects your network from threats."
+    },
+    {
+      "id": 96,
+      "question": "What does 'logout' do?",
+      "answers": [
+        "Shuts down the computer",
+        "Ends your current user session",
+        "Deletes your account",
+        "Restarts the computer"
+      ],
+      "correct": 1,
+      "hint": "You 'log in' to start your session and 'log out' to end it."
+    },
+    {
+      "id": 97,
+      "question": "What is 'malware'?",
+      "answers": [
+        "Hardware that malfunctions",
+        "Malicious software designed to harm",
+        "Mail software",
+        "A type of firewall"
+      ],
+      "correct": 1,
+      "hint": "MALicious softWARE - software created to cause harm."
+    },
+    {
+      "id": 98,
+      "question": "What is a 'domain name'?",
+      "answers": [
+        "Your computer's name",
+        "A website's human-readable address (like google.com)",
+        "Your email password",
+        "A type of file"
+      ],
+      "correct": 1,
+      "hint": "Instead of remembering IP numbers, we use names like 'example.com'."
+    },
+    {
+      "id": 99,
+      "question": "What does 'cache' mean in computing?",
+      "answers": [
+        "Money stored online",
+        "Temporary storage for quick access",
+        "Permanent file storage",
+        "A type of virus"
+      ],
+      "correct": 1,
+      "hint": "A hidden storage place that keeps frequently used data close for fast access."
+    },
+    {
+      "id": 100,
+      "question": "What is a 'screenshot'?",
+      "answers": [
+        "A photo taken with the computer's camera",
+        "An image of what's currently on your screen",
+        "A video recording",
+        "A printed document"
+      ],
+      "correct": 1,
+      "hint": "A 'shot' (picture) of your 'screen' - capturing what you see."
+    },
+    {
+      "id": 101,
+      "question": "What is the binary number 1110 in decimal?",
+      "answers": [
+        "13",
+        "14",
+        "15",
+        "12"
+      ],
+      "correct": 1,
+      "hint": "The three leftmost bits are 1: 8+4+2 = ?"
+    },
+    {
+      "id": 102,
+      "question": "What is the decimal number 6 in binary?",
+      "answers": [
+        "101",
+        "111",
+        "110",
+        "100"
+      ],
+      "correct": 2,
+      "hint": "6 = 4+2. Which two bit positions are that?"
+    },
+    {
+      "id": 103,
+      "question": "What is binary 101 + binary 10?",
+      "answers": [
+        "110",
+        "1000",
+        "111",
+        "1001"
+      ],
+      "correct": 2,
+      "hint": "Binary 101 is 5, binary 10 is 2. What's 7 in binary?"
+    },
+    {
+      "id": 104,
+      "question": "What is the decimal number 2 in binary?",
+      "answers": [
+        "01",
+        "10",
+        "11",
+        "100"
+      ],
+      "correct": 1,
+      "hint": "2 = 2^1. Only the second position from the right should be 1."
+    },
+    {
+      "id": 105,
+      "question": "What is the binary number 0011 in decimal?",
+      "answers": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "correct": 2,
+      "hint": "The two rightmost bits are 1: 2+1 = ?"
+    },
+    {
+      "id": 106,
+      "question": "How many values can 1 bit represent?",
+      "answers": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correct": 1,
+      "hint": "A single bit can only be 0 or 1 - how many options is that?"
+    },
+    {
+      "id": 107,
+      "question": "What is the decimal number 4 in binary?",
+      "answers": [
+        "100",
+        "101",
+        "110",
+        "011"
+      ],
+      "correct": 0,
+      "hint": "4 = 2^2. Only the third position from the right should be 1."
+    },
+    {
+      "id": 108,
+      "question": "What is binary 100 - binary 1?",
+      "answers": [
+        "10",
+        "11",
+        "101",
+        "1"
+      ],
+      "correct": 1,
+      "hint": "Binary 100 is 4, binary 1 is 1. What's 3 in binary?"
+    },
+    {
+      "id": 109,
+      "question": "What is the binary number 10000 in decimal?",
+      "answers": [
+        "8",
+        "32",
+        "16",
+        "24"
+      ],
+      "correct": 2,
+      "hint": "This is 2^4. What power of 2 equals that value?"
+    },
+    {
+      "id": 110,
+      "question": "What is the decimal number 9 in binary?",
+      "answers": [
+        "1010",
+        "1001",
+        "1011",
+        "1000"
+      ],
+      "correct": 1,
+      "hint": "9 = 8+1. Which two bit positions are those?"
+    },
+    {
+      "id": 111,
+      "question": "What is 'input' in computing?",
+      "answers": [
+        "Data going into the computer",
+        "Data coming out of the computer",
+        "Internal processing",
+        "Stored files"
+      ],
+      "correct": 0,
+      "hint": "What goes IN - like keyboard typing or mouse clicks."
+    },
+    {
+      "id": 112,
+      "question": "What is 'output' in computing?",
+      "answers": [
+        "Data going into the computer",
+        "Internal processing",
+        "Data coming out of the computer",
+        "Network traffic"
+      ],
+      "correct": 2,
+      "hint": "What comes OUT - like what you see on screen or hear from speakers."
+    },
+    {
+      "id": 113,
+      "question": "What is the purpose of a 'while' loop?",
+      "answers": [
+        "Run code once",
+        "Repeat code while a condition is true",
+        "Stop the program",
+        "Define a variable"
+      ],
+      "correct": 1,
+      "hint": "WHILE something is true, keep doing this - then check again."
+    },
+    {
+      "id": 114,
+      "question": "What is a 'parameter' in a function?",
+      "answers": [
+        "The function's name",
+        "An input value passed to the function",
+        "The function's output",
+        "An error message"
+      ],
+      "correct": 1,
+      "hint": "Information you pass INTO the function so it knows what to work with."
+    },
+    {
+      "id": 115,
+      "question": "What does a 'return' statement do in a function?",
+      "answers": [
+        "Starts the function",
+        "Loops back to the beginning",
+        "Sends a value back from the function",
+        "Prints output to screen"
+      ],
+      "correct": 2,
+      "hint": "The function 'returns' a result - gives back a value when it's done."
+    },
+    {
+      "id": 116,
+      "question": "What is a 'for' loop typically used for?",
+      "answers": [
+        "Running code a specific number of times",
+        "Running code forever",
+        "Making decisions",
+        "Storing data"
+      ],
+      "correct": 0,
+      "hint": "FOR a certain count or FOR each item, do this - a known number of iterations."
+    },
+    {
+      "id": 117,
+      "question": "What is 'concatenation' in programming?",
+      "answers": [
+        "Dividing strings",
+        "Joining strings together",
+        "Comparing strings",
+        "Deleting strings"
+      ],
+      "correct": 1,
+      "hint": "Like chaining things together - joining 'Hello' and 'World' to make 'HelloWorld'."
+    },
+    {
+      "id": 118,
+      "question": "What is the 'length' of the string 'Hello'?",
+      "answers": [
+        "4",
+        "6",
+        "5",
+        "10"
+      ],
+      "correct": 2,
+      "hint": "Count each character: H-e-l-l-o."
+    },
+    {
+      "id": 119,
+      "question": "What is a 'condition' in programming?",
+      "answers": [
+        "A type of loop",
+        "An expression that evaluates to true or false",
+        "A variable type",
+        "A function name"
+      ],
+      "correct": 1,
+      "hint": "Something that can be checked as true or false, like 'x > 5'."
+    },
+    {
+      "id": 120,
+      "question": "What does the '==' operator typically check?",
+      "answers": [
+        "If two values are equal",
+        "If one value is greater",
+        "Assignment of a value",
+        "If a value exists"
+      ],
+      "correct": 0,
+      "hint": "Double equals compares two things - are they equal to each other?"
+    },
+    {
+      "id": 121,
+      "question": "What is 'Bluetooth'?",
+      "answers": [
+        "A type of dental surgery",
+        "Wireless technology for short-range data exchange",
+        "A programming language",
+        "A type of monitor"
+      ],
+      "correct": 1,
+      "hint": "Named after a Viking king, it lets devices talk wirelessly over short distances."
+    },
+    {
+      "id": 122,
+      "question": "What does 'BIOS' stand for?",
+      "answers": [
+        "Basic Input Output System",
+        "Binary Input Output System",
+        "Basic Internet Operating System",
+        "Built-In Operating Software"
+      ],
+      "correct": 0,
+      "hint": "The most basic system for input/output that starts before your OS loads."
+    },
+    {
+      "id": 123,
+      "question": "What is a 'GIF'?",
+      "answers": [
+        "A type of video file",
+        "An image format that can be animated",
+        "A music file",
+        "A document format"
+      ],
+      "correct": 1,
+      "hint": "Graphics Interchange Format - often used for short animated images."
+    },
+    {
+      "id": 124,
+      "question": "What is 'RAM' used for?",
+      "answers": [
+        "Permanent file storage",
+        "Temporary memory for running programs",
+        "Connecting to internet",
+        "Displaying graphics"
+      ],
+      "correct": 1,
+      "hint": "It temporarily holds data for programs that are currently running."
+    },
+    {
+      "id": 125,
+      "question": "What is a 'ZIP file'?",
+      "answers": [
+        "A very fast file",
+        "A compressed archive containing files",
+        "A location file",
+        "A broken file"
+      ],
+      "correct": 1,
+      "hint": "Files are 'zipped' up - compressed into a smaller archive."
+    },
+    {
+      "id": 126,
+      "question": "What is 'spam' in email?",
+      "answers": [
+        "Important messages",
+        "Unwanted bulk messages",
+        "Encrypted messages",
+        "Deleted messages"
+      ],
+      "correct": 1,
+      "hint": "Junk mail - unwanted messages sent in bulk."
+    },
+    {
+      "id": 127,
+      "question": "What does 'GUI' stand for?",
+      "answers": [
+        "General User Input",
+        "Graphical User Interface",
+        "Global Utility Integration",
+        "Graphics Unified Input"
+      ],
+      "correct": 1,
+      "hint": "The graphical (visual) way users interact with computers - windows, icons, buttons."
+    },
+    {
+      "id": 128,
+      "question": "What is a 'port' in networking?",
+      "answers": [
+        "A type of cable",
+        "A number identifying a specific service or application",
+        "A physical connector only",
+        "A type of router"
+      ],
+      "correct": 1,
+      "hint": "Like doors in a building - different port numbers lead to different services."
+    },
+    {
+      "id": 129,
+      "question": "What is 'phishing'?",
+      "answers": [
+        "A type of game",
+        "Fishing for compliments",
+        "Fraudulent attempt to steal information",
+        "A search technique"
+      ],
+      "correct": 2,
+      "hint": "Scammers 'fish' for your personal information using fake emails or websites."
+    },
+    {
+      "id": 130,
+      "question": "What is a 'homepage'?",
+      "answers": [
+        "Any web page",
+        "The main or starting page of a website",
+        "Your desktop",
+        "A bookmark"
+      ],
+      "correct": 1,
+      "hint": "The 'home' page - where visitors first arrive on a website."
+    },
+    {
+      "id": 131,
+      "question": "What is the binary number 11111 in decimal?",
+      "answers": [
+        "30",
+        "32",
+        "31",
+        "29"
+      ],
+      "correct": 2,
+      "hint": "All five bits are 1: 16+8+4+2+1 = ?"
+    },
+    {
+      "id": 132,
+      "question": "What is the decimal number 11 in binary?",
+      "answers": [
+        "1010",
+        "1011",
+        "1100",
+        "1001"
+      ],
+      "correct": 1,
+      "hint": "11 = 8+2+1. Which bit positions are those?"
+    },
+    {
+      "id": 133,
+      "question": "What is binary 1000 + binary 1?",
+      "answers": [
+        "1010",
+        "1000",
+        "1001",
+        "1100"
+      ],
+      "correct": 2,
+      "hint": "Binary 1000 is 8, binary 1 is 1. What's 9 in binary?"
+    },
+    {
+      "id": 134,
+      "question": "How many different values can 8 bits represent?",
+      "answers": [
+        "128",
+        "64",
+        "256",
+        "512"
+      ],
+      "correct": 2,
+      "hint": "2^8 = ? This is why a byte can hold values 0-255."
+    },
+    {
+      "id": 135,
+      "question": "What is the decimal number 14 in binary?",
+      "answers": [
+        "1101",
+        "1110",
+        "1100",
+        "1111"
+      ],
+      "correct": 1,
+      "hint": "14 = 8+4+2. Which bit positions have a 1?"
+    },
+    {
+      "id": 136,
+      "question": "What is the binary number 10101 in decimal?",
+      "answers": [
+        "20",
+        "22",
+        "21",
+        "23"
+      ],
+      "correct": 2,
+      "hint": "Alternating 1s: 16+4+1 = ?"
+    },
+    {
+      "id": 137,
+      "question": "What is binary 111 + binary 1?",
+      "answers": [
+        "1001",
+        "1000",
+        "1010",
+        "1100"
+      ],
+      "correct": 1,
+      "hint": "Binary 111 is 7, adding 1 gives 8. What's 8 in binary?"
+    },
+    {
+      "id": 138,
+      "question": "What is the decimal number 13 in binary?",
+      "answers": [
+        "1011",
+        "1101",
+        "1110",
+        "1100"
+      ],
+      "correct": 1,
+      "hint": "13 = 8+4+1. Which bit positions are those?"
+    },
+    {
+      "id": 139,
+      "question": "What is the binary number 10010 in decimal?",
+      "answers": [
+        "16",
+        "18",
+        "17",
+        "20"
+      ],
+      "correct": 1,
+      "hint": "The fifth and second bits are 1: 16+2 = ?"
+    },
+    {
+      "id": 140,
+      "question": "What is the smallest binary number with 5 digits?",
+      "answers": [
+        "10001",
+        "10000",
+        "01111",
+        "11111"
+      ],
+      "correct": 1,
+      "hint": "The smallest 5-digit binary number has a 1 followed by four 0s."
+    },
+    {
+      "id": 141,
+      "question": "What is an 'operator' in programming?",
+      "answers": [
+        "A person who runs computers",
+        "A symbol that performs an action on values",
+        "A type of loop",
+        "A programming language"
+      ],
+      "correct": 1,
+      "hint": "Symbols like +, -, *, / that 'operate' on numbers or values."
+    },
+    {
+      "id": 142,
+      "question": "What does the '%' (modulo) operator return?",
+      "answers": [
+        "The percentage",
+        "The quotient",
+        "The remainder after division",
+        "The product"
+      ],
+      "correct": 2,
+      "hint": "7 % 3 = 1 because 7 divided by 3 has a remainder of 1."
+    },
+    {
+      "id": 143,
+      "question": "What is 10 % 3?",
+      "answers": [
+        "3",
+        "1",
+        "0",
+        "10"
+      ],
+      "correct": 1,
+      "hint": "10 divided by 3 is 3 with a remainder of... ?"
+    },
+    {
+      "id": 144,
+      "question": "What does 'increment' mean?",
+      "answers": [
+        "Decrease by 1",
+        "Increase by 1",
+        "Multiply by 2",
+        "Reset to zero"
+      ],
+      "correct": 1,
+      "hint": "To increase by a small amount - usually by 1."
+    },
+    {
+      "id": 145,
+      "question": "What does 'decrement' mean?",
+      "answers": [
+        "Decrease by 1",
+        "Increase by 1",
+        "Divide by 2",
+        "Double the value"
+      ],
+      "correct": 0,
+      "hint": "The opposite of increment - to decrease by 1."
+    },
+    {
+      "id": 146,
+      "question": "What is a 'counter' variable typically used for?",
+      "answers": [
+        "Storing text",
+        "Keeping track of how many times something happens",
+        "Storing passwords",
+        "Connecting to internet"
+      ],
+      "correct": 1,
+      "hint": "It 'counts' - keeping track of iterations or occurrences."
+    },
+    {
+      "id": 147,
+      "question": "What is 'initialization' of a variable?",
+      "answers": [
+        "Deleting a variable",
+        "Giving a variable its first value",
+        "Printing a variable",
+        "Renaming a variable"
+      ],
+      "correct": 1,
+      "hint": "The 'initial' value - the first value you give to a new variable."
+    },
+    {
+      "id": 148,
+      "question": "What is a 'nested loop'?",
+      "answers": [
+        "A broken loop",
+        "A loop inside another loop",
+        "A loop that runs once",
+        "A loop with no condition"
+      ],
+      "correct": 1,
+      "hint": "Like nested boxes - a loop 'nested' inside another loop."
+    },
+    {
+      "id": 149,
+      "question": "What happens when you 'break' out of a loop?",
+      "answers": [
+        "The program crashes",
+        "The loop stops immediately",
+        "The loop restarts",
+        "Nothing happens"
+      ],
+      "correct": 1,
+      "hint": "You 'break' free from the loop - it stops running."
+    },
+    {
+      "id": 150,
+      "question": "What is 'scope' in programming?",
+      "answers": [
+        "A type of variable",
+        "Where a variable can be accessed in code",
+        "A debugging tool",
+        "A loop type"
+      ],
+      "correct": 1,
+      "hint": "The area or 'scope' where a variable exists and can be used."
     }
   ],
   "access": [
