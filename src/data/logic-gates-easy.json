@@ -7,15 +7,15 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the binary representation of the number 5?",
+      "question": "What is the binary representation of the number $5$?",
       "answers": [
-        "100",
-        "110",
-        "111",
-        "101"
+        "$100_2$",
+        "$110_2$",
+        "$111_2$",
+        "$101_2$"
       ],
       "correct": 3,
-      "hint": "Break 5 into powers of 2. Which powers of 2 add up to 5? (4 + 1 = ?)"
+      "hint": "Break $5$ into powers of $2$. Which powers of $2$ add up to $5$? ($4 + 1 = ?$)"
     },
     {
       "id": 2,
@@ -32,15 +32,15 @@
     },
     {
       "id": 3,
-      "question": "What is the decimal value of binary 1010?",
+      "question": "What is the decimal value of binary $1010_2$?",
       "answers": [
-        "10",
-        "5",
-        "8",
-        "12"
+        "$10$",
+        "$5$",
+        "$8$",
+        "$12$"
       ],
       "correct": 0,
-      "hint": "Each position represents a power of 2: 8, 4, 2, 1. Add the positions where there's a 1."
+      "hint": "Each position represents a power of $2$: $8, 4, 2, 1$. Add the positions where there's a $1$."
     },
     {
       "id": 4,
@@ -57,12 +57,12 @@
     },
     {
       "id": 5,
-      "question": "If A = 1, what is NOT A?",
+      "question": "If $A = 1$, what is $\\overline{A}$ (NOT $A$)?",
       "answers": [
-        "-1",
-        "1",
-        "0",
-        "2"
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$2$"
       ],
       "correct": 2,
       "hint": "NOT inverts the input - it gives the opposite value."
@@ -82,322 +82,322 @@
     },
     {
       "id": 7,
-      "question": "What is 1 AND 1?",
+      "question": "What is $1 \\land 1$ (1 AND 1)?",
       "answers": [
-        "2",
-        "10",
-        "1",
-        "0"
+        "$2$",
+        "$10$",
+        "$1$",
+        "$0$"
       ],
       "correct": 2,
-      "hint": "AND returns 1 only when BOTH inputs are 1. Are both inputs 1 here?"
+      "hint": "AND returns $1$ only when BOTH inputs are $1$. Are both inputs $1$ here?"
     },
     {
       "id": 8,
-      "question": "What is 1 OR 0?",
+      "question": "What is $1 \\lor 0$ (1 OR 0)?",
       "answers": [
-        "10",
-        "0",
-        "01",
-        "1"
+        "$10$",
+        "$0$",
+        "$01$",
+        "$1$"
       ],
       "correct": 3,
-      "hint": "OR returns 1 if at least one input is 1. Is there at least one 1?"
+      "hint": "OR returns $1$ if at least one input is $1$. Is there at least one $1$?"
     },
     {
       "id": 9,
-      "question": "What is the binary representation of 3?",
+      "question": "What is the binary representation of $3$?",
       "answers": [
-        "11",
-        "100",
-        "111",
-        "10"
+        "$11_2$",
+        "$100_2$",
+        "$111_2$",
+        "$10_2$"
       ],
       "correct": 0,
-      "hint": "Which powers of 2 add up to 3? You need the 2's place and the 1's place."
+      "hint": "Which powers of $2$ add up to $3$? You need the $2$'s place and the $1$'s place."
     },
     {
       "id": 10,
-      "question": "What is 0 AND 1?",
+      "question": "What is $0 \\land 1$ (0 AND 1)?",
       "answers": [
-        "10",
-        "01",
-        "0",
-        "1"
+        "$10$",
+        "$01$",
+        "$0$",
+        "$1$"
       ],
       "correct": 2,
-      "hint": "AND needs BOTH inputs to be 1. Is that the case here?"
+      "hint": "AND needs BOTH inputs to be $1$. Is that the case here?"
     },
     {
       "id": 11,
-      "question": "What is the decimal value of binary 100?",
+      "question": "What is the decimal value of binary $100_2$?",
       "answers": [
-        "4",
-        "100",
-        "8",
-        "3"
+        "$4$",
+        "$100$",
+        "$8$",
+        "$3$"
       ],
       "correct": 0,
-      "hint": "The leftmost 1 is in which power-of-2 position? (Positions are 4, 2, 1)"
+      "hint": "The leftmost $1$ is in which power-of-$2$ position? (Positions are $4, 2, 1$)"
     },
     {
       "id": 12,
-      "question": "What is 0 OR 0?",
+      "question": "What is $0 \\lor 0$ (0 OR 0)?",
       "answers": [
-        "2",
-        "00",
-        "1",
-        "0"
+        "$2$",
+        "$00$",
+        "$1$",
+        "$0$"
       ],
       "correct": 3,
-      "hint": "OR returns 1 if ANY input is 1. Are any of these inputs 1?"
+      "hint": "OR returns $1$ if ANY input is $1$. Are any of these inputs $1$?"
     },
     {
       "id": 13,
-      "question": "If A = 0, what is NOT A?",
+      "question": "If $A = 0$, what is $\\overline{A}$ (NOT $A$)?",
       "answers": [
-        "1",
-        "0",
-        "-1",
-        "2"
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
       ],
       "correct": 0,
-      "hint": "NOT inverts the input - what's the opposite of 0?"
+      "hint": "NOT inverts the input - what's the opposite of $0$?"
     },
     {
       "id": 14,
-      "question": "What is the binary representation of 8?",
+      "question": "What is the binary representation of $8$?",
       "answers": [
-        "111",
-        "1001",
-        "0100",
-        "1000"
+        "$111_2$",
+        "$1001_2$",
+        "$0100_2$",
+        "$1000_2$"
       ],
       "correct": 3,
-      "hint": "8 is a power of 2 (2³). In binary, a single power of 2 has just one '1' followed by zeros."
+      "hint": "$8$ is a power of $2$ ($2^3$). In binary, a single power of $2$ has just one '$1$' followed by zeros."
     },
     {
       "id": 15,
-      "question": "What is 1 AND 0?",
+      "question": "What is $1 \\land 0$ (1 AND 0)?",
       "answers": [
-        "1",
-        "10",
-        "0",
-        "01"
+        "$1$",
+        "$10$",
+        "$0$",
+        "$01$"
       ],
       "correct": 2,
-      "hint": "AND needs ALL inputs to be 1. If even one is 0, what's the result?"
+      "hint": "AND needs ALL inputs to be $1$. If even one is $0$, what's the result?"
     },
     {
       "id": 16,
-      "question": "What is the decimal value of binary 111?",
+      "question": "What is the decimal value of binary $111_2$?",
       "answers": [
-        "6",
-        "3",
-        "111",
-        "7"
+        "$6$",
+        "$3$",
+        "$111$",
+        "$7$"
       ],
       "correct": 3,
-      "hint": "Add up all the positions: 4's place + 2's place + 1's place (all are 1s)."
+      "hint": "Add up all the positions: $4$'s place + $2$'s place + $1$'s place (all are $1$s)."
     },
     {
       "id": 17,
-      "question": "What is 1 OR 1?",
+      "question": "What is $1 \\lor 1$ (1 OR 1)?",
       "answers": [
-        "11",
-        "1",
-        "2",
-        "0"
+        "$11$",
+        "$1$",
+        "$2$",
+        "$0$"
       ],
       "correct": 1,
-      "hint": "OR returns 1 if ANY input is 1. In binary, the result is always 0 or 1, never 2."
+      "hint": "OR returns $1$ if ANY input is $1$. In binary, the result is always $0$ or $1$, never $2$."
     },
     {
       "id": 18,
-      "question": "How many values can 2 binary digits (bits) represent?",
+      "question": "How many values can $2$ binary digits (bits) represent?",
       "answers": [
-        "16",
-        "2",
-        "4",
-        "8"
+        "$16$",
+        "$2$",
+        "$4$",
+        "$8$"
       ],
       "correct": 2,
-      "hint": "Each bit doubles the possibilities. With 2 bits: 2 × 2 = ?"
+      "hint": "Each bit doubles the possibilities. With $2$ bits: $2 \\times 2 = ?$"
     },
     {
       "id": 19,
-      "question": "What is 0 AND 0?",
+      "question": "What is $0 \\land 0$ (0 AND 0)?",
       "answers": [
-        "2",
-        "00",
-        "1",
-        "0"
+        "$2$",
+        "$00$",
+        "$1$",
+        "$0$"
       ],
       "correct": 3,
-      "hint": "AND needs ALL inputs to be 1 for output to be 1. Both inputs are 0 here."
+      "hint": "AND needs ALL inputs to be $1$ for output to be $1$. Both inputs are $0$ here."
     },
     {
       "id": 20,
-      "question": "What is the binary representation of 6?",
+      "question": "What is the binary representation of $6$?",
       "answers": [
-        "101",
-        "111",
-        "110",
-        "100"
+        "$101_2$",
+        "$111_2$",
+        "$110_2$",
+        "$100_2$"
       ],
       "correct": 2,
-      "hint": "Which powers of 2 add up to 6? (Think: 4 + 2 = 6)"
+      "hint": "Which powers of $2$ add up to $6$? (Think: $4 + 2 = 6$)"
     },
     {
       "id": 21,
-      "question": "Complete the truth table: A=0, B=1, A AND B = ?",
+      "question": "Complete the truth table: $A=0$, $B=1$, $A \\land B = ?$",
       "svg": "<svg width=\"200\" height=\"140\" viewBox=\"0 0 200 140\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"100\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"1\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"1\"/><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"1\"/><text x=\"45\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A</text><text x=\"100\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">B</text><text x=\"140\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A∧B</text><text x=\"45\" y=\"90\" font-size=\"14\" fill=\"#374151\">0</text><text x=\"100\" y=\"90\" font-size=\"14\" fill=\"#374151\">1</text><text x=\"150\" y=\"90\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "01",
-        "0",
-        "10",
-        "1"
+        "$01$",
+        "$0$",
+        "$10$",
+        "$1$"
       ],
       "correct": 1,
-      "hint": "AND needs BOTH to be 1. Here one is 0 and one is 1..."
+      "hint": "AND needs BOTH to be $1$. Here one is $0$ and one is $1$..."
     },
     {
       "id": 22,
-      "question": "What is the decimal value of binary 1001?",
+      "question": "What is the decimal value of binary $1001_2$?",
       "answers": [
-        "10",
-        "11",
-        "9",
-        "5"
+        "$10$",
+        "$11$",
+        "$9$",
+        "$5$"
       ],
       "correct": 2,
-      "hint": "Positions are 8, 4, 2, 1. Add only the positions that have a 1."
+      "hint": "Positions are $8, 4, 2, 1$. Add only the positions that have a $1$."
     },
     {
       "id": 23,
-      "question": "Complete the truth table: A=1, B=0, A OR B = ?",
+      "question": "Complete the truth table: $A=1$, $B=0$, $A \\lor B = ?$",
       "svg": "<svg width=\"200\" height=\"140\" viewBox=\"0 0 200 140\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"100\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"120\" stroke=\"#16A34A\" stroke-width=\"1\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#16A34A\" stroke-width=\"1\"/><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#16A34A\" stroke-width=\"1\"/><text x=\"45\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A</text><text x=\"100\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">B</text><text x=\"140\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A∨B</text><text x=\"45\" y=\"90\" font-size=\"14\" fill=\"#374151\">1</text><text x=\"100\" y=\"90\" font-size=\"14\" fill=\"#374151\">0</text><text x=\"150\" y=\"90\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "0",
-        "10",
-        "1",
-        "01"
+        "$0$",
+        "$10$",
+        "$1$",
+        "$01$"
       ],
       "correct": 2,
-      "hint": "OR returns 1 if at least one input is 1. Is at least one input 1 here?"
+      "hint": "OR returns $1$ if at least one input is $1$. Is at least one input $1$ here?"
     },
     {
       "id": 24,
-      "question": "What is the binary representation of 7?",
+      "question": "What is the binary representation of $7$?",
       "answers": [
-        "101",
-        "110",
-        "111",
-        "1000"
+        "$101_2$",
+        "$110_2$",
+        "$111_2$",
+        "$1000_2$"
       ],
       "correct": 2,
-      "hint": "Which powers of 2 add up to 7? (4 + 2 + 1 = 7)"
+      "hint": "Which powers of $2$ add up to $7$? ($4 + 2 + 1 = 7$)"
     },
     {
       "id": 25,
-      "question": "How many values can 3 bits represent?",
+      "question": "How many values can $3$ bits represent?",
       "answers": [
-        "16",
-        "8",
-        "6",
-        "3"
+        "$16$",
+        "$8$",
+        "$6$",
+        "$3$"
       ],
       "correct": 1,
-      "hint": "Each bit doubles possibilities. 3 bits = 2 × 2 × 2 = ?"
+      "hint": "Each bit doubles possibilities. $3$ bits = $2 \\times 2 \\times 2 = ?$"
     },
     {
       "id": 26,
-      "question": "What is NOT(NOT A) if A = 1?",
+      "question": "What is $\\overline{\\overline{A}}$ (NOT NOT $A$) if $A = 1$?",
       "answers": [
-        "-1",
-        "1",
-        "2",
-        "0"
+        "$-1$",
+        "$1$",
+        "$2$",
+        "$0$"
       ],
       "correct": 1,
       "hint": "NOT flips the value. What happens when you flip something twice?"
     },
     {
       "id": 27,
-      "question": "What is the decimal value of binary 1100?",
+      "question": "What is the decimal value of binary $1100_2$?",
       "answers": [
-        "6",
-        "8",
-        "14",
-        "12"
+        "$6$",
+        "$8$",
+        "$14$",
+        "$12$"
       ],
       "correct": 3,
-      "hint": "Positions are 8, 4, 2, 1. Add only the positions with 1s (8 and 4)."
+      "hint": "Positions are $8, 4, 2, 1$. Add only the positions with $1$s ($8$ and $4$)."
     },
     {
       "id": 28,
-      "question": "What is the binary representation of 2?",
+      "question": "What is the binary representation of $2$?",
       "answers": [
-        "01",
-        "100",
-        "10",
-        "11"
+        "$01_2$",
+        "$100_2$",
+        "$10_2$",
+        "$11_2$"
       ],
       "correct": 2,
-      "hint": "2 is in the 2's place only. What does a single '1' in the 2's position look like?"
+      "hint": "$2$ is in the $2$'s place only. What does a single '$1$' in the $2$'s position look like?"
     },
     {
       "id": 29,
       "question": "What output does this circuit give?",
       "svg": "<svg width=\"220\" height=\"100\" viewBox=\"0 0 220 100\"><text x=\"10\" y=\"55\" font-size=\"14\" fill=\"#374151\">1</text><line x1=\"25\" y1=\"50\" x2=\"60\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"60,30 60,70 100,50\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"108\" cy=\"50\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"116\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"185\" y=\"55\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "1",
-        "-1",
-        "2",
-        "0"
+        "$1$",
+        "$-1$",
+        "$2$",
+        "$0$"
       ],
       "correct": 3,
-      "hint": "This is a NOT gate (inverter). If 1 goes in, what comes out?"
+      "hint": "This is a NOT gate (inverter). If $1$ goes in, what comes out?"
     },
     {
       "id": 30,
-      "question": "What is 0 OR 1?",
+      "question": "What is $0 \\lor 1$ (0 OR 1)?",
       "answers": [
-        "0",
-        "01",
-        "1",
-        "10"
+        "$0$",
+        "$01$",
+        "$1$",
+        "$10$"
       ],
       "correct": 2,
-      "hint": "OR returns 1 if ANY input is 1. Is there at least one 1 among the inputs?"
+      "hint": "OR returns $1$ if ANY input is $1$. Is there at least one $1$ among the inputs?"
     },
     {
       "id": 31,
-      "question": "What is the binary representation of 15?",
+      "question": "What is the binary representation of $15$?",
       "answers": [
-        "1101",
-        "1111",
-        "10000",
-        "1110"
+        "$1101_2$",
+        "$1111_2$",
+        "$10000_2$",
+        "$1110_2$"
       ],
       "correct": 1,
-      "hint": "15 = 8 + 4 + 2 + 1. How many 1s do you need if all four positions are used?"
+      "hint": "$15 = 8 + 4 + 2 + 1$. How many $1$s do you need if all four positions are used?"
     },
     {
       "id": 32,
-      "question": "What is the decimal value of binary 1111?",
+      "question": "What is the decimal value of binary $1111_2$?",
       "answers": [
-        "16",
-        "1111",
-        "14",
-        "15"
+        "$16$",
+        "$1111$",
+        "$14$",
+        "$15$"
       ],
       "correct": 3,
-      "hint": "Add up all positions: 8 + 4 + 2 + 1 = ?"
+      "hint": "Add up all positions: $8 + 4 + 2 + 1 = ?$"
     },
     {
       "id": 33,
-      "question": "Which gate gives 1 ONLY when both inputs are 1?",
+      "question": "Which gate gives $1$ ONLY when both inputs are $1$?",
       "answers": [
         "NOT gate",
         "XOR gate",
@@ -405,11 +405,11 @@
         "AND gate"
       ],
       "correct": 3,
-      "hint": "This gate requires both (ALL) inputs to be 1 - think of the word that means 'both'."
+      "hint": "This gate requires both (ALL) inputs to be $1$ - think of the word that means 'both'."
     },
     {
       "id": 34,
-      "question": "Which gate gives 1 when ANY input is 1?",
+      "question": "Which gate gives $1$ when ANY input is $1$?",
       "answers": [
         "NAND gate",
         "OR gate",
@@ -417,76 +417,76 @@
         "NOT gate"
       ],
       "correct": 1,
-      "hint": "This gate outputs 1 if one input is 1, or the other is 1, or both are 1."
+      "hint": "This gate outputs $1$ if one input is $1$, or the other is $1$, or both are $1$."
     },
     {
       "id": 35,
-      "question": "What is the decimal value of binary 10?",
+      "question": "What is the decimal value of binary $10_2$?",
       "answers": [
-        "10",
-        "2",
-        "1",
-        "3"
+        "$10$",
+        "$2$",
+        "$1$",
+        "$3$"
       ],
       "correct": 1,
-      "hint": "Binary 10 has a 1 in the 2's position and 0 in the 1's position."
+      "hint": "Binary $10_2$ has a $1$ in the $2$'s position and $0$ in the $1$'s position."
     },
     {
       "id": 36,
-      "question": "What is the binary representation of 9?",
+      "question": "What is the binary representation of $9$?",
       "answers": [
-        "1011",
-        "1001",
-        "1000",
-        "1010"
+        "$1011_2$",
+        "$1001_2$",
+        "$1000_2$",
+        "$1010_2$"
       ],
       "correct": 1,
-      "hint": "9 = 8 + 1. Which positions need a 1? (8's place and 1's place)"
+      "hint": "$9 = 8 + 1$. Which positions need a $1$? ($8$'s place and $1$'s place)"
     },
     {
       "id": 37,
-      "question": "How many values can 4 bits represent?",
+      "question": "How many values can $4$ bits represent?",
       "answers": [
-        "8",
-        "4",
-        "16",
-        "32"
+        "$8$",
+        "$4$",
+        "$16$",
+        "$32$"
       ],
       "correct": 2,
-      "hint": "4 bits can represent 2^4 values. What is 2 × 2 × 2 × 2?"
+      "hint": "$4$ bits can represent $2^4$ values. What is $2 \\times 2 \\times 2 \\times 2$?"
     },
     {
       "id": 38,
-      "question": "What is the binary representation of 1?",
+      "question": "What is the binary representation of $1$?",
       "answers": [
-        "1",
-        "0",
-        "01",
-        "10"
+        "$1_2$",
+        "$0_2$",
+        "$01_2$",
+        "$10_2$"
       ],
       "correct": 0,
-      "hint": "The number 1 in binary is simply the 1's place being occupied."
+      "hint": "The number $1$ in binary is simply the $1$'s place being occupied."
     },
     {
       "id": 39,
-      "question": "What is the decimal value of binary 1011?",
+      "question": "What is the decimal value of binary $1011_2$?",
       "answers": [
-        "12",
-        "13",
-        "10",
-        "11"
+        "$12$",
+        "$13$",
+        "$10$",
+        "$11$"
       ],
       "correct": 3,
-      "hint": "Positions are 8, 4, 2, 1. Add the positions with 1s (8, 2, and 1)."
+      "hint": "Positions are $8, 4, 2, 1$. Add the positions with $1$s ($8$, $2$, and $1$)."
     },
     {
       "id": 40,
-      "question": "What is the binary representation of 0?",
+      "question": "What is the binary representation of $0$?",
       "answers": [
-        "0",
-        "1",
-        "00",
-        "10"
+        "$0_2$",
+        "$1_2$",
+        "$00_2$",
+        "$10_2$"
       ],
       "correct": 0,
       "hint": "Zero in any number system is just zero - no positions are needed."

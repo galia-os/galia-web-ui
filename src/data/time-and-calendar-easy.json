@@ -1,0 +1,290 @@
+{
+  "theme": "Time and Calendar",
+  "themeId": "time-and-calendar",
+  "level": "easy",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many days are in one week?",
+      "answers": ["7", "6", "5", "8"],
+      "correct": 0,
+      "hint": "Try counting all the days from Sunday to Saturday!"
+    },
+    {
+      "id": 2,
+      "question": "What day comes after Monday?",
+      "answers": ["Wednesday", "Sunday", "Tuesday", "Thursday"],
+      "correct": 2,
+      "hint": "Think about the order of weekdays. What do you do on the day after Monday?"
+    },
+    {
+      "id": 3,
+      "question": "How many hours are in one day?",
+      "answers": ["12", "24", "20", "30"],
+      "correct": 1,
+      "hint": "Think about how many hours until the same time tomorrow!"
+    },
+    {
+      "id": 4,
+      "question": "What day comes before Wednesday?",
+      "answers": ["Monday", "Thursday", "Friday", "Tuesday"],
+      "correct": 3,
+      "hint": "Go backwards one day from Wednesday. What day is it?"
+    },
+    {
+      "id": 5,
+      "question": "The short hand on a clock points to the 3. The long hand points to the 12. What time is it?",
+      "answers": ["12:03", "12:30", "3:12", "3:00"],
+      "correct": 3,
+      "hint": "When the long hand points to 12, it means exactly on the hour. Which number does the short hand point to?"
+    },
+    {
+      "id": 6,
+      "question": "What day comes after Friday?",
+      "answers": ["Saturday", "Thursday", "Sunday", "Monday"],
+      "correct": 0,
+      "hint": "Friday is the last school day. What day starts the weekend?"
+    },
+    {
+      "id": 7,
+      "question": "The short hand points to 8 and the long hand points to 12. What time is it?",
+      "answers": ["8:00", "12:08", "8:12", "12:00"],
+      "correct": 0,
+      "hint": "The short hand tells the hour, and when the long hand is on 12, it's exactly on the hour."
+    },
+    {
+      "id": 8,
+      "question": "What day comes after Sunday?",
+      "answers": ["Saturday", "Friday", "Tuesday", "Monday"],
+      "correct": 3,
+      "hint": "Sunday is the last day of the weekend. What day starts the new week?"
+    },
+    {
+      "id": 9,
+      "question": "How many days are in a weekend?",
+      "answers": ["3", "1", "2", "5"],
+      "correct": 2,
+      "hint": "Which days are Saturday and Sunday? Count them!"
+    },
+    {
+      "id": 10,
+      "question": "The short hand points to 6 and the long hand points to 6. What time is it?",
+      "answers": ["6:00", "6:30", "6:06", "12:30"],
+      "correct": 1,
+      "hint": "When the long hand points to 6, it means half past. The short hand shows which hour."
+    },
+    {
+      "id": 11,
+      "question": "What day comes before Friday?",
+      "answers": ["Thursday", "Saturday", "Wednesday", "Monday"],
+      "correct": 0,
+      "hint": "Go back one day from Friday. What day is it?"
+    },
+    {
+      "id": 12,
+      "question": "The short hand points to 10 and the long hand points to 12. What time is it?",
+      "answers": ["10:12", "12:10", "10:00", "12:00"],
+      "correct": 2,
+      "hint": "Long hand on 12 means it's exactly on the hour. What hour does the short hand show?"
+    },
+    {
+      "id": 13,
+      "question": "Which day is the first day of the week?",
+      "answers": ["Saturday", "Sunday", "Monday", "Friday"],
+      "correct": 1,
+      "hint": "Look at a calendar! Which day is in the first column?"
+    },
+    {
+      "id": 14,
+      "question": "The short hand is between 2 and 3, and the long hand points to 6. What time is it?",
+      "answers": ["3:30", "2:30", "6:30", "2:06"],
+      "correct": 1,
+      "hint": "When the long hand is on 6, it's half past. The short hand is past 2 but not yet at 3."
+    },
+    {
+      "id": 15,
+      "question": "What day comes after Thursday?",
+      "answers": ["Wednesday", "Friday", "Saturday", "Tuesday"],
+      "correct": 1,
+      "hint": "Thursday is followed by the last school day of the week."
+    },
+    {
+      "id": 16,
+      "question": "How many school days are usually in one week?",
+      "answers": ["5", "4", "6", "7"],
+      "correct": 0,
+      "hint": "Count the days you go to school: Monday, Tuesday, Wednesday..."
+    },
+    {
+      "id": 17,
+      "question": "The short hand points to 1 and the long hand points to 12. What time is it?",
+      "answers": ["12:01", "12:00", "1:00", "1:12"],
+      "correct": 2,
+      "hint": "The short hand shows the hour. When the long hand is on 12, it's exactly that hour."
+    },
+    {
+      "id": 18,
+      "question": "What day comes before Monday?",
+      "answers": ["Tuesday", "Saturday", "Friday", "Sunday"],
+      "correct": 3,
+      "hint": "Monday starts the school week. What day is the day before?"
+    },
+    {
+      "id": 19,
+      "question": "The short hand is between 4 and 5, and the long hand points to 6. What time is it?",
+      "answers": ["4:30", "5:30", "4:06", "6:04"],
+      "correct": 0,
+      "hint": "Long hand on 6 means half past. The short hand hasn't reached 5 yet!"
+    },
+    {
+      "id": 20,
+      "question": "Which day comes right before Saturday?",
+      "answers": ["Sunday", "Friday", "Thursday", "Monday"],
+      "correct": 1,
+      "hint": "Saturday is the first weekend day. What day ends the school week?"
+    },
+    {
+      "id": 21,
+      "question": "The short hand points to 12 and the long hand points to 12. What time is it?",
+      "answers": ["6:00", "12:00", "12:12", "11:00"],
+      "correct": 1,
+      "hint": "Both hands are pointing to 12. This is a special time!"
+    },
+    {
+      "id": 22,
+      "question": "What day comes after Wednesday?",
+      "answers": ["Thursday", "Tuesday", "Monday", "Friday"],
+      "correct": 0,
+      "hint": "Wednesday is in the middle of the week. What comes next?"
+    },
+    {
+      "id": 23,
+      "question": "The short hand points to 5 and the long hand points to 12. What time is it?",
+      "answers": ["12:05", "5:00", "5:12", "12:00"],
+      "correct": 1,
+      "hint": "The short hand tells the hour. Long hand on 12 means exactly on the hour."
+    },
+    {
+      "id": 24,
+      "question": "How many months are in one year?",
+      "answers": ["10", "11", "12", "14"],
+      "correct": 2,
+      "hint": "Start counting: January, February, March... all the way to December!"
+    },
+    {
+      "id": 25,
+      "question": "The short hand is between 7 and 8, and the long hand points to 6. What time is it?",
+      "answers": ["6:07", "8:30", "7:06", "7:30"],
+      "correct": 3,
+      "hint": "Long hand on 6 means half past. The short hand is past 7 but not at 8 yet."
+    },
+    {
+      "id": 26,
+      "question": "What day comes after Tuesday?",
+      "answers": ["Wednesday", "Monday", "Thursday", "Friday"],
+      "correct": 0,
+      "hint": "Tuesday is the second school day. What day is the middle of the week?"
+    },
+    {
+      "id": 27,
+      "question": "The short hand points to 9 and the long hand points to 12. What time is it?",
+      "answers": ["12:09", "9:12", "9:00", "12:00"],
+      "correct": 2,
+      "hint": "Long hand on 12 means exactly on the hour. What does the short hand say?"
+    },
+    {
+      "id": 28,
+      "question": "Which day is the last day of the week?",
+      "answers": ["Friday", "Monday", "Saturday", "Sunday"],
+      "correct": 2,
+      "hint": "Look at a calendar! Which day is in the last column?"
+    },
+    {
+      "id": 29,
+      "question": "The short hand is between 11 and 12, and the long hand points to 6. What time is it?",
+      "answers": ["12:30", "11:06", "11:30", "6:11"],
+      "correct": 2,
+      "hint": "Long hand on 6 means half past. The short hand is past 11 but not at 12."
+    },
+    {
+      "id": 30,
+      "question": "What day comes before Thursday?",
+      "answers": ["Friday", "Wednesday", "Tuesday", "Saturday"],
+      "correct": 1,
+      "hint": "Go back one day from Thursday. It's the middle of the week!"
+    },
+    {
+      "id": 31,
+      "question": "The short hand points to 4 and the long hand points to 12. What time is it?",
+      "answers": ["4:00", "12:04", "4:12", "12:00"],
+      "correct": 0,
+      "hint": "Short hand shows the hour. Long hand on 12 means exactly on that hour."
+    },
+    {
+      "id": 32,
+      "question": "How many minutes are in one hour?",
+      "answers": ["100", "30", "45", "60"],
+      "correct": 3,
+      "hint": "When the long hand goes all the way around the clock once, how many minutes is that?"
+    },
+    {
+      "id": 33,
+      "question": "The short hand is between 9 and 10, and the long hand points to 6. What time is it?",
+      "answers": ["10:30", "9:06", "9:30", "6:09"],
+      "correct": 2,
+      "hint": "Long hand on 6 is half past. The short hand shows we're past 9."
+    },
+    {
+      "id": 34,
+      "question": "What day comes before Sunday?",
+      "answers": ["Monday", "Friday", "Saturday", "Thursday"],
+      "correct": 2,
+      "hint": "Sunday is the first day. What day is right before it at the end of the week?"
+    },
+    {
+      "id": 35,
+      "question": "The short hand points to 7 and the long hand points to 12. What time is it?",
+      "answers": ["12:07", "7:12", "12:00", "7:00"],
+      "correct": 3,
+      "hint": "When the long hand is on 12, it's exactly on the hour shown by the short hand."
+    },
+    {
+      "id": 36,
+      "question": "If today is Tuesday, what day was yesterday?",
+      "answers": ["Monday", "Wednesday", "Sunday", "Thursday"],
+      "correct": 0,
+      "hint": "Yesterday means the day before. Go back one day from Tuesday."
+    },
+    {
+      "id": 37,
+      "question": "The short hand is between 1 and 2, and the long hand points to 6. What time is it?",
+      "answers": ["2:30", "1:06", "6:01", "1:30"],
+      "correct": 3,
+      "hint": "Long hand on 6 means half past. The short hand is past 1 but not at 2."
+    },
+    {
+      "id": 38,
+      "question": "If today is Friday, what day is tomorrow?",
+      "answers": ["Thursday", "Saturday", "Sunday", "Monday"],
+      "correct": 1,
+      "hint": "Tomorrow means the next day. What comes after Friday?"
+    },
+    {
+      "id": 39,
+      "question": "The short hand points to 11 and the long hand points to 12. What time is it?",
+      "answers": ["12:11", "11:00", "11:12", "12:00"],
+      "correct": 1,
+      "hint": "Long hand on 12 means exactly on the hour. Look at the short hand!"
+    },
+    {
+      "id": 40,
+      "question": "If today is Sunday, what day is tomorrow?",
+      "answers": ["Saturday", "Tuesday", "Friday", "Monday"],
+      "correct": 3,
+      "hint": "Tomorrow is the next day. Sunday ends the weekend, so what starts the new week?"
+    }
+  ],
+  "access": [2]
+}

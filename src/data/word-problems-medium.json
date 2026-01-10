@@ -1,0 +1,295 @@
+{
+  "theme": "Word Problems (Equations)",
+  "themeId": "word-problems",
+  "level": "medium",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Maria bought 3 notebooks and a pen for $11. If the pen cost $2, how much did each notebook cost?",
+      "answers": ["$3", "$4", "$5", "$2"],
+      "correct": 0,
+      "hint": "First subtract the pen cost from the total, then divide by the number of notebooks."
+    },
+    {
+      "id": 2,
+      "question": "Tom is 4 years older than his sister Amy. Together, their ages add up to 22. How old is Tom?",
+      "answers": ["11 years", "13 years", "9 years", "14 years"],
+      "correct": 1,
+      "hint": "Let Amy's age be $x$. Then Tom is $x + 4$. What equation can you write for their total age?"
+    },
+    {
+      "id": 3,
+      "question": "A store sells pencils for $0.50 each and erasers for $0.75 each. Jake bought 4 pencils and 2 erasers. How much did he spend?",
+      "answers": ["$3.00", "$4.50", "$3.50", "$2.75"],
+      "correct": 2,
+      "hint": "Calculate the cost of pencils and erasers separately, then add them together."
+    },
+    {
+      "id": 4,
+      "question": "Sarah has some stickers. After giving 12 to her friend and then buying 8 more, she has 26 stickers. How many did she start with?",
+      "answers": ["22 stickers", "34 stickers", "18 stickers", "30 stickers"],
+      "correct": 3,
+      "hint": "Work backwards: before buying 8 more, how many did she have? Before giving away 12?"
+    },
+    {
+      "id": 5,
+      "question": "A farmer has chickens and cows. There are 20 animals in total with 56 legs. How many chickens are there?",
+      "answers": ["12 chickens", "8 chickens", "14 chickens", "10 chickens"],
+      "correct": 0,
+      "hint": "Chickens have 2 legs, cows have 4. If $c$ = chickens, then $2c + 4(20 - c) = 56$. Solve for $c$."
+    },
+    {
+      "id": 6,
+      "question": "Ryan's father is 3 times as old as Ryan. In 10 years, their ages will add up to 68. How old is Ryan now?",
+      "answers": ["14 years", "12 years", "10 years", "16 years"],
+      "correct": 1,
+      "hint": "If Ryan is $x$ now, his father is $3x$. In 10 years: $(x + 10) + (3x + 10) = 68$."
+    },
+    {
+      "id": 7,
+      "question": "Emma earned $45 babysitting. She wants to buy books that cost $7 each and have $10 left for lunch. How many books can she buy?",
+      "answers": ["6 books", "4 books", "5 books", "3 books"],
+      "correct": 2,
+      "hint": "First subtract the lunch money from her earnings, then divide by the cost per book."
+    },
+    {
+      "id": 8,
+      "question": "A train travels at 60 miles per hour. How long will it take to travel 150 miles?",
+      "answers": ["2 hours", "3 hours", "90 hours", "2.5 hours"],
+      "correct": 3,
+      "hint": "Use the formula: time = distance / speed."
+    },
+    {
+      "id": 9,
+      "question": "A class has 28 students. There are 4 more girls than boys. How many boys are in the class?",
+      "answers": ["12 boys", "14 boys", "16 boys", "10 boys"],
+      "correct": 0,
+      "hint": "If $b$ = boys, then girls = $b + 4$. Together: $b + (b + 4) = 28$."
+    },
+    {
+      "id": 10,
+      "question": "Mike bought 5 apples and 3 oranges for $6.50. If each apple costs $0.80, how much did each orange cost?",
+      "answers": ["$0.75", "$0.50", "$0.83", "$1.00"],
+      "correct": 1,
+      "hint": "First find the total cost of apples, subtract from total, then divide by number of oranges."
+    },
+    {
+      "id": 11,
+      "question": "A rectangle's length is twice its width. If the perimeter is 36 cm, what is the width?",
+      "answers": ["12 cm", "9 cm", "6 cm", "8 cm"],
+      "correct": 2,
+      "hint": "If width = $w$, length = $2w$. Perimeter = $2(w) + 2(2w) = 36$."
+    },
+    {
+      "id": 12,
+      "question": "Lily and Max collected 45 seashells together. Lily collected 9 more than Max. How many did Max collect?",
+      "answers": [
+        "27 seashells",
+        "22 seashells",
+        "24 seashells",
+        "18 seashells"
+      ],
+      "correct": 3,
+      "hint": "Let Max's amount be $m$. Lily has $m + 9$. Together: $m + (m + 9) = 45$."
+    },
+    {
+      "id": 13,
+      "question": "A bike rental costs $5 plus $2 per hour. If Carlos paid $17, how many hours did he rent the bike?",
+      "answers": ["6 hours", "8 hours", "5 hours", "7 hours"],
+      "correct": 0,
+      "hint": "Set up the equation: $5 + 2h = 17$. Solve for $h$."
+    },
+    {
+      "id": 14,
+      "question": "Three consecutive numbers add up to 48. What is the largest number?",
+      "answers": ["15", "17", "16", "18"],
+      "correct": 1,
+      "hint": "If the middle number is $n$, the three numbers are $(n-1)$, $n$, $(n+1)$. Their sum equals 48."
+    },
+    {
+      "id": 15,
+      "question": "A car travels 45 miles per hour. A bus travels 35 miles per hour. If both start from the same place, how far apart will they be after 2 hours?",
+      "answers": ["10 miles", "80 miles", "20 miles", "160 miles"],
+      "correct": 2,
+      "hint": "Find how far each vehicle travels in 2 hours, then find the difference."
+    },
+    {
+      "id": 16,
+      "question": "Sam has twice as many marbles as Tim. Together they have 36 marbles. How many marbles does Sam have?",
+      "answers": ["12 marbles", "18 marbles", "30 marbles", "24 marbles"],
+      "correct": 3,
+      "hint": "If Tim has $t$ marbles, Sam has $2t$. Their total: $t + 2t = 36$."
+    },
+    {
+      "id": 17,
+      "question": "A store sold 84 items, some at $5 and some at $8. If the total sales were $504, how many $5 items were sold?",
+      "answers": ["56 items", "48 items", "36 items", "28 items"],
+      "correct": 0,
+      "hint": "Let $x$ = number of $5 items. Then $(84 - x)$ = $8 items. Set up: $5x + 8(84 - x) = 504$."
+    },
+    {
+      "id": 18,
+      "question": "Jenny is 5 years younger than her brother. The sum of their ages is 29. How old is Jenny?",
+      "answers": ["17 years", "12 years", "14 years", "10 years"],
+      "correct": 1,
+      "hint": "If Jenny is $j$, her brother is $j + 5$. Together: $j + (j + 5) = 29$."
+    },
+    {
+      "id": 19,
+      "question": "A parking lot charges $3 for the first hour and $2 for each additional hour. If Maya paid $11, how many hours did she park?",
+      "answers": ["4 hours", "6 hours", "5 hours", "3 hours"],
+      "correct": 2,
+      "hint": "The first hour costs $3. After that, how many $2 hours make up the remaining amount?"
+    },
+    {
+      "id": 20,
+      "question": "David ran 3 times as far as Alex. Together they ran 12 miles. How far did David run?",
+      "answers": ["4 miles", "6 miles", "8 miles", "9 miles"],
+      "correct": 3,
+      "hint": "If Alex ran $a$ miles, David ran $3a$ miles. Their total: $a + 3a = 12$."
+    },
+    {
+      "id": 21,
+      "question": "A fruit stand sells apples in bags of 6 and oranges in bags of 4. Kim bought some bags and got 38 pieces of fruit. If she bought 5 bags of apples, how many bags of oranges?",
+      "answers": ["2 bags", "3 bags", "4 bags", "5 bags"],
+      "correct": 0,
+      "hint": "Calculate how many apples she got, subtract from total, then divide remaining by 4."
+    },
+    {
+      "id": 22,
+      "question": "A number doubled and then increased by 7 equals 31. What is the number?",
+      "answers": ["14", "12", "10", "19"],
+      "correct": 1,
+      "hint": "Set up the equation: $2n + 7 = 31$. What do you do first to isolate $n$?"
+    },
+    {
+      "id": 23,
+      "question": "In 5 years, Mark will be twice as old as he was 3 years ago. How old is Mark now?",
+      "answers": ["13 years", "8 years", "11 years", "9 years"],
+      "correct": 2,
+      "hint": "If Mark is $m$ now, then $m + 5 = 2(m - 3)$. Solve for $m$."
+    },
+    {
+      "id": 24,
+      "question": "A movie theater has 240 seats. On Saturday, 3/4 of the seats were filled. On Sunday, 2/3 of the seats were filled. How many more people came on Saturday?",
+      "answers": ["40 people", "30 people", "60 people", "20 people"],
+      "correct": 3,
+      "hint": "Calculate 3/4 of 240 and 2/3 of 240 separately, then find the difference."
+    },
+    {
+      "id": 25,
+      "question": "Anna bought 4 sandwiches and 2 drinks for $22. If each drink cost $3, how much did each sandwich cost?",
+      "answers": ["$4", "$5", "$3", "$6"],
+      "correct": 0,
+      "hint": "First find the total cost of drinks, subtract from total, then divide by number of sandwiches."
+    },
+    {
+      "id": 26,
+      "question": "A cyclist travels at 15 km/h. How far can she travel in 2 hours and 40 minutes?",
+      "answers": ["37.5 km", "40 km", "45 km", "32 km"],
+      "correct": 1,
+      "hint": "Convert 2 hours 40 minutes to hours (as a decimal or fraction), then multiply by speed."
+    },
+    {
+      "id": 27,
+      "question": "The sum of two numbers is 50. One number is 14 more than the other. What is the smaller number?",
+      "answers": ["32", "18", "25", "16"],
+      "correct": 1,
+      "hint": "If the smaller number is $x$, the larger is $x + 14$. Together: $x + (x + 14) = 50$."
+    },
+    {
+      "id": 28,
+      "question": "A shop sells notebooks for $4 and pens for $2. If Lucy spent $26 on 8 items, how many notebooks did she buy?",
+      "answers": ["6 notebooks", "4 notebooks", "5 notebooks", "3 notebooks"],
+      "correct": 2,
+      "hint": "Let $n$ = notebooks. Then pens = $8 - n$. Set up: $4n + 2(8 - n) = 26$."
+    },
+    {
+      "id": 29,
+      "question": "Ben's age is 1/3 of his grandfather's age. If his grandfather is 72, how old will Ben be in 6 years?",
+      "answers": ["24 years", "18 years", "36 years", "30 years"],
+      "correct": 3,
+      "hint": "First find Ben's current age (1/3 of 72), then add 6 years."
+    },
+    {
+      "id": 30,
+      "question": "A rectangular garden has a perimeter of 56 meters. The length is 4 meters more than the width. What is the length?",
+      "answers": ["16 meters", "12 meters", "18 meters", "14 meters"],
+      "correct": 0,
+      "hint": "If width = $w$, length = $w + 4$. Perimeter = $2w + 2(w + 4) = 56$. Find $w$, then add 4."
+    },
+    {
+      "id": 31,
+      "question": "Kate has $50. She buys 3 books at $8 each and wants to buy pens at $2 each. How many pens can she buy?",
+      "answers": ["12 pens", "13 pens", "11 pens", "14 pens"],
+      "correct": 1,
+      "hint": "First calculate how much she spends on books, then see how much is left for pens."
+    },
+    {
+      "id": 32,
+      "question": "Two buses leave a station at the same time, traveling in opposite directions. One goes 40 mph and the other 50 mph. How far apart are they after 3 hours?",
+      "answers": ["30 miles", "90 miles", "270 miles", "150 miles"],
+      "correct": 2,
+      "hint": "Since they travel in opposite directions, add their speeds, then multiply by time."
+    },
+    {
+      "id": 33,
+      "question": "A number multiplied by 4, then decreased by 10, equals 30. What is the number?",
+      "answers": ["5", "8", "12", "10"],
+      "correct": 3,
+      "hint": "Set up: $4n - 10 = 30$. Add 10 to both sides first, then divide."
+    },
+    {
+      "id": 34,
+      "question": "Mia scored 85 on her first test and 91 on her second test. What score does she need on her third test to have an average of 90?",
+      "answers": ["94", "90", "92", "96"],
+      "correct": 0,
+      "hint": "For an average of 90 over 3 tests, the total must be $90 \\times 3 = 270$. What's missing?"
+    },
+    {
+      "id": 35,
+      "question": "A phone plan costs $25 per month plus $0.10 per text message. If the monthly bill was $37, how many text messages were sent?",
+      "answers": ["62 messages", "120 messages", "370 messages", "12 messages"],
+      "correct": 1,
+      "hint": "Subtract the base cost from the bill, then divide by the cost per message."
+    },
+    {
+      "id": 36,
+      "question": "Jack and Jill have 54 trading cards together. Jack has 6 fewer cards than Jill. How many cards does Jill have?",
+      "answers": ["24 cards", "27 cards", "30 cards", "36 cards"],
+      "correct": 2,
+      "hint": "If Jack has $j$ cards, Jill has $j + 6$. Together: $j + (j + 6) = 54$. Solve for Jill's amount."
+    },
+    {
+      "id": 37,
+      "question": "A swimming pool is being filled at 20 gallons per minute. It already has 100 gallons. How many minutes until it has 400 gallons?",
+      "answers": ["20 minutes", "12 minutes", "25 minutes", "15 minutes"],
+      "correct": 3,
+      "hint": "First find how many more gallons are needed, then divide by the rate."
+    },
+    {
+      "id": 38,
+      "question": "At a fair, ride tickets cost $3 and game tickets cost $2. Pedro spent $21 on 9 tickets total. How many ride tickets did he buy?",
+      "answers": ["3 tickets", "4 tickets", "5 tickets", "6 tickets"],
+      "correct": 0,
+      "hint": "Let $r$ = ride tickets. Game tickets = $9 - r$. Set up: $3r + 2(9 - r) = 21$."
+    },
+    {
+      "id": 39,
+      "question": "Nina is 8 years older than her cousin. In 4 years, Nina will be twice her cousin's current age. How old is Nina now?",
+      "answers": ["12 years", "16 years", "14 years", "20 years"],
+      "correct": 3,
+      "hint": "Let cousin's age = $c$. Nina = $c + 8$. In 4 years: $(c + 8) + 4 = 2c$. Solve for $c$, then find Nina's age."
+    },
+    {
+      "id": 40,
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 8 cups of flour, how many cups of sugar do you need?",
+      "answers": ["10 cups", "6 cups", "12 cups", "16 cups"],
+      "correct": 2,
+      "hint": "Set up a proportion: $2/3 = 8/x$. Cross-multiply to solve for $x$."
+    }
+  ],
+  "access": [0, 1]
+}

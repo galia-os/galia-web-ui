@@ -1,0 +1,290 @@
+{
+  "theme": "Time and Calendar",
+  "themeId": "time-and-calendar",
+  "level": "medium",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What day comes 3 days after Tuesday?",
+      "answers": ["Thursday", "Friday", "Saturday", "Wednesday"],
+      "correct": 1,
+      "hint": "Count on your fingers: Tuesday, then 1, 2, 3 days forward."
+    },
+    {
+      "id": 2,
+      "question": "How many months are in one year?",
+      "answers": ["10", "14", "11", "12"],
+      "correct": 3,
+      "hint": "Think about all the months from January to December. Can you count them?"
+    },
+    {
+      "id": 3,
+      "question": "What time is it when the minute hand points to 3 and the hour hand points to 8?",
+      "answers": ["8:15", "3:40", "8:03", "3:08"],
+      "correct": 0,
+      "hint": "The minute hand on 3 means 15 minutes. Which number does the hour hand point to?"
+    },
+    {
+      "id": 4,
+      "question": "About how many weeks are in one month?",
+      "answers": ["3", "5", "4", "6"],
+      "correct": 2,
+      "hint": "Most months have around 30 days. How many groups of 7 is that?"
+    },
+    {
+      "id": 5,
+      "question": "If it is 2:00 PM now, what time will it be in 2 hours?",
+      "answers": ["4:00 PM", "4:00 AM", "12:00 PM", "3:00 PM"],
+      "correct": 0,
+      "hint": "Start at 2 and count forward 2 more hours. Does AM or PM change?"
+    },
+    {
+      "id": 6,
+      "question": "What day comes 2 days before Saturday?",
+      "answers": ["Thursday", "Friday", "Monday", "Sunday"],
+      "correct": 0,
+      "hint": "Go backwards from Saturday: one day back, then another day back."
+    },
+    {
+      "id": 7,
+      "question": "Which time shows 'quarter past 6'?",
+      "answers": ["6:30", "6:15", "6:45", "6:25"],
+      "correct": 1,
+      "hint": "Quarter past means 15 minutes after the hour."
+    },
+    {
+      "id": 8,
+      "question": "What time is 1 hour before 10:00 AM?",
+      "answers": ["9:00 AM", "11:00 AM", "10:00 PM", "9:00 PM"],
+      "correct": 0,
+      "hint": "Before means going backward in time. What number comes before 10?"
+    },
+    {
+      "id": 9,
+      "question": "How many days are in one week?",
+      "answers": ["5", "6", "8", "7"],
+      "correct": 3,
+      "hint": "Start with Sunday and count all the way to Saturday."
+    },
+    {
+      "id": 10,
+      "question": "What day is 4 days after Wednesday?",
+      "answers": ["Monday", "Saturday", "Sunday", "Friday"],
+      "correct": 2,
+      "hint": "Count forward: Wednesday + 1 = Thursday, + 2 = Friday, keep going!"
+    },
+    {
+      "id": 11,
+      "question": "Which time shows 'quarter to 5'?",
+      "answers": ["5:15", "4:45", "5:45", "4:15"],
+      "correct": 1,
+      "hint": "Quarter to means 15 minutes BEFORE the hour. What hour comes before 5?"
+    },
+    {
+      "id": 12,
+      "question": "Is 7:00 in the morning AM or PM?",
+      "answers": ["PM", "Neither", "AM", "Both"],
+      "correct": 2,
+      "hint": "AM is for morning time, before noon. PM is for afternoon and evening."
+    },
+    {
+      "id": 13,
+      "question": "What time is 3 hours after 9:00 AM?",
+      "answers": ["6:00 AM", "12:00 PM", "11:00 AM", "12:00 AM"],
+      "correct": 1,
+      "hint": "9 + 3 = ? And remember what happens at 12 o'clock during the day!"
+    },
+    {
+      "id": 14,
+      "question": "What day comes right after Friday?",
+      "answers": ["Saturday", "Thursday", "Sunday", "Monday"],
+      "correct": 0,
+      "hint": "Think about the weekend. Which day starts the weekend?"
+    },
+    {
+      "id": 15,
+      "question": "If today is Monday, what day was it 3 days ago?",
+      "answers": ["Thursday", "Saturday", "Sunday", "Friday"],
+      "correct": 3,
+      "hint": "Count backwards from Monday: Sunday, Saturday, then one more day back."
+    },
+    {
+      "id": 16,
+      "question": "What does the minute hand pointing to 6 mean?",
+      "answers": ["6 minutes", "30 minutes", "60 minutes", "16 minutes"],
+      "correct": 1,
+      "hint": "Each number on the clock is worth 5 minutes. What is 6 times 5?"
+    },
+    {
+      "id": 17,
+      "question": "Is 8:00 in the evening AM or PM?",
+      "answers": ["AM", "Neither", "PM", "Both"],
+      "correct": 2,
+      "hint": "Evening comes after noon. What do we call times after 12:00 noon?"
+    },
+    {
+      "id": 18,
+      "question": "How many hours are in one day?",
+      "answers": ["12", "48", "20", "24"],
+      "correct": 3,
+      "hint": "A clock goes around twice in one full day. How much is 12 + 12?"
+    },
+    {
+      "id": 19,
+      "question": "What day is 5 days after Sunday?",
+      "answers": ["Thursday", "Friday", "Saturday", "Wednesday"],
+      "correct": 1,
+      "hint": "Sunday + 5 days: Monday, Tuesday, Wednesday, Thursday, then one more!"
+    },
+    {
+      "id": 20,
+      "question": "What time is 2 hours before 6:00 PM?",
+      "answers": ["4:00 PM", "4:00 AM", "5:00 PM", "8:00 PM"],
+      "correct": 0,
+      "hint": "Before means earlier. What is 6 minus 2?"
+    },
+    {
+      "id": 21,
+      "question": "Which month comes right after June?",
+      "answers": ["August", "May", "July", "September"],
+      "correct": 2,
+      "hint": "Think about summer months. June comes in early summer, then..."
+    },
+    {
+      "id": 22,
+      "question": "What time shows 'half past 3'?",
+      "answers": ["3:15", "2:30", "3:45", "3:30"],
+      "correct": 3,
+      "hint": "Half past means halfway through the hour. Where is the minute hand at half?"
+    },
+    {
+      "id": 23,
+      "question": "If it is 11:00 AM, what time will it be in 2 hours?",
+      "answers": ["1:00 PM", "9:00 AM", "1:00 AM", "12:00 AM"],
+      "correct": 0,
+      "hint": "11 + 2 = 13, but clocks only go to 12. What happens after 12 during the day?"
+    },
+    {
+      "id": 24,
+      "question": "What day is 2 days after Thursday?",
+      "answers": ["Sunday", "Saturday", "Friday", "Monday"],
+      "correct": 1,
+      "hint": "Thursday + 1 = Friday. Then add one more day."
+    },
+    {
+      "id": 25,
+      "question": "Which is a time in the afternoon?",
+      "answers": ["7:00 AM", "10:00 AM", "3:00 PM", "6:00 AM"],
+      "correct": 2,
+      "hint": "Afternoon is after 12:00 noon. Which time uses PM?"
+    },
+    {
+      "id": 26,
+      "question": "What time is 'quarter to 9'?",
+      "answers": ["8:45", "9:45", "8:15", "9:15"],
+      "correct": 0,
+      "hint": "Quarter to means 15 minutes before the next hour."
+    },
+    {
+      "id": 27,
+      "question": "How many minutes are in one hour?",
+      "answers": ["30", "100", "60", "45"],
+      "correct": 2,
+      "hint": "When the minute hand goes all the way around the clock once, that's one hour."
+    },
+    {
+      "id": 28,
+      "question": "If today is Saturday, what day will it be in 1 week?",
+      "answers": ["Sunday", "Friday", "Monday", "Saturday"],
+      "correct": 3,
+      "hint": "One week is 7 days. After 7 days, you return to the same day!"
+    },
+    {
+      "id": 29,
+      "question": "What time is 1 hour after 7:30 PM?",
+      "answers": ["7:30 AM", "8:30 PM", "6:30 PM", "9:30 PM"],
+      "correct": 1,
+      "hint": "Keep the minutes the same. Just add 1 to the hour."
+    },
+    {
+      "id": 30,
+      "question": "Which month has the fewest days?",
+      "answers": ["February", "April", "June", "September"],
+      "correct": 0,
+      "hint": "Most months have 30 or 31 days, but one special month usually has only 28."
+    },
+    {
+      "id": 31,
+      "question": "What day comes 6 days after Monday?",
+      "answers": ["Friday", "Saturday", "Thursday", "Sunday"],
+      "correct": 3,
+      "hint": "Count forward 6 days from Monday. Almost a whole week!"
+    },
+    {
+      "id": 32,
+      "question": "What time does the clock show when both hands point to 12?",
+      "answers": ["12:12", "12:00", "6:00", "12:30"],
+      "correct": 1,
+      "hint": "When the minute hand points to 12, it means zero minutes past the hour."
+    },
+    {
+      "id": 33,
+      "question": "Is 12:00 noon AM or PM?",
+      "answers": ["AM", "Neither", "Both", "PM"],
+      "correct": 3,
+      "hint": "Noon is the middle of the day when AM switches to the afternoon time."
+    },
+    {
+      "id": 34,
+      "question": "What day is 3 days before Monday?",
+      "answers": ["Thursday", "Saturday", "Wednesday", "Friday"],
+      "correct": 3,
+      "hint": "Go backward: Sunday is 1 before Monday, Saturday is 2 before, then one more."
+    },
+    {
+      "id": 35,
+      "question": "What time is 4 hours after 5:00 AM?",
+      "answers": ["1:00 AM", "1:00 PM", "9:00 AM", "10:00 AM"],
+      "correct": 2,
+      "hint": "5 + 4 = ? Is it still morning time?"
+    },
+    {
+      "id": 36,
+      "question": "Which month comes right before December?",
+      "answers": ["October", "November", "January", "September"],
+      "correct": 1,
+      "hint": "December is the last month. What month do we celebrate Thanksgiving?"
+    },
+    {
+      "id": 37,
+      "question": "What time is 'quarter past 10'?",
+      "answers": ["10:15", "9:15", "10:30", "10:45"],
+      "correct": 0,
+      "hint": "Quarter past means 15 minutes after. What is 10 o'clock plus 15 minutes?"
+    },
+    {
+      "id": 38,
+      "question": "If it is 3:00 PM, what time was it 4 hours ago?",
+      "answers": ["7:00 PM", "12:00 PM", "11:00 AM", "11:00 PM"],
+      "correct": 2,
+      "hint": "Go backward from 3:00 PM. Does the time cross over noon?"
+    },
+    {
+      "id": 39,
+      "question": "How many months have 31 days?",
+      "answers": ["5", "6", "8", "7"],
+      "correct": 3,
+      "hint": "Use the knuckle trick! January, March, May, July... keep counting the long months."
+    },
+    {
+      "id": 40,
+      "question": "What day is 1 day before Wednesday?",
+      "answers": ["Monday", "Thursday", "Tuesday", "Friday"],
+      "correct": 2,
+      "hint": "One day before means the day that comes right before Wednesday."
+    }
+  ],
+  "access": [2]
+}

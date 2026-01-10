@@ -14,10 +14,10 @@
     },
     {
       "id": 2,
-      "question": "A cylindrical water tank has radius 4 m and height 6 m. It's painted green, made of steel manufactured in Germany, and was installed by a 5-person crew in 2021. Water fills at 2 m³/min. How long to fill it? (π ≈ 3.14)",
+      "question": "A cylindrical water tank has radius 4 m and height 6 m. It's painted green, made of steel manufactured in Germany, and was installed by a 5-person crew in 2021. Water fills at $2 \\text{ m}^3$/min. How long to fill it? ($\\pi \\approx 3.14$)",
       "answers": ["48 min", "75.36 min", "150.72 min", "301.44 min"],
       "correct": 2,
-      "hint": "First calculate volume using V = πr²h, then divide by fill rate. Paint, material, and crew details are irrelevant."
+      "hint": "First calculate volume using $V = \\pi r^2 h$, then divide by fill rate. Paint, material, and crew details are irrelevant."
     },
     {
       "id": 3,
@@ -35,17 +35,17 @@
     },
     {
       "id": 5,
-      "question": "A cone has radius 6 cm and slant height 10 cm. The cone is hollow, made of plastic from recycled materials, and weighs 150 g. What's its total surface area? (π ≈ 3.14)",
-      "answers": ["376.8 cm²", "301.44 cm²", "113.04 cm²", "188.4 cm²"],
+      "question": "A cone has radius 6 cm and slant height 10 cm. The cone is hollow, made of plastic from recycled materials, and weighs 150 g. What's its total surface area? ($\\pi \\approx 3.14$)",
+      "answers": ["$376.8 \\text{ cm}^2$", "$301.44 \\text{ cm}^2$", "$113.04 \\text{ cm}^2$", "$188.4 \\text{ cm}^2$"],
       "correct": 1,
-      "hint": "Total surface area = πr² + πrl (base + lateral). Material and weight are irrelevant."
+      "hint": "Total surface area $= \\pi r^2 + \\pi r l$ (base + lateral). Material and weight are irrelevant."
     },
     {
       "id": 6,
       "question": "Compound interest: $5,000 at 8% annually for 2 years. The bank has 50 branches, was founded in 1890, and its CEO is named Johnson. What's the final amount?",
       "answers": ["$5,400", "$6,480", "$5,832", "$5,800"],
       "correct": 2,
-      "hint": "Use A = P(1+r)^n for compound interest. Bank details are irrelevant."
+      "hint": "Use $A = P(1+r)^n$ for compound interest. Bank details are irrelevant."
     },
     {
       "id": 7,
@@ -70,10 +70,10 @@
     },
     {
       "id": 10,
-      "question": "A sphere has diameter 14 cm. It's a decorative ball, hand-painted in India, sold at a craft fair for $45. What's its volume? (π ≈ 22/7)",
-      "answers": ["179.67 cm³", "718.67 cm³", "1,437.33 cm³", "2,874.67 cm³"],
+      "question": "A sphere has diameter 14 cm. It's a decorative ball, hand-painted in India, sold at a craft fair for $45. What's its volume? ($\\pi \\approx 22/7$)",
+      "answers": ["$179.67 \\text{ cm}^3$", "$718.67 \\text{ cm}^3$", "$1437.33 \\text{ cm}^3$", "$2874.67 \\text{ cm}^3$"],
       "correct": 2,
-      "hint": "Volume = (4/3)πr³. Remember radius is half the diameter. Origin and sale details are irrelevant."
+      "hint": "Volume $= \\frac{4}{3}\\pi r^3$. Remember radius is half the diameter. Origin and sale details are irrelevant."
     },
     {
       "id": 11,
@@ -91,17 +91,17 @@
     },
     {
       "id": 13,
-      "question": "A frustum of a cone has radii 6 cm and 3 cm, height 8 cm. It's used as a flower pot, made of terracotta from Mexico, and costs $25. What's its volume? (π ≈ 3.14)",
-      "answers": ["263.76 cm³", "527.52 cm³", "703.36 cm³", "351.68 cm³"],
+      "question": "A frustum of a cone has radii 6 cm and 3 cm, height 8 cm. It's used as a flower pot, made of terracotta from Mexico, and costs $25. What's its volume? ($\\pi \\approx 3.14$)",
+      "answers": ["$263.76 \\text{ cm}^3$", "$527.52 \\text{ cm}^3$", "$703.36 \\text{ cm}^3$", "$351.68 \\text{ cm}^3$"],
       "correct": 1,
-      "hint": "Use frustum volume formula: V = (πh/3)(R² + Rr + r²). Use and origin are irrelevant."
+      "hint": "Use frustum volume formula: $V = \\frac{\\pi h}{3}(R^2 + Rr + r^2)$. Use and origin are irrelevant."
     },
     {
       "id": 14,
       "question": "A ladder 10 m long leans against a wall, foot 6 m from wall. The ladder is aluminum, weighs 15 kg, and was bought from Home Depot. How high does it reach?",
       "answers": ["4 m", "8 m", "16 m", "12 m"],
       "correct": 1,
-      "hint": "Use Pythagorean theorem: a² + b² = c². Find the missing leg. Material, weight, and store are irrelevant."
+      "hint": "Use Pythagorean theorem: $a^2 + b^2 = c^2$. Find the missing leg. Material, weight, and store are irrelevant."
     },
     {
       "id": 15,
@@ -119,10 +119,10 @@
     },
     {
       "id": 17,
-      "question": "A hemispherical dome has radius 14 m. It's made of glass, designed by a famous architect, built in 2015 for $2 million. What's its curved surface area? (π ≈ 22/7)",
-      "answers": ["1,232 m²", "308 m²", "2,464 m²", "616 m²"],
+      "question": "A hemispherical dome has radius 14 m. It's made of glass, designed by a famous architect, built in 2015 for $2 million. What's its curved surface area? ($\\pi \\approx 22/7$)",
+      "answers": ["$1232 \\text{ m}^2$", "$308 \\text{ m}^2$", "$2464 \\text{ m}^2$", "$616 \\text{ m}^2$"],
       "correct": 0,
-      "hint": "Curved surface area of hemisphere = 2πr². All other details are irrelevant."
+      "hint": "Curved surface area of hemisphere $= 2\\pi r^2$. All other details are irrelevant."
     },
     {
       "id": 18,
@@ -141,9 +141,9 @@
     {
       "id": 20,
       "question": "A trapezoid has parallel sides 14 cm and 10 cm, height 8 cm. It's drawn on recycled paper using a ruler made in Japan. The paper costs $5 per pack. What's the area?",
-      "answers": ["96 cm²", "80 cm²", "112 cm²", "192 cm²"],
+      "answers": ["$96 \\text{ cm}^2$", "$80 \\text{ cm}^2$", "$112 \\text{ cm}^2$", "$192 \\text{ cm}^2$"],
       "correct": 0,
-      "hint": "Area of trapezoid = ½(a+b)h. Paper, ruler origin, and price are irrelevant."
+      "hint": "Area of trapezoid $= \\frac{1}{2}(a+b)h$. Paper, ruler origin, and price are irrelevant."
     },
     {
       "id": 21,
@@ -161,10 +161,10 @@
     },
     {
       "id": 23,
-      "question": "A regular hexagon has side 8 cm. It's engraved on a silver pendant, designed by a local artist, and weighs 50 grams. What's its area? (Use: Area = (3√3/2)s²)",
-      "answers": ["166.28 cm²", "332.56 cm²", "83.14 cm²", "96 cm²"],
+      "question": "A regular hexagon has side 8 cm. It's engraved on a silver pendant, designed by a local artist, and weighs 50 grams. What's its area? (Use: Area $= \\frac{3\\sqrt{3}}{2}s^2$)",
+      "answers": ["$166.28 \\text{ cm}^2$", "$332.56 \\text{ cm}^2$", "$83.14 \\text{ cm}^2$", "$96 \\text{ cm}^2$"],
       "correct": 0,
-      "hint": "Use the formula given with s = 8. Remember √3 ≈ 1.732. Material, artist, and weight are irrelevant."
+      "hint": "Use the formula given with $s = 8$. Remember $\\sqrt{3} \\approx 1.732$. Material, artist, and weight are irrelevant."
     },
     {
       "id": 24,
@@ -185,7 +185,7 @@
       "question": "A conical tent has base radius 7 m and height 24 m. It's made of waterproof canvas from Canada, can shelter 15 people, and costs $3,000. What's the slant height?",
       "answers": ["31 m", "49 m", "17 m", "25 m"],
       "correct": 3,
-      "hint": "Use Pythagorean theorem: slant² = radius² + height². Material, capacity, and cost are irrelevant."
+      "hint": "Use Pythagorean theorem: $l^2 = r^2 + h^2$. Material, capacity, and cost are irrelevant."
     },
     {
       "id": 27,
@@ -196,10 +196,10 @@
     },
     {
       "id": 28,
-      "question": "At 15% per annum compound interest, in how many years will $8,000 become $10,580? (1.15² ≈ 1.32). The account is with Global Bank, requires $500 minimum, and has online access.",
+      "question": "At 15% per annum compound interest, in how many years will $8,000 become $10,580? ($1.15^2 \\approx 1.32$). The account is with Global Bank, requires $500 minimum, and has online access.",
       "answers": ["3 years", "1.5 years", "2 years", "4 years"],
       "correct": 2,
-      "hint": "Find what power of 1.15 equals 10580/8000. Use the given approximation. Bank details are irrelevant."
+      "hint": "Find what power of 1.15 equals $\\frac{10580}{8000}$. Use the given approximation. Bank details are irrelevant."
     },
     {
       "id": 29,
@@ -210,8 +210,8 @@
     },
     {
       "id": 30,
-      "question": "A rectangular field is 120 m × 80 m. A path 5 m wide runs inside along the edges. Grass seed costs $2/m² and the field is used for soccer. Area of path?",
-      "answers": ["950 m²", "1,900 m²", "9,600 m²", "7,700 m²"],
+      "question": "A rectangular field is 120 m × 80 m. A path 5 m wide runs inside along the edges. Grass seed costs $2/$\\text{m}^2$ and the field is used for soccer. Area of path?",
+      "answers": ["$950 \\text{ m}^2$", "$1900 \\text{ m}^2$", "$9600 \\text{ m}^2$", "$7700 \\text{ m}^2$"],
       "correct": 1,
       "hint": "Path area = outer area - inner area. Inner dimensions are reduced by path width on each side. Seed cost and use are irrelevant."
     },
@@ -225,9 +225,9 @@
     {
       "id": 32,
       "question": "A pyramid has square base 10 cm and height 12 cm. It's a museum replica, made of bronze, and weighs 2 kg. What's its volume?",
-      "answers": ["1,200 cm³", "200 cm³", "400 cm³", "600 cm³"],
+      "answers": ["$1200 \\text{ cm}^3$", "$200 \\text{ cm}^3$", "$400 \\text{ cm}^3$", "$600 \\text{ cm}^3$"],
       "correct": 2,
-      "hint": "Volume of pyramid = (1/3) × base area × height. Purpose, material, and weight are irrelevant."
+      "hint": "Volume of pyramid $= \\frac{1}{3} \\times \\text{base area} \\times \\text{height}$. Purpose, material, and weight are irrelevant."
     },
     {
       "id": 33,
@@ -267,14 +267,14 @@
       "question": "In a GP: 2, 6, 18, 54... The sequence is used in a coding challenge at a tech company in Silicon Valley. What's the 7th term?",
       "answers": ["486", "4,374", "1,458", "162"],
       "correct": 2,
-      "hint": "Find the common ratio, then use a_n = a₁ × r^(n-1). Context is irrelevant."
+      "hint": "Find the common ratio, then use $a_n = a_1 \\times r^{(n-1)}$. Context is irrelevant."
     },
     {
       "id": 38,
-      "question": "A cylindrical log radius 7 cm, length 100 cm. It's oak wood from Oregon, costs $15, and will be carved by an artisan. Curved surface area? (π ≈ 22/7)",
-      "answers": ["2,200 cm²", "4,400 cm²", "8,800 cm²", "15,400 cm²"],
+      "question": "A cylindrical log radius 7 cm, length 100 cm. It's oak wood from Oregon, costs $15, and will be carved by an artisan. Curved surface area? ($\\pi \\approx 22/7$)",
+      "answers": ["$2200 \\text{ cm}^2$", "$4400 \\text{ cm}^2$", "$8800 \\text{ cm}^2$", "$15400 \\text{ cm}^2$"],
       "correct": 1,
-      "hint": "Curved surface area of cylinder = 2πrh. Wood type, origin, and cost are irrelevant."
+      "hint": "Curved surface area of cylinder $= 2\\pi rh$. Wood type, origin, and cost are irrelevant."
     },
     {
       "id": 39,

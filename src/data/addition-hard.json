@@ -7,7 +7,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is 28 + 15?",
+      "question": "What is $28 + 15$?",
       "answers": [
         "43",
         "42",
@@ -15,11 +15,11 @@
         "33"
       ],
       "correct": 0,
-      "hint": "8 + 5 = 13. Write the 3, carry the 1. Now add the tens with the carried 1."
+      "hint": "$8 + 5 = 13$. Write the 3, carry the 1. Now add the tens with the carried 1."
     },
     {
       "id": 2,
-      "question": "What is 37 + 26?",
+      "question": "What is $37 + 26$?",
       "answers": [
         "62",
         "53",
@@ -27,11 +27,11 @@
         "64"
       ],
       "correct": 2,
-      "hint": "7 + 6 = 13. Don't forget to carry the 1 to the tens!"
+      "hint": "$7 + 6 = 13$. Don't forget to carry the 1 to the tens!"
     },
     {
       "id": 3,
-      "question": "What is 45 + 38?",
+      "question": "What is $45 + 38$?",
       "answers": [
         "73",
         "83",
@@ -39,11 +39,11 @@
         "84"
       ],
       "correct": 1,
-      "hint": "5 + 8 = 13. Carry the 1, then add 4 + 3 + 1."
+      "hint": "$5 + 8 = 13$. Carry the 1, then add $4 + 3 + 1$."
     },
     {
       "id": 4,
-      "question": "What is 19 + 24?",
+      "question": "What is $19 + 24$?",
       "answers": [
         "42",
         "44",
@@ -51,11 +51,11 @@
         "43"
       ],
       "correct": 3,
-      "hint": "9 + 4 = 13. Remember to carry!"
+      "hint": "$9 + 4 = 13$. Remember to carry!"
     },
     {
       "id": 5,
-      "question": "What is 56 + 27?",
+      "question": "What is $56 + 27$?",
       "answers": [
         "73",
         "84",
@@ -63,11 +63,11 @@
         "82"
       ],
       "correct": 2,
-      "hint": "6 + 7 = 13. Carry the 1 to the tens column."
+      "hint": "$6 + 7 = 13$. Carry the 1 to the tens column."
     },
     {
       "id": 6,
-      "question": "What is 34 + 48?",
+      "question": "What is $34 + 48$?",
       "answers": [
         "82",
         "72",
@@ -75,11 +75,11 @@
         "83"
       ],
       "correct": 0,
-      "hint": "4 + 8 = 12. Carry the 1, then add 3 + 4 + 1."
+      "hint": "$4 + 8 = 12$. Carry the 1, then add $3 + 4 + 1$."
     },
     {
       "id": 7,
-      "question": "What is 29 + 35?",
+      "question": "What is $29 + 35$?",
       "answers": [
         "63",
         "65",
@@ -87,11 +87,11 @@
         "54"
       ],
       "correct": 2,
-      "hint": "9 + 5 = 14. Write the 4, carry the 1."
+      "hint": "$9 + 5 = 14$. Write the 4, carry the 1."
     },
     {
       "id": 8,
-      "question": "What is 47 + 36?",
+      "question": "What is $47 + 36$?",
       "answers": [
         "73",
         "84",
@@ -99,11 +99,11 @@
         "83"
       ],
       "correct": 3,
-      "hint": "7 + 6 = 13. Don't forget that carried 1!"
+      "hint": "$7 + 6 = 13$. Don't forget that carried 1!"
     },
     {
       "id": 9,
-      "question": "What is 18 + 45?",
+      "question": "What is $18 + 45$?",
       "answers": [
         "63",
         "53",
@@ -111,11 +111,11 @@
         "62"
       ],
       "correct": 0,
-      "hint": "8 + 5 = 13. Carry the 1 to add with the tens."
+      "hint": "$8 + 5 = 13$. Carry the 1 to add with the tens."
     },
     {
       "id": 10,
-      "question": "What is 53 + 29?",
+      "question": "What is $53 + 29$?",
       "answers": [
         "83",
         "72",
@@ -123,11 +123,11 @@
         "81"
       ],
       "correct": 2,
-      "hint": "3 + 9 = 12. Remember to carry!"
+      "hint": "$3 + 9 = 12$. Remember to carry!"
     },
     {
       "id": 11,
-      "question": "What is 36 + 47?",
+      "question": "What is $36 + 47$?",
       "answers": [
         "73",
         "84",
@@ -135,11 +135,11 @@
         "82"
       ],
       "correct": 2,
-      "hint": "6 + 7 = 13. What's 3 + 4 + 1?"
+      "hint": "$6 + 7 = 13$. What's $3 + 4 + 1$?"
     },
     {
       "id": 12,
-      "question": "What is 25 + 58?",
+      "question": "What is $25 + 58$?",
       "answers": [
         "73",
         "83",
@@ -147,11 +147,11 @@
         "82"
       ],
       "correct": 1,
-      "hint": "5 + 8 = 13. Carry the 1!"
+      "hint": "$5 + 8 = 13$. Carry the 1!"
     },
     {
       "id": 13,
-      "question": "What is 44 + 39?",
+      "question": "What is $44 + 39$?",
       "answers": [
         "73",
         "84",
@@ -159,11 +159,11 @@
         "82"
       ],
       "correct": 2,
-      "hint": "4 + 9 = 13. Add the carried 1 to the tens."
+      "hint": "$4 + 9 = 13$. Add the carried 1 to the tens."
     },
     {
       "id": 14,
-      "question": "What is 67 + 18?",
+      "question": "What is $67 + 18$?",
       "answers": [
         "75",
         "86",
@@ -171,11 +171,11 @@
         "84"
       ],
       "correct": 2,
-      "hint": "7 + 8 = 15. Write the 5, carry the 1."
+      "hint": "$7 + 8 = 15$. Write the 5, carry the 1."
     },
     {
       "id": 15,
-      "question": "What is 38 + 46?",
+      "question": "What is $38 + 46$?",
       "answers": [
         "84",
         "74",
@@ -183,11 +183,11 @@
         "85"
       ],
       "correct": 0,
-      "hint": "8 + 6 = 14. Don't forget to carry!"
+      "hint": "$8 + 6 = 14$. Don't forget to carry!"
     },
     {
       "id": 16,
-      "question": "What is 49 + 33?",
+      "question": "What is $49 + 33$?",
       "answers": [
         "72",
         "83",
@@ -195,11 +195,11 @@
         "81"
       ],
       "correct": 2,
-      "hint": "9 + 3 = 12. Carry the 1 to the tens."
+      "hint": "$9 + 3 = 12$. Carry the 1 to the tens."
     },
     {
       "id": 17,
-      "question": "What is 57 + 28?",
+      "question": "What is $57 + 28$?",
       "answers": [
         "75",
         "86",
@@ -207,11 +207,11 @@
         "84"
       ],
       "correct": 2,
-      "hint": "7 + 8 = 15. What's 5 + 2 + 1?"
+      "hint": "$7 + 8 = 15$. What's $5 + 2 + 1$?"
     },
     {
       "id": 18,
-      "question": "What is 26 + 55?",
+      "question": "What is $26 + 55$?",
       "answers": [
         "71",
         "82",
@@ -219,11 +219,11 @@
         "80"
       ],
       "correct": 2,
-      "hint": "6 + 5 = 11. Carry the 1!"
+      "hint": "$6 + 5 = 11$. Carry the 1!"
     },
     {
       "id": 19,
-      "question": "What is 39 + 44?",
+      "question": "What is $39 + 44$?",
       "answers": [
         "73",
         "84",
@@ -231,11 +231,11 @@
         "82"
       ],
       "correct": 2,
-      "hint": "9 + 4 = 13. Remember the carried 1."
+      "hint": "$9 + 4 = 13$. Remember the carried 1."
     },
     {
       "id": 20,
-      "question": "What is 48 + 35?",
+      "question": "What is $48 + 35$?",
       "answers": [
         "83",
         "73",
@@ -243,11 +243,11 @@
         "82"
       ],
       "correct": 0,
-      "hint": "8 + 5 = 13. What's 4 + 3 + 1?"
+      "hint": "$8 + 5 = 13$. What's $4 + 3 + 1$?"
     },
     {
       "id": 21,
-      "question": "What is 54 + 28?",
+      "question": "What is $54 + 28$?",
       "answers": [
         "72",
         "83",
@@ -255,11 +255,11 @@
         "81"
       ],
       "correct": 2,
-      "hint": "4 + 8 = 12. Carry the 1 to the tens."
+      "hint": "$4 + 8 = 12$. Carry the 1 to the tens."
     },
     {
       "id": 22,
-      "question": "What is 17 + 56?",
+      "question": "What is $17 + 56$?",
       "answers": [
         "73",
         "63",
@@ -267,11 +267,11 @@
         "74"
       ],
       "correct": 0,
-      "hint": "7 + 6 = 13. Don't forget to carry!"
+      "hint": "$7 + 6 = 13$. Don't forget to carry!"
     },
     {
       "id": 23,
-      "question": "What is 65 + 27?",
+      "question": "What is $65 + 27$?",
       "answers": [
         "82",
         "93",
@@ -279,11 +279,11 @@
         "91"
       ],
       "correct": 2,
-      "hint": "5 + 7 = 12. Carry the 1."
+      "hint": "$5 + 7 = 12$. Carry the 1."
     },
     {
       "id": 24,
-      "question": "What is 33 + 49?",
+      "question": "What is $33 + 49$?",
       "answers": [
         "72",
         "83",
@@ -291,11 +291,11 @@
         "81"
       ],
       "correct": 2,
-      "hint": "3 + 9 = 12. Add the carried 1 to the tens."
+      "hint": "$3 + 9 = 12$. Add the carried 1 to the tens."
     },
     {
       "id": 25,
-      "question": "What is 58 + 24?",
+      "question": "What is $58 + 24$?",
       "answers": [
         "72",
         "83",
@@ -303,11 +303,11 @@
         "81"
       ],
       "correct": 2,
-      "hint": "8 + 4 = 12. What's 5 + 2 + 1?"
+      "hint": "$8 + 4 = 12$. What's $5 + 2 + 1$?"
     },
     {
       "id": 26,
-      "question": "What is 46 + 37?",
+      "question": "What is $46 + 37$?",
       "answers": [
         "83",
         "73",
@@ -315,11 +315,11 @@
         "82"
       ],
       "correct": 0,
-      "hint": "6 + 7 = 13. Remember to carry the 1!"
+      "hint": "$6 + 7 = 13$. Remember to carry the 1!"
     },
     {
       "id": 27,
-      "question": "What is 27 + 55?",
+      "question": "What is $27 + 55$?",
       "answers": [
         "72",
         "83",
@@ -327,11 +327,11 @@
         "81"
       ],
       "correct": 2,
-      "hint": "7 + 5 = 12. Carry the 1."
+      "hint": "$7 + 5 = 12$. Carry the 1."
     },
     {
       "id": 28,
-      "question": "What is 68 + 25?",
+      "question": "What is $68 + 25$?",
       "answers": [
         "83",
         "94",
@@ -339,11 +339,11 @@
         "92"
       ],
       "correct": 2,
-      "hint": "8 + 5 = 13. Add that carried 1!"
+      "hint": "$8 + 5 = 13$. Add that carried 1!"
     },
     {
       "id": 29,
-      "question": "What is 35 + 47?",
+      "question": "What is $35 + 47$?",
       "answers": [
         "72",
         "83",
@@ -351,11 +351,11 @@
         "81"
       ],
       "correct": 2,
-      "hint": "5 + 7 = 12. What's 3 + 4 + 1?"
+      "hint": "$5 + 7 = 12$. What's $3 + 4 + 1$?"
     },
     {
       "id": 30,
-      "question": "What is 59 + 23?",
+      "question": "What is $59 + 23$?",
       "answers": [
         "82",
         "72",
@@ -363,11 +363,11 @@
         "81"
       ],
       "correct": 0,
-      "hint": "9 + 3 = 12. Carry the 1 to the tens."
+      "hint": "$9 + 3 = 12$. Carry the 1 to the tens."
     },
     {
       "id": 31,
-      "question": "What is 43 + 38?",
+      "question": "What is $43 + 38$?",
       "answers": [
         "71",
         "82",
@@ -375,11 +375,11 @@
         "80"
       ],
       "correct": 2,
-      "hint": "3 + 8 = 11. Don't forget to carry!"
+      "hint": "$3 + 8 = 11$. Don't forget to carry!"
     },
     {
       "id": 32,
-      "question": "What is 76 + 18?",
+      "question": "What is $76 + 18$?",
       "answers": [
         "84",
         "95",
@@ -387,11 +387,11 @@
         "93"
       ],
       "correct": 2,
-      "hint": "6 + 8 = 14. Carry the 1 to the tens."
+      "hint": "$6 + 8 = 14$. Carry the 1 to the tens."
     },
     {
       "id": 33,
-      "question": "What is 24 + 68?",
+      "question": "What is $24 + 68$?",
       "answers": [
         "82",
         "93",
@@ -399,11 +399,11 @@
         "91"
       ],
       "correct": 2,
-      "hint": "4 + 8 = 12. What's 2 + 6 + 1?"
+      "hint": "$4 + 8 = 12$. What's $2 + 6 + 1$?"
     },
     {
       "id": 34,
-      "question": "What is 55 + 36?",
+      "question": "What is $55 + 36$?",
       "answers": [
         "81",
         "92",
@@ -411,11 +411,11 @@
         "90"
       ],
       "correct": 2,
-      "hint": "5 + 6 = 11. Remember the carried 1!"
+      "hint": "$5 + 6 = 11$. Remember the carried 1!"
     },
     {
       "id": 35,
-      "question": "What is 69 + 14?",
+      "question": "What is $69 + 14$?",
       "answers": [
         "73",
         "84",
@@ -423,11 +423,11 @@
         "82"
       ],
       "correct": 2,
-      "hint": "9 + 4 = 13. Add the carried 1."
+      "hint": "$9 + 4 = 13$. Add the carried 1."
     },
     {
       "id": 36,
-      "question": "What is 37 + 45?",
+      "question": "What is $37 + 45$?",
       "answers": [
         "82",
         "72",
@@ -435,11 +435,11 @@
         "81"
       ],
       "correct": 0,
-      "hint": "7 + 5 = 12. Carry the 1!"
+      "hint": "$7 + 5 = 12$. Carry the 1!"
     },
     {
       "id": 37,
-      "question": "What is 48 + 44?",
+      "question": "What is $48 + 44$?",
       "answers": [
         "82",
         "93",
@@ -447,11 +447,11 @@
         "91"
       ],
       "correct": 2,
-      "hint": "8 + 4 = 12. What's 4 + 4 + 1?"
+      "hint": "$8 + 4 = 12$. What's $4 + 4 + 1$?"
     },
     {
       "id": 38,
-      "question": "What is 63 + 29?",
+      "question": "What is $63 + 29$?",
       "answers": [
         "82",
         "93",
@@ -459,11 +459,11 @@
         "91"
       ],
       "correct": 2,
-      "hint": "3 + 9 = 12. Don't forget the carried 1!"
+      "hint": "$3 + 9 = 12$. Don't forget the carried 1!"
     },
     {
       "id": 39,
-      "question": "What is 56 + 35?",
+      "question": "What is $56 + 35$?",
       "answers": [
         "81",
         "92",
@@ -471,11 +471,11 @@
         "90"
       ],
       "correct": 2,
-      "hint": "6 + 5 = 11. Carry the 1."
+      "hint": "$6 + 5 = 11$. Carry the 1."
     },
     {
       "id": 40,
-      "question": "What is 78 + 16?",
+      "question": "What is $78 + 16$?",
       "answers": [
         "84",
         "95",
@@ -483,7 +483,7 @@
         "93"
       ],
       "correct": 2,
-      "hint": "8 + 6 = 14. What's 7 + 1 + 1?"
+      "hint": "$8 + 6 = 14$. What's $7 + 1 + 1$?"
     }
   ],
   "access": [

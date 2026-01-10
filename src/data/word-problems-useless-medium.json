@@ -15,7 +15,7 @@
     {
       "id": 2,
       "question": "A rectangular garden is 12 m by 8 m. The soil is clay-based and the fence is wooden. The owner is 45 years old. What's the garden's area?",
-      "answers": ["192 m²", "96 m²", "20 m²", "40 m²"],
+      "answers": ["$192 \\text{ m}^2$", "$96 \\text{ m}^2$", "$20 \\text{ m}^2$", "$40 \\text{ m}^2$"],
       "correct": 1,
       "hint": "Area of rectangle = length × width. Soil, fence type, and owner's age are irrelevant."
     },
@@ -120,7 +120,7 @@
     {
       "id": 17,
       "question": "A pool is 25 m long, 10 m wide, and 2 m deep. The tiles are blue and the water is chlorinated. The pool was built in 2018. What's the volume?",
-      "answers": ["500 m³", "250 m³", "50 m³", "37 m³"],
+      "answers": ["$500 \\text{ m}^3$", "$250 \\text{ m}^3$", "$50 \\text{ m}^3$", "$37 \\text{ m}^3$"],
       "correct": 0,
       "hint": "Volume of rectangular prism = length × width × depth. Tile color, water treatment, and year are irrelevant."
     },
@@ -187,10 +187,10 @@
     },
     {
       "id": 26,
-      "question": "A circular pond has radius 7 m. It contains goldfish and koi, and has a wooden deck around it. The pond is 2 m deep. What's its circumference? (π ≈ 3.14)",
+      "question": "A circular pond has radius 7 m. It contains goldfish and koi, and has a wooden deck around it. The pond is 2 m deep. What's its circumference? ($\\pi \\approx 3.14$)",
       "answers": ["14 m", "153.86 m", "21.98 m", "43.96 m"],
       "correct": 3,
-      "hint": "Circumference = 2πr. Fish, deck, and depth are irrelevant."
+      "hint": "Circumference $= 2\\pi r$. Fish, deck, and depth are irrelevant."
     },
     {
       "id": 27,
@@ -208,10 +208,10 @@
     },
     {
       "id": 29,
-      "question": "A cylindrical tank has radius 3 m and height 5 m. It's made of steel and holds water for firefighting. What's its volume? (π ≈ 3.14)",
-      "answers": ["47.1 m³", "15 m³", "94.2 m³", "141.3 m³"],
+      "question": "A cylindrical tank has radius 3 m and height 5 m. It's made of steel and holds water for firefighting. What's its volume? ($\\pi \\approx 3.14$)",
+      "answers": ["$47.1 \\text{ m}^3$", "$15 \\text{ m}^3$", "$94.2 \\text{ m}^3$", "$141.3 \\text{ m}^3$"],
       "correct": 3,
-      "hint": "Volume of cylinder = πr²h. Material and purpose are irrelevant."
+      "hint": "Volume of cylinder $= \\pi r^2 h$. Material and purpose are irrelevant."
     },
     {
       "id": 30,

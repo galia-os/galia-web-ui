@@ -1,0 +1,290 @@
+{
+  "theme": "Word Problems (Equation Setup)",
+  "themeId": "word-problems",
+  "level": "hard",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Maria has 3 times as many stickers as Jake. Together they have 84 stickers. How many stickers does Maria have?",
+      "answers": ["63", "28", "21", "56"],
+      "correct": 0,
+      "hint": "Let Jake's stickers be $x$. Then Maria has $3x$. What equation can you write using their total?"
+    },
+    {
+      "id": 2,
+      "question": "A father is 4 times as old as his daughter. In 20 years, he will be only twice as old as her. How old is the daughter now?",
+      "answers": ["5 years", "10 years", "20 years", "15 years"],
+      "correct": 1,
+      "hint": "Set up two equations: one for now ($f = 4d$) and one for 20 years later. When will 'twice as old' work?"
+    },
+    {
+      "id": 3,
+      "question": "Three consecutive even numbers add up to 138. What is the largest of these numbers?",
+      "answers": ["44", "46", "50", "48"],
+      "correct": 3,
+      "hint": "If the first even number is $n$, the next two are $n+2$ and $n+4$. What equation equals 138?"
+    },
+    {
+      "id": 4,
+      "question": "Tom bought 5 notebooks and 3 pens for $26. Each notebook costs $2 more than each pen. How much does one notebook cost?",
+      "answers": ["$5", "$4", "$3", "$2"],
+      "correct": 1,
+      "hint": "Let pen price be $p$. Then notebook is $p+2$. Set up: $5(p+2) + 3p = 26$. What is $p$?"
+    },
+    {
+      "id": 5,
+      "question": "A rectangle's length is 5 cm more than twice its width. If the perimeter is 64 cm, what is the width?",
+      "answers": ["11 cm", "13 cm", "23 cm", "9 cm"],
+      "correct": 3,
+      "hint": "Let width = $w$, then length = $2w+5$. Remember perimeter = $2(\\text{length} + \\text{width})$. Set up that equation."
+    },
+    {
+      "id": 6,
+      "question": "Sarah is 8 years older than her brother. Four years ago, she was twice as old as he was. How old is Sarah now?",
+      "answers": ["20 years", "14 years", "16 years", "12 years"],
+      "correct": 0,
+      "hint": "Let brother's current age be $b$. Sarah is $b+8$. Four years ago they were $b-4$ and $b+4$. When was one double the other?"
+    },
+    {
+      "id": 7,
+      "question": "Worker A can paint a room in 6 hours. Worker B can paint it in 4 hours. If they work together for 1 hour, what fraction of the room is left unpainted?",
+      "answers": ["$5/12$", "$7/12$", "$1/2$", "$1/3$"],
+      "correct": 1,
+      "hint": "A does $1/6$ per hour, B does $1/4$ per hour. Add their rates for one hour. What's left from 1 whole?"
+    },
+    {
+      "id": 8,
+      "question": "The sum of two numbers is 45. The larger number is 9 more than twice the smaller. What is the smaller number?",
+      "answers": ["9", "12", "15", "18"],
+      "correct": 1,
+      "hint": "Let smaller = $s$. Larger = $2s+9$. Their sum is 45. Solve for $s$."
+    },
+    {
+      "id": 9,
+      "question": "Mike had $50. He bought 3 books at the same price and had $11 left. How much did each book cost?",
+      "answers": ["$11", "$15", "$17", "$13"],
+      "correct": 3,
+      "hint": "First find how much he spent total, then divide by the number of books."
+    },
+    {
+      "id": 10,
+      "question": "A number increased by 15% gives 92. What is the original number?",
+      "answers": ["78.2", "82", "80", "85"],
+      "correct": 2,
+      "hint": "If original is $n$, then $n + 0.15n = 92$, which means $1.15n = 92$. Solve for $n$."
+    },
+    {
+      "id": 11,
+      "question": "Three friends split a dinner bill. Amy paid twice what Ben paid, and Ben paid $5 more than Carlos. If the total bill was $55, how much did Ben pay?",
+      "answers": ["$12", "$18", "$24", "$15"],
+      "correct": 3,
+      "hint": "Let Carlos pay $c$. Then Ben pays $c+5$, and Amy pays $2(c+5)$. Add them all to equal 55."
+    },
+    {
+      "id": 12,
+      "question": "A garden has length 15 m and width 8 m. If the length is decreased by 4 m and width increased by 2 m, what is the new area?",
+      "answers": ["100 sq m", "120 sq m", "110 sq m", "130 sq m"],
+      "correct": 2,
+      "hint": "First find the new dimensions: $(15-4)$ and $(8+2)$. Then multiply to get the area."
+    },
+    {
+      "id": 13,
+      "question": "In 5 years, Maya will be twice as old as she was 3 years ago. How old is Maya now?",
+      "answers": ["8 years", "11 years", "10 years", "9 years"],
+      "correct": 1,
+      "hint": "Let Maya's current age be $m$. Set up: $m+5 = 2(m-3)$. Solve for $m$."
+    },
+    {
+      "id": 14,
+      "question": "A store sells apples for $3 each and oranges for $2 each. Alex bought 12 fruits for $31. How many apples did he buy?",
+      "answers": ["5", "6", "8", "7"],
+      "correct": 3,
+      "hint": "Let apples = $a$. Then oranges = $12-a$. Set up: $3a + 2(12-a) = 31$."
+    },
+    {
+      "id": 15,
+      "question": "The perimeter of a triangle is 48 cm. Side B is twice Side A, and Side C is 6 cm longer than Side A. What is Side A?",
+      "answers": ["10.5 cm", "9 cm", "8 cm", "12 cm"],
+      "correct": 0,
+      "hint": "Let Side A = $x$. Then B = $2x$ and C = $x+6$. Add them: $x + 2x + (x+6) = 48$."
+    },
+    {
+      "id": 16,
+      "question": "A train travels 240 km. If it traveled 20 km/h faster, it would take 1 hour less. What is its current speed?",
+      "answers": ["40 km/h", "80 km/h", "100 km/h", "60 km/h"],
+      "correct": 3,
+      "hint": "Time = distance/speed. Set up: $240/v - 240/(v+20) = 1$. Try the answer choices!"
+    },
+    {
+      "id": 17,
+      "question": "Four consecutive odd numbers sum to 96. What is the smallest of these numbers?",
+      "answers": ["19", "23", "21", "25"],
+      "correct": 2,
+      "hint": "Consecutive odd numbers differ by 2. If first is $n$: $n + (n+2) + (n+4) + (n+6) = 96$."
+    },
+    {
+      "id": 18,
+      "question": "Emma has nickels (5 cents) and dimes (10 cents). She has 18 coins worth $1.35. How many dimes does she have?",
+      "answers": ["7", "11", "13", "9"],
+      "correct": 3,
+      "hint": "Let dimes = $d$. Nickels = $18-d$. Value equation: $10d + 5(18-d) = 135$ cents."
+    },
+    {
+      "id": 19,
+      "question": "A father is 30 years older than his son. In 5 years, the father's age will be 3 times the son's age. How old is the son now?",
+      "answers": ["10 years", "8 years", "12 years", "15 years"],
+      "correct": 0,
+      "hint": "Now: son = $s$, father = $s+30$. In 5 years: $s+5$ and $s+35$. When is $s+35 = 3(s+5)$?"
+    },
+    {
+      "id": 20,
+      "question": "A rectangle's area is 192 sq cm. If the length is 3 times the width, what is the perimeter?",
+      "answers": ["48 cm", "56 cm", "72 cm", "64 cm"],
+      "correct": 3,
+      "hint": "Let width = $w$, length = $3w$. Area: $w \\times 3w = 192$. Find $w$, then calculate perimeter = $2(l + w)$."
+    },
+    {
+      "id": 21,
+      "question": "Two pipes fill a tank. Pipe A fills it in 10 hours, Pipe B in 15 hours. How long for both pipes together?",
+      "answers": ["5 hours", "8 hours", "6 hours", "12.5 hours"],
+      "correct": 2,
+      "hint": "A fills $1/10$ per hour, B fills $1/15$ per hour. Add the rates. How long for 1 full tank?"
+    },
+    {
+      "id": 22,
+      "question": "The sum of the digits of a two-digit number is 12. If the digits are reversed, the new number is 36 more than the original. What is the original number?",
+      "answers": ["48", "57", "84", "39"],
+      "correct": 0,
+      "hint": "Let tens digit = $t$, units = $u$. Original = $10t + u$. Reversed = $10u + t$. Set up both equations."
+    },
+    {
+      "id": 23,
+      "question": "Lisa earns $12/hour regular and $18/hour overtime. She worked 50 hours and earned $672. How many overtime hours?",
+      "answers": ["8", "16", "12", "20"],
+      "correct": 2,
+      "hint": "Let overtime hours = $h$. Regular hours = $50-h$. Set up: $12(50-h) + 18h = 672$."
+    },
+    {
+      "id": 24,
+      "question": "A number is divided by 4, then 3 is added, then the result is multiplied by 5 to get 35. What is the original number?",
+      "answers": ["8", "12", "20", "16"],
+      "correct": 3,
+      "hint": "Work backwards! 35 divided by 5, then subtract 3, then multiply by 4."
+    },
+    {
+      "id": 25,
+      "question": "In a class, the ratio of boys to girls is 3:5. If there are 40 students total, how many more girls than boys are there?",
+      "answers": ["10", "5", "8", "15"],
+      "correct": 0,
+      "hint": "Total parts = $3+5 = 8$. Each part = $40/8$ students. How many are boys? Girls? Find the difference."
+    },
+    {
+      "id": 26,
+      "question": "A car travels from City A to City B at 60 km/h and returns at 40 km/h. If the total trip took 5 hours, what is the distance between the cities?",
+      "answers": ["100 km", "120 km", "180 km", "150 km"],
+      "correct": 1,
+      "hint": "Let distance = $d$. Time there = $d/60$, time back = $d/40$. Sum equals 5 hours."
+    },
+    {
+      "id": 27,
+      "question": "Three times a number, decreased by 8, equals twice the number, increased by 7. What is the number?",
+      "answers": ["15", "12", "18", "21"],
+      "correct": 0,
+      "hint": "Translate to equation: $3n - 8 = 2n + 7$. Solve for $n$."
+    },
+    {
+      "id": 28,
+      "question": "A jacket originally costs $80. After a 25% discount and then 10% tax on the sale price, what is the final price?",
+      "answers": ["$54", "$66", "$72", "$60"],
+      "correct": 1,
+      "hint": "First apply 25% discount to $80. Then add 10% tax to that result."
+    },
+    {
+      "id": 29,
+      "question": "The average of 5 numbers is 24. When a 6th number is added, the average becomes 25. What is the 6th number?",
+      "answers": ["30", "26", "28", "25"],
+      "correct": 0,
+      "hint": "Find total of 5 numbers ($5 \\times 24$). Find total of 6 numbers ($6 \\times 25$). The difference is the 6th number."
+    },
+    {
+      "id": 30,
+      "question": "Amy is 4 years older than Beth. In 6 years, the sum of their ages will be 46. How old is Beth now?",
+      "answers": ["17 years", "15 years", "19 years", "21 years"],
+      "correct": 1,
+      "hint": "Let Beth's age now = $b$. Amy = $b+4$. In 6 years: $(b+6) + (b+10) = 46$."
+    },
+    {
+      "id": 31,
+      "question": "A rectangular field has perimeter 56 m. The length is 4 m more than the width. What is the area?",
+      "answers": ["180 sq m", "196 sq m", "200 sq m", "192 sq m"],
+      "correct": 3,
+      "hint": "Let width = $w$, length = $w+4$. Perimeter: $2(w + w+4) = 56$. Find $w$, then calculate area."
+    },
+    {
+      "id": 32,
+      "question": "Jenny bought some pencils at $2 each and erasers at $1 each. She bought 15 items for $22. How many pencils did she buy?",
+      "answers": ["5", "6", "7", "8"],
+      "correct": 2,
+      "hint": "Let pencils = $p$, erasers = $15-p$. Set up: $2p + 1(15-p) = 22$."
+    },
+    {
+      "id": 33,
+      "question": "The product of two consecutive positive integers is 182. What is the larger integer?",
+      "answers": ["12", "15", "14", "13"],
+      "correct": 2,
+      "hint": "If smaller is $n$, larger is $n+1$. Then $n(n+1) = 182$. Try values near the square root of 182."
+    },
+    {
+      "id": 34,
+      "question": "A swimming pool is filled by pipe A in 8 hours and drained by pipe B in 12 hours. If both are open, how long to fill the empty pool?",
+      "answers": ["4 hours", "10 hours", "24 hours", "20 hours"],
+      "correct": 2,
+      "hint": "Net rate = fill rate - drain rate = $1/8 - 1/12$. Find common denominator, then time = $1/\\text{rate}$."
+    },
+    {
+      "id": 35,
+      "question": "The length of a rectangle is 8 cm more than its width. If the perimeter is 72 cm, what is the area?",
+      "answers": ["308 sq cm", "320 sq cm", "350 sq cm", "288 sq cm"],
+      "correct": 0,
+      "hint": "Let width = $w$. Length = $w+8$. Perimeter = $2(w + w+8) = 72$. Solve for $w$, then find area."
+    },
+    {
+      "id": 36,
+      "question": "Sam has $5 and $10 bills totaling $85. If he has 11 bills in all, how many $10 bills does he have?",
+      "answers": ["5", "7", "6", "8"],
+      "correct": 2,
+      "hint": "Let $x$ = number of $10 bills. Then $5 bills = $11-x$. Set up: $10x + 5(11-x) = 85$."
+    },
+    {
+      "id": 37,
+      "question": "A grandfather is 10 times as old as his grandson. In 8 years, he will be 4 times as old. How old is the grandson now?",
+      "answers": ["6 years", "4 years", "8 years", "10 years"],
+      "correct": 1,
+      "hint": "Now: $g$ = grandson, $10g$ = grandfather. In 8 years: $10g+8 = 4(g+8)$. Solve for $g$."
+    },
+    {
+      "id": 38,
+      "question": "The sum of three consecutive numbers is 84. What is the middle number?",
+      "answers": ["26", "27", "28", "29"],
+      "correct": 2,
+      "hint": "For three consecutive numbers, the middle one equals the average. What is 84 divided by 3?"
+    },
+    {
+      "id": 39,
+      "question": "A shop gives 20% discount, then an additional 10% on the discounted price. Starting at $100, what is the final price?",
+      "answers": ["$72", "$70", "$75", "$78"],
+      "correct": 0,
+      "hint": "First discount: $100 \\times 0.80$. Second discount: multiply that result by 0.90."
+    },
+    {
+      "id": 40,
+      "question": "Two numbers have a sum of 50 and a difference of 14. What is the larger number?",
+      "answers": ["28", "32", "34", "30"],
+      "correct": 1,
+      "hint": "Let numbers be $x$ and $y$. $x + y = 50$ and $x - y = 14$. Add the equations to find $2x$."
+    }
+  ],
+  "access": [0, 1]
+}

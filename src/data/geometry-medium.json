@@ -10,36 +10,36 @@
       "question": "What is the area of this composite shape?",
       "svg": "<svg width=\"220\" height=\"160\" viewBox=\"0 0 220 160\"><path d=\"M 20 140 L 20 60 L 80 60 L 80 20 L 200 20 L 200 140 Z\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"10\" y=\"105\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"45\" y=\"55\" font-size=\"12\" fill=\"#374151\">3</text><text x=\"85\" y=\"45\" font-size=\"12\" fill=\"#374151\">2</text><text x=\"135\" y=\"15\" font-size=\"12\" fill=\"#374151\">6</text><text x=\"205\" y=\"85\" font-size=\"12\" fill=\"#374151\">6</text><text x=\"110\" y=\"155\" font-size=\"12\" fill=\"#374151\">9</text></svg>",
       "answers": [
-        "36 cm²",
-        "42 cm²",
-        "48 cm²",
-        "54 cm²"
+        "$36 \\text{ cm}^2$",
+        "$42 \\text{ cm}^2$",
+        "$48 \\text{ cm}^2$",
+        "$54 \\text{ cm}^2$"
       ],
       "correct": 2,
       "hint": "Split into rectangles: big rectangle minus the cut-out corner."
     },
     {
       "id": 2,
-      "question": "What is the circumference of this circle? (Use π ≈ 3.14)",
+      "question": "What is the circumference of this circle? (Use $\\pi \\approx 3.14$)",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"70\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"160\" y2=\"90\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"120\" y=\"85\" font-size=\"14\" fill=\"#374151\">7 cm</text></svg>",
       "answers": [
-        "43.96 cm",
-        "153.86 cm",
-        "14 cm",
-        "21.98 cm"
+        "$43.96$ cm",
+        "$153.86$ cm",
+        "$14$ cm",
+        "$21.98$ cm"
       ],
       "correct": 0,
-      "hint": "Circumference = 2 × π × radius = 2 × 3.14 × 7"
+      "hint": "Circumference $= 2 \\times \\pi \\times r = 2 \\times 3.14 \\times 7$"
     },
     {
       "id": 3,
-      "question": "Find angle x.",
+      "question": "Find angle $x$.",
       "svg": "<svg width=\"200\" height=\"160\" viewBox=\"0 0 200 160\"><line x1=\"20\" y1=\"80\" x2=\"180\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"80\" x2=\"40\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"80\" x2=\"160\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 80 80 A 20 20 0 0 0 88 63\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><path d=\"M 112 63 A 20 20 0 0 0 120 80\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"70\" y=\"60\" font-size=\"14\" fill=\"#EF4444\">65°</text><text x=\"125\" y=\"60\" font-size=\"14\" fill=\"#16A34A\">x</text></svg>",
       "answers": [
-        "65°",
-        "25°",
-        "115°",
-        "90°"
+        "$65°$",
+        "$25°$",
+        "$115°$",
+        "$90°$"
       ],
       "correct": 0,
       "hint": "Vertically opposite angles are equal."
@@ -49,26 +49,26 @@
       "question": "What is the area of this parallelogram?",
       "svg": "<svg width=\"220\" height=\"140\" viewBox=\"0 0 220 140\"><polygon points=\"50,110 90,30 200,30 160,110\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"110\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"125\" y=\"25\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"95\" y=\"75\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "40 cm²",
-        "30 cm²",
-        "80 cm²",
-        "60 cm²"
+        "$40 \\text{ cm}^2$",
+        "$30 \\text{ cm}^2$",
+        "$80 \\text{ cm}^2$",
+        "$60 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Area of parallelogram = base × height"
+      "hint": "Area of parallelogram $= \\text{base} \\times \\text{height}$"
     },
     {
       "id": 5,
-      "question": "What is the area of this circle? (Use π ≈ 3.14)",
+      "question": "What is the area of this circle? (Use $\\pi \\approx 3.14$)",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"60\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"150\" y2=\"90\" stroke=\"#EC4899\" stroke-width=\"2\"/><text x=\"115\" y=\"85\" font-size=\"14\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
-        "25 cm²",
-        "31.4 cm²",
-        "15.7 cm²",
-        "78.5 cm²"
+        "$25 \\text{ cm}^2$",
+        "$31.4 \\text{ cm}^2$",
+        "$15.7 \\text{ cm}^2$",
+        "$78.5 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Area = π × r² = 3.14 × 5 × 5"
+      "hint": "Area $= \\pi \\times r^2 = 3.14 \\times 5 \\times 5$"
     },
     {
       "id": 6,
@@ -88,36 +88,36 @@
       "question": "Find the missing angle in this quadrilateral.",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"40,150 20,60 120,20 180,100\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"30\" y=\"145\" font-size=\"12\" fill=\"#374151\">85°</text><text x=\"25\" y=\"70\" font-size=\"12\" fill=\"#374151\">110°</text><text x=\"115\" y=\"35\" font-size=\"12\" fill=\"#374151\">95°</text><text x=\"160\" y=\"100\" font-size=\"12\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "70°",
-        "80°",
-        "90°",
-        "60°"
+        "$70°$",
+        "$80°$",
+        "$90°$",
+        "$60°$"
       ],
       "correct": 0,
-      "hint": "Angles in a quadrilateral add up to 360°."
+      "hint": "Angles in a quadrilateral add up to $360°$."
     },
     {
       "id": 8,
       "question": "What is the area of this trapezoid?",
       "svg": "<svg width=\"220\" height=\"140\" viewBox=\"0 0 220 140\"><polygon points=\"50,110 30,30 170,30 190,110\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"110\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"90\" y=\"25\" font-size=\"12\" fill=\"#374151\">7 cm</text><text x=\"100\" y=\"125\" font-size=\"12\" fill=\"#374151\">11 cm</text><text x=\"55\" y=\"75\" font-size=\"12\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
-        "45 cm²",
-        "55 cm²",
-        "35 cm²",
-        "90 cm²"
+        "$45 \\text{ cm}^2$",
+        "$55 \\text{ cm}^2$",
+        "$35 \\text{ cm}^2$",
+        "$90 \\text{ cm}^2$"
       ],
       "correct": 0,
-      "hint": "Area = ½ × (top + bottom) × height"
+      "hint": "Area $= \\frac{1}{2} \\times (\\text{top} + \\text{bottom}) \\times \\text{height}$"
     },
     {
       "id": 9,
-      "question": "Find angle x. Lines are parallel.",
+      "question": "Find angle $x$. Lines are parallel.",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"130\" x2=\"180\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"60\" y1=\"20\" x2=\"140\" y2=\"160\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 85 50 A 15 15 0 0 1 75 65\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><path d=\"M 115 130 A 15 15 0 0 1 125 115\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"90\" y=\"70\" font-size=\"12\" fill=\"#EF4444\">55°</text><text x=\"120\" y=\"110\" font-size=\"12\" fill=\"#16A34A\">x</text></svg>",
       "answers": [
-        "145°",
-        "35°",
-        "55°",
-        "125°"
+        "$145°$",
+        "$35°$",
+        "$55°$",
+        "$125°$"
       ],
       "correct": 2,
       "hint": "Alternate angles are equal when lines are parallel."
@@ -127,65 +127,65 @@
       "question": "What is the volume of this rectangular prism?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"30,100 30,40 100,40 100,100\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"100,40 150,20 150,80 100,100\" fill=\"#C7D2FE\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"30,40 80,20 150,20 100,40\" fill=\"#A5B4FC\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"55\" y=\"130\" font-size=\"12\" fill=\"#374151\">4 cm</text><text x=\"160\" y=\"55\" font-size=\"12\" fill=\"#374151\">3 cm</text><text x=\"55\" y=\"15\" font-size=\"12\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
-        "24 cm³",
-        "60 cm³",
-        "12 cm³",
-        "20 cm³"
+        "$24 \\text{ cm}^3$",
+        "$60 \\text{ cm}^3$",
+        "$12 \\text{ cm}^3$",
+        "$20 \\text{ cm}^3$"
       ],
       "correct": 1,
-      "hint": "Volume = length × width × height"
+      "hint": "Volume $= \\text{length} \\times \\text{width} \\times \\text{height}$"
     },
     {
       "id": 11,
       "question": "What is the area of the shaded region?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><rect x=\"20\" y=\"20\" width=\"140\" height=\"140\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><rect x=\"50\" y=\"50\" width=\"80\" height=\"80\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"90\" y=\"175\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">14 cm</text><text x=\"90\" y=\"95\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">8 cm</text></svg>",
       "answers": [
-        "64 cm²",
-        "196 cm²",
-        "112 cm²",
-        "132 cm²"
+        "$64 \\text{ cm}^2$",
+        "$196 \\text{ cm}^2$",
+        "$112 \\text{ cm}^2$",
+        "$132 \\text{ cm}^2$"
       ],
       "correct": 3,
       "hint": "Big square area minus small square area."
     },
     {
       "id": 12,
-      "question": "Find angle x.",
+      "question": "Find angle $x$.",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 30,150 170,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"95\" y=\"50\" font-size=\"14\" fill=\"#EF4444\">x</text><text x=\"50\" y=\"140\" font-size=\"14\" fill=\"#374151\">40°</text><text x=\"135\" y=\"140\" font-size=\"14\" fill=\"#374151\">40°</text></svg>",
       "answers": [
-        "120°",
-        "100°",
-        "80°",
-        "90°"
+        "$120°$",
+        "$100°$",
+        "$80°$",
+        "$90°$"
       ],
       "correct": 1,
-      "hint": "Triangle angles sum to 180°. If two angles are 40° each..."
+      "hint": "Triangle angles sum to $180°$. If two angles are $40°$ each..."
     },
     {
       "id": 13,
       "question": "What is the surface area of this cube?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 75,30 120,50 120,100 75,120 30,100\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"75\" y2=\"70\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"75\" y1=\"70\" x2=\"120\" y2=\"50\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"75\" y1=\"70\" x2=\"75\" y2=\"120\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"75\" y=\"145\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
-        "30 cm²",
-        "25 cm²",
-        "150 cm²",
-        "125 cm²"
+        "$30 \\text{ cm}^2$",
+        "$25 \\text{ cm}^2$",
+        "$150 \\text{ cm}^2$",
+        "$125 \\text{ cm}^2$"
       ],
       "correct": 2,
-      "hint": "A cube has 6 faces, each with area = side²."
+      "hint": "A cube has 6 faces, each with area $= \\text{side}^2$."
     },
     {
       "id": 14,
       "question": "What is the area of this rhombus?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,20 160,90 90,160 20,90\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"160\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><line x1=\"20\" y1=\"90\" x2=\"160\" y2=\"90\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"95\" y=\"95\" font-size=\"12\" fill=\"#374151\">8 cm</text><text x=\"55\" y=\"85\" font-size=\"12\" fill=\"#374151\">12 cm</text></svg>",
       "answers": [
-        "40 cm²",
-        "48 cm²",
-        "96 cm²",
-        "20 cm²"
+        "$40 \\text{ cm}^2$",
+        "$48 \\text{ cm}^2$",
+        "$96 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$"
       ],
       "correct": 1,
-      "hint": "Area of rhombus = (d₁ × d₂) ÷ 2, where d is diagonal."
+      "hint": "Area of rhombus $= \\frac{d_1 \\times d_2}{2}$, where $d$ is diagonal."
     },
     {
       "id": 15,
@@ -202,104 +202,104 @@
     },
     {
       "id": 16,
-      "question": "Find the exterior angle x.",
+      "question": "Find the exterior angle $x$.",
       "svg": "<svg width=\"220\" height=\"180\" viewBox=\"0 0 220 180\"><polygon points=\"60,150 60,50 160,150\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"160\" y1=\"150\" x2=\"200\" y2=\"150\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 60 70 L 75 70 L 75 50\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"1\"/><text x=\"40\" y=\"55\" font-size=\"12\" fill=\"#374151\">50°</text><text x=\"175\" y=\"145\" font-size=\"14\" fill=\"#EF4444\">x</text></svg>",
       "answers": [
-        "130°",
-        "140°",
-        "90°",
-        "50°"
+        "$130°$",
+        "$140°$",
+        "$90°$",
+        "$50°$"
       ],
       "correct": 1,
       "hint": "Exterior angle = sum of opposite interior angles."
     },
     {
       "id": 17,
-      "question": "What is the diameter of a circle with circumference 31.4 cm? (π ≈ 3.14)",
+      "question": "What is the diameter of a circle with circumference $31.4$ cm? ($\\pi \\approx 3.14$)",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"65\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"90\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">C = 31.4 cm</text></svg>",
       "answers": [
-        "20 cm",
-        "5 cm",
-        "10 cm",
-        "15 cm"
+        "$20$ cm",
+        "$5$ cm",
+        "$10$ cm",
+        "$15$ cm"
       ],
       "correct": 2,
-      "hint": "Circumference = π × diameter, so diameter = C ÷ π"
+      "hint": "Circumference $= \\pi \\times d$, so $d = C \\div \\pi$"
     },
     {
       "id": 18,
       "question": "What is the area of this composite shape?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><rect x=\"30\" y=\"60\" width=\"140\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"100,60 30,60 100,10\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"100,60 170,60 100,10\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"165\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">14 cm</text><text x=\"180\" y=\"105\" font-size=\"12\" fill=\"#374151\">8 cm</text><text x=\"110\" y=\"40\" font-size=\"12\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
-        "77 cm²",
-        "182 cm²",
-        "112 cm²",
-        "147 cm²"
+        "$77 \\text{ cm}^2$",
+        "$182 \\text{ cm}^2$",
+        "$112 \\text{ cm}^2$",
+        "$147 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Rectangle + triangle = (14×8) + (½×14×5)"
+      "hint": "Rectangle + triangle $= (14 \\times 8) + (\\frac{1}{2} \\times 14 \\times 5)$"
     },
     {
       "id": 19,
-      "question": "Angles x and y are complementary. If x = 35°, what is y?",
+      "question": "Angles $x$ and $y$ are complementary. If $x = 35°$, what is $y$?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"20\" y1=\"120\" x2=\"180\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"120\" x2=\"20\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"120\" x2=\"120\" y2=\"50\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 20 100 A 20 20 0 0 1 40 120\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><path d=\"M 40 120 A 25 25 0 0 1 45 95\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"45\" y=\"110\" font-size=\"12\" fill=\"#EF4444\">35°</text><text x=\"55\" y=\"95\" font-size=\"12\" fill=\"#16A34A\">y</text></svg>",
       "answers": [
-        "35°",
-        "145°",
-        "55°",
-        "65°"
+        "$35°$",
+        "$145°$",
+        "$55°$",
+        "$65°$"
       ],
       "correct": 2,
-      "hint": "Complementary angles add up to 90°."
+      "hint": "Complementary angles add up to $90°$."
     },
     {
       "id": 20,
-      "question": "What is the volume of this cylinder? (π ≈ 3.14)",
+      "question": "What is the volume of this cylinder? ($\\pi \\approx 3.14$)",
       "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"30\" rx=\"45\" ry=\"15\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><ellipse cx=\"75\" cy=\"150\" rx=\"45\" ry=\"15\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"30\" y1=\"30\" x2=\"30\" y2=\"150\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"120\" y1=\"30\" x2=\"120\" y2=\"150\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"75\" y1=\"30\" x2=\"120\" y2=\"30\" stroke=\"#EC4899\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"95\" y=\"25\" font-size=\"10\" fill=\"#374151\">3 cm</text><text x=\"125\" y=\"95\" font-size=\"10\" fill=\"#374151\">10 cm</text></svg>",
       "answers": [
-        "188.4 cm³",
-        "94.2 cm³",
-        "282.6 cm³",
-        "314 cm³"
+        "$188.4 \\text{ cm}^3$",
+        "$94.2 \\text{ cm}^3$",
+        "$282.6 \\text{ cm}^3$",
+        "$314 \\text{ cm}^3$"
       ],
       "correct": 2,
-      "hint": "Volume = π × r² × height"
+      "hint": "Volume $= \\pi \\times r^2 \\times h$"
     },
     {
       "id": 21,
-      "question": "Find angle x. Lines AB and CD are parallel.",
+      "question": "Find angle $x$. Lines AB and CD are parallel.",
       "svg": "<svg width=\"200\" height=\"160\" viewBox=\"0 0 200 160\"><line x1=\"20\" y1=\"40\" x2=\"180\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"120\" x2=\"180\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"40\" y1=\"10\" x2=\"160\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"10\" y=\"35\" font-size=\"12\" fill=\"#4F46E5\">A</text><text x=\"185\" y=\"35\" font-size=\"12\" fill=\"#4F46E5\">B</text><text x=\"10\" y=\"125\" font-size=\"12\" fill=\"#4F46E5\">C</text><text x=\"185\" y=\"125\" font-size=\"12\" fill=\"#4F46E5\">D</text><path d=\"M 70 40 A 15 15 0 0 0 55 55\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><path d=\"M 145 120 A 15 15 0 0 0 130 105\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"55\" y=\"60\" font-size=\"12\" fill=\"#EF4444\">70°</text><text x=\"120\" y=\"105\" font-size=\"12\" fill=\"#16A34A\">x</text></svg>",
       "answers": [
-        "180°",
-        "70°",
-        "110°",
-        "20°"
+        "$180°$",
+        "$70°$",
+        "$110°$",
+        "$20°$"
       ],
       "correct": 2,
-      "hint": "Co-interior angles (same side) add up to 180°."
+      "hint": "Co-interior angles (same side) add up to $180°$."
     },
     {
       "id": 22,
-      "question": "What is the area of this semicircle? (π ≈ 3.14)",
+      "question": "What is the area of this semicircle? ($\\pi \\approx 3.14$)",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><path d=\"M 20 100 A 80 80 0 0 1 180 100 L 20 100\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">16 cm</text></svg>",
       "answers": [
-        "50.24 cm²",
-        "200.96 cm²",
-        "100.48 cm²",
-        "401.92 cm²"
+        "$50.24 \\text{ cm}^2$",
+        "$200.96 \\text{ cm}^2$",
+        "$100.48 \\text{ cm}^2$",
+        "$401.92 \\text{ cm}^2$"
       ],
       "correct": 2,
-      "hint": "Semicircle area = (π × r²) ÷ 2. Radius = diameter ÷ 2"
+      "hint": "Semicircle area $= \\frac{\\pi \\times r^2}{2}$. Radius $= \\frac{\\text{diameter}}{2}$"
     },
     {
       "id": 23,
       "question": "What is the perimeter of this shape?",
       "svg": "<svg width=\"200\" height=\"160\" viewBox=\"0 0 200 160\"><path d=\"M 30 130 L 30 50 L 100 50 L 100 30 L 170 30 L 170 130 Z\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"15\" y=\"95\" font-size=\"11\" fill=\"#374151\">8</text><text x=\"60\" y=\"45\" font-size=\"11\" fill=\"#374151\">7</text><text x=\"85\" y=\"45\" font-size=\"11\" fill=\"#374151\">2</text><text x=\"130\" y=\"25\" font-size=\"11\" fill=\"#374151\">7</text><text x=\"175\" y=\"85\" font-size=\"11\" fill=\"#374151\">10</text><text x=\"100\" y=\"145\" font-size=\"11\" fill=\"#374151\">14</text></svg>",
       "answers": [
-        "56 cm",
-        "38 cm",
-        "42 cm",
-        "48 cm"
+        "$56$ cm",
+        "$38$ cm",
+        "$42$ cm",
+        "$48$ cm"
       ],
       "correct": 3,
       "hint": "Add all outer edges carefully."
@@ -309,75 +309,75 @@
       "question": "What is the area of this kite?",
       "svg": "<svg width=\"180\" height=\"200\" viewBox=\"0 0 180 200\"><polygon points=\"90,10 150,80 90,190 30,80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"190\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><line x1=\"30\" y1=\"80\" x2=\"150\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"55\" y=\"75\" font-size=\"12\" fill=\"#374151\">12</text><text x=\"95\" y=\"100\" font-size=\"12\" fill=\"#374151\">18</text></svg>",
       "answers": [
-        "108 cm²",
-        "216 cm²",
-        "72 cm²",
-        "30 cm²"
+        "$108 \\text{ cm}^2$",
+        "$216 \\text{ cm}^2$",
+        "$72 \\text{ cm}^2$",
+        "$30 \\text{ cm}^2$"
       ],
       "correct": 0,
-      "hint": "Area of kite = (d₁ × d₂) ÷ 2"
+      "hint": "Area of kite $= \\frac{d_1 \\times d_2}{2}$"
     },
     {
       "id": 25,
       "question": "A regular hexagon has interior angles of:",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,20 150,50 150,120 90,150 30,120 30,50\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><path d=\"M 90 40 A 20 20 0 0 1 130 50\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"105\" y=\"55\" font-size=\"14\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "90°",
-        "120°",
-        "108°",
-        "135°"
+        "$90°$",
+        "$120°$",
+        "$108°$",
+        "$135°$"
       ],
       "correct": 1,
-      "hint": "Interior angle of regular polygon = (n-2) × 180° ÷ n"
+      "hint": "Interior angle of regular polygon $= \\frac{(n-2) \\times 180°}{n}$"
     },
     {
       "id": 26,
       "question": "What is the volume of this triangular prism?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"30,140 90,60 90,140\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><polygon points=\"90,60 150,40 150,120 90,140\" fill=\"#A7F3D0\" stroke=\"#16A34A\" stroke-width=\"2\"/><polygon points=\"30,140 90,120 150,120 90,140\" fill=\"#6EE7B7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"90\" y1=\"60\" x2=\"90\" y2=\"120\" stroke=\"#16A34A\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"50\" y=\"155\" font-size=\"10\" fill=\"#374151\">6 cm</text><text x=\"70\" y=\"95\" font-size=\"10\" fill=\"#374151\">4 cm</text><text x=\"115\" y=\"75\" font-size=\"10\" fill=\"#374151\">10 cm</text></svg>",
       "answers": [
-        "24 cm³",
-        "120 cm³",
-        "60 cm³",
-        "240 cm³"
+        "$24 \\text{ cm}^3$",
+        "$120 \\text{ cm}^3$",
+        "$60 \\text{ cm}^3$",
+        "$240 \\text{ cm}^3$"
       ],
       "correct": 1,
-      "hint": "Volume = (½ × base × height of triangle) × length"
+      "hint": "Volume $= (\\frac{1}{2} \\times \\text{base} \\times \\text{height of triangle}) \\times \\text{length}$"
     },
     {
       "id": 27,
-      "question": "Angles x and y are supplementary. If x = 115°, what is y?",
+      "question": "Angles $x$ and $y$ are supplementary. If $x = 115°$, what is $y$?",
       "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"100\" y1=\"50\" x2=\"50\" y2=\"10\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 80 50 A 20 20 0 0 0 90 32\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><path d=\"M 110 68 A 20 20 0 0 0 120 50\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"70\" y=\"35\" font-size=\"12\" fill=\"#EF4444\">115°</text><text x=\"125\" y=\"65\" font-size=\"12\" fill=\"#16A34A\">y</text></svg>",
       "answers": [
-        "65°",
-        "75°",
-        "245°",
-        "115°"
+        "$65°$",
+        "$75°$",
+        "$245°$",
+        "$115°$"
       ],
       "correct": 0,
-      "hint": "Supplementary angles add up to 180°."
+      "hint": "Supplementary angles add up to $180°$."
     },
     {
       "id": 28,
-      "question": "What is the area of the shaded region? (π ≈ 3.14)",
+      "question": "What is the area of the shaded region? ($\\pi \\approx 3.14$)",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><rect x=\"20\" y=\"20\" width=\"140\" height=\"140\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"90\" r=\"50\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"90\" y=\"175\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">14 cm</text></svg>",
       "answers": [
-        "39.25 cm²",
-        "78.5 cm²",
-        "117.5 cm²",
-        "196 cm²"
+        "$39.25 \\text{ cm}^2$",
+        "$78.5 \\text{ cm}^2$",
+        "$117.5 \\text{ cm}^2$",
+        "$196 \\text{ cm}^2$"
       ],
       "correct": 2,
-      "hint": "Square area minus circle area. Circle radius = 7 cm."
+      "hint": "Square area minus circle area. Circle radius $= 7$ cm."
     },
     {
       "id": 29,
-      "question": "Find the value of x.",
+      "question": "Find the value of $x$.",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"60\" y1=\"85\" x2=\"140\" y2=\"85\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"60\" y=\"80\" font-size=\"12\" fill=\"#374151\">x</text><text x=\"100\" y=\"165\" font-size=\"12\" fill=\"#374151\">12 cm</text><text x=\"90\" y=\"45\" font-size=\"10\" fill=\"#374151\">The line is parallel to the base and halfway up</text></svg>",
       "answers": [
-        "9 cm",
-        "8 cm",
-        "4 cm",
-        "6 cm"
+        "$9$ cm",
+        "$8$ cm",
+        "$4$ cm",
+        "$6$ cm"
       ],
       "correct": 3,
       "hint": "A line parallel to the base at half height is half the base length."
@@ -397,91 +397,91 @@
     },
     {
       "id": 31,
-      "question": "What is the radius of a circle with area 154 cm²? (π ≈ 22/7)",
+      "question": "What is the radius of a circle with area $154 \\text{ cm}^2$? ($\\pi \\approx \\frac{22}{7}$)",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><circle cx=\"90\" cy=\"90\" r=\"65\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"90\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">A = 154 cm²</text></svg>",
       "answers": [
-        "14 cm",
-        "49 cm",
-        "7 cm",
-        "11 cm"
+        "$14$ cm",
+        "$49$ cm",
+        "$7$ cm",
+        "$11$ cm"
       ],
       "correct": 2,
-      "hint": "Area = πr², so r² = Area ÷ π, then find r."
+      "hint": "Area $= \\pi r^2$, so $r^2 = \\frac{\\text{Area}}{\\pi}$, then find $r$."
     },
     {
       "id": 32,
       "question": "What is the sum of interior angles of a pentagon?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,20 160,65 140,150 40,150 20,65\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><text x=\"90\" y=\"100\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">?</text></svg>",
       "answers": [
-        "450°",
-        "540°",
-        "360°",
-        "720°"
+        "$450°$",
+        "$540°$",
+        "$360°$",
+        "$720°$"
       ],
       "correct": 1,
-      "hint": "Sum = (n-2) × 180° where n is number of sides."
+      "hint": "Sum $= (n-2) \\times 180°$ where $n$ is number of sides."
     },
     {
       "id": 33,
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"20,150 180,150 100,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"30\" x2=\"100\" y2=\"150\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"165\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">16 cm</text><text x=\"110\" y=\"95\" font-size=\"12\" fill=\"#374151\">9 cm</text></svg>",
       "answers": [
-        "36 cm²",
-        "72 cm²",
-        "144 cm²",
-        "25 cm²"
+        "$36 \\text{ cm}^2$",
+        "$72 \\text{ cm}^2$",
+        "$144 \\text{ cm}^2$",
+        "$25 \\text{ cm}^2$"
       ],
       "correct": 1,
-      "hint": "Area = ½ × base × height"
+      "hint": "Area $= \\frac{1}{2} \\times \\text{base} \\times \\text{height}$"
     },
     {
       "id": 34,
-      "question": "Find angle x in this isosceles triangle.",
+      "question": "Find angle $x$ in this isosceles triangle.",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 30,150 170,150\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"95\" y=\"50\" font-size=\"14\" fill=\"#374151\">40°</text><text x=\"50\" y=\"140\" font-size=\"14\" fill=\"#EF4444\">x</text><text x=\"140\" y=\"140\" font-size=\"14\" fill=\"#EF4444\">x</text><text x=\"55\" y=\"90\" font-size=\"10\" fill=\"#6B7280\">equal sides</text></svg>",
       "answers": [
-        "60°",
-        "40°",
-        "80°",
-        "70°"
+        "$60°$",
+        "$40°$",
+        "$80°$",
+        "$70°$"
       ],
       "correct": 3,
-      "hint": "Triangle angles = 180°. Two base angles are equal in isosceles."
+      "hint": "Triangle angles $= 180°$. Two base angles are equal in isosceles."
     },
     {
       "id": 35,
       "question": "What is the volume of this cube?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,55 75,35 120,55 120,105 75,125 30,105\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"30\" y1=\"55\" x2=\"75\" y2=\"75\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"75\" y1=\"75\" x2=\"120\" y2=\"55\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"75\" y1=\"75\" x2=\"75\" y2=\"125\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"75\" y=\"145\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "216 cm³",
-        "18 cm³",
-        "72 cm³",
-        "36 cm³"
+        "$216 \\text{ cm}^3$",
+        "$18 \\text{ cm}^3$",
+        "$72 \\text{ cm}^3$",
+        "$36 \\text{ cm}^3$"
       ],
       "correct": 0,
-      "hint": "Volume of cube = side³"
+      "hint": "Volume of cube $= \\text{side}^3$"
     },
     {
       "id": 36,
-      "question": "What is the area of this sector? (π ≈ 3.14)",
+      "question": "What is the area of this sector? ($\\pi \\approx 3.14$)",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><path d=\"M 90 90 L 160 90 A 70 70 0 0 1 90 160 Z\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"120\" y=\"85\" font-size=\"12\" fill=\"#374151\">7 cm</text><text x=\"115\" y=\"130\" font-size=\"14\" fill=\"#374151\">90°</text></svg>",
       "answers": [
-        "76.93 cm²",
-        "19.23 cm²",
-        "153.86 cm²",
-        "38.465 cm²"
+        "$76.93 \\text{ cm}^2$",
+        "$19.23 \\text{ cm}^2$",
+        "$153.86 \\text{ cm}^2$",
+        "$38.465 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Sector area = (angle/360) × π × r²"
+      "hint": "Sector area $= \\frac{\\text{angle}}{360} \\times \\pi \\times r^2$"
     },
     {
       "id": 37,
-      "question": "What is the perimeter of this semicircle? (π ≈ 3.14)",
+      "question": "What is the perimeter of this semicircle? ($\\pi \\approx 3.14$)",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><path d=\"M 20 100 A 80 80 0 0 1 180 100\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">10 cm</text></svg>",
       "answers": [
-        "20.7 cm",
-        "15.7 cm",
-        "31.4 cm",
-        "25.7 cm"
+        "$20.7$ cm",
+        "$15.7$ cm",
+        "$31.4$ cm",
+        "$25.7$ cm"
       ],
       "correct": 3,
       "hint": "Perimeter = diameter + half circumference"
@@ -491,39 +491,39 @@
       "question": "Find the exterior angle of a regular octagon.",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"60,25 120,25 155,60 155,120 120,155 60,155 25,120 25,60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"120\" y1=\"25\" x2=\"170\" y2=\"25\" stroke=\"#EF4444\" stroke-width=\"2\"/><path d=\"M 135 25 A 15 15 0 0 0 145 40\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"145\" y=\"50\" font-size=\"12\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "135°",
-        "45°",
-        "60°",
-        "30°"
+        "$135°$",
+        "$45°$",
+        "$60°$",
+        "$30°$"
       ],
       "correct": 1,
-      "hint": "Exterior angle of regular polygon = 360° ÷ n"
+      "hint": "Exterior angle of regular polygon $= \\frac{360°}{n}$"
     },
     {
       "id": 39,
-      "question": "What is the diagonal of a square with side 5 cm?",
+      "question": "What is the diagonal of a square with side $5$ cm?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"30\" y=\"30\" width=\"100\" height=\"100\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/><line x1=\"30\" y1=\"30\" x2=\"130\" y2=\"130\" stroke=\"#EC4899\" stroke-width=\"2\" stroke-dasharray=\"5,5\"/><text x=\"80\" y=\"145\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">5 cm</text><text x=\"90\" y=\"75\" font-size=\"12\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "5 cm",
-        "25 cm",
-        "7.07 cm",
-        "10 cm"
+        "$5$ cm",
+        "$25$ cm",
+        "$7.07$ cm",
+        "$10$ cm"
       ],
       "correct": 2,
-      "hint": "Use Pythagorean theorem: d² = s² + s² = 2s²"
+      "hint": "Use Pythagorean theorem: $d^2 = s^2 + s^2 = 2s^2$"
     },
     {
       "id": 40,
-      "question": "What is the surface area of this cylinder? (π ≈ 3.14)",
+      "question": "What is the surface area of this cylinder? ($\\pi \\approx 3.14$)",
       "svg": "<svg width=\"150\" height=\"180\" viewBox=\"0 0 150 180\"><ellipse cx=\"75\" cy=\"30\" rx=\"40\" ry=\"12\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><ellipse cx=\"75\" cy=\"150\" rx=\"40\" ry=\"12\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"35\" y1=\"30\" x2=\"35\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"115\" y1=\"30\" x2=\"115\" y2=\"150\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"120\" y=\"95\" font-size=\"10\" fill=\"#374151\">8 cm</text><text x=\"75\" y=\"170\" text-anchor=\"middle\" font-size=\"10\" fill=\"#374151\">r = 3 cm</text></svg>",
       "answers": [
-        "56.52 cm²",
-        "103.62 cm²",
-        "150.72 cm²",
-        "207.24 cm²"
+        "$56.52 \\text{ cm}^2$",
+        "$103.62 \\text{ cm}^2$",
+        "$150.72 \\text{ cm}^2$",
+        "$207.24 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Surface area = 2πr² + 2πrh"
+      "hint": "Surface area $= 2\\pi r^2 + 2\\pi rh$"
     }
   ],
   "access": [

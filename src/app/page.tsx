@@ -75,6 +75,30 @@ const themes: Theme[] = [
     description: "Read numbers on number lines - from basic counting to skip counting patterns",
     icon: "📏",
   },
+  {
+    id: "properties-of-operations",
+    name: "Properties of Operations",
+    description: "Distributive, commutative, and associative properties",
+    icon: "🔄",
+  },
+  {
+    id: "word-problems",
+    name: "Word Problems",
+    description: "Translate word problems into equations and solve step by step",
+    icon: "📝",
+  },
+  {
+    id: "time-and-calendar",
+    name: "Time & Calendar",
+    description: "Days, weeks, months, reading clocks, and elapsed time",
+    icon: "🕐",
+  },
+  {
+    id: "counting-large-numbers",
+    name: "Counting Large Numbers",
+    description: "Count fluently up to 1,000,000 with place value mastery",
+    icon: "🔢",
+  },
 ];
 
 const levels = [

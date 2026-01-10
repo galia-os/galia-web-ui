@@ -1,0 +1,300 @@
+{
+  "theme": "Word Problems (Equation Setup)",
+  "themeId": "word-problems",
+  "level": "easy",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Maya had some stickers. She got 7 more and now has 15 stickers. Which equation shows how to find how many she started with?",
+      "answers": ["$x + 7 = 15$", "$x - 7 = 15$", "$7 - x = 15$", "$15 + 7 = x$"],
+      "correct": 0,
+      "hint": "She started with some (x), then added 7 more to reach 15. What operation matches 'got more'?"
+    },
+    {
+      "id": 2,
+      "question": "Tom has 12 apples. He gives some away and has 5 left. How many did he give away?",
+      "answers": ["5 apples", "17 apples", "7 apples", "6 apples"],
+      "correct": 2,
+      "hint": "What number do you subtract from 12 to get 5?"
+    },
+    {
+      "id": 3,
+      "question": "A number plus 8 equals 20. What is the number?",
+      "answers": ["28", "18", "14", "12"],
+      "correct": 3,
+      "hint": "Think: what added to 8 gives you 20?"
+    },
+    {
+      "id": 4,
+      "question": "Ella bought 4 notebooks at $3 each. How much did she spend?",
+      "answers": ["$7", "$12", "$1", "$9"],
+      "correct": 1,
+      "hint": "When you buy multiple items at the same price, what operation do you use?"
+    },
+    {
+      "id": 5,
+      "question": "James is 9 years old. His age is 3 years less than his sister's age. How old is his sister?",
+      "answers": [
+        "12 years old",
+        "6 years old",
+        "11 years old",
+        "15 years old"
+      ],
+      "correct": 0,
+      "hint": "If James is 3 years LESS, his sister must be 3 years MORE. Which direction should you go from 9?"
+    },
+    {
+      "id": 6,
+      "question": "Which expression means '5 more than a number n'?",
+      "answers": ["$5 - n$", "$5n$", "$n - 5$", "$n + 5$"],
+      "correct": 3,
+      "hint": "'More than' tells you to add. Which expression shows adding 5 to n?"
+    },
+    {
+      "id": 7,
+      "question": "Mia saved $8 each week. After some weeks, she had $32. How many weeks did she save?",
+      "answers": ["3 weeks", "24 weeks", "4 weeks", "40 weeks"],
+      "correct": 2,
+      "hint": "How many times does 8 fit into 32?"
+    },
+    {
+      "id": 8,
+      "question": "A number minus 6 equals 11. What is the number?",
+      "answers": ["17", "5", "18", "16"],
+      "correct": 0,
+      "hint": "If something minus 6 gives 11, what happens when you add 6 back to 11?"
+    },
+    {
+      "id": 9,
+      "question": "There are 24 students split equally into 4 groups. How many students in each group?",
+      "answers": ["8 students", "20 students", "28 students", "6 students"],
+      "correct": 3,
+      "hint": "When dividing equally, what operation do you use?"
+    },
+    {
+      "id": 10,
+      "question": "Leo had 18 cards. He got more cards and now has 25. How many did he get?",
+      "answers": ["43 cards", "7 cards", "8 cards", "6 cards"],
+      "correct": 1,
+      "hint": "Find the difference between what he has now and what he started with."
+    },
+    {
+      "id": 11,
+      "question": "Which expression means 'a number x divided by 4'?",
+      "answers": ["$4x$", "$x - 4$", "$x / 4$", "$4 / x$"],
+      "correct": 2,
+      "hint": "The number (x) is being divided BY 4. Which one shows x in the numerator?"
+    },
+    {
+      "id": 12,
+      "question": "Sara has $15. A book costs $9. How much money will she have left after buying the book?",
+      "answers": ["$6", "$24", "$5", "$7"],
+      "correct": 0,
+      "hint": "When you spend money, do you add or subtract from what you have?"
+    },
+    {
+      "id": 13,
+      "question": "Three times a number equals 21. What is the number?",
+      "answers": ["24", "18", "63", "7"],
+      "correct": 3,
+      "hint": "If 3 times something is 21, divide 21 by 3 to undo the multiplication."
+    },
+    {
+      "id": 14,
+      "question": "Kim is 11 years old. She is 4 years older than her brother. How old is her brother?",
+      "answers": ["7 years old", "15 years old", "8 years old", "6 years old"],
+      "correct": 0,
+      "hint": "If Kim is OLDER, her brother must be younger. Should you add or subtract 4 from Kim's age?"
+    },
+    {
+      "id": 15,
+      "question": "Ryan has 36 toy cars. He puts the same number in each of 6 boxes. How many cars in each box?",
+      "answers": ["42 cars", "6 cars", "30 cars", "7 cars"],
+      "correct": 1,
+      "hint": "Dividing equally among boxes means 36 divided by 6."
+    },
+    {
+      "id": 16,
+      "question": "A number plus 15 equals 32. What is the number?",
+      "answers": ["47", "18", "17", "16"],
+      "correct": 2,
+      "hint": "To find the missing addend, subtract 15 from 32."
+    },
+    {
+      "id": 17,
+      "question": "Which expression means '8 less than a number y'?",
+      "answers": ["$8 - y$", "$y - 8$", "$y + 8$", "$8y$"],
+      "correct": 1,
+      "hint": "'Less than' means subtraction. You're taking 8 away FROM the number y."
+    },
+    {
+      "id": 18,
+      "question": "Emma bought 5 erasers for a total of $10. What was the price of each eraser?",
+      "answers": ["$2", "$15", "$50", "$5"],
+      "correct": 0,
+      "hint": "To find the price of one, divide the total cost by the number of items."
+    },
+    {
+      "id": 19,
+      "question": "Jake had some marbles. He lost 9 and now has 14. How many did he start with?",
+      "answers": ["5 marbles", "23 marbles", "24 marbles", "22 marbles"],
+      "correct": 1,
+      "hint": "He ended up with fewer after losing some. Add back what he lost to find the start."
+    },
+    {
+      "id": 20,
+      "question": "Which equation matches: 'Six times a number n equals 42'?",
+      "answers": ["$n + 6 = 42$", "$n - 6 = 42$", "$6n = 42$", "$n / 6 = 42$"],
+      "correct": 2,
+      "hint": "'Times' means multiplication. How do you write 6 multiplied by n?"
+    },
+    {
+      "id": 21,
+      "question": "Lily is twice as old as her cousin who is 6. How old is Lily?",
+      "answers": ["8 years old", "3 years old", "14 years old", "12 years old"],
+      "correct": 3,
+      "hint": "'Twice as old' means 2 times the cousin's age."
+    },
+    {
+      "id": 22,
+      "question": "Ben has $20. He buys a toy for $13. How much money does he have left?",
+      "answers": ["$33", "$6", "$7", "$8"],
+      "correct": 2,
+      "hint": "Spending money means subtracting from what you have."
+    },
+    {
+      "id": 23,
+      "question": "A number divided by 5 equals 8. What is the number?",
+      "answers": ["3", "40", "13", "45"],
+      "correct": 1,
+      "hint": "To undo division by 5, multiply 8 by 5."
+    },
+    {
+      "id": 24,
+      "question": "There are 28 books to put equally on 4 shelves. How many books go on each shelf?",
+      "answers": ["6 books", "32 books", "24 books", "7 books"],
+      "correct": 3,
+      "hint": "Divide the total number of books by the number of shelves."
+    },
+    {
+      "id": 25,
+      "question": "Which expression means 'the product of 3 and a number m'?",
+      "answers": ["$3m$", "$3 + m$", "$m - 3$", "$m / 3$"],
+      "correct": 0,
+      "hint": "'Product' means the result of multiplication. What does 3 times m look like?"
+    },
+    {
+      "id": 26,
+      "question": "Sofia had 35 beads. She used some for a bracelet and has 19 left. How many did she use?",
+      "answers": ["15 beads", "54 beads", "16 beads", "17 beads"],
+      "correct": 2,
+      "hint": "Find how many are missing: subtract what's left from what she started with."
+    },
+    {
+      "id": 27,
+      "question": "Four packs of gum cost $12. How much does one pack cost?",
+      "answers": ["$16", "$3", "$8", "$4"],
+      "correct": 1,
+      "hint": "To find the cost of one, divide the total by the number of packs."
+    },
+    {
+      "id": 28,
+      "question": "A number minus 12 equals 25. What is the number?",
+      "answers": ["37", "13", "38", "36"],
+      "correct": 0,
+      "hint": "If subtracting 12 gives 25, add 12 back to find the original number."
+    },
+    {
+      "id": 29,
+      "question": "Noah is 8 years old. In how many years will he be 15?",
+      "answers": ["23 years", "6 years", "8 years", "7 years"],
+      "correct": 3,
+      "hint": "Find the difference between his future age and his current age."
+    },
+    {
+      "id": 30,
+      "question": "Which equation matches: 'A number x decreased by 9 equals 16'?",
+      "answers": ["$x + 9 = 16$", "$9 - x = 16$", "$x - 9 = 16$", "$x / 9 = 16$"],
+      "correct": 2,
+      "hint": "'Decreased by' means subtraction. You're taking 9 away from x."
+    },
+    {
+      "id": 31,
+      "question": "Maria has 6 boxes with 8 crayons in each. How many crayons does she have in total?",
+      "answers": ["14 crayons", "48 crayons", "2 crayons", "46 crayons"],
+      "correct": 1,
+      "hint": "To find the total when you have equal groups, multiply the number of groups by items per group."
+    },
+    {
+      "id": 32,
+      "question": "Peter had $45. He spent some money and has $28 left. How much did he spend?",
+      "answers": ["$73", "$16", "$18", "$17"],
+      "correct": 3,
+      "hint": "Subtract what he has now from what he started with."
+    },
+    {
+      "id": 33,
+      "question": "A number times 7 equals 56. What is the number?",
+      "answers": ["8", "49", "63", "9"],
+      "correct": 0,
+      "hint": "To undo multiplication by 7, divide 56 by 7."
+    },
+    {
+      "id": 34,
+      "question": "Amy is 10 years old. Her mother is 3 times her age. How old is her mother?",
+      "answers": [
+        "13 years old",
+        "30 years old",
+        "7 years old",
+        "33 years old"
+      ],
+      "correct": 1,
+      "hint": "'3 times her age' means multiply Amy's age by 3."
+    },
+    {
+      "id": 35,
+      "question": "Which expression means 'the sum of a number p and 12'?",
+      "answers": ["$p - 12$", "$p + 12$", "$12p$", "$p / 12$"],
+      "correct": 1,
+      "hint": "'Sum' means the result of addition. What does p added to 12 look like?"
+    },
+    {
+      "id": 36,
+      "question": "There are 42 students going on a trip. Each van holds 7 students. How many vans are needed?",
+      "answers": ["6 vans", "5 vans", "35 vans", "49 vans"],
+      "correct": 0,
+      "hint": "Divide the total students by how many fit in each van."
+    },
+    {
+      "id": 37,
+      "question": "Carlos had some baseball cards. He got 14 more and now has 31. How many did he start with?",
+      "answers": ["45 cards", "18 cards", "17 cards", "16 cards"],
+      "correct": 2,
+      "hint": "He added 14 to reach 31. Subtract 14 from 31 to find his starting amount."
+    },
+    {
+      "id": 38,
+      "question": "A pencil costs $2. How much do 9 pencils cost?",
+      "answers": ["$11", "$7", "$16", "$18"],
+      "correct": 3,
+      "hint": "Multiply the cost of one pencil by the number of pencils."
+    },
+    {
+      "id": 39,
+      "question": "A number plus 7 equals 24. What is the number?",
+      "answers": ["17", "31", "18", "16"],
+      "correct": 0,
+      "hint": "What do you need to add to 7 to make 24?"
+    },
+    {
+      "id": 40,
+      "question": "Zoe has $30. She wants to buy books that cost $6 each. How many books can she buy?",
+      "answers": ["4 books", "24 books", "36 books", "5 books"],
+      "correct": 3,
+      "hint": "Divide the total money by the cost of each book."
+    }
+  ],
+  "access": [0, 1]
+}

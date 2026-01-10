@@ -1,0 +1,290 @@
+{
+  "theme": "Counting Large Numbers",
+  "themeId": "counting-large-numbers",
+  "level": "hard",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What number comes right after 99,999?",
+      "answers": ["99,000", "100,000", "100,999", "99,100"],
+      "correct": 1,
+      "hint": "When all the 9s roll over, what happens? Think about what 99 + 1 equals, but with more digits!"
+    },
+    {
+      "id": 2,
+      "question": "What number comes right after 999,999?",
+      "answers": ["1,000,000", "999,000", "1,000,999", "9,999,999"],
+      "correct": 0,
+      "hint": "This is like 999 + 1, but even bigger! All the 9s turn to 0s and you get a new digit."
+    },
+    {
+      "id": 3,
+      "question": "What is 45,999 + 1?",
+      "answers": ["45,000", "45,990", "46,000", "45,100"],
+      "correct": 2,
+      "hint": "The 999 part rolls over like an odometer. What happens to the 45 part?"
+    },
+    {
+      "id": 4,
+      "question": "What is 299,999 + 1?",
+      "answers": ["299,000", "290,000", "399,999", "300,000"],
+      "correct": 3,
+      "hint": "All those 9s will flip to 0s. What does the 2 become?"
+    },
+    {
+      "id": 5,
+      "question": "What is 100,000 - 1?",
+      "answers": ["99,999", "99,000", "99,990", "99,900"],
+      "correct": 0,
+      "hint": "Going backward from 100,000 is like counting down. What comes just before?"
+    },
+    {
+      "id": 6,
+      "question": "What is 500,000 - 1?",
+      "answers": ["499,000", "499,990", "400,999", "499,999"],
+      "correct": 3,
+      "hint": "Subtracting 1 from a number ending in zeros means borrowing. The 5 becomes 4 and what fills the rest?"
+    },
+    {
+      "id": 7,
+      "question": "What is 750,000 + 10?",
+      "answers": ["750,010", "750,100", "751,000", "760,000"],
+      "correct": 0,
+      "hint": "Adding 10 changes the tens place. Which digit is in the tens place?"
+    },
+    {
+      "id": 8,
+      "question": "What is 849,990 + 10?",
+      "answers": ["849,000", "850,990", "850,000", "849,100"],
+      "correct": 2,
+      "hint": "90 + 10 = 100, which causes a chain reaction. Follow the carrying!"
+    },
+    {
+      "id": 9,
+      "question": "What is 199,900 + 100?",
+      "answers": ["199,000", "200,900", "200,000", "199,910"],
+      "correct": 2,
+      "hint": "900 + 100 = 1,000. This causes the thousands to increase, which causes another carry!"
+    },
+    {
+      "id": 10,
+      "question": "What is 450,000 + 1,000?",
+      "answers": ["450,100", "460,000", "450,010", "451,000"],
+      "correct": 3,
+      "hint": "Adding 1,000 only changes the thousands place. What is 450 + 1 in thousands?"
+    },
+    {
+      "id": 11,
+      "question": "What is 999,000 + 1,000?",
+      "answers": ["999,100", "1,000,000", "990,000", "1,000,100"],
+      "correct": 1,
+      "hint": "999 thousands plus 1 thousand equals how many thousands? Can you write that as a bigger number?"
+    },
+    {
+      "id": 12,
+      "question": "What is 89,000 + 10,000?",
+      "answers": ["90,000", "189,000", "99,000", "89,100"],
+      "correct": 2,
+      "hint": "Adding 10,000 changes the ten-thousands place. What is 8 ten-thousands plus 1 ten-thousand?"
+    },
+    {
+      "id": 13,
+      "question": "What is 590,000 + 10,000?",
+      "answers": ["591,000", "690,000", "600,000", "590,100"],
+      "correct": 2,
+      "hint": "59 ten-thousands plus 1 ten-thousand equals 60 ten-thousands. How do you write that?"
+    },
+    {
+      "id": 14,
+      "question": "What number comes right after 109,999?",
+      "answers": ["110,000", "109,000", "119,999", "200,000"],
+      "correct": 0,
+      "hint": "The 9,999 part rolls over to 0,000 and you add 1 to the 10 part."
+    },
+    {
+      "id": 15,
+      "question": "What is 400,000 + 100,000?",
+      "answers": ["410,000", "401,000", "500,000", "4,100,000"],
+      "correct": 2,
+      "hint": "4 hundred-thousands plus 1 hundred-thousand equals how many hundred-thousands?"
+    },
+    {
+      "id": 16,
+      "question": "What is 900,000 + 100,000?",
+      "answers": ["910,000", "1,000,000", "900,100", "9,100,000"],
+      "correct": 1,
+      "hint": "9 hundred-thousands plus 1 hundred-thousand equals 10 hundred-thousands. What is another name for that?"
+    },
+    {
+      "id": 17,
+      "question": "What is the value of the digit 7 in 375,482?",
+      "answers": ["7,000", "700", "70,000", "7"],
+      "correct": 2,
+      "hint": "Count the places from right to left: ones, tens, hundreds, thousands, ten-thousands. Where is the 7?"
+    },
+    {
+      "id": 18,
+      "question": "What is the value of the digit 5 in 528,193?",
+      "answers": ["50,000", "5,000", "500,000", "500"],
+      "correct": 2,
+      "hint": "The 5 is in the leftmost position of this 6-digit number. What place is that?"
+    },
+    {
+      "id": 19,
+      "question": "In 642,857, which digit is in the ten-thousands place?",
+      "answers": ["6", "4", "2", "8"],
+      "correct": 1,
+      "hint": "Count from right: ones (7), tens (5), hundreds (8), thousands (2), ten-thousands (?)."
+    },
+    {
+      "id": 20,
+      "question": "What is 50,000 - 1?",
+      "answers": ["49,000", "49,999", "49,990", "49,900"],
+      "correct": 1,
+      "hint": "When you subtract 1 from a number ending in zeros, you need to borrow. All the zeros become 9s."
+    },
+    {
+      "id": 21,
+      "question": "What is 200,000 - 1?",
+      "answers": ["199,990", "199,000", "199,999", "199,900"],
+      "correct": 2,
+      "hint": "Borrowing from 200,000 means the 2 becomes 1 and what happens to all those zeros?"
+    },
+    {
+      "id": 22,
+      "question": "What number comes right before 400,000?",
+      "answers": ["399,000", "390,000", "399,999", "399,990"],
+      "correct": 2,
+      "hint": "The number just before is one less. Think about what 400,000 - 1 equals."
+    },
+    {
+      "id": 23,
+      "question": "What is 75,000 + 25,000?",
+      "answers": ["100,000", "95,000", "750,000", "100,250"],
+      "correct": 0,
+      "hint": "75 + 25 = 100. Now think about what 75 thousands plus 25 thousands equals."
+    },
+    {
+      "id": 24,
+      "question": "What is 250,000 + 750,000?",
+      "answers": ["1,000,000", "925,000", "100,000", "975,000"],
+      "correct": 0,
+      "hint": "250 + 750 = 1,000. So 250 thousands plus 750 thousands equals how many thousands?"
+    },
+    {
+      "id": 25,
+      "question": "How do you write 'four hundred fifty thousand' in numbers?",
+      "answers": ["45,000", "405,000", "4,500,000", "450,000"],
+      "correct": 3,
+      "hint": "Four hundred fifty is 450. Now add three more zeros for 'thousand'."
+    },
+    {
+      "id": 26,
+      "question": "How do you write 'eight hundred thousand, five hundred' in numbers?",
+      "answers": ["80,500", "800,500", "805,000", "850,000"],
+      "correct": 1,
+      "hint": "Eight hundred thousand is 800,000. Then add five hundred (500) to it."
+    },
+    {
+      "id": 27,
+      "question": "What is 999,990 + 10?",
+      "answers": ["1,000,000", "999,000", "1,000,010", "999,100"],
+      "correct": 0,
+      "hint": "990 + 10 = 1,000, which makes the thousands roll over, which makes everything roll over!"
+    },
+    {
+      "id": 28,
+      "question": "What is 599,999 + 1?",
+      "answers": ["600,000", "599,000", "699,999", "509,999"],
+      "correct": 0,
+      "hint": "All the 9s flip to 0s. What does the 5 become?"
+    },
+    {
+      "id": 29,
+      "question": "What is 700,000 - 10?",
+      "answers": ["699,000", "699,900", "600,990", "699,990"],
+      "correct": 3,
+      "hint": "You need to borrow to subtract 10 from a number ending in zeros. The 7 becomes 6 and..."
+    },
+    {
+      "id": 30,
+      "question": "What is 1,000,000 - 1?",
+      "answers": ["999,000", "999,999", "999,990", "900,000"],
+      "correct": 1,
+      "hint": "One million minus one means all those zeros turn into 9s. How many 9s?"
+    },
+    {
+      "id": 31,
+      "question": "What number is 10,000 more than 735,000?",
+      "answers": ["735,100", "736,000", "835,000", "745,000"],
+      "correct": 3,
+      "hint": "Adding 10,000 increases the ten-thousands digit. What is 3 ten-thousands plus 1 ten-thousand?"
+    },
+    {
+      "id": 32,
+      "question": "What number is 100,000 less than 850,000?",
+      "answers": ["840,000", "849,000", "749,000", "750,000"],
+      "correct": 3,
+      "hint": "Subtracting 100,000 decreases the hundred-thousands digit. What is 8 - 1?"
+    },
+    {
+      "id": 33,
+      "question": "Which number is closest to 500,000?",
+      "answers": ["499,000", "510,000", "490,000", "501,000"],
+      "correct": 3,
+      "hint": "Find the distance from each number to 500,000. Which one has the smallest distance?"
+    },
+    {
+      "id": 34,
+      "question": "What is 80,000 + 920,000?",
+      "answers": ["928,000", "1,000,000", "920,800", "100,000"],
+      "correct": 1,
+      "hint": "80 + 920 = 1,000. Now think in thousands!"
+    },
+    {
+      "id": 35,
+      "question": "What number comes right after 249,999?",
+      "answers": ["250,000", "249,000", "259,999", "350,000"],
+      "correct": 0,
+      "hint": "The 9,999 rolls over to 0,000. What happens to the 24 part?"
+    },
+    {
+      "id": 36,
+      "question": "What is the value of the digit 3 in 936,214?",
+      "answers": ["300", "3,000", "300,000", "30,000"],
+      "correct": 3,
+      "hint": "Count places from right: 4 is ones, 1 is tens, 2 is hundreds, 6 is thousands, 3 is...?"
+    },
+    {
+      "id": 37,
+      "question": "What is 150,000 - 100?",
+      "answers": ["140,000", "149,900", "150,900", "149,000"],
+      "correct": 1,
+      "hint": "Subtracting 100 from a number ending in 000 requires borrowing. Think carefully!"
+    },
+    {
+      "id": 38,
+      "question": "How do you write 'six hundred twenty-five thousand, three hundred' in numbers?",
+      "answers": ["62,530", "625,300", "625,030", "620,530"],
+      "correct": 1,
+      "hint": "Six hundred twenty-five thousand is 625,000. Add three hundred to get your answer."
+    },
+    {
+      "id": 39,
+      "question": "What is 999,900 + 100?",
+      "answers": ["1,000,000", "999,000", "1,000,100", "999,910"],
+      "correct": 0,
+      "hint": "900 + 100 = 1,000. This carries through all the places. What's the final result?"
+    },
+    {
+      "id": 40,
+      "question": "What number is 1,000 less than 500,000?",
+      "answers": ["490,000", "400,000", "500,100", "499,000"],
+      "correct": 3,
+      "hint": "Subtracting 1,000 decreases the thousands place. What is 500 thousands minus 1 thousand?"
+    }
+  ],
+  "access": [2]
+}

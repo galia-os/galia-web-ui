@@ -1,0 +1,290 @@
+{
+  "theme": "Properties of Operations",
+  "themeId": "properties-of-operations",
+  "level": "medium",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which property is shown? $8 \\times 15 = 15 \\times 8$",
+      "answers": ["Associative Property", "Distributive Property", "Commutative Property", "Identity Property"],
+      "correct": 2,
+      "hint": "Notice that the two numbers switched places but the operation stayed the same."
+    },
+    {
+      "id": 2,
+      "question": "Using the distributive property, what is $6 \\times 14$?",
+      "answers": ["$6 + 10 \\times 6 + 4 = 70$", "$6 \\times 10 + 6 \\times 4 = 84$", "$6 \\times 10 \\times 4 = 240$", "$6 \\times 10 + 4 = 64$"],
+      "correct": 1,
+      "hint": "Break 14 into $10 + 4$, then multiply 6 by each part separately."
+    },
+    {
+      "id": 3,
+      "question": "Which expression shows the associative property of addition?",
+      "answers": ["$5 + 7 = 7 + 5$", "$(3 + 4) + 8 = 3 + (4 + 8)$", "$3 \\times (5 + 2) = 15 + 6$", "$9 + 0 = 9$"],
+      "correct": 1,
+      "hint": "The associative property changes which numbers are grouped together with parentheses."
+    },
+    {
+      "id": 4,
+      "question": "What is $25 \\times 4 \\times 7$ using the associative property to make it easier?",
+      "answers": ["$25 \\times 28 = 700$", "$29 \\times 4 = 116$", "$25 + 4 + 7 = 36$", "$100 \\times 7 = 700$"],
+      "correct": 3,
+      "hint": "Which two numbers can you multiply first to get a nice round number?"
+    },
+    {
+      "id": 5,
+      "question": "Using the distributive property, $7 \\times 12$ equals:",
+      "answers": ["$7 \\times 10 - 7 \\times 2 = 56$", "$7 + 12 = 19$", "$7 \\times 10 + 2 = 72$", "$7 \\times 10 + 7 \\times 2 = 84$"],
+      "correct": 3,
+      "hint": "Split 12 into a sum of two numbers, then distribute the 7."
+    },
+    {
+      "id": 6,
+      "question": "Which property allows you to rewrite $47 + 53$ as $53 + 47$?",
+      "answers": ["Distributive Property", "Identity Property", "Associative Property", "Commutative Property"],
+      "correct": 3,
+      "hint": "When numbers swap positions in addition, which property is being used?"
+    },
+    {
+      "id": 7,
+      "question": "Simplify using the distributive property: $9 \\times 23$",
+      "answers": ["$9 \\times 20 + 9 \\times 3 = 207$", "$9 \\times 20 + 3 = 183$", "$9 + 20 + 3 = 32$", "$9 \\times 20 \\times 3 = 540$"],
+      "correct": 0,
+      "hint": "Break 23 into $20 + 3$. What do you get when you multiply 9 by each part?"
+    },
+    {
+      "id": 8,
+      "question": "Which expression equals $8 \\times (5 + 9)$?",
+      "answers": ["$8 \\times 5 \\times 9$", "$8 + 5 + 9$", "$8 \\times 5 + 9$", "$8 \\times 5 + 8 \\times 9$"],
+      "correct": 3,
+      "hint": "The distributive property means multiplying each number inside the parentheses by 8."
+    },
+    {
+      "id": 9,
+      "question": "$(17 + 28) + 32 = 17 + (28 + 32)$. Which property is this?",
+      "answers": ["Commutative Property", "Associative Property", "Distributive Property", "Identity Property"],
+      "correct": 1,
+      "hint": "Look at how the parentheses moved. The order of numbers stayed the same."
+    },
+    {
+      "id": 10,
+      "question": "To calculate $5 \\times 18$ mentally, which approach uses the distributive property?",
+      "answers": ["$5 \\times 20 - 5 \\times 2 = 90$", "$18 \\times 5 = 90$", "$5 \\times 9 \\times 2 = 90$", "$5 + 18 = 23$"],
+      "correct": 0,
+      "hint": "Can you break 18 into a subtraction that makes the math easier?"
+    },
+    {
+      "id": 11,
+      "question": "Which property is shown? $(6 \\times 2) \\times 5 = 6 \\times (2 \\times 5)$",
+      "answers": ["Distributive Property", "Commutative Property", "Associative Property", "Zero Property"],
+      "correct": 2,
+      "hint": "The numbers stay in the same order, but the grouping changes."
+    },
+    {
+      "id": 12,
+      "question": "Using the commutative property, $56 + 89 + 44$ can be rearranged to:",
+      "answers": ["$89 \\times 56 + 44$", "$56 - 44 + 89$", "$56 + 44 + 89$", "$(56 + 89) \\times 44$"],
+      "correct": 2,
+      "hint": "Which rearrangement would give you friendly numbers that add up to 100?"
+    },
+    {
+      "id": 13,
+      "question": "What is $8 \\times 25 \\times 4$ calculated most efficiently?",
+      "answers": ["$200 \\times 4 = 800$", "$8 \\times 100 = 800$", "$32 \\times 25 = 800$", "$8 \\times 29 = 232$"],
+      "correct": 1,
+      "hint": "Which two numbers multiply to give a nice round 100?"
+    },
+    {
+      "id": 14,
+      "question": "Which expression is equivalent to $4 \\times 37$ using distributive property?",
+      "answers": ["$4 \\times 30 + 7 = 127$", "$4 \\times 40 - 3 = 157$", "$37 \\times 4 \\times 1$", "$4 \\times 30 + 4 \\times 7$"],
+      "correct": 3,
+      "hint": "Break 37 into tens and ones, then multiply 4 by each part."
+    },
+    {
+      "id": 15,
+      "question": "$3 \\times (7 \\times 9) = (3 \\times 7) \\times 9$ demonstrates which property?",
+      "answers": ["Associative Property", "Distributive Property", "Commutative Property", "Identity Property"],
+      "correct": 0,
+      "hint": "The order of numbers is the same; only the grouping with parentheses changed."
+    },
+    {
+      "id": 16,
+      "question": "To find $15 \\times 8$, you can calculate $10 \\times 8 + 5 \\times 8$. This is the:",
+      "answers": ["Commutative Property", "Associative Property", "Distributive Property", "Identity Property"],
+      "correct": 2,
+      "hint": "You're distributing the 8 to multiply by parts of 15."
+    },
+    {
+      "id": 17,
+      "question": "Which expression shows $5 \\times 19$ using the distributive property?",
+      "answers": ["$5 \\times 20 - 5 \\times 1 = 95$", "$5 \\times 20 + 5 \\times 1 = 105$", "$5 \\times 10 + 9 = 59$", "$5 + 19 = 24$"],
+      "correct": 0,
+      "hint": "Think of 19 as $20 - 1$. What adjustment do you need?"
+    },
+    {
+      "id": 18,
+      "question": "$45 + 0 = 45$ is an example of:",
+      "answers": ["Commutative Property", "Identity Property", "Associative Property", "Distributive Property"],
+      "correct": 1,
+      "hint": "Adding this number keeps the value unchanged. What is this special number called in math?"
+    },
+    {
+      "id": 19,
+      "question": "Using properties, $2 \\times 35 \\times 5$ equals:",
+      "answers": ["$70 \\times 5 = 350$", "$2 \\times 175 = 350$", "$37 \\times 10 = 370$", "$10 \\times 35 = 350$"],
+      "correct": 3,
+      "hint": "Rearrange to multiply 2 and 5 first. What do you get?"
+    },
+    {
+      "id": 20,
+      "question": "Which property helps rewrite $9 + 12 + 8$ as $9 + 8 + 12$?",
+      "answers": ["Commutative Property", "Associative Property", "Distributive Property", "Identity Property"],
+      "correct": 0,
+      "hint": "The numbers are being swapped around. Which property allows switching order?"
+    },
+    {
+      "id": 21,
+      "question": "Calculate $6 \\times 45$ using the distributive property.",
+      "answers": ["$6 \\times 50 - 5 = 295$", "$6 \\times 40 + 6 \\times 5 = 270$", "$45 \\times 6 = 270$", "$6 \\times 40 + 5 = 245$"],
+      "correct": 1,
+      "hint": "Break 45 into $40 + 5$, then multiply each part by 6 and add the results."
+    },
+    {
+      "id": 22,
+      "question": "$(15 + 25) + 35 = 15 + (25 + 35)$. What does this equal?",
+      "answers": ["65", "85", "75", "95"],
+      "correct": 2,
+      "hint": "Notice that grouping $25 + 35$ makes a nice number. What is the final sum?"
+    },
+    {
+      "id": 23,
+      "question": "Which is equivalent to $7 \\times (10 + 8)$?",
+      "answers": ["$7 \\times 10 + 8$", "$7 \\times 10 \\times 8$", "$7 \\times 10 + 7 \\times 8$", "$7 + 10 + 8$"],
+      "correct": 2,
+      "hint": "Distribute the 7 to both numbers inside the parentheses."
+    },
+    {
+      "id": 24,
+      "question": "$12 \\times 9$ can be calculated as $10 \\times 9 + 2 \\times 9$. What is the answer?",
+      "answers": ["98", "108", "118", "102"],
+      "correct": 1,
+      "hint": "Calculate each multiplication separately, then add: what is $90 + 18$?"
+    },
+    {
+      "id": 25,
+      "question": "Which property is NOT shown in: $5 \\times (3 + 4) = 5 \\times 3 + 5 \\times 4$?",
+      "answers": ["Associative Property", "Distributive Property", "None - only distributive is shown", "Both are shown"],
+      "correct": 0,
+      "hint": "This equation shows multiplication distributed over addition. Is anything being regrouped?"
+    },
+    {
+      "id": 26,
+      "question": "To calculate $4 \\times 98$, which mental math strategy uses the distributive property?",
+      "answers": ["$98 \\times 4 = 392$", "$4 \\times 100 - 4 \\times 2 = 392$", "$4 \\times 90 + 8 = 368$", "$4 + 98 = 102$"],
+      "correct": 1,
+      "hint": "Think of 98 as $100 - 2$. How would you distribute the 4?"
+    },
+    {
+      "id": 27,
+      "question": "$36 + 54 + 46$ can be rearranged using the commutative property to:",
+      "answers": ["$36 \\times 54 + 46$", "$36 + 46 + 54$", "$136$", "$36 - 46 + 54$"],
+      "correct": 1,
+      "hint": "Rearranging to put 36 and 46 together makes adding easier. Can you see why?"
+    },
+    {
+      "id": 28,
+      "question": "What is the value of $(2 \\times 7) \\times 5$?",
+      "answers": ["70", "14", "35", "75"],
+      "correct": 0,
+      "hint": "Calculate inside the parentheses first, or use the associative property to regroup."
+    },
+    {
+      "id": 29,
+      "question": "Which shows the distributive property?",
+      "answers": ["$a + b = b + a$", "$(a + b) + c = a + (b + c)$", "$a \\times (b + c) = a \\times b + a \\times c$", "$a \\times 1 = a$"],
+      "correct": 2,
+      "hint": "Look for the equation where multiplication is spread across terms inside parentheses."
+    },
+    {
+      "id": 30,
+      "question": "$8 \\times 16 = 8 \\times 10 + 8 \\times 6$. What does this equal?",
+      "answers": ["118", "138", "128", "124"],
+      "correct": 2,
+      "hint": "Calculate $8 \\times 10$ and $8 \\times 6$ separately. What is $80 + 48$?"
+    },
+    {
+      "id": 31,
+      "question": "Using properties, which equals $25 \\times 12 \\times 4$?",
+      "answers": ["$100 \\times 12 = 1200$", "$300 \\times 4 = 1200$", "$25 \\times 48 = 1200$", "$29 \\times 40 = 1160$"],
+      "correct": 0,
+      "hint": "Find two numbers that multiply to make 100. Then multiply by the remaining number."
+    },
+    {
+      "id": 32,
+      "question": "Which property states that $1 \\times 48 = 48$?",
+      "answers": ["Zero Property", "Commutative Property", "Associative Property", "Identity Property"],
+      "correct": 3,
+      "hint": "Multiplying by this number keeps the original value. What is this property called?"
+    },
+    {
+      "id": 33,
+      "question": "$7 \\times 13$ can be rewritten as $7 \\times 10 + 7 \\times 3$. What is $7 \\times 13$?",
+      "answers": ["81", "101", "91", "87"],
+      "correct": 2,
+      "hint": "Find $70 + 21$. What is the sum?"
+    },
+    {
+      "id": 34,
+      "question": "Which expression equals $6 \\times 8 + 6 \\times 2$?",
+      "answers": ["$6 \\times (8 + 2)$", "$6 + 8 \\times 2$", "$6 \\times 8 \\times 2$", "$(6 + 6) \\times (8 + 2)$"],
+      "correct": 0,
+      "hint": "When the same number multiplies two different values, you can factor it out."
+    },
+    {
+      "id": 35,
+      "question": "$(5 \\times 8) \\times 2 = 5 \\times (8 \\times 2)$. What is this value?",
+      "answers": ["70", "90", "60", "80"],
+      "correct": 3,
+      "hint": "Try grouping $8 \\times 2$ first, then multiply by 5."
+    },
+    {
+      "id": 36,
+      "question": "To find $9 \\times 31$, you can calculate:",
+      "answers": ["$9 \\times 30 + 1 = 271$", "$9 \\times 30 + 9 \\times 1 = 279$", "$9 + 31 = 40$", "$9 \\times 30 \\times 1 = 270$"],
+      "correct": 1,
+      "hint": "Break 31 into $30 + 1$. What is $270 + 9$?"
+    },
+    {
+      "id": 37,
+      "question": "$78 + 45 + 22$ can be efficiently calculated by first adding:",
+      "answers": ["$78 + 45 = 123$", "$45 + 22 = 67$", "$78 + 22 = 100$", "$78 + 45 + 22$ all at once"],
+      "correct": 2,
+      "hint": "Look for two numbers that add to a nice round number."
+    },
+    {
+      "id": 38,
+      "question": "Which property allows $(3 + 8) + 7 = 3 + (8 + 7)$?",
+      "answers": ["Identity Property", "Commutative Property", "Distributive Property", "Associative Property"],
+      "correct": 3,
+      "hint": "The numbers stay in order, but the grouping (parentheses) changes."
+    },
+    {
+      "id": 39,
+      "question": "Calculate $4 \\times 75$ using the distributive property.",
+      "answers": ["$4 \\times 70 + 4 \\times 5 = 300$", "$4 \\times 70 + 5 = 285$", "$4 \\times 80 - 5 = 315$", "$75 \\times 4 = 300$"],
+      "correct": 0,
+      "hint": "Split 75 into $70 + 5$. Multiply 4 by each part, then add."
+    },
+    {
+      "id": 40,
+      "question": "Which is true about the commutative property?",
+      "answers": ["It works for all four operations", "It only works for addition", "It only works for multiplication", "It works for addition and multiplication only"],
+      "correct": 3,
+      "hint": "Think about subtraction and division. Does $5 - 3$ equal $3 - 5$? Does $6 \\div 2$ equal $2 \\div 6$?"
+    }
+  ],
+  "access": [0, 1]
+}

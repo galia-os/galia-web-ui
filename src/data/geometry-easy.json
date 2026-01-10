@@ -10,13 +10,13 @@
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">8 cm</text><text x=\"190\" y=\"65\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
-        "40 cm²",
-        "26 cm²",
-        "80 cm²",
-        "13 cm²"
+        "$40 \\text{ cm}^2$",
+        "$26 \\text{ cm}^2$",
+        "$80 \\text{ cm}^2$",
+        "$13 \\text{ cm}^2$"
       ],
       "correct": 0,
-      "hint": "Area of rectangle = length × width. What is 8 × 5?"
+      "hint": "Area of rectangle $= l \\times w$. What is $8 \\times 5$?"
     },
     {
       "id": 2,
@@ -29,33 +29,33 @@
         "Obtuse"
       ],
       "correct": 2,
-      "hint": "What do we call an angle that measures exactly 90 degrees?"
+      "hint": "What do we call an angle that measures exactly $90°$?"
     },
     {
       "id": 3,
       "question": "What is the perimeter of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "24 cm",
-        "12 cm",
-        "18 cm",
-        "36 cm"
+        "$24$ cm",
+        "$12$ cm",
+        "$18$ cm",
+        "$36$ cm"
       ],
       "correct": 0,
-      "hint": "Perimeter of square = 4 × side. All sides are equal!"
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$. All sides are equal!"
     },
     {
       "id": 4,
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "20 cm²",
-        "16 cm²",
-        "60 cm²",
-        "30 cm²"
+        "$20 \\text{ cm}^2$",
+        "$16 \\text{ cm}^2$",
+        "$60 \\text{ cm}^2$",
+        "$30 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Area of triangle = (base × height) ÷ 2"
+      "hint": "Area of triangle $= \\frac{\\text{base} \\times \\text{height}}{2}$"
     },
     {
       "id": 5,
@@ -68,30 +68,30 @@
         "Acute"
       ],
       "correct": 3,
-      "hint": "An angle less than 90° is called what?"
+      "hint": "An angle less than $90°$ is called what?"
     },
     {
       "id": 6,
       "question": "What is the perimeter of this rectangle?",
       "svg": "<svg width=\"220\" height=\"120\" viewBox=\"0 0 220 120\"><rect x=\"20\" y=\"20\" width=\"180\" height=\"70\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"110\" y=\"105\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">12 cm</text><text x=\"210\" y=\"60\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">4 cm</text></svg>",
       "answers": [
-        "16 cm",
-        "24 cm",
-        "48 cm",
-        "32 cm"
+        "$16$ cm",
+        "$24$ cm",
+        "$48$ cm",
+        "$32$ cm"
       ],
       "correct": 3,
-      "hint": "Perimeter = 2 × (length + width)"
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$"
     },
     {
       "id": 7,
       "question": "How many sides does this shape have?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,10 170,60 150,150 30,150 10,60\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/></svg>",
       "answers": [
-        "5",
-        "4",
-        "6",
-        "8"
+        "$5$",
+        "$4$",
+        "$6$",
+        "$8$"
       ],
       "correct": 0,
       "hint": "Count the sides carefully. This shape is called a pentagon."
@@ -101,13 +101,13 @@
       "question": "What is the area of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">7 cm</text></svg>",
       "answers": [
-        "28 cm²",
-        "49 cm²",
-        "21 cm²",
-        "14 cm²"
+        "$28 \\text{ cm}^2$",
+        "$49 \\text{ cm}^2$",
+        "$21 \\text{ cm}^2$",
+        "$14 \\text{ cm}^2$"
       ],
       "correct": 1,
-      "hint": "Area of square = side × side"
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$"
     },
     {
       "id": 9,
@@ -120,7 +120,7 @@
         "Straight"
       ],
       "correct": 2,
-      "hint": "An angle greater than 90° but less than 180° is called what?"
+      "hint": "An angle greater than $90°$ but less than $180°$ is called what?"
     },
     {
       "id": 10,
@@ -140,36 +140,36 @@
       "question": "What is the missing angle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 80 A 20 20 0 0 1 120 100\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 80 100 A 20 20 0 0 1 100 80\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"90\" font-size=\"14\" fill=\"#16A34A\">?</text><text x=\"65\" y=\"90\" font-size=\"14\" fill=\"#EF4444\">55°</text></svg>",
       "answers": [
-        "125°",
-        "35°",
-        "45°",
-        "55°"
+        "$125°$",
+        "$35°$",
+        "$45°$",
+        "$55°$"
       ],
       "correct": 1,
-      "hint": "Angles on a straight line add up to 180°. If one side is 90°..."
+      "hint": "Angles on a straight line add up to $180°$. If one side is $90°$..."
     },
     {
       "id": 12,
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"140\" viewBox=\"0 0 200 140\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"90\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"125\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"190\" y=\"70\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">7 cm</text></svg>",
       "answers": [
-        "34 cm²",
-        "17 cm²",
-        "35 cm²",
-        "70 cm²"
+        "$34 \\text{ cm}^2$",
+        "$17 \\text{ cm}^2$",
+        "$35 \\text{ cm}^2$",
+        "$70 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Area = length × width"
+      "hint": "Area $= \\text{length} \\times \\text{width}$"
     },
     {
       "id": 13,
       "question": "How many faces does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
       "answers": [
-        "8",
-        "12",
-        "6",
-        "4"
+        "$8$",
+        "$12$",
+        "$6$",
+        "$4$"
       ],
       "correct": 2,
       "hint": "A cube has square faces on all sides - top, bottom, front, back, left, right."
@@ -179,10 +179,10 @@
       "question": "What is the perimeter of this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "21 cm",
-        "27 cm",
-        "18 cm",
-        "24 cm"
+        "$21$ cm",
+        "$27$ cm",
+        "$18$ cm",
+        "$24$ cm"
       ],
       "correct": 3,
       "hint": "Add all three sides together."
@@ -205,13 +205,13 @@
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"20,130 180,130 20,30\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">8 cm</text><text x=\"10\" y=\"85\" font-size=\"14\" fill=\"#374151\">5 cm</text><path d=\"M 20 110 L 35 110 L 35 130\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"1\"/></svg>",
       "answers": [
-        "13 cm²",
-        "26 cm²",
-        "40 cm²",
-        "20 cm²"
+        "$13 \\text{ cm}^2$",
+        "$26 \\text{ cm}^2$",
+        "$40 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$"
       ],
       "correct": 3,
-      "hint": "Area = (base × height) ÷ 2"
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$"
     },
     {
       "id": 17,
@@ -231,23 +231,23 @@
       "question": "What is the missing angle in this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"95\" y=\"50\" font-size=\"14\" fill=\"#EF4444\">?</text><text x=\"35\" y=\"140\" font-size=\"14\" fill=\"#374151\">60°</text><text x=\"150\" y=\"140\" font-size=\"14\" fill=\"#374151\">70°</text></svg>",
       "answers": [
-        "50°",
-        "130°",
-        "60°",
-        "70°"
+        "$50°$",
+        "$130°$",
+        "$60°$",
+        "$70°$"
       ],
       "correct": 0,
-      "hint": "Angles in a triangle add up to 180°."
+      "hint": "Angles in a triangle add up to $180°$."
     },
     {
       "id": 19,
       "question": "How many edges does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/></svg>",
       "answers": [
-        "12",
-        "10",
-        "8",
-        "6"
+        "$12$",
+        "$10$",
+        "$8$",
+        "$6$"
       ],
       "correct": 0,
       "hint": "Count the lines where two faces meet."
@@ -257,13 +257,13 @@
       "question": "What is the perimeter of this shape?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><path d=\"M 20 130 L 20 50 L 100 50 L 100 80 L 180 80 L 180 130 Z\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"10\" y=\"95\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"55\" y=\"45\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"105\" y=\"70\" font-size=\"12\" fill=\"#374151\">2</text><text x=\"135\" y=\"75\" font-size=\"12\" fill=\"#374151\">4</text><text x=\"185\" y=\"110\" font-size=\"12\" fill=\"#374151\">3</text><text x=\"100\" y=\"145\" font-size=\"12\" fill=\"#374151\">8</text></svg>",
       "answers": [
-        "18 cm",
-        "25 cm",
-        "24 cm",
-        "20 cm"
+        "$18$ cm",
+        "$25$ cm",
+        "$24$ cm",
+        "$20$ cm"
       ],
       "correct": 1,
-      "hint": "Add up all the outer edges: 4+4+2+4+3+8 = ?"
+      "hint": "Add up all the outer edges: $4+4+2+4+3+8 = ?$"
     },
     {
       "id": 21,
@@ -283,23 +283,23 @@
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">9 cm</text><text x=\"190\" y=\"65\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">4 cm</text></svg>",
       "answers": [
-        "13 cm²",
-        "36 cm²",
-        "26 cm²",
-        "18 cm²"
+        "$13 \\text{ cm}^2$",
+        "$36 \\text{ cm}^2$",
+        "$26 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$"
       ],
       "correct": 1,
-      "hint": "Area = length × width"
+      "hint": "Area $= \\text{length} \\times \\text{width}$"
     },
     {
       "id": 23,
       "question": "How many vertices does a cube have?",
       "svg": "<svg width=\"150\" height=\"150\" viewBox=\"0 0 150 150\"><polygon points=\"30,50 80,30 130,50 130,110 80,130 30,110\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"80\" y2=\"70\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"130\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"80\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"80\" cy=\"30\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"130\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"30\" cy=\"110\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"80\" cy=\"130\" r=\"4\" fill=\"#EF4444\"/><circle cx=\"130\" cy=\"110\" r=\"4\" fill=\"#EF4444\"/></svg>",
       "answers": [
-        "6",
-        "8",
-        "12",
-        "4"
+        "$6$",
+        "$8$",
+        "$12$",
+        "$4$"
       ],
       "correct": 1,
       "hint": "Vertices are the corners. Count the red dots and remember there are hidden ones!"
@@ -309,10 +309,10 @@
       "question": "What is a straight angle?",
       "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"3\"/><circle cx=\"100\" cy=\"50\" r=\"4\" fill=\"#EF4444\"/><path d=\"M 80 50 A 20 20 0 0 1 120 50\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"100\" y=\"35\" text-anchor=\"middle\" font-size=\"14\" fill=\"#EF4444\">?°</text></svg>",
       "answers": [
-        "180°",
-        "360°",
-        "90°",
-        "270°"
+        "$180°$",
+        "$360°$",
+        "$90°$",
+        "$270°$"
       ],
       "correct": 0,
       "hint": "A straight line makes what angle?"
@@ -322,26 +322,26 @@
       "question": "What is the perimeter of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">9 cm</text></svg>",
       "answers": [
-        "36 cm",
-        "18 cm",
-        "81 cm",
-        "27 cm"
+        "$36$ cm",
+        "$18$ cm",
+        "$81$ cm",
+        "$27$ cm"
       ],
       "correct": 0,
-      "hint": "Perimeter of square = 4 × side"
+      "hint": "Perimeter of square $= 4 \\times \\text{side}$"
     },
     {
       "id": 26,
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">12 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">8 cm</text></svg>",
       "answers": [
-        "48 cm²",
-        "24 cm²",
-        "20 cm²",
-        "96 cm²"
+        "$48 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$",
+        "$96 \\text{ cm}^2$"
       ],
       "correct": 0,
-      "hint": "Area = (base × height) ÷ 2"
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$"
     },
     {
       "id": 27,
@@ -354,7 +354,7 @@
         "Acute"
       ],
       "correct": 3,
-      "hint": "Is 30° less than, equal to, or greater than 90°?"
+      "hint": "Is $30°$ less than, equal to, or greater than $90°$?"
     },
     {
       "id": 28,
@@ -374,26 +374,26 @@
       "question": "What is the missing angle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"100\" y1=\"130\" x2=\"100\" y2=\"20\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"130\" x2=\"180\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"130\" x2=\"20\" y2=\"130\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 110 A 20 20 0 0 1 120 130\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 80 130 A 20 20 0 0 1 100 110\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"120\" font-size=\"14\" fill=\"#16A34A\">?</text><text x=\"65\" y=\"120\" font-size=\"14\" fill=\"#EF4444\">65°</text></svg>",
       "answers": [
-        "35°",
-        "25°",
-        "115°",
-        "90°"
+        "$35°$",
+        "$25°$",
+        "$115°$",
+        "$90°$"
       ],
       "correct": 1,
-      "hint": "These two angles make a right angle (90°). What is 90° - 65°?"
+      "hint": "These two angles make a right angle ($90°$). What is $90° - 65°$?"
     },
     {
       "id": 30,
       "question": "What is the area of this square?",
       "svg": "<svg width=\"160\" height=\"160\" viewBox=\"0 0 160 160\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"120\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><text x=\"80\" y=\"155\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">5 cm</text></svg>",
       "answers": [
-        "10 cm²",
-        "25 cm²",
-        "15 cm²",
-        "20 cm²"
+        "$10 \\text{ cm}^2$",
+        "$25 \\text{ cm}^2$",
+        "$15 \\text{ cm}^2$",
+        "$20 \\text{ cm}^2$"
       ],
       "correct": 1,
-      "hint": "Area of square = side × side"
+      "hint": "Area of square $= \\text{side} \\times \\text{side}$"
     },
     {
       "id": 31,
@@ -413,13 +413,13 @@
       "question": "What is the perimeter of this rectangle?",
       "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><rect x=\"20\" y=\"15\" width=\"160\" height=\"60\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">15 cm</text><text x=\"190\" y=\"50\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">3 cm</text></svg>",
       "answers": [
-        "45 cm",
-        "18 cm",
-        "36 cm",
-        "30 cm"
+        "$45$ cm",
+        "$18$ cm",
+        "$36$ cm",
+        "$30$ cm"
       ],
       "correct": 2,
-      "hint": "Perimeter = 2 × (length + width)"
+      "hint": "Perimeter $= 2 \\times (\\text{length} + \\text{width})$"
     },
     {
       "id": 33,
@@ -439,10 +439,10 @@
       "question": "What is the sum of angles in a triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"95\" y=\"55\" font-size=\"14\" fill=\"#374151\">a</text><text x=\"40\" y=\"140\" font-size=\"14\" fill=\"#374151\">b</text><text x=\"150\" y=\"140\" font-size=\"14\" fill=\"#374151\">c</text><text x=\"100\" y=\"175\" text-anchor=\"middle\" font-size=\"14\" fill=\"#EF4444\">a + b + c = ?</text></svg>",
       "answers": [
-        "180°",
-        "90°",
-        "360°",
-        "270°"
+        "$180°$",
+        "$90°$",
+        "$360°$",
+        "$270°$"
       ],
       "correct": 0,
       "hint": "All triangles have angles that add up to this amount."
@@ -452,10 +452,10 @@
       "question": "What is the area of this rectangle?",
       "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"80\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"100\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">6 cm</text><text x=\"190\" y=\"65\" text-anchor=\"start\" font-size=\"14\" fill=\"#374151\">6 cm</text></svg>",
       "answers": [
-        "36 cm²",
-        "24 cm²",
-        "18 cm²",
-        "12 cm²"
+        "$36 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$",
+        "$18 \\text{ cm}^2$",
+        "$12 \\text{ cm}^2$"
       ],
       "correct": 0,
       "hint": "Wait - this rectangle has equal sides! It's actually a square."
@@ -478,10 +478,10 @@
       "question": "How many sides does a hexagon have?",
       "svg": "<svg width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><polygon points=\"90,15 155,50 155,120 90,155 25,120 25,50\" fill=\"#FCE7F3\" stroke=\"#EC4899\" stroke-width=\"2\"/></svg>",
       "answers": [
-        "6",
-        "8",
-        "5",
-        "7"
+        "$6$",
+        "$8$",
+        "$5$",
+        "$7$"
       ],
       "correct": 0,
       "hint": "Hex means six in Greek."
@@ -491,23 +491,23 @@
       "question": "What is the area of this triangle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><polygon points=\"100,20 20,130 180,130\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"130\" stroke=\"#F59E0B\" stroke-width=\"1\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"145\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">14 cm</text><text x=\"115\" y=\"80\" font-size=\"14\" fill=\"#374151\">10 cm</text></svg>",
       "answers": [
-        "70 cm²",
-        "140 cm²",
-        "35 cm²",
-        "24 cm²"
+        "$70 \\text{ cm}^2$",
+        "$140 \\text{ cm}^2$",
+        "$35 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$"
       ],
       "correct": 0,
-      "hint": "Area = (base × height) ÷ 2"
+      "hint": "Area $= \\frac{\\text{base} \\times \\text{height}}{2}$"
     },
     {
       "id": 39,
       "question": "What is the perimeter of this triangle?",
       "svg": "<svg width=\"200\" height=\"180\" viewBox=\"0 0 200 180\"><polygon points=\"100,20 20,150 180,150\" fill=\"#FEF3C7\" stroke=\"#F59E0B\" stroke-width=\"2\"/><text x=\"50\" y=\"95\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"145\" y=\"95\" font-size=\"14\" fill=\"#374151\">10 cm</text><text x=\"100\" y=\"170\" text-anchor=\"middle\" font-size=\"14\" fill=\"#374151\">10 cm</text></svg>",
       "answers": [
-        "40 cm",
-        "100 cm",
-        "20 cm",
-        "30 cm"
+        "$40$ cm",
+        "$100$ cm",
+        "$20$ cm",
+        "$30$ cm"
       ],
       "correct": 3,
       "hint": "Add all three sides."
@@ -517,13 +517,13 @@
       "question": "What is the missing angle?",
       "svg": "<svg width=\"200\" height=\"150\" viewBox=\"0 0 200 150\"><line x1=\"20\" y1=\"100\" x2=\"180\" y2=\"100\" stroke=\"#4F46E5\" stroke-width=\"3\"/><line x1=\"100\" y1=\"100\" x2=\"150\" y2=\"30\" stroke=\"#4F46E5\" stroke-width=\"3\"/><path d=\"M 100 80 A 20 20 0 0 1 118 93\" fill=\"none\" stroke=\"#16A34A\" stroke-width=\"2\"/><path d=\"M 118 107 A 20 20 0 0 1 100 120\" fill=\"none\" stroke=\"#EF4444\" stroke-width=\"2\"/><text x=\"125\" y=\"85\" font-size=\"14\" fill=\"#16A34A\">50°</text><text x=\"85\" y=\"125\" font-size=\"14\" fill=\"#EF4444\">?</text></svg>",
       "answers": [
-        "50°",
-        "140°",
-        "40°",
-        "130°"
+        "$50°$",
+        "$140°$",
+        "$40°$",
+        "$130°$"
       ],
       "correct": 3,
-      "hint": "Angles on a straight line add up to 180°."
+      "hint": "Angles on a straight line add up to $180°$."
     }
   ],
   "access": [

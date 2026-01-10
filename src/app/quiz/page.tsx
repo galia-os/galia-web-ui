@@ -7,6 +7,7 @@ import Timer from "@/components/Timer";
 import CircularTimer from "@/components/CircularTimer";
 import ProgressBar from "@/components/ProgressBar";
 import AIHelper from "@/components/AIHelper";
+import MathText from "@/components/MathText";
 import { QuizData, User, Mistake } from "@/lib/types";
 
 interface QuizState {
@@ -575,7 +576,7 @@ function QuizContent() {
                 <span className="text-2xl">💡</span>
                 <div>
                   <p className="font-semibold text-amber-800 mb-1">Hint</p>
-                  <p className="text-amber-700">{currentQuestion.hint}</p>
+                  <p className="text-amber-700"><MathText text={currentQuestion.hint} /></p>
                 </div>
               </div>
             </div>

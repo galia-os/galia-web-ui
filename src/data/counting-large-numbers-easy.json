@@ -1,0 +1,310 @@
+{
+  "theme": "Counting Large Numbers",
+  "themeId": "counting-large-numbers",
+  "level": "easy",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What number comes right after 29?",
+      "answers": ["28", "30", "39", "31"],
+      "correct": 1,
+      "hint": "When you count past 29, you move to a new group of ten. What is that group called?"
+    },
+    {
+      "id": 2,
+      "question": "What number comes right after 49?",
+      "answers": ["50", "48", "59", "40"],
+      "correct": 0,
+      "hint": "After the forties come the... what? Count one more after 49."
+    },
+    {
+      "id": 3,
+      "question": "What number comes right after 99?",
+      "answers": ["98", "109", "100", "199"],
+      "correct": 2,
+      "hint": "This is a big jump! After ninety-nine comes a number with three digits."
+    },
+    {
+      "id": 4,
+      "question": "What number comes right after 199?",
+      "answers": ["198", "299", "190", "200"],
+      "correct": 3,
+      "hint": "After one hundred ninety-nine, you reach a new hundred. Which one?"
+    },
+    {
+      "id": 5,
+      "question": "What number comes right after 59?",
+      "answers": ["69", "58", "60", "50"],
+      "correct": 2,
+      "hint": "You're leaving the fifties and entering a new group of ten."
+    },
+    {
+      "id": 6,
+      "question": "What number comes right after 79?",
+      "answers": ["78", "89", "70", "80"],
+      "correct": 3,
+      "hint": "After seventy-nine, you start a new group. The seventies become the..."
+    },
+    {
+      "id": 7,
+      "question": "What digit is in the tens place of 456?",
+      "answers": ["5", "6", "4", "56"],
+      "correct": 0,
+      "hint": "The tens place is the middle digit. It tells you how many groups of ten."
+    },
+    {
+      "id": 8,
+      "question": "What digit is in the hundreds place of 738?",
+      "answers": ["3", "7", "73", "8"],
+      "correct": 1,
+      "hint": "The hundreds place is the first digit on the left in a 3-digit number."
+    },
+    {
+      "id": 9,
+      "question": "What number comes right after 39?",
+      "answers": ["38", "49", "40", "30"],
+      "correct": 2,
+      "hint": "You're leaving the thirties. What group of ten comes next?"
+    },
+    {
+      "id": 10,
+      "question": "Which number is greater: 145 or 154?",
+      "answers": ["145", "154", "They are equal", "Cannot tell"],
+      "correct": 1,
+      "hint": "Both start with 1 in the hundreds. Look at the tens place to compare."
+    },
+    {
+      "id": 11,
+      "question": "What number comes right after 299?",
+      "answers": ["300", "298", "399", "290"],
+      "correct": 0,
+      "hint": "After two hundred ninety-nine comes a new hundred. Which one?"
+    },
+    {
+      "id": 12,
+      "question": "What digit is in the ones place of 582?",
+      "answers": ["5", "8", "2", "82"],
+      "correct": 2,
+      "hint": "The ones place is always the last digit on the right."
+    },
+    {
+      "id": 13,
+      "question": "What number comes right after 69?",
+      "answers": ["68", "70", "79", "60"],
+      "correct": 1,
+      "hint": "After the sixties, you start counting in a new group of ten."
+    },
+    {
+      "id": 14,
+      "question": "Which number is greater: 89 or 98?",
+      "answers": ["89", "They are equal", "Cannot tell", "98"],
+      "correct": 3,
+      "hint": "Compare the tens digits first. Which one has more tens?"
+    },
+    {
+      "id": 15,
+      "question": "What number comes right after 109?",
+      "answers": ["100", "119", "110", "108"],
+      "correct": 2,
+      "hint": "You're crossing from the one hundred and somethings to one hundred and ten."
+    },
+    {
+      "id": 16,
+      "question": "How do you read the number 347?",
+      "answers": [
+        "Thirty-four seven",
+        "Three hundred forty-seven",
+        "Three four seven",
+        "Three hundred and seven forty"
+      ],
+      "correct": 1,
+      "hint": "Start with the hundreds, then the tens, then the ones."
+    },
+    {
+      "id": 17,
+      "question": "What number comes right after 89?",
+      "answers": ["90", "99", "88", "80"],
+      "correct": 0,
+      "hint": "After eighty-nine, you move to a new group of ten. The nineties!"
+    },
+    {
+      "id": 18,
+      "question": "What digit is in the tens place of 925?",
+      "answers": ["9", "5", "2", "25"],
+      "correct": 2,
+      "hint": "The tens place is the middle digit in a 3-digit number."
+    },
+    {
+      "id": 19,
+      "question": "What number comes right after 399?",
+      "answers": ["398", "499", "390", "400"],
+      "correct": 3,
+      "hint": "After three hundred ninety-nine, you reach a new hundred."
+    },
+    {
+      "id": 20,
+      "question": "Which number is smaller: 234 or 243?",
+      "answers": ["234", "243", "They are equal", "Cannot tell"],
+      "correct": 0,
+      "hint": "The hundreds are the same. Compare the tens place next."
+    },
+    {
+      "id": 21,
+      "question": "What number comes right after 119?",
+      "answers": ["118", "129", "110", "120"],
+      "correct": 3,
+      "hint": "After one hundred nineteen, you move to one hundred twenty."
+    },
+    {
+      "id": 22,
+      "question": "What digit is in the hundreds place of 504?",
+      "answers": ["5", "4", "0", "50"],
+      "correct": 0,
+      "hint": "Look at the first digit on the left. That shows the hundreds."
+    },
+    {
+      "id": 23,
+      "question": "What number comes right after 499?",
+      "answers": ["498", "500", "599", "490"],
+      "correct": 1,
+      "hint": "Four hundred ninety-nine plus one equals... a nice round number!"
+    },
+    {
+      "id": 24,
+      "question": "How do you read the number 215?",
+      "answers": [
+        "Twenty-one five",
+        "Two one five",
+        "Two hundred fifteen",
+        "Two hundred fifty-one"
+      ],
+      "correct": 2,
+      "hint": "Start by saying the hundreds, then the rest of the number."
+    },
+    {
+      "id": 25,
+      "question": "What number comes right after 149?",
+      "answers": ["148", "159", "140", "150"],
+      "correct": 3,
+      "hint": "After one hundred forty-nine, you reach one hundred... what?"
+    },
+    {
+      "id": 26,
+      "question": "Which number is greater: 305 or 350?",
+      "answers": ["305", "350", "They are equal", "Cannot tell"],
+      "correct": 1,
+      "hint": "Both have 3 in the hundreds. Look at the tens place to decide."
+    },
+    {
+      "id": 27,
+      "question": "What digit is in the ones place of 739?",
+      "answers": ["9", "3", "7", "39"],
+      "correct": 0,
+      "hint": "The ones digit is the last one on the right side."
+    },
+    {
+      "id": 28,
+      "question": "What number comes right after 599?",
+      "answers": ["598", "699", "600", "590"],
+      "correct": 2,
+      "hint": "After five hundred ninety-nine comes a brand new hundred."
+    },
+    {
+      "id": 29,
+      "question": "What number comes right after 189?",
+      "answers": ["188", "199", "180", "190"],
+      "correct": 3,
+      "hint": "After one hundred eighty-nine, you move to one hundred ninety."
+    },
+    {
+      "id": 30,
+      "question": "How do you read the number 408?",
+      "answers": [
+        "Four hundred eight",
+        "Forty-eight",
+        "Four zero eight",
+        "Four hundred eighty"
+      ],
+      "correct": 0,
+      "hint": "There are 4 hundreds, 0 tens, and 8 ones. How would you say that?"
+    },
+    {
+      "id": 31,
+      "question": "What number comes right after 129?",
+      "answers": ["139", "130", "128", "120"],
+      "correct": 1,
+      "hint": "After one hundred twenty-nine, you start the one hundred thirties."
+    },
+    {
+      "id": 32,
+      "question": "Which number is smaller: 467 or 476?",
+      "answers": ["476", "467", "They are equal", "Cannot tell"],
+      "correct": 1,
+      "hint": "The hundreds are the same. Compare the tens digits."
+    },
+    {
+      "id": 33,
+      "question": "What digit is in the tens place of 302?",
+      "answers": ["3", "2", "30", "0"],
+      "correct": 3,
+      "hint": "Look at the middle digit. Even if it's zero, that's still the tens place!"
+    },
+    {
+      "id": 34,
+      "question": "What number comes right after 699?",
+      "answers": ["698", "700", "799", "690"],
+      "correct": 1,
+      "hint": "After six hundred ninety-nine, you reach a new hundred."
+    },
+    {
+      "id": 35,
+      "question": "What number comes right after 159?",
+      "answers": ["158", "169", "160", "150"],
+      "correct": 2,
+      "hint": "After one hundred fifty-nine comes one hundred... what group of ten?"
+    },
+    {
+      "id": 36,
+      "question": "How do you read the number 620?",
+      "answers": [
+        "Six hundred twenty",
+        "Sixty-two",
+        "Six two zero",
+        "Six hundred two"
+      ],
+      "correct": 0,
+      "hint": "There are 6 hundreds, 2 tens, and 0 ones. Say it in order!"
+    },
+    {
+      "id": 37,
+      "question": "Which number is greater: 199 or 201?",
+      "answers": ["199", "They are equal", "Cannot tell", "201"],
+      "correct": 3,
+      "hint": "Compare the hundreds place first. One number has 1 hundred, the other has 2."
+    },
+    {
+      "id": 38,
+      "question": "What number comes right after 799?",
+      "answers": ["800", "899", "798", "790"],
+      "correct": 0,
+      "hint": "Seven hundred ninety-nine plus one is a nice round number."
+    },
+    {
+      "id": 39,
+      "question": "What digit is in the hundreds place of 250?",
+      "answers": ["5", "0", "2", "25"],
+      "correct": 2,
+      "hint": "The hundreds place is the leftmost digit in a 3-digit number."
+    },
+    {
+      "id": 40,
+      "question": "What number comes right after 899?",
+      "answers": ["898", "999", "890", "900"],
+      "correct": 3,
+      "hint": "After eight hundred ninety-nine, you reach the nine hundreds!"
+    }
+  ],
+  "access": [2]
+}

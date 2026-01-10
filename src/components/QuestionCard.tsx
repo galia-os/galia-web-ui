@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { Question } from "@/lib/types";
+import MathText from "./MathText";
 
 interface QuestionCardProps {
   question: Question;
@@ -38,7 +39,7 @@ export default function QuestionCard({
     <div className="flex flex-col gap-6">
       <div className="rounded-2xl bg-white p-6 shadow-lg md:p-8">
         <h2 className="text-center text-2xl font-bold text-gray-800 md:text-3xl">
-          {question.question}
+          <MathText text={question.question} />
         </h2>
         {question.svg && (
           <div
@@ -76,7 +77,7 @@ export default function QuestionCard({
               >
                 {answerLabels[index]}
               </span>
-              <span>{answer}</span>
+              <MathText text={answer} />
             </button>
           );
         })}

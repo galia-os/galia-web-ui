@@ -1,0 +1,295 @@
+{
+  "theme": "Counting Large Numbers",
+  "themeId": "counting-large-numbers",
+  "level": "medium",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What number comes right after 999?",
+      "answers": ["1000", "9910", "1001", "990"],
+      "correct": 0,
+      "hint": "When all the digits are 9, they all roll over to 0 and you add a new digit at the front."
+    },
+    {
+      "id": 2,
+      "question": "What is 1 more than 4,999?",
+      "answers": ["5,000", "4,998", "5,999", "4,910"],
+      "correct": 0,
+      "hint": "Adding 1 to 999 gives 1000. What happens when you add 1 to 4,999?"
+    },
+    {
+      "id": 3,
+      "question": "What is 1 less than 3,000?",
+      "answers": ["3,001", "2,900", "2,999", "2,990"],
+      "correct": 2,
+      "hint": "Think about counting backwards from 3,000. What number comes just before it?"
+    },
+    {
+      "id": 4,
+      "question": "What is 10 more than 1,990?",
+      "answers": ["1,991", "2,990", "1,900", "2,000"],
+      "correct": 3,
+      "hint": "1,990 + 10 means the tens digit changes. What happens when 90 becomes 100?"
+    },
+    {
+      "id": 5,
+      "question": "What is 100 more than 2,900?",
+      "answers": ["2,901", "3,900", "3,000", "2,910"],
+      "correct": 2,
+      "hint": "Adding 100 changes the hundreds place. What happens when 900 becomes 1000?"
+    },
+    {
+      "id": 6,
+      "question": "What number comes right before 5,000?",
+      "answers": ["4,999", "5,001", "4,900", "4,990"],
+      "correct": 0,
+      "hint": "Count backwards by 1. What is 5,000 minus 1?"
+    },
+    {
+      "id": 7,
+      "question": "What is 10 less than 3,000?",
+      "answers": ["2,990", "2,000", "3,010", "2,900"],
+      "correct": 0,
+      "hint": "Taking away 10 from a round thousand crosses into the hundreds. Think carefully!"
+    },
+    {
+      "id": 8,
+      "question": "What is 100 less than 4,000?",
+      "answers": ["3,000", "4,100", "3,990", "3,900"],
+      "correct": 3,
+      "hint": "4,000 minus 100 means going back in the hundreds place from the thousands."
+    },
+    {
+      "id": 9,
+      "question": "Which digit is in the thousands place in 7,254?",
+      "answers": ["4", "5", "7", "2"],
+      "correct": 2,
+      "hint": "The thousands place is the leftmost digit in a 4-digit number."
+    },
+    {
+      "id": 10,
+      "question": "What is 1 more than 9,999?",
+      "answers": ["9,910", "10,000", "9,998", "10,001"],
+      "correct": 1,
+      "hint": "All digits are 9. When you add 1, what new place value do you need?"
+    },
+    {
+      "id": 11,
+      "question": "What is 10 more than 4,995?",
+      "answers": ["4,996", "5,095", "4,905", "5,005"],
+      "correct": 3,
+      "hint": "4,995 + 10 means the tens digit increases. Does it cause the hundreds to change too?"
+    },
+    {
+      "id": 12,
+      "question": "What number comes after 2,999?",
+      "answers": ["2,910", "3,999", "3,000", "2,990"],
+      "correct": 2,
+      "hint": "When 999 becomes 1000, the thousands digit goes up by 1."
+    },
+    {
+      "id": 13,
+      "question": "Which number is the greatest: 3,450, 3,540, 3,405, 3,504?",
+      "answers": ["3,450", "3,540", "3,405", "3,504"],
+      "correct": 1,
+      "hint": "Compare the hundreds place first since all have the same thousands digit."
+    },
+    {
+      "id": 14,
+      "question": "What is 100 more than 1,950?",
+      "answers": ["2,050", "1,960", "2,950", "1,850"],
+      "correct": 0,
+      "hint": "Adding 100 to 950 in the hundreds gives you more than 1000. Think about regrouping!"
+    },
+    {
+      "id": 15,
+      "question": "What is 1 less than 7,000?",
+      "answers": ["6,999", "6,990", "7,001", "6,900"],
+      "correct": 0,
+      "hint": "Subtracting 1 from a round thousand gives you three 9s in a row."
+    },
+    {
+      "id": 16,
+      "question": "What is 10 less than 5,100?",
+      "answers": ["5,000", "5,110", "5,090", "4,100"],
+      "correct": 2,
+      "hint": "Taking 10 away from 100 in the tens and ones places gives 90."
+    },
+    {
+      "id": 17,
+      "question": "Which digit is in the hundreds place in 6,382?",
+      "answers": ["6", "3", "8", "2"],
+      "correct": 1,
+      "hint": "Count the places from right to left: ones, tens, hundreds..."
+    },
+    {
+      "id": 18,
+      "question": "What number is 10 more than 2,090?",
+      "answers": ["2,100", "2,190", "2,091", "2,080"],
+      "correct": 0,
+      "hint": "90 + 10 = 100. What happens to the hundreds digit?"
+    },
+    {
+      "id": 19,
+      "question": "What is 100 less than 5,000?",
+      "answers": ["4,000", "5,100", "4,990", "4,900"],
+      "correct": 3,
+      "hint": "5,000 - 100 means going back 1 in the hundreds from the thousands boundary."
+    },
+    {
+      "id": 20,
+      "question": "What number comes right after 6,999?",
+      "answers": ["6,910", "7,999", "6,990", "7,000"],
+      "correct": 3,
+      "hint": "Adding 1 to 999 rolls over to 000, and the thousands place increases."
+    },
+    {
+      "id": 21,
+      "question": "Which number is the smallest: 8,120, 8,012, 8,210, 8,102?",
+      "answers": ["8,120", "8,012", "8,210", "8,102"],
+      "correct": 1,
+      "hint": "All start with 8 thousand. Look at the hundreds place to find the smallest."
+    },
+    {
+      "id": 22,
+      "question": "What is 10 more than 3,990?",
+      "answers": ["4,000", "3,991", "4,090", "3,900"],
+      "correct": 0,
+      "hint": "990 + 10 = 1000. This affects the thousands digit!"
+    },
+    {
+      "id": 23,
+      "question": "What is 1 less than 2,010?",
+      "answers": ["2,011", "2,000", "1,010", "2,009"],
+      "correct": 3,
+      "hint": "Subtracting 1 from 10 gives 9. Does the hundreds place change?"
+    },
+    {
+      "id": 24,
+      "question": "What value does the 5 have in 5,743?",
+      "answers": ["50", "500", "5,000", "5"],
+      "correct": 2,
+      "hint": "The 5 is in the thousands place. What is 5 thousands worth?"
+    },
+    {
+      "id": 25,
+      "question": "What is 100 more than 9,900?",
+      "answers": ["9,910", "10,000", "9,901", "10,900"],
+      "correct": 1,
+      "hint": "900 + 100 = 1000. You will need to regroup into ten thousands!"
+    },
+    {
+      "id": 26,
+      "question": "What number comes right before 8,000?",
+      "answers": ["8,001", "7,990", "7,900", "7,999"],
+      "correct": 3,
+      "hint": "One less than 8,000 ends in 999."
+    },
+    {
+      "id": 27,
+      "question": "What is 10 less than 6,000?",
+      "answers": ["5,900", "5,990", "6,010", "5,000"],
+      "correct": 1,
+      "hint": "6,000 - 10 crosses the thousands boundary. Think about borrowing!"
+    },
+    {
+      "id": 28,
+      "question": "Order these from least to greatest: 4,892, 4,829, 4,928, 4,289",
+      "answers": [
+        "4,289, 4,829, 4,892, 4,928",
+        "4,829, 4,289, 4,892, 4,928",
+        "4,289, 4,892, 4,829, 4,928",
+        "4,928, 4,892, 4,829, 4,289"
+      ],
+      "correct": 0,
+      "hint": "Compare hundreds first (all have 4 thousands), then tens if needed."
+    },
+    {
+      "id": 29,
+      "question": "What is 100 less than 3,100?",
+      "answers": ["3,000", "3,200", "2,100", "3,090"],
+      "correct": 0,
+      "hint": "3,100 minus 100 affects the hundreds place. 1 hundred minus 1 hundred equals?"
+    },
+    {
+      "id": 30,
+      "question": "What is 1 more than 5,099?",
+      "answers": ["5,199", "5,100", "5,098", "5,010"],
+      "correct": 1,
+      "hint": "Adding 1 to 99 gives 100. The hundreds digit will increase!"
+    },
+    {
+      "id": 31,
+      "question": "Which digit is in the tens place in 9,465?",
+      "answers": ["9", "4", "6", "5"],
+      "correct": 2,
+      "hint": "The tens place is the second digit from the right."
+    },
+    {
+      "id": 32,
+      "question": "What is 10 more than 7,999?",
+      "answers": ["7,909", "8,099", "7,990", "8,009"],
+      "correct": 3,
+      "hint": "Adding 10 to 999 gives 1009. What is 7,000 + 1,009?"
+    },
+    {
+      "id": 33,
+      "question": "What number is 100 more than 6,090?",
+      "answers": ["7,090", "6,190", "6,100", "6,990"],
+      "correct": 1,
+      "hint": "090 + 100 = 190. The thousands digit stays the same."
+    },
+    {
+      "id": 34,
+      "question": "What is 1 less than 4,100?",
+      "answers": ["4,000", "4,101", "4,099", "3,100"],
+      "correct": 2,
+      "hint": "Taking 1 from 100 leaves 99. The thousands stays at 4."
+    },
+    {
+      "id": 35,
+      "question": "What value does the 3 have in 2,365?",
+      "answers": ["3", "30", "300", "3,000"],
+      "correct": 2,
+      "hint": "The 3 is in the hundreds place. Three hundreds equals..."
+    },
+    {
+      "id": 36,
+      "question": "What is 10 less than 4,010?",
+      "answers": ["4,020", "4,000", "3,010", "3,910"],
+      "correct": 1,
+      "hint": "Subtracting 10 from 4,010 only affects the tens and ones places."
+    },
+    {
+      "id": 37,
+      "question": "Which number is greater: 6,789 or 6,798?",
+      "answers": ["6,789", "They are equal", "Cannot tell", "6,798"],
+      "correct": 3,
+      "hint": "Both have 6 thousands, 7 hundreds. Compare the tens place!"
+    },
+    {
+      "id": 38,
+      "question": "What number comes after 1,099?",
+      "answers": ["1,199", "2,099", "1,100", "1,090"],
+      "correct": 2,
+      "hint": "99 + 1 = 100. The hundreds place goes up by 1."
+    },
+    {
+      "id": 39,
+      "question": "What is 100 more than 8,950?",
+      "answers": ["8,960", "9,050", "9,950", "8,850"],
+      "correct": 1,
+      "hint": "950 + 100 = 1050. This will affect the thousands digit!"
+    },
+    {
+      "id": 40,
+      "question": "What is 10 less than 1,000?",
+      "answers": ["900", "999", "1,010", "990"],
+      "correct": 3,
+      "hint": "1,000 - 10 crosses into the hundreds. What is 1000 minus 10?"
+    }
+  ],
+  "access": [2]
+}

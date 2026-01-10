@@ -1,0 +1,290 @@
+{
+  "theme": "Time and Calendar",
+  "themeId": "time-and-calendar",
+  "level": "hard",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many weeks are in one year?",
+      "answers": ["52 weeks", "50 weeks", "48 weeks", "54 weeks"],
+      "correct": 0,
+      "hint": "There are 365 days in a year. How many groups of 7 days fit into 365?"
+    },
+    {
+      "id": 2,
+      "question": "How many days are in one year?",
+      "answers": ["360 days", "365 days", "350 days", "370 days"],
+      "correct": 1,
+      "hint": "Think about how many days pass from one birthday to the next!"
+    },
+    {
+      "id": 3,
+      "question": "If it is 3:15, what time will it be in 2 hours?",
+      "answers": ["4:15", "5:00", "5:15", "6:15"],
+      "correct": 2,
+      "hint": "Add the hours first. The minutes stay the same when you only add hours."
+    },
+    {
+      "id": 4,
+      "question": "How many hours are in 2 days?",
+      "answers": ["24 hours", "36 hours", "42 hours", "48 hours"],
+      "correct": 3,
+      "hint": "One day has 24 hours. What is 24 + 24?"
+    },
+    {
+      "id": 5,
+      "question": "What time does the clock show if the hour hand is on 7 and the minute hand is on 3?",
+      "answers": ["7:15", "7:03", "3:35", "3:07"],
+      "correct": 0,
+      "hint": "The minute hand on 3 means 3 groups of 5 minutes. Count by 5s: 5, 10, ..."
+    },
+    {
+      "id": 6,
+      "question": "How many days are in 3 weeks?",
+      "answers": ["14 days", "21 days", "28 days", "24 days"],
+      "correct": 1,
+      "hint": "One week has 7 days. What is 7 + 7 + 7?"
+    },
+    {
+      "id": 7,
+      "question": "If today is Wednesday, what day will it be in 5 days?",
+      "answers": ["Sunday", "Saturday", "Monday", "Tuesday"],
+      "correct": 2,
+      "hint": "Count forward from Wednesday: Thursday (1), Friday (2), Saturday (3)..."
+    },
+    {
+      "id": 8,
+      "question": "It is 10:30 AM. What time will it be in 1 hour and 30 minutes?",
+      "answers": ["11:30 AM", "11:00 AM", "12:30 PM", "12:00 PM"],
+      "correct": 3,
+      "hint": "Add 1 hour first to get 11:30. Then add 30 more minutes."
+    },
+    {
+      "id": 9,
+      "question": "How many months have exactly 30 days?",
+      "answers": ["4 months", "5 months", "6 months", "3 months"],
+      "correct": 0,
+      "hint": "Remember: 30 days has September, April, June, and... which other month?"
+    },
+    {
+      "id": 10,
+      "question": "What time does the clock show if the hour hand is on 11 and the minute hand is on 6?",
+      "answers": ["6:55", "11:30", "11:06", "6:11"],
+      "correct": 1,
+      "hint": "The minute hand on 6 means 6 groups of 5 minutes. What is 6 times 5?"
+    },
+    {
+      "id": 11,
+      "question": "If it is 4:45, what time will it be in 30 minutes?",
+      "answers": ["5:00", "4:75", "5:15", "5:45"],
+      "correct": 2,
+      "hint": "45 minutes plus 30 minutes equals 75 minutes. But there are only 60 minutes in an hour!"
+    },
+    {
+      "id": 12,
+      "question": "How many hours are in 3 days?",
+      "answers": ["48 hours", "60 hours", "84 hours", "72 hours"],
+      "correct": 3,
+      "hint": "Each day has 24 hours. What is 24 + 24 + 24?"
+    },
+    {
+      "id": 13,
+      "question": "March is the _____ month of the year.",
+      "answers": ["3rd", "2nd", "4th", "5th"],
+      "correct": 0,
+      "hint": "Count from January: January (1), February (2), March (?)."
+    },
+    {
+      "id": 14,
+      "question": "If today is Saturday, what day was it 3 days ago?",
+      "answers": ["Thursday", "Wednesday", "Tuesday", "Friday"],
+      "correct": 1,
+      "hint": "Count backward from Saturday: Friday (1 day ago), Thursday (2 days ago)..."
+    },
+    {
+      "id": 15,
+      "question": "How many days are in 4 weeks?",
+      "answers": ["21 days", "35 days", "28 days", "24 days"],
+      "correct": 2,
+      "hint": "One week has 7 days. Multiply 7 by 4."
+    },
+    {
+      "id": 16,
+      "question": "It is 2:40 PM. What time will it be in 25 minutes?",
+      "answers": ["2:65 PM", "3:15 PM", "2:55 PM", "3:05 PM"],
+      "correct": 3,
+      "hint": "40 + 25 = 65 minutes. Since 65 is more than 60, the hour changes!"
+    },
+    {
+      "id": 17,
+      "question": "How many months are in one year?",
+      "answers": ["12 months", "10 months", "11 months", "14 months"],
+      "correct": 0,
+      "hint": "Name them: January, February, March... keep counting until December."
+    },
+    {
+      "id": 18,
+      "question": "What time does the clock show if the hour hand is on 9 and the minute hand is on 9?",
+      "answers": ["9:09", "9:45", "9:54", "45:09"],
+      "correct": 1,
+      "hint": "The minute hand pointing to 9 means 9 groups of 5 minutes. What is 9 x 5?"
+    },
+    {
+      "id": 19,
+      "question": "If school starts at 8:00 AM and ends at 3:00 PM, how many hours is the school day?",
+      "answers": ["5 hours", "6 hours", "7 hours", "8 hours"],
+      "correct": 2,
+      "hint": "Count the hours from 8: 9, 10, 11, 12, 1, 2, 3. How many did you count?"
+    },
+    {
+      "id": 20,
+      "question": "How many days are in 5 weeks?",
+      "answers": ["30 days", "40 days", "42 days", "35 days"],
+      "correct": 3,
+      "hint": "Each week has 7 days. What is 5 x 7?"
+    },
+    {
+      "id": 21,
+      "question": "It is 6:50 AM. What time will it be in 20 minutes?",
+      "answers": ["7:10 AM", "6:70 AM", "7:00 AM", "7:20 AM"],
+      "correct": 0,
+      "hint": "50 + 20 = 70 minutes. Remember, 70 minutes = 1 hour and 10 minutes."
+    },
+    {
+      "id": 22,
+      "question": "November is the _____ month of the year.",
+      "answers": ["10th", "11th", "9th", "12th"],
+      "correct": 1,
+      "hint": "September is 9, October is 10, November is..."
+    },
+    {
+      "id": 23,
+      "question": "How many minutes are in 2 hours?",
+      "answers": ["100 minutes", "90 minutes", "120 minutes", "60 minutes"],
+      "correct": 2,
+      "hint": "One hour has 60 minutes. What is 60 + 60?"
+    },
+    {
+      "id": 24,
+      "question": "If a movie starts at 7:15 PM and is 2 hours long, what time does it end?",
+      "answers": ["9:00 PM", "9:30 PM", "10:15 PM", "9:15 PM"],
+      "correct": 3,
+      "hint": "Add 2 hours to 7:15. The minutes stay the same when adding full hours."
+    },
+    {
+      "id": 25,
+      "question": "How many days are in 2 weeks?",
+      "answers": ["14 days", "7 days", "10 days", "21 days"],
+      "correct": 0,
+      "hint": "One week has 7 days. What is 7 + 7?"
+    },
+    {
+      "id": 26,
+      "question": "What time does the clock show if the hour hand is on 4 and the minute hand is on 12?",
+      "answers": ["12:04", "4:00", "4:12", "12:20"],
+      "correct": 1,
+      "hint": "When the minute hand points to 12, it means exactly on the hour."
+    },
+    {
+      "id": 27,
+      "question": "If it is 11:45 AM, what time will it be in 30 minutes?",
+      "answers": ["12:00 PM", "11:75 AM", "12:15 PM", "12:30 PM"],
+      "correct": 2,
+      "hint": "45 + 30 = 75 minutes. That is 1 hour and 15 minutes. Add to 11:00."
+    },
+    {
+      "id": 28,
+      "question": "How many weeks are in 28 days?",
+      "answers": ["3 weeks", "5 weeks", "2 weeks", "4 weeks"],
+      "correct": 3,
+      "hint": "How many groups of 7 fit into 28? Try dividing 28 by 7."
+    },
+    {
+      "id": 29,
+      "question": "June is the _____ month of the year.",
+      "answers": ["6th", "5th", "7th", "8th"],
+      "correct": 0,
+      "hint": "April is 4th, May is 5th, June is..."
+    },
+    {
+      "id": 30,
+      "question": "It is 1:35 PM. What time will it be in 45 minutes?",
+      "answers": ["1:80 PM", "2:20 PM", "2:10 PM", "2:30 PM"],
+      "correct": 1,
+      "hint": "35 + 45 = 80 minutes. That is 1 hour and 20 minutes."
+    },
+    {
+      "id": 31,
+      "question": "How many days are in February during a regular year?",
+      "answers": ["30 days", "29 days", "28 days", "31 days"],
+      "correct": 2,
+      "hint": "February is the shortest month. In most years, it has how many days?"
+    },
+    {
+      "id": 32,
+      "question": "If today is the 15th of the month, what date was it one week ago?",
+      "answers": ["22nd", "7th", "9th", "8th"],
+      "correct": 3,
+      "hint": "One week = 7 days. Subtract 7 from 15."
+    },
+    {
+      "id": 33,
+      "question": "What time does the clock show if the hour hand is between 2 and 3, and the minute hand is on 6?",
+      "answers": ["2:30", "6:10", "6:15", "3:30"],
+      "correct": 0,
+      "hint": "If the hour hand is between 2 and 3, the hour is 2. The minute hand on 6 means 30 minutes."
+    },
+    {
+      "id": 34,
+      "question": "How many hours are in half a day?",
+      "answers": ["10 hours", "12 hours", "6 hours", "24 hours"],
+      "correct": 1,
+      "hint": "A full day has 24 hours. What is half of 24?"
+    },
+    {
+      "id": 35,
+      "question": "It is 9:20 AM. What time was it 35 minutes ago?",
+      "answers": ["8:55 AM", "9:55 AM", "8:45 AM", "8:35 AM"],
+      "correct": 2,
+      "hint": "Go back in time! 20 minutes - 35 minutes means borrowing from the hour."
+    },
+    {
+      "id": 36,
+      "question": "How many months have 31 days?",
+      "answers": ["6 months", "8 months", "5 months", "7 months"],
+      "correct": 3,
+      "hint": "January, March, May, July, August, October, December. Count them!"
+    },
+    {
+      "id": 37,
+      "question": "If class starts at 9:15 and lasts for 45 minutes, what time does class end?",
+      "answers": ["10:00", "9:45", "9:60", "10:15"],
+      "correct": 0,
+      "hint": "15 + 45 = 60 minutes. 60 minutes equals 1 full hour!"
+    },
+    {
+      "id": 38,
+      "question": "What day comes 10 days after Monday?",
+      "answers": ["Wednesday", "Thursday", "Friday", "Tuesday"],
+      "correct": 1,
+      "hint": "10 days = 1 week (7 days) + 3 more days. Count 3 days after Monday."
+    },
+    {
+      "id": 39,
+      "question": "How many minutes are in 1 hour and 30 minutes?",
+      "answers": ["80 minutes", "100 minutes", "90 minutes", "130 minutes"],
+      "correct": 2,
+      "hint": "Convert 1 hour to minutes first (60 minutes), then add the extra 30."
+    },
+    {
+      "id": 40,
+      "question": "If it takes 15 minutes to walk to school, and school starts at 8:00 AM, what is the latest time you should leave home?",
+      "answers": ["7:30 AM", "8:15 AM", "7:55 AM", "7:45 AM"],
+      "correct": 3,
+      "hint": "Work backward from 8:00 AM. Subtract the walking time."
+    }
+  ],
+  "access": [2]
+}

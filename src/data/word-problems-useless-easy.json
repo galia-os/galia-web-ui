@@ -202,7 +202,7 @@
     {
       "id": 28,
       "question": "A square has sides of 7 cm. It's drawn in black ink on white paper. What is its area?",
-      "answers": ["49 cm²", "21 cm²", "14 cm²", "28 cm²"],
+      "answers": ["$49 \\text{ cm}^2$", "$21 \\text{ cm}^2$", "$14 \\text{ cm}^2$", "$28 \\text{ cm}^2$"],
       "correct": 0,
       "hint": "Area of square = side × side. Ink and paper colors are distractions."
     },

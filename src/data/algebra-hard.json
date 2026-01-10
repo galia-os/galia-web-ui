@@ -7,483 +7,483 @@
   "questions": [
     {
       "id": 1,
-      "question": "Solve for x: 3(2x - 5) + 4 = 5(x + 2) - 3",
+      "question": "Solve for $x$: $x + 9 = 23$",
       "answers": [
-        "x = 8",
-        "x = 18",
-        "x = 12",
-        "x = 6"
+        "$x = 32$",
+        "$x = 14$",
+        "$x = 12$",
+        "$x = 15$"
       ],
       "correct": 1,
-      "hint": "Distribute on both sides, then collect x terms on one side and constants on the other."
+      "hint": "To isolate $x$, undo the addition by subtracting 9 from both sides. What is $23 - 9$?"
     },
     {
       "id": 2,
-      "question": "If 3a - 2b = 16 and a = 6, what is b?",
+      "question": "Solve for $n$: $5n = 45$",
       "answers": [
-        "b = 2",
-        "b = -1",
-        "b = 1",
-        "b = -2"
+        "$n = 8$",
+        "$n = 40$",
+        "$n = 9$",
+        "$n = 50$"
       ],
       "correct": 2,
-      "hint": "Substitute a = 6 into the equation, then isolate b. Watch the signs carefully."
+      "hint": "To undo multiplication by 5, divide both sides by 5. What is $45 \\div 5$?"
     },
     {
       "id": 3,
-      "question": "The sum of three consecutive odd numbers is 87. What is the largest number?",
+      "question": "Which expression means 'eight more than a number'?",
       "answers": [
-        "27",
-        "29",
-        "31",
-        "33"
+        "$8 - n$",
+        "$8n$",
+        "$\\frac{8}{n}$",
+        "$n + 8$"
       ],
-      "correct": 2,
-      "hint": "Let the middle number be x. Consecutive odd numbers differ by 2, so you have (x-2) + x + (x+2)."
+      "correct": 3,
+      "hint": "'More than' suggests addition. You're adding 8 to some unknown number."
     },
     {
       "id": 4,
-      "question": "Solve for x: (2x + 3)/5 = (x - 1)/2",
+      "question": "If $y = 7$, what is the value of $4y + 3$?",
       "answers": [
-        "x = 11",
-        "x = -7",
-        "x = 7",
-        "x = -11"
+        "$31$",
+        "$28$",
+        "$34$",
+        "$25$"
       ],
-      "correct": 3,
-      "hint": "Cross multiply to eliminate fractions: 2(2x + 3) = 5(x - 1), then solve."
+      "correct": 0,
+      "hint": "Replace $y$ with 7, then multiply before you add. What is $4 \\times 7$, then plus 3?"
     },
     {
       "id": 5,
-      "question": "Simplify: 4(3x - 2) - 3(2x + 5)",
+      "question": "Simplify: $6x + 3x$",
       "answers": [
-        "6x - 23",
-        "18x - 23",
-        "6x + 7",
-        "6x - 7"
+        "$9x$",
+        "$18x$",
+        "$63x$",
+        "$9x + x$"
       ],
       "correct": 0,
-      "hint": "Distribute each term carefully, remembering the negative sign affects both terms in the second parentheses."
+      "hint": "When terms have the same variable, add the coefficients. How many $x$'s do you have in total?"
     },
     {
       "id": 6,
-      "question": "A rectangle has length (2x + 3) and width (x - 1). If the perimeter is 46, find x.",
+      "question": "Solve for $x$: $2x + 5 = 17$",
       "answers": [
-        "x = 8",
-        "x = 6",
-        "x = 9",
-        "x = 7"
+        "$x = 11$",
+        "$x = 7$",
+        "$x = 6$",
+        "$x = 8$"
       ],
-      "correct": 3,
-      "hint": "Perimeter = 2(length) + 2(width). Set up 2(2x+3) + 2(x-1) = 46 and solve."
+      "correct": 2,
+      "hint": "First subtract 5 from both sides. Then divide by 2 to find $x$."
     },
     {
       "id": 7,
-      "question": "If f(x) = 2x^2 - 3x + 1, what is f(-2)?",
+      "question": "Expand using the distributive property: $4(x + 5)$",
       "answers": [
-        "3",
-        "11",
-        "15",
-        "7"
+        "$4x + 5$",
+        "$x + 20$",
+        "$4x + 20$",
+        "$4x + 9$"
       ],
       "correct": 2,
-      "hint": "Substitute -2 for x. Remember that (-2)^2 is positive."
+      "hint": "Multiply the 4 by each term inside the parentheses. What is $4 \\times x$ and $4 \\times 5$?"
     },
     {
       "id": 8,
-      "question": "Solve for x: 5x - 2(3x - 4) = 3(x + 2) - 10",
+      "question": "Solve for $m$: $\\frac{m}{4} = 7$",
       "answers": [
-        "x = -2",
-        "x = 2",
-        "x = 4",
-        "x = 1"
+        "$m = 11$",
+        "$m = 3$",
+        "$m = 21$",
+        "$m = 28$"
       ],
-      "correct": 1,
-      "hint": "Distribute the -2 and the 3, combine like terms, then isolate x."
+      "correct": 3,
+      "hint": "To undo division by 4, multiply both sides by 4. What is $7 \\times 4$?"
     },
     {
       "id": 9,
-      "question": "The product of two consecutive integers is 182. What is the smaller integer?",
+      "question": "A number increased by 12 equals 35. What is the number?",
       "answers": [
-        "14",
-        "12",
-        "11",
-        "13"
+        "$47$",
+        "$23$",
+        "$27$",
+        "$33$"
       ],
-      "correct": 3,
-      "hint": "Think of factor pairs near the square root of 182. Which two consecutive numbers multiply to 182?"
+      "correct": 1,
+      "hint": "Write the equation: $n + 12 = 35$. Subtract 12 from both sides."
     },
     {
       "id": 10,
-      "question": "Solve for x: x/3 + x/4 = 7",
+      "question": "Simplify: $8x - 3x + 2$",
       "answers": [
-        "x = 14",
-        "x = 21",
-        "x = 12",
-        "x = 84"
+        "$5x + 2$",
+        "$3x$",
+        "$7x$",
+        "$5x - 2$"
       ],
-      "correct": 2,
-      "hint": "Find the common denominator (12), combine the fractions, then solve for x."
+      "correct": 0,
+      "hint": "Combine the like terms (the $x$ terms) first. What is $8x - 3x$? The $+2$ stays separate."
     },
     {
       "id": 11,
-      "question": "If 4x + 3y = 25 and x + y = 7, what is y?",
+      "question": "Which expression means 'twice a number minus 7'?",
       "answers": [
-        "y = 3",
-        "y = 4",
-        "y = 2",
-        "y = 5"
+        "$2 - 7n$",
+        "$2n - 7$",
+        "$7 - 2n$",
+        "$2(n - 7)$"
       ],
-      "correct": 0,
-      "hint": "Use substitution: from the second equation, x = 7 - y. Substitute into the first equation."
+      "correct": 1,
+      "hint": "'Twice a number' means $2 \\times n$. Then subtract 7 from that."
     },
     {
       "id": 12,
-      "question": "Simplify: (x + 3)(x - 3) - (x + 2)^2",
+      "question": "Solve for $x$: $3x - 4 = 11$",
       "answers": [
-        "-4x - 4",
-        "-4x - 13",
-        "4x + 13",
-        "-13"
+        "$x = 7$",
+        "$x = 3$",
+        "$x = 5$",
+        "$x = 15$"
       ],
-      "correct": 1,
-      "hint": "Use difference of squares for the first part, and expand (x+2)^2, then subtract."
+      "correct": 2,
+      "hint": "Add 4 to both sides first. Then divide by 3 to isolate $x$."
     },
     {
       "id": 13,
-      "question": "A store sells pencils at 3 for $2 and erasers at 2 for $3. If Sam buys 12 pencils and 6 erasers, how much does he spend?",
+      "question": "If $a = 5$ and $b = 3$, what is $2a + 4b$?",
       "answers": [
-        "$15",
-        "$12",
-        "$18",
-        "$17"
+        "$17$",
+        "$26$",
+        "$22$",
+        "$19$"
       ],
-      "correct": 3,
-      "hint": "Calculate cost per item or per set, then multiply by the quantity needed."
+      "correct": 2,
+      "hint": "Substitute: $2 \\times 5$ plus $4 \\times 3$. Multiply before adding."
     },
     {
       "id": 14,
-      "question": "Solve for x: |2x - 5| = 9",
+      "question": "Solve for $y$: $y - 18 = 27$",
       "answers": [
-        "x = -2 only",
-        "x = 7 only",
-        "x = 7 or x = -2",
-        "x = 2 or x = 7"
+        "$y = 9$",
+        "$y = 35$",
+        "$y = 55$",
+        "$y = 45$"
       ],
-      "correct": 2,
-      "hint": "Absolute value equations have two cases: 2x - 5 = 9 OR 2x - 5 = -9."
+      "correct": 3,
+      "hint": "To undo subtraction, add 18 to both sides. What is $27 + 18$?"
     },
     {
       "id": 15,
-      "question": "What is the 15th term of the arithmetic sequence: 7, 12, 17, 22, ...?",
+      "question": "Expand: $3(2x + 4)$",
       "answers": [
-        "77",
-        "82",
-        "67",
-        "72"
+        "$6x + 4$",
+        "$5x + 7$",
+        "$6x + 12$",
+        "$2x + 12$"
       ],
-      "correct": 0,
-      "hint": "The common difference is 5. Use a_n = a_1 + (n-1)d where a_1 = 7, d = 5, n = 15."
+      "correct": 2,
+      "hint": "Distribute the 3 to both terms inside. What is $3 \\times 2x$ and $3 \\times 4$?"
     },
     {
       "id": 16,
-      "question": "Solve for x: 2(x - 3)^2 = 50",
+      "question": "Sarah has some stickers. After buying 15 more, she has 42. How many did she start with?",
       "answers": [
-        "x = 8",
-        "x = 8 or x = -2",
-        "x = -2",
-        "x = 5"
+        "$27$",
+        "$57$",
+        "$37$",
+        "$32$"
       ],
-      "correct": 1,
-      "hint": "Divide by 2 first, then take the square root. Remember plus and minus roots."
+      "correct": 0,
+      "hint": "Set up the equation: $s + 15 = 42$. What do you subtract from both sides?"
     },
     {
       "id": 17,
-      "question": "The average of five numbers is 24. When a sixth number is added, the average becomes 26. What is the sixth number?",
+      "question": "Simplify: $4x + 7 + 2x - 3$",
       "answers": [
-        "28",
-        "32",
-        "30",
-        "36"
+        "$6x + 10$",
+        "$6x + 4$",
+        "$2x + 4$",
+        "$4x + 4$"
       ],
-      "correct": 3,
-      "hint": "Sum of 5 numbers = 5 x 24. Sum of 6 numbers = 6 x 26. The sixth number is the difference."
+      "correct": 1,
+      "hint": "Combine like terms: add the $x$ terms together, then combine the number terms."
     },
     {
       "id": 18,
-      "question": "If x^2 - 5x + 6 = 0, what is the sum of the solutions?",
+      "question": "Solve for $x$: $\\frac{x}{6} = 8$",
       "answers": [
-        "6",
-        "-5",
-        "5",
-        "-6"
+        "$x = 2$",
+        "$x = 14$",
+        "$x = 48$",
+        "$x = 42$"
       ],
       "correct": 2,
-      "hint": "Factor the quadratic or use Vieta's formulas: for ax^2 + bx + c = 0, sum of roots = -b/a."
+      "hint": "Multiply both sides by 6 to undo the division. What is $8 \\times 6$?"
     },
     {
       "id": 19,
-      "question": "Solve for x: 3^(2x) = 27",
+      "question": "Which property is shown: $a + 0 = a$?",
       "answers": [
-        "x = 3",
-        "x = 1",
-        "x = 2",
-        "x = 1.5"
+        "Commutative Property",
+        "Associative Property",
+        "Identity Property",
+        "Distributive Property"
       ],
-      "correct": 3,
-      "hint": "Rewrite 27 as a power of 3 (27 = 3^3), then set exponents equal: 2x = 3."
+      "correct": 2,
+      "hint": "Adding zero to any number gives you that same number back. What property describes 0 as a special element?"
     },
     {
       "id": 20,
-      "question": "A train travels 300 km at speed v. If it went 20 km/h faster, it would take 1 hour less. What is v?",
+      "question": "Solve for $n$: $4n + 3 = 27$",
       "answers": [
-        "80 km/h",
-        "60 km/h",
-        "100 km/h",
-        "75 km/h"
+        "$n = 8$",
+        "$n = 6$",
+        "$n = 7$",
+        "$n = 5$"
       ],
       "correct": 1,
-      "hint": "Time = Distance/Speed. Set up: 300/v - 300/(v+20) = 1. Solve for v."
+      "hint": "Subtract 3 from both sides first. Then divide by 4."
     },
     {
       "id": 21,
-      "question": "Simplify: (2x^3)^2 / (4x^2)",
+      "question": "If $x = 4$, what is the value of $x^2 + 9$ (that is, $x \\times x + 9$)?",
       "answers": [
-        "x^4",
-        "2x^4",
-        "x^8",
-        "x^3"
+        "$17$",
+        "$21$",
+        "$25$",
+        "$13$"
       ],
-      "correct": 0,
-      "hint": "First simplify the numerator: (2x^3)^2 = 4x^6. Then divide by 4x^2."
+      "correct": 2,
+      "hint": "First find $x \\times x$ ($4 \\times 4$), then add 9 to that result."
     },
     {
       "id": 22,
-      "question": "If a + b = 8 and ab = 15, what is a^2 + b^2?",
+      "question": "Write as an expression: 'the quotient of a number and 5, increased by 2'",
       "answers": [
-        "49",
-        "64",
-        "30",
-        "34"
+        "$\\frac{5}{n} + 2$",
+        "$\\frac{n}{5 + 2}$",
+        "$\\frac{n}{5} + 2$",
+        "$\\frac{n + 2}{5}$"
       ],
-      "correct": 3,
-      "hint": "Use the identity: a^2 + b^2 = (a + b)^2 - 2ab."
+      "correct": 2,
+      "hint": "'Quotient of a number and 5' means $n$ divided by 5. Then add 2 to that."
     },
     {
       "id": 23,
-      "question": "Solve for x: log_2(x) + log_2(x - 2) = 3",
+      "question": "Solve for $x$: $2x + 3 = x + 10$",
       "answers": [
-        "x = 2",
-        "x = 4",
-        "x = 6",
-        "x = 8"
+        "$x = 7$",
+        "$x = 13$",
+        "$x = 5$",
+        "$x = 10$"
       ],
-      "correct": 1,
-      "hint": "Combine logs: log_2(x(x-2)) = 3. Convert to exponential form: x(x-2) = 8."
+      "correct": 0,
+      "hint": "Get $x$ terms on one side by subtracting $x$ from both sides. Then solve for $x$."
     },
     {
       "id": 24,
-      "question": "The ratio of two numbers is 3:5. If 10 is added to each, the ratio becomes 5:7. What is the smaller number?",
+      "question": "Tom is 3 years older than twice his sister's age. If his sister is 8, how old is Tom?",
       "answers": [
-        "20",
-        "12",
-        "18",
-        "15"
+        "$22$",
+        "$11$",
+        "$19$",
+        "$16$"
       ],
-      "correct": 3,
-      "hint": "Let the numbers be 3k and 5k. Then (3k+10)/(5k+10) = 5/7. Cross multiply and solve for k."
+      "correct": 2,
+      "hint": "Twice 8 is what? Then add 3 more years to that."
     },
     {
       "id": 25,
-      "question": "What is the value of x if 2^x * 4^x = 64?",
+      "question": "Simplify: $9x - 4x - 2x$",
       "answers": [
-        "x = 3",
-        "x = 2",
-        "x = 4",
-        "x = 6"
+        "$5x$",
+        "$15x$",
+        "$3x$",
+        "$7x$"
       ],
-      "correct": 1,
-      "hint": "Rewrite 4^x as (2^2)^x = 2^(2x). Then 2^x * 2^(2x) = 2^(3x) = 64 = 2^6."
+      "correct": 2,
+      "hint": "Subtract the coefficients in order: $9 - 4 - 2$. How many $x$'s remain?"
     },
     {
       "id": 26,
-      "question": "Solve the system: 2x - y = 5 and 3x + 2y = 4. Find x + y.",
+      "question": "Solve for $y$: $5y - 8 = 2y + 7$",
       "answers": [
-        "3",
-        "1",
-        "2",
-        "-1"
+        "$y = 3$",
+        "$y = 15$",
+        "$y = 5$",
+        "$y = 1$"
       ],
-      "correct": 0,
-      "hint": "Solve for x and y using substitution or elimination, then add them together."
+      "correct": 2,
+      "hint": "Subtract $2y$ from both sides to get $y$ terms together. Then add 8 to both sides."
     },
     {
       "id": 27,
-      "question": "If x^2 + 1/x^2 = 7, what is x + 1/x?",
+      "question": "Expand: $5(3x - 2)$",
       "answers": [
-        "5",
-        "3",
-        "-3",
-        "9"
+        "$15x - 10$",
+        "$15x - 2$",
+        "$8x - 7$",
+        "$3x - 10$"
       ],
-      "correct": 1,
-      "hint": "Use the identity: (x + 1/x)^2 = x^2 + 2 + 1/x^2. So (x + 1/x)^2 = 7 + 2 = 9."
+      "correct": 0,
+      "hint": "Multiply 5 by each term inside: $5 \\times 3x$ and $5 \\times (-2)$."
     },
     {
       "id": 28,
-      "question": "The sum of the first n positive integers is 190. What is n?",
+      "question": "If $m = 6$, what is $3m - 7$?",
       "answers": [
-        "18",
-        "20",
-        "21",
-        "19"
+        "$18$",
+        "$25$",
+        "$11$",
+        "$15$"
       ],
-      "correct": 3,
-      "hint": "Use the formula n(n+1)/2 = 190. Multiply both sides by 2 and solve for n."
+      "correct": 2,
+      "hint": "Substitute 6 for $m$: $3 \\times 6 - 7$. Do the multiplication first."
     },
     {
       "id": 29,
-      "question": "Simplify: (sqrt(12) + sqrt(27)) / sqrt(3)",
+      "question": "A number divided by 3 equals 12. What is the number?",
       "answers": [
-        "5",
-        "3sqrt(3)",
-        "sqrt(13)",
-        "13"
+        "$4$",
+        "$15$",
+        "$36$",
+        "$39$"
       ],
-      "correct": 0,
-      "hint": "Simplify each square root first: sqrt(12) = 2sqrt(3), sqrt(27) = 3sqrt(3). Then divide by sqrt(3)."
+      "correct": 2,
+      "hint": "Write as $\\frac{n}{3} = 12$. Multiply both sides by 3 to find $n$."
     },
     {
       "id": 30,
-      "question": "If f(x) = 3x - 2 and g(x) = x^2 + 1, what is f(g(2))?",
+      "question": "Simplify: $2x + 5 + 3x + 8$",
       "answers": [
-        "13",
-        "17",
-        "11",
-        "15"
+        "$5x + 3$",
+        "$18x$",
+        "$10x + 13$",
+        "$5x + 13$"
       ],
-      "correct": 0,
-      "hint": "First find g(2) = 2^2 + 1 = 5. Then find f(5) = 3(5) - 2."
+      "correct": 3,
+      "hint": "Add the $x$ terms ($2x + 3x$) and add the constants ($5 + 8$) separately."
     },
     {
       "id": 31,
-      "question": "A number is increased by 20%, then decreased by 20%. What percent of the original is the result?",
+      "question": "Solve for $x$: $6x = 54$",
       "answers": [
-        "100%",
-        "96%",
-        "104%",
-        "98%"
+        "$x = 48$",
+        "$x = 60$",
+        "$x = 8$",
+        "$x = 9$"
       ],
-      "correct": 1,
-      "hint": "Start with 100. Increase by 20% gives 120. Then decrease 120 by 20%."
+      "correct": 3,
+      "hint": "Divide both sides by 6 to isolate $x$. What is $54 \\div 6$?"
     },
     {
       "id": 32,
-      "question": "Solve for x: 2/(x-1) + 3/(x+1) = 5/(x^2-1)",
+      "question": "Which property is shown: $3 \\times 7 = 7 \\times 3$?",
       "answers": [
-        "x = 0",
-        "x = 1",
-        "x = 2",
-        "x = -1"
+        "Commutative Property",
+        "Associative Property",
+        "Distributive Property",
+        "Identity Property"
       ],
       "correct": 0,
-      "hint": "Note that x^2 - 1 = (x-1)(x+1). Multiply everything by (x^2-1) to clear fractions."
+      "hint": "The order of the numbers changed but the result is the same. Which property allows switching order?"
     },
     {
       "id": 33,
-      "question": "If the roots of x^2 + px + 12 = 0 are in the ratio 1:3, what is p?",
+      "question": "Lisa bought 4 identical books. She paid $36 total. What was the price of each book?",
       "answers": [
-        "8",
-        "-7",
-        "7",
-        "-8"
+        "$8",
+        "$40",
+        "$32",
+        "$9"
       ],
       "correct": 3,
-      "hint": "Let roots be r and 3r. Product of roots = 12, so 3r^2 = 12. Sum of roots = -p."
+      "hint": "Set up the equation: $4b = 36$. Divide both sides by 4."
     },
     {
       "id": 34,
-      "question": "What is the remainder when x^3 + 2x^2 - 5x + 3 is divided by (x - 2)?",
+      "question": "Solve for $x$: $\\frac{x}{5} + 3 = 10$",
       "answers": [
-        "5",
-        "1",
-        "9",
-        "13"
+        "$x = 35$",
+        "$x = 50$",
+        "$x = 25$",
+        "$x = 15$"
       ],
-      "correct": 2,
-      "hint": "Use the Remainder Theorem: substitute x = 2 into the polynomial."
+      "correct": 0,
+      "hint": "First subtract 3 from both sides. Then multiply by 5 to find $x$."
     },
     {
       "id": 35,
-      "question": "Two pipes can fill a tank in 6 hours and 8 hours respectively. How long to fill together?",
+      "question": "If $p = 8$, what is $5p - 2p + 4$?",
       "answers": [
-        "24/7 hours",
-        "3 hours",
-        "7 hours",
-        "14 hours"
+        "$36$",
+        "$28$",
+        "$24$",
+        "$20$"
       ],
-      "correct": 0,
-      "hint": "Combined rate = 1/6 + 1/8. Time = 1/(combined rate). Find a common denominator."
+      "correct": 1,
+      "hint": "First simplify $5p - 2p$ to get $3p$. Then substitute $p = 8$ and add 4."
     },
     {
       "id": 36,
-      "question": "If x^3 + y^3 = 35 and x + y = 5, what is xy?",
+      "question": "Write as an expression: '4 less than 3 times a number'",
       "answers": [
-        "4",
-        "2",
-        "6",
-        "8"
+        "$4 - 3n$",
+        "$3n - 4$",
+        "$3(n - 4)$",
+        "$4n - 3$"
       ],
       "correct": 1,
-      "hint": "Use the identity: x^3 + y^3 = (x + y)(x^2 - xy + y^2). Also use (x+y)^2 = x^2 + 2xy + y^2."
+      "hint": "'3 times a number' comes first, then '4 less than' means subtract 4 from it."
     },
     {
       "id": 37,
-      "question": "Solve for x: sqrt(2x + 3) - sqrt(x - 2) = 2",
+      "question": "Solve for $m$: $3m + 5 = m + 13$",
       "answers": [
-        "x = 11",
-        "x = 7",
-        "x = 3",
-        "x = 6"
+        "$m = 9$",
+        "$m = 6$",
+        "$m = 8$",
+        "$m = 4$"
       ],
-      "correct": 2,
-      "hint": "Isolate one square root, square both sides, and solve. Check your answer in the original equation."
+      "correct": 3,
+      "hint": "Subtract $m$ from both sides to get $2m + 5 = 13$. Then subtract 5 and divide by 2."
     },
     {
       "id": 38,
-      "question": "The sum of an infinite geometric series is 16, and the first term is 12. What is the common ratio?",
+      "question": "Expand: $2(4x + 3) + x$",
       "answers": [
-        "1/3",
-        "1/4",
-        "3/4",
-        "2/3"
+        "$8x + 3$",
+        "$8x + 6$",
+        "$5x + 6$",
+        "$9x + 6$"
       ],
-      "correct": 1,
-      "hint": "For infinite GP, Sum = a/(1-r) where a is first term. So 16 = 12/(1-r). Solve for r."
+      "correct": 3,
+      "hint": "First distribute the 2: $2 \\times 4x$ plus $2 \\times 3$. Then add the extra $x$."
     },
     {
       "id": 39,
-      "question": "If x = 2 + sqrt(3), what is x + 1/x?",
+      "question": "The sum of a number and 15 is 41. What is the number?",
       "answers": [
-        "4",
-        "2sqrt(3)",
-        "3",
-        "2 + sqrt(3)"
+        "$26$",
+        "$56$",
+        "$31$",
+        "$36$"
       ],
       "correct": 0,
-      "hint": "To find 1/x, rationalize: 1/(2+sqrt(3)) = (2-sqrt(3))/((2+sqrt(3))(2-sqrt(3)))."
+      "hint": "Write the equation: $n + 15 = 41$. What do you subtract from 41?"
     },
     {
       "id": 40,
-      "question": "How many positive integer solutions exist for x + y + z = 10?",
+      "question": "Solve for $x$: $4x - 6 = 2x + 8$",
       "answers": [
-        "45",
-        "28",
-        "36",
-        "55"
+        "$x = 1$",
+        "$x = 7$",
+        "$x = 14$",
+        "$x = 2$"
       ],
-      "correct": 2,
-      "hint": "Use stars and bars: choose 2 dividers among 9 spaces (since each variable must be at least 1)."
+      "correct": 1,
+      "hint": "Subtract $2x$ from both sides, then add 6 to both sides. Finally, divide to find $x$."
     }
   ],
   "access": [
