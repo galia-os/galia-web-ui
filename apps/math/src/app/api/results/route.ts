@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
             ${body.userId}, ${body.userName}, ${body.themeId}, ${body.themeName},
             ${body.score}, ${body.totalQuestions}, ${body.totalTimeSeconds}, ${body.avgTimePerQuestion},
             ${JSON.stringify(body.mistakes)}, ${JSON.stringify(body.allAnswers)},
-            ${body.round || 1}, ${body.level || 'easy'}, ${body.isTestMode || false},
+            ${body.round || 1}, ${body.level || "easy"}, ${body.isTestMode || false},
             ${body.sessionId || null}, NOW()
           )
         `;
@@ -70,7 +70,7 @@ export async function POST(request: NextRequest) {
       const mistakesList = body.mistakes
         .map(
           (m) =>
-            `• Q${m.questionNumber}: ${m.question}\n  Answer: ${m.userAnswer || "Skipped"}\n  Correct: ${m.correctAnswer}\n  Hint: ${m.hint}`
+            `• Q${m.questionNumber}: ${m.question}\n  Answer: ${m.userAnswer || "Skipped"}\n  Correct: ${m.correctAnswer}\n  Hint: ${m.hint}`,
         )
         .join("\n\n");
 
@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
       // Format theme breakdown for test mode
       const themeBreakdownText = body.themeBreakdown
         ? body.themeBreakdown
-            .sort((a, b) => (b.correct / b.total) - (a.correct / a.total))
+            .sort((a, b) => b.correct / b.total - a.correct / a.total)
             .map((t) => {
               const pct = ((t.correct / t.total) * 100).toFixed(0);
               return `• ${t.theme}: ${t.correct}/${t.total} (${pct}%)`;
@@ -101,9 +101,9 @@ export async function POST(request: NextRequest) {
         if (!isPerfectScore) {
           // Regular attempt email (with mistakes)
           await resend.emails.send({
-            from: "Galamath <onboarding@resend.dev>",
+            from: "Galia <onboarding@resend.dev>",
             to: notificationEmail,
-            subject: `[Galamath] ${body.userName} completed ${body.themeName} (${levelDisplay} ${modeLabel}) - ${successRate}%`,
+            subject: `[galia/math] ${body.userName} completed ${body.themeName} (${levelDisplay} ${modeLabel}) - ${successRate}%`,
             text: `
 Quiz Results for ${body.userName}
 ================================
@@ -115,10 +115,14 @@ Score: ${body.score}/${body.totalQuestions} (${successRate}%)
 Round: ${body.round || 1}
 Total Time: ${totalMinutes}m ${totalSeconds}s
 Average Time per Question: ${avgTime}s
-${body.isTestMode && themeBreakdownText ? `
+${
+  body.isTestMode && themeBreakdownText
+    ? `
 Performance by Theme:
 ${themeBreakdownText}
-` : ""}
+`
+    : ""
+}
 Mistakes (${body.mistakes.length}):
 
 ${mistakesList}
@@ -131,9 +135,9 @@ Galamath Quiz App
           // Success email - perfect score achieved!
           const round = body.round || 1;
           await resend.emails.send({
-            from: "Galamath <onboarding@resend.dev>",
+            from: "Galia <onboarding@resend.dev>",
             to: notificationEmail,
-            subject: `[Galamath] ${body.userName} achieved PERFECT SCORE on ${body.themeName} (${levelDisplay} ${modeLabel})!`,
+            subject: `[galia/math] ${body.userName} achieved PERFECT SCORE on ${body.themeName} (${levelDisplay} ${modeLabel})!`,
             text: `
 PERFECT SCORE!
 ================================
@@ -146,10 +150,14 @@ Score: ${body.score}/${body.totalQuestions} (100%)
 Rounds needed: ${round}
 Total Time: ${totalMinutes}m ${totalSeconds}s
 Average Time per Question: ${avgTime}s
-${body.isTestMode && themeBreakdownText ? `
+${
+  body.isTestMode && themeBreakdownText
+    ? `
 Performance by Theme:
 ${themeBreakdownText}
-` : ""}
+`
+    : ""
+}
 ${round === 1 ? "Amazing! First try success!" : `Completed after ${round} rounds of practice.`}
 
 ---
@@ -167,7 +175,7 @@ Galamath Quiz App
     console.error("Error processing result:", error);
     return NextResponse.json(
       { success: false, error: "Failed to process result" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

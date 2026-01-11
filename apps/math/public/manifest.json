@@ -1,6 +1,6 @@
 {
-  "name": "Galamath - Math Quiz",
-  "short_name": "Galamath",
+  "name": "Galia - Math",
+  "short_name": "galia/math",
   "description": "Fun math quizzes for middle school preparation",
   "start_url": "/",
   "display": "standalone",

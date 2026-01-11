@@ -15,16 +15,33 @@ interface Theme {
 
 // Map grades to available theme IDs
 const GRADE_THEMES: Record<number, string[]> = {
-  2: ["addition", "subtraction", "number-lines", "counting-large-numbers", "time-and-calendar"],
+  2: [
+    "addition",
+    "subtraction",
+    "number-lines",
+    "counting-large-numbers",
+    "time-and-calendar",
+  ],
   4: [], // empty for now
-  5: ["algebra", "order-of-operations", "work-rate", "geometry", "properties-of-operations", "word-problems", "word-problems-useless", "logic-gates", "computer-science"],
+  5: [
+    "algebra",
+    "order-of-operations",
+    "work-rate",
+    "geometry",
+    "properties-of-operations",
+    "word-problems",
+    "word-problems-useless",
+    "logic-gates",
+    "computer-science",
+  ],
 };
 
 const themes: Theme[] = [
   {
     id: "addition",
     name: "Addition",
-    description: "Practice adding numbers - from simple sums to two-digit addition",
+    description:
+      "Practice adding numbers - from simple sums to two-digit addition",
     icon: "➕",
   },
   {
@@ -36,13 +53,15 @@ const themes: Theme[] = [
   {
     id: "order-of-operations",
     name: "Order of Operations",
-    description: "Master PEMDAS - Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
+    description:
+      "Master PEMDAS - Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
     icon: "🧮",
   },
   {
     id: "work-rate",
     name: "Rate & Proportion",
-    description: "Speed, distance, time, workers, filling tanks, and meeting problems",
+    description:
+      "Speed, distance, time, workers, filling tanks, and meeting problems",
     icon: "🚗",
   },
   {
@@ -78,7 +97,8 @@ const themes: Theme[] = [
   {
     id: "number-lines",
     name: "Number Lines",
-    description: "Read numbers on number lines - from basic counting to skip counting patterns",
+    description:
+      "Read numbers on number lines - from basic counting to skip counting patterns",
     icon: "📏",
   },
   {
@@ -90,7 +110,8 @@ const themes: Theme[] = [
   {
     id: "word-problems",
     name: "Word Problems",
-    description: "Translate word problems into equations and solve step by step",
+    description:
+      "Translate word problems into equations and solve step by step",
     icon: "📝",
   },
   {
@@ -108,9 +129,24 @@ const themes: Theme[] = [
 ];
 
 const levels = [
-  { id: "easy", name: "Easy", color: "bg-green-500", description: "Simple calculations" },
-  { id: "medium", name: "Medium", color: "bg-yellow-500", description: "More operations" },
-  { id: "hard", name: "Hard", color: "bg-red-500", description: "Exponents & complex" },
+  {
+    id: "easy",
+    name: "Easy",
+    color: "bg-green-500",
+    description: "Simple calculations",
+  },
+  {
+    id: "medium",
+    name: "Medium",
+    color: "bg-yellow-500",
+    description: "More operations",
+  },
+  {
+    id: "hard",
+    name: "Hard",
+    color: "bg-red-500",
+    description: "Exponents & complex",
+  },
 ];
 
 type Mode = "training" | "test";
@@ -140,7 +176,9 @@ export default function Home() {
 
     // Retry any failed submissions from previous sessions
     const retryFailedSubmissions = async () => {
-      const failedSubmissions = JSON.parse(localStorage.getItem("failedSubmissions") || "[]");
+      const failedSubmissions = JSON.parse(
+        localStorage.getItem("failedSubmissions") || "[]",
+      );
       if (failedSubmissions.length === 0) return;
 
       const stillFailed: typeof failedSubmissions = [];
@@ -156,7 +194,11 @@ export default function Home() {
           if (!response.ok) {
             stillFailed.push(submission);
           } else {
-            console.log("Successfully retried failed submission:", submission.themeName, submission.round);
+            console.log(
+              "Successfully retried failed submission:",
+              submission.themeName,
+              submission.round,
+            );
           }
         } catch {
           stillFailed.push(submission);
@@ -179,11 +221,15 @@ export default function Home() {
 
     if (selectedMode === "test") {
       // Test mode: use all available themes for this user
-      router.push(`/quiz?mode=test&level=${levelId}&user=${selectedUser.id}&grade=${grade}`);
+      router.push(
+        `/quiz?mode=test&level=${levelId}&user=${selectedUser.id}&grade=${grade}`,
+      );
     } else {
       // Training mode: use selected theme
       if (!selectedTheme) return;
-      router.push(`/quiz?theme=${selectedTheme.id}-${levelId}&user=${selectedUser.id}&grade=${grade}`);
+      router.push(
+        `/quiz?theme=${selectedTheme.id}-${levelId}&user=${selectedUser.id}&grade=${grade}`,
+      );
     }
   };
 
@@ -231,13 +277,17 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center p-6 pt-12 md:p-12 md:pt-20">
       <header className="mb-12 text-center">
         <h1 className="mb-4 text-5xl font-extrabold text-indigo-600 md:text-6xl">
-          Galamath
+          galia/math
         </h1>
         <p className="text-lg text-gray-600 md:text-xl">
           {step === "user" && "Select your profile to begin"}
           {step === "theme" && "Choose a topic"}
-          {step === "level" && selectedMode === "test" && "Choose test difficulty"}
-          {step === "level" && selectedMode === "training" && "Choose difficulty level"}
+          {step === "level" &&
+            selectedMode === "test" &&
+            "Choose test difficulty"}
+          {step === "level" &&
+            selectedMode === "training" &&
+            "Choose difficulty level"}
         </p>
       </header>
 
@@ -331,7 +381,11 @@ export default function Home() {
               className={`flex flex-col items-center gap-3 rounded-3xl p-8 text-white shadow-lg transition-all duration-200 hover:scale-105 hover:shadow-xl active:scale-95 ${level.color}`}
             >
               <span className="text-4xl font-extrabold md:text-5xl">
-                {level.id === "easy" ? "⭐" : level.id === "medium" ? "⭐⭐" : "⭐⭐⭐"}
+                {level.id === "easy"
+                  ? "⭐"
+                  : level.id === "medium"
+                    ? "⭐⭐"
+                    : "⭐⭐⭐"}
               </span>
               <h2 className="text-xl font-bold md:text-2xl">{level.name}</h2>
               <p className="text-sm text-white/80">{level.description}</p>

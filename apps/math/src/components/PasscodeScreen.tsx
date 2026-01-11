@@ -77,7 +77,9 @@ export default function PasscodeScreen({ onUnlock }: PasscodeScreenProps) {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-indigo-500 to-purple-600 p-6">
       <div className="mb-8 text-center">
-        <h1 className="mb-2 text-4xl font-extrabold text-white">Galamath</h1>
+        <h1 className="mb-2 text-4xl font-extrabold text-white">
+          Galia - Math
+        </h1>
         <p className="text-white/80">Enter passcode to continue</p>
       </div>
 
@@ -99,9 +101,7 @@ export default function PasscodeScreen({ onUnlock }: PasscodeScreenProps) {
         ))}
       </div>
 
-      {error && (
-        <p className="mb-4 text-red-200">Wrong passcode, try again</p>
-      )}
+      {error && <p className="mb-4 text-red-200">Wrong passcode, try again</p>}
 
       {/* Keypad */}
       <div className="grid grid-cols-3 gap-4">
@@ -121,7 +121,7 @@ export default function PasscodeScreen({ onUnlock }: PasscodeScreenProps) {
             >
               {digit}
             </button>
-          )
+          ),
         )}
       </div>
     </div>

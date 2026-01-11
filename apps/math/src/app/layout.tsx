@@ -8,7 +8,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Galamath - Math Quiz",
+  title: "Galia - Math",
   description: "Fun math quizzes for middle school preparation",
   manifest: "/manifest.json",
   icons: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Galamath",
+    title: "Galia",
   },
 };
 
