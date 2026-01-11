@@ -312,16 +312,14 @@ export default function AIHelper({
           title="Click me for help!"
           type="button"
         >
-          <div className="pointer-events-none">
-            <Image
-              src="/galia.png"
-              alt="Galia"
-              width={96}
-              height={96}
-              className="h-24 w-24 object-contain"
-            />
-          </div>
-          <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-purple-500 px-3 py-1 text-xs font-semibold text-white opacity-0 transition-opacity group-hover:opacity-100">
+          <Image
+            src="/galia.png"
+            alt="Galia"
+            width={96}
+            height={96}
+            className="h-24 w-24 rounded-full object-cover"
+          />
+          <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-purple-500 px-3 py-1 text-xs font-semibold text-white opacity-0 shadow-md transition-opacity group-hover:opacity-100">
             Need help?
           </span>
         </button>
@@ -344,13 +342,13 @@ export default function AIHelper({
             >
               {/* Header */}
               <div className="flex items-center justify-between px-4 py-3 border-b border-purple-100 bg-white/80 backdrop-blur">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-3">
                   <Image
                     src="/galia.png"
                     alt="Galia"
                     width={40}
                     height={40}
-                    className="h-10 w-10 object-contain"
+                    className="h-10 w-10 rounded-full object-cover"
                   />
                   <div>
                     <span className="font-semibold text-gray-800">Galia</span>
@@ -397,7 +395,7 @@ export default function AIHelper({
                           alt="Galia"
                           width={32}
                           height={32}
-                          className="h-8 w-8 object-contain"
+                          className="h-8 w-8 rounded-full object-cover"
                         />
                       </div>
                     )}
@@ -424,7 +422,7 @@ export default function AIHelper({
                         alt="Galia"
                         width={32}
                         height={32}
-                        className="h-8 w-8 object-contain"
+                        className="h-8 w-8 rounded-full object-cover"
                       />
                     </div>
                     <div className="bg-white rounded-2xl rounded-bl-md px-4 py-3 shadow-md">

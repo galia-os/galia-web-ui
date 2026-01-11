@@ -1,3 +1,4 @@
+import { openai } from '@ai-sdk/openai';
 import { streamText } from 'ai';
 
 interface Message {
@@ -42,7 +43,7 @@ Remember: Help ${studentName} UNDERSTAND, not just get the answer. Make them fee
   ];
 
   const result = streamText({
-    model: 'openai/gpt-4o-mini' as any,
+    model: openai('gpt-4o-mini'),
     messages: apiMessages,
     temperature: 0.7,
   });

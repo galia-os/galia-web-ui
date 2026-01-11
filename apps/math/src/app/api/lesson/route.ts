@@ -1,3 +1,4 @@
+import { openai } from '@ai-sdk/openai';
 import { streamText } from 'ai';
 
 interface MistakeData {
@@ -55,7 +56,7 @@ ${mistakesSummary}
 Please create a short, encouraging audio lesson that helps ${studentName} understand these concepts better before attempting Round 2.`;
 
   const result = streamText({
-    model: 'openai/gpt-4o-mini' as any,
+    model: openai('gpt-4o-mini'),
     system: systemPrompt,
     prompt: userPrompt,
     temperature: 0.7,
