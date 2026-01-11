@@ -28,6 +28,7 @@ export interface QuizData {
 export interface User {
   id: string;
   name: string;
+  grade: number;
   color: string;
   bgColor: string;
 }
@@ -46,6 +47,7 @@ export interface QuizResult {
   themeName: string;
   userId: string;
   userName: string;
+  grade?: number;
   questions: Question[];
   userAnswers: (number | null)[];
   answerTimes: number[];

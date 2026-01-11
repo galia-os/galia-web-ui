@@ -8,7 +8,7 @@ import CircularTimer from "@/components/CircularTimer";
 import ProgressBar from "@/components/ProgressBar";
 import AIHelper from "@/components/AIHelper";
 import MathText from "@/components/MathText";
-import { QuizData, User, Mistake } from "@/lib/types";
+import { QuizData, User, Mistake, Question } from "@/lib/types";
 
 interface QuizState {
   currentQuestion: number;
@@ -56,6 +56,7 @@ function QuizContent() {
   const round = roundParam ? parseInt(roundParam, 10) : 1;
   const isTestMode = searchParams.get("mode") === "test";
   const testLevel = searchParams.get("level");
+  const gradeParam = searchParams.get("grade");
 
   const [user, setUser] = useState<User | null>(null);
   const [quizData, setQuizData] = useState<QuizData | null>(null);
@@ -111,12 +112,16 @@ function QuizContent() {
     }
 
     // Load users and quiz data
+    const grade = gradeParam || "2";
     const quizDataPromise = isTestMode
-      ? fetch(`/api/test-quiz?level=${testLevel}&user=${userId}`).then((res) => {
+      ? fetch(`/api/test-quiz?level=${testLevel}&user=${userId}&grade=${grade}`).then((res) => {
           if (!res.ok) throw new Error("Failed to load test quiz");
           return res.json();
         })
-      : import(`@/data/${themeId}.json`).then((data) => data.default || data);
+      : fetch(`/api/quiz?theme=${themeId}&grade=${grade}`).then((res) => {
+          if (!res.ok) throw new Error("Failed to load quiz");
+          return res.json();
+        });
 
     Promise.all([
       fetch("/api/users").then((res) => res.json()),
@@ -130,23 +135,26 @@ function QuizContent() {
         }
         setUser(foundUser);
 
+        // Cast to QuizData type
+        const typedQuizData = quizDataParsed as QuizData;
+
         // Round 1: randomly select questions from the pool
         // Round 2+: filter to only show questions that were answered incorrectly
-        let filteredQuizData = quizDataParsed;
+        let filteredQuizData: QuizData = typedQuizData;
         if (round === 1) {
           // Randomly select QUESTIONS_PER_QUIZ questions for round 1
-          const selectedQuestions = selectRandomQuestions(
-            quizDataParsed.questions,
+          const selectedQuestions = selectRandomQuestions<Question>(
+            typedQuizData.questions,
             QUESTIONS_PER_QUIZ
           );
           filteredQuizData = {
-            ...quizDataParsed,
+            ...typedQuizData,
             questions: selectedQuestions,
           };
           // Store selected question IDs for potential retry rounds
           sessionStorage.setItem(
             "selectedQuestionIds",
-            JSON.stringify(selectedQuestions.map((q: { id: number }) => q.id))
+            JSON.stringify(selectedQuestions.map((q) => q.id))
           );
         } else {
           // Use saved wrong question IDs if available, otherwise from session storage
@@ -161,8 +169,8 @@ function QuizContent() {
               sessionStorage.getItem("selectedQuestionIds") || "[]"
             ) as number[];
             filteredQuizData = {
-              ...quizDataParsed,
-              questions: quizDataParsed.questions.filter((q: { id: number }) =>
+              ...typedQuizData,
+              questions: typedQuizData.questions.filter((q) =>
                 wrongQuestionIds.includes(q.id) &&
                 (selectedQuestionIds.length === 0 || selectedQuestionIds.includes(q.id))
               ),
@@ -296,15 +304,19 @@ function QuizContent() {
         userAnswer: finalState.answers[idx],
         correctAnswer: q.correct,
         timeSpent: finalState.answerTimes[idx],
+        answers: q.answers,
+        sourceTheme: q.sourceTheme,
       }));
 
       // Store in session for results page
       // Use effectiveThemeId for proper identification
+      const userGrade = user.grade || parseInt(gradeParam || "2");
       const resultForDisplay = {
         themeId: effectiveThemeId,
         themeName: quizData.theme,
         userId: user.id,
         userName: user.name,
+        grade: userGrade,
         questions: quizData.questions,
         userAnswers: finalState.answers,
         answerTimes: finalState.answerTimes,

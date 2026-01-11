@@ -6,6 +6,7 @@ import { QuizResult, User } from "@/lib/types";
 
 interface ExtendedQuizResult extends QuizResult {
   round?: number;
+  grade?: number;
 }
 
 function formatTime(seconds: number): string {
@@ -156,7 +157,8 @@ export default function ResultsPage() {
               onClick={() => {
                 // Store wrong question IDs for next round
                 sessionStorage.setItem("wrongQuestionIds", JSON.stringify(wrongQuestionIds));
-                router.push(`/quiz?theme=${result.themeId}&user=${result.userId}&round=${nextRound}`);
+                const gradeParam = result.grade ? `&grade=${result.grade}` : "";
+                router.push(`/quiz?theme=${result.themeId}&user=${result.userId}&round=${nextRound}${gradeParam}`);
               }}
               className="rounded-3xl bg-indigo-600 px-16 py-8 text-3xl font-bold text-white shadow-lg transition-all hover:bg-indigo-700 hover:shadow-xl active:scale-95"
             >

@@ -13,9 +13,18 @@ export async function GET() {
   const usersEnv = process.env.USERS!;
   const userNames = usersEnv.split(",").map((name) => name.trim());
 
+  // Parse user grades from USER_GRADES env var (format: "Zoe:5,Iris:4,Rose:2")
+  const userGradesEnv = process.env.USER_GRADES || "";
+  const gradeMap = new Map<string, number>();
+  userGradesEnv.split(",").forEach((entry) => {
+    const [name, grade] = entry.split(":");
+    if (name && grade) gradeMap.set(name.trim(), parseInt(grade));
+  });
+
   const users = userNames.map((name, index) => ({
     id: name[0].toUpperCase(),
     name,
+    grade: gradeMap.get(name) || 2, // default to grade 2
     ...COLORS[index % COLORS.length],
   }));
 

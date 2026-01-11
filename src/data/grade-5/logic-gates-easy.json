@@ -1,0 +1,1816 @@
+{
+  "theme": "Logic Gates & Binary",
+  "themeId": "logic-gates",
+  "level": "easy",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is $1 \\land 1$ (1 AND 1)?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$10$"
+      ],
+      "correct": 0,
+      "hint": "AND returns $1$ only when BOTH inputs are $1$. Are both inputs $1$ here?"
+    },
+    {
+      "id": 2,
+      "question": "What is $0 \\lor 1$ (0 OR 1)?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$01$",
+        "$10$"
+      ],
+      "correct": 1,
+      "hint": "OR returns $1$ if at least one input is $1$. Is there at least one $1$?"
+    },
+    {
+      "id": 3,
+      "question": "If $A = 1$, what is $\\overline{A}$ (NOT $A$)?",
+      "answers": [
+        "$1$",
+        "$-1$",
+        "$0$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "NOT inverts the input - it gives the opposite value in binary."
+    },
+    {
+      "id": 4,
+      "question": "What is $0 \\land 0$ (0 AND 0)?",
+      "answers": [
+        "$1$",
+        "$00$",
+        "$2$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "AND needs BOTH inputs to be $1$ for output to be $1$. Both inputs are $0$ here."
+    },
+    {
+      "id": 5,
+      "question": "What is $1 \\lor 0$ (1 OR 0)?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 0,
+      "hint": "OR returns $1$ if ANY input is $1$. Is there at least one $1$ among the inputs?"
+    },
+    {
+      "id": 6,
+      "question": "If $A = 0$, what is $\\overline{A}$ (NOT $A$)?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "NOT inverts the input - what's the opposite of $0$ in binary?"
+    },
+    {
+      "id": 7,
+      "question": "What is $1 \\land 0$ (1 AND 0)?",
+      "answers": [
+        "$1$",
+        "$10$",
+        "$0$",
+        "$01$"
+      ],
+      "correct": 2,
+      "hint": "AND needs ALL inputs to be $1$. If even one is $0$, what's the result?"
+    },
+    {
+      "id": 8,
+      "question": "What is $0 \\lor 0$ (0 OR 0)?",
+      "answers": [
+        "$2$",
+        "$00$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "OR returns $1$ if ANY input is $1$. Are any of these inputs $1$?"
+    },
+    {
+      "id": 9,
+      "question": "What is $1 \\lor 1$ (1 OR 1)?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$11$",
+        "$0$"
+      ],
+      "correct": 0,
+      "hint": "OR returns $1$ if ANY input is $1$. In binary, the result is always $0$ or $1$, never $2$."
+    },
+    {
+      "id": 10,
+      "question": "What is $0 \\land 1$ (0 AND 1)?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$01$",
+        "$10$"
+      ],
+      "correct": 1,
+      "hint": "AND needs BOTH inputs to be $1$. Is that the case here?"
+    },
+    {
+      "id": 11,
+      "question": "Which gate gives $1$ ONLY when both inputs are $1$?",
+      "answers": [
+        "$NOT$ gate",
+        "$XOR$ gate",
+        "$AND$ gate",
+        "$OR$ gate"
+      ],
+      "correct": 2,
+      "hint": "This gate requires both (ALL) inputs to be $1$ - think of the word that means 'both'."
+    },
+    {
+      "id": 12,
+      "question": "Which gate gives $1$ when ANY input is $1$?",
+      "answers": [
+        "$AND$ gate",
+        "$NOT$ gate",
+        "$NAND$ gate",
+        "$OR$ gate"
+      ],
+      "correct": 3,
+      "hint": "This gate outputs $1$ if one input is $1$, or the other is $1$, or both are $1$."
+    },
+    {
+      "id": 13,
+      "question": "What is this logic gate called?",
+      "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\"><line x1=\"20\" y1=\"50\" x2=\"60\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"60,30 60,70 100,50\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"50\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"118\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"20\" y=\"45\" font-size=\"12\" fill=\"#374151\">A</text><text x=\"165\" y=\"45\" font-size=\"12\" fill=\"#374151\">Q</text></svg>",
+      "answers": [
+        "$NOT$ gate",
+        "$OR$ gate",
+        "$AND$ gate",
+        "$XOR$ gate"
+      ],
+      "correct": 0,
+      "hint": "Look for the small circle (bubble) at the output - this symbol means inversion."
+    },
+    {
+      "id": 14,
+      "question": "What is this logic gate called?",
+      "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><line x1=\"20\" y1=\"40\" x2=\"60\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"80\" x2=\"60\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 60 25 L 60 95 Q 120 95 120 60 Q 120 25 60 25\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"120\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"20\" y=\"35\" font-size=\"12\" fill=\"#374151\">A</text><text x=\"20\" y=\"95\" font-size=\"12\" fill=\"#374151\">B</text><text x=\"165\" y=\"55\" font-size=\"12\" fill=\"#374151\">Q</text></svg>",
+      "answers": [
+        "$NAND$ gate",
+        "$AND$ gate",
+        "$OR$ gate",
+        "$NOT$ gate"
+      ],
+      "correct": 1,
+      "hint": "This D-shaped gate outputs 1 only when ALL inputs are 1."
+    },
+    {
+      "id": 15,
+      "question": "What is this logic gate called?",
+      "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\"><line x1=\"20\" y1=\"40\" x2=\"55\" y2=\"40\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"20\" y1=\"80\" x2=\"55\" y2=\"80\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 55 25 Q 65 25 65 60 Q 65 95 55 95 L 55 25\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><path d=\"M 65 25 Q 120 45 120 60 Q 120 75 65 95\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"120\" y1=\"60\" x2=\"180\" y2=\"60\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"20\" y=\"35\" font-size=\"12\" fill=\"#374151\">A</text><text x=\"20\" y=\"95\" font-size=\"12\" fill=\"#374151\">B</text><text x=\"165\" y=\"55\" font-size=\"12\" fill=\"#374151\">Q</text></svg>",
+      "answers": [
+        "$XOR$ gate",
+        "$AND$ gate",
+        "$OR$ gate",
+        "$NOR$ gate"
+      ],
+      "correct": 2,
+      "hint": "This curved shield shape outputs 1 if ANY input is 1."
+    },
+    {
+      "id": 16,
+      "question": "What output does this NOT gate give when input is $0$?",
+      "svg": "<svg width=\"220\" height=\"100\" viewBox=\"0 0 220 100\"><text x=\"10\" y=\"55\" font-size=\"14\" fill=\"#374151\">0</text><line x1=\"25\" y1=\"50\" x2=\"60\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"60,30 60,70 100,50\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"108\" cy=\"50\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"116\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"185\" y=\"55\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
+      "answers": [
+        "$0$",
+        "$2$",
+        "$-1$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "This is a NOT gate (inverter). If $0$ goes in, what comes out?"
+    },
+    {
+      "id": 17,
+      "question": "What output does this NOT gate give when input is $1$?",
+      "svg": "<svg width=\"220\" height=\"100\" viewBox=\"0 0 220 100\"><text x=\"10\" y=\"55\" font-size=\"14\" fill=\"#374151\">1</text><line x1=\"25\" y1=\"50\" x2=\"60\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><polygon points=\"60,30 60,70 100,50\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><circle cx=\"108\" cy=\"50\" r=\"8\" fill=\"white\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"116\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"2\"/><text x=\"185\" y=\"55\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "This is a NOT gate (inverter). If $1$ goes in, what comes out?"
+    },
+    {
+      "id": 18,
+      "question": "Complete the truth table: $A=0$, $B=1$, $A \\land B = ?$",
+      "svg": "<svg width=\"200\" height=\"140\" viewBox=\"0 0 200 140\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"100\" fill=\"#E0E7FF\" stroke=\"#4F46E5\" stroke-width=\"2\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"1\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#4F46E5\" stroke-width=\"1\"/><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#4F46E5\" stroke-width=\"1\"/><text x=\"45\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A</text><text x=\"100\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">B</text><text x=\"140\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A AND B</text><text x=\"45\" y=\"90\" font-size=\"14\" fill=\"#374151\">0</text><text x=\"100\" y=\"90\" font-size=\"14\" fill=\"#374151\">1</text><text x=\"150\" y=\"90\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
+      "answers": [
+        "$01$",
+        "$0$",
+        "$10$",
+        "$1$"
+      ],
+      "correct": 1,
+      "hint": "AND needs BOTH to be $1$. Here one is $0$ and one is $1$..."
+    },
+    {
+      "id": 19,
+      "question": "Complete the truth table: $A=1$, $B=0$, $A \\lor B = ?$",
+      "svg": "<svg width=\"200\" height=\"140\" viewBox=\"0 0 200 140\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"100\" fill=\"#DCFCE7\" stroke=\"#16A34A\" stroke-width=\"2\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"120\" stroke=\"#16A34A\" stroke-width=\"1\"/><line x1=\"130\" y1=\"20\" x2=\"130\" y2=\"120\" stroke=\"#16A34A\" stroke-width=\"1\"/><line x1=\"20\" y1=\"50\" x2=\"180\" y2=\"50\" stroke=\"#16A34A\" stroke-width=\"1\"/><text x=\"45\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A</text><text x=\"100\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">B</text><text x=\"140\" y=\"40\" font-size=\"14\" fill=\"#374151\" font-weight=\"bold\">A OR B</text><text x=\"45\" y=\"90\" font-size=\"14\" fill=\"#374151\">1</text><text x=\"100\" y=\"90\" font-size=\"14\" fill=\"#374151\">0</text><text x=\"150\" y=\"90\" font-size=\"18\" fill=\"#EF4444\">?</text></svg>",
+      "answers": [
+        "$0$",
+        "$10$",
+        "$1$",
+        "$01$"
+      ],
+      "correct": 2,
+      "hint": "OR returns $1$ if at least one input is $1$. Is at least one input $1$ here?"
+    },
+    {
+      "id": 20,
+      "question": "What is $\\overline{\\overline{A}}$ (NOT NOT $A$) if $A = 1$?",
+      "answers": [
+        "$-1$",
+        "$0$",
+        "$2$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "NOT flips the value. What happens when you flip something twice?"
+    },
+    {
+      "id": 21,
+      "question": "What is $\\overline{\\overline{A}}$ (NOT NOT $A$) if $A = 0$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "NOT flips the value. What happens when you flip $0$ twice?"
+    },
+    {
+      "id": 22,
+      "question": "If $A = 1$ and $B = 1$, what is $A \\land B$?",
+      "answers": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "$11$"
+      ],
+      "correct": 1,
+      "hint": "AND outputs $1$ only when both inputs are $1$. What are the inputs here?"
+    },
+    {
+      "id": 23,
+      "question": "If $A = 0$ and $B = 0$, what is $A \\lor B$?",
+      "answers": [
+        "$1$",
+        "$00$",
+        "$0$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "OR outputs $1$ if at least one input is $1$. Are any inputs $1$ here?"
+    },
+    {
+      "id": 24,
+      "question": "What does the NOT gate do to an input?",
+      "answers": [
+        "Doubles it",
+        "Keeps it the same",
+        "Adds one to it",
+        "Flips it to the opposite"
+      ],
+      "correct": 3,
+      "hint": "Think about what 'NOT' means - it gives you the opposite."
+    },
+    {
+      "id": 25,
+      "question": "If $A = 1$ and $B = 0$, what is $A \\land B$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 0,
+      "hint": "AND needs BOTH inputs to be $1$. Is that true here?"
+    },
+    {
+      "id": 26,
+      "question": "If $A = 0$ and $B = 1$, what is $A \\lor B$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$01$",
+        "$10$"
+      ],
+      "correct": 1,
+      "hint": "OR outputs $1$ if at least one input is $1$. Check both inputs."
+    },
+    {
+      "id": 27,
+      "question": "How many inputs does a NOT gate have?",
+      "answers": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 2,
+      "hint": "NOT inverts a single value - how many values does it need?"
+    },
+    {
+      "id": 28,
+      "question": "How many inputs does an AND gate typically have?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$3$",
+        "$2$"
+      ],
+      "correct": 3,
+      "hint": "AND compares two values to see if BOTH are $1$."
+    },
+    {
+      "id": 29,
+      "question": "How many inputs does an OR gate typically have?",
+      "answers": [
+        "$2$",
+        "$1$",
+        "$0$",
+        "$3$"
+      ],
+      "correct": 0,
+      "hint": "OR checks if ANY of two values is $1$."
+    },
+    {
+      "id": 30,
+      "question": "What is the output of an AND gate when both inputs are $0$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$00$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "AND needs BOTH inputs to be $1$ to output $1$. Are they both $1$ here?"
+    },
+    {
+      "id": 31,
+      "question": "What is the output of an OR gate when both inputs are $1$?",
+      "answers": [
+        "$2$",
+        "$11$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 2,
+      "hint": "OR outputs $1$ if at least one input is $1$. Remember: output is always $0$ or $1$."
+    },
+    {
+      "id": 32,
+      "question": "Which statement about AND is true?",
+      "answers": [
+        "$1 \\land 0 = 1$",
+        "$0 \\land 0 = 1$",
+        "$0 \\land 1 = 1$",
+        "$1 \\land 1 = 1$"
+      ],
+      "correct": 3,
+      "hint": "AND outputs $1$ only when BOTH inputs are $1$. Which option shows both inputs as $1$?"
+    },
+    {
+      "id": 33,
+      "question": "Which statement about OR is FALSE?",
+      "answers": [
+        "$0 \\lor 0 = 0$",
+        "$1 \\lor 1 = 1$",
+        "$0 \\lor 1 = 0$",
+        "$1 \\lor 0 = 1$"
+      ],
+      "correct": 2,
+      "hint": "OR outputs $1$ if ANY input is $1$. Find the statement that contradicts this rule."
+    },
+    {
+      "id": 34,
+      "question": "What is $\\overline{0}$ (NOT 0)?",
+      "answers": [
+        "$-1$",
+        "$0$",
+        "$2$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "NOT gives the opposite of the input. What's the opposite of $0$?"
+    },
+    {
+      "id": 35,
+      "question": "What is $\\overline{1}$ (NOT 1)?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "NOT gives the opposite of the input. What's the opposite of $1$?"
+    },
+    {
+      "id": 36,
+      "question": "In logic gates, what values can inputs and outputs have?",
+      "answers": [
+        "Any number",
+        "$0$ and $1$ only",
+        "$-1$ to $1$",
+        "$0$ to $10$"
+      ],
+      "correct": 1,
+      "hint": "Logic gates work with binary values. How many different values are in binary?"
+    },
+    {
+      "id": 37,
+      "question": "What does TRUE represent in a logic gate?",
+      "answers": [
+        "$2$",
+        "$-1$",
+        "$1$",
+        "$10$"
+      ],
+      "correct": 2,
+      "hint": "In binary logic, TRUE and FALSE are represented by two specific digits."
+    },
+    {
+      "id": 38,
+      "question": "What does FALSE represent in a logic gate?",
+      "answers": [
+        "$-1$",
+        "$2$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "In binary logic, FALSE is represented by which digit?"
+    },
+    {
+      "id": 39,
+      "question": "If TRUE $= 1$ and FALSE $= 0$, what is TRUE AND TRUE?",
+      "answers": [
+        "TRUE",
+        "FALSE",
+        "$2$",
+        "UNKNOWN"
+      ],
+      "correct": 0,
+      "hint": "AND returns TRUE ($1$) when both inputs are TRUE ($1$)."
+    },
+    {
+      "id": 40,
+      "question": "If TRUE $= 1$ and FALSE $= 0$, what is TRUE AND FALSE?",
+      "answers": [
+        "TRUE",
+        "FALSE",
+        "MAYBE",
+        "UNKNOWN"
+      ],
+      "correct": 1,
+      "hint": "AND needs BOTH inputs to be TRUE. Is that the case here?"
+    },
+    {
+      "id": 41,
+      "question": "If TRUE $= 1$ and FALSE $= 0$, what is FALSE OR TRUE?",
+      "answers": [
+        "FALSE",
+        "UNKNOWN",
+        "TRUE",
+        "MAYBE"
+      ],
+      "correct": 2,
+      "hint": "OR returns TRUE if at least one input is TRUE."
+    },
+    {
+      "id": 42,
+      "question": "If TRUE $= 1$ and FALSE $= 0$, what is FALSE OR FALSE?",
+      "answers": [
+        "TRUE",
+        "UNKNOWN",
+        "MAYBE",
+        "FALSE"
+      ],
+      "correct": 3,
+      "hint": "OR returns TRUE if at least one input is TRUE. Are any inputs TRUE here?"
+    },
+    {
+      "id": 43,
+      "question": "If TRUE $= 1$ and FALSE $= 0$, what is NOT TRUE?",
+      "answers": [
+        "FALSE",
+        "TRUE",
+        "$-1$",
+        "UNKNOWN"
+      ],
+      "correct": 0,
+      "hint": "NOT gives the opposite. What is the opposite of TRUE?"
+    },
+    {
+      "id": 44,
+      "question": "If TRUE $= 1$ and FALSE $= 0$, what is NOT FALSE?",
+      "answers": [
+        "FALSE",
+        "TRUE",
+        "MAYBE",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "NOT gives the opposite. What is the opposite of FALSE?"
+    },
+    {
+      "id": 45,
+      "question": "Complete: $1 \\land 1 = ?$",
+      "answers": [
+        "$0$",
+        "$2$",
+        "$1$",
+        "$11$"
+      ],
+      "correct": 2,
+      "hint": "AND outputs $1$ when both inputs are $1$. Are both inputs $1$ here?"
+    },
+    {
+      "id": 46,
+      "question": "Complete: $0 \\land 0 = ?$",
+      "answers": [
+        "$1$",
+        "$00$",
+        "$2$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "AND outputs $1$ only when BOTH inputs are $1$. Are they both $1$?"
+    },
+    {
+      "id": 47,
+      "question": "Complete: $1 \\land 0 = ?$",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 0,
+      "hint": "AND needs both inputs to be $1$. One input is $0$ here."
+    },
+    {
+      "id": 48,
+      "question": "Complete: $0 \\land 1 = ?$",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$01$",
+        "$10$"
+      ],
+      "correct": 1,
+      "hint": "AND needs both inputs to be $1$. One input is $0$ here."
+    },
+    {
+      "id": 49,
+      "question": "Complete: $1 \\lor 1 = ?$",
+      "answers": [
+        "$2$",
+        "$11$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 2,
+      "hint": "OR outputs $1$ if any input is $1$. The result is always $0$ or $1$."
+    },
+    {
+      "id": 50,
+      "question": "Complete: $0 \\lor 0 = ?$",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$00$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "OR outputs $1$ if ANY input is $1$. Are there any $1$s here?"
+    },
+    {
+      "id": 51,
+      "question": "Complete: $1 \\lor 0 = ?$",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 1,
+      "hint": "OR outputs $1$ if at least one input is $1$. Is there a $1$ here?"
+    },
+    {
+      "id": 52,
+      "question": "Complete: $0 \\lor 1 = ?$",
+      "answers": [
+        "$01$",
+        "$10$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 2,
+      "hint": "OR outputs $1$ if at least one input is $1$. Check the second input."
+    },
+    {
+      "id": 53,
+      "question": "What is the symbol for AND in logic?",
+      "answers": [
+        "$+$",
+        "$-$",
+        "$\\land$",
+        "$\\lor$"
+      ],
+      "correct": 2,
+      "hint": "The AND symbol looks like an upside-down V or a wedge pointing up."
+    },
+    {
+      "id": 54,
+      "question": "What is the symbol for OR in logic?",
+      "answers": [
+        "$\\land$",
+        "$\\times$",
+        "$+$",
+        "$\\lor$"
+      ],
+      "correct": 3,
+      "hint": "The OR symbol looks like a V or a wedge pointing down."
+    },
+    {
+      "id": 55,
+      "question": "What is the symbol for NOT in logic?",
+      "answers": [
+        "$\\overline{A}$ or $\\lnot A$",
+        "$A \\land B$",
+        "$A \\lor B$",
+        "$A + B$"
+      ],
+      "correct": 0,
+      "hint": "NOT is shown with a bar over the variable or a special symbol before it."
+    },
+    {
+      "id": 56,
+      "question": "An AND gate is like which everyday situation?",
+      "answers": [
+        "Either key or code opens the door",
+        "$1 + 1 = 2$",
+        "Flipping a light switch",
+        "Need both keys to open a safe"
+      ],
+      "correct": 3,
+      "hint": "AND requires BOTH conditions to be true - like needing multiple things to work together."
+    },
+    {
+      "id": 57,
+      "question": "An OR gate is like which everyday situation?",
+      "answers": [
+        "Either cash or card pays for lunch",
+        "Need both password and fingerprint",
+        "Flipping a switch on and off",
+        "Adding two numbers together"
+      ],
+      "correct": 0,
+      "hint": "OR works if ANY condition is true - like having multiple ways to achieve something."
+    },
+    {
+      "id": 58,
+      "question": "A NOT gate is like which everyday situation?",
+      "answers": [
+        "Adding one more",
+        "Either option works",
+        "Flipping a switch to the opposite position",
+        "Both doors must be closed"
+      ],
+      "correct": 2,
+      "hint": "NOT reverses the input - like changing something to its opposite."
+    },
+    {
+      "id": 59,
+      "question": "What does an AND gate output when $A = 0$, $B = 0$?",
+      "answers": [
+        "$1$",
+        "$00$",
+        "$2$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "AND outputs $1$ only when BOTH inputs are $1$. Neither input is $1$ here."
+    },
+    {
+      "id": 60,
+      "question": "What does an AND gate output when $A = 0$, $B = 1$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$01$",
+        "$10$"
+      ],
+      "correct": 0,
+      "hint": "AND outputs $1$ only when BOTH inputs are $1$. Is that true here?"
+    },
+    {
+      "id": 61,
+      "question": "What does an AND gate output when $A = 1$, $B = 0$?",
+      "answers": [
+        "$10$",
+        "$0$",
+        "$1$",
+        "$01$"
+      ],
+      "correct": 1,
+      "hint": "AND outputs $1$ only when BOTH inputs are $1$. One input is $0$ here."
+    },
+    {
+      "id": 62,
+      "question": "What does an AND gate output when $A = 1$, $B = 1$?",
+      "answers": [
+        "$0$",
+        "$11$",
+        "$1$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "AND outputs $1$ when BOTH inputs are $1$. Check if both are $1$."
+    },
+    {
+      "id": 63,
+      "question": "What does an OR gate output when $A = 0$, $B = 0$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$00$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "OR outputs $1$ if ANY input is $1$. Are there any $1$s among the inputs?"
+    },
+    {
+      "id": 64,
+      "question": "What does an OR gate output when $A = 0$, $B = 1$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$01$",
+        "$10$"
+      ],
+      "correct": 1,
+      "hint": "OR outputs $1$ if ANY input is $1$. The second input is $1$."
+    },
+    {
+      "id": 65,
+      "question": "What does an OR gate output when $A = 1$, $B = 0$?",
+      "answers": [
+        "$10$",
+        "$01$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 2,
+      "hint": "OR outputs $1$ if ANY input is $1$. The first input is $1$."
+    },
+    {
+      "id": 66,
+      "question": "What does an OR gate output when $A = 1$, $B = 1$?",
+      "answers": [
+        "$2$",
+        "$11$",
+        "$0$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "OR outputs $1$ if ANY input is $1$. Both inputs are $1$, but output is still just $1$."
+    },
+    {
+      "id": 67,
+      "question": "What does a NOT gate output when input is $0$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "NOT inverts the input. What is the opposite of $0$?"
+    },
+    {
+      "id": 68,
+      "question": "What does a NOT gate output when input is $1$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "NOT inverts the input. What is the opposite of $1$?"
+    },
+    {
+      "id": 69,
+      "question": "Which gate always outputs the opposite of its input?",
+      "answers": [
+        "$AND$ gate",
+        "$OR$ gate",
+        "$NOT$ gate",
+        "$XOR$ gate"
+      ],
+      "correct": 2,
+      "hint": "This gate inverts whatever you put in - $0$ becomes $1$, $1$ becomes $0$."
+    },
+    {
+      "id": 70,
+      "question": "Which gate outputs $1$ only when ALL inputs are $1$?",
+      "answers": [
+        "$OR$ gate",
+        "$NOT$ gate",
+        "$XOR$ gate",
+        "$AND$ gate"
+      ],
+      "correct": 3,
+      "hint": "This gate is like a strict bouncer - everyone must be $1$ to get a $1$ output."
+    },
+    {
+      "id": 71,
+      "question": "Which gate outputs $1$ when at least one input is $1$?",
+      "answers": [
+        "$OR$ gate",
+        "$AND$ gate",
+        "$NOT$ gate",
+        "$NOR$ gate"
+      ],
+      "correct": 0,
+      "hint": "This gate is lenient - if ANY input is $1$, output is $1$."
+    },
+    {
+      "id": 72,
+      "question": "If you apply NOT twice to $1$, what do you get?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "NOT of $1$ is $0$. NOT of $0$ is what?"
+    },
+    {
+      "id": 73,
+      "question": "If you apply NOT twice to $0$, what do you get?",
+      "answers": [
+        "$1$",
+        "$-1$",
+        "$0$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "NOT of $0$ is $1$. NOT of $1$ is what?"
+    },
+    {
+      "id": 74,
+      "question": "What is $1 \\land (1 \\land 1)$?",
+      "answers": [
+        "$0$",
+        "$3$",
+        "$2$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "First evaluate inside parentheses: $1 \\land 1$. Then AND that with $1$."
+    },
+    {
+      "id": 75,
+      "question": "What is $0 \\lor (0 \\lor 0)$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$3$",
+        "$00$"
+      ],
+      "correct": 0,
+      "hint": "First evaluate inside parentheses: $0 \\lor 0$. Then OR that with $0$."
+    },
+    {
+      "id": 76,
+      "question": "What is $1 \\lor (0 \\land 1)$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 1,
+      "hint": "First evaluate parentheses: $0 \\land 1$. Then OR the result with $1$."
+    },
+    {
+      "id": 77,
+      "question": "What is $0 \\land (1 \\lor 1)$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$11$"
+      ],
+      "correct": 2,
+      "hint": "First evaluate parentheses: $1 \\lor 1$. Then AND the result with $0$."
+    },
+    {
+      "id": 78,
+      "question": "What is $\\overline{(1 \\land 1)}$ (NOT of 1 AND 1)?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$-1$"
+      ],
+      "correct": 0,
+      "hint": "First evaluate: $1 \\land 1$. Then apply NOT to the result."
+    },
+    {
+      "id": 79,
+      "question": "What is $\\overline{(0 \\lor 0)}$ (NOT of 0 OR 0)?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$00$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "First evaluate: $0 \\lor 0$. Then apply NOT to the result."
+    },
+    {
+      "id": 80,
+      "question": "What is $(1 \\lor 0) \\land (0 \\lor 1)$?",
+      "answers": [
+        "$0$",
+        "$10$",
+        "$01$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "Evaluate both parentheses first, then AND the results together."
+    },
+    {
+      "id": 81,
+      "question": "What is $(1 \\land 0) \\lor (0 \\land 1)$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 0,
+      "hint": "Evaluate both parentheses first (both are $0$), then OR them together."
+    },
+    {
+      "id": 82,
+      "question": "What is $\\overline{0} \\land \\overline{0}$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$00$"
+      ],
+      "correct": 1,
+      "hint": "First find NOT $0$ for each input. Then AND those results."
+    },
+    {
+      "id": 83,
+      "question": "What is $\\overline{1} \\lor \\overline{1}$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$-1$"
+      ],
+      "correct": 2,
+      "hint": "First find NOT $1$ for each input. Then OR those results."
+    },
+    {
+      "id": 84,
+      "question": "What is $1 \\land \\overline{0}$?",
+      "answers": [
+        "$0$",
+        "$-1$",
+        "$2$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "First find NOT $0$. Then AND that with $1$."
+    },
+    {
+      "id": 85,
+      "question": "What is $0 \\lor \\overline{1}$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "First find NOT $1$. Then OR that with $0$."
+    },
+    {
+      "id": 86,
+      "question": "What is $\\overline{1} \\land 1$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "First find NOT $1$. Then AND that result with $1$."
+    },
+    {
+      "id": 87,
+      "question": "What is $\\overline{0} \\lor 0$?",
+      "answers": [
+        "$0$",
+        "$2$",
+        "$1$",
+        "$-1$"
+      ],
+      "correct": 2,
+      "hint": "First find NOT $0$. Then OR that result with $0$."
+    },
+    {
+      "id": 88,
+      "question": "How many rows are in a complete truth table for a 2-input gate?",
+      "answers": [
+        "$2$",
+        "$3$",
+        "$8$",
+        "$4$"
+      ],
+      "correct": 3,
+      "hint": "Each input can be $0$ or $1$. How many combinations of two inputs are there?"
+    },
+    {
+      "id": 89,
+      "question": "In a truth table, what are the possible input combinations for $A$ and $B$?",
+      "answers": [
+        "$(0,0), (0,1), (1,0), (1,1)$",
+        "$(0,0), (1,1)$",
+        "$(0,1), (1,0)$",
+        "$(0,0), (0,1), (1,0)$"
+      ],
+      "correct": 0,
+      "hint": "Each variable can be $0$ or $1$. List all combinations systematically."
+    },
+    {
+      "id": 90,
+      "question": "In an AND truth table, how many rows have output $1$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$4$"
+      ],
+      "correct": 1,
+      "hint": "AND outputs $1$ only when both inputs are $1$. How many ways can that happen?"
+    },
+    {
+      "id": 91,
+      "question": "In an OR truth table, how many rows have output $1$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct": 2,
+      "hint": "OR outputs $1$ if any input is $1$. Only $(0,0)$ gives $0$, so how many give $1$?"
+    },
+    {
+      "id": 92,
+      "question": "In an OR truth table, how many rows have output $0$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$0$"
+      ],
+      "correct": 0,
+      "hint": "OR outputs $0$ only when both inputs are $0$. How many ways can that happen?"
+    },
+    {
+      "id": 93,
+      "question": "In an AND truth table, how many rows have output $0$?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct": 2,
+      "hint": "AND outputs $0$ unless both inputs are $1$. How many combinations are NOT both $1$?"
+    },
+    {
+      "id": 94,
+      "question": "What is $(0 \\land 1) \\lor 1$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 1,
+      "hint": "First evaluate the AND, then OR the result with $1$."
+    },
+    {
+      "id": 95,
+      "question": "What is $(1 \\lor 0) \\land 0$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 0,
+      "hint": "First evaluate the OR, then AND the result with $0$."
+    },
+    {
+      "id": 96,
+      "question": "What is $\\overline{(0 \\land 0)}$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$00$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "First compute $0 \\land 0$. Then apply NOT to the result."
+    },
+    {
+      "id": 97,
+      "question": "What is $\\overline{(1 \\lor 0)}$?",
+      "answers": [
+        "$1$",
+        "$-1$",
+        "$0$",
+        "$10$"
+      ],
+      "correct": 2,
+      "hint": "First compute $1 \\lor 0$. Then apply NOT to the result."
+    },
+    {
+      "id": 98,
+      "question": "If the light is ON when switch A AND switch B are both ON, which gate is this?",
+      "answers": [
+        "$NOT$ gate",
+        "$AND$ gate",
+        "$OR$ gate",
+        "$XOR$ gate"
+      ],
+      "correct": 1,
+      "hint": "The light needs BOTH switches - this is like which logical operation?"
+    },
+    {
+      "id": 99,
+      "question": "If the alarm sounds when sensor A OR sensor B detects motion, which gate is this?",
+      "answers": [
+        "$AND$ gate",
+        "$NOT$ gate",
+        "$OR$ gate",
+        "$NAND$ gate"
+      ],
+      "correct": 2,
+      "hint": "The alarm triggers if EITHER sensor detects motion - this is like which operation?"
+    },
+    {
+      "id": 100,
+      "question": "If a door unlocks when the button is NOT pressed, which gate controls this?",
+      "answers": [
+        "$AND$ gate",
+        "$OR$ gate",
+        "$XOR$ gate",
+        "$NOT$ gate"
+      ],
+      "correct": 3,
+      "hint": "The door does the OPPOSITE of the button state - this is like which operation?"
+    },
+    {
+      "id": 101,
+      "question": "What is $A \\land A$ when $A = 1$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$11$"
+      ],
+      "correct": 0,
+      "hint": "If $A = 1$, then you're computing $1 \\land 1$."
+    },
+    {
+      "id": 102,
+      "question": "What is $A \\land A$ when $A = 0$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$00$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "If $A = 0$, then you're computing $0 \\land 0$."
+    },
+    {
+      "id": 103,
+      "question": "What is $A \\lor A$ when $A = 1$?",
+      "answers": [
+        "$2$",
+        "$11$",
+        "$1$",
+        "$0$"
+      ],
+      "correct": 2,
+      "hint": "If $A = 1$, then you're computing $1 \\lor 1$."
+    },
+    {
+      "id": 104,
+      "question": "What is $A \\lor A$ when $A = 0$?",
+      "answers": [
+        "$1$",
+        "$00$",
+        "$2$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "If $A = 0$, then you're computing $0 \\lor 0$."
+    },
+    {
+      "id": 105,
+      "question": "What is $A \\land \\overline{A}$ when $A = 1$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "If $A = 1$, then $\\overline{A} = 0$. What is $1 \\land 0$?"
+    },
+    {
+      "id": 106,
+      "question": "What is $A \\land \\overline{A}$ when $A = 0$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "If $A = 0$, then $\\overline{A} = 1$. What is $0 \\land 1$?"
+    },
+    {
+      "id": 107,
+      "question": "What is $A \\lor \\overline{A}$ when $A = 1$?",
+      "answers": [
+        "$0$",
+        "$2$",
+        "$1$",
+        "$-1$"
+      ],
+      "correct": 2,
+      "hint": "If $A = 1$, then $\\overline{A} = 0$. What is $1 \\lor 0$?"
+    },
+    {
+      "id": 108,
+      "question": "What is $A \\lor \\overline{A}$ when $A = 0$?",
+      "answers": [
+        "$0$",
+        "$-1$",
+        "$2$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "If $A = 0$, then $\\overline{A} = 1$. What is $0 \\lor 1$?"
+    },
+    {
+      "id": 109,
+      "question": "Is $A \\land \\overline{A}$ always $0$ or always $1$?",
+      "answers": [
+        "Always $0$",
+        "Always $1$",
+        "Depends on $A$",
+        "Sometimes $2$"
+      ],
+      "correct": 0,
+      "hint": "Try both cases: when $A=0$ and when $A=1$. What do you get each time?"
+    },
+    {
+      "id": 110,
+      "question": "Is $A \\lor \\overline{A}$ always $0$ or always $1$?",
+      "answers": [
+        "Always $0$",
+        "Always $1$",
+        "Depends on $A$",
+        "Sometimes $2$"
+      ],
+      "correct": 1,
+      "hint": "Try both cases: when $A=0$ and when $A=1$. What do you get each time?"
+    },
+    {
+      "id": 111,
+      "question": "What is the output of NOT gate with input $0$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "NOT flips the bit. The opposite of $0$ is...?"
+    },
+    {
+      "id": 112,
+      "question": "What is the output of NOT gate with input $1$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "NOT flips the bit. The opposite of $1$ is...?"
+    },
+    {
+      "id": 113,
+      "question": "TRUE AND FALSE equals what?",
+      "answers": [
+        "TRUE",
+        "MAYBE",
+        "FALSE",
+        "UNKNOWN"
+      ],
+      "correct": 2,
+      "hint": "AND requires BOTH to be TRUE. Is that the case here?"
+    },
+    {
+      "id": 114,
+      "question": "FALSE AND FALSE equals what?",
+      "answers": [
+        "TRUE",
+        "MAYBE",
+        "UNKNOWN",
+        "FALSE"
+      ],
+      "correct": 3,
+      "hint": "AND requires BOTH to be TRUE. Are both TRUE here?"
+    },
+    {
+      "id": 115,
+      "question": "TRUE OR FALSE equals what?",
+      "answers": [
+        "TRUE",
+        "FALSE",
+        "MAYBE",
+        "UNKNOWN"
+      ],
+      "correct": 0,
+      "hint": "OR needs at least one TRUE. Is there at least one?"
+    },
+    {
+      "id": 116,
+      "question": "FALSE OR FALSE equals what?",
+      "answers": [
+        "TRUE",
+        "FALSE",
+        "MAYBE",
+        "UNKNOWN"
+      ],
+      "correct": 1,
+      "hint": "OR needs at least one TRUE. Are any of the inputs TRUE?"
+    },
+    {
+      "id": 117,
+      "question": "NOT TRUE equals what?",
+      "answers": [
+        "TRUE",
+        "MAYBE",
+        "FALSE",
+        "UNKNOWN"
+      ],
+      "correct": 2,
+      "hint": "NOT gives the opposite. What is opposite of TRUE?"
+    },
+    {
+      "id": 118,
+      "question": "NOT FALSE equals what?",
+      "answers": [
+        "FALSE",
+        "MAYBE",
+        "UNKNOWN",
+        "TRUE"
+      ],
+      "correct": 3,
+      "hint": "NOT gives the opposite. What is opposite of FALSE?"
+    },
+    {
+      "id": 119,
+      "question": "Which expression always equals $0$?",
+      "answers": [
+        "$A \\land \\overline{A}$",
+        "$A \\lor \\overline{A}$",
+        "$A \\land A$",
+        "$A \\lor A$"
+      ],
+      "correct": 0,
+      "hint": "A value ANDed with its opposite is always...?"
+    },
+    {
+      "id": 120,
+      "question": "Which expression always equals $1$?",
+      "answers": [
+        "$A \\land \\overline{A}$",
+        "$A \\lor \\overline{A}$",
+        "$A \\land 0$",
+        "$A \\lor 0$"
+      ],
+      "correct": 1,
+      "hint": "A value ORed with its opposite is always...?"
+    },
+    {
+      "id": 121,
+      "question": "What is $1 \\land (0 \\lor 1)$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 0,
+      "hint": "First evaluate inside the parentheses, then AND with $1$."
+    },
+    {
+      "id": 122,
+      "question": "What is $0 \\lor (1 \\land 0)$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$10$",
+        "$01$"
+      ],
+      "correct": 1,
+      "hint": "First evaluate inside the parentheses, then OR with $0$."
+    },
+    {
+      "id": 123,
+      "question": "What is $(1 \\land 1) \\lor 0$?",
+      "answers": [
+        "$0$",
+        "$10$",
+        "$1$",
+        "$11$"
+      ],
+      "correct": 2,
+      "hint": "First evaluate the AND, then OR the result with $0$."
+    },
+    {
+      "id": 124,
+      "question": "What is $(0 \\lor 0) \\land 1$?",
+      "answers": [
+        "$1$",
+        "$00$",
+        "$10$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "First evaluate the OR, then AND the result with $1$."
+    },
+    {
+      "id": 125,
+      "question": "What is $\\overline{(1 \\land 0)}$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$10$",
+        "$-1$"
+      ],
+      "correct": 0,
+      "hint": "First compute $1 \\land 0$, then apply NOT."
+    },
+    {
+      "id": 126,
+      "question": "What is $\\overline{(0 \\lor 1)}$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$01$",
+        "$-1$"
+      ],
+      "correct": 1,
+      "hint": "First compute $0 \\lor 1$, then apply NOT."
+    },
+    {
+      "id": 127,
+      "question": "What is $\\overline{\\overline{0}}$?",
+      "answers": [
+        "$1$",
+        "$-1$",
+        "$0$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "Apply NOT twice. What happens when you flip $0$ twice?"
+    },
+    {
+      "id": 128,
+      "question": "What is $\\overline{\\overline{1}}$?",
+      "answers": [
+        "$0$",
+        "$-1$",
+        "$2$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "Apply NOT twice. What happens when you flip $1$ twice?"
+    },
+    {
+      "id": 129,
+      "question": "If AND gate has inputs $A=1$ and $B=1$, what is the output?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$11$"
+      ],
+      "correct": 0,
+      "hint": "AND outputs $1$ when both inputs are $1$."
+    },
+    {
+      "id": 130,
+      "question": "If OR gate has inputs $A=0$ and $B=0$, what is the output?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$00$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "OR outputs $1$ if any input is $1$. Are there any $1$s?"
+    },
+    {
+      "id": 131,
+      "question": "What is $(\\overline{0}) \\land 1$?",
+      "answers": [
+        "$0$",
+        "$-1$",
+        "$1$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "First find NOT $0$, then AND that with $1$."
+    },
+    {
+      "id": 132,
+      "question": "What is $(\\overline{1}) \\lor 0$?",
+      "answers": [
+        "$1$",
+        "$-1$",
+        "$2$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "First find NOT $1$, then OR that with $0$."
+    },
+    {
+      "id": 133,
+      "question": "What is $1 \\land (\\overline{0})$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "First find NOT $0$, then AND $1$ with that result."
+    },
+    {
+      "id": 134,
+      "question": "What is $0 \\lor (\\overline{1})$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "First find NOT $1$, then OR $0$ with that result."
+    },
+    {
+      "id": 135,
+      "question": "A gate with one input and one output that flips the value is called?",
+      "answers": [
+        "$AND$ gate",
+        "$OR$ gate",
+        "$NOT$ gate",
+        "$XOR$ gate"
+      ],
+      "correct": 2,
+      "hint": "This gate inverts or negates the input."
+    },
+    {
+      "id": 136,
+      "question": "A gate that needs both inputs to be $1$ for output $1$ is called?",
+      "answers": [
+        "$OR$ gate",
+        "$NOT$ gate",
+        "$NOR$ gate",
+        "$AND$ gate"
+      ],
+      "correct": 3,
+      "hint": "Think about the word that means 'both' in logic."
+    },
+    {
+      "id": 137,
+      "question": "A gate that gives $1$ if any input is $1$ is called?",
+      "answers": [
+        "$OR$ gate",
+        "$AND$ gate",
+        "$NOT$ gate",
+        "$NAND$ gate"
+      ],
+      "correct": 0,
+      "hint": "Think about the word that means 'either' in logic."
+    },
+    {
+      "id": 138,
+      "question": "In a NOT truth table, how many rows are there?",
+      "answers": [
+        "$1$",
+        "$2$",
+        "$4$",
+        "$8$"
+      ],
+      "correct": 1,
+      "hint": "NOT has one input. How many values can one binary input have?"
+    },
+    {
+      "id": 139,
+      "question": "What is the output when $A = 0$, $B = 1$, $C = 1$ for $A \\land (B \\lor C)$?",
+      "answers": [
+        "$1$",
+        "$11$",
+        "$0$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "First evaluate $B \\lor C$, then AND that result with $A$."
+    },
+    {
+      "id": 140,
+      "question": "What is the output when $A = 1$, $B = 0$, $C = 0$ for $A \\lor (B \\land C)$?",
+      "answers": [
+        "$0$",
+        "$1$",
+        "$10$",
+        "$00$"
+      ],
+      "correct": 1,
+      "hint": "First evaluate $B \\land C$, then OR that result with $A$."
+    },
+    {
+      "id": 141,
+      "question": "Complete: If $A = 0$, then $\\overline{A} = ?$",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 0,
+      "hint": "NOT flips the value. What is the opposite of $0$?"
+    },
+    {
+      "id": 142,
+      "question": "Complete: If $A = 1$, then $\\overline{A} = ?$",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$-1$",
+        "$2$"
+      ],
+      "correct": 1,
+      "hint": "NOT flips the value. What is the opposite of $1$?"
+    },
+    {
+      "id": 143,
+      "question": "What is $0 \\land 1 \\land 1$?",
+      "answers": [
+        "$1$",
+        "$011$",
+        "$0$",
+        "$2$"
+      ],
+      "correct": 2,
+      "hint": "AND requires ALL inputs to be $1$. Is that true here?"
+    },
+    {
+      "id": 144,
+      "question": "What is $0 \\lor 0 \\lor 1$?",
+      "answers": [
+        "$0$",
+        "$001$",
+        "$2$",
+        "$1$"
+      ],
+      "correct": 3,
+      "hint": "OR outputs $1$ if ANY input is $1$. Is there at least one $1$?"
+    },
+    {
+      "id": 145,
+      "question": "What is $1 \\land 1 \\land 1$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$3$",
+        "$111$"
+      ],
+      "correct": 0,
+      "hint": "AND requires ALL inputs to be $1$. Are they all $1$?"
+    },
+    {
+      "id": 146,
+      "question": "What is $0 \\lor 0 \\lor 0$?",
+      "answers": [
+        "$1$",
+        "$0$",
+        "$000$",
+        "$3$"
+      ],
+      "correct": 1,
+      "hint": "OR outputs $1$ if ANY input is $1$. Are any inputs $1$?"
+    },
+    {
+      "id": 147,
+      "question": "Which gate would you use to check if BOTH conditions are met?",
+      "answers": [
+        "$NOT$ gate",
+        "$OR$ gate",
+        "$AND$ gate",
+        "$NOR$ gate"
+      ],
+      "correct": 2,
+      "hint": "Think about the meaning of 'both' - which operation requires all inputs to be true?"
+    },
+    {
+      "id": 148,
+      "question": "Which gate would you use to check if EITHER condition is met?",
+      "answers": [
+        "$AND$ gate",
+        "$NOT$ gate",
+        "$NAND$ gate",
+        "$OR$ gate"
+      ],
+      "correct": 3,
+      "hint": "Think about the meaning of 'either' - which operation accepts any true input?"
+    },
+    {
+      "id": 149,
+      "question": "Which gate would you use to invert a signal?",
+      "answers": [
+        "$AND$ gate",
+        "$OR$ gate",
+        "$NOT$ gate",
+        "$XOR$ gate"
+      ],
+      "correct": 2,
+      "hint": "Inverting means flipping $0$ to $1$ and $1$ to $0$."
+    },
+    {
+      "id": 150,
+      "question": "What is $(1 \\lor 1) \\land (0 \\lor 0)$?",
+      "answers": [
+        "$1$",
+        "$11$",
+        "$00$",
+        "$0$"
+      ],
+      "correct": 3,
+      "hint": "Evaluate both parentheses first, then AND the results."
+    }
+  ]
+}

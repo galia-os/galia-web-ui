@@ -11,8 +11,14 @@ interface Theme {
   name: string;
   description: string;
   icon: string;
-  access?: number[];
 }
+
+// Map grades to available theme IDs
+const GRADE_THEMES: Record<number, string[]> = {
+  2: ["addition", "subtraction", "number-lines", "counting-large-numbers", "time-and-calendar"],
+  4: [], // empty for now
+  5: ["algebra", "order-of-operations", "work-rate", "geometry", "properties-of-operations", "word-problems", "word-problems-useless", "logic-gates", "computer-science"],
+};
 
 const themes: Theme[] = [
   {
@@ -117,35 +123,17 @@ export default function Home() {
   const [selectedMode, setSelectedMode] = useState<Mode>("training");
   const [selectedTheme, setSelectedTheme] = useState<Theme | null>(null);
   const [loading, setLoading] = useState(true);
-  const [themeAccess, setThemeAccess] = useState<Record<string, number[]>>({});
 
   useEffect(() => {
     // Check if already unlocked
     const isUnlocked = localStorage.getItem("unlocked") === "true";
     setUnlocked(isUnlocked);
 
-    // Load users and theme access data
-    Promise.all([
-      fetch("/api/users").then((res) => res.json()),
-      // Load access data from each theme's easy level
-      Promise.all(
-        themes.map(async (theme) => {
-          try {
-            const data = await import(`@/data/${theme.id}-easy.json`);
-            return { id: theme.id, access: data.access || data.default?.access || [0] };
-          } catch {
-            return { id: theme.id, access: [0] };
-          }
-        })
-      ),
-    ])
-      .then(([usersData, accessData]) => {
+    // Load users
+    fetch("/api/users")
+      .then((res) => res.json())
+      .then((usersData) => {
         setUsers(usersData);
-        const accessMap: Record<string, number[]> = {};
-        accessData.forEach(({ id, access }) => {
-          accessMap[id] = access;
-        });
-        setThemeAccess(accessMap);
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -187,14 +175,15 @@ export default function Home() {
 
   const handleLevelSelect = (levelId: string) => {
     if (!selectedUser) return;
+    const grade = selectedUser.grade || 2;
 
     if (selectedMode === "test") {
       // Test mode: use all available themes for this user
-      router.push(`/quiz?mode=test&level=${levelId}&user=${selectedUser.id}`);
+      router.push(`/quiz?mode=test&level=${levelId}&user=${selectedUser.id}&grade=${grade}`);
     } else {
       // Training mode: use selected theme
       if (!selectedTheme) return;
-      router.push(`/quiz?theme=${selectedTheme.id}-${levelId}&user=${selectedUser.id}`);
+      router.push(`/quiz?theme=${selectedTheme.id}-${levelId}&user=${selectedUser.id}&grade=${grade}`);
     }
   };
 
@@ -308,9 +297,9 @@ export default function Home() {
         <main className="grid w-full max-w-4xl grid-cols-1 gap-6 md:grid-cols-3">
           {themes
             .filter((theme) => {
-              const userIndex = users.findIndex((u) => u.id === selectedUser.id);
-              const access = themeAccess[theme.id] || [0];
-              return access.includes(userIndex);
+              const userGrade = selectedUser.grade || 2;
+              const gradeThemes = GRADE_THEMES[userGrade] || [];
+              return gradeThemes.includes(theme.id);
             })
             .map((theme) => (
               <button

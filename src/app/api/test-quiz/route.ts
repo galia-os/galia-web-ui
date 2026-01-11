@@ -18,25 +18,14 @@ interface QuizData {
   totalTimeMinutes: number;
   questionTimeMinutes: number;
   questions: Question[];
-  access?: number[];
 }
 
-const themes = [
-  "addition",
-  "subtraction",
-  "order-of-operations",
-  "work-rate",
-  "geometry",
-  "algebra",
-  "word-problems-useless",
-  "logic-gates",
-  "computer-science",
-  "number-lines",
-  "counting-large-numbers",
-  "properties-of-operations",
-  "time-and-calendar",
-  "word-problems",
-];
+// Map grades to available theme IDs
+const GRADE_THEMES: Record<number, string[]> = {
+  2: ["addition", "subtraction", "number-lines", "counting-large-numbers", "time-and-calendar"],
+  4: [], // empty for now
+  5: ["algebra", "order-of-operations", "work-rate", "geometry", "properties-of-operations", "word-problems", "word-problems-useless", "logic-gates", "computer-science"],
+};
 
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
@@ -51,6 +40,7 @@ export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const level = searchParams.get("level");
   const userId = searchParams.get("user");
+  const gradeParam = searchParams.get("grade");
 
   if (!level || !userId) {
     return NextResponse.json(
@@ -66,34 +56,48 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  // Get user index from users list
-  const usersEnv = process.env.USERS!;
-  const userNames = usersEnv.split(",").map((name) => name.trim());
-  const userIndex = userNames.findIndex(
-    (name) => name[0].toUpperCase() === userId,
-  );
+  // Get grade from parameter or derive from user
+  let grade = gradeParam ? parseInt(gradeParam) : 2;
 
-  if (userIndex === -1) {
-    return NextResponse.json({ error: "User not found" }, { status: 404 });
+  // If no grade param, try to get it from USER_GRADES env var
+  if (!gradeParam) {
+    const usersEnv = process.env.USERS!;
+    const userNames = usersEnv.split(",").map((name) => name.trim());
+    const userName = userNames.find((name) => name[0].toUpperCase() === userId);
+
+    if (userName) {
+      const userGradesEnv = process.env.USER_GRADES || "";
+      const gradeMatch = userGradesEnv.split(",").find((entry) => {
+        const [name] = entry.split(":");
+        return name.trim() === userName;
+      });
+      if (gradeMatch) {
+        const [, g] = gradeMatch.split(":");
+        grade = parseInt(g) || 2;
+      }
+    }
   }
 
-  const dataDir = path.join(process.cwd(), "src", "data");
+  const themes = GRADE_THEMES[grade] || [];
+
+  if (themes.length === 0) {
+    return NextResponse.json(
+      { error: "No themes available for this grade" },
+      { status: 404 },
+    );
+  }
+
+  const dataDir = path.join(process.cwd(), "src", "data", `grade-${grade}`);
   const allQuestions: Question[] = [];
   const accessibleThemes: string[] = [];
 
-  // Load questions from all accessible themes
+  // Load questions from all themes for this grade
   for (const theme of themes) {
     const filePath = path.join(dataDir, `${theme}-${level}.json`);
 
     try {
       const fileContent = await fs.readFile(filePath, "utf-8");
       const quizData: QuizData = JSON.parse(fileContent);
-
-      // Check if user has access to this theme
-      const access = quizData.access || [0];
-      if (!access.includes(userIndex)) {
-        continue;
-      }
 
       accessibleThemes.push(theme);
 
@@ -105,7 +109,7 @@ export async function GET(request: NextRequest) {
 
       allQuestions.push(...questionsWithSource);
     } catch {
-      // Theme file not found or not accessible, skip
+      // Theme file not found, skip
       continue;
     }
   }

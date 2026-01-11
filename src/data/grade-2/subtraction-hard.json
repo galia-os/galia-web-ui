@@ -1,0 +1,1809 @@
+{
+  "theme": "Subtraction",
+  "themeId": "subtraction",
+  "level": "hard",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 1,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is $142 - 58$?",
+      "answers": [
+        "84",
+        "94",
+        "86",
+        "74"
+      ],
+      "correct": 0,
+      "hint": "You'll need to borrow twice here. Start from the ones place and work left."
+    },
+    {
+      "id": 2,
+      "question": "What is $305 - 167$?",
+      "answers": [
+        "148",
+        "138",
+        "142",
+        "128"
+      ],
+      "correct": 1,
+      "hint": "When the tens digit is 0, you'll need to borrow from the hundreds first."
+    },
+    {
+      "id": 3,
+      "question": "What is $423 - 186$?",
+      "answers": [
+        "247",
+        "233",
+        "237",
+        "243"
+      ],
+      "correct": 2,
+      "hint": "Borrow from tens for the ones, then from hundreds for the tens."
+    },
+    {
+      "id": 4,
+      "question": "What is $500 - 234$?",
+      "answers": [
+        "276",
+        "274",
+        "256",
+        "266"
+      ],
+      "correct": 3,
+      "hint": "With two zeros, think of 500 as 4 hundreds, 9 tens, and 10 ones."
+    },
+    {
+      "id": 5,
+      "question": "What is $271 - 83$?",
+      "answers": [
+        "188",
+        "178",
+        "198",
+        "192"
+      ],
+      "correct": 0,
+      "hint": "Borrow from the tens, but watch out - you'll need to borrow again!"
+    },
+    {
+      "id": 6,
+      "question": "What is $612 - 347$?",
+      "answers": [
+        "275",
+        "265",
+        "255",
+        "285"
+      ],
+      "correct": 1,
+      "hint": "Start at the ones: can you do $2 - 7$? Time to borrow!"
+    },
+    {
+      "id": 7,
+      "question": "What is $400 - 156$?",
+      "answers": [
+        "254",
+        "234",
+        "244",
+        "264"
+      ],
+      "correct": 2,
+      "hint": "Rewrite 400 as 3 hundreds, 9 tens, and 10 ones, then subtract."
+    },
+    {
+      "id": 8,
+      "question": "What is $538 - 279$?",
+      "answers": [
+        "269",
+        "249",
+        "271",
+        "259"
+      ],
+      "correct": 3,
+      "hint": "You'll need to borrow for both ones and tens places."
+    },
+    {
+      "id": 9,
+      "question": "What is $700 - 423$?",
+      "answers": [
+        "277",
+        "287",
+        "267",
+        "283"
+      ],
+      "correct": 0,
+      "hint": "Turn 700 into 6 hundreds, 9 tens, 10 ones before subtracting."
+    },
+    {
+      "id": 10,
+      "question": "What is $365 - 178$?",
+      "answers": [
+        "197",
+        "187",
+        "177",
+        "193"
+      ],
+      "correct": 1,
+      "hint": "Borrow from tens for ones, then from hundreds for tens."
+    },
+    {
+      "id": 11,
+      "question": "What is $843 - 567$?",
+      "answers": [
+        "286",
+        "266",
+        "276",
+        "296"
+      ],
+      "correct": 2,
+      "hint": "Work right to left: $13 - 7$, then $3 - 6$ needs borrowing, then hundreds."
+    },
+    {
+      "id": 12,
+      "question": "What is $502 - 315$?",
+      "answers": [
+        "197",
+        "177",
+        "193",
+        "187"
+      ],
+      "correct": 3,
+      "hint": "The zero in the tens place means you need to borrow from hundreds first."
+    },
+    {
+      "id": 13,
+      "question": "What is $456 - 289$?",
+      "answers": [
+        "167",
+        "177",
+        "157",
+        "173"
+      ],
+      "correct": 0,
+      "hint": "Both ones and tens need borrowing. Take it step by step!"
+    },
+    {
+      "id": 14,
+      "question": "What is $631 - 84$?",
+      "answers": [
+        "557",
+        "547",
+        "537",
+        "553"
+      ],
+      "correct": 1,
+      "hint": "Line up by place value - the 84 has no hundreds digit."
+    },
+    {
+      "id": 15,
+      "question": "What is $800 - 347$?",
+      "answers": [
+        "463",
+        "443",
+        "453",
+        "473"
+      ],
+      "correct": 2,
+      "hint": "Change 800 to 7 hundreds, 9 tens, 10 ones and subtract."
+    },
+    {
+      "id": 16,
+      "question": "What is $215 - 68$?",
+      "answers": [
+        "157",
+        "137",
+        "153",
+        "147"
+      ],
+      "correct": 3,
+      "hint": "Borrow from tens for ones, then borrow from hundreds for tens."
+    },
+    {
+      "id": 17,
+      "question": "What is $574 - 386$?",
+      "answers": [
+        "188",
+        "198",
+        "178",
+        "192"
+      ],
+      "correct": 0,
+      "hint": "Every column needs borrowing! Start with ones, move left."
+    },
+    {
+      "id": 18,
+      "question": "What is $903 - 456$?",
+      "answers": [
+        "457",
+        "447",
+        "437",
+        "453"
+      ],
+      "correct": 1,
+      "hint": "The 0 in tens means borrow from 9 first to help the tens place."
+    },
+    {
+      "id": 19,
+      "question": "What is $342 - 175$?",
+      "answers": [
+        "177",
+        "157",
+        "167",
+        "173"
+      ],
+      "correct": 2,
+      "hint": "Borrow for both the ones and tens columns."
+    },
+    {
+      "id": 20,
+      "question": "What is $600 - 234$?",
+      "answers": [
+        "376",
+        "356",
+        "346",
+        "366"
+      ],
+      "correct": 3,
+      "hint": "Rewrite 600 as 5 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 21,
+      "question": "What is $728 - 459$?",
+      "answers": [
+        "269",
+        "279",
+        "259",
+        "289"
+      ],
+      "correct": 0,
+      "hint": "Start at ones: $8 - 9$ needs borrowing. Then continue left."
+    },
+    {
+      "id": 22,
+      "question": "What is $451 - 284$?",
+      "answers": [
+        "177",
+        "167",
+        "157",
+        "173"
+      ],
+      "correct": 1,
+      "hint": "Both ones and tens require borrowing here."
+    },
+    {
+      "id": 23,
+      "question": "What is $300 - 142$?",
+      "answers": [
+        "168",
+        "148",
+        "158",
+        "162"
+      ],
+      "correct": 2,
+      "hint": "Convert 300: borrow to get 2 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 24,
+      "question": "What is $836 - 478$?",
+      "answers": [
+        "368",
+        "348",
+        "362",
+        "358"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($16-8$) and tens ($2-7$ after borrowing)."
+    },
+    {
+      "id": 25,
+      "question": "What is $405 - 167$?",
+      "answers": [
+        "238",
+        "248",
+        "228",
+        "242"
+      ],
+      "correct": 0,
+      "hint": "The zero in tens makes this tricky - borrow from hundreds first."
+    },
+    {
+      "id": 26,
+      "question": "What is $583 - 295$?",
+      "answers": [
+        "298",
+        "288",
+        "278",
+        "292"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones, then for tens. What's left in hundreds?"
+    },
+    {
+      "id": 27,
+      "question": "What is $714 - 356$?",
+      "answers": [
+        "368",
+        "348",
+        "358",
+        "378"
+      ],
+      "correct": 2,
+      "hint": "Start: $14 - 6 = 8$. Then tens and hundreds need attention."
+    },
+    {
+      "id": 28,
+      "question": "What is $200 - 87$?",
+      "answers": [
+        "123",
+        "103",
+        "117",
+        "113"
+      ],
+      "correct": 3,
+      "hint": "Think of 200 as 1 hundred, 9 tens, 10 ones."
+    },
+    {
+      "id": 29,
+      "question": "What is $462 - 185$?",
+      "answers": [
+        "277",
+        "287",
+        "267",
+        "283"
+      ],
+      "correct": 0,
+      "hint": "Both borrowing steps needed here. Work carefully!"
+    },
+    {
+      "id": 30,
+      "question": "What is $945 - 578$?",
+      "answers": [
+        "377",
+        "367",
+        "357",
+        "387"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones: $15 - 8$. Then handle the tens and hundreds."
+    },
+    {
+      "id": 31,
+      "question": "What is $703 - 256$?",
+      "answers": [
+        "457",
+        "437",
+        "447",
+        "453"
+      ],
+      "correct": 2,
+      "hint": "Zero in tens - borrow from 7 hundreds to make 9 tens first."
+    },
+    {
+      "id": 32,
+      "question": "What is $534 - 267$?",
+      "answers": [
+        "277",
+        "257",
+        "283",
+        "267"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones, borrow for tens, then subtract hundreds."
+    },
+    {
+      "id": 33,
+      "question": "What is $100 - 43$?",
+      "answers": [
+        "57",
+        "67",
+        "47",
+        "63"
+      ],
+      "correct": 0,
+      "hint": "Change 100 to 0 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 34,
+      "question": "What is $825 - 368$?",
+      "answers": [
+        "467",
+        "457",
+        "447",
+        "463"
+      ],
+      "correct": 1,
+      "hint": "Ones: $15 - 8$. Tens: borrow needed. Then hundreds."
+    },
+    {
+      "id": 35,
+      "question": "What is $640 - 273$?",
+      "answers": [
+        "377",
+        "357",
+        "367",
+        "383"
+      ],
+      "correct": 2,
+      "hint": "Borrow from tens for ones, then from hundreds for tens."
+    },
+    {
+      "id": 36,
+      "question": "What is $412 - 134$?",
+      "answers": [
+        "288",
+        "268",
+        "282",
+        "278"
+      ],
+      "correct": 3,
+      "hint": "Can't do $1 - 3$ in tens, so you'll need to borrow from hundreds."
+    },
+    {
+      "id": 37,
+      "question": "What is $901 - 463$?",
+      "answers": [
+        "438",
+        "448",
+        "428",
+        "442"
+      ],
+      "correct": 0,
+      "hint": "Zero in tens requires borrowing from 9 hundreds first."
+    },
+    {
+      "id": 38,
+      "question": "What is $556 - 279$?",
+      "answers": [
+        "287",
+        "277",
+        "267",
+        "283"
+      ],
+      "correct": 1,
+      "hint": "Ones and tens both need borrowing. Take your time!"
+    },
+    {
+      "id": 39,
+      "question": "What is $743 - 98$?",
+      "answers": [
+        "655",
+        "635",
+        "645",
+        "651"
+      ],
+      "correct": 2,
+      "hint": "Line up carefully - 98 is a two-digit number."
+    },
+    {
+      "id": 40,
+      "question": "What is $308 - 159$?",
+      "answers": [
+        "159",
+        "139",
+        "153",
+        "149"
+      ],
+      "correct": 3,
+      "hint": "The zero complicates things - borrow from 3 hundreds to make tens."
+    },
+    {
+      "id": 41,
+      "question": "What is $675 - 397$?",
+      "answers": [
+        "278",
+        "288",
+        "268",
+        "298"
+      ],
+      "correct": 0,
+      "hint": "Multiple borrowings needed. Start from ones and work left."
+    },
+    {
+      "id": 42,
+      "question": "What is $232 - 65$?",
+      "answers": [
+        "177",
+        "167",
+        "157",
+        "173"
+      ],
+      "correct": 1,
+      "hint": "Two-digit subtracted from three-digit. Borrow for ones and tens."
+    },
+    {
+      "id": 43,
+      "question": "What is $507 - 238$?",
+      "answers": [
+        "279",
+        "259",
+        "269",
+        "275"
+      ],
+      "correct": 2,
+      "hint": "Zero in tens - borrow from hundreds, then handle the rest."
+    },
+    {
+      "id": 44,
+      "question": "What is $864 - 486$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($14-6$) and tens ($5-8$)."
+    },
+    {
+      "id": 45,
+      "question": "What is $950 - 473$?",
+      "answers": [
+        "477",
+        "487",
+        "467",
+        "483"
+      ],
+      "correct": 0,
+      "hint": "Borrow from 5 tens for ones, then subtract each column."
+    },
+    {
+      "id": 46,
+      "question": "What is $321 - 154$?",
+      "answers": [
+        "177",
+        "167",
+        "157",
+        "173"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones: $11-4$. Borrow for tens: $1-5$."
+    },
+    {
+      "id": 47,
+      "question": "What is $600 - 317$?",
+      "answers": [
+        "293",
+        "273",
+        "283",
+        "287"
+      ],
+      "correct": 2,
+      "hint": "Two zeros means double borrowing from hundreds."
+    },
+    {
+      "id": 48,
+      "question": "What is $758 - 389$?",
+      "answers": [
+        "379",
+        "359",
+        "389",
+        "369"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones, borrow for tens, then do the hundreds."
+    },
+    {
+      "id": 49,
+      "question": "What is $416 - 247$?",
+      "answers": [
+        "169",
+        "179",
+        "159",
+        "175"
+      ],
+      "correct": 0,
+      "hint": "Start with $16-7$, then handle tens borrowing, then hundreds."
+    },
+    {
+      "id": 50,
+      "question": "What is $804 - 526$?",
+      "answers": [
+        "288",
+        "278",
+        "268",
+        "282"
+      ],
+      "correct": 1,
+      "hint": "The zero in tens makes this interesting - borrow from 8 first."
+    },
+    {
+      "id": 51,
+      "question": "What is $573 - 285$?",
+      "answers": [
+        "298",
+        "278",
+        "288",
+        "292"
+      ],
+      "correct": 2,
+      "hint": "Borrow twice: once for ones, once for tens."
+    },
+    {
+      "id": 52,
+      "question": "What is $935 - 476$?",
+      "answers": [
+        "469",
+        "449",
+        "479",
+        "459"
+      ],
+      "correct": 3,
+      "hint": "Ones: $15-6$. Tens: $2-7$ needs borrowing. Then hundreds."
+    },
+    {
+      "id": 53,
+      "question": "What is $250 - 83$?",
+      "answers": [
+        "167",
+        "177",
+        "157",
+        "173"
+      ],
+      "correct": 0,
+      "hint": "Borrow from tens for ones, line up the two-digit number carefully."
+    },
+    {
+      "id": 54,
+      "question": "What is $701 - 334$?",
+      "answers": [
+        "377",
+        "367",
+        "357",
+        "383"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 7 hundreds first to create tens."
+    },
+    {
+      "id": 55,
+      "question": "What is $482 - 195$?",
+      "answers": [
+        "297",
+        "277",
+        "287",
+        "293"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones ($12-5$) and tens ($7-9$)."
+    },
+    {
+      "id": 56,
+      "question": "What is $846 - 457$?",
+      "answers": [
+        "399",
+        "379",
+        "409",
+        "389"
+      ],
+      "correct": 3,
+      "hint": "Start: $16-7=9$. Then tens and hundreds."
+    },
+    {
+      "id": 57,
+      "question": "What is $350 - 172$?",
+      "answers": [
+        "178",
+        "188",
+        "168",
+        "184"
+      ],
+      "correct": 0,
+      "hint": "Borrow from tens for ones, then from hundreds for tens."
+    },
+    {
+      "id": 58,
+      "question": "What is $627 - 358$?",
+      "answers": [
+        "279",
+        "269",
+        "259",
+        "275"
+      ],
+      "correct": 1,
+      "hint": "Ones: $17-8$. Tens: borrow from hundreds. Then finish."
+    },
+    {
+      "id": 59,
+      "question": "What is $500 - 126$?",
+      "answers": [
+        "384",
+        "364",
+        "374",
+        "378"
+      ],
+      "correct": 2,
+      "hint": "Two zeros - rewrite as 4 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 60,
+      "question": "What is $913 - 547$?",
+      "answers": [
+        "376",
+        "356",
+        "386",
+        "366"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones: $13-7$. Then handle tens needing to borrow."
+    },
+    {
+      "id": 61,
+      "question": "What is $264 - 87$?",
+      "answers": [
+        "177",
+        "187",
+        "167",
+        "183"
+      ],
+      "correct": 0,
+      "hint": "Two-digit from three-digit. Borrow for ones, then tens."
+    },
+    {
+      "id": 62,
+      "question": "What is $806 - 429$?",
+      "answers": [
+        "387",
+        "377",
+        "367",
+        "383"
+      ],
+      "correct": 1,
+      "hint": "The zero in tens requires borrowing from hundreds first."
+    },
+    {
+      "id": 63,
+      "question": "What is $471 - 283$?",
+      "answers": [
+        "198",
+        "178",
+        "188",
+        "194"
+      ],
+      "correct": 2,
+      "hint": "Borrow for both ones and tens places."
+    },
+    {
+      "id": 64,
+      "question": "What is $742 - 365$?",
+      "answers": [
+        "387",
+        "367",
+        "397",
+        "377"
+      ],
+      "correct": 3,
+      "hint": "Ones: $12-5$. Tens: $3-6$ needs borrowing."
+    },
+    {
+      "id": 65,
+      "question": "What is $600 - 283$?",
+      "answers": [
+        "317",
+        "327",
+        "307",
+        "323"
+      ],
+      "correct": 0,
+      "hint": "Rewrite 600 as 5 hundreds, 9 tens, 10 ones first."
+    },
+    {
+      "id": 66,
+      "question": "What is $535 - 267$?",
+      "answers": [
+        "278",
+        "268",
+        "258",
+        "274"
+      ],
+      "correct": 1,
+      "hint": "Double borrowing: ones then tens."
+    },
+    {
+      "id": 67,
+      "question": "What is $902 - 536$?",
+      "answers": [
+        "376",
+        "356",
+        "366",
+        "386"
+      ],
+      "correct": 2,
+      "hint": "Zero in tens - borrow from 9 to create tens first."
+    },
+    {
+      "id": 68,
+      "question": "What is $318 - 139$?",
+      "answers": [
+        "189",
+        "169",
+        "185",
+        "179"
+      ],
+      "correct": 3,
+      "hint": "Ones: $18-9$. Tens: $0-3$ needs borrowing."
+    },
+    {
+      "id": 69,
+      "question": "What is $853 - 476$?",
+      "answers": [
+        "377",
+        "387",
+        "367",
+        "383"
+      ],
+      "correct": 0,
+      "hint": "Borrow for ones, borrow for tens, then hundreds."
+    },
+    {
+      "id": 70,
+      "question": "What is $400 - 183$?",
+      "answers": [
+        "227",
+        "217",
+        "207",
+        "223"
+      ],
+      "correct": 1,
+      "hint": "Two zeros: change 400 to 3 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 71,
+      "question": "What is $647 - 268$?",
+      "answers": [
+        "389",
+        "369",
+        "379",
+        "399"
+      ],
+      "correct": 2,
+      "hint": "Ones: $17-8$. Tens: borrow from hundreds."
+    },
+    {
+      "id": 72,
+      "question": "What is $524 - 157$?",
+      "answers": [
+        "377",
+        "357",
+        "373",
+        "367"
+      ],
+      "correct": 3,
+      "hint": "Both ones and tens columns require borrowing."
+    },
+    {
+      "id": 73,
+      "question": "What is $703 - 348$?",
+      "answers": [
+        "355",
+        "365",
+        "345",
+        "361"
+      ],
+      "correct": 0,
+      "hint": "Zero in tens - borrow from 7 hundreds first."
+    },
+    {
+      "id": 74,
+      "question": "What is $861 - 483$?",
+      "answers": [
+        "388",
+        "378",
+        "368",
+        "398"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones, borrow for tens. Subtract each column."
+    },
+    {
+      "id": 75,
+      "question": "What is $432 - 165$?",
+      "answers": [
+        "277",
+        "257",
+        "267",
+        "273"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones: $12-5$. Borrow for tens: $2-6$."
+    },
+    {
+      "id": 76,
+      "question": "What is $915 - 538$?",
+      "answers": [
+        "387",
+        "367",
+        "397",
+        "377"
+      ],
+      "correct": 3,
+      "hint": "Start with ones: $15-8$. Then borrow for tens."
+    },
+    {
+      "id": 77,
+      "question": "What is $280 - 94$?",
+      "answers": [
+        "186",
+        "196",
+        "176",
+        "192"
+      ],
+      "correct": 0,
+      "hint": "Two-digit from three-digit. Watch the borrowing!"
+    },
+    {
+      "id": 78,
+      "question": "What is $604 - 327$?",
+      "answers": [
+        "287",
+        "277",
+        "267",
+        "283"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 6 hundreds first."
+    },
+    {
+      "id": 79,
+      "question": "What is $546 - 258$?",
+      "answers": [
+        "298",
+        "278",
+        "288",
+        "294"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones, borrow for tens, subtract hundreds."
+    },
+    {
+      "id": 80,
+      "question": "What is $827 - 449$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Ones: $17-9$. Tens: $1-4$ needs borrowing."
+    },
+    {
+      "id": 81,
+      "question": "What is $500 - 342$?",
+      "answers": [
+        "158",
+        "168",
+        "148",
+        "164"
+      ],
+      "correct": 0,
+      "hint": "Rewrite 500 with borrowing to handle the subtraction."
+    },
+    {
+      "id": 82,
+      "question": "What is $713 - 456$?",
+      "answers": [
+        "267",
+        "257",
+        "247",
+        "263"
+      ],
+      "correct": 1,
+      "hint": "Start: $13-6=7$. Then handle tens and hundreds."
+    },
+    {
+      "id": 83,
+      "question": "What is $365 - 187$?",
+      "answers": [
+        "188",
+        "168",
+        "178",
+        "184"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones ($15-7$) and tens ($5-8$)."
+    },
+    {
+      "id": 84,
+      "question": "What is $908 - 529$?",
+      "answers": [
+        "389",
+        "369",
+        "399",
+        "379"
+      ],
+      "correct": 3,
+      "hint": "Zero in tens requires borrowing from 9 hundreds."
+    },
+    {
+      "id": 85,
+      "question": "What is $641 - 274$?",
+      "answers": [
+        "367",
+        "377",
+        "357",
+        "373"
+      ],
+      "correct": 0,
+      "hint": "Borrow for ones, borrow for tens. Take it step by step."
+    },
+    {
+      "id": 86,
+      "question": "What is $800 - 456$?",
+      "answers": [
+        "354",
+        "344",
+        "334",
+        "348"
+      ],
+      "correct": 1,
+      "hint": "Two zeros - convert 800 to 7 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 87,
+      "question": "What is $457 - 189$?",
+      "answers": [
+        "278",
+        "258",
+        "268",
+        "274"
+      ],
+      "correct": 2,
+      "hint": "Both ones and tens need borrowing."
+    },
+    {
+      "id": 88,
+      "question": "What is $732 - 354$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones: $12-4$. Then work on tens and hundreds."
+    },
+    {
+      "id": 89,
+      "question": "What is $504 - 236$?",
+      "answers": [
+        "268",
+        "278",
+        "258",
+        "274"
+      ],
+      "correct": 0,
+      "hint": "Zero in tens - borrow from 5 hundreds first."
+    },
+    {
+      "id": 90,
+      "question": "What is $865 - 397$?",
+      "answers": [
+        "478",
+        "468",
+        "458",
+        "474"
+      ],
+      "correct": 1,
+      "hint": "Double borrowing for ones and tens. Watch carefully!"
+    },
+    {
+      "id": 91,
+      "question": "What is $423 - 145$?",
+      "answers": [
+        "288",
+        "268",
+        "278",
+        "284"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones: $13-5$. Borrow for tens: $1-4$."
+    },
+    {
+      "id": 92,
+      "question": "What is $916 - 548$?",
+      "answers": [
+        "378",
+        "358",
+        "388",
+        "368"
+      ],
+      "correct": 3,
+      "hint": "Ones: $16-8$. Tens: borrow from hundreds."
+    },
+    {
+      "id": 93,
+      "question": "What is $370 - 183$?",
+      "answers": [
+        "187",
+        "197",
+        "177",
+        "193"
+      ],
+      "correct": 0,
+      "hint": "Borrow from tens for ones, then from hundreds for tens."
+    },
+    {
+      "id": 94,
+      "question": "What is $602 - 345$?",
+      "answers": [
+        "267",
+        "257",
+        "247",
+        "263"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 6 hundreds to make tens."
+    },
+    {
+      "id": 95,
+      "question": "What is $548 - 279$?",
+      "answers": [
+        "279",
+        "259",
+        "269",
+        "275"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones, borrow for tens. Careful calculation!"
+    },
+    {
+      "id": 96,
+      "question": "What is $841 - 462$?",
+      "answers": [
+        "389",
+        "369",
+        "399",
+        "379"
+      ],
+      "correct": 3,
+      "hint": "Start: $11-2$. Then tens and hundreds."
+    },
+    {
+      "id": 97,
+      "question": "What is $300 - 156$?",
+      "answers": [
+        "144",
+        "154",
+        "134",
+        "148"
+      ],
+      "correct": 0,
+      "hint": "Two zeros - rewrite 300 as 2 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 98,
+      "question": "What is $725 - 367$?",
+      "answers": [
+        "368",
+        "358",
+        "348",
+        "364"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones ($15-7$) and tens ($1-6$)."
+    },
+    {
+      "id": 99,
+      "question": "What is $436 - 168$?",
+      "answers": [
+        "278",
+        "258",
+        "268",
+        "274"
+      ],
+      "correct": 2,
+      "hint": "Both ones and tens columns require borrowing."
+    },
+    {
+      "id": 100,
+      "question": "What is $907 - 439$?",
+      "answers": [
+        "478",
+        "458",
+        "488",
+        "468"
+      ],
+      "correct": 3,
+      "hint": "Zero in tens - borrow from 9 hundreds first."
+    },
+    {
+      "id": 101,
+      "question": "What is $563 - 285$?",
+      "answers": [
+        "278",
+        "288",
+        "268",
+        "284"
+      ],
+      "correct": 0,
+      "hint": "Borrow twice: for ones and for tens."
+    },
+    {
+      "id": 102,
+      "question": "What is $814 - 527$?",
+      "answers": [
+        "297",
+        "287",
+        "277",
+        "293"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones ($14-7$) and tens ($0-2$)."
+    },
+    {
+      "id": 103,
+      "question": "What is $400 - 267$?",
+      "answers": [
+        "143",
+        "123",
+        "133",
+        "137"
+      ],
+      "correct": 2,
+      "hint": "Two zeros - convert 400 to 3 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 104,
+      "question": "What is $752 - 384$?",
+      "answers": [
+        "378",
+        "358",
+        "388",
+        "368"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones: $12-4$. Borrow for tens: $4-8$."
+    },
+    {
+      "id": 105,
+      "question": "What is $621 - 253$?",
+      "answers": [
+        "368",
+        "378",
+        "358",
+        "374"
+      ],
+      "correct": 0,
+      "hint": "Borrow for ones ($11-3$) and tens ($1-5$)."
+    },
+    {
+      "id": 106,
+      "question": "What is $905 - 467$?",
+      "answers": [
+        "448",
+        "438",
+        "428",
+        "444"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 9 hundreds to create tens."
+    },
+    {
+      "id": 107,
+      "question": "What is $343 - 175$?",
+      "answers": [
+        "178",
+        "158",
+        "168",
+        "174"
+      ],
+      "correct": 2,
+      "hint": "Both ones and tens need borrowing."
+    },
+    {
+      "id": 108,
+      "question": "What is $728 - 359$?",
+      "answers": [
+        "379",
+        "359",
+        "389",
+        "369"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($18-9$) and tens ($1-5$)."
+    },
+    {
+      "id": 109,
+      "question": "What is $500 - 278$?",
+      "answers": [
+        "222",
+        "232",
+        "212",
+        "228"
+      ],
+      "correct": 0,
+      "hint": "Two zeros - rewrite 500 as 4 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 110,
+      "question": "What is $836 - 458$?",
+      "answers": [
+        "388",
+        "378",
+        "368",
+        "384"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones ($16-8$) and tens ($2-5$)."
+    },
+    {
+      "id": 111,
+      "question": "What is $612 - 334$?",
+      "answers": [
+        "288",
+        "268",
+        "278",
+        "284"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones ($12-4$) and tens ($0-3$)."
+    },
+    {
+      "id": 112,
+      "question": "What is $941 - 563$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($11-3$) and tens ($3-6$)."
+    },
+    {
+      "id": 113,
+      "question": "What is $254 - 86$?",
+      "answers": [
+        "168",
+        "178",
+        "158",
+        "174"
+      ],
+      "correct": 0,
+      "hint": "Two-digit from three-digit. Borrow for ones and tens."
+    },
+    {
+      "id": 114,
+      "question": "What is $803 - 425$?",
+      "answers": [
+        "388",
+        "378",
+        "368",
+        "384"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 8 hundreds first."
+    },
+    {
+      "id": 115,
+      "question": "What is $465 - 287$?",
+      "answers": [
+        "188",
+        "168",
+        "178",
+        "184"
+      ],
+      "correct": 2,
+      "hint": "Both ones and tens require borrowing."
+    },
+    {
+      "id": 116,
+      "question": "What is $712 - 435$?",
+      "answers": [
+        "287",
+        "267",
+        "297",
+        "277"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($12-5$) and tens ($0-3$)."
+    },
+    {
+      "id": 117,
+      "question": "What is $600 - 354$?",
+      "answers": [
+        "246",
+        "256",
+        "236",
+        "252"
+      ],
+      "correct": 0,
+      "hint": "Two zeros - convert 600 to 5 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 118,
+      "question": "What is $534 - 256$?",
+      "answers": [
+        "288",
+        "278",
+        "268",
+        "284"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones, borrow for tens, then hundreds."
+    },
+    {
+      "id": 119,
+      "question": "What is $923 - 546$?",
+      "answers": [
+        "387",
+        "367",
+        "377",
+        "383"
+      ],
+      "correct": 2,
+      "hint": "Start: $13-6$. Then handle tens needing borrowing."
+    },
+    {
+      "id": 120,
+      "question": "What is $801 - 423$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Zero in tens - borrow from 8 hundreds first."
+    },
+    {
+      "id": 121,
+      "question": "What is $456 - 178$?",
+      "answers": [
+        "278",
+        "288",
+        "268",
+        "284"
+      ],
+      "correct": 0,
+      "hint": "Both ones and tens columns need borrowing."
+    },
+    {
+      "id": 122,
+      "question": "What is $742 - 364$?",
+      "answers": [
+        "388",
+        "378",
+        "368",
+        "384"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones ($12-4$) and tens ($3-6$)."
+    },
+    {
+      "id": 123,
+      "question": "What is $300 - 134$?",
+      "answers": [
+        "176",
+        "156",
+        "166",
+        "172"
+      ],
+      "correct": 2,
+      "hint": "Two zeros - rewrite 300 as 2 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 124,
+      "question": "What is $835 - 458$?",
+      "answers": [
+        "387",
+        "367",
+        "397",
+        "377"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($15-8$) and tens ($2-5$)."
+    },
+    {
+      "id": 125,
+      "question": "What is $623 - 345$?",
+      "answers": [
+        "278",
+        "288",
+        "268",
+        "284"
+      ],
+      "correct": 0,
+      "hint": "Borrow for ones ($13-5$) and tens ($1-4$)."
+    },
+    {
+      "id": 126,
+      "question": "What is $904 - 537$?",
+      "answers": [
+        "377",
+        "367",
+        "357",
+        "373"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 9 hundreds to create tens."
+    },
+    {
+      "id": 127,
+      "question": "What is $547 - 268$?",
+      "answers": [
+        "289",
+        "269",
+        "279",
+        "285"
+      ],
+      "correct": 2,
+      "hint": "Borrow twice for this one - ones then tens."
+    },
+    {
+      "id": 128,
+      "question": "What is $816 - 438$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Ones: $16-8$. Tens: $0-3$ needs borrowing."
+    },
+    {
+      "id": 129,
+      "question": "What is $400 - 145$?",
+      "answers": [
+        "255",
+        "265",
+        "245",
+        "261"
+      ],
+      "correct": 0,
+      "hint": "Two zeros - change 400 to 3 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 130,
+      "question": "What is $753 - 375$?",
+      "answers": [
+        "388",
+        "378",
+        "368",
+        "384"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones ($13-5$) and tens ($4-7$)."
+    },
+    {
+      "id": 131,
+      "question": "What is $632 - 354$?",
+      "answers": [
+        "288",
+        "268",
+        "278",
+        "284"
+      ],
+      "correct": 2,
+      "hint": "Both ones and tens require borrowing."
+    },
+    {
+      "id": 132,
+      "question": "What is $945 - 567$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($15-7$) and tens ($3-6$)."
+    },
+    {
+      "id": 133,
+      "question": "What is $271 - 93$?",
+      "answers": [
+        "178",
+        "188",
+        "168",
+        "184"
+      ],
+      "correct": 0,
+      "hint": "Two-digit from three-digit. Watch the borrowing!"
+    },
+    {
+      "id": 134,
+      "question": "What is $806 - 428$?",
+      "answers": [
+        "388",
+        "378",
+        "368",
+        "384"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 8 hundreds first."
+    },
+    {
+      "id": 135,
+      "question": "What is $543 - 265$?",
+      "answers": [
+        "288",
+        "268",
+        "278",
+        "284"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones, borrow for tens, then hundreds."
+    },
+    {
+      "id": 136,
+      "question": "What is $724 - 346$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($14-6$) and tens ($1-4$)."
+    },
+    {
+      "id": 137,
+      "question": "What is $500 - 233$?",
+      "answers": [
+        "267",
+        "277",
+        "257",
+        "273"
+      ],
+      "correct": 0,
+      "hint": "Two zeros - rewrite 500 as 4 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 138,
+      "question": "What is $862 - 483$?",
+      "answers": [
+        "389",
+        "379",
+        "369",
+        "385"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones ($12-3$) and tens ($5-8$)."
+    },
+    {
+      "id": 139,
+      "question": "What is $617 - 338$?",
+      "answers": [
+        "289",
+        "269",
+        "279",
+        "285"
+      ],
+      "correct": 2,
+      "hint": "Borrow for ones ($17-8$) and tens ($0-3$)."
+    },
+    {
+      "id": 140,
+      "question": "What is $932 - 554$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($12-4$) and tens ($2-5$)."
+    },
+    {
+      "id": 141,
+      "question": "What is $354 - 176$?",
+      "answers": [
+        "178",
+        "188",
+        "168",
+        "184"
+      ],
+      "correct": 0,
+      "hint": "Both ones and tens need borrowing."
+    },
+    {
+      "id": 142,
+      "question": "What is $805 - 437$?",
+      "answers": [
+        "378",
+        "368",
+        "358",
+        "374"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 8 hundreds to create tens."
+    },
+    {
+      "id": 143,
+      "question": "What is $600 - 423$?",
+      "answers": [
+        "187",
+        "167",
+        "177",
+        "183"
+      ],
+      "correct": 2,
+      "hint": "Two zeros - convert 600 to 5 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 144,
+      "question": "What is $756 - 378$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($16-8$) and tens ($4-7$)."
+    },
+    {
+      "id": 145,
+      "question": "What is $524 - 246$?",
+      "answers": [
+        "278",
+        "288",
+        "268",
+        "284"
+      ],
+      "correct": 0,
+      "hint": "Borrow for ones ($14-6$) and tens ($1-4$)."
+    },
+    {
+      "id": 146,
+      "question": "What is $903 - 524$?",
+      "answers": [
+        "389",
+        "379",
+        "369",
+        "385"
+      ],
+      "correct": 1,
+      "hint": "Zero in tens - borrow from 9 hundreds first."
+    },
+    {
+      "id": 147,
+      "question": "What is $436 - 157$?",
+      "answers": [
+        "289",
+        "269",
+        "279",
+        "285"
+      ],
+      "correct": 2,
+      "hint": "Both ones and tens columns require borrowing."
+    },
+    {
+      "id": 148,
+      "question": "What is $823 - 445$?",
+      "answers": [
+        "388",
+        "368",
+        "398",
+        "378"
+      ],
+      "correct": 3,
+      "hint": "Borrow for ones ($13-5$) and tens ($1-4$)."
+    },
+    {
+      "id": 149,
+      "question": "What is $700 - 321$?",
+      "answers": [
+        "379",
+        "389",
+        "369",
+        "385"
+      ],
+      "correct": 0,
+      "hint": "Two zeros - rewrite 700 as 6 hundreds, 9 tens, 10 ones."
+    },
+    {
+      "id": 150,
+      "question": "What is $945 - 468$?",
+      "answers": [
+        "487",
+        "477",
+        "467",
+        "497"
+      ],
+      "correct": 1,
+      "hint": "Borrow for ones ($15-8$) and tens ($3-6$). Then hundreds."
+    }
+  ]
+}

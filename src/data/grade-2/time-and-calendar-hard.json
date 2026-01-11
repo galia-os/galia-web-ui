@@ -1,0 +1,1809 @@
+{
+  "theme": "Time and Calendar",
+  "themeId": "time-and-calendar",
+  "level": "hard",
+  "totalTimeMinutes": 60,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many weeks are in one year?",
+      "answers": [
+        "52 weeks",
+        "50 weeks",
+        "48 weeks",
+        "54 weeks"
+      ],
+      "correct": 0,
+      "hint": "There are 365 days in a year. How many groups of 7 days fit into 365?"
+    },
+    {
+      "id": 2,
+      "question": "How many days are in one year?",
+      "answers": [
+        "360 days",
+        "365 days",
+        "350 days",
+        "370 days"
+      ],
+      "correct": 1,
+      "hint": "Think about how many days pass from one birthday to the next!"
+    },
+    {
+      "id": 3,
+      "question": "If it is 3:15, what time will it be in 2 hours?",
+      "answers": [
+        "4:15",
+        "5:00",
+        "5:15",
+        "6:15"
+      ],
+      "correct": 2,
+      "hint": "Add the hours first. The minutes stay the same when you only add hours."
+    },
+    {
+      "id": 4,
+      "question": "How many hours are in 2 days?",
+      "answers": [
+        "24 hours",
+        "36 hours",
+        "42 hours",
+        "48 hours"
+      ],
+      "correct": 3,
+      "hint": "One day has 24 hours. What is 24 + 24?"
+    },
+    {
+      "id": 5,
+      "question": "What time does the clock show if the hour hand is on 7 and the minute hand is on 3?",
+      "answers": [
+        "7:15",
+        "7:03",
+        "3:35",
+        "3:07"
+      ],
+      "correct": 0,
+      "hint": "The minute hand on 3 means 3 groups of 5 minutes. Count by 5s: 5, 10, ..."
+    },
+    {
+      "id": 6,
+      "question": "How many days are in 3 weeks?",
+      "answers": [
+        "14 days",
+        "21 days",
+        "28 days",
+        "24 days"
+      ],
+      "correct": 1,
+      "hint": "One week has 7 days. What is 7 + 7 + 7?"
+    },
+    {
+      "id": 7,
+      "question": "If today is Wednesday, what day will it be in 5 days?",
+      "answers": [
+        "Sunday",
+        "Saturday",
+        "Monday",
+        "Tuesday"
+      ],
+      "correct": 2,
+      "hint": "Count forward from Wednesday: Thursday (1), Friday (2), Saturday (3)..."
+    },
+    {
+      "id": 8,
+      "question": "It is 10:30 AM. What time will it be in 1 hour and 30 minutes?",
+      "answers": [
+        "11:30 AM",
+        "11:00 AM",
+        "12:30 PM",
+        "12:00 PM"
+      ],
+      "correct": 3,
+      "hint": "Add 1 hour first to get 11:30. Then add 30 more minutes."
+    },
+    {
+      "id": 9,
+      "question": "How many months have exactly 30 days?",
+      "answers": [
+        "4 months",
+        "5 months",
+        "6 months",
+        "3 months"
+      ],
+      "correct": 0,
+      "hint": "Remember: 30 days has September, April, June, and... which other month?"
+    },
+    {
+      "id": 10,
+      "question": "What time does the clock show if the hour hand is on 11 and the minute hand is on 6?",
+      "answers": [
+        "6:55",
+        "11:30",
+        "11:06",
+        "6:11"
+      ],
+      "correct": 1,
+      "hint": "The minute hand on 6 means 6 groups of 5 minutes. What is 6 times 5?"
+    },
+    {
+      "id": 11,
+      "question": "If it is 4:45, what time will it be in 30 minutes?",
+      "answers": [
+        "5:00",
+        "4:75",
+        "5:15",
+        "5:45"
+      ],
+      "correct": 2,
+      "hint": "45 minutes plus 30 minutes equals 75 minutes. But there are only 60 minutes in an hour!"
+    },
+    {
+      "id": 12,
+      "question": "How many hours are in 3 days?",
+      "answers": [
+        "48 hours",
+        "60 hours",
+        "84 hours",
+        "72 hours"
+      ],
+      "correct": 3,
+      "hint": "Each day has 24 hours. What is 24 + 24 + 24?"
+    },
+    {
+      "id": 13,
+      "question": "March is the _____ month of the year.",
+      "answers": [
+        "3rd",
+        "2nd",
+        "4th",
+        "5th"
+      ],
+      "correct": 0,
+      "hint": "Count from January: January (1), February (2), March (?)."
+    },
+    {
+      "id": 14,
+      "question": "If today is Saturday, what day was it 3 days ago?",
+      "answers": [
+        "Thursday",
+        "Wednesday",
+        "Tuesday",
+        "Friday"
+      ],
+      "correct": 1,
+      "hint": "Count backward from Saturday: Friday (1 day ago), Thursday (2 days ago)..."
+    },
+    {
+      "id": 15,
+      "question": "How many days are in 4 weeks?",
+      "answers": [
+        "21 days",
+        "35 days",
+        "28 days",
+        "24 days"
+      ],
+      "correct": 2,
+      "hint": "One week has 7 days. Multiply 7 by 4."
+    },
+    {
+      "id": 16,
+      "question": "It is 2:40 PM. What time will it be in 25 minutes?",
+      "answers": [
+        "2:65 PM",
+        "3:15 PM",
+        "2:55 PM",
+        "3:05 PM"
+      ],
+      "correct": 3,
+      "hint": "40 + 25 = 65 minutes. Since 65 is more than 60, the hour changes!"
+    },
+    {
+      "id": 17,
+      "question": "How many months are in one year?",
+      "answers": [
+        "12 months",
+        "10 months",
+        "11 months",
+        "14 months"
+      ],
+      "correct": 0,
+      "hint": "Name them: January, February, March... keep counting until December."
+    },
+    {
+      "id": 18,
+      "question": "What time does the clock show if the hour hand is on 9 and the minute hand is on 9?",
+      "answers": [
+        "9:09",
+        "9:45",
+        "9:54",
+        "45:09"
+      ],
+      "correct": 1,
+      "hint": "The minute hand pointing to 9 means 9 groups of 5 minutes. What is 9 x 5?"
+    },
+    {
+      "id": 19,
+      "question": "If school starts at 8:00 AM and ends at 3:00 PM, how many hours is the school day?",
+      "answers": [
+        "5 hours",
+        "6 hours",
+        "7 hours",
+        "8 hours"
+      ],
+      "correct": 2,
+      "hint": "Count the hours from 8: 9, 10, 11, 12, 1, 2, 3. How many did you count?"
+    },
+    {
+      "id": 20,
+      "question": "How many days are in 5 weeks?",
+      "answers": [
+        "30 days",
+        "40 days",
+        "42 days",
+        "35 days"
+      ],
+      "correct": 3,
+      "hint": "Each week has 7 days. What is 5 x 7?"
+    },
+    {
+      "id": 21,
+      "question": "It is 6:50 AM. What time will it be in 20 minutes?",
+      "answers": [
+        "7:10 AM",
+        "6:70 AM",
+        "7:00 AM",
+        "7:20 AM"
+      ],
+      "correct": 0,
+      "hint": "50 + 20 = 70 minutes. Remember, 70 minutes = 1 hour and 10 minutes."
+    },
+    {
+      "id": 22,
+      "question": "November is the _____ month of the year.",
+      "answers": [
+        "10th",
+        "11th",
+        "9th",
+        "12th"
+      ],
+      "correct": 1,
+      "hint": "September is 9, October is 10, November is..."
+    },
+    {
+      "id": 23,
+      "question": "How many minutes are in 2 hours?",
+      "answers": [
+        "100 minutes",
+        "90 minutes",
+        "120 minutes",
+        "60 minutes"
+      ],
+      "correct": 2,
+      "hint": "One hour has 60 minutes. What is 60 + 60?"
+    },
+    {
+      "id": 24,
+      "question": "If a movie starts at 7:15 PM and is 2 hours long, what time does it end?",
+      "answers": [
+        "9:00 PM",
+        "9:30 PM",
+        "10:15 PM",
+        "9:15 PM"
+      ],
+      "correct": 3,
+      "hint": "Add 2 hours to 7:15. The minutes stay the same when adding full hours."
+    },
+    {
+      "id": 25,
+      "question": "How many days are in 2 weeks?",
+      "answers": [
+        "14 days",
+        "7 days",
+        "10 days",
+        "21 days"
+      ],
+      "correct": 0,
+      "hint": "One week has 7 days. What is 7 + 7?"
+    },
+    {
+      "id": 26,
+      "question": "What time does the clock show if the hour hand is on 4 and the minute hand is on 12?",
+      "answers": [
+        "12:04",
+        "4:00",
+        "4:12",
+        "12:20"
+      ],
+      "correct": 1,
+      "hint": "When the minute hand points to 12, it means exactly on the hour."
+    },
+    {
+      "id": 27,
+      "question": "If it is 11:45 AM, what time will it be in 30 minutes?",
+      "answers": [
+        "12:00 PM",
+        "11:75 AM",
+        "12:15 PM",
+        "12:30 PM"
+      ],
+      "correct": 2,
+      "hint": "45 + 30 = 75 minutes. That is 1 hour and 15 minutes. Add to 11:00."
+    },
+    {
+      "id": 28,
+      "question": "How many weeks are in 28 days?",
+      "answers": [
+        "3 weeks",
+        "5 weeks",
+        "2 weeks",
+        "4 weeks"
+      ],
+      "correct": 3,
+      "hint": "How many groups of 7 fit into 28? Try dividing 28 by 7."
+    },
+    {
+      "id": 29,
+      "question": "June is the _____ month of the year.",
+      "answers": [
+        "6th",
+        "5th",
+        "7th",
+        "8th"
+      ],
+      "correct": 0,
+      "hint": "April is 4th, May is 5th, June is..."
+    },
+    {
+      "id": 30,
+      "question": "It is 1:35 PM. What time will it be in 45 minutes?",
+      "answers": [
+        "1:80 PM",
+        "2:20 PM",
+        "2:10 PM",
+        "2:30 PM"
+      ],
+      "correct": 1,
+      "hint": "35 + 45 = 80 minutes. That is 1 hour and 20 minutes."
+    },
+    {
+      "id": 31,
+      "question": "How many days are in February during a regular year?",
+      "answers": [
+        "30 days",
+        "29 days",
+        "28 days",
+        "31 days"
+      ],
+      "correct": 2,
+      "hint": "February is the shortest month. In most years, it has how many days?"
+    },
+    {
+      "id": 32,
+      "question": "If today is the 15th of the month, what date was it one week ago?",
+      "answers": [
+        "22nd",
+        "7th",
+        "9th",
+        "8th"
+      ],
+      "correct": 3,
+      "hint": "One week = 7 days. Subtract 7 from 15."
+    },
+    {
+      "id": 33,
+      "question": "What time does the clock show if the hour hand is between 2 and 3, and the minute hand is on 6?",
+      "answers": [
+        "2:30",
+        "6:10",
+        "6:15",
+        "3:30"
+      ],
+      "correct": 0,
+      "hint": "If the hour hand is between 2 and 3, the hour is 2. The minute hand on 6 means 30 minutes."
+    },
+    {
+      "id": 34,
+      "question": "How many hours are in half a day?",
+      "answers": [
+        "10 hours",
+        "12 hours",
+        "6 hours",
+        "24 hours"
+      ],
+      "correct": 1,
+      "hint": "A full day has 24 hours. What is half of 24?"
+    },
+    {
+      "id": 35,
+      "question": "It is 9:20 AM. What time was it 35 minutes ago?",
+      "answers": [
+        "8:55 AM",
+        "9:55 AM",
+        "8:45 AM",
+        "8:35 AM"
+      ],
+      "correct": 2,
+      "hint": "Go back in time! 20 minutes - 35 minutes means borrowing from the hour."
+    },
+    {
+      "id": 36,
+      "question": "How many months have 31 days?",
+      "answers": [
+        "6 months",
+        "8 months",
+        "5 months",
+        "7 months"
+      ],
+      "correct": 3,
+      "hint": "January, March, May, July, August, October, December. Count them!"
+    },
+    {
+      "id": 37,
+      "question": "If class starts at 9:15 and lasts for 45 minutes, what time does class end?",
+      "answers": [
+        "10:00",
+        "9:45",
+        "9:60",
+        "10:15"
+      ],
+      "correct": 0,
+      "hint": "15 + 45 = 60 minutes. 60 minutes equals 1 full hour!"
+    },
+    {
+      "id": 38,
+      "question": "What day comes 10 days after Monday?",
+      "answers": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Tuesday"
+      ],
+      "correct": 1,
+      "hint": "10 days = 1 week (7 days) + 3 more days. Count 3 days after Monday."
+    },
+    {
+      "id": 39,
+      "question": "How many minutes are in 1 hour and 30 minutes?",
+      "answers": [
+        "80 minutes",
+        "100 minutes",
+        "90 minutes",
+        "130 minutes"
+      ],
+      "correct": 2,
+      "hint": "Convert 1 hour to minutes first (60 minutes), then add the extra 30."
+    },
+    {
+      "id": 40,
+      "question": "If it takes 15 minutes to walk to school, and school starts at 8:00 AM, what is the latest time you should leave home?",
+      "answers": [
+        "7:30 AM",
+        "8:15 AM",
+        "7:55 AM",
+        "7:45 AM"
+      ],
+      "correct": 3,
+      "hint": "Work backward from 8:00 AM. Subtract the walking time."
+    },
+    {
+      "id": 41,
+      "question": "New York is 3 hours ahead of Los Angeles. If it is 2:00 PM in Los Angeles, what time is it in New York?",
+      "answers": [
+        "11:00 AM",
+        "5:00 PM",
+        "2:00 PM",
+        "4:00 PM"
+      ],
+      "correct": 1,
+      "hint": "When a city is 'ahead,' you add hours. Add 3 hours to 2:00 PM."
+    },
+    {
+      "id": 42,
+      "question": "A flight departs at 9:30 AM and arrives at 2:15 PM the same day. How long is the flight?",
+      "answers": [
+        "4 hours 45 minutes",
+        "5 hours 15 minutes",
+        "4 hours 15 minutes",
+        "5 hours 45 minutes"
+      ],
+      "correct": 0,
+      "hint": "Count from 9:30 to 2:15. First count full hours, then the extra minutes."
+    },
+    {
+      "id": 43,
+      "question": "London is 5 hours ahead of New York. If it is 10:00 PM in New York, what time is it in London?",
+      "answers": [
+        "5:00 PM",
+        "5:00 AM",
+        "3:00 AM",
+        "2:00 AM"
+      ],
+      "correct": 2,
+      "hint": "Add 5 hours to 10:00 PM. When you pass midnight, a new day begins!"
+    },
+    {
+      "id": 44,
+      "question": "A train leaves at 11:45 AM and the journey takes 3 hours 25 minutes. What time does it arrive?",
+      "answers": [
+        "2:10 PM",
+        "3:10 PM",
+        "2:20 PM",
+        "3:10 AM"
+      ],
+      "correct": 1,
+      "hint": "Add 3 hours first (11:45 becomes 2:45), then add 25 more minutes."
+    },
+    {
+      "id": 45,
+      "question": "How many hours are in one week?",
+      "answers": [
+        "148 hours",
+        "168 hours",
+        "158 hours",
+        "178 hours"
+      ],
+      "correct": 1,
+      "hint": "Each day has 24 hours. How many hours in 7 days?"
+    },
+    {
+      "id": 46,
+      "question": "Tokyo is 14 hours ahead of New York. If it is 8:00 AM Monday in New York, what time and day is it in Tokyo?",
+      "answers": [
+        "6:00 PM Monday",
+        "10:00 PM Monday",
+        "10:00 PM Sunday",
+        "6:00 AM Tuesday"
+      ],
+      "correct": 1,
+      "hint": "Add 14 hours to 8:00 AM. Does the day change?"
+    },
+    {
+      "id": 47,
+      "question": "A soccer practice starts at 4:30 PM and ends at 6:15 PM. How long is the practice?",
+      "answers": [
+        "1 hour 45 minutes",
+        "2 hours 15 minutes",
+        "1 hour 55 minutes",
+        "2 hours 45 minutes"
+      ],
+      "correct": 0,
+      "hint": "From 4:30 to 6:30 would be 2 hours. But practice ends at 6:15..."
+    },
+    {
+      "id": 48,
+      "question": "If a leap year has 366 days, how many weeks and extra days are in a leap year?",
+      "answers": [
+        "52 weeks and 1 day",
+        "52 weeks and 2 days",
+        "53 weeks and 0 days",
+        "51 weeks and 2 days"
+      ],
+      "correct": 1,
+      "hint": "Divide 366 by 7. The quotient is full weeks, the remainder is extra days."
+    },
+    {
+      "id": 49,
+      "question": "Sydney is 16 hours ahead of New York. If it is 6:00 PM Friday in New York, what time and day is it in Sydney?",
+      "answers": [
+        "10:00 AM Friday",
+        "10:00 AM Saturday",
+        "2:00 PM Saturday",
+        "2:00 PM Friday"
+      ],
+      "correct": 1,
+      "hint": "Add 16 hours to 6:00 PM. Past midnight means a new day!"
+    },
+    {
+      "id": 50,
+      "question": "A bus leaves every 45 minutes. If the first bus leaves at 7:00 AM, when does the third bus leave?",
+      "answers": [
+        "8:15 AM",
+        "8:30 AM",
+        "9:15 AM",
+        "8:45 AM"
+      ],
+      "correct": 1,
+      "hint": "The third bus leaves after two 45-minute intervals. What is 2 x 45?"
+    },
+    {
+      "id": 51,
+      "question": "How many seconds are in 5 minutes?",
+      "answers": [
+        "250 seconds",
+        "350 seconds",
+        "300 seconds",
+        "500 seconds"
+      ],
+      "correct": 2,
+      "hint": "One minute has 60 seconds. Multiply 60 by 5."
+    },
+    {
+      "id": 52,
+      "question": "Paris is 6 hours ahead of New York. A video call is scheduled for 3:00 PM New York time. What time should the person in Paris join?",
+      "answers": [
+        "9:00 AM",
+        "9:00 PM",
+        "11:00 PM",
+        "6:00 PM"
+      ],
+      "correct": 1,
+      "hint": "Add 6 hours to 3:00 PM to find the Paris time."
+    },
+    {
+      "id": 53,
+      "question": "A library is open from 9:00 AM to 8:30 PM. How many hours and minutes is the library open?",
+      "answers": [
+        "11 hours 30 minutes",
+        "10 hours 30 minutes",
+        "12 hours 30 minutes",
+        "11 hours"
+      ],
+      "correct": 0,
+      "hint": "Count from 9:00 AM to 8:00 PM (11 hours), then add the extra 30 minutes."
+    },
+    {
+      "id": 54,
+      "question": "If today is March 28th, what date will it be in 2 weeks?",
+      "answers": [
+        "April 10th",
+        "April 11th",
+        "April 12th",
+        "April 4th"
+      ],
+      "correct": 1,
+      "hint": "March has 31 days. Add 14 days to March 28th and see if you cross into April."
+    },
+    {
+      "id": 55,
+      "question": "A cake needs to bake for 1 hour 15 minutes. If you put it in the oven at 3:50 PM, when should you take it out?",
+      "answers": [
+        "4:55 PM",
+        "4:65 PM",
+        "5:05 PM",
+        "5:15 PM"
+      ],
+      "correct": 2,
+      "hint": "Add 1 hour to get 4:50, then add 15 more minutes."
+    },
+    {
+      "id": 56,
+      "question": "How many minutes are in half a day?",
+      "answers": [
+        "600 minutes",
+        "660 minutes",
+        "720 minutes",
+        "800 minutes"
+      ],
+      "correct": 2,
+      "hint": "Half a day is 12 hours. Multiply 12 by 60 to get minutes."
+    },
+    {
+      "id": 57,
+      "question": "Denver is 2 hours behind New York. If it is 1:00 PM in Denver, what time is it in New York?",
+      "answers": [
+        "11:00 AM",
+        "3:00 PM",
+        "12:00 PM",
+        "2:00 PM"
+      ],
+      "correct": 1,
+      "hint": "When a city is 'behind,' the other city is ahead. Add 2 hours to Denver time."
+    },
+    {
+      "id": 58,
+      "question": "A meeting starts at 2:45 PM and lasts 2 hours 35 minutes. What time does it end?",
+      "answers": [
+        "5:10 PM",
+        "4:20 PM",
+        "5:20 PM",
+        "4:80 PM"
+      ],
+      "correct": 2,
+      "hint": "Add 2 hours first (4:45), then add 35 minutes. Watch for going over 60 minutes!"
+    },
+    {
+      "id": 59,
+      "question": "How many days are there from July 15th to August 10th (counting both days)?",
+      "answers": [
+        "26 days",
+        "27 days",
+        "25 days",
+        "28 days"
+      ],
+      "correct": 1,
+      "hint": "July has 31 days. Count remaining days in July, then add August days."
+    },
+    {
+      "id": 60,
+      "question": "Dubai is 9 hours ahead of New York. If a flight departs New York at 11:00 PM and takes 14 hours, what local time does it arrive in Dubai?",
+      "answers": [
+        "10:00 PM",
+        "10:00 AM",
+        "1:00 PM",
+        "8:00 AM"
+      ],
+      "correct": 2,
+      "hint": "First find New York time after 14 hours, then add 9 hours for Dubai time."
+    },
+    {
+      "id": 61,
+      "question": "School ends at 3:15 PM. If soccer practice starts 45 minutes after school ends, what time does practice start?",
+      "answers": [
+        "3:60 PM",
+        "4:00 PM",
+        "3:50 PM",
+        "4:15 PM"
+      ],
+      "correct": 1,
+      "hint": "Add 45 minutes to 3:15. Remember, 60 minutes = 1 hour!"
+    },
+    {
+      "id": 62,
+      "question": "How many quarters of an hour are in 3 hours?",
+      "answers": [
+        "9 quarters",
+        "10 quarters",
+        "12 quarters",
+        "15 quarters"
+      ],
+      "correct": 2,
+      "hint": "A quarter hour is 15 minutes. How many 15-minute chunks fit in 180 minutes?"
+    },
+    {
+      "id": 63,
+      "question": "Singapore is 13 hours ahead of New York. If it is 7:00 AM Tuesday in Singapore, what time and day is it in New York?",
+      "answers": [
+        "6:00 PM Tuesday",
+        "6:00 PM Monday",
+        "8:00 PM Monday",
+        "8:00 PM Tuesday"
+      ],
+      "correct": 1,
+      "hint": "Go backward 13 hours from 7:00 AM. Does the day change?"
+    },
+    {
+      "id": 64,
+      "question": "A TV show starts at 7:30 PM and lasts 1 hour 45 minutes. It is followed by a 15-minute commercial break. What time does the next show start?",
+      "answers": [
+        "9:15 PM",
+        "9:30 PM",
+        "9:00 PM",
+        "9:45 PM"
+      ],
+      "correct": 1,
+      "hint": "Add the show length (1:45) and commercial break (0:15) to find the total time."
+    },
+    {
+      "id": 65,
+      "question": "From January 1st to March 15th, how many days pass (not counting January 1st)?",
+      "answers": [
+        "72 days",
+        "74 days",
+        "73 days",
+        "75 days"
+      ],
+      "correct": 2,
+      "hint": "Count remaining days in January (30), all of February (28 in regular year), and 15 in March."
+    },
+    {
+      "id": 66,
+      "question": "If it is 11:30 PM and you need to wake up at 6:45 AM, how many hours and minutes of sleep can you get?",
+      "answers": [
+        "7 hours 15 minutes",
+        "7 hours 45 minutes",
+        "6 hours 45 minutes",
+        "8 hours 15 minutes"
+      ],
+      "correct": 0,
+      "hint": "Count from 11:30 PM to midnight, then from midnight to 6:45 AM."
+    },
+    {
+      "id": 67,
+      "question": "Chicago is 1 hour behind New York. A flight leaves New York at 2:30 PM and takes 2 hours 15 minutes. What local time does it arrive in Chicago?",
+      "answers": [
+        "4:45 PM",
+        "3:45 PM",
+        "5:45 PM",
+        "4:15 PM"
+      ],
+      "correct": 1,
+      "hint": "First find arrival in New York time, then subtract 1 hour for Chicago."
+    },
+    {
+      "id": 68,
+      "question": "How many half hours are in one full day?",
+      "answers": [
+        "24",
+        "36",
+        "48",
+        "12"
+      ],
+      "correct": 2,
+      "hint": "A day has 24 hours. Each hour has 2 half hours. Multiply!"
+    },
+    {
+      "id": 69,
+      "question": "A train departs at 8:55 AM and arrives at 1:20 PM. How long is the journey?",
+      "answers": [
+        "4 hours 35 minutes",
+        "4 hours 25 minutes",
+        "5 hours 25 minutes",
+        "5 hours 35 minutes"
+      ],
+      "correct": 1,
+      "hint": "From 8:55 to 9:00 is 5 minutes. Then count from 9:00 to 1:20."
+    },
+    {
+      "id": 70,
+      "question": "If a clock loses 5 minutes every hour, and it shows 3:00 PM after running for 4 hours, what is the actual time?",
+      "answers": [
+        "3:00 PM",
+        "2:40 PM",
+        "3:20 PM",
+        "2:20 PM"
+      ],
+      "correct": 2,
+      "hint": "The clock lost 5 minutes per hour for 4 hours. How much total time was lost?"
+    },
+    {
+      "id": 71,
+      "question": "Berlin is 6 hours ahead of New York. A business meeting is at 9:00 AM in Berlin. What time should the New York participant dial in?",
+      "answers": [
+        "3:00 PM",
+        "3:00 AM",
+        "12:00 PM",
+        "6:00 AM"
+      ],
+      "correct": 1,
+      "hint": "Go backward 6 hours from 9:00 AM Berlin time."
+    },
+    {
+      "id": 72,
+      "question": "How many seconds are in 1 hour?",
+      "answers": [
+        "360 seconds",
+        "3,600 seconds",
+        "600 seconds",
+        "6,000 seconds"
+      ],
+      "correct": 1,
+      "hint": "First find how many seconds in 1 minute (60), then multiply by 60 minutes."
+    },
+    {
+      "id": 73,
+      "question": "A movie is 2 hours 25 minutes long. If it starts at 7:45 PM, what time does it end?",
+      "answers": [
+        "10:00 PM",
+        "9:70 PM",
+        "10:10 PM",
+        "9:10 PM"
+      ],
+      "correct": 2,
+      "hint": "Add 2 hours to get 9:45, then add 25 more minutes."
+    },
+    {
+      "id": 74,
+      "question": "From September 5th to October 20th, how many complete weeks pass?",
+      "answers": [
+        "5 weeks",
+        "6 weeks",
+        "7 weeks",
+        "4 weeks"
+      ],
+      "correct": 1,
+      "hint": "First find total days: remaining days in September plus days in October. Then divide by 7."
+    },
+    {
+      "id": 75,
+      "question": "A store opens at 10:00 AM and closes at 9:00 PM Monday through Saturday. How many total hours is the store open per week?",
+      "answers": [
+        "60 hours",
+        "66 hours",
+        "54 hours",
+        "72 hours"
+      ],
+      "correct": 1,
+      "hint": "First find hours open per day, then multiply by number of days open."
+    },
+    {
+      "id": 76,
+      "question": "If the time in Los Angeles is 4:00 PM and Tokyo is 17 hours ahead, what time is it in Tokyo?",
+      "answers": [
+        "9:00 AM next day",
+        "11:00 AM next day",
+        "9:00 PM same day",
+        "7:00 AM next day"
+      ],
+      "correct": 0,
+      "hint": "Add 17 hours to 4:00 PM. Count past midnight!"
+    },
+    {
+      "id": 77,
+      "question": "A doctor's appointment is scheduled for 2:30 PM. If you arrive 20 minutes early and wait 35 minutes past your appointment time, how long do you wait in total?",
+      "answers": [
+        "45 minutes",
+        "50 minutes",
+        "55 minutes",
+        "1 hour"
+      ],
+      "correct": 2,
+      "hint": "Add the early arrival time to the late wait time."
+    },
+    {
+      "id": 78,
+      "question": "How many days are in the last quarter of the year (October, November, December)?",
+      "answers": [
+        "90 days",
+        "91 days",
+        "92 days",
+        "93 days"
+      ],
+      "correct": 2,
+      "hint": "Add up the days: October (31) + November (30) + December (31)."
+    },
+    {
+      "id": 79,
+      "question": "A plane leaves Miami at 6:15 AM and flies for 3 hours 50 minutes. What time does it land?",
+      "answers": [
+        "9:65 AM",
+        "10:05 AM",
+        "9:55 AM",
+        "10:15 AM"
+      ],
+      "correct": 1,
+      "hint": "Add 3 hours to get 9:15, then add 50 minutes."
+    },
+    {
+      "id": 80,
+      "question": "Beijing is 13 hours ahead of New York. If it's noon on Wednesday in Beijing, what time and day is it in New York?",
+      "answers": [
+        "11:00 PM Wednesday",
+        "1:00 AM Wednesday",
+        "11:00 PM Tuesday",
+        "1:00 AM Thursday"
+      ],
+      "correct": 2,
+      "hint": "Go back 13 hours from noon. Do you cross midnight backward?"
+    },
+    {
+      "id": 81,
+      "question": "A parking meter accepts money for up to 2 hours. If you park at 11:40 AM and pay for maximum time, when does the meter expire?",
+      "answers": [
+        "1:20 PM",
+        "1:40 PM",
+        "2:40 PM",
+        "12:40 PM"
+      ],
+      "correct": 1,
+      "hint": "Add 2 hours to 11:40 AM."
+    },
+    {
+      "id": 82,
+      "question": "How many months have fewer than 31 days?",
+      "answers": [
+        "4 months",
+        "5 months",
+        "6 months",
+        "3 months"
+      ],
+      "correct": 1,
+      "hint": "Count months with 28, 29, or 30 days: February, April, June, September, November."
+    },
+    {
+      "id": 83,
+      "question": "A concert starts at 8:00 PM and has two 45-minute sets with a 20-minute intermission. What time does it end?",
+      "answers": [
+        "9:50 PM",
+        "10:10 PM",
+        "9:30 PM",
+        "10:30 PM"
+      ],
+      "correct": 0,
+      "hint": "Add both sets (45+45) and the intermission (20) to find total duration."
+    },
+    {
+      "id": 84,
+      "question": "If you read for 25 minutes each day, how many hours and minutes do you read in one week?",
+      "answers": [
+        "2 hours 55 minutes",
+        "2 hours 45 minutes",
+        "3 hours 5 minutes",
+        "3 hours 15 minutes"
+      ],
+      "correct": 0,
+      "hint": "Multiply 25 minutes by 7 days, then convert to hours and minutes."
+    },
+    {
+      "id": 85,
+      "question": "Mumbai is 10.5 hours ahead of New York (half hour time zone). If it's 3:00 PM in New York, what time is it in Mumbai?",
+      "answers": [
+        "1:30 AM next day",
+        "12:30 AM next day",
+        "2:30 AM next day",
+        "1:00 AM next day"
+      ],
+      "correct": 0,
+      "hint": "Add 10 hours and 30 minutes to 3:00 PM."
+    },
+    {
+      "id": 86,
+      "question": "School is in session for 180 days per year. If there are 5 school days per week, how many complete weeks of school are there?",
+      "answers": [
+        "35 weeks",
+        "36 weeks",
+        "38 weeks",
+        "40 weeks"
+      ],
+      "correct": 1,
+      "hint": "Divide 180 by 5 to find the number of weeks."
+    },
+    {
+      "id": 87,
+      "question": "A baker starts work at 4:30 AM and works for 8 hours 45 minutes. What time does the baker finish?",
+      "answers": [
+        "1:15 PM",
+        "12:75 PM",
+        "12:15 PM",
+        "1:45 PM"
+      ],
+      "correct": 0,
+      "hint": "Add 8 hours first (12:30 PM), then add 45 minutes."
+    },
+    {
+      "id": 88,
+      "question": "From April 10th to June 10th, how many days pass (not counting April 10th)?",
+      "answers": [
+        "60 days",
+        "61 days",
+        "62 days",
+        "59 days"
+      ],
+      "correct": 1,
+      "hint": "Count remaining days in April (20), all of May (31), and 10 in June."
+    },
+    {
+      "id": 89,
+      "question": "If a meeting is scheduled for every other Wednesday starting January 8th, on what date is the third meeting?",
+      "answers": [
+        "January 22nd",
+        "February 5th",
+        "January 29th",
+        "February 12th"
+      ],
+      "correct": 1,
+      "hint": "Count: 1st meeting Jan 8, 2nd meeting 2 weeks later, 3rd meeting 2 more weeks later."
+    },
+    {
+      "id": 90,
+      "question": "A stopwatch shows 4:35:42. What does this mean?",
+      "answers": [
+        "4 hours, 35 minutes, 42 seconds",
+        "4 minutes, 35 seconds, 42 milliseconds",
+        "4:35 PM and 42 seconds",
+        "435 minutes and 42 seconds"
+      ],
+      "correct": 0,
+      "hint": "Stopwatches typically show hours:minutes:seconds."
+    },
+    {
+      "id": 91,
+      "question": "San Francisco is 3 hours behind New York. If a TV show airs live at 9:00 PM Eastern (New York), what time do viewers in San Francisco see it?",
+      "answers": [
+        "12:00 AM",
+        "6:00 PM",
+        "9:00 PM",
+        "11:00 PM"
+      ],
+      "correct": 1,
+      "hint": "Subtract 3 hours from 9:00 PM to find Pacific time."
+    },
+    {
+      "id": 92,
+      "question": "How many 15-minute intervals are there from 9:00 AM to 12:30 PM?",
+      "answers": [
+        "12 intervals",
+        "13 intervals",
+        "14 intervals",
+        "15 intervals"
+      ],
+      "correct": 2,
+      "hint": "First find total minutes (210), then divide by 15."
+    },
+    {
+      "id": 93,
+      "question": "A flight departs at 11:50 PM and lands at 5:25 AM the next day. How long is the flight?",
+      "answers": [
+        "5 hours 35 minutes",
+        "6 hours 25 minutes",
+        "5 hours 25 minutes",
+        "6 hours 35 minutes"
+      ],
+      "correct": 0,
+      "hint": "Count from 11:50 PM to midnight (10 min), then from midnight to 5:25 AM."
+    },
+    {
+      "id": 94,
+      "question": "If a baby is born at 11:45 PM on December 31st, how many minutes until the New Year?",
+      "answers": [
+        "25 minutes",
+        "15 minutes",
+        "45 minutes",
+        "35 minutes"
+      ],
+      "correct": 1,
+      "hint": "How many minutes are left until midnight (12:00 AM)?"
+    },
+    {
+      "id": 95,
+      "question": "A train runs every 20 minutes starting at 6:10 AM. What time is the 5th train?",
+      "answers": [
+        "7:10 AM",
+        "7:30 AM",
+        "7:50 AM",
+        "7:20 AM"
+      ],
+      "correct": 1,
+      "hint": "The 5th train comes after 4 intervals of 20 minutes. Add 80 minutes to 6:10 AM."
+    },
+    {
+      "id": 96,
+      "question": "How many days are in the first half of a regular (non-leap) year (January through June)?",
+      "answers": [
+        "181 days",
+        "180 days",
+        "182 days",
+        "183 days"
+      ],
+      "correct": 0,
+      "hint": "Add: January(31) + February(28) + March(31) + April(30) + May(31) + June(30)."
+    },
+    {
+      "id": 97,
+      "question": "Moscow is 8 hours ahead of New York. A flight leaves New York at 5:00 PM, takes 10 hours, and lands in Moscow. What local time does it land?",
+      "answers": [
+        "11:00 AM",
+        "3:00 AM",
+        "11:00 PM",
+        "9:00 AM"
+      ],
+      "correct": 0,
+      "hint": "Add 10 hours flight time to 5:00 PM, then add 8 hours for Moscow time zone."
+    },
+    {
+      "id": 98,
+      "question": "A class starts at 10:20 AM. Students need 5 minutes to settle in before the lesson begins. If the lesson is 40 minutes, when does it end?",
+      "answers": [
+        "10:55 AM",
+        "11:00 AM",
+        "11:05 AM",
+        "10:65 AM"
+      ],
+      "correct": 2,
+      "hint": "Add settling time (5 min) plus lesson time (40 min) to the start time."
+    },
+    {
+      "id": 99,
+      "question": "If today is the 25th of a month with 30 days, how many days until the 10th of next month?",
+      "answers": [
+        "14 days",
+        "15 days",
+        "16 days",
+        "17 days"
+      ],
+      "correct": 1,
+      "hint": "Count remaining days this month, then add 10 days of next month."
+    },
+    {
+      "id": 100,
+      "question": "A digital clock shows 23:45. What time is this in 12-hour format?",
+      "answers": [
+        "11:45 PM",
+        "11:45 AM",
+        "1:45 PM",
+        "12:45 AM"
+      ],
+      "correct": 0,
+      "hint": "Subtract 12 from 23 to convert from 24-hour to 12-hour format after noon."
+    },
+    {
+      "id": 101,
+      "question": "Sydney is 16 hours ahead of Los Angeles. A live sports event starts at 2:00 PM Saturday in Sydney. What time and day is it in Los Angeles?",
+      "answers": [
+        "10:00 PM Friday",
+        "10:00 PM Saturday",
+        "6:00 AM Saturday",
+        "10:00 AM Friday"
+      ],
+      "correct": 0,
+      "hint": "Go back 16 hours from 2:00 PM. Does the day change?"
+    },
+    {
+      "id": 102,
+      "question": "A cafeteria serves lunch from 11:30 AM to 1:15 PM. How long is lunch service?",
+      "answers": [
+        "1 hour 45 minutes",
+        "1 hour 55 minutes",
+        "2 hours 15 minutes",
+        "1 hour 35 minutes"
+      ],
+      "correct": 0,
+      "hint": "From 11:30 to 1:30 would be 2 hours, but service ends earlier."
+    },
+    {
+      "id": 103,
+      "question": "How many complete months are between March 15th and September 15th (not counting March or September)?",
+      "answers": [
+        "4 months",
+        "5 months",
+        "6 months",
+        "7 months"
+      ],
+      "correct": 1,
+      "hint": "List the months between: April, May, June, July, August."
+    },
+    {
+      "id": 104,
+      "question": "A shuttle bus runs every 12 minutes. If you just missed a bus at 3:47 PM, when is the next bus?",
+      "answers": [
+        "3:59 PM",
+        "4:01 PM",
+        "3:57 PM",
+        "4:00 PM"
+      ],
+      "correct": 0,
+      "hint": "Add 12 minutes to 3:47 PM."
+    },
+    {
+      "id": 105,
+      "question": "How many decades are in one century?",
+      "answers": [
+        "5 decades",
+        "100 decades",
+        "10 decades",
+        "50 decades"
+      ],
+      "correct": 2,
+      "hint": "A decade is 10 years, a century is 100 years. How many 10s fit in 100?"
+    },
+    {
+      "id": 106,
+      "question": "A pharmacy is open 24 hours. If a prescription takes 45 minutes to fill and you drop it off at 11:40 PM, when is it ready?",
+      "answers": [
+        "12:25 AM",
+        "12:15 AM",
+        "11:85 PM",
+        "12:35 AM"
+      ],
+      "correct": 0,
+      "hint": "Add 45 minutes to 11:40 PM. You will cross midnight!"
+    },
+    {
+      "id": 107,
+      "question": "If you save $5 every week, how many weeks until you have saved for at least 3 months (13 weeks)?",
+      "answers": [
+        "12 weeks",
+        "13 weeks",
+        "14 weeks",
+        "15 weeks"
+      ],
+      "correct": 1,
+      "hint": "13 weeks is approximately 3 months."
+    },
+    {
+      "id": 108,
+      "question": "A recipe says to bake for 55 minutes, then cool for 30 minutes. If you start baking at 4:35 PM, when can you serve?",
+      "answers": [
+        "5:60 PM",
+        "6:00 PM",
+        "6:10 PM",
+        "5:50 PM"
+      ],
+      "correct": 1,
+      "hint": "Add total time (55 + 30 = 85 minutes = 1 hour 25 minutes) to start time."
+    },
+    {
+      "id": 109,
+      "question": "Hong Kong is 13 hours ahead of New York. A video call is at 8:00 AM Hong Kong time. What time is this in New York?",
+      "answers": [
+        "7:00 PM same day",
+        "9:00 PM same day",
+        "7:00 PM day before",
+        "5:00 PM day before"
+      ],
+      "correct": 2,
+      "hint": "Go back 13 hours from 8:00 AM. You'll end up in the previous day."
+    },
+    {
+      "id": 110,
+      "question": "How many hours pass from 6:00 AM Thursday to 6:00 AM Saturday?",
+      "answers": [
+        "24 hours",
+        "36 hours",
+        "48 hours",
+        "72 hours"
+      ],
+      "correct": 2,
+      "hint": "Count the full days: Thursday to Friday (24 hours) + Friday to Saturday (24 hours)."
+    },
+    {
+      "id": 111,
+      "question": "A school play has 3 acts of 25 minutes each with two 10-minute intermissions. What is the total length?",
+      "answers": [
+        "85 minutes",
+        "95 minutes",
+        "90 minutes",
+        "100 minutes"
+      ],
+      "correct": 1,
+      "hint": "Add all three acts (25x3) plus both intermissions (10x2)."
+    },
+    {
+      "id": 112,
+      "question": "If a leap year falls every 4 years, how many leap years are there in 100 years (not accounting for century rules)?",
+      "answers": [
+        "20 years",
+        "24 years",
+        "25 years",
+        "30 years"
+      ],
+      "correct": 2,
+      "hint": "Divide 100 by 4 to find how many leap years."
+    },
+    {
+      "id": 113,
+      "question": "A flight from London to New York takes 8 hours. London is 5 hours ahead. If the flight leaves London at 10:00 AM, what local time does it arrive in New York?",
+      "answers": [
+        "1:00 PM",
+        "6:00 PM",
+        "11:00 AM",
+        "3:00 PM"
+      ],
+      "correct": 0,
+      "hint": "After 8 hours, it's 6:00 PM London time. Then subtract 5 hours for New York."
+    },
+    {
+      "id": 114,
+      "question": "How many minutes are in a quarter of a day?",
+      "answers": [
+        "300 minutes",
+        "360 minutes",
+        "240 minutes",
+        "420 minutes"
+      ],
+      "correct": 1,
+      "hint": "A quarter of a day is 6 hours. Convert 6 hours to minutes."
+    },
+    {
+      "id": 115,
+      "question": "A music class meets for 50 minutes twice a week. How many total hours of music class are there in 9 weeks?",
+      "answers": [
+        "14 hours",
+        "15 hours",
+        "16 hours",
+        "18 hours"
+      ],
+      "correct": 1,
+      "hint": "50 min x 2 days = 100 min per week. Multiply by 9, then convert to hours."
+    },
+    {
+      "id": 116,
+      "question": "If it is 4:00 PM on January 31st, what time and date is it 36 hours later?",
+      "answers": [
+        "4:00 AM February 1st",
+        "4:00 AM February 2nd",
+        "4:00 PM February 2nd",
+        "4:00 PM February 1st"
+      ],
+      "correct": 1,
+      "hint": "36 hours = 24 hours (one day) + 12 hours. Add to January 31st, 4:00 PM."
+    },
+    {
+      "id": 117,
+      "question": "A swimming pool is open from 6:00 AM to 10:00 PM. How many hours is it open daily?",
+      "answers": [
+        "14 hours",
+        "15 hours",
+        "16 hours",
+        "12 hours"
+      ],
+      "correct": 2,
+      "hint": "Count from 6:00 AM to 10:00 PM. Remember, 10:00 PM is 22:00 in 24-hour time."
+    },
+    {
+      "id": 118,
+      "question": "Vancouver is 3 hours behind Toronto. If a webinar starts at 2:00 PM Toronto time and lasts 90 minutes, what time does it end in Vancouver?",
+      "answers": [
+        "12:30 PM",
+        "2:30 PM",
+        "11:30 AM",
+        "1:30 PM"
+      ],
+      "correct": 0,
+      "hint": "Find end time in Toronto (3:30 PM), then subtract 3 hours."
+    },
+    {
+      "id": 119,
+      "question": "How many weeks are in 6 months (assuming 26 weeks)?",
+      "answers": [
+        "24 weeks",
+        "25 weeks",
+        "26 weeks",
+        "28 weeks"
+      ],
+      "correct": 2,
+      "hint": "Half a year is approximately 26 weeks."
+    },
+    {
+      "id": 120,
+      "question": "A bus leaves the station at 7:25 AM and takes 1 hour 48 minutes to reach its destination. What time does it arrive?",
+      "answers": [
+        "8:73 AM",
+        "9:13 AM",
+        "9:03 AM",
+        "9:23 AM"
+      ],
+      "correct": 1,
+      "hint": "Add 1 hour to get 8:25, then add 48 minutes. Watch for going over 60!"
+    },
+    {
+      "id": 121,
+      "question": "From November 20th to February 14th of the next year, how many complete months pass (not including partial months)?",
+      "answers": [
+        "1 month",
+        "2 months",
+        "3 months",
+        "4 months"
+      ],
+      "correct": 1,
+      "hint": "Which months are fully contained? December and January are complete months."
+    },
+    {
+      "id": 122,
+      "question": "A 24-hour clock shows 00:30. What time is this?",
+      "answers": [
+        "12:30 AM",
+        "12:30 PM",
+        "1:30 AM",
+        "11:30 PM"
+      ],
+      "correct": 0,
+      "hint": "00:30 is 30 minutes after midnight."
+    },
+    {
+      "id": 123,
+      "question": "If you exercise for 45 minutes every day, how many hours do you exercise in February of a leap year?",
+      "answers": [
+        "21 hours 15 minutes",
+        "21 hours 45 minutes",
+        "22 hours 15 minutes",
+        "20 hours 45 minutes"
+      ],
+      "correct": 1,
+      "hint": "Leap year February has 29 days. Multiply 45 minutes by 29 and convert."
+    },
+    {
+      "id": 124,
+      "question": "Auckland, New Zealand is 18 hours ahead of New York. If it's 9:00 PM Friday in New York, what time and day is it in Auckland?",
+      "answers": [
+        "3:00 PM Saturday",
+        "3:00 PM Sunday",
+        "3:00 AM Saturday",
+        "3:00 PM Friday"
+      ],
+      "correct": 0,
+      "hint": "Add 18 hours to 9:00 PM Friday. You'll cross midnight into Saturday."
+    },
+    {
+      "id": 125,
+      "question": "A timer is set for 2 hours 15 minutes. If started at 10:50 AM, when will it go off?",
+      "answers": [
+        "12:65 PM",
+        "1:05 PM",
+        "12:55 PM",
+        "1:15 PM"
+      ],
+      "correct": 1,
+      "hint": "Add 2 hours (12:50) then 15 minutes."
+    },
+    {
+      "id": 126,
+      "question": "How many fortnights (2-week periods) are in one year?",
+      "answers": [
+        "24 fortnights",
+        "25 fortnights",
+        "26 fortnights",
+        "27 fortnights"
+      ],
+      "correct": 2,
+      "hint": "52 weeks in a year. Divide by 2 to find fortnights."
+    },
+    {
+      "id": 127,
+      "question": "A conference call includes people from 3 time zones: New York (EST), London (5 hours ahead), and Tokyo (14 hours ahead). If the call is at 8:00 AM New York time, what time is it in Tokyo?",
+      "answers": [
+        "10:00 AM",
+        "10:00 PM",
+        "9:00 PM",
+        "11:00 PM"
+      ],
+      "correct": 1,
+      "hint": "Add 14 hours to 8:00 AM."
+    },
+    {
+      "id": 128,
+      "question": "A game starts at 7:00 PM and each quarter is 12 minutes with 5 minutes between quarters. How long until the game ends?",
+      "answers": [
+        "58 minutes",
+        "63 minutes",
+        "68 minutes",
+        "53 minutes"
+      ],
+      "correct": 1,
+      "hint": "4 quarters x 12 minutes + 3 breaks x 5 minutes."
+    },
+    {
+      "id": 129,
+      "question": "If today is a Thursday and 100 days pass, what day of the week will it be?",
+      "answers": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Friday"
+      ],
+      "correct": 0,
+      "hint": "100 days = 14 weeks and 2 days. Count 2 days after Thursday."
+    },
+    {
+      "id": 130,
+      "question": "A flight crosses 6 time zones heading west. If it departs at 3:00 PM local time and takes 7 hours, what is the local arrival time?",
+      "answers": [
+        "4:00 PM",
+        "10:00 PM",
+        "8:00 PM",
+        "2:00 PM"
+      ],
+      "correct": 0,
+      "hint": "7 hours flight, but going west means subtracting 6 hours. Net change: 7-6=1 hour later."
+    },
+    {
+      "id": 131,
+      "question": "How many times does a clock's minute hand pass 12 in one full day?",
+      "answers": [
+        "12 times",
+        "24 times",
+        "48 times",
+        "36 times"
+      ],
+      "correct": 1,
+      "hint": "The minute hand passes 12 once per hour. How many hours in a day?"
+    },
+    {
+      "id": 132,
+      "question": "A semester is 16 weeks long. If classes meet Monday, Wednesday, and Friday, how many class meetings are there (assuming no holidays)?",
+      "answers": [
+        "45 meetings",
+        "46 meetings",
+        "48 meetings",
+        "50 meetings"
+      ],
+      "correct": 2,
+      "hint": "3 classes per week times 16 weeks."
+    },
+    {
+      "id": 133,
+      "question": "If a clock gains 3 minutes every hour, and it shows 5:00 PM after running for 5 hours, what is the actual time?",
+      "answers": [
+        "4:45 PM",
+        "5:15 PM",
+        "4:30 PM",
+        "5:00 PM"
+      ],
+      "correct": 0,
+      "hint": "The clock gained 3 min/hour x 5 hours = 15 minutes. Subtract to find actual time."
+    },
+    {
+      "id": 134,
+      "question": "A bakery opens at 5:30 AM and an employee works an 8-hour shift. If the employee takes a 30-minute unpaid lunch, what time does the shift end?",
+      "answers": [
+        "1:30 PM",
+        "2:00 PM",
+        "1:00 PM",
+        "2:30 PM"
+      ],
+      "correct": 1,
+      "hint": "8 hours of work + 30 min lunch = 8.5 hours total at the bakery."
+    },
+    {
+      "id": 135,
+      "question": "Cape Town is 7 hours ahead of New York. A flight leaves New York at 6:00 PM, takes 17 hours, and lands in Cape Town. What local time does it land?",
+      "answers": [
+        "6:00 PM",
+        "6:00 AM",
+        "11:00 AM",
+        "4:00 PM"
+      ],
+      "correct": 3,
+      "hint": "Add 17 hours to 6:00 PM (11:00 AM next day NY time), then add 7 hours."
+    },
+    {
+      "id": 136,
+      "question": "How many 5-minute intervals are in 3 hours?",
+      "answers": [
+        "30 intervals",
+        "35 intervals",
+        "36 intervals",
+        "40 intervals"
+      ],
+      "correct": 2,
+      "hint": "3 hours = 180 minutes. Divide by 5."
+    },
+    {
+      "id": 137,
+      "question": "A project is due in 6 weeks and 4 days. How many days is that?",
+      "answers": [
+        "42 days",
+        "46 days",
+        "44 days",
+        "48 days"
+      ],
+      "correct": 1,
+      "hint": "6 weeks = 42 days. Add 4 more days."
+    },
+    {
+      "id": 138,
+      "question": "If a business operates in 3 shifts of 8 hours each, how many worker-hours is that per day?",
+      "answers": [
+        "16 hours",
+        "24 hours",
+        "32 hours",
+        "8 hours"
+      ],
+      "correct": 1,
+      "hint": "3 shifts x 8 hours = total worker-hours per day."
+    },
+    {
+      "id": 139,
+      "question": "From 9:45 AM to 3:20 PM, how much time passes?",
+      "answers": [
+        "5 hours 35 minutes",
+        "5 hours 45 minutes",
+        "6 hours 25 minutes",
+        "6 hours 35 minutes"
+      ],
+      "correct": 0,
+      "hint": "From 9:45 to 3:45 is 6 hours. But it ends at 3:20, which is 25 minutes less."
+    },
+    {
+      "id": 140,
+      "question": "A marathon starts at 7:00 AM. The winner finishes in 2 hours 8 minutes. The last runner finishes 4 hours after the winner. What time does the last runner finish?",
+      "answers": [
+        "1:08 PM",
+        "1:18 PM",
+        "12:58 PM",
+        "1:08 AM"
+      ],
+      "correct": 0,
+      "hint": "Winner finishes at 9:08 AM. Add 4 hours for the last runner."
+    },
+    {
+      "id": 141,
+      "question": "How many quarter hours are in 5 hours?",
+      "answers": [
+        "15 quarters",
+        "18 quarters",
+        "20 quarters",
+        "25 quarters"
+      ],
+      "correct": 2,
+      "hint": "Each hour has 4 quarter hours (15 min each). Multiply 4 by 5."
+    },
+    {
+      "id": 142,
+      "question": "A TV series has 10 episodes, each 42 minutes long. How long does it take to watch the whole series?",
+      "answers": [
+        "6 hours 50 minutes",
+        "7 hours",
+        "420 minutes",
+        "7 hours 20 minutes"
+      ],
+      "correct": 1,
+      "hint": "10 x 42 = 420 minutes. Convert to hours and minutes."
+    },
+    {
+      "id": 143,
+      "question": "If a year starts on a Monday, what day does February 1st fall on (non-leap year)?",
+      "answers": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Wednesday"
+      ],
+      "correct": 2,
+      "hint": "January has 31 days. 31 = 4 weeks + 3 days. Count 3 days after Monday."
+    },
+    {
+      "id": 144,
+      "question": "A medicine must be taken every 6 hours. If the first dose is at 7:30 AM, when is the 4th dose?",
+      "answers": [
+        "7:30 PM",
+        "1:30 AM next day",
+        "1:30 PM",
+        "7:30 AM next day"
+      ],
+      "correct": 1,
+      "hint": "4th dose is 3 intervals of 6 hours = 18 hours after the first dose."
+    },
+    {
+      "id": 145,
+      "question": "How many leap years occur between 2000 and 2040 (inclusive)?",
+      "answers": [
+        "10 years",
+        "11 years",
+        "9 years",
+        "12 years"
+      ],
+      "correct": 1,
+      "hint": "Leap years: 2000, 2004, 2008, 2012, 2016, 2020, 2024, 2028, 2032, 2036, 2040. Count them!"
+    },
+    {
+      "id": 146,
+      "question": "A bus takes 35 minutes for its route and waits 10 minutes at each end. How long until the same bus returns to a stop?",
+      "answers": [
+        "70 minutes",
+        "80 minutes",
+        "90 minutes",
+        "100 minutes"
+      ],
+      "correct": 2,
+      "hint": "Round trip: 35 min there + 10 min wait + 35 min back + 10 min wait."
+    },
+    {
+      "id": 147,
+      "question": "Daylight Saving Time moves clocks forward 1 hour. If it's 1:45 AM before the change, what time is it after?",
+      "answers": [
+        "12:45 AM",
+        "2:45 AM",
+        "1:45 AM",
+        "3:45 AM"
+      ],
+      "correct": 1,
+      "hint": "Spring forward means adding 1 hour to the current time."
+    },
+    {
+      "id": 148,
+      "question": "A 90-day trial period starts on October 15th. When does it end?",
+      "answers": [
+        "January 12th",
+        "January 13th",
+        "January 14th",
+        "January 11th"
+      ],
+      "correct": 1,
+      "hint": "Count: Oct (16 days left) + Nov (30) + Dec (31) + Jan (13) = 90 days."
+    },
+    {
+      "id": 149,
+      "question": "How many times does the hour hand complete a full rotation in one week?",
+      "answers": [
+        "7 rotations",
+        "14 rotations",
+        "21 rotations",
+        "12 rotations"
+      ],
+      "correct": 1,
+      "hint": "The hour hand goes around twice per day (AM and PM). Multiply by 7 days."
+    },
+    {
+      "id": 150,
+      "question": "A store has a sale that lasts from 9:00 AM Friday to 9:00 PM Sunday. How many hours is the sale?",
+      "answers": [
+        "56 hours",
+        "58 hours",
+        "60 hours",
+        "62 hours"
+      ],
+      "correct": 2,
+      "hint": "Friday 9AM to Saturday 9AM = 24 hrs. Saturday 9AM to Sunday 9AM = 24 hrs. Sunday 9AM to 9PM = 12 hrs."
+    }
+  ]
+}

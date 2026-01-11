@@ -535,9 +535,127 @@ export async function GET() {
         level,
         mistakes
       FROM quiz_results
-      WHERE jsonb_array_length(mistakes) > 0
+      WHERE jsonb_array_length(mistakes) > 0 AND is_test_mode = false
       ORDER BY completed_at DESC
       LIMIT 200
+    `;
+
+    // ========== TEST MODE ANALYTICS ==========
+
+    // Test mode summary stats per user
+    const testSummaryStats = await sql`
+      SELECT
+        user_id,
+        user_name,
+        COUNT(*) as total_tests,
+        SUM(total_questions) as total_questions,
+        ROUND(AVG(score::float / NULLIF(total_questions, 0) * 100)::numeric, 1) as avg_percentage,
+        ROUND(AVG(avg_time_per_question)::numeric, 1) as avg_time_per_question
+      FROM quiz_results
+      WHERE is_test_mode = true
+      GROUP BY user_id, user_name
+    `;
+
+    // Test mode progress over time (each test attempt by level)
+    const testProgress = await sql`
+      SELECT
+        user_id,
+        user_name,
+        level,
+        completed_at,
+        score,
+        total_questions,
+        ROUND((score::float / NULLIF(total_questions, 0) * 100)::numeric, 1) as percentage,
+        total_time_seconds,
+        all_answers
+      FROM quiz_results
+      WHERE is_test_mode = true
+      ORDER BY user_name, level, completed_at
+    `;
+
+    // Test mode per-theme breakdown (how they performed on questions from each source theme)
+    // This requires parsing the all_answers array which has sourceTheme for each question
+    const testThemeBreakdown: Array<{
+      user_name: string;
+      source_theme: string;
+      total_questions: number;
+      correct_count: number;
+      percentage: number;
+    }> = [];
+
+    const themeStats: Record<string, {
+      user_name: string;
+      source_theme: string;
+      total: number;
+      correct: number;
+    }> = {};
+
+    for (const row of testProgress.rows) {
+      const allAnswers = row.all_answers as Array<{
+        question: string;
+        userAnswer: number | null;
+        correctAnswer: number;
+        sourceTheme?: string;
+      }> || [];
+
+      for (const ans of allAnswers) {
+        const sourceTheme = ans.sourceTheme || "Unknown";
+        const key = `${row.user_name}|${sourceTheme}`;
+
+        if (!themeStats[key]) {
+          themeStats[key] = {
+            user_name: row.user_name,
+            source_theme: sourceTheme,
+            total: 0,
+            correct: 0,
+          };
+        }
+
+        themeStats[key].total++;
+        if (ans.userAnswer === ans.correctAnswer) {
+          themeStats[key].correct++;
+        }
+      }
+    }
+
+    for (const stat of Object.values(themeStats)) {
+      testThemeBreakdown.push({
+        user_name: stat.user_name,
+        source_theme: stat.source_theme,
+        total_questions: stat.total,
+        correct_count: stat.correct,
+        percentage: stat.total > 0 ? Math.round((stat.correct / stat.total) * 100) : 0,
+      });
+    }
+
+    // Sort by user_name, then by percentage descending
+    testThemeBreakdown.sort((a, b) => {
+      if (a.user_name !== b.user_name) return a.user_name.localeCompare(b.user_name);
+      return b.percentage - a.percentage;
+    });
+
+    // Get all individual quiz results for inbox view (both training and test)
+    const allQuizResults = await sql`
+      SELECT
+        id,
+        user_id,
+        user_name,
+        theme_name,
+        level,
+        round,
+        score,
+        total_questions,
+        ROUND((score::float / NULLIF(total_questions, 0) * 100)::numeric, 1) as percentage,
+        total_time_seconds,
+        avg_time_per_question,
+        completed_at,
+        is_test_mode,
+        session_id,
+        all_answers,
+        mistakes
+      FROM quiz_results
+      ORDER BY completed_at DESC
+      LIMIT 500
     `;
 
     // Process mistakes
@@ -601,6 +719,12 @@ export async function GET() {
       learningRateProgress,
       themeMastery: themeMastery.rows,
       repeatedMistakes,
+      // Test mode analytics
+      testSummaryStats: testSummaryStats.rows,
+      testProgress: testProgress.rows,
+      testThemeBreakdown,
+      // Individual quiz results for inbox view
+      allQuizResults: allQuizResults.rows,
       _debug_sessions: sessionDebug,
     });
   } catch (error) {
