@@ -1,4 +1,4 @@
-workspace: galamath
+workspace: galia-web-ui
 
 agents:
   - path: ./agents
@@ -10,7 +10,7 @@ shells:
       - "*"
   - type: shell
     notes:
-      - "$ barrel -k galamath"
+      - "$ barrel -k galia-web-ui"
 
 terminal:
   profiles:

@@ -325,6 +325,7 @@ function QuizContent() {
         completedAt: new Date().toISOString(),
         round,
         isTestMode,
+        sessionId: sessionIdRef.current,
       };
       sessionStorage.setItem("quizResult", JSON.stringify(resultForDisplay));
 

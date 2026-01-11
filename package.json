@@ -1,37 +1,17 @@
 {
-  "name": "galamath",
+  "name": "galia",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "@ai-sdk/anthropic": "^3.0.2",
-    "@ai-sdk/openai": "^3.0.2",
-    "@ai-sdk/react": "^3.0.5",
-    "@types/katex": "^0.16.8",
-    "@vercel/postgres": "^0.10.0",
-    "ai": "^6.0.5",
-    "katex": "^0.16.27",
-    "lottie-react": "^2.4.1",
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "recharts": "^3.6.0",
-    "resend": "^6.6.0"
+    "dev": "turbo dev",
+    "dev:math": "turbo dev --filter=@galia/math",
+    "build": "turbo build",
+    "build:math": "turbo build --filter=@galia/math",
+    "lint": "turbo lint",
+    "clean": "turbo clean && rm -rf node_modules"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "dotenv": "^17.2.3",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "turbo": "^2.4.4"
+  },
+  "packageManager": "pnpm@10.0.0"
 }

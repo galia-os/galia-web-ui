@@ -2,8 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
-import Lottie from "lottie-react";
-import danceCatAnimation from "../../public/dance-cat.json";
+import Image from "next/image";
 
 interface AIHelperProps {
   question: string;
@@ -314,11 +313,12 @@ export default function AIHelper({
           type="button"
         >
           <div className="pointer-events-none">
-            <Lottie
-              animationData={danceCatAnimation}
-              loop={true}
-              autoplay={false}
-              className="h-24 w-24"
+            <Image
+              src="/galia.png"
+              alt="Galia"
+              width={96}
+              height={96}
+              className="h-24 w-24 object-contain"
             />
           </div>
           <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-purple-500 px-3 py-1 text-xs font-semibold text-white opacity-0 transition-opacity group-hover:opacity-100">
@@ -345,14 +345,15 @@ export default function AIHelper({
               {/* Header */}
               <div className="flex items-center justify-between px-4 py-3 border-b border-purple-100 bg-white/80 backdrop-blur">
                 <div className="flex items-center gap-2">
-                  <Lottie
-                    animationData={danceCatAnimation}
-                    loop={true}
-                    autoplay={isAnimating}
-                    className="h-10 w-10"
+                  <Image
+                    src="/galia.png"
+                    alt="Galia"
+                    width={40}
+                    height={40}
+                    className="h-10 w-10 object-contain"
                   />
                   <div>
-                    <span className="font-semibold text-gray-800">Cat Tutor</span>
+                    <span className="font-semibold text-gray-800">Galia</span>
                     <p className="text-xs text-gray-500">
                       {isLoading
                         ? "Thinking..."
@@ -391,11 +392,12 @@ export default function AIHelper({
                   >
                     {message.role === "assistant" && (
                       <div className="flex-shrink-0 mr-2">
-                        <Lottie
-                          animationData={danceCatAnimation}
-                          loop={isSpeaking && index === messages.length - 1}
-                          autoplay={isSpeaking && index === messages.length - 1}
-                          className="h-8 w-8"
+                        <Image
+                          src="/galia.png"
+                          alt="Galia"
+                          width={32}
+                          height={32}
+                          className="h-8 w-8 object-contain"
                         />
                       </div>
                     )}
@@ -417,11 +419,12 @@ export default function AIHelper({
                 {(isLoading || (isSpeaking && messages[messages.length - 1]?.role === "user")) && (
                   <div className="flex justify-start">
                     <div className="flex-shrink-0 mr-2">
-                      <Lottie
-                        animationData={danceCatAnimation}
-                        loop={true}
-                        autoplay={true}
-                        className="h-8 w-8"
+                      <Image
+                        src="/galia.png"
+                        alt="Galia"
+                        width={32}
+                        height={32}
+                        className="h-8 w-8 object-contain"
                       />
                     </div>
                     <div className="bg-white rounded-2xl rounded-bl-md px-4 py-3 shadow-md">

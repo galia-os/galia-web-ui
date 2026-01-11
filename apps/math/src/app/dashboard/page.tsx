@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   LineChart,
@@ -247,8 +247,9 @@ function ThemeChart({ data }: { data: Round1Progress[] }) {
   const sorted = [...data].sort((a, b) => new Date(a.completed_at).getTime() - new Date(b.completed_at).getTime());
 
   sorted.forEach(p => {
-    if (byLevel[p.level]) {
-      byLevel[p.level].push(Number(p.percentage));
+    const level = p.level?.toLowerCase();
+    if (level && byLevel[level]) {
+      byLevel[level].push(Number(p.percentage));
     }
   });
 
@@ -299,8 +300,9 @@ function LearningRateChart({ data }: { data: LearningRateProgress[] }) {
   const sorted = [...data].sort((a, b) => new Date(a.completed_at).getTime() - new Date(b.completed_at).getTime());
 
   sorted.forEach(p => {
-    if (byLevel[p.level]) {
-      byLevel[p.level].push(p.correction_rate);
+    const level = p.level?.toLowerCase();
+    if (level && byLevel[level]) {
+      byLevel[level].push(p.correction_rate);
     }
   });
 
@@ -351,8 +353,9 @@ function TestProgressChart({ data }: { data: TestProgress[] }) {
   const sorted = [...data].sort((a, b) => new Date(a.completed_at).getTime() - new Date(b.completed_at).getTime());
 
   sorted.forEach(p => {
-    if (byLevel[p.level]) {
-      byLevel[p.level].push(Number(p.percentage));
+    const level = p.level?.toLowerCase();
+    if (level && byLevel[level]) {
+      byLevel[level].push(Number(p.percentage));
     }
   });
 
@@ -516,7 +519,65 @@ function QuizDetailView({
   onRoundChange: (round: number) => void;
 }) {
   const [errorsOnly, setErrorsOnly] = useState(true);
+  const [lesson, setLesson] = useState<{ text: string; audioBase64: string | null } | null>(null);
+  const [lessonLoading, setLessonLoading] = useState(false);
+  const [showLesson, setShowLesson] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [audioProgress, setAudioProgress] = useState(0);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
   const quiz = session.rounds.find(r => r.round === selectedRound) || session.rounds[0];
+
+  // Fetch lesson when session changes
+  useEffect(() => {
+    async function fetchLesson() {
+      if (!session.sessionId || session.sessionId.startsWith("synthetic-")) {
+        setLesson(null);
+        return;
+      }
+
+      setLessonLoading(true);
+      try {
+        const response = await fetch(`/api/lessons?sessionId=${encodeURIComponent(session.sessionId)}`);
+        const data = await response.json();
+        if (data.found) {
+          setLesson({ text: data.lessonText, audioBase64: data.lessonAudioBase64 });
+        } else {
+          setLesson(null);
+        }
+      } catch (err) {
+        console.error("Failed to fetch lesson:", err);
+        setLesson(null);
+      }
+      setLessonLoading(false);
+    }
+
+    fetchLesson();
+    setShowLesson(false);
+    setIsPlaying(false);
+    setAudioProgress(0);
+  }, [session.sessionId]);
+
+  // Audio handlers
+  const handlePlayPause = () => {
+    if (!audioRef.current) return;
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+
+  const handleTimeUpdate = () => {
+    if (audioRef.current) {
+      setAudioProgress((audioRef.current.currentTime / audioRef.current.duration) * 100);
+    }
+  };
+
+  const handleAudioEnded = () => {
+    setIsPlaying(false);
+    setAudioProgress(0);
+  };
 
   // Filter answers based on errorsOnly toggle
   const displayedAnswers = errorsOnly
@@ -589,7 +650,71 @@ function QuizDetailView({
             Errors only ({errorCount})
           </button>
         </div>
+
+        {/* Lesson Toggle */}
+        {(lesson || lessonLoading) && (
+          <div className="mt-3 pt-3 border-t">
+            <button
+              onClick={() => setShowLesson(!showLesson)}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all w-full ${
+                showLesson
+                  ? "bg-purple-100 text-purple-700"
+                  : "bg-purple-50 text-purple-600 hover:bg-purple-100"
+              }`}
+            >
+              <span className="text-lg">🎓</span>
+              {lessonLoading ? "Loading lesson..." : showLesson ? "Hide Lesson" : "Show AI Lesson"}
+            </button>
+          </div>
+        )}
       </div>
+
+      {/* Lesson Content */}
+      {showLesson && lesson && (
+        <div className="p-4 bg-gradient-to-br from-purple-50 to-indigo-50 border-b">
+          {/* Audio Player */}
+          {lesson.audioBase64 && (
+            <div className="mb-4">
+              <audio
+                ref={audioRef}
+                src={`data:audio/mpeg;base64,${lesson.audioBase64}`}
+                onTimeUpdate={handleTimeUpdate}
+                onEnded={handleAudioEnded}
+                onPlay={() => setIsPlaying(true)}
+                onPause={() => setIsPlaying(false)}
+              />
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={handlePlayPause}
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-600 text-white shadow transition-all hover:bg-purple-700 active:scale-95"
+                >
+                  {isPlaying ? (
+                    <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                      <rect x="6" y="4" width="4" height="16" />
+                      <rect x="14" y="4" width="4" height="16" />
+                    </svg>
+                  ) : (
+                    <svg className="h-4 w-4 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                      <polygon points="5,3 19,12 5,21" />
+                    </svg>
+                  )}
+                </button>
+                <div className="flex-1 h-2 rounded-full bg-purple-200">
+                  <div
+                    className="h-full rounded-full bg-purple-600 transition-all"
+                    style={{ width: `${audioProgress}%` }}
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Lesson Text */}
+          <div className="max-h-48 overflow-y-auto rounded-lg bg-white/70 p-3 text-sm text-gray-700 leading-relaxed">
+            {lesson.text}
+          </div>
+        </div>
+      )}
 
       {/* Questions List */}
       <div className="p-4 space-y-4">
