@@ -22,9 +22,30 @@ interface QuizData {
 
 // Map grades to available theme IDs
 const GRADE_THEMES: Record<number, string[]> = {
-  2: ["addition", "subtraction", "number-lines", "counting-large-numbers", "time-and-calendar"],
-  4: [], // empty for now
-  5: ["algebra", "order-of-operations", "work-rate", "geometry", "properties-of-operations", "word-problems", "word-problems-useless", "logic-gates", "computer-science"],
+  2: [
+    "addition",
+    "subtraction",
+    "number-lines",
+    "counting-large-numbers",
+    "time-and-calendar",
+  ],
+  4: [
+    "properties-of-operations",
+    "order-of-operations",
+    "word-problems",
+    "work-rate",
+  ],
+  5: [
+    "algebra",
+    "order-of-operations",
+    "work-rate",
+    "geometry",
+    "properties-of-operations",
+    "word-problems",
+    "word-problems-useless",
+    "logic-gates",
+    "computer-science",
+  ],
 };
 
 function shuffleArray<T>(array: T[]): T[] {

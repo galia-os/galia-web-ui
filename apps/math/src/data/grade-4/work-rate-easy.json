@@ -1,0 +1,1809 @@
+{
+  "theme": "Rate & Proportion Problems",
+  "themeId": "work-rate",
+  "level": "easy",
+  "totalTimeMinutes": 90,
+  "questionTimeMinutes": 2,
+  "questions": [
+    {
+      "id": 1,
+      "question": "2 painters finish a wall in 4 hours. How long would 1 painter take?",
+      "answers": [
+        "2 hours",
+        "6 hours",
+        "4 hours",
+        "8 hours"
+      ],
+      "correct": 3,
+      "hint": "If you have fewer workers, does the job take more or less time?"
+    },
+    {
+      "id": 2,
+      "question": "A car travels 60 miles in 1 hour. How far in 3 hours?",
+      "answers": [
+        "180 miles",
+        "90 miles",
+        "200 miles",
+        "120 miles"
+      ],
+      "correct": 0,
+      "hint": "Distance = speed × time. What is $60 \\times 3$?"
+    },
+    {
+      "id": 3,
+      "question": "A tap fills a bucket in 10 minutes. How long to fill 5 buckets?",
+      "answers": [
+        "30 minutes",
+        "15 minutes",
+        "2 minutes",
+        "50 minutes"
+      ],
+      "correct": 3,
+      "hint": "Same tap, more buckets. Multiply the time by the number of buckets."
+    },
+    {
+      "id": 4,
+      "question": "3 friends clean a house in 2 hours. How long would 6 friends take?",
+      "answers": [
+        "6 hours",
+        "4 hours",
+        "3 hours",
+        "1 hour"
+      ],
+      "correct": 3,
+      "hint": "Double the helpers means the job gets done in..."
+    },
+    {
+      "id": 5,
+      "question": "A train travels 200 km in 4 hours. What is its speed?",
+      "answers": [
+        "40 km/h",
+        "100 km/h",
+        "800 km/h",
+        "50 km/h"
+      ],
+      "correct": 3,
+      "hint": "Speed = distance ÷ time. What is $200 \\div 4$?"
+    },
+    {
+      "id": 6,
+      "question": "A bath fills in 20 minutes. How much is filled in 5 minutes?",
+      "answers": [
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$"
+      ],
+      "correct": 3,
+      "hint": "5 minutes is what fraction of 20 minutes?"
+    },
+    {
+      "id": 7,
+      "question": "4 workers build a shed in 6 hours. How long would 2 workers take?",
+      "answers": [
+        "12 hours",
+        "3 hours",
+        "10 hours",
+        "8 hours"
+      ],
+      "correct": 0,
+      "hint": "Half the workers means... what happens to the time?"
+    },
+    {
+      "id": 8,
+      "question": "A cyclist travels 15 km in 30 minutes. What is the speed in km/h?",
+      "answers": [
+        "7.5 km/h",
+        "30 km/h",
+        "45 km/h",
+        "15 km/h"
+      ],
+      "correct": 1,
+      "hint": "30 minutes = 0.5 hours. Speed = $15 \\div 0.5$."
+    },
+    {
+      "id": 9,
+      "question": "2 hoses fill a pool in 3 hours. How long for 1 hose?",
+      "answers": [
+        "6 hours",
+        "5 hours",
+        "1.5 hours",
+        "4 hours"
+      ],
+      "correct": 0,
+      "hint": "One hose doing the work of two..."
+    },
+    {
+      "id": 10,
+      "question": "A car drives 90 km in 1.5 hours. What is the speed?",
+      "answers": [
+        "45 km/h",
+        "60 km/h",
+        "135 km/h",
+        "75 km/h"
+      ],
+      "correct": 1,
+      "hint": "Speed = distance ÷ time. What is $90 \\div 1.5$?"
+    },
+    {
+      "id": 11,
+      "question": "5 machines produce 100 toys in 2 hours. How many toys do 5 machines make in 6 hours?",
+      "answers": [
+        "300 toys",
+        "200 toys",
+        "600 toys",
+        "150 toys"
+      ],
+      "correct": 0,
+      "hint": "Three times as long means three times as many toys."
+    },
+    {
+      "id": 12,
+      "question": "A tank fills in 8 hours. How long to fill half the tank?",
+      "answers": [
+        "4 hours",
+        "2 hours",
+        "16 hours",
+        "6 hours"
+      ],
+      "correct": 0,
+      "hint": "Half the tank means half the time."
+    },
+    {
+      "id": 13,
+      "question": "Two towns are 120 km apart. A car going 60 km/h leaves town A. How long to reach town B?",
+      "answers": [
+        "120 minutes",
+        "2 hours",
+        "60 minutes",
+        "3 hours"
+      ],
+      "correct": 1,
+      "hint": "Time = distance ÷ speed. What is $120 \\div 60$?"
+    },
+    {
+      "id": 14,
+      "question": "6 cooks prepare a banquet in 3 hours. How long would 9 cooks take?",
+      "answers": [
+        "4.5 hours",
+        "6 hours",
+        "2 hours",
+        "1 hour"
+      ],
+      "correct": 2,
+      "hint": "More cooks means faster work. What's the ratio?"
+    },
+    {
+      "id": 15,
+      "question": "A faucet drips 2 liters per hour. How much water drips in 12 hours?",
+      "answers": [
+        "20 liters",
+        "24 liters",
+        "14 liters",
+        "6 liters"
+      ],
+      "correct": 1,
+      "hint": "Total = rate × time. What is $2 \\times 12$?"
+    },
+    {
+      "id": 16,
+      "question": "8 students complete a project in 2 hours. How long would 4 students take?",
+      "answers": [
+        "4 hours",
+        "1 hour",
+        "8 hours",
+        "6 hours"
+      ],
+      "correct": 0,
+      "hint": "Half the students means the time..."
+    },
+    {
+      "id": 17,
+      "question": "A bus travels 80 km in 2 hours. How far in 5 hours at the same speed?",
+      "answers": [
+        "200 km",
+        "160 km",
+        "400 km",
+        "250 km"
+      ],
+      "correct": 0,
+      "hint": "First find speed, then multiply by new time."
+    },
+    {
+      "id": 18,
+      "question": "A bathtub drains in 15 minutes. How much drains in 3 minutes?",
+      "answers": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{5}$"
+      ],
+      "correct": 3,
+      "hint": "3 is what fraction of 15?"
+    },
+    {
+      "id": 19,
+      "question": "3 machines produce parts in 12 hours. How long would 6 machines take?",
+      "answers": [
+        "6 hours",
+        "4 hours",
+        "24 hours",
+        "18 hours"
+      ],
+      "correct": 0,
+      "hint": "Twice as many machines working together..."
+    },
+    {
+      "id": 20,
+      "question": "A plane flies 900 km in 1.5 hours. What is its speed?",
+      "answers": [
+        "300 km/h",
+        "600 km/h",
+        "450 km/h",
+        "1350 km/h"
+      ],
+      "correct": 1,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 21,
+      "question": "A printer prints 30 pages per minute. How many pages in 8 minutes?",
+      "answers": [
+        "300 pages",
+        "120 pages",
+        "180 pages",
+        "240 pages"
+      ],
+      "correct": 3,
+      "hint": "Pages = rate × time."
+    },
+    {
+      "id": 22,
+      "question": "10 workers finish a job in 3 hours. How long would 5 workers take?",
+      "answers": [
+        "15 hours",
+        "1.5 hours",
+        "6 hours",
+        "8 hours"
+      ],
+      "correct": 2,
+      "hint": "Half the workers, so double the..."
+    },
+    {
+      "id": 23,
+      "question": "A car uses 5 liters of fuel per 100 km. How much fuel for 300 km?",
+      "answers": [
+        "15 liters",
+        "20 liters",
+        "10 liters",
+        "25 liters"
+      ],
+      "correct": 0,
+      "hint": "300 km is 3 times 100 km. Multiply fuel by 3."
+    },
+    {
+      "id": 24,
+      "question": "A swimming pool fills in 6 hours with 2 pipes. How long with 4 pipes?",
+      "answers": [
+        "4 hours",
+        "12 hours",
+        "2 hours",
+        "3 hours"
+      ],
+      "correct": 3,
+      "hint": "Double the pipes means half the time."
+    },
+    {
+      "id": 25,
+      "question": "A snail moves 6 meters in 2 hours. What is its speed in m/h?",
+      "answers": [
+        "3 m/h",
+        "12 m/h",
+        "8 m/h",
+        "4 m/h"
+      ],
+      "correct": 0,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 26,
+      "question": "12 elves make toys in 4 hours. How long would 6 elves take?",
+      "answers": [
+        "8 hours",
+        "12 hours",
+        "2 hours",
+        "6 hours"
+      ],
+      "correct": 0,
+      "hint": "Half the elves means the time..."
+    },
+    {
+      "id": 27,
+      "question": "A tank has 200 liters. It leaks 5 liters per hour. How long until empty?",
+      "answers": [
+        "100 hours",
+        "1000 hours",
+        "20 hours",
+        "40 hours"
+      ],
+      "correct": 3,
+      "hint": "Time = total ÷ rate."
+    },
+    {
+      "id": 28,
+      "question": "Two cities are 300 km apart. A car going 100 km/h leaves city A. How long to reach city B?",
+      "answers": [
+        "2 hours",
+        "3 hours",
+        "200 hours",
+        "30 hours"
+      ],
+      "correct": 1,
+      "hint": "Time = distance ÷ speed."
+    },
+    {
+      "id": 29,
+      "question": "4 painters paint a room in 5 hours. How long would 1 painter take?",
+      "answers": [
+        "1.25 hours",
+        "15 hours",
+        "20 hours",
+        "10 hours"
+      ],
+      "correct": 2,
+      "hint": "One painter doing all the work that 4 did together..."
+    },
+    {
+      "id": 30,
+      "question": "A photocopier makes 50 copies per minute. How long for 500 copies?",
+      "answers": [
+        "10 minutes",
+        "25 minutes",
+        "100 minutes",
+        "5 minutes"
+      ],
+      "correct": 0,
+      "hint": "Time = copies needed ÷ copies per minute."
+    },
+    {
+      "id": 31,
+      "question": "6 workers harvest a field in 8 hours. How long would 24 workers take?",
+      "answers": [
+        "1 hour",
+        "4 hours",
+        "32 hours",
+        "2 hours"
+      ],
+      "correct": 3,
+      "hint": "Four times as many workers means the time is divided by..."
+    },
+    {
+      "id": 32,
+      "question": "A jogger runs 8 km in 1 hour. How far in 45 minutes?",
+      "answers": [
+        "6 km",
+        "10 km",
+        "12 km",
+        "4 km"
+      ],
+      "correct": 0,
+      "hint": "45 minutes = $\\frac{3}{4}$ hour. Distance = speed × time."
+    },
+    {
+      "id": 33,
+      "question": "A garden hose fills a pool at 100 liters per hour. How long for 600 liters?",
+      "answers": [
+        "10 hours",
+        "3 hours",
+        "60 hours",
+        "6 hours"
+      ],
+      "correct": 3,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 34,
+      "question": "3 tractors plow a field in 6 hours. How long for 2 tractors?",
+      "answers": [
+        "12 hours",
+        "4 hours",
+        "8 hours",
+        "9 hours"
+      ],
+      "correct": 3,
+      "hint": "Fewer tractors means more time. What's the ratio?"
+    },
+    {
+      "id": 35,
+      "question": "A boat travels 45 km downstream in 3 hours. What is its speed?",
+      "answers": [
+        "48 km/h",
+        "135 km/h",
+        "42 km/h",
+        "15 km/h"
+      ],
+      "correct": 3,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 36,
+      "question": "5 crew members load a ship in 12 hours. How long for 10 crew?",
+      "answers": [
+        "8 hours",
+        "24 hours",
+        "6 hours",
+        "4 hours"
+      ],
+      "correct": 2,
+      "hint": "Double the crew means half the..."
+    },
+    {
+      "id": 37,
+      "question": "A heart beats 72 times per minute. How many beats in 10 minutes?",
+      "answers": [
+        "360 beats",
+        "700 beats",
+        "82 beats",
+        "720 beats"
+      ],
+      "correct": 3,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 38,
+      "question": "9 volunteers serve meals in 3 hours. How long for 27 volunteers?",
+      "answers": [
+        "1 hour",
+        "2 hours",
+        "6 hours",
+        "9 hours"
+      ],
+      "correct": 0,
+      "hint": "Triple the volunteers means one-third the..."
+    },
+    {
+      "id": 39,
+      "question": "An escalator moves 2 meters per second. How far in 30 seconds?",
+      "answers": [
+        "15 meters",
+        "60 meters",
+        "32 meters",
+        "90 meters"
+      ],
+      "correct": 1,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 40,
+      "question": "2 teams lay bricks in 16 hours. How long for 8 teams?",
+      "answers": [
+        "4 hours",
+        "8 hours",
+        "64 hours",
+        "2 hours"
+      ],
+      "correct": 0,
+      "hint": "Four times as many teams means divide the time by..."
+    },
+    {
+      "id": 41,
+      "question": "A factory produces 120 items per hour. How many items in 5 hours?",
+      "answers": [
+        "500 items",
+        "600 items",
+        "700 items",
+        "480 items"
+      ],
+      "correct": 1,
+      "hint": "Total items = rate × time."
+    },
+    {
+      "id": 42,
+      "question": "A runner covers 400 meters in 50 seconds. What is the speed in m/s?",
+      "answers": [
+        "10 m/s",
+        "6 m/s",
+        "8 m/s",
+        "12 m/s"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time. What is $400 \\div 50$?"
+    },
+    {
+      "id": 43,
+      "question": "4 chefs cook dinner in 2 hours. How long would 8 chefs take?",
+      "answers": [
+        "4 hours",
+        "30 minutes",
+        "1 hour",
+        "1.5 hours"
+      ],
+      "correct": 2,
+      "hint": "Double the chefs means the time is..."
+    },
+    {
+      "id": 44,
+      "question": "A pipe fills a tank at 50 liters per minute. How long to fill 400 liters?",
+      "answers": [
+        "10 minutes",
+        "4 minutes",
+        "8 minutes",
+        "6 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 45,
+      "question": "A car travels at 80 km/h. How far in 2.5 hours?",
+      "answers": [
+        "160 km",
+        "200 km",
+        "180 km",
+        "240 km"
+      ],
+      "correct": 1,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 46,
+      "question": "6 gardeners plant flowers in 5 hours. How long for 3 gardeners?",
+      "answers": [
+        "15 hours",
+        "10 hours",
+        "2.5 hours",
+        "8 hours"
+      ],
+      "correct": 1,
+      "hint": "Half the gardeners means the time..."
+    },
+    {
+      "id": 47,
+      "question": "A typing speed is 60 words per minute. How many words in 15 minutes?",
+      "answers": [
+        "750 words",
+        "800 words",
+        "900 words",
+        "1000 words"
+      ],
+      "correct": 2,
+      "hint": "Total words = rate × time."
+    },
+    {
+      "id": 48,
+      "question": "A bicycle travels 24 km in 2 hours. What is its speed?",
+      "answers": [
+        "10 km/h",
+        "14 km/h",
+        "12 km/h",
+        "48 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 49,
+      "question": "8 bakers make bread in 3 hours. How long for 12 bakers?",
+      "answers": [
+        "4.5 hours",
+        "2 hours",
+        "1.5 hours",
+        "6 hours"
+      ],
+      "correct": 1,
+      "hint": "More bakers working means less time needed."
+    },
+    {
+      "id": 50,
+      "question": "A water tank empties at 25 liters per hour. How much empties in 8 hours?",
+      "answers": [
+        "175 liters",
+        "200 liters",
+        "225 liters",
+        "150 liters"
+      ],
+      "correct": 1,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 51,
+      "question": "A train travels 180 km in 3 hours. What is its speed?",
+      "answers": [
+        "50 km/h",
+        "70 km/h",
+        "60 km/h",
+        "540 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time. What is $180 \\div 3$?"
+    },
+    {
+      "id": 52,
+      "question": "5 cleaners clean an office in 4 hours. How long for 20 cleaners?",
+      "answers": [
+        "2 hours",
+        "16 hours",
+        "1 hour",
+        "8 hours"
+      ],
+      "correct": 2,
+      "hint": "Four times as many cleaners means divide the time by 4."
+    },
+    {
+      "id": 53,
+      "question": "A pump removes 30 gallons per minute. How long to remove 180 gallons?",
+      "answers": [
+        "8 minutes",
+        "5 minutes",
+        "4 minutes",
+        "6 minutes"
+      ],
+      "correct": 3,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 54,
+      "question": "A motorcycle travels at 90 km/h. How far in 40 minutes?",
+      "answers": [
+        "50 km",
+        "60 km",
+        "70 km",
+        "80 km"
+      ],
+      "correct": 1,
+      "hint": "40 minutes = $\\frac{2}{3}$ hour. Distance = speed × time."
+    },
+    {
+      "id": 55,
+      "question": "3 robots assemble parts in 9 hours. How long for 9 robots?",
+      "answers": [
+        "27 hours",
+        "6 hours",
+        "1 hour",
+        "3 hours"
+      ],
+      "correct": 3,
+      "hint": "Triple the robots means one-third the time."
+    },
+    {
+      "id": 56,
+      "question": "A sprinkler uses 4 liters per minute. How much water in 30 minutes?",
+      "answers": [
+        "100 liters",
+        "120 liters",
+        "140 liters",
+        "80 liters"
+      ],
+      "correct": 1,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 57,
+      "question": "A ship travels 240 km in 6 hours. What is its speed?",
+      "answers": [
+        "35 km/h",
+        "40 km/h",
+        "45 km/h",
+        "50 km/h"
+      ],
+      "correct": 1,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 58,
+      "question": "10 builders construct a wall in 5 hours. How long for 25 builders?",
+      "answers": [
+        "12.5 hours",
+        "2 hours",
+        "2.5 hours",
+        "1 hour"
+      ],
+      "correct": 1,
+      "hint": "More builders means faster work. What's the ratio?"
+    },
+    {
+      "id": 59,
+      "question": "A machine makes 15 parts per hour. How many parts in 6 hours?",
+      "answers": [
+        "75 parts",
+        "80 parts",
+        "90 parts",
+        "100 parts"
+      ],
+      "correct": 2,
+      "hint": "Total parts = rate × time."
+    },
+    {
+      "id": 60,
+      "question": "A person walks 5 km in 1 hour. How far in 1.5 hours?",
+      "answers": [
+        "6 km",
+        "8 km",
+        "7.5 km",
+        "6.5 km"
+      ],
+      "correct": 2,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 61,
+      "question": "4 plumbers fix pipes in 6 hours. How long for 12 plumbers?",
+      "answers": [
+        "18 hours",
+        "3 hours",
+        "2 hours",
+        "4 hours"
+      ],
+      "correct": 2,
+      "hint": "Triple the plumbers means one-third the time."
+    },
+    {
+      "id": 62,
+      "question": "A tank fills at 20 liters per minute. How long to fill 500 liters?",
+      "answers": [
+        "20 minutes",
+        "30 minutes",
+        "25 minutes",
+        "35 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 63,
+      "question": "A car covers 150 km in 2 hours. What is its speed?",
+      "answers": [
+        "80 km/h",
+        "70 km/h",
+        "75 km/h",
+        "300 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 64,
+      "question": "7 carpenters build furniture in 14 hours. How long for 14 carpenters?",
+      "answers": [
+        "28 hours",
+        "7 hours",
+        "3.5 hours",
+        "10 hours"
+      ],
+      "correct": 1,
+      "hint": "Double the carpenters means half the time."
+    },
+    {
+      "id": 65,
+      "question": "A conveyor belt moves 3 meters per second. How far in 20 seconds?",
+      "answers": [
+        "50 meters",
+        "70 meters",
+        "60 meters",
+        "80 meters"
+      ],
+      "correct": 2,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 66,
+      "question": "A pool fills in 10 hours. How much is filled in 2 hours?",
+      "answers": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$"
+      ],
+      "correct": 1,
+      "hint": "2 hours is what fraction of 10 hours?"
+    },
+    {
+      "id": 67,
+      "question": "6 workers complete a task in 12 hours. How long for 4 workers?",
+      "answers": [
+        "8 hours",
+        "16 hours",
+        "18 hours",
+        "24 hours"
+      ],
+      "correct": 2,
+      "hint": "Fewer workers means more time. What's the ratio?"
+    },
+    {
+      "id": 68,
+      "question": "A helicopter flies at 200 km/h. How far in 45 minutes?",
+      "answers": [
+        "100 km",
+        "175 km",
+        "150 km",
+        "125 km"
+      ],
+      "correct": 2,
+      "hint": "45 minutes = 0.75 hours. Distance = speed × time."
+    },
+    {
+      "id": 69,
+      "question": "A printer produces 25 pages per minute. How long for 200 pages?",
+      "answers": [
+        "10 minutes",
+        "6 minutes",
+        "8 minutes",
+        "12 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = total pages ÷ pages per minute."
+    },
+    {
+      "id": 70,
+      "question": "8 painters paint a house in 6 hours. How long for 4 painters?",
+      "answers": [
+        "3 hours",
+        "24 hours",
+        "12 hours",
+        "10 hours"
+      ],
+      "correct": 2,
+      "hint": "Half the painters means the time..."
+    },
+    {
+      "id": 71,
+      "question": "A truck delivers 40 packages per hour. How many in 7 hours?",
+      "answers": [
+        "240 packages",
+        "260 packages",
+        "280 packages",
+        "300 packages"
+      ],
+      "correct": 2,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 72,
+      "question": "A cyclist travels 36 km in 3 hours. What is the speed?",
+      "answers": [
+        "10 km/h",
+        "14 km/h",
+        "108 km/h",
+        "12 km/h"
+      ],
+      "correct": 3,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 73,
+      "question": "15 workers complete a project in 4 hours. How long for 10 workers?",
+      "answers": [
+        "8 hours",
+        "2.5 hours",
+        "5 hours",
+        "6 hours"
+      ],
+      "correct": 3,
+      "hint": "Fewer workers means more time needed."
+    },
+    {
+      "id": 74,
+      "question": "A faucet fills a container at 8 liters per minute. How long for 64 liters?",
+      "answers": [
+        "10 minutes",
+        "6 minutes",
+        "12 minutes",
+        "8 minutes"
+      ],
+      "correct": 3,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 75,
+      "question": "A boat travels at 25 km/h. How far in 4 hours?",
+      "answers": [
+        "80 km",
+        "90 km",
+        "120 km",
+        "100 km"
+      ],
+      "correct": 3,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 76,
+      "question": "9 mechanics repair cars in 6 hours. How long for 18 mechanics?",
+      "answers": [
+        "12 hours",
+        "2 hours",
+        "4 hours",
+        "3 hours"
+      ],
+      "correct": 3,
+      "hint": "Double the mechanics means half the time."
+    },
+    {
+      "id": 77,
+      "question": "A machine produces 50 units per hour. How many in 4.5 hours?",
+      "answers": [
+        "200 units",
+        "250 units",
+        "275 units",
+        "225 units"
+      ],
+      "correct": 3,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 78,
+      "question": "A rocket travels 600 km in 30 minutes. What is the speed in km/h?",
+      "answers": [
+        "600 km/h",
+        "900 km/h",
+        "1800 km/h",
+        "1200 km/h"
+      ],
+      "correct": 3,
+      "hint": "30 minutes = 0.5 hours. Speed = distance ÷ time."
+    },
+    {
+      "id": 79,
+      "question": "4 servers handle requests in 8 hours. How long for 16 servers?",
+      "answers": [
+        "32 hours",
+        "4 hours",
+        "16 hours",
+        "2 hours"
+      ],
+      "correct": 3,
+      "hint": "Four times as many servers means divide the time by 4."
+    },
+    {
+      "id": 80,
+      "question": "A drip irrigation system uses 2 liters per hour. How much in 18 hours?",
+      "answers": [
+        "30 liters",
+        "32 liters",
+        "40 liters",
+        "36 liters"
+      ],
+      "correct": 3,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 81,
+      "question": "A train covers 350 km in 5 hours. What is its speed?",
+      "answers": [
+        "70 km/h",
+        "80 km/h",
+        "60 km/h",
+        "75 km/h"
+      ],
+      "correct": 0,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 82,
+      "question": "12 workers dig a trench in 3 hours. How long for 6 workers?",
+      "answers": [
+        "6 hours",
+        "1.5 hours",
+        "9 hours",
+        "4 hours"
+      ],
+      "correct": 0,
+      "hint": "Half the workers means double the time."
+    },
+    {
+      "id": 83,
+      "question": "A factory outputs 200 items per hour. How many in 3.5 hours?",
+      "answers": [
+        "700 items",
+        "600 items",
+        "800 items",
+        "650 items"
+      ],
+      "correct": 0,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 84,
+      "question": "A jogger runs 10 km in 50 minutes. What is the speed in km/h?",
+      "answers": [
+        "12 km/h",
+        "10 km/h",
+        "15 km/h",
+        "8 km/h"
+      ],
+      "correct": 0,
+      "hint": "50 minutes = $\\frac{5}{6}$ hour. Speed = distance ÷ time."
+    },
+    {
+      "id": 85,
+      "question": "5 electricians wire a building in 10 hours. How long for 10 electricians?",
+      "answers": [
+        "5 hours",
+        "20 hours",
+        "15 hours",
+        "8 hours"
+      ],
+      "correct": 0,
+      "hint": "Double the electricians means half the time."
+    },
+    {
+      "id": 86,
+      "question": "A water pump moves 60 liters per minute. How long for 900 liters?",
+      "answers": [
+        "15 minutes",
+        "12 minutes",
+        "20 minutes",
+        "18 minutes"
+      ],
+      "correct": 0,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 87,
+      "question": "A car travels at 110 km/h. How far in 3 hours?",
+      "answers": [
+        "330 km",
+        "300 km",
+        "350 km",
+        "310 km"
+      ],
+      "correct": 0,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 88,
+      "question": "8 tailors sew clothes in 4 hours. How long for 2 tailors?",
+      "answers": [
+        "16 hours",
+        "8 hours",
+        "2 hours",
+        "12 hours"
+      ],
+      "correct": 0,
+      "hint": "One-fourth the tailors means four times the time."
+    },
+    {
+      "id": 89,
+      "question": "A copier prints 40 copies per minute. How many in 12 minutes?",
+      "answers": [
+        "480 copies",
+        "400 copies",
+        "520 copies",
+        "440 copies"
+      ],
+      "correct": 0,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 90,
+      "question": "A plane flies 1200 km in 2 hours. What is its speed?",
+      "answers": [
+        "600 km/h",
+        "500 km/h",
+        "650 km/h",
+        "2400 km/h"
+      ],
+      "correct": 0,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 91,
+      "question": "6 painters complete a mural in 9 hours. How long for 3 painters?",
+      "answers": [
+        "18 hours",
+        "4.5 hours",
+        "12 hours",
+        "15 hours"
+      ],
+      "correct": 0,
+      "hint": "Half the painters means double the time."
+    },
+    {
+      "id": 92,
+      "question": "A tank drains at 15 liters per minute. How long to drain 450 liters?",
+      "answers": [
+        "30 minutes",
+        "25 minutes",
+        "35 minutes",
+        "40 minutes"
+      ],
+      "correct": 0,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 93,
+      "question": "A scooter travels 48 km in 1.5 hours. What is its speed?",
+      "answers": [
+        "32 km/h",
+        "24 km/h",
+        "36 km/h",
+        "72 km/h"
+      ],
+      "correct": 0,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 94,
+      "question": "20 workers finish a road in 10 hours. How long for 40 workers?",
+      "answers": [
+        "5 hours",
+        "20 hours",
+        "15 hours",
+        "8 hours"
+      ],
+      "correct": 0,
+      "hint": "Double the workers means half the time."
+    },
+    {
+      "id": 95,
+      "question": "A fan rotates 100 times per minute. How many rotations in 9 minutes?",
+      "answers": [
+        "900 rotations",
+        "800 rotations",
+        "1000 rotations",
+        "850 rotations"
+      ],
+      "correct": 0,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 96,
+      "question": "A bus travels 75 km in 1.5 hours. What is its speed?",
+      "answers": [
+        "40 km/h",
+        "60 km/h",
+        "50 km/h",
+        "112.5 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time. What is $75 \\div 1.5$?"
+    },
+    {
+      "id": 97,
+      "question": "9 workers pack boxes in 6 hours. How long for 3 workers?",
+      "answers": [
+        "2 hours",
+        "18 hours",
+        "12 hours",
+        "9 hours"
+      ],
+      "correct": 1,
+      "hint": "One-third the workers means triple the time."
+    },
+    {
+      "id": 98,
+      "question": "A sprayer covers 5 square meters per minute. How long for 75 square meters?",
+      "answers": [
+        "20 minutes",
+        "10 minutes",
+        "15 minutes",
+        "25 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = area ÷ rate."
+    },
+    {
+      "id": 99,
+      "question": "A bird flies at 40 km/h. How far in 2.5 hours?",
+      "answers": [
+        "80 km",
+        "120 km",
+        "100 km",
+        "90 km"
+      ],
+      "correct": 2,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 100,
+      "question": "4 masons build a wall in 12 hours. How long for 8 masons?",
+      "answers": [
+        "24 hours",
+        "4 hours",
+        "8 hours",
+        "6 hours"
+      ],
+      "correct": 3,
+      "hint": "Double the masons means half the time."
+    },
+    {
+      "id": 101,
+      "question": "A stitching machine sews 80 stitches per minute. How many in 5 minutes?",
+      "answers": [
+        "350 stitches",
+        "400 stitches",
+        "450 stitches",
+        "500 stitches"
+      ],
+      "correct": 1,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 102,
+      "question": "A submarine travels 120 km in 4 hours. What is its speed?",
+      "answers": [
+        "25 km/h",
+        "35 km/h",
+        "30 km/h",
+        "480 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 103,
+      "question": "15 students complete homework in 2 hours. How long for 5 students?",
+      "answers": [
+        "8 hours",
+        "4 hours",
+        "6 hours",
+        "3 hours"
+      ],
+      "correct": 2,
+      "hint": "One-third the students means triple the time."
+    },
+    {
+      "id": 104,
+      "question": "A filling station pumps 50 liters per minute. How long for 350 liters?",
+      "answers": [
+        "8 minutes",
+        "6 minutes",
+        "9 minutes",
+        "7 minutes"
+      ],
+      "correct": 3,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 105,
+      "question": "A car travels at 65 km/h. How far in 4 hours?",
+      "answers": [
+        "280 km",
+        "240 km",
+        "260 km",
+        "300 km"
+      ],
+      "correct": 2,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 106,
+      "question": "6 assemblers build machines in 8 hours. How long for 24 assemblers?",
+      "answers": [
+        "32 hours",
+        "2 hours",
+        "4 hours",
+        "16 hours"
+      ],
+      "correct": 1,
+      "hint": "Four times as many assemblers means one-fourth the time."
+    },
+    {
+      "id": 107,
+      "question": "A turbine spins 3000 times per minute. How many spins in 2 minutes?",
+      "answers": [
+        "5000 spins",
+        "4000 spins",
+        "7000 spins",
+        "6000 spins"
+      ],
+      "correct": 3,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 108,
+      "question": "A ferry travels 28 km in 2 hours. What is its speed?",
+      "answers": [
+        "12 km/h",
+        "16 km/h",
+        "14 km/h",
+        "56 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 109,
+      "question": "8 chefs prepare a feast in 5 hours. How long for 20 chefs?",
+      "answers": [
+        "12.5 hours",
+        "2 hours",
+        "10 hours",
+        "4 hours"
+      ],
+      "correct": 1,
+      "hint": "More chefs means faster preparation."
+    },
+    {
+      "id": 110,
+      "question": "A tank fills at 12 liters per minute. How long for 180 liters?",
+      "answers": [
+        "18 minutes",
+        "12 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 111,
+      "question": "A skateboard travels 500 meters in 2 minutes. What is the speed in m/min?",
+      "answers": [
+        "200 m/min",
+        "300 m/min",
+        "250 m/min",
+        "1000 m/min"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 112,
+      "question": "10 gardeners plant trees in 4 hours. How long for 8 gardeners?",
+      "answers": [
+        "3.2 hours",
+        "6 hours",
+        "8 hours",
+        "5 hours"
+      ],
+      "correct": 3,
+      "hint": "Fewer gardeners means more time."
+    },
+    {
+      "id": 113,
+      "question": "A blender makes 2 smoothies per minute. How many in 15 minutes?",
+      "answers": [
+        "25 smoothies",
+        "32 smoothies",
+        "30 smoothies",
+        "28 smoothies"
+      ],
+      "correct": 2,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 114,
+      "question": "A turtle moves 100 meters in 50 minutes. What is its speed in m/min?",
+      "answers": [
+        "3 m/min",
+        "2 m/min",
+        "4 m/min",
+        "5000 m/min"
+      ],
+      "correct": 1,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 115,
+      "question": "12 painters finish a building in 6 hours. How long for 18 painters?",
+      "answers": [
+        "9 hours",
+        "3 hours",
+        "4 hours",
+        "2 hours"
+      ],
+      "correct": 2,
+      "hint": "More painters means less time needed."
+    },
+    {
+      "id": 116,
+      "question": "A leak drips 3 liters per hour. How much drips in 16 hours?",
+      "answers": [
+        "42 liters",
+        "54 liters",
+        "48 liters",
+        "36 liters"
+      ],
+      "correct": 2,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 117,
+      "question": "A kayak travels 18 km in 3 hours. What is its speed?",
+      "answers": [
+        "5 km/h",
+        "7 km/h",
+        "54 km/h",
+        "6 km/h"
+      ],
+      "correct": 3,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 118,
+      "question": "5 carpenters build cabinets in 15 hours. How long for 15 carpenters?",
+      "answers": [
+        "45 hours",
+        "3 hours",
+        "5 hours",
+        "10 hours"
+      ],
+      "correct": 2,
+      "hint": "Triple the carpenters means one-third the time."
+    },
+    {
+      "id": 119,
+      "question": "A generator produces 500 watts per hour. How much in 6 hours?",
+      "answers": [
+        "2500 watts",
+        "3500 watts",
+        "3000 watts",
+        "4000 watts"
+      ],
+      "correct": 2,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 120,
+      "question": "A drone flies 15 km in 30 minutes. What is its speed in km/h?",
+      "answers": [
+        "20 km/h",
+        "25 km/h",
+        "35 km/h",
+        "30 km/h"
+      ],
+      "correct": 3,
+      "hint": "30 minutes = 0.5 hours. Speed = distance ÷ time."
+    },
+    {
+      "id": 121,
+      "question": "16 workers install flooring in 8 hours. How long for 32 workers?",
+      "answers": [
+        "16 hours",
+        "2 hours",
+        "4 hours",
+        "6 hours"
+      ],
+      "correct": 2,
+      "hint": "Double the workers means half the time."
+    },
+    {
+      "id": 122,
+      "question": "A dishwasher cleans 12 dishes per minute. How many in 10 minutes?",
+      "answers": [
+        "100 dishes",
+        "110 dishes",
+        "130 dishes",
+        "120 dishes"
+      ],
+      "correct": 3,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 123,
+      "question": "A horse gallops 500 meters in 25 seconds. What is the speed in m/s?",
+      "answers": [
+        "15 m/s",
+        "25 m/s",
+        "20 m/s",
+        "12500 m/s"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 124,
+      "question": "6 technicians repair computers in 10 hours. How long for 2 technicians?",
+      "answers": [
+        "3.3 hours",
+        "20 hours",
+        "30 hours",
+        "15 hours"
+      ],
+      "correct": 2,
+      "hint": "One-third the technicians means triple the time."
+    },
+    {
+      "id": 125,
+      "question": "A well pumps 25 liters per minute. How long for 500 liters?",
+      "answers": [
+        "25 minutes",
+        "15 minutes",
+        "20 minutes",
+        "30 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = amount ÷ rate."
+    },
+    {
+      "id": 126,
+      "question": "A tram travels at 30 km/h. How far in 1 hour 20 minutes?",
+      "answers": [
+        "35 km",
+        "45 km",
+        "40 km",
+        "50 km"
+      ],
+      "correct": 2,
+      "hint": "1 hour 20 minutes = $1\\frac{1}{3}$ hours. Distance = speed × time."
+    },
+    {
+      "id": 127,
+      "question": "9 bricklayers build a wall in 12 hours. How long for 36 bricklayers?",
+      "answers": [
+        "48 hours",
+        "6 hours",
+        "4 hours",
+        "3 hours"
+      ],
+      "correct": 3,
+      "hint": "Four times as many bricklayers means one-fourth the time."
+    },
+    {
+      "id": 128,
+      "question": "A toaster makes 4 slices per minute. How many in 8 minutes?",
+      "answers": [
+        "24 slices",
+        "28 slices",
+        "36 slices",
+        "32 slices"
+      ],
+      "correct": 3,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 129,
+      "question": "A canoe travels 10 km in 2.5 hours. What is its speed?",
+      "answers": [
+        "3 km/h",
+        "5 km/h",
+        "4 km/h",
+        "25 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 130,
+      "question": "14 workers assemble furniture in 7 hours. How long for 7 workers?",
+      "answers": [
+        "3.5 hours",
+        "21 hours",
+        "14 hours",
+        "10 hours"
+      ],
+      "correct": 2,
+      "hint": "Half the workers means double the time."
+    },
+    {
+      "id": 131,
+      "question": "A lawn mower cuts 20 square meters per minute. How long for 300 square meters?",
+      "answers": [
+        "20 minutes",
+        "12 minutes",
+        "18 minutes",
+        "15 minutes"
+      ],
+      "correct": 3,
+      "hint": "Time = area ÷ rate."
+    },
+    {
+      "id": 132,
+      "question": "A balloon rises at 5 meters per second. How high in 24 seconds?",
+      "answers": [
+        "100 meters",
+        "130 meters",
+        "120 meters",
+        "110 meters"
+      ],
+      "correct": 2,
+      "hint": "Height = speed × time."
+    },
+    {
+      "id": 133,
+      "question": "8 movers load a truck in 2 hours. How long for 4 movers?",
+      "answers": [
+        "1 hour",
+        "8 hours",
+        "4 hours",
+        "6 hours"
+      ],
+      "correct": 2,
+      "hint": "Half the movers means double the time."
+    },
+    {
+      "id": 134,
+      "question": "A solar panel generates 50 watts per hour. How much in 14 hours?",
+      "answers": [
+        "600 watts",
+        "750 watts",
+        "700 watts",
+        "650 watts"
+      ],
+      "correct": 2,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 135,
+      "question": "A hiker walks 9 km in 1.5 hours. What is the speed?",
+      "answers": [
+        "5 km/h",
+        "7 km/h",
+        "6 km/h",
+        "13.5 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 136,
+      "question": "10 clerks process forms in 5 hours. How long for 25 clerks?",
+      "answers": [
+        "12.5 hours",
+        "10 hours",
+        "2 hours",
+        "3 hours"
+      ],
+      "correct": 2,
+      "hint": "More clerks means faster processing."
+    },
+    {
+      "id": 137,
+      "question": "A heater uses 1500 watts per hour. How much in 4 hours?",
+      "answers": [
+        "5000 watts",
+        "5500 watts",
+        "6000 watts",
+        "7000 watts"
+      ],
+      "correct": 2,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 138,
+      "question": "A sailboat travels 21 km in 3 hours. What is its speed?",
+      "answers": [
+        "6 km/h",
+        "8 km/h",
+        "63 km/h",
+        "7 km/h"
+      ],
+      "correct": 3,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 139,
+      "question": "18 workers dig a foundation in 6 hours. How long for 9 workers?",
+      "answers": [
+        "3 hours",
+        "12 hours",
+        "18 hours",
+        "9 hours"
+      ],
+      "correct": 1,
+      "hint": "Half the workers means double the time."
+    },
+    {
+      "id": 140,
+      "question": "An air conditioner cools at 10 degrees per hour. How long to cool 45 degrees?",
+      "answers": [
+        "5.5 hours",
+        "4 hours",
+        "5 hours",
+        "4.5 hours"
+      ],
+      "correct": 3,
+      "hint": "Time = total cooling ÷ rate."
+    },
+    {
+      "id": 141,
+      "question": "A robot moves 4 meters per second. How far in 45 seconds?",
+      "answers": [
+        "160 meters",
+        "190 meters",
+        "180 meters",
+        "170 meters"
+      ],
+      "correct": 2,
+      "hint": "Distance = speed × time."
+    },
+    {
+      "id": 142,
+      "question": "6 writers complete articles in 18 hours. How long for 9 writers?",
+      "answers": [
+        "27 hours",
+        "12 hours",
+        "9 hours",
+        "6 hours"
+      ],
+      "correct": 1,
+      "hint": "More writers means less time needed."
+    },
+    {
+      "id": 143,
+      "question": "A vacuum cleaner covers 3 square meters per minute. How long for 36 square meters?",
+      "answers": [
+        "15 minutes",
+        "10 minutes",
+        "12 minutes",
+        "14 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = area ÷ rate."
+    },
+    {
+      "id": 144,
+      "question": "A golf cart travels 12 km in 30 minutes. What is its speed in km/h?",
+      "answers": [
+        "20 km/h",
+        "28 km/h",
+        "24 km/h",
+        "6 km/h"
+      ],
+      "correct": 2,
+      "hint": "30 minutes = 0.5 hours. Speed = distance ÷ time."
+    },
+    {
+      "id": 145,
+      "question": "4 janitors clean a school in 3 hours. How long for 6 janitors?",
+      "answers": [
+        "4.5 hours",
+        "1 hour",
+        "2 hours",
+        "1.5 hours"
+      ],
+      "correct": 2,
+      "hint": "More janitors means faster cleaning."
+    },
+    {
+      "id": 146,
+      "question": "A cement mixer produces 200 kg per hour. How much in 2.5 hours?",
+      "answers": [
+        "400 kg",
+        "600 kg",
+        "450 kg",
+        "500 kg"
+      ],
+      "correct": 3,
+      "hint": "Total = rate × time."
+    },
+    {
+      "id": 147,
+      "question": "A speedboat travels 96 km in 2 hours. What is its speed?",
+      "answers": [
+        "52 km/h",
+        "44 km/h",
+        "48 km/h",
+        "192 km/h"
+      ],
+      "correct": 2,
+      "hint": "Speed = distance ÷ time."
+    },
+    {
+      "id": 148,
+      "question": "21 workers complete a project in 7 hours. How long for 3 workers?",
+      "answers": [
+        "1 hour",
+        "21 hours",
+        "35 hours",
+        "49 hours"
+      ],
+      "correct": 3,
+      "hint": "One-seventh the workers means seven times the time."
+    },
+    {
+      "id": 149,
+      "question": "A compressor fills tires at 5 PSI per minute. How long to add 35 PSI?",
+      "answers": [
+        "9 minutes",
+        "6 minutes",
+        "7 minutes",
+        "8 minutes"
+      ],
+      "correct": 2,
+      "hint": "Time = total pressure ÷ rate."
+    },
+    {
+      "id": 150,
+      "question": "A skateboard ramp is 50 meters long. A skater covers it in 10 seconds. What is the speed in m/s?",
+      "answers": [
+        "4 m/s",
+        "6 m/s",
+        "500 m/s",
+        "5 m/s"
+      ],
+      "correct": 3,
+      "hint": "Speed = distance ÷ time."
+    }
+  ]
+}

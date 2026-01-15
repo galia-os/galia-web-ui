@@ -22,7 +22,12 @@ const GRADE_THEMES: Record<number, string[]> = {
     "counting-large-numbers",
     "time-and-calendar",
   ],
-  4: [], // empty for now
+  4: [
+    "properties-of-operations",
+    "order-of-operations",
+    "word-problems",
+    "work-rate",
+  ],
   5: [
     "algebra",
     "order-of-operations",
